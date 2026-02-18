@@ -1,0 +1,19 @@
+﻿flowchart TD
+A[상세 페이지 /segments/id] --> B[수신자 버튼 클릭]
+B --> C[수신자 후보 모달 오픈]
+C --> D[GET /api.recatch.cc/sales-entity/deal/record-types]
+C --> E[POST /api.recatch.cc/sales-entity/lead-deal-combined/filter?page_count=50&version=20250923]
+
+E --> F[후보 리스트 표시]
+F --> G[필터 버튼 클릭]
+G --> H[조건 버튼 클릭]
+H --> I[조건 유형 선택 리드딜 연락처 회사]
+I --> J[확인 또는 취소]
+J --> K[필터 패널 유지 또는 닫기]
+
+K --> L[모든 필터 삭제]
+L --> M[필터 조건 초기화]
+M --> F
+
+D -. 상태 .-> D1[200 OK]
+E -. 상태 .-> E1[200 OK]

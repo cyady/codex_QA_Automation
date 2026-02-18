@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+
+# Python environments
+.venv/
+venv/
+
+# Runtime artifacts
+logs/
+**/logs/
+*.log
+shot-*.png
+**/shot-*.png
+Screenshot_by_Vibium/
+
+# Local credentials / secrets
+**/credentials/*.txt
+!**/credentials/recatch_login.example.txt
+.env
+.env.*
+*.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

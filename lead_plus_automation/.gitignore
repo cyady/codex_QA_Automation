@@ -1,0 +1,23 @@
+﻿__pycache__/
+*.py[cod]
+
+# Runtime outputs
+logs/
+*.log
+shot-*.png
+
+# Local credentials / secrets
+credentials/*.txt
+!credentials/recatch_login.example.txt
+.env
+.env.*
+*.env
+
+# Python virtual env
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

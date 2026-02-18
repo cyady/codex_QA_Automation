@@ -1,0 +1,7 @@
+case_id,lead_case_id,deal_id_ref,deal_title,pipeline,stage,owner,amount_krw,close_date,converted_from_lead,expected_after_conversion,notes
+QA_DEAL_001,QA_DYN_001,,qa_dyn_deal_match_001,베넷테스트1,진행 전,wonho,5000000,2026-03-31,TRUE,TRUE,"리드->딜 전환 후 조건 유지"
+QA_DEAL_002,QA_DYN_003,,qa_dyn_deal_unmatch_001,베넷테스트1,진행 전,wonho,100000,2026-03-31,TRUE,FALSE,"미충족 리드 전환 후 제외 유지"
+QA_DEAL_003,QA_DYN_004,,qa_dyn_deal_boundary_001,베넷테스트1,진행 전,wonho,1000000,2026-03-31,TRUE,TRUE,"경계값 전환 후 포함 유지"
+QA_DEAL_004,QA_DYN_006,,qa_dyn_deal_dup_001,베넷테스트1,진행 전,wonho,5000000,2026-03-31,TRUE,TRUE,"중복 이메일 리드 전환 후 중복 처리 확인"
+QA_DEAL_005,QA_DYN_008,,qa_dyn_deal_optout_001,베넷테스트1,진행 전,wonho,4500000,2026-03-31,TRUE,FALSE,"수신거부 리드 전환 후 제외 유지"
+QA_DEAL_006,QA_DYN_009,,qa_dyn_deal_missing_company_001,베넷테스트1,진행 전,wonho,1200000,2026-03-31,TRUE,TRUE,"회사명 null 상태 전환 후 포함 정책 확인"
