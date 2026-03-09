@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+!.env.test.example
+!.env.prod.example
+
+# Credentials
+credentials/*.txt
+!credentials/recatch_login.example.txt
+
+# Runtime outputs
+logs/*
+!logs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+*.log
+
+# Local CSV payloads
+data/*
+!data/.gitkeep
+!data/csv_split/
+data/csv_split/*
+!data/csv_split/.gitkeep
+!data/*.csv
+!data/*.json
+!data/csv_split/*.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

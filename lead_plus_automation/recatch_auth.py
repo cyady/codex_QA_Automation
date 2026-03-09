@@ -5,6 +5,7 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Callable
+from urllib.parse import urlparse
 
 
 K_EMAIL_LOGIN_BUTTON = "\uc774\uba54\uc77c\ub85c \ub85c\uadf8\uc778"
@@ -60,8 +61,19 @@ def wait_until(
     return False
 
 
-def is_recatch_logged_in(url: str) -> bool:
-    return ("test.recatch.cc" in url) and ("/login" not in url)
+def _host_from_url(url: str) -> str:
+    parsed = urlparse(url)
+    return parsed.netloc.lower()
+
+
+def is_recatch_logged_in(url: str, expected_host: str | None = None) -> bool:
+    parsed = urlparse(url)
+    current_host = parsed.netloc.lower()
+    if not current_host:
+        return False
+    if expected_host and current_host != expected_host.lower():
+        return False
+    return "/login" not in parsed.path
 
 
 def is_leads_page_ready(session: "vibium.browser_sync.VibeSync") -> bool:
@@ -333,10 +345,12 @@ def ensure_recatch_login(
     manual_login_fallback: bool,
     log: Callable[[str], None],
 ) -> None:
+    expected_host = _host_from_url(leads_url) or _host_from_url(login_url)
+
     log("navigate to login page")
     session.go(login_url)
 
-    if is_recatch_logged_in(current_url(session)):
+    if is_recatch_logged_in(current_url(session), expected_host):
         log("already logged in")
     else:
         wait_until(
@@ -380,7 +394,7 @@ def ensure_recatch_login(
                     raise RuntimeError(f"credential login failed: {login_result}")
             else:
                 logged_in = wait_until(
-                    lambda: is_recatch_logged_in(current_url(session)),
+                    lambda: is_recatch_logged_in(current_url(session), expected_host),
                     timeout_sec=18.0,
                     interval_sec=0.3,
                 )
@@ -400,12 +414,12 @@ def ensure_recatch_login(
                     )
                     raise RuntimeError(f"credential login timeout: {detail}")
 
-        if not is_recatch_logged_in(current_url(session)):
+        if not is_recatch_logged_in(current_url(session), expected_host):
             if manual_login_fallback and sys.stdin.isatty():
                 while True:
                     url = current_url(session)
                     log(f"current url: {url}")
-                    if is_recatch_logged_in(url):
+                    if is_recatch_logged_in(url, expected_host):
                         break
                     input("complete login in browser, then press Enter...")
             else:

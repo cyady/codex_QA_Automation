@@ -103,3 +103,8 @@ ensure_recatch_login(
 - `title_should_be_valid`: title validity expectation
 - `company_select_text`: preferred company option text in selector
 - `contact_select_text`: preferred contact option text in selector
+
+## Bulk import
+
+- Browser bulk-import runner: `bulk_csv_import_vibium.py`
+- Runbook: `docs/BULK_IMPORT_RUNBOOK.md`
