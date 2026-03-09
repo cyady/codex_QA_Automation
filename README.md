@@ -1,31 +1,32 @@
 # codex_QA_Automation
 
-This repository is now focused on the Re:catch bulk import workflow.
-Legacy learning scripts and diagram experiments were removed so the main branch stays aligned with the maintained automation path.
+이 저장소는 현재 Re:catch 대량 리드 업로드 자동화에 맞춰 정리되어 있습니다.
+학습용으로 만들었던 단일 입력 자동화, 다이어그램, 임시 산출물은 메인 브랜치에서 제거했고, 유지 대상은 `recatch_bulk_import` 중심으로 남겼습니다.
 
-## Main Module
+## 주요 모듈
 
 - `recatch_bulk_import/`
-  Packaged bulk-import runner for `/leads/import`, including login helpers, probe tooling, split CSV handling, and operator runbooks.
+  `/leads/import` 기준 대량 업로드 자동화 패키지입니다.
+  로그인 처리, CSV 분할, 매핑 설정, 실행 로그, 운영용 문서를 함께 관리합니다.
 
-## Supporting Workspace
+## 보조 작업 공간
 
 - `tests/`
-  Small scratch area for quick verification scripts.
+  간단한 검증용 스크립트를 두는 임시 공간입니다.
 
-## Quick Start
+## 시작 방법
 
-1. Prepare Python 3.10 or later.
-2. Move into `recatch_bulk_import/`.
-3. Install the package in editable mode.
-4. Copy the example env or credential files before running browser automation.
+1. Python 3.10 이상 환경을 준비합니다.
+2. `recatch_bulk_import/` 기준으로 작업합니다.
+3. editable 모드로 설치합니다.
+4. 실행 전에 예제 env 파일과 credential 파일을 복사해서 로컬 환경을 채웁니다.
 
 ```bash
 pip install -e recatch_bulk_import
 ```
 
-## Repository Conventions
+## 관리 기준
 
-- Credentials and local `.env` files are not committed.
-- Runtime logs and screenshots stay in local output folders.
-- Module-specific usage belongs in `recatch_bulk_import/README.md`.
+- 자격 증명, 로컬 `.env` 파일은 커밋하지 않습니다.
+- 로그, 스크린샷, 임시 출력물은 로컬 산출물로만 취급합니다.
+- 실제 사용 방법과 실행 절차는 `recatch_bulk_import/README.md` 와 `docs/RUNBOOK.md` 를 기준으로 봅니다.
