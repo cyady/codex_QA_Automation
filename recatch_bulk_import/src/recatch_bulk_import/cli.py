@@ -38,6 +38,9 @@ class FieldMapping:
     name: str
 
 
+MappingSpec = dict[str, dict[str, str]]
+
+
 DEFAULT_FIELD_MAPPINGS: tuple[FieldMapping, ...] = (
     FieldMapping(select_index=1, query="성명", option_text="성명", name="contact:name"),
     FieldMapping(select_index=2, query="이메일", option_text="이메일", name="contact:email"),
@@ -45,10 +48,10 @@ DEFAULT_FIELD_MAPPINGS: tuple[FieldMapping, ...] = (
 )
 
 KNOWN_HEADER_DEFAULTS: dict[str, tuple[str, str]] = {
-    "lead:deal_name": ("\uc81c\ubaa9", "\uc81c\ubaa9"),
-    "contact:name": ("\uc774\ub984", "\uc774\ub984"),
-    "contact:email": ("\uc774\uba54\uc77c", "\uc774\uba54\uc77c"),
-    "company:name": ("\ud68c\uc0ac\uba85", "\ud68c\uc0ac\uba85"),
+    "lead:deal_name": ("제목", "제목"),
+    "contact:name": ("이름", "이름"),
+    "contact:email": ("이메일", "이메일"),
+    "company:name": ("회사명", "회사명"),
 }
 
 PROMPT_SKIP_TOKEN = "-"
@@ -857,10 +860,6 @@ def click_at(session: "vibium.browser_sync.VibeSync", x: float, y: float) -> dic
     return result if isinstance(result, dict) else {"ok": False, "raw": result}
 
 
-def leaf_option_text(option_text: str) -> str:
-    return option_text.split(">")[-1].strip()
-
-
 def selected_option_state(
     session: "vibium.browser_sync.VibeSync",
     select_index: int,
@@ -1015,13 +1014,6 @@ def apply_mappings(
     return results
 
 
-def apply_default_mappings(
-    session: "vibium.browser_sync.VibeSync",
-    part_label: str,
-) -> list[dict[str, Any]]:
-    return apply_mappings(session, DEFAULT_FIELD_MAPPINGS, part_label)
-
-
 def wait_for_enabled_button(
     session: "vibium.browser_sync.VibeSync",
     label: str,
@@ -1143,13 +1135,13 @@ def parse_mapping_value(raw_value: str) -> tuple[str, str]:
     return query, option_text
 
 
-def load_mapping_spec(mapping_path: Path) -> dict[str, dict[str, str]]:
+def load_mapping_spec(mapping_path: Path) -> MappingSpec:
     payload = json.loads(mapping_path.read_text(encoding="utf-8"))
     if isinstance(payload, dict) and "columns" in payload:
         payload = payload["columns"]
 
     if isinstance(payload, list):
-        normalized: dict[str, dict[str, str]] = {}
+        normalized: MappingSpec = {}
         for item in payload:
             if not isinstance(item, dict):
                 raise ValueError(f"mapping file has invalid item: {item!r}")
@@ -1165,7 +1157,7 @@ def load_mapping_spec(mapping_path: Path) -> dict[str, dict[str, str]]:
     if not isinstance(payload, dict):
         raise ValueError("mapping file must be an object or a columns array")
 
-    normalized = {}
+    normalized: MappingSpec = {}
     for header, value in payload.items():
         if value in (None, "", False):
             continue
@@ -1183,7 +1175,7 @@ def load_mapping_spec(mapping_path: Path) -> dict[str, dict[str, str]]:
     return normalized
 
 
-def save_mapping_spec(mapping_path: Path, mapping_spec: dict[str, dict[str, str]]) -> None:
+def save_mapping_spec(mapping_path: Path, mapping_spec: MappingSpec) -> None:
     mapping_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "columns": [
@@ -1198,7 +1190,7 @@ def save_mapping_spec(mapping_path: Path, mapping_spec: dict[str, dict[str, str]
     mapping_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def prompt_mapping_spec(headers: Sequence[str]) -> dict[str, dict[str, str]]:
+def prompt_mapping_spec(headers: Sequence[str]) -> MappingSpec:
     total = len(headers)
     print()
     print("CSV -> Re:catch field mapping")
@@ -1208,7 +1200,7 @@ def prompt_mapping_spec(headers: Sequence[str]) -> dict[str, dict[str, str]]:
     print("  query|option : search with `query`, click exact `option`")
     print()
 
-    mapping_spec: dict[str, dict[str, str]] = {}
+    mapping_spec: MappingSpec = {}
     for index, header in enumerate(headers, start=1):
         default_value = KNOWN_HEADER_DEFAULTS.get(header)
         default_option = default_value[1] if default_value else None
@@ -1246,7 +1238,7 @@ def prompt_mapping_spec(headers: Sequence[str]) -> dict[str, dict[str, str]]:
 
 def build_mappings_from_spec(
     headers: Sequence[str],
-    mapping_spec: dict[str, dict[str, str]],
+    mapping_spec: MappingSpec,
 ) -> list[FieldMapping]:
     mappings: list[FieldMapping] = []
     for select_index, header in enumerate(headers):
@@ -1460,8 +1452,8 @@ def discover_existing_parts(csv_dir: Path, file_prefix: str) -> list[tuple[int, 
     return sorted(parts, key=lambda item: item[0])
 
 
-def build_default_mapping_spec(headers: Sequence[str]) -> dict[str, dict[str, str]]:
-    mapping_spec: dict[str, dict[str, str]] = {}
+def build_default_mapping_spec(headers: Sequence[str]) -> MappingSpec:
+    mapping_spec: MappingSpec = {}
     for header in headers:
         default_value = KNOWN_HEADER_DEFAULTS.get(header)
         if not default_value:
@@ -1478,7 +1470,7 @@ def resolve_runtime_mappings(
     source_csv_path: Path | None,
     mapping_path: Path | None,
     prompt_mapping: bool,
-) -> tuple[list[FieldMapping], dict[str, dict[str, str]]]:
+) -> list[FieldMapping]:
     if source_csv_path is None and mapping_path is None and not prompt_mapping:
         mapping_spec = {
             mapping.name: {
@@ -1488,9 +1480,9 @@ def resolve_runtime_mappings(
             for mapping in DEFAULT_FIELD_MAPPINGS
         }
         log("mapping prompt skipped; using built-in hardcoded defaults")
-        return list(DEFAULT_FIELD_MAPPINGS), mapping_spec
+        return list(DEFAULT_FIELD_MAPPINGS)
 
-    mapping_spec: dict[str, dict[str, str]]
+    mapping_spec: MappingSpec
     should_prompt = prompt_mapping or (
         source_csv_path is not None
         and sys.stdin.isatty()
@@ -1509,8 +1501,7 @@ def resolve_runtime_mappings(
         mapping_spec = build_default_mapping_spec(headers)
         log("mapping prompt skipped; using built-in defaults where available")
 
-    mappings = build_mappings_from_spec(headers, mapping_spec)
-    return mappings, mapping_spec
+    return build_mappings_from_spec(headers, mapping_spec)
 
 
 def prepare_part_jobs_and_mappings(
@@ -1557,7 +1548,7 @@ def prepare_part_jobs_and_mappings(
         part_jobs = [(part_number, part_lookup[part_number]) for part_number in range(start_part, end_part + 1)]
         headers = read_csv_headers(part_jobs[0][1])
 
-    mappings, mapping_spec = resolve_runtime_mappings(
+    mappings = resolve_runtime_mappings(
         headers=headers,
         source_csv_path=source_csv_path,
         mapping_path=mapping_path,
@@ -1572,7 +1563,6 @@ def prepare_part_jobs_and_mappings(
         "state_path": state_path,
         "headers": headers,
         "mappings": mappings,
-        "mapping_spec": mapping_spec,
         "part_jobs": part_jobs,
         "actual_start": part_jobs[0][0],
         "actual_end": part_jobs[-1][0],
