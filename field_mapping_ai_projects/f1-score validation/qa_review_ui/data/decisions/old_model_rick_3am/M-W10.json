@@ -1,0 +1,401 @@
+{
+  "memo_id": "M-W10",
+  "updated_at": "2026-02-24T08:32:53.776133+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "어제한 미팅이 첫 세일즈 미팅이라고 할 수 없음"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "4986",
+      "field_label": "직책",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5173",
+      "field_label": "솔루션 니즈",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5362",
+      "field_label": "미팅 참여자",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5370",
+      "field_label": "고객상황",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "SKIP",
+      "note": "모르겠음 먼가 잘 요약된 것 같기도 하고"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "8001",
+      "field_label": "성장 전략",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+      "normalized": {
+        "text": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+      "start_char": 0,
+      "end_char": 31,
+      "line_no": 1,
+      "line_text": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+      "normalized": {
+        "text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+      "start_char": 55,
+      "end_char": 171,
+      "line_no": 4,
+      "line_text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5362",
+          "label": "미팅 참여자",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "리캐치",
+      "start_char": 55,
+      "end_char": 58,
+      "line_no": 4,
+      "line_text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6864",
+          "label": "✔️ new 리캐치 폼 링크 ",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+      "normalized": {
+        "text": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+      "start_char": 414,
+      "end_char": 553,
+      "line_no": 9,
+      "line_text": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4987",
+          "label": "직원 수",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+      "normalized": {
+        "text": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+      "start_char": 667,
+      "end_char": 814,
+      "line_no": 13,
+      "line_text": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4987",
+          "label": "직원 수",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "메타",
+      "start_char": 2012,
+      "end_char": 2014,
+      "line_no": 22,
+      "line_text": "다시 한 번, '메타' 에 상담하면 '그런 세그먼트 타기팅은 안된다' 며 문전박대 당하며 디지털마케팅을 포기하는 고객들이 많다는 점에 착안해볼 수 있다는 것은 카카오페이 오디언스가 가지는 후발 광고매체로의 상당한 강점이리라 생각합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+      "normalized": {
+        "text": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+      "start_char": 2136,
+      "end_char": 2194,
+      "line_no": 24,
+      "line_text": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+      "normalized": {
+        "text": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+      "start_char": 2309,
+      "end_char": 2380,
+      "line_no": 26,
+      "line_text": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+      "normalized": {
+        "text": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+      "start_char": 2381,
+      "end_char": 2413,
+      "line_no": 27,
+      "line_text": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+      "normalized": {
+        "text": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+      "start_char": 2414,
+      "end_char": 2569,
+      "line_no": 28,
+      "line_text": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+      "normalized": {
+        "text": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "안녕하세요, 팀장님, 파트장님 매니저님"
+      ],
+      "evidence_quote": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+      "start_char": 2678,
+      "end_char": 2827,
+      "line_no": 30,
+      "line_text": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5574",
+          "label": "✔️ 이탈 가능성",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "FN",
+      "assigned_field_id": "5371",
+      "assigned_field_label": "제품 외 매출 여부",
+      "note": "제품 외에 매출을 가져올 만한 기회 정보가 있음(리드젠 전문 에이전시)"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W298",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[논티어, 잠재매출 규모 1100만원] 키이스케이프 2차 검토 현황 공유 cc @sales결론",
+      "normalized": {
+        "text": "[논티어, 잠재매출 규모 1100만원] 키이스케이프 2차 검토 현황 공유 cc @sales결론",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[논티어, 잠재매출 규모 1100만원] 키이스케이프 2차 검토 현황 공유 cc @sales결론",
+          "start_char": 0,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "action_item:f924c3b5b0b80191",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales결론",
+      "normalized": {
+        "name": "sales결론"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales결론",
+          "start_char": 44,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:085825d8febc453c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1100만원",
+      "normalized": {
+        "value": 11000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1100만원",
+          "start_char": 14,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "budget:6341f352aadbca76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"아래 문의에 대한 내용만 확인받고 계약서 체결 진행하시죠\"",
+      "normalized": {
+        "text": "\"아래 문의에 대한 내용만 확인받고 계약서 체결 진행하시죠\"",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "\"아래 문의에 대한 내용만 확인받고 계약서 체결 진행하시죠\"",
+          "start_char": 58,
+          "end_char": 91
+        }
+      ],
+      "dedupe_key": "action_item:62868be226719d08",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "블로그패키지 관련 소개자료 및 견적서 추가요청",
+      "normalized": {
+        "text": "블로그패키지 관련 소개자료 및 견적서 추가요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "블로그패키지 관련 소개자료 및 견적서 추가요청",
+          "start_char": 139,
+          "end_char": 164
+        }
+      ],
+      "dedupe_key": "action_item:1d2c60078a6c9d9d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 139,
+          "end_char": 142
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 205,
+          "end_char": 208
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 750,
+          "end_char": 753
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "본 프로젝트 내에서 CMS 구축 및 연동이 들어가는지?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 965,
+          "end_char": 968
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "콘텐츠 제작 지원"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1233,
+          "end_char": 1236
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "콘텐츠 제작 지원"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1292,
+          "end_char": 1295
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본격적으로 B2B 사업을 성장시키기 위해 지속적인 뉴스레터 및 블로그 운영이 필요해 보인다.",
+      "normalized": {
+        "text": "본격적으로 B2B 사업을 성장시키기 위해 지속적인 뉴스레터 및 블로그 운영이 필요해 보인다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "본격적으로 B2B 사업을 성장시키기 위해 지속적인 뉴스레터 및 블로그 운영이 필요해 보인다.",
+          "start_char": 170,
+          "end_char": 221
+        }
+      ],
+      "dedupe_key": "action_item:b9ce6583393d7088",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "뉴스레터",
+          "start_char": 198,
+          "end_char": 202
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "DB 처리 및 뉴스레터 기능"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1096,
+          "end_char": 1100
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "콘텐츠 제작 지원"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1238,
+          "end_char": 1242
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 225,
+          "end_char": 228
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "급하지 않지만 검토해 보겠다.",
+      "normalized": {
+        "text": "급하지 않지만 검토해 보겠다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "급하지 않지만 검토해 보겠다.",
+          "start_char": 262,
+          "end_char": 278
+        }
+      ],
+      "dedupe_key": "action_item:52a2955a0328833e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "@김가은(Bona) 님 전화미팅 내용 공유 드립니다.1/ B2B와 B2C 페이지를 분리하는 작업에서 B2B 타겟의 중복 문구 정리 및 우선순위 설정에 대한 지원 범위 문의",
+      "normalized": {
+        "text": "@김가은(Bona) 님 전화미팅 내용 공유 드립니다.1/ B2B와 B2C 페이지를 분리하는 작업에서 B2B 타겟의 중복 문구 정리 및 우선순위 설정에 대한 지원 범위 문의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "@김가은(Bona) 님 전화미팅 내용 공유 드립니다.1/ B2B와 B2C 페이지를 분리하는 작업에서 B2B 타겟의 중복 문구 정리 및 우선순위 설정에 대한 지원 범위 문의",
+          "start_char": 280,
+          "end_char": 375
+        }
+      ],
+      "dedupe_key": "collaboration_need:e16f029357e92f5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 280,
+          "end_char": 284
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "본 프로젝트 내에서 CMS 구축 및 연동이 들어가는지?"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 862,
+          "end_char": 866
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 436,
+          "end_char": 439
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 517,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "병권 답변) 우리가 직접 마도를 잡고 안내하는 것은 대표님 입장에서 리스크하실 것이다. 직접 PM 역할은 못해 드립니다. 다만, 개발자측에 어떤 소통을 드리면 좋을 지 가이드 드릴 수 있습니다.",
+      "normalized": {
+        "text": "병권 답변) 우리가 직접 마도를 잡고 안내하는 것은 대표님 입장에서 리스크하실 것이다. 직접 PM 역할은 못해 드립니다. 다만, 개발자측에 어떤 소통을 드리면 좋을 지 가이드 드릴 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "병권 답변) 우리가 직접 마도를 잡고 안내하는 것은 대표님 입장에서 리스크하실 것이다. 직접 PM 역할은 못해 드립니다. 다만, 개발자측에 어떤 소통을 드리면 좋을 지 가이드 드릴 수 있습니다.",
+          "start_char": 591,
+          "end_char": 699
+        }
+      ],
+      "dedupe_key": "risk_or_concern:37667fde2d70bf9c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프레이머 CMS 라면 지원해 드릴 수 있습니다. 다른 CMS 인 경우, 내부 검토가 필요하다. cc @김가은(Bona)",
+      "normalized": {
+        "text": "프레이머 CMS 라면 지원해 드릴 수 있습니다. 다른 CMS 인 경우, 내부 검토가 필요하다. cc @김가은(Bona)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "본 프로젝트 내에서 CMS 구축 및 연동이 들어가는지?"
+          ],
+          "exact_quote": "프레이머 CMS 라면 지원해 드릴 수 있습니다. 다른 CMS 인 경우, 내부 검토가 필요하다. cc @김가은(Bona)",
+          "start_char": 806,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "action_item:1dc1f69ec62af234",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "메인 페이지에서 소개서(PDF/PPT) 다운로드 시 정보를 남기면 자동으로 메일을 발송하거나, 뉴스레터 구독 시 DB가 저장되는 로직이 B2B 페이지에서 구현 가능한지 문의",
+      "normalized": {
+        "text": "메인 페이지에서 소개서(PDF/PPT) 다운로드 시 정보를 남기면 자동으로 메일을 발송하거나, 뉴스레터 구독 시 DB가 저장되는 로직이 B2B 페이지에서 구현 가능한지 문의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "DB 처리 및 뉴스레터 기능"
+          ],
+          "exact_quote": "메인 페이지에서 소개서(PDF/PPT) 다운로드 시 정보를 남기면 자동으로 메일을 발송하거나, 뉴스레터 구독 시 DB가 저장되는 로직이 B2B 페이지에서 구현 가능한지 문의",
+          "start_char": 1043,
+          "end_char": 1139
+        }
+      ],
+      "dedupe_key": "action_item:c1363eb1ae664ff9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "병권 답변) CRM 기능으로 현재 스콥에서 포함되어 있지 않아 지원이 어렵습니다.",
+      "normalized": {
+        "text": "병권 답변) CRM 기능으로 현재 스콥에서 포함되어 있지 않아 지원이 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "DB 처리 및 뉴스레터 기능"
+          ],
+          "exact_quote": "병권 답변) CRM 기능으로 현재 스콥에서 포함되어 있지 않아 지원이 어렵습니다.",
+          "start_char": 1143,
+          "end_char": 1188
+        }
+      ],
+      "dedupe_key": "risk_or_concern:62cf20fad1e225b4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "병권 답변) 블로그 패키지에 해당하는 스콥으로 현재 단계에서 지원이 어렵습니다.",
+      "normalized": {
+        "text": "병권 답변) 블로그 패키지에 해당하는 스콥으로 현재 단계에서 지원이 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "콘텐츠 제작 지원"
+          ],
+          "exact_quote": "병권 답변) 블로그 패키지에 해당하는 스콥으로 현재 단계에서 지원이 어렵습니다.",
+          "start_char": 1285,
+          "end_char": 1329
+        }
+      ],
+      "dedupe_key": "risk_or_concern:23e43700c3a7ce6d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

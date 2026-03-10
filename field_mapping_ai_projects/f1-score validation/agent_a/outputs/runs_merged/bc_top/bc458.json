@@ -1,0 +1,702 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W458",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   수집된 리드별 맞춤형 영업 전략 수립 필요성 논의",
+      "normalized": {
+        "text": "*   수집된 리드별 맞춤형 영업 전략 수립 필요성 논의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   수집된 리드별 맞춤형 영업 전략 수립 필요성 논의",
+          "start_char": 178,
+          "end_char": 209
+        }
+      ],
+      "dedupe_key": "action_item:863f396a63b6ff09",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   3월 ABM(Account-Based Marketing) 리드 확보 계획 공유",
+      "normalized": {
+        "text": "*   3월 ABM(Account-Based Marketing) 리드 확보 계획 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   3월 ABM(Account-Based Marketing) 리드 확보 계획 공유",
+          "start_char": 214,
+          "end_char": 261
+        }
+      ],
+      "dedupe_key": "collaboration_need:d58a9b8ddf344914",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 221,
+          "end_char": 224
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 624,
+          "end_char": 627
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 658,
+          "end_char": 661
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   고객사(LG CNS) 내부 사정(마곡 이사)에 따른 보고 일정 재확정",
+      "normalized": {
+        "text": "*   고객사(LG CNS) 내부 사정(마곡 이사)에 따른 보고 일정 재확정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   고객사(LG CNS) 내부 사정(마곡 이사)에 따른 보고 일정 재확정",
+          "start_char": 311,
+          "end_char": 353
+        }
+      ],
+      "dedupe_key": "action_item:409992e1fc97b2a3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   표 님은 \"리드별로 어떤 추천이고 어떤 관계인지 저희가 들어야 연락을 저희가 할 수 있을 것 같다\"며, \"대표님 추천으로 연락을 드린다고 세일즈 톡을 잡을지\" 등 구체적인 가이드가 필요함을 강조함.",
+      "normalized": {
+        "text": "*   표 님은 \"리드별로 어떤 추천이고 어떤 관계인지 저희가 들어야 연락을 저희가 할 수 있을 것 같다\"며, \"대표님 추천으로 연락을 드린다고 세일즈 톡을 잡을지\" 등 구체적인 가이드가 필요함을 강조함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   표 님은 \"리드별로 어떤 추천이고 어떤 관계인지 저희가 들어야 연락을 저희가 할 수 있을 것 같다\"며, \"대표님 추천으로 연락을 드린다고 세일즈 톡을 잡을지\" 등 구체적인 가이드가 필요함을 강조함.",
+          "start_char": 445,
+          "end_char": 559
+        }
+      ],
+      "dedupe_key": "action_item:61d9c2371566d982",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   100개의 리드가 랜딩 페이지 수집본이 아니기에 규모, 권한 등 포인트별 제언을 요청함.",
+      "normalized": {
+        "text": "*   100개의 리드가 랜딩 페이지 수집본이 아니기에 규모, 권한 등 포인트별 제언을 요청함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   100개의 리드가 랜딩 페이지 수집본이 아니기에 규모, 권한 등 포인트별 제언을 요청함.",
+          "start_char": 564,
+          "end_char": 617
+        }
+      ],
+      "dedupe_key": "action_item:9cda50c035cf1faa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "100개",
+          "start_char": 568,
+          "end_char": 572
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "100개",
+          "start_char": 680,
+          "end_char": 684
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "100개",
+          "start_char": 1809,
+          "end_char": 1813
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200개",
+      "normalized": {
+        "value": 200,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "200개",
+          "start_char": 707,
+          "end_char": 711
+        }
+      ],
+      "dedupe_key": "case_metric:4b5bc16117ca9cfe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "20일",
+      "normalized": {
+        "value": 20.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "20일",
+          "start_char": 942,
+          "end_char": 945
+        }
+      ],
+      "dedupe_key": "duration:fe99217527957764",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "24일",
+      "normalized": {
+        "value": 24.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "24일",
+          "start_char": 967,
+          "end_char": 970
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "24일",
+          "start_char": 2068,
+          "end_char": 2071
+        }
+      ],
+      "dedupe_key": "duration:56acc9733861d1c0",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**영업 효율성 고민**: 리드의 성격을 모른 채 접근하는 것에 대한 부담이 있으며, 대표님의 '추천'이라는 권위를 어떻게 활용할지가 핵심임.",
+      "normalized": {
+        "text": "**영업 효율성 고민**: 리드의 성격을 모른 채 접근하는 것에 대한 부담이 있으며, 대표님의 '추천'이라는 권위를 어떻게 활용할지가 핵심임."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**영업 효율성 고민**: 리드의 성격을 모른 채 접근하는 것에 대한 부담이 있으며, 대표님의 '추천'이라는 권위를 어떻게 활용할지가 핵심임.",
+          "start_char": 1105,
+          "end_char": 1184
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8b3bf1c609d97ce6",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**성과 창출 압박**: 표 님은 \"이참에 최대한 성공 사례로 만들어야 알파키랑도 그렇고 저희가 계속 많은 것들을 할 수 있을 것 같다\"며 실질적인 영업 성과에 대한 의지를 보임.",
+      "normalized": {
+        "text": "**성과 창출 압박**: 표 님은 \"이참에 최대한 성공 사례로 만들어야 알파키랑도 그렇고 저희가 계속 많은 것들을 할 수 있을 것 같다\"며 실질적인 영업 성과에 대한 의지를 보임."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**성과 창출 압박**: 표 님은 \"이참에 최대한 성공 사례로 만들어야 알파키랑도 그렇고 저희가 계속 많은 것들을 할 수 있을 것 같다\"며 실질적인 영업 성과에 대한 의지를 보임.",
+          "start_char": 1189,
+          "end_char": 1289
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ffda2e20763cc439",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**제품 시너지 탐색**: 비즈콜(BizCall), FMS(차량 관리) 등 트라이브 내 다양한 프로덕트 중 \"어떤 채널로 잭팟이 터질까\"를 지속적으로 고민 중임.",
+      "normalized": {
+        "text": "**제품 시너지 탐색**: 비즈콜(BizCall), FMS(차량 관리) 등 트라이브 내 다양한 프로덕트 중 \"어떤 채널로 잭팟이 터질까\"를 지속적으로 고민 중임."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**제품 시너지 탐색**: 비즈콜(BizCall), FMS(차량 관리) 등 트라이브 내 다양한 프로덕트 중 \"어떤 채널로 잭팟이 터질까\"를 지속적으로 고민 중임.",
+          "start_char": 1294,
+          "end_char": 1384
+        }
+      ],
+      "dedupe_key": "risk_or_concern:840fbc53931cd38c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **알파키(Alpaca) 영업 지원**: 현재 진행 중인 알파키 영업 상황을 상무님께 공유하고 성공 사례화하는 것이 우선 과제임.",
+      "normalized": {
+        "text": "*   **알파키(Alpaca) 영업 지원**: 현재 진행 중인 알파키 영업 상황을 상무님께 공유하고 성공 사례화하는 것이 우선 과제임.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "*   **알파키(Alpaca) 영업 지원**: 현재 진행 중인 알파키 영업 상황을 상무님께 공유하고 성공 사례화하는 것이 우선 과제임.",
+          "start_char": 1405,
+          "end_char": 1481
+        }
+      ],
+      "dedupe_key": "action_item:494e6cd637fbd665",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*   대표님은 \"지난해 기업 모바일 전략 영업팀에서 비즈콜 연동 건으로 CRM 연동을 하고 싶어 했는데 예산과 KPI 문제로 무산된 적이 있어 아쉬웠다\"며 이번에 다시 어젠다로 띄워볼 것을 제안함.",
+      "normalized": {
+        "text": "*   대표님은 \"지난해 기업 모바일 전략 영업팀에서 비즈콜 연동 건으로 CRM 연동을 하고 싶어 했는데 예산과 KPI 문제로 무산된 적이 있어 아쉬웠다\"며 이번에 다시 어젠다로 띄워볼 것을 제안함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "*   대표님은 \"지난해 기업 모바일 전략 영업팀에서 비즈콜 연동 건으로 CRM 연동을 하고 싶어 했는데 예산과 KPI 문제로 무산된 적이 있어 아쉬웠다\"며 이번에 다시 어젠다로 띄워볼 것을 제안함.",
+          "start_char": 1561,
+          "end_char": 1672
+        }
+      ],
+      "dedupe_key": "risk_or_concern:724600b2ebb25a94",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**리드 분석 콜**: 대표님, 표 님, 치원 님이 온라인 콜을 통해 리드 100개에 대한 구체적인 활용 방안을 논의하기로 함. (담당: 대표님, 일정: 조속히)",
+      "normalized": {
+        "text": "**리드 분석 콜**: 대표님, 표 님, 치원 님이 온라인 콜을 통해 리드 100개에 대한 구체적인 활용 방안을 논의하기로 함. (담당: 대표님, 일정: 조속히)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**리드 분석 콜**: 대표님, 표 님, 치원 님이 온라인 콜을 통해 리드 100개에 대한 구체적인 활용 방안을 논의하기로 함. (담당: 대표님, 일정: 조속히)",
+          "start_char": 1767,
+          "end_char": 1857
+        }
+      ],
+      "dedupe_key": "action_item:83ef4828577196f5",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**미팅 주선**: 대표님이 네트워크 대상자들과의 단톡방을 개설하여 미팅 일정을 조율함. (담당: 대표님)",
+      "normalized": {
+        "text": "**미팅 주선**: 대표님이 네트워크 대상자들과의 단톡방을 개설하여 미팅 일정을 조율함. (담당: 대표님)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**미팅 주선**: 대표님이 네트워크 대상자들과의 단톡방을 개설하여 미팅 일정을 조율함. (담당: 대표님)",
+          "start_char": 1862,
+          "end_char": 1921
+        }
+      ],
+      "dedupe_key": "action_item:76b38da2081b4700",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**금요일 미팅 준비**:",
+      "normalized": {
+        "text": "**금요일 미팅 준비**:"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**금요일 미팅 준비**:",
+          "start_char": 1926,
+          "end_char": 1940
+        }
+      ],
+      "dedupe_key": "action_item:9f8d05ce13eb061c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일시: 이번 주 금요일 오후 5시",
+      "normalized": {
+        "text": "일시: 이번 주 금요일 오후 5시"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "일시: 이번 주 금요일 오후 5시",
+          "start_char": 1950,
+          "end_char": 1968
+        }
+      ],
+      "dedupe_key": "action_item:2749a20df6e48e0d",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 5시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 5,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "오후 5시",
+          "start_char": 1963,
+          "end_char": 1968
+        }
+      ],
+      "dedupe_key": "timeline:15793197adfbcb75",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참석자: 대표님 포함 2명 (명단 카톡 공유 완료)",
+      "normalized": {
+        "text": "참석자: 대표님 포함 2명 (명단 카톡 공유 완료)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "참석자: 대표님 포함 2명 (명단 카톡 공유 완료)",
+          "start_char": 1977,
+          "end_char": 2005
+        }
+      ],
+      "dedupe_key": "action_item:893752fefc1221ed",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   참석자: 대표님 포함 2명 (명단 카톡 공유 완료)",
+      "normalized": {
+        "text": "*   참석자: 대표님 포함 2명 (명단 카톡 공유 완료)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   참석자: 대표님 포함 2명 (명단 카톡 공유 완료)",
+          "start_char": 1973,
+          "end_char": 2005
+        }
+      ],
+      "dedupe_key": "collaboration_need:6e1e12d5589a8263",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "2명",
+          "start_char": 1989,
+          "end_char": 1991
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "조치: 표 님이 방문객 등록 진행 예정",
+      "normalized": {
+        "text": "조치: 표 님이 방문객 등록 진행 예정"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "조치: 표 님이 방문객 등록 진행 예정",
+          "start_char": 2014,
+          "end_char": 2035
+        }
+      ],
+      "dedupe_key": "action_item:b2c81eda98610a14",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   조치: 표 님이 방문객 등록 진행 예정",
+      "normalized": {
+        "text": "*   조치: 표 님이 방문객 등록 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   조치: 표 님이 방문객 등록 진행 예정",
+          "start_char": 2010,
+          "end_char": 2035
+        }
+      ],
+      "dedupe_key": "action_item:ff05414d5fb662d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)",
+      "normalized": {
+        "text": "**중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)",
+          "start_char": 2040,
+          "end_char": 2094
+        }
+      ],
+      "dedupe_key": "action_item:b18c386a3653acb5",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)",
+      "normalized": {
+        "text": "*   **중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **중간 보고**: 마곡 이사 완료 후 2월 23~24일경 부사장님 보고 진행. (담당: 표 님)",
+          "start_char": 2036,
+          "end_char": 2094
+        }
+      ],
+      "dedupe_key": "action_item:fbf8bf99368615f7",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

@@ -1,0 +1,957 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W71",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-당장 예산을 쓰시기에는 CEO레벨에서 많이 보수적으로 검토하시는 것으로 보임. 9월 키어카운트로 보기엔 어려움.",
+      "normalized": {
+        "text": "-당장 예산을 쓰시기에는 CEO레벨에서 많이 보수적으로 검토하시는 것으로 보임. 9월 키어카운트로 보기엔 어려움.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 핵심 결과"
+          ],
+          "exact_quote": "-당장 예산을 쓰시기에는 CEO레벨에서 많이 보수적으로 검토하시는 것으로 보임. 9월 키어카운트로 보기엔 어려움.",
+          "start_char": 87,
+          "end_char": 150
+        }
+      ],
+      "dedupe_key": "action_item:040d65d6de08d719",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 핵심 결과"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 217,
+          "end_char": 221
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "미팅 핵심 결과"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 261,
+          "end_char": 265
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "VD 로보틱스 미팅에서 나눈 이야기들을 다음과 같이 정리하여 팀원들과 공유합니다.",
+      "normalized": {
+        "text": "VD 로보틱스 미팅에서 나눈 이야기들을 다음과 같이 정리하여 팀원들과 공유합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "VD 로보틱스 미팅에서 나눈 이야기들을 다음과 같이 정리하여 팀원들과 공유합니다.",
+          "start_char": 403,
+          "end_char": 448
+        }
+      ],
+      "dedupe_key": "collaboration_need:cd4aef0733a40b7a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 556,
+          "end_char": 560
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 3814,
+          "end_char": 3818
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 3830,
+          "end_char": 3834
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 3874,
+          "end_char": 3878
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 3903,
+          "end_char": 3907
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 4113,
+          "end_char": 4117
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 474,
+          "end_char": 477
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1132,
+          "end_char": 1135
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1165,
+          "end_char": 1168
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1205,
+          "end_char": 1208
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1583,
+          "end_char": 1586
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3371,
+          "end_char": 3374
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3675,
+          "end_char": 3678
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4106,
+          "end_char": 4109
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4193,
+          "end_char": 4196
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4202,
+          "end_char": 4205
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4615,
+          "end_char": 4618
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4632,
+          "end_char": 4635
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "에이전시 사업: CRM 자체보다 B2B 고객이 원하는 것이 '리드와 미팅, 계약'이라는 본질적인 문제 해결을 위해, A부터 Z까지 대행하는 에이전시 조직을 별도로 운영하고 있습니다. 삼성 SDS, 폴라리스 3D 등과 블로그 구축 및 트래픽/리드 생성 작업을 진행했습니다.",
+      "normalized": {
+        "text": "에이전시 사업: CRM 자체보다 B2B 고객이 원하는 것이 '리드와 미팅, 계약'이라는 본질적인 문제 해결을 위해, A부터 Z까지 대행하는 에이전시 조직을 별도로 운영하고 있습니다. 삼성 SDS, 폴라리스 3D 등과 블로그 구축 및 트래픽/리드 생성 작업을 진행했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "에이전시 사업: CRM 자체보다 B2B 고객이 원하는 것이 '리드와 미팅, 계약'이라는 본질적인 문제 해결을 위해, A부터 Z까지 대행하는 에이전시 조직을 별도로 운영하고 있습니다. 삼성 SDS, 폴라리스 3D 등과 블로그 구축 및 트래픽/리드 생성 작업을 진행했습니다.",
+          "start_char": 857,
+          "end_char": 1008
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f5fd6ef3305f1a56",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "150억 원",
+      "normalized": {
+        "value": 15000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "150억 원",
+          "start_char": 1018,
+          "end_char": 1024
+        }
+      ],
+      "dedupe_key": "budget:8a47047e133eec50",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 40명",
+      "normalized": {
+        "value": 40,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "약 40명",
+          "start_char": 750,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "team_size:83a6a25f7929e6ba",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "16명",
+      "normalized": {
+        "value": 16,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "16명",
+          "start_char": 766,
+          "end_char": 769
+        }
+      ],
+      "dedupe_key": "target_population:ebd7a3ad85c71613",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "5명",
+          "start_char": 775,
+          "end_char": 777
+        }
+      ],
+      "dedupe_key": "target_population:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 978,
+          "end_char": 981
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1195,
+          "end_char": 1198
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1301,
+          "end_char": 1304
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1465,
+          "end_char": 1468
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1605,
+          "end_char": 1608
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1847,
+          "end_char": 1850
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2845,
+          "end_char": 2848
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3404,
+          "end_char": 3407
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3865,
+          "end_char": 3868
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 4362,
+          "end_char": 4365
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 4404,
+          "end_char": 4407
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 4459,
+          "end_char": 4462
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 4514,
+          "end_char": 4517
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 4700,
+          "end_char": 4703
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 blog.vdrobotics.co.kr 형태의 서브 도메인 방식은 메인 웹사이트의 도메인 점수 상승에 기여하기 어렵습니다.",
+      "normalized": {
+        "text": "현재 blog.vdrobotics.co.kr 형태의 서브 도메인 방식은 메인 웹사이트의 도메인 점수 상승에 기여하기 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "현재 blog.vdrobotics.co.kr 형태의 서브 도메인 방식은 메인 웹사이트의 도메인 점수 상승에 기여하기 어렵습니다.",
+          "start_char": 1334,
+          "end_char": 1405
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3709ebca09ff3056",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "VD 로보틱스 현황: 현재 imweb 빌더 사용으로 인해 기술적 제약이 있어 서브 폴더 구현이 어렵지만, 재검토가 필요합니다. 리캐치 팀은 프레이머(Framer)와 임블로그(Imblog) 연동으로 서브 폴더 구현 사례가 있음을 공유했습니다.",
+      "normalized": {
+        "text": "VD 로보틱스 현황: 현재 imweb 빌더 사용으로 인해 기술적 제약이 있어 서브 폴더 구현이 어렵지만, 재검토가 필요합니다. 리캐치 팀은 프레이머(Framer)와 임블로그(Imblog) 연동으로 서브 폴더 구현 사례가 있음을 공유했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "NotebookLM 미팅 핵심 내용 요약"
+          ],
+          "exact_quote": "VD 로보틱스 현황: 현재 imweb 빌더 사용으로 인해 기술적 제약이 있어 서브 폴더 구현이 어렵지만, 재검토가 필요합니다. 리캐치 팀은 프레이머(Framer)와 임블로그(Imblog) 연동으로 서브 폴더 구현 사례가 있음을 공유했습니다.",
+          "start_char": 1512,
+          "end_char": 1646
+        }
+      ],
+      "dedupe_key": "risk_or_concern:10a5d89ddde08690",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "VD 로보틱스 현황: AI가 작성한 듯한 느낌(과도한 이모지 사용 등)의 성공 사례 콘텐츠는 이탈률을 높여 체류 시간 KPI 달성을 어렵게 할 수 있습니다.",
+      "normalized": {
+        "text": "VD 로보틱스 현황: AI가 작성한 듯한 느낌(과도한 이모지 사용 등)의 성공 사례 콘텐츠는 이탈률을 높여 체류 시간 KPI 달성을 어렵게 할 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "VD 로보틱스 현황: AI가 작성한 듯한 느낌(과도한 이모지 사용 등)의 성공 사례 콘텐츠는 이탈률을 높여 체류 시간 KPI 달성을 어렵게 할 수 있습니다.",
+          "start_char": 2455,
+          "end_char": 2542
+        }
+      ],
+      "dedupe_key": "risk_or_concern:706561bcffdc82f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "성공 사례 콘텐츠를 통해 도입 문의를 유도하고, 실제 계약으로 이어지는 사례가 있음을 강조했습니다.",
+      "normalized": {
+        "text": "성공 사례 콘텐츠를 통해 도입 문의를 유도하고, 실제 계약으로 이어지는 사례가 있음을 강조했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "성공 사례 콘텐츠를 통해 도입 문의를 유도하고, 실제 계약으로 이어지는 사례가 있음을 강조했습니다.",
+          "start_char": 2986,
+          "end_char": 3041
+        }
+      ],
+      "dedupe_key": "collaboration_need:37d0c2e60088e627",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "VD 로보틱스 현황: 현재 일부 콘텐츠가 있는 것으로 보이지만, 적극적인 추진이 필요합니다.",
+      "normalized": {
+        "text": "VD 로보틱스 현황: 현재 일부 콘텐츠가 있는 것으로 보이지만, 적극적인 추진이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "VD 로보틱스 현황: 현재 일부 콘텐츠가 있는 것으로 보이지만, 적극적인 추진이 필요합니다.",
+          "start_char": 3261,
+          "end_char": 3312
+        }
+      ],
+      "dedupe_key": "action_item:f7afff2dd871a65e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 8",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 8,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "오전 8",
+          "start_char": 3562,
+          "end_char": 3566
+        }
+      ],
+      "dedupe_key": "timeline:55079b23b85764de",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "2~3회",
+      "normalized": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "2~3회",
+          "start_char": 3388,
+          "end_char": 3392
+        }
+      ],
+      "dedupe_key": "sales_activity:379b9a3cb49c5172",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3시간",
+      "normalized": {
+        "value": 3.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "3시간",
+          "start_char": 3066,
+          "end_char": 3069
+        }
+      ],
+      "dedupe_key": "duration:c263ed23a98359ad",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "퍼널 단계별 콘텐츠 유형 및 KPI"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2606,
+          "end_char": 2609
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "핫 리드: 도입 문의, 컨설팅 신청.",
+      "normalized": {
+        "text": "핫 리드: 도입 문의, 컨설팅 신청.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "핫 리드: 도입 문의, 컨설팅 신청.",
+          "start_char": 3714,
+          "end_char": 3734
+        }
+      ],
+      "dedupe_key": "collaboration_need:ecb2a9d9967da2d5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "MQL(Marketing Qualified Lead): 서비스 소개 신청, CRM 도입 실패 리포트.",
+      "normalized": {
+        "text": "MQL(Marketing Qualified Lead): 서비스 소개 신청, CRM 도입 실패 리포트.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "MQL(Marketing Qualified Lead): 서비스 소개 신청, CRM 도입 실패 리포트.",
+          "start_char": 3735,
+          "end_char": 3791
+        }
+      ],
+      "dedupe_key": "collaboration_need:057d048463fbd3db",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "뉴스레터 활용: 콜드 리드는 뉴스레터 구독을 통해 너처링하며, 리포트 북 다운로드 시 관련 블로그 콘텐츠를 뉴스레터로 지속 발송하여 퍼널 단계를 끌어올립니다.",
+      "normalized": {
+        "text": "뉴스레터 활용: 콜드 리드는 뉴스레터 구독을 통해 너처링하며, 리포트 북 다운로드 시 관련 블로그 콘텐츠를 뉴스레터로 지속 발송하여 퍼널 단계를 끌어올립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "뉴스레터 활용: 콜드 리드는 뉴스레터 구독을 통해 너처링하며, 리포트 북 다운로드 시 관련 블로그 콘텐츠를 뉴스레터로 지속 발송하여 퍼널 단계를 끌어올립니다.",
+          "start_char": 3814,
+          "end_char": 3902
+        }
+      ],
+      "dedupe_key": "action_item:bde196f8bbfd2968",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "VD 로보틱스 현황: 현재 블로그가 메인 웹사이트와 분리되어 있어, 유입 소스만 알 수 있을 뿐 개별 블로그 콘텐츠 조회 이력은 파악하기 어렵습니다. 전체 고객 여정 데이터를 확인하려면 메인 페이지와 블로그 페이지 모두에 추적 코드(HA 설치 코드)를 설치해야 합니다.",
+      "normalized": {
+        "text": "VD 로보틱스 현황: 현재 블로그가 메인 웹사이트와 분리되어 있어, 유입 소스만 알 수 있을 뿐 개별 블로그 콘텐츠 조회 이력은 파악하기 어렵습니다. 전체 고객 여정 데이터를 확인하려면 메인 페이지와 블로그 페이지 모두에 추적 코드(HA 설치 코드)를 설치해야 합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "VD 로보틱스 현황: 현재 블로그가 메인 웹사이트와 분리되어 있어, 유입 소스만 알 수 있을 뿐 개별 블로그 콘텐츠 조회 이력은 파악하기 어렵습니다. 전체 고객 여정 데이터를 확인하려면 메인 페이지와 블로그 페이지 모두에 추적 코드(HA 설치 코드)를 설치해야 합니다.",
+          "start_char": 4347,
+          "end_char": 4497
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b17a657ba7a98600",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 3735,
+          "end_char": 3738
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 4260,
+          "end_char": 4263
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 마케팅 팀은 자사 블로그를 운영하고, '그로스 랩(Growth Lab)'이라는 에이전시 조직은 이 방법론을 고객에게 전달하는 역할을 합니다.",
+      "normalized": {
+        "text": "내부 마케팅 팀은 자사 블로그를 운영하고, '그로스 랩(Growth Lab)'이라는 에이전시 조직은 이 방법론을 고객에게 전달하는 역할을 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "내부 마케팅 팀은 자사 블로그를 운영하고, '그로스 랩(Growth Lab)'이라는 에이전시 조직은 이 방법론을 고객에게 전달하는 역할을 합니다.",
+          "start_char": 4687,
+          "end_char": 4768
+        }
+      ],
+      "dedupe_key": "collaboration_need:eafc484b89493e63",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "35.42",
+      "normalized": {
+        "year": 2035,
+        "month": 42,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "퍼널 단계별 리드 마그넷"
+          ],
+          "exact_quote": "35.42",
+          "start_char": 4865,
+          "end_char": 4870
+        }
+      ],
+      "dedupe_key": "timeline:b73dc83d0962df69",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

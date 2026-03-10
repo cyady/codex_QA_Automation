@@ -1,0 +1,239 @@
+[
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0001",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+    "normalized": {
+      "text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "start_char": 87,
+      "end_char": 113
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0002",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+    "normalized": {
+      "text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "start_char": 114,
+      "end_char": 171
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0003",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@강대웅",
+    "normalized": {
+      "name": "강대웅"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@강대웅",
+      "start_char": 102,
+      "end_char": 106
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0004",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@황하운",
+    "normalized": {
+      "name": "황하운"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@황하운",
+      "start_char": 159,
+      "end_char": 163
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0005",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "0원",
+    "normalized": {
+      "value": 0,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "0원",
+      "start_char": 144,
+      "end_char": 146
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0006",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+    "normalized": {
+      "text": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "[ ] Powered by 인핸스 모델?"
+      ],
+      "exact_quote": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+      "start_char": 353,
+      "end_char": 400
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0007",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+    "normalized": {
+      "text": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "[ ] Powered by 인핸스 모델?"
+      ],
+      "exact_quote": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+      "start_char": 401,
+      "end_char": 438
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W11",
+    "candidate_id": "C-0008",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+    "normalized": {
+      "text": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [
+        "중장기적으로 만들어가자"
+      ],
+      "exact_quote": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+      "start_char": 585,
+      "end_char": 643
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

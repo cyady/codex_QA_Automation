@@ -1,0 +1,456 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W42",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 20,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콜라보 최승호님 소개(이야기 나누다보니 Director of sales 후보자로 승호님도 만나보고 싶다고 하셔서 연락처 전달 예정)",
+      "normalized": {
+        "text": "콜라보 최승호님 소개(이야기 나누다보니 Director of sales 후보자로 승호님도 만나보고 싶다고 하셔서 연락처 전달 예정)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "콜라보 최승호님 소개(이야기 나누다보니 Director of sales 후보자로 승호님도 만나보고 싶다고 하셔서 연락처 전달 예정)",
+          "start_char": 155,
+          "end_char": 228
+        }
+      ],
+      "dedupe_key": "collaboration_need:5fe216500ed8bbe5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "필요 시, 한화비전 키퍼팀과 코세일즈할 수 있도록 판 깔기(타겟 고객이 매우 유사함) cc @김우진(Woojin Andy Kim)",
+      "normalized": {
+        "text": "필요 시, 한화비전 키퍼팀과 코세일즈할 수 있도록 판 깔기(타겟 고객이 매우 유사함) cc @김우진(Woojin Andy Kim)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "필요 시, 한화비전 키퍼팀과 코세일즈할 수 있도록 판 깔기(타겟 고객이 매우 유사함) cc @김우진(Woojin Andy Kim)",
+          "start_char": 293,
+          "end_char": 365
+        }
+      ],
+      "dedupe_key": "action_item:3f704e7aa92d2b01",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 344,
+          "end_char": 348
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 17일",
+      "normalized": {
+        "month": 10,
+        "day": 17
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "10월 17일",
+          "start_char": 87,
+          "end_char": 94
+        }
+      ],
+      "dedupe_key": "timeline:f580cd01bf378202",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "17일",
+      "normalized": {
+        "value": 17.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "17일",
+          "start_char": 91,
+          "end_char": 94
+        }
+      ],
+      "dedupe_key": "duration:6d9b5f7e32becd20",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "64개",
+      "normalized": {
+        "value": 64,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "64개",
+          "start_char": 261,
+          "end_char": 264
+        }
+      ],
+      "dedupe_key": "case_metric:df126d07d9a7ca2a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "브라운백 대표님께 드린 조언들을 팀원들과 공유할 수 있도록 정리해 보았습니다. 김한규(참석자 1) 님은 세일즈 전략, 팀 빌딩 및 문화, 개인적인 성장에 대한 깊이 있는 통찰을 여러 프레임워크와 경험을 통해 공유했습니다.",
+      "normalized": {
+        "text": "브라운백 대표님께 드린 조언들을 팀원들과 공유할 수 있도록 정리해 보았습니다. 김한규(참석자 1) 님은 세일즈 전략, 팀 빌딩 및 문화, 개인적인 성장에 대한 깊이 있는 통찰을 여러 프레임워크와 경험을 통해 공유했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "브라운백 대표님께 드린 조언들을 팀원들과 공유할 수 있도록 정리해 보았습니다. 김한규(참석자 1) 님은 세일즈 전략, 팀 빌딩 및 문화, 개인적인 성장에 대한 깊이 있는 통찰을 여러 프레임워크와 경험을 통해 공유했습니다.",
+          "start_char": 397,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "collaboration_need:52da411263aa5c35",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "BATNA(협상 결렬 시 최선의 대안) 분석: 누가 더 아쉬운 협상인지를 판단하여 협상에 자신감 있게 임해야 합니다. 우리의 제품과 서비스 가치를 제대로 인정받지 못하고 '갑질'하려는 고객은 과감하게 포기할 배짱도 필요합니다.",
+      "normalized": {
+        "text": "BATNA(협상 결렬 시 최선의 대안) 분석: 누가 더 아쉬운 협상인지를 판단하여 협상에 자신감 있게 임해야 합니다. 우리의 제품과 서비스 가치를 제대로 인정받지 못하고 '갑질'하려는 고객은 과감하게 포기할 배짱도 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "BATNA(협상 결렬 시 최선의 대안) 분석: 누가 더 아쉬운 협상인지를 판단하여 협상에 자신감 있게 임해야 합니다. 우리의 제품과 서비스 가치를 제대로 인정받지 못하고 '갑질'하려는 고객은 과감하게 포기할 배짱도 필요합니다.",
+          "start_char": 1604,
+          "end_char": 1730
+        }
+      ],
+      "dedupe_key": "action_item:e602a1448d62f49e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "핵심 어카운트에 집중: 영업 기회가 너무 많을 때는 클로징 가능한 키 어카운트(Key Account)에 집중하고 나머지는 후순위로 미뤄야 합니다. 집중력이 분산되면 아무것도 달성하기 어렵습니다.",
+      "normalized": {
+        "text": "핵심 어카운트에 집중: 영업 기회가 너무 많을 때는 클로징 가능한 키 어카운트(Key Account)에 집중하고 나머지는 후순위로 미뤄야 합니다. 집중력이 분산되면 아무것도 달성하기 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "핵심 어카운트에 집중: 영업 기회가 너무 많을 때는 클로징 가능한 키 어카운트(Key Account)에 집중하고 나머지는 후순위로 미뤄야 합니다. 집중력이 분산되면 아무것도 달성하기 어렵습니다.",
+          "start_char": 1731,
+          "end_char": 1839
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5fc25d5e2d9c77f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "5천만 원",
+          "start_char": 1296,
+          "end_char": 1301
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "모의 세일즈(피칭) 필수: 지원자에게 모의 세일즈를 시켜서 검증해야 합니다. 경력자들이 이를 모욕적으로 느낄 수 있다고 해도, 회사의 리스크가 더 크므로 필수적입니다.",
+      "normalized": {
+        "text": "모의 세일즈(피칭) 필수: 지원자에게 모의 세일즈를 시켜서 검증해야 합니다. 경력자들이 이를 모욕적으로 느낄 수 있다고 해도, 회사의 리스크가 더 크므로 필수적입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "모의 세일즈(피칭) 필수: 지원자에게 모의 세일즈를 시켜서 검증해야 합니다. 경력자들이 이를 모욕적으로 느낄 수 있다고 해도, 회사의 리스크가 더 크므로 필수적입니다.",
+          "start_char": 2623,
+          "end_char": 2716
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cdb5787d80c2a98f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만 원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "50만 원",
+          "start_char": 2387,
+          "end_char": 2392
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5억 원",
+      "normalized": {
+        "value": 500000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "5억 원",
+          "start_char": 2397,
+          "end_char": 2401
+        }
+      ],
+      "dedupe_key": "budget:a10a9cf9c625b043",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "팀원들을 위한 김한규 님의 세일즈 조언 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2258,
+          "end_char": 2261
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "질문 활용: 피칭만 하는 것이 아니라 질문을 통해 라포를 쌓고 고객의 문제를 발굴하려는 시도를 평가해야 합니다.",
+      "normalized": {
+        "text": "질문 활용: 피칭만 하는 것이 아니라 질문을 통해 라포를 쌓고 고객의 문제를 발굴하려는 시도를 평가해야 합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "평가 기준"
+          ],
+          "exact_quote": "질문 활용: 피칭만 하는 것이 아니라 질문을 통해 라포를 쌓고 고객의 문제를 발굴하려는 시도를 평가해야 합니다.",
+          "start_char": 2772,
+          "end_char": 2834
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f66e44f539c05342",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주니어 육성 (섀도잉, 피드백, 기록): 영업 디렉터를 선발하기 전까지는 대표님이 직접 파운더 세일즈를 진행하면서 주니어를 육성해야 합니다.",
+      "normalized": {
+        "text": "주니어 육성 (섀도잉, 피드백, 기록): 영업 디렉터를 선발하기 전까지는 대표님이 직접 파운더 세일즈를 진행하면서 주니어를 육성해야 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "평가 기준"
+          ],
+          "exact_quote": "주니어 육성 (섀도잉, 피드백, 기록): 영업 디렉터를 선발하기 전까지는 대표님이 직접 파운더 세일즈를 진행하면서 주니어를 육성해야 합니다.",
+          "start_char": 3004,
+          "end_char": 3082
+        }
+      ],
+      "dedupe_key": "action_item:866a50f8c191754a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "자발적인 기록과 공유: 주니어들이 자발적으로 미팅 내용을 정리하고 기록하며 공유하는 문화를 만들면 빠르게 성장할 수 있고, 이는 승진으로 이어질 수 있습니다. 디렉터를 뽑는 것보다 열린 사고를 가진 주니어를 잘 키우는 것이 더 쉬울 수 있습니다.",
+      "normalized": {
+        "text": "자발적인 기록과 공유: 주니어들이 자발적으로 미팅 내용을 정리하고 기록하며 공유하는 문화를 만들면 빠르게 성장할 수 있고, 이는 승진으로 이어질 수 있습니다. 디렉터를 뽑는 것보다 열린 사고를 가진 주니어를 잘 키우는 것이 더 쉬울 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "평가 기준"
+          ],
+          "exact_quote": "자발적인 기록과 공유: 주니어들이 자발적으로 미팅 내용을 정리하고 기록하며 공유하는 문화를 만들면 빠르게 성장할 수 있고, 이는 승진으로 이어질 수 있습니다. 디렉터를 뽑는 것보다 열린 사고를 가진 주니어를 잘 키우는 것이 더 쉬울 수 있습니다.",
+          "start_char": 3153,
+          "end_char": 3290
+        }
+      ],
+      "dedupe_key": "collaboration_need:4a50fc57925d901b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "54.13",
+      "normalized": {
+        "year": 2054,
+        "month": 13,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "평가 기준"
+          ],
+          "exact_quote": "54.13",
+          "start_char": 3759,
+          "end_char": 3764
+        }
+      ],
+      "dedupe_key": "timeline:8bbaba2b800ca51d",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

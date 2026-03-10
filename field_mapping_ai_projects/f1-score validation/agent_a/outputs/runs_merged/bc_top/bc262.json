@@ -1,0 +1,250 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W262",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 27,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 15,
+          "end_char": 18
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 28,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 확보를 위해 리멤버를 검토하다가, 리멤버와 콜라보한 가이드북을 보고 리캐치를 알게 됨 cc @mkt 요즘 리멤버에서 낙수효과로 떨어지는 MQL이 꽤 있는 듯해요!",
+      "normalized": {
+        "text": "리드 확보를 위해 리멤버를 검토하다가, 리멤버와 콜라보한 가이드북을 보고 리캐치를 알게 됨 cc @mkt 요즘 리멤버에서 낙수효과로 떨어지는 MQL이 꽤 있는 듯해요!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리드 확보를 위해 리멤버를 검토하다가, 리멤버와 콜라보한 가이드북을 보고 리캐치를 알게 됨 cc @mkt 요즘 리멤버에서 낙수효과로 떨어지는 MQL이 꽤 있는 듯해요!",
+          "start_char": 46,
+          "end_char": 139
+        }
+      ],
+      "dedupe_key": "action_item:1bc721249f976ccc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 100,
+          "end_char": 104
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 87,
+          "end_char": 90
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 125,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그래서 리멤버 서비스도 알아봤는데 단순 DB 확보가 아닌 '우리 전시회에 참가하도록' 만들어야 하는데, 이에 대한 고민이 있는 상태에서 리드마그넷 패키지를 알게 됐고 전반적으로 어떻게 진행되는지 궁금해 하시는 상황",
+      "normalized": {
+        "text": "그래서 리멤버 서비스도 알아봤는데 단순 DB 확보가 아닌 '우리 전시회에 참가하도록' 만들어야 하는데, 이에 대한 고민이 있는 상태에서 리드마그넷 패키지를 알게 됐고 전반적으로 어떻게 진행되는지 궁금해 하시는 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "그래서 리멤버 서비스도 알아봤는데 단순 DB 확보가 아닌 '우리 전시회에 참가하도록' 만들어야 하는데, 이에 대한 고민이 있는 상태에서 리드마그넷 패키지를 알게 됐고 전반적으로 어떻게 진행되는지 궁금해 하시는 상황",
+          "start_char": 341,
+          "end_char": 460
+        }
+      ],
+      "dedupe_key": "action_item:74f9d96778e2b4c7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실무 담당자. 내부 보고 후 미팅 진행 예정",
+      "normalized": {
+        "text": "실무 담당자. 내부 보고 후 미팅 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "박누리 책임 매니저"
+          ],
+          "exact_quote": "실무 담당자. 내부 보고 후 미팅 진행 예정",
+          "start_char": 565,
+          "end_char": 589
+        }
+      ],
+      "dedupe_key": "action_item:0b508f33256a9551",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 일정 수립해야 합니다",
+      "normalized": {
+        "text": "미팅 일정 수립해야 합니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "박누리 책임 매니저"
+          ],
+          "exact_quote": "미팅 일정 수립해야 합니다",
+          "start_char": 591,
+          "end_char": 605
+        }
+      ],
+      "dedupe_key": "action_item:8dce15316af3cba5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "박누리 책임 매니저"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 610,
+          "end_char": 614
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

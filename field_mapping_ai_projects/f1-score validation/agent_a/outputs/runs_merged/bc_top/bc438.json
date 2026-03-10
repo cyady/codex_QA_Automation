@@ -1,0 +1,130 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W438",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 29,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 14,
+          "end_char": 17
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 30,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "N) 보험사 담당자 교체 잦은데 이런 이력을 적어두면 팀 내에 공유되길 원함",
+      "normalized": {
+        "text": "N) 보험사 담당자 교체 잦은데 이런 이력을 적어두면 팀 내에 공유되길 원함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "N) 보험사 담당자 교체 잦은데 이런 이력을 적어두면 팀 내에 공유되길 원함",
+          "start_char": 140,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "collaboration_need:e11dfc2aed8407ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트성으로 진행할 때에도 팀내 원활한 정보 공유를 원함",
+      "normalized": {
+        "text": "프로젝트성으로 진행할 때에도 팀내 원활한 정보 공유를 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "프로젝트성으로 진행할 때에도 팀내 원활한 정보 공유를 원함",
+          "start_char": 188,
+          "end_char": 220
+        }
+      ],
+      "dedupe_key": "action_item:2c9205048e6614bb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "-> 단순히 팀내 정보 공유 + 기고객사 관리 목적이라 일단 바로 미팅으로 전환하진 않고 소개서랑 인찬님 온보딩 영상 보내드리기로 함",
+      "normalized": {
+        "text": "-> 단순히 팀내 정보 공유 + 기고객사 관리 목적이라 일단 바로 미팅으로 전환하진 않고 소개서랑 인찬님 온보딩 영상 보내드리기로 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "+ 기존고객관리 위주"
+          ],
+          "exact_quote": "-> 단순히 팀내 정보 공유 + 기고객사 관리 목적이라 일단 바로 미팅으로 전환하진 않고 소개서랑 인찬님 온보딩 영상 보내드리기로 함",
+          "start_char": 239,
+          "end_char": 313
+        }
+      ],
+      "dedupe_key": "collaboration_need:e385781541148f77",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

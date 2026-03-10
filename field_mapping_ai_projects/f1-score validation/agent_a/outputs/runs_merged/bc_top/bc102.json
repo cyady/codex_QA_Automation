@@ -1,0 +1,189 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W102",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이 전략을 통해 구매 담당자, 총무 담당자 등 소담소담의 타겟 고객에게 효과적으로 접근할 수 있을 것으로 기대됩니다. 소담소담은 이 마케팅을 통해 투자 비용 대비 높은 매출 성과(ROI)를 희망하고 있습니다. 1000만원 쓰면 1억 매출 등",
+      "normalized": {
+        "text": "이 전략을 통해 구매 담당자, 총무 담당자 등 소담소담의 타겟 고객에게 효과적으로 접근할 수 있을 것으로 기대됩니다. 소담소담은 이 마케팅을 통해 투자 비용 대비 높은 매출 성과(ROI)를 희망하고 있습니다. 1000만원 쓰면 1억 매출 등",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "이 전략을 통해 구매 담당자, 총무 담당자 등 소담소담의 타겟 고객에게 효과적으로 접근할 수 있을 것으로 기대됩니다. 소담소담은 이 마케팅을 통해 투자 비용 대비 높은 매출 성과(ROI)를 희망하고 있습니다. 1000만원 쓰면 1억 매출 등",
+          "start_char": 506,
+          "end_char": 640
+        }
+      ],
+      "dedupe_key": "collaboration_need:8074172b797fb7b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1000만원",
+          "start_char": 623,
+          "end_char": 629
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "명절 선물을 준비하는 구매 담당자라면 \"2026년 다른 기업들은 어떤 선물 주고 있나,\" \"베스트 선물 Top 5\"와 같은 리포트가 필요할 것입니다. 설문조사 대신, MR 소싱 트렌드나 2025/2026년 유행 아이템과 같은 하이 레벨의 콘텐츠(리포트 형태)를 제공하여 담당자들의 관심을 유도합니다 라고 소구하였지만, 콘텐츠로 이 사람들이 따뜻해진다고? 에 대한 의문이 있음",
+      "normalized": {
+        "text": "명절 선물을 준비하는 구매 담당자라면 \"2026년 다른 기업들은 어떤 선물 주고 있나,\" \"베스트 선물 Top 5\"와 같은 리포트가 필요할 것입니다. 설문조사 대신, MR 소싱 트렌드나 2025/2026년 유행 아이템과 같은 하이 레벨의 콘텐츠(리포트 형태)를 제공하여 담당자들의 관심을 유도합니다 라고 소구하였지만, 콘텐츠로 이 사람들이 따뜻해진다고? 에 대한 의문이 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "명절 선물을 준비하는 구매 담당자라면 \"2026년 다른 기업들은 어떤 선물 주고 있나,\" \"베스트 선물 Top 5\"와 같은 리포트가 필요할 것입니다. 설문조사 대신, MR 소싱 트렌드나 2025/2026년 유행 아이템과 같은 하이 레벨의 콘텐츠(리포트 형태)를 제공하여 담당자들의 관심을 유도합니다 라고 소구하였지만, 콘텐츠로 이 사람들이 따뜻해진다고? 에 대한 의문이 있음",
+          "start_char": 642,
+          "end_char": 851
+        }
+      ],
+      "dedupe_key": "action_item:1495842582b9266d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25/20",
+      "normalized": {
+        "year": 2025,
+        "month": 20,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "25/20",
+          "start_char": 748,
+          "end_char": 753
+        }
+      ],
+      "dedupe_key": "timeline:7cb566778cebb558",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 872,
+          "end_char": 875
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1041,
+          "end_char": 1044
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1069,
+          "end_char": 1072
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1320,
+          "end_char": 1323
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소담소담은 대량 구매가 가능한 B2B에 집중하겠다는 의지가 명확합니다. B2C는 오아시스 등 다른 플랫폼을 통해 진행하는 방안을 고려하고 있습니다. 리멤버의 DB를 활용해 특정 페르소나를 가진 B2C 고객에게도 접근할 수 있다는 아이디어도 제시되었습니다.",
+      "normalized": {
+        "text": "소담소담은 대량 구매가 가능한 B2B에 집중하겠다는 의지가 명확합니다. B2C는 오아시스 등 다른 플랫폼을 통해 진행하는 방안을 고려하고 있습니다. 리멤버의 DB를 활용해 특정 페르소나를 가진 B2C 고객에게도 접근할 수 있다는 아이디어도 제시되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "소담소담은 대량 구매가 가능한 B2B에 집중하겠다는 의지가 명확합니다. B2C는 오아시스 등 다른 플랫폼을 통해 진행하는 방안을 고려하고 있습니다. 리멤버의 DB를 활용해 특정 페르소나를 가진 B2C 고객에게도 접근할 수 있다는 아이디어도 제시되었습니다.",
+          "start_char": 884,
+          "end_char": 1026
+        }
+      ],
+      "dedupe_key": "action_item:0fdb28a8530ac28e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소담소담은 홈페이지 구축 및 SEO 콘텐츠 발행 등과 관련한 제안서와 레퍼런스를 요청했습니다.",
+      "normalized": {
+        "text": "소담소담은 홈페이지 구축 및 SEO 콘텐츠 발행 등과 관련한 제안서와 레퍼런스를 요청했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "소담소담은 홈페이지 구축 및 SEO 콘텐츠 발행 등과 관련한 제안서와 레퍼런스를 요청했습니다.",
+          "start_char": 1304,
+          "end_char": 1356
+        }
+      ],
+      "dedupe_key": "action_item:58cc63af2cdb5bbc",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

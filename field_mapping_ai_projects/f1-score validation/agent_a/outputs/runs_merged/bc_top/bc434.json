@@ -1,0 +1,130 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W434",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 0,
+          "end_char": 4
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 12,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드마그넷을 시도하고 있는 측면에서 저희도 리캐치팀 경험을 배우고 싶고, 현재 세일즈포스를 사용중이지만 중장기적으로 리캐치 제품의 관계십을 갖아도 좋을 것 같아요. 또한 마케팅 협업도 함께 얘기해봐도 좋겠습니다.",
+      "normalized": {
+        "text": "리드마그넷을 시도하고 있는 측면에서 저희도 리캐치팀 경험을 배우고 싶고, 현재 세일즈포스를 사용중이지만 중장기적으로 리캐치 제품의 관계십을 갖아도 좋을 것 같아요. 또한 마케팅 협업도 함께 얘기해봐도 좋겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리드마그넷을 시도하고 있는 측면에서 저희도 리캐치팀 경험을 배우고 싶고, 현재 세일즈포스를 사용중이지만 중장기적으로 리캐치 제품의 관계십을 갖아도 좋을 것 같아요. 또한 마케팅 협업도 함께 얘기해봐도 좋겠습니다.",
+          "start_char": 140,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "collaboration_need:8b1e313455b0821e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 164,
+          "end_char": 167
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 205,
+          "end_char": 208
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "55.95",
+      "normalized": {
+        "year": 2055,
+        "month": 95,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "좋은 저녁되세요!"
+          ],
+          "exact_quote": "55.95",
+          "start_char": 519,
+          "end_char": 524
+        }
+      ],
+      "dedupe_key": "timeline:927ab5f9da850938",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

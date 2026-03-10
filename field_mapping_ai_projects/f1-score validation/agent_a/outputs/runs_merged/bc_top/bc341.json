@@ -1,0 +1,150 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W341",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM을 사용하고 있지 않으며, 처음으로 도입을 검토하는 단계",
+      "normalized": {
+        "text": "CRM을 사용하고 있지 않으며, 처음으로 도입을 검토하는 단계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM을 사용하고 있지 않으며, 처음으로 도입을 검토하는 단계",
+          "start_char": 106,
+          "end_char": 140
+        }
+      ],
+      "dedupe_key": "action_item:d17f1e92ba1824c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 166,
+          "end_char": 169
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 378,
+          "end_char": 381
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "팀장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 698,
+          "end_char": 701
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업사원들이 대출 검토를 위해 식당, 병원, 약국 등 실제 매장을 방문할 때 , 해당 매장의 정보(일 평균 고객 수 등)를 기록하고 내부에서 공유할 목적으로 CRM을 찾고 있음",
+      "normalized": {
+        "text": "영업사원들이 대출 검토를 위해 식당, 병원, 약국 등 실제 매장을 방문할 때 , 해당 매장의 정보(일 평균 고객 수 등)를 기록하고 내부에서 공유할 목적으로 CRM을 찾고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "영업사원들이 대출 검토를 위해 식당, 병원, 약국 등 실제 매장을 방문할 때 , 해당 매장의 정보(일 평균 고객 수 등)를 기록하고 내부에서 공유할 목적으로 CRM을 찾고 있음",
+          "start_char": 178,
+          "end_char": 276
+        }
+      ],
+      "dedupe_key": "action_item:fda4a0499e48c249",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이유: 은행 내부 보안 정책 및 고객 정보 보호(개인정보) 문제로, 데이터를 리캐치(외부) 서버에 저장할 수 없음.",
+      "normalized": {
+        "text": "이유: 은행 내부 보안 정책 및 고객 정보 보호(개인정보) 문제로, 데이터를 리캐치(외부) 서버에 저장할 수 없음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "이유: 은행 내부 보안 정책 및 고객 정보 보호(개인정보) 문제로, 데이터를 리캐치(외부) 서버에 저장할 수 없음.",
+          "start_char": 335,
+          "end_char": 399
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b60d3d617cefb572",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "영업사원이 특정 매장(ex. 약국) 방문 시, 지도와 연동된 위치에 분석 값을 입력하고 팀원끼리 공유하는 기능",
+      "normalized": {
+        "text": "영업사원이 특정 매장(ex. 약국) 방문 시, 지도와 연동된 위치에 분석 값을 입력하고 팀원끼리 공유하는 기능",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "지도 기반 CRM"
+          ],
+          "exact_quote": "영업사원이 특정 매장(ex. 약국) 방문 시, 지도와 연동된 위치에 분석 값을 입력하고 팀원끼리 공유하는 기능",
+          "start_char": 431,
+          "end_char": 492
+        }
+      ],
+      "dedupe_key": "collaboration_need:cb09f640035e546c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

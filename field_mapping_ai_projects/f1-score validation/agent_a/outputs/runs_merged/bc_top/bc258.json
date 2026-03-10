@@ -1,0 +1,139 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W258",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 27,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "15건",
+      "normalized": {
+        "value": 15,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "15건",
+          "start_char": 108,
+          "end_char": 111
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "15건",
+          "start_char": 174,
+          "end_char": 177
+        }
+      ],
+      "dedupe_key": "lead_volume:d174023f04e98a70",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 155,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM이 어떤건지 전반적으로 궁금하다. 전반적으로 설명해주면 그중에서 우리에게 필요한 기능이 무엇들이 있는지 확인해보고 싶다.",
+      "normalized": {
+        "text": "CRM이 어떤건지 전반적으로 궁금하다. 전반적으로 설명해주면 그중에서 우리에게 필요한 기능이 무엇들이 있는지 확인해보고 싶다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "CRM이 어떤건지 전반적으로 궁금하다. 전반적으로 설명해주면 그중에서 우리에게 필요한 기능이 무엇들이 있는지 확인해보고 싶다.",
+          "start_char": 204,
+          "end_char": 274
+        }
+      ],
+      "dedupe_key": "action_item:b673488e98c13651",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅팀 따로 없고 이사님 혼자 보실 것 같다고 하는데, 추가 파악 필요",
+      "normalized": {
+        "text": "마케팅팀 따로 없고 이사님 혼자 보실 것 같다고 하는데, 추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "마케팅팀 따로 없고 이사님 혼자 보실 것 같다고 하는데, 추가 파악 필요",
+          "start_char": 361,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "action_item:956afa715567bb83",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

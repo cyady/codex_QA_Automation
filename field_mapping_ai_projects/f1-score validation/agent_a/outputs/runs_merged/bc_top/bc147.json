@@ -1,0 +1,229 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W147",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Action Item (두 아젠다를 분리하여 따로 팔로업 진행)",
+      "normalized": {
+        "text": "Action Item (두 아젠다를 분리하여 따로 팔로업 진행)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "Action Item (두 아젠다를 분리하여 따로 팔로업 진행)",
+          "start_char": 14,
+          "end_char": 49
+        }
+      ],
+      "dedupe_key": "action_item:21d7306cb4c5a319",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 쿠팡 400개 리드 전달 주시면 @정호찬",
+      "normalized": {
+        "text": "[ ] 쿠팡 400개 리드 전달 주시면 @정호찬",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[ ] 쿠팡 400개 리드 전달 주시면 @정호찬",
+          "start_char": 62,
+          "end_char": 88
+        }
+      ],
+      "dedupe_key": "collaboration_need:a638e77a0e48b66f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 리드 풀 규모 산정하여 인핸스에 전달 @강대웅(Dario) (dario)",
+      "normalized": {
+        "text": "[ ] 리드 풀 규모 산정하여 인핸스에 전달 @강대웅(Dario) (dario)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[ ] 리드 풀 규모 산정하여 인핸스에 전달 @강대웅(Dario) (dario)",
+          "start_char": 89,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "collaboration_need:2a225d0f86e18cda",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] NDA 체결 양식 전달 @강대웅(Dario) (dario)",
+      "normalized": {
+        "text": "[ ] NDA 체결 양식 전달 @강대웅(Dario) (dario)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[ ] NDA 체결 양식 전달 @강대웅(Dario) (dario)",
+          "start_char": 185,
+          "end_char": 221
+        }
+      ],
+      "dedupe_key": "collaboration_need:1c498695d9dd9586",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정호찬",
+      "normalized": {
+        "name": "정호찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@정호찬",
+          "start_char": 84,
+          "end_char": 88
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:1e9046e3eb87810e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 114,
+          "end_char": 118
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 202,
+          "end_char": 206
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김여경",
+      "normalized": {
+        "name": "김여경"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김여경",
+          "start_char": 237,
+          "end_char": 241
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김여경",
+          "start_char": 291,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:92bcae0f00c222f1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "400개",
+      "normalized": {
+        "value": 400,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "400개",
+          "start_char": 69,
+          "end_char": 73
+        }
+      ],
+      "dedupe_key": "case_metric:01b3df4b2fb9a89d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 153,
+          "end_char": 156
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 173,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

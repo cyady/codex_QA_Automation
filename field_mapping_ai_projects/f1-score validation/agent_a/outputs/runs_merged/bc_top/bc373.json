@@ -1,0 +1,217 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W373",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 53,
+          "end_char": 59
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 60,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 68,
+          "end_char": 72
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "sdr",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 61,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "처음이라 크게 힘을 들이지 않고 우선 저희 고객들에게 E-book 이라는 콘텐츠가 반응이 있을지? 싶어 가볍게 진행해보았으며, 성과는 아직 트래킹 중에 있습니다.",
+      "normalized": {
+        "text": "처음이라 크게 힘을 들이지 않고 우선 저희 고객들에게 E-book 이라는 콘텐츠가 반응이 있을지? 싶어 가볍게 진행해보았으며, 성과는 아직 트래킹 중에 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "쏘카 김현지입니다.날씨가 많이 추워졌는데, 잘 지내고 계신가요?"
+          ],
+          "exact_quote": "처음이라 크게 힘을 들이지 않고 우선 저희 고객들에게 E-book 이라는 콘텐츠가 반응이 있을지? 싶어 가볍게 진행해보았으며, 성과는 아직 트래킹 중에 있습니다.",
+          "start_char": 254,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "action_item:27bce7b50b927d35",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "우선 저희가 아직 리포트북 발행이 얼마 되지않아 성과의 유무를 판단하기가 어려운 시점이라 피드백 주신다면 내년 콘텐츠에 적극적으로 적용해보겠습니다.12월 중 미팅 진행 좋습니다.",
+      "normalized": {
+        "text": "우선 저희가 아직 리포트북 발행이 얼마 되지않아 성과의 유무를 판단하기가 어려운 시점이라 피드백 주신다면 내년 콘텐츠에 적극적으로 적용해보겠습니다.12월 중 미팅 진행 좋습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "쏘카 김현지입니다.날씨가 많이 추워졌는데, 잘 지내고 계신가요?"
+          ],
+          "exact_quote": "우선 저희가 아직 리포트북 발행이 얼마 되지않아 성과의 유무를 판단하기가 어려운 시점이라 피드백 주신다면 내년 콘텐츠에 적극적으로 적용해보겠습니다.12월 중 미팅 진행 좋습니다.",
+          "start_char": 345,
+          "end_char": 444
+        }
+      ],
+      "dedupe_key": "action_item:810c1a8df4fee407",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희도 리캐치에서 진행하셨던 신규 리드마그넷 캠페인에 대해서도 궁금하고,",
+      "normalized": {
+        "text": "저희도 리캐치에서 진행하셨던 신규 리드마그넷 캠페인에 대해서도 궁금하고,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "쏘카 김현지입니다.날씨가 많이 추워졌는데, 잘 지내고 계신가요?"
+          ],
+          "exact_quote": "저희도 리캐치에서 진행하셨던 신규 리드마그넷 캠페인에 대해서도 궁금하고,",
+          "start_char": 445,
+          "end_char": 485
+        }
+      ],
+      "dedupe_key": "action_item:7f24ed6dea70e7d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "20개",
+      "normalized": {
+        "value": 20,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "쏘카 김현지입니다.날씨가 많이 추워졌는데, 잘 지내고 계신가요?"
+          ],
+          "exact_quote": "20개",
+          "start_char": 578,
+          "end_char": 581
+        }
+      ],
+      "dedupe_key": "case_metric:fad70b48f27da24c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "쏘카 김현지입니다.날씨가 많이 추워졌는데, 잘 지내고 계신가요?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 449,
+          "end_char": 452
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

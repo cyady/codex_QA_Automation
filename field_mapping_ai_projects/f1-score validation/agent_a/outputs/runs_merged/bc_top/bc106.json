@@ -1,0 +1,273 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W106",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "성과공유회 미팅일정 잡을 예정",
+      "normalized": {
+        "text": "성과공유회 미팅일정 잡을 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "성과공유회 미팅일정 잡을 예정",
+          "start_char": 0,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "collaboration_need:aab311141486d620",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표님 설득이 필요하여 그로스패키지 검토는 계속 딜레이되고 있었음",
+      "normalized": {
+        "text": "대표님 설득이 필요하여 그로스패키지 검토는 계속 딜레이되고 있었음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "대표님 설득이 필요하여 그로스패키지 검토는 계속 딜레이되고 있었음",
+          "start_char": 18,
+          "end_char": 54
+        }
+      ],
+      "dedupe_key": "action_item:7dbced43c43db90e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품 재계약 검토는 금주에 결정될 예정",
+      "normalized": {
+        "text": "제품 재계약 검토는 금주에 결정될 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "제품 재계약 검토는 금주에 결정될 예정",
+          "start_char": 134,
+          "end_char": 155
+        }
+      ],
+      "dedupe_key": "action_item:47c8f22c6c634957",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "신규 마케터, 홍진희님과의 관계구축 및 강화 필요",
+      "normalized": {
+        "text": "신규 마케터, 홍진희님과의 관계구축 및 강화 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "신규 마케터, 홍진희님과의 관계구축 및 강화 필요",
+          "start_char": 156,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "action_item:b22187d9572bf5e7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1/ 미팅의 주요 아젠다 - 성과 공유회 및 리캐치 CRM 활용현황 점검",
+      "normalized": {
+        "text": "1/ 미팅의 주요 아젠다 - 성과 공유회 및 리캐치 CRM 활용현황 점검",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "1/ 미팅의 주요 아젠다 - 성과 공유회 및 리캐치 CRM 활용현황 점검",
+          "start_char": 233,
+          "end_char": 273
+        }
+      ],
+      "dedupe_key": "collaboration_need:1492e786ee35040d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 258,
+          "end_char": 261
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 이전에 블르고 패키지를 제안드렸지만, 검토가 딜레이 되고 있는 이유는 대표님이 잠재적 블로커 역할을 하고 있음",
+      "normalized": {
+        "text": "2/ 이전에 블르고 패키지를 제안드렸지만, 검토가 딜레이 되고 있는 이유는 대표님이 잠재적 블로커 역할을 하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "2/ 이전에 블르고 패키지를 제안드렸지만, 검토가 딜레이 되고 있는 이유는 대표님이 잠재적 블로커 역할을 하고 있음",
+          "start_char": 275,
+          "end_char": 339
+        }
+      ],
+      "dedupe_key": "action_item:5cf632d8d0f2d2f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서, 대표님과 함께 자리 마련하여 설득하는 것이 필요",
+      "normalized": {
+        "text": "따라서, 대표님과 함께 자리 마련하여 설득하는 것이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "따라서, 대표님과 함께 자리 마련하여 설득하는 것이 필요",
+          "start_char": 393,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "action_item:61223675ddccc5ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이번 미팅에 대표님까지 참석 요청드렸지만, 미팅 1시간 전 몸이 악화되어 참석하지 못함",
+      "normalized": {
+        "text": "이번 미팅에 대표님까지 참석 요청드렸지만, 미팅 1시간 전 몸이 악화되어 참석하지 못함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "이번 미팅에 대표님까지 참석 요청드렸지만, 미팅 1시간 전 몸이 악화되어 참석하지 못함",
+          "start_char": 425,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "action_item:f81f9e6cedb72524",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이사님과 소통하여 9월 3째주 ~ 4째주 사이 신규 미팅 수립하기로 결정",
+      "normalized": {
+        "text": "이사님과 소통하여 9월 3째주 ~ 4째주 사이 신규 미팅 수립하기로 결정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "이사님과 소통하여 9월 3째주 ~ 4째주 사이 신규 미팅 수립하기로 결정",
+          "start_char": 474,
+          "end_char": 514
+        }
+      ],
+      "dedupe_key": "action_item:ac0bc58912387483",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1시간",
+      "normalized": {
+        "value": 1.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "------"
+          ],
+          "exact_quote": "1시간",
+          "start_char": 452,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "duration:df792b64e2093972",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

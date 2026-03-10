@@ -1,0 +1,287 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W477",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "미팅 내용 공유 (녹음이 안되었네요....이거 난감하군....)",
+      "normalized": {
+        "text": "미팅 내용 공유 (녹음이 안되었네요....이거 난감하군....)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "미팅 내용 공유 (녹음이 안되었네요....이거 난감하군....)",
+          "start_char": 0,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "collaboration_need:9ad677e02d93b50c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "85만원",
+      "normalized": {
+        "value": 850000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "85만원",
+          "start_char": 57,
+          "end_char": 61
+        }
+      ],
+      "dedupe_key": "budget:f3e3e416365e11f9",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 77,
+          "end_char": 82
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 326,
+          "end_char": 331
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "15명",
+      "normalized": {
+        "value": 15,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "15명",
+          "start_char": 63,
+          "end_char": 66
+        }
+      ],
+      "dedupe_key": "people_count:12fd201c85d7f0e1",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월초",
+      "normalized": {
+        "month": 3,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "3월초",
+          "start_char": 104,
+          "end_char": 107
+        }
+      ],
+      "dedupe_key": "timeline:8acaada2ba9fafca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 134,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "컨시어지 온보딩도 긍정적임 단, 전체 사용 인원수가 15명 정도 되어서 전체 가격에 대한 어느정도 네고를 요청해주신 상황 (3개월 400만원으로 던짐 )",
+      "normalized": {
+        "text": "컨시어지 온보딩도 긍정적임 단, 전체 사용 인원수가 15명 정도 되어서 전체 가격에 대한 어느정도 네고를 요청해주신 상황 (3개월 400만원으로 던짐 )",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "컨시어지 온보딩도 긍정적임 단, 전체 사용 인원수가 15명 정도 되어서 전체 가격에 대한 어느정도 네고를 요청해주신 상황 (3개월 400만원으로 던짐 )",
+          "start_char": 253,
+          "end_char": 338
+        }
+      ],
+      "dedupe_key": "action_item:31033ca57b760153",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 322,
+          "end_char": 325
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "15명",
+      "normalized": {
+        "value": 15,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "15명",
+          "start_char": 282,
+          "end_char": 285
+        }
+      ],
+      "dedupe_key": "team_size:12fd201c85d7f0e1",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입은 빠르면 빠를수록 좋다고 말씀드림, 사전에 핵심 인원 몇몇과 세팅을 하고 전체 사용자들 대상으로 오픈하는 식으로 가는 것이 가장 이상적이라고 말씀드림",
+      "normalized": {
+        "text": "도입은 빠르면 빠를수록 좋다고 말씀드림, 사전에 핵심 인원 몇몇과 세팅을 하고 전체 사용자들 대상으로 오픈하는 식으로 가는 것이 가장 이상적이라고 말씀드림",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "도입은 빠르면 빠를수록 좋다고 말씀드림, 사전에 핵심 인원 몇몇과 세팅을 하고 전체 사용자들 대상으로 오픈하는 식으로 가는 것이 가장 이상적이라고 말씀드림",
+          "start_char": 341,
+          "end_char": 427
+        }
+      ],
+      "dedupe_key": "collaboration_need:b0e1835e79891771",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "컨시어지 온보딩에 대한 기대치 조율하였고, 리소스에 따라서 제가 직접 수행도 해보고 싶은데....흠 가능할지는 @여인찬 (Oliver) 세일즈 미팅 수립되는 것을 봐야할 것 같습니다.",
+      "normalized": {
+        "text": "컨시어지 온보딩에 대한 기대치 조율하였고, 리소스에 따라서 제가 직접 수행도 해보고 싶은데....흠 가능할지는 @여인찬 (Oliver) 세일즈 미팅 수립되는 것을 봐야할 것 같습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "컨시어지 온보딩에 대한 기대치 조율하였고, 리소스에 따라서 제가 직접 수행도 해보고 싶은데....흠 가능할지는 @여인찬 (Oliver) 세일즈 미팅 수립되는 것을 봐야할 것 같습니다.",
+          "start_char": 430,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "action_item:b7a295f6c8bc719f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 492,
+          "end_char": 496
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

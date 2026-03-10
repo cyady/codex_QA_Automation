@@ -1,0 +1,540 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W490",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객사는 B2C에서 B2B로 사업 방향을 전환하면서 엑셀 관리의 한계를 느끼고 있어 CRM 도입 의지는 매우 큽니다.",
+      "normalized": {
+        "text": "고객사는 B2C에서 B2B로 사업 방향을 전환하면서 엑셀 관리의 한계를 느끼고 있어 CRM 도입 의지는 매우 큽니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "고객사는 B2C에서 B2B로 사업 방향을 전환하면서 엑셀 관리의 한계를 느끼고 있어 CRM 도입 의지는 매우 큽니다.",
+          "start_char": 143,
+          "end_char": 208
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e87fde0f122ef52",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그러나 CRM 커스텀 요구사항이 많고, 리캐치팀이 당장 대응하기 어려운 타임라인(3월 혹은 4월 중으로 즉시 도입)이 있어, 우선 별도 커스텀 없이 3개월간의 유료 POC(개념 증명) 제안을 드려야하는 상황입니다.",
+      "normalized": {
+        "text": "그러나 CRM 커스텀 요구사항이 많고, 리캐치팀이 당장 대응하기 어려운 타임라인(3월 혹은 4월 중으로 즉시 도입)이 있어, 우선 별도 커스텀 없이 3개월간의 유료 POC(개념 증명) 제안을 드려야하는 상황입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "그러나 CRM 커스텀 요구사항이 많고, 리캐치팀이 당장 대응하기 어려운 타임라인(3월 혹은 4월 중으로 즉시 도입)이 있어, 우선 별도 커스텀 없이 3개월간의 유료 POC(개념 증명) 제안을 드려야하는 상황입니다.",
+          "start_char": 212,
+          "end_char": 331
+        }
+      ],
+      "dedupe_key": "collaboration_need:38f81b0fd4024479",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 295,
+          "end_char": 298
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 234,
+          "end_char": 237
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 715,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "초기 컨시어지 온보딩 비용 400만 원 (POC 진행 시 일부 조정 논의 가능) -> POC 단계에서 1개월 100만원으로 제안해보면 좋을듯",
+      "normalized": {
+        "text": "초기 컨시어지 온보딩 비용 400만 원 (POC 진행 시 일부 조정 논의 가능) -> POC 단계에서 1개월 100만원으로 제안해보면 좋을듯",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "초기 컨시어지 온보딩 비용 400만 원 (POC 진행 시 일부 조정 논의 가능) -> POC 단계에서 1개월 100만원으로 제안해보면 좋을듯",
+          "start_char": 349,
+          "end_char": 427
+        }
+      ],
+      "dedupe_key": "action_item:eaf1011a6317f5ec",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 364,
+          "end_char": 370
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 1311,
+          "end_char": 1317
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "100만원",
+          "start_char": 410,
+          "end_char": 415
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 406,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 25만원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "약 25만원",
+          "start_char": 437,
+          "end_char": 443
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "서비스 소개 및 가이드 문서 전달",
+      "normalized": {
+        "text": "서비스 소개 및 가이드 문서 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "서비스 소개 및 가이드 문서 전달",
+          "start_char": 521,
+          "end_char": 539
+        }
+      ],
+      "dedupe_key": "collaboration_need:a491481e9fc52aa9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부에서 사용 중인 엑셀 스코어링 로직(가중치 평가표) 공유, 사내 보안 정책(AI 사용 가능 여부, 화이트리스트 등) 확인 후 공유(추후)",
+      "normalized": {
+        "text": "내부에서 사용 중인 엑셀 스코어링 로직(가중치 평가표) 공유, 사내 보안 정책(AI 사용 가능 여부, 화이트리스트 등) 확인 후 공유(추후)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "LG U+"
+          ],
+          "exact_quote": "내부에서 사용 중인 엑셀 스코어링 로직(가중치 평가표) 공유, 사내 보안 정책(AI 사용 가능 여부, 화이트리스트 등) 확인 후 공유(추후)",
+          "start_char": 568,
+          "end_char": 646
+        }
+      ],
+      "dedupe_key": "collaboration_need:c041dcd2e05828d1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사가 원하는 수준의 리드 스코어링 기능이 현재 리캐치에서 완벽히 구현되지 않는 점(커스텀 필요)이 가장 큰 블로커입니다.",
+      "normalized": {
+        "text": "고객사가 원하는 수준의 리드 스코어링 기능이 현재 리캐치에서 완벽히 구현되지 않는 점(커스텀 필요)이 가장 큰 블로커입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "고객사가 원하는 수준의 리드 스코어링 기능이 현재 리캐치에서 완벽히 구현되지 않는 점(커스텀 필요)이 가장 큰 블로커입니다.",
+          "start_char": 687,
+          "end_char": 756
+        }
+      ],
+      "dedupe_key": "action_item:39f4297caa5c211f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "권한분리를 \"기본적\"으로 제공 가능할 것으로 생각하고 있으나 커스텀이 필요합니다.",
+      "normalized": {
+        "text": "권한분리를 \"기본적\"으로 제공 가능할 것으로 생각하고 있으나 커스텀이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "권한분리를 \"기본적\"으로 제공 가능할 것으로 생각하고 있으나 커스텀이 필요합니다.",
+          "start_char": 760,
+          "end_char": 805
+        }
+      ],
+      "dedupe_key": "action_item:656bda31ed9afbfb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "User"
+          ],
+          "exact_quote": "5명",
+          "start_char": 841,
+          "end_char": 843
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "엑셀 관리의 한계를 가장 크게 느끼고 있으며, 영업 사원들의 효율적인 리드 관리를 위해 시스템 도입을 적극적으로 알아보고 있습니다.",
+      "normalized": {
+        "text": "엑셀 관리의 한계를 가장 크게 느끼고 있으며, 영업 사원들의 효율적인 리드 관리를 위해 시스템 도입을 적극적으로 알아보고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Driver 송준영 책임"
+          ],
+          "exact_quote": "엑셀 관리의 한계를 가장 크게 느끼고 있으며, 영업 사원들의 효율적인 리드 관리를 위해 시스템 도입을 적극적으로 알아보고 있습니다.",
+          "start_char": 1104,
+          "end_char": 1177
+        }
+      ],
+      "dedupe_key": "collaboration_need:8b2a7e3a02edaca7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 대형 솔루션이나 자체 개발(수억 원 단위)은 예산상 어렵다고 판단하여 SaaS 형태를 찾고 있습니다. 제안된 월 구독료 수준에는 거부감이 없으나, 초기 온보딩 비용(400만 원)에 대해서는 POC 단계에서 조정이 필요함을 시사했습니다.",
+      "normalized": {
+        "text": "기존 대형 솔루션이나 자체 개발(수억 원 단위)은 예산상 어렵다고 판단하여 SaaS 형태를 찾고 있습니다. 제안된 월 구독료 수준에는 거부감이 없으나, 초기 온보딩 비용(400만 원)에 대해서는 POC 단계에서 조정이 필요함을 시사했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "기존 대형 솔루션이나 자체 개발(수억 원 단위)은 예산상 어렵다고 판단하여 SaaS 형태를 찾고 있습니다. 제안된 월 구독료 수준에는 거부감이 없으나, 초기 온보딩 비용(400만 원)에 대해서는 POC 단계에서 조정이 필요함을 시사했습니다.",
+          "start_char": 1216,
+          "end_char": 1350
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c40e685b5a41d4c8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "EV사업팀 내부에서 도입을 결정할 권한은 있어 보이나, 보안성 검토와 관련된 부분은 전사 보안팀의 가이드라인을 따라야 하므로 이 부분이 최종 승인의 변수가 될 것입니다.",
+      "normalized": {
+        "text": "EV사업팀 내부에서 도입을 결정할 권한은 있어 보이나, 보안성 검토와 관련된 부분은 전사 보안팀의 가이드라인을 따라야 하므로 이 부분이 최종 승인의 변수가 될 것입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "Authority"
+          ],
+          "exact_quote": "EV사업팀 내부에서 도입을 결정할 권한은 있어 보이나, 보안성 검토와 관련된 부분은 전사 보안팀의 가이드라인을 따라야 하므로 이 부분이 최종 승인의 변수가 될 것입니다.",
+          "start_char": 1369,
+          "end_char": 1463
+        }
+      ],
+      "dedupe_key": "action_item:e6d3d2d94dc0f171",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B 영업으로 전환하며 잠재 고객(리드)의 우선순위를 자동으로 분류해 줄 스코어링 시스템이 절실합니다.",
+      "normalized": {
+        "text": "B2B 영업으로 전환하며 잠재 고객(리드)의 우선순위를 자동으로 분류해 줄 스코어링 시스템이 절실합니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "B2B 영업으로 전환하며 잠재 고객(리드)의 우선순위를 자동으로 분류해 줄 스코어링 시스템이 절실합니다.",
+          "start_char": 1477,
+          "end_char": 1535
+        }
+      ],
+      "dedupe_key": "collaboration_need:86f8623aeac890e9",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+      "normalized": {
+        "text": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+          "start_char": 1539,
+          "end_char": 1654
+        }
+      ],
+      "dedupe_key": "collaboration_need:0edecf5e9f208198",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+      "normalized": {
+        "text": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "또한 현장 영업직이 모바일로 쉽게 정보를 입력하고, 공사/설계 관련 파일(사진, 도면)을 업로드하여 내부와 공유할 수 있는 기능이 필요합니다. ERP는 영업 관리에 부적합하여 별도의 CRM을 찾고 있습니다.",
+          "start_char": 1539,
+          "end_char": 1654
+        }
+      ],
+      "dedupe_key": "action_item:af3a6c38da67e236",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3월 내지 늦어도 4월까지는 도입 의사결정을 마치고 시스템을 운영하고 싶어 합니다.",
+      "normalized": {
+        "text": "3월 내지 늦어도 4월까지는 도입 의사결정을 마치고 시스템을 운영하고 싶어 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "3월 내지 늦어도 4월까지는 도입 의사결정을 마치고 시스템을 운영하고 싶어 합니다.",
+          "start_char": 1670,
+          "end_char": 1716
+        }
+      ],
+      "dedupe_key": "collaboration_need:124ec1e4bd392338",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

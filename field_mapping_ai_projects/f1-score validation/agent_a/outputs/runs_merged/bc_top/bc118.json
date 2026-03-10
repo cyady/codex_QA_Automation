@@ -1,0 +1,218 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W118",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(사실 현재 면밀하게 검토를 하지는 못했는데, 메일 본문만 보고 말씀을 드려보자면)",
+      "normalized": {
+        "text": "(사실 현재 면밀하게 검토를 하지는 못했는데, 메일 본문만 보고 말씀을 드려보자면)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "(사실 현재 면밀하게 검토를 하지는 못했는데, 메일 본문만 보고 말씀을 드려보자면)",
+          "start_char": 16,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "action_item:6cf2093090c40854",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "5~10건",
+      "normalized": {
+        "min": 5.0,
+        "max": 10.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5~10건",
+          "start_char": 65,
+          "end_char": 70
+        }
+      ],
+      "dedupe_key": "case_metric:be9d852869f50ef2",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2천만 원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2천만 원",
+          "start_char": 71,
+          "end_char": 76
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200개",
+      "normalized": {
+        "value": 200,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "200개",
+          "start_char": 136,
+          "end_char": 140
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "200개",
+          "start_char": 619,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "case_metric:4b5bc16117ca9cfe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 오늘 고민을 나누어 주셨으니 도움이 되실만한 것이 있다면 또 전달드려 보도록 하겠다",
+      "normalized": {
+        "text": "- 오늘 고민을 나누어 주셨으니 도움이 되실만한 것이 있다면 또 전달드려 보도록 하겠다",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "- 오늘 고민을 나누어 주셨으니 도움이 되실만한 것이 있다면 또 전달드려 보도록 하겠다",
+          "start_char": 459,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "collaboration_need:5445ee097026d27f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ (가격을 1천만 원 까지 낮추고서라도) ROI+ 라는거 증명하면 필요한 리드목ㅍ표 200개에서 최대한 까지를 모아보시는거 어떤가. 다만 이게 쓸만하다는걸 증명했으니 대신 정가를 받는 구조로",
+      "normalized": {
+        "text": "2/ (가격을 1천만 원 까지 낮추고서라도) ROI+ 라는거 증명하면 필요한 리드목ㅍ표 200개에서 최대한 까지를 모아보시는거 어떤가. 다만 이게 쓸만하다는걸 증명했으니 대신 정가를 받는 구조로",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "2/ (가격을 1천만 원 까지 낮추고서라도) ROI+ 라는거 증명하면 필요한 리드목ㅍ표 200개에서 최대한 까지를 모아보시는거 어떤가. 다만 이게 쓸만하다는걸 증명했으니 대신 정가를 받는 구조로",
+          "start_char": 570,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "action_item:9a08f82751168bde",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 508,
+          "end_char": 512
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 746,
+          "end_char": 750
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만 원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "= 모르겠네요 대표님도 이게 생각중인 비용이 있으실텐데 .."
+          ],
+          "exact_quote": "1천만 원",
+          "start_char": 578,
+          "end_char": 583
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

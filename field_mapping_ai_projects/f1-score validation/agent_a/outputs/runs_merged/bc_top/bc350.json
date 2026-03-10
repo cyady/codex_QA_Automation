@@ -1,0 +1,168 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W350",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[논티어, 잠재매출 480만원 ~ 768만원] 직진코퍼레이션 양백진 실장님과 추가 콜 진행 cc @sales",
+      "normalized": {
+        "text": "[논티어, 잠재매출 480만원 ~ 768만원] 직진코퍼레이션 양백진 실장님과 추가 콜 진행 cc @sales",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[논티어, 잠재매출 480만원 ~ 768만원] 직진코퍼레이션 양백진 실장님과 추가 콜 진행 cc @sales",
+          "start_char": 0,
+          "end_char": 60
+        }
+      ],
+      "dedupe_key": "action_item:2e044557dc9f4ae5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 54,
+          "end_char": 60
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "480만원",
+      "normalized": {
+        "value": 4800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "480만원",
+          "start_char": 11,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "budget:717baf7fc40473f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "768만원",
+      "normalized": {
+        "value": 7680000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "768만원",
+          "start_char": 19,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "budget:89e8c49f2b007392",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1/ 대표님이 지금 홍콩 출장 중이라 본인이 궁금한 것도 있고 해서 직접 연락드렸다.2/ 대표님이 희망하신 컨설팅은 실무자라인에서 조금 내부 검토가 필요하다, 그래서 지금은 CRM 견적서만 전달해 달라.",
+      "normalized": {
+        "text": "1/ 대표님이 지금 홍콩 출장 중이라 본인이 궁금한 것도 있고 해서 직접 연락드렸다.2/ 대표님이 희망하신 컨설팅은 실무자라인에서 조금 내부 검토가 필요하다, 그래서 지금은 CRM 견적서만 전달해 달라.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1/ 대표님이 지금 홍콩 출장 중이라 본인이 궁금한 것도 있고 해서 직접 연락드렸다.2/ 대표님이 희망하신 컨설팅은 실무자라인에서 조금 내부 검토가 필요하다, 그래서 지금은 CRM 견적서만 전달해 달라.",
+          "start_char": 62,
+          "end_char": 175
+        }
+      ],
+      "dedupe_key": "action_item:d80bcdcac1e348f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 214,
+          "end_char": 217
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "직진측) 스탠다드 비용은 베이직 비교하여 약간 가격이 높은 것 같은데, 그 이유는?"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 620,
+          "end_char": 624
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

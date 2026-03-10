@@ -1,0 +1,486 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W40",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "백서 제작 및 랜딩페이지 설계 관련 구체적 제안서 전달",
+      "normalized": {
+        "text": "백서 제작 및 랜딩페이지 설계 관련 구체적 제안서 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "백서 제작 및 랜딩페이지 설계 관련 구체적 제안서 전달",
+          "start_char": 54,
+          "end_char": 84
+        }
+      ],
+      "dedupe_key": "collaboration_need:2404cd8a4503692a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 네트워크 광고·세일즈 리서치 패키지 도입 가능성 검토 요청",
+      "normalized": {
+        "text": "리멤버 네트워크 광고·세일즈 리서치 패키지 도입 가능성 검토 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리멤버 네트워크 광고·세일즈 리서치 패키지 도입 가능성 검토 요청",
+          "start_char": 85,
+          "end_char": 121
+        }
+      ],
+      "dedupe_key": "action_item:2ac4961acd029302",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "SEO/콘텐츠 CTA 최적화 방안 사례 자료 공유",
+      "normalized": {
+        "text": "SEO/콘텐츠 CTA 최적화 방안 사례 자료 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO/콘텐츠 CTA 최적화 방안 사례 자료 공유",
+          "start_char": 122,
+          "end_char": 149
+        }
+      ],
+      "dedupe_key": "collaboration_need:98454e4499b02e3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM, 백서, 랜딩페이지, 이메일 캠페인 등 사례 공유",
+      "normalized": {
+        "text": "ABM, 백서, 랜딩페이지, 이메일 캠페인 등 사례 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM, 백서, 랜딩페이지, 이메일 캠페인 등 사례 공유",
+          "start_char": 321,
+          "end_char": 352
+        }
+      ],
+      "dedupe_key": "collaboration_need:846290ec7c7d5625",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 네트워크 광고: 최소 300~500만 원 단위 비용, 내부 검토 필요",
+      "normalized": {
+        "text": "리멤버 네트워크 광고: 최소 300~500만 원 단위 비용, 내부 검토 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리멤버 네트워크 광고: 최소 300~500만 원 단위 비용, 내부 검토 필요",
+          "start_char": 454,
+          "end_char": 496
+        }
+      ],
+      "dedupe_key": "action_item:e2043b73bf5fdbaf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "단기적 비용 우려 존재하나, 대표이사 설득 시 집행 가능성 열려 있음",
+      "normalized": {
+        "text": "단기적 비용 우려 존재하나, 대표이사 설득 시 집행 가능성 열려 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "단기적 비용 우려 존재하나, 대표이사 설득 시 집행 가능성 열려 있음",
+          "start_char": 538,
+          "end_char": 576
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fa8b817494d6a8bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최종 의사결정은 대표이사 승인 필요 → 내부 설득 중요",
+      "normalized": {
+        "text": "최종 의사결정은 대표이사 승인 필요 → 내부 설득 중요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "최종 의사결정은 대표이사 승인 필요 → 내부 설득 중요",
+          "start_char": 642,
+          "end_char": 672
+        }
+      ],
+      "dedupe_key": "action_item:5617cf623ec8d4bd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "[N] Needs (상황 및 문제)",
+      "normalized": {
+        "text": "[N] Needs (상황 및 문제)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[N] Needs (상황 및 문제)",
+          "start_char": 673,
+          "end_char": 692
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cec90c20e4538a33",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기존 인맥·오프라인 박람회 중심 영업에서 인바운드 전환 필요",
+      "normalized": {
+        "text": "기존 인맥·오프라인 박람회 중심 영업에서 인바운드 전환 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "기존 인맥·오프라인 박람회 중심 영업에서 인바운드 전환 필요",
+          "start_char": 764,
+          "end_char": 797
+        }
+      ],
+      "dedupe_key": "action_item:9d46f33e73cbeb49",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "C레벨 타겟팅: 웨비나·세미나는 효과 낮음, 백서·대형 컨퍼런스 필요성 인식",
+      "normalized": {
+        "text": "C레벨 타겟팅: 웨비나·세미나는 효과 낮음, 백서·대형 컨퍼런스 필요성 인식",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "C레벨 타겟팅: 웨비나·세미나는 효과 낮음, 백서·대형 컨퍼런스 필요성 인식",
+          "start_char": 804,
+          "end_char": 846
+        }
+      ],
+      "dedupe_key": "action_item:e946562f05ef9bfd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "콘텐츠 전략: CTA 연결 부재, 고객 사례 콘텐츠 부족",
+      "normalized": {
+        "text": "콘텐츠 전략: CTA 연결 부재, 고객 사례 콘텐츠 부족",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "콘텐츠 전략: CTA 연결 부재, 고객 사례 콘텐츠 부족",
+          "start_char": 883,
+          "end_char": 914
+        }
+      ],
+      "dedupe_key": "risk_or_concern:22cb39de0e46f0b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 발굴 채널: 리멤버 네트워크 광고 검토 중이나 비용·성과 불확실성 존재",
+      "normalized": {
+        "text": "리드 발굴 채널: 리멤버 네트워크 광고 검토 중이나 비용·성과 불확실성 존재",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리드 발굴 채널: 리멤버 네트워크 광고 검토 중이나 비용·성과 불확실성 존재",
+          "start_char": 915,
+          "end_char": 957
+        }
+      ],
+      "dedupe_key": "action_item:6f634fd6a68b4059",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[T] Timeline (도입 시점)",
+      "normalized": {
+        "text": "[T] Timeline (도입 시점)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[T] Timeline (도입 시점)",
+          "start_char": 958,
+          "end_char": 978
+        }
+      ],
+      "dedupe_key": "collaboration_need:1fb09d4ce1654a9a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "단기적으로 즉각 도입보다는 검토 단계",
+      "normalized": {
+        "text": "단기적으로 즉각 도입보다는 검토 단계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "단기적으로 즉각 도입보다는 검토 단계",
+          "start_char": 979,
+          "end_char": 999
+        }
+      ],
+      "dedupe_key": "action_item:816222f325a07575",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 474,
+          "end_char": 480
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "2건",
+      "normalized": {
+        "value": 2,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2건",
+          "start_char": 1049,
+          "end_char": 1051
+        }
+      ],
+      "dedupe_key": "sales_activity:93a4823f7038ff8d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 321,
+          "end_char": 324
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 122,
+          "end_char": 125
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 293,
+          "end_char": 296
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 847,
+          "end_char": 850
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 130,
+          "end_char": 133
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 891,
+          "end_char": 894
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 366,
+          "end_char": 369
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 497,
+          "end_char": 500
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 1119,
+          "end_char": 1122
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

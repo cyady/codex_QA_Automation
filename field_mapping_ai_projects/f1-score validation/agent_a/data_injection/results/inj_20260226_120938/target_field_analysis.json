@@ -1,0 +1,184 @@
+{
+  "cases": 12,
+  "non_empty_responses": 12,
+  "target_label_exact": "[N] 상황 및 문제",
+  "target_id": "5376",
+  "hit_label_cases": 12,
+  "hit_id_cases": 12,
+  "details": [
+    {
+      "file": "001_TF-001_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "002_TF-002_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "003_TF-003_target_field_injection.json",
+      "status": 201,
+      "response_len": 3,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5557",
+        "5361",
+        "5376"
+      ],
+      "field_labels": [
+        "✅ 총 계약 금액",
+        "Next Action",
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "004_TF-004_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "005_TF-005_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "006_TF-006_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "007_TF-007_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "008_TF-008_target_field_injection.json",
+      "status": 201,
+      "response_len": 2,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376",
+        "5656"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제",
+        "결제 상품 (그로스패키지)"
+      ]
+    },
+    {
+      "file": "009_TF-009_target_field_injection.json",
+      "status": 201,
+      "response_len": 4,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5557",
+        "5374",
+        "5378",
+        "5376"
+      ],
+      "field_labels": [
+        "✅ 총 계약 금액",
+        "[B] 예산",
+        "[T] 타임라인",
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "010_TF-010_target_field_injection.json",
+      "status": 201,
+      "response_len": 3,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "1591",
+        "5361",
+        "5376"
+      ],
+      "field_labels": [
+        "첫 세일즈 미팅 일자",
+        "Next Action",
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "011_TF-011_target_field_injection.json",
+      "status": 201,
+      "response_len": 2,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5577",
+        "5376"
+      ],
+      "field_labels": [
+        "법인명",
+        "[N] 상황 및 문제"
+      ]
+    },
+    {
+      "file": "012_TF-012_target_field_injection.json",
+      "status": 201,
+      "response_len": 1,
+      "hit_target_label": true,
+      "hit_target_id_5376": true,
+      "field_ids": [
+        "5376"
+      ],
+      "field_labels": [
+        "[N] 상황 및 문제"
+      ]
+    }
+  ]
+}

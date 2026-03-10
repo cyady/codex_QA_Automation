@@ -1,0 +1,859 @@
+[
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0004",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "18명",
+    "normalized": {
+      "value": 18,
+      "unit": "people",
+      "approx": false,
+      "label_hint": "신규 팀장 수"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "TIPP을 찾게 된 배경"
+      ],
+      "exact_quote": "18명",
+      "start_char": 293,
+      "end_char": 296
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0005",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "인스타",
+    "normalized": {
+      "keyword": "인스타"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "TIPP을 찾게 된 배경"
+      ],
+      "exact_quote": "인스타",
+      "start_char": 394,
+      "end_char": 397
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0007",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "900명",
+    "normalized": {
+      "value": 900,
+      "unit": "people",
+      "approx": false,
+      "label_hint": "전체 사원수"
+    },
+    "evidence": {
+      "segment_id": "S-0009",
+      "section_path": [
+        "대상자들은 어떤 사람인지?"
+      ],
+      "exact_quote": "900명",
+      "start_char": 504,
+      "end_char": 508
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0008",
+    "semantic_type": "people_count",
+    "value_type": "number",
+    "raw_text": "6명",
+    "normalized": {
+      "value": 6,
+      "unit": "people",
+      "approx": false,
+      "label_hint": "임원 수"
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [
+        "대상자들은 어떤 사람인지?"
+      ],
+      "exact_quote": "6명",
+      "start_char": 526,
+      "end_char": 528
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0009",
+    "semantic_type": "team_size",
+    "value_type": "number_range",
+    "raw_text": "4~5명",
+    "normalized": {
+      "min": 4.0,
+      "max": 5.0,
+      "unit": "people"
+    },
+    "evidence": {
+      "segment_id": "S-0018",
+      "section_path": [
+        "대상자들은 어떤 사람인지?"
+      ],
+      "exact_quote": "4~5명",
+      "start_char": 806,
+      "end_char": 810
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0010",
+    "semantic_type": "team_size",
+    "value_type": "number_range",
+    "raw_text": "30~40명",
+    "normalized": {
+      "min": 30.0,
+      "max": 40.0,
+      "unit": "people"
+    },
+    "evidence": {
+      "segment_id": "S-0018",
+      "section_path": [
+        "대상자들은 어떤 사람인지?"
+      ],
+      "exact_quote": "30~40명",
+      "start_char": 821,
+      "end_char": 827
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0011",
+    "semantic_type": "case_metric",
+    "value_type": "number",
+    "raw_text": "4개",
+    "normalized": {
+      "value": 4,
+      "unit": "count",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0020",
+      "section_path": [
+        "전체 직무의 분포도"
+      ],
+      "exact_quote": "4개",
+      "start_char": 940,
+      "end_char": 942
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0013",
+    "semantic_type": "people_count",
+    "value_type": "number_range",
+    "raw_text": "300~400명",
+    "normalized": {
+      "min": 300.0,
+      "max": 400.0,
+      "unit": "people",
+      "label_hint": "사무직 인원"
+    },
+    "evidence": {
+      "segment_id": "S-0032",
+      "section_path": [
+        "직급"
+      ],
+      "exact_quote": "300~400명",
+      "start_char": 1748,
+      "end_char": 1756
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0014",
+    "semantic_type": "people_count",
+    "value_type": "number",
+    "raw_text": "500명",
+    "normalized": {
+      "value": 500,
+      "unit": "people",
+      "approx": false,
+      "label_hint": "사무직 인원"
+    },
+    "evidence": {
+      "segment_id": "S-0032",
+      "section_path": [
+        "직급"
+      ],
+      "exact_quote": "500명",
+      "start_char": 1738,
+      "end_char": 1742
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0015",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "200명",
+    "normalized": {
+      "value": 200,
+      "unit": "people",
+      "approx": false,
+      "label_hint": "사무직 인원"
+    },
+    "evidence": {
+      "segment_id": "S-0033",
+      "section_path": [
+        "밑으로 갈수록 인원이 적어짐"
+      ],
+      "exact_quote": "200명",
+      "start_char": 1797,
+      "end_char": 1801
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0016",
+    "semantic_type": "attrition_rate",
+    "value_type": "percentage_range",
+    "raw_text": "3~4%",
+    "normalized": {
+      "min": 0.03,
+      "max": 0.04,
+      "label_hint": "이직률"
+    },
+    "evidence": {
+      "segment_id": "S-0034",
+      "section_path": [
+        "밑으로 갈수록 인원이 적어짐"
+      ],
+      "exact_quote": "3~4%",
+      "start_char": 1855,
+      "end_char": 1859
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0023",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+    "normalized": {
+      "text": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0051",
+      "section_path": [
+        "고객사 질문: 기타 다른 교육들도 하는 지?"
+      ],
+      "exact_quote": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "start_char": 2863,
+      "end_char": 2901
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0024",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+    "normalized": {
+      "text": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0051",
+      "section_path": [
+        "고객사 질문: 기타 다른 교육들도 하는 지?"
+      ],
+      "exact_quote": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "start_char": 2863,
+      "end_char": 2901
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0025",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+    "normalized": {
+      "text": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0052",
+      "section_path": [
+        "고객사 질문: 기타 다른 교육들도 하는 지?"
+      ],
+      "exact_quote": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+      "start_char": 2905,
+      "end_char": 2933
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0026",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "면접이 1-2차가 있음",
+    "normalized": {
+      "text": "면접이 1-2차가 있음",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0053",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "면접이 1-2차가 있음",
+      "start_char": 2953,
+      "end_char": 2965
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0027",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "1차면접에서 면접관이 3명인데, 1) 지원한 직무의 현업팀장, 2) 현업실무자, 3) 인사팀",
+    "normalized": {
+      "text": "1차면접에서 면접관이 3명인데, 1) 지원한 직무의 현업팀장, 2) 현업실무자, 3) 인사팀",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0054",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "1차면접에서 면접관이 3명인데, 1) 지원한 직무의 현업팀장, 2) 현업실무자, 3) 인사팀",
+      "start_char": 2970,
+      "end_char": 3021
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0028",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "3명",
+    "normalized": {
+      "value": 3,
+      "unit": "people",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0054",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "3명",
+      "start_char": 2982,
+      "end_char": 2984
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0029",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "기존에 면접관 교육을 따로 하지 않았음",
+    "normalized": {
+      "text": "기존에 면접관 교육을 따로 하지 않았음",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0055",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "기존에 면접관 교육을 따로 하지 않았음",
+      "start_char": 3025,
+      "end_char": 3046
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0030",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+    "normalized": {
+      "text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0056",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "start_char": 3050,
+      "end_char": 3115
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0031",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+    "normalized": {
+      "text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0056",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "start_char": 3050,
+      "end_char": 3115
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0032",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "채용은 정기적으로 하는 건 아닌데, 통상 반기별로 한다",
+    "normalized": {
+      "text": "채용은 정기적으로 하는 건 아닌데, 통상 반기별로 한다",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0057",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "채용은 정기적으로 하는 건 아닌데, 통상 반기별로 한다",
+      "start_char": 3119,
+      "end_char": 3149
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0033",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "하반기는 오늘 시작해서 면접을 12월 초까지 한다",
+    "normalized": {
+      "text": "하반기는 오늘 시작해서 면접을 12월 초까지 한다",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0058",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "하반기는 오늘 시작해서 면접을 12월 초까지 한다",
+      "start_char": 3153,
+      "end_char": 3180
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0034",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "12월 초까지",
+    "normalized": {
+      "month": 12,
+      "part": "early",
+      "until": true
+    },
+    "evidence": {
+      "segment_id": "S-0058",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "12월 초까지",
+      "start_char": 3170,
+      "end_char": 3177
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0037",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "사장님이 집체교육에 대하여 “교육 돈 들여서 하는데, 이왕이면 이론 교육 같은 거 말고 실질적으로 도움이 되는 교육을 하면 좋겠다고” 피드백함",
+    "normalized": {
+      "text": "사장님이 집체교육에 대하여 “교육 돈 들여서 하는데, 이왕이면 이론 교육 같은 거 말고 실질적으로 도움이 되는 교육을 하면 좋겠다고” 피드백함",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [
+        "TIPP을 찾게 된 배경"
+      ],
+      "exact_quote": "사장님이 집체교육에 대하여 “교육 돈 들여서 하는데, 이왕이면 이론 교육 같은 거 말고 실질적으로 도움이 되는 교육을 하면 좋겠다고” 피드백함",
+      "start_char": 303,
+      "end_char": 382
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0038",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "그러던 와중에 인스타에서 “이론 교육 말고 실질적으로 도움되는 것”이라는 광고 문구를 보고 TIPP 웹사이트를 보게 되었다고 함",
+    "normalized": {
+      "text": "그러던 와중에 인스타에서 “이론 교육 말고 실질적으로 도움되는 것”이라는 광고 문구를 보고 tipp 웹사이트를 보게 되었다고 함",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "TIPP을 찾게 된 배경"
+      ],
+      "exact_quote": "그러던 와중에 인스타에서 “이론 교육 말고 실질적으로 도움되는 것”이라는 광고 문구를 보고 TIPP 웹사이트를 보게 되었다고 함",
+      "start_char": 386,
+      "end_char": 457
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0039",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "원래 교육이 없었는데, 최근 한 교육도 진짜 오랜만에 한 것이다",
+    "normalized": {
+      "text": "원래 교육이 없었는데, 최근 한 교육도 진짜 오랜만에 한 것이다",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0024",
+      "section_path": [
+        "기존 교육은 뭐고, 왜 대표님이 새로 뭘 하자고 한건지?"
+      ],
+      "exact_quote": "원래 교육이 없었는데, 최근 한 교육도 진짜 오랜만에 한 것이다",
+      "start_char": 1191,
+      "end_char": 1226
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0040",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "사장님이 팀장 역할 잘 할 수 있게끔 교육하라고 지시한 것",
+    "normalized": {
+      "text": "사장님이 팀장 역할 잘 할 수 있게끔 교육하라고 지시한 것",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0026",
+      "section_path": [
+        "기존 교육은 뭐고, 왜 대표님이 새로 뭘 하자고 한건지?"
+      ],
+      "exact_quote": "사장님이 팀장 역할 잘 할 수 있게끔 교육하라고 지시한 것",
+      "start_char": 1271,
+      "end_char": 1303
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0041",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "오래하신 분들은 팀장 교육을 받거나 그렇지는 않았을 것(연차가 쌓이다 보니 그 역할을 하게 된 것). 사실 인사팀 관점에서는 제대로 리더 역할을 하고 있는 지는 의문이다",
+    "normalized": {
+      "text": "오래하신 분들은 팀장 교육을 받거나 그렇지는 않았을 것(연차가 쌓이다 보니 그 역할을 하게 된 것). 사실 인사팀 관점에서는 제대로 리더 역할을 하고 있는 지는 의문이다",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0028",
+      "section_path": [
+        "대표는 리더들에게 어떤 점을 성장하라고 한 것인지? 신규 리더인지, 기존 리더인지?"
+      ],
+      "exact_quote": "오래하신 분들은 팀장 교육을 받거나 그렇지는 않았을 것(연차가 쌓이다 보니 그 역할을 하게 된 것). 사실 인사팀 관점에서는 제대로 리더 역할을 하고 있는 지는 의문이다",
+      "start_char": 1413,
+      "end_char": 1507
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0043",
+    "semantic_type": "kpi_definition",
+    "value_type": "text",
+    "raw_text": "저희가 일대일 면담 하고 하는 문화가 없음 > 성과 평가 해도 면담 같은 걸 일절 안 한다",
+    "normalized": {
+      "text": "저희가 일대일 면담 하고 하는 문화가 없음 > 성과 평가 해도 면담 같은 걸 일절 안 한다",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0038",
+      "section_path": [
+        "만약 도입을 한다면?"
+      ],
+      "exact_quote": "저희가 일대일 면담 하고 하는 문화가 없음 > 성과 평가 해도 면담 같은 걸 일절 안 한다",
+      "start_char": 2018,
+      "end_char": 2068
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0044",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "저희가 보통 연초에 연간 교육계획을 세움",
+    "normalized": {
+      "text": "저희가 보통 연초에 연간 교육계획을 세움",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0039",
+      "section_path": [
+        "도입을 하는 게 그려지시는 지?"
+      ],
+      "exact_quote": "저희가 보통 연초에 연간 교육계획을 세움",
+      "start_char": 2096,
+      "end_char": 2118
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0046",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "수석님이 교육담당자이기는 한데 채용도 직접하고 있음(일년의 업무 반을 채용만 하고 있음… 이렇게 말하면 팀장님이나 위에서 담당자니깐 잘하라고 하는데… 내가 시간이 없는데 TT )",
+    "normalized": {
+      "text": "수석님이 교육담당자이기는 한데 채용도 직접하고 있음(일년의 업무 반을 채용만 하고 있음… 이렇게 말하면 팀장님이나 위에서 담당자니깐 잘하라고 하는데… 내가 시간이 없는데 tt )",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0041",
+      "section_path": [
+        "도입을 하는 게 그려지시는 지?"
+      ],
+      "exact_quote": "수석님이 교육담당자이기는 한데 채용도 직접하고 있음(일년의 업무 반을 채용만 하고 있음… 이렇게 말하면 팀장님이나 위에서 담당자니깐 잘하라고 하는데… 내가 시간이 없는데 TT )",
+      "start_char": 2176,
+      "end_char": 2275
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0049",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+    "normalized": {
+      "text": "stx엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0051",
+      "section_path": [
+        "고객사 질문: 기타 다른 교육들도 하는 지?"
+      ],
+      "exact_quote": "STX엔진은 승진자 교육, 신입사원 교육 말고 진행하는 게 없다고 함",
+      "start_char": 2863,
+      "end_char": 2901
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0050",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+    "normalized": {
+      "text": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0052",
+      "section_path": [
+        "고객사 질문: 기타 다른 교육들도 하는 지?"
+      ],
+      "exact_quote": "예를들면, 면접관 교육 같은 것도 있는 지를 물어봄",
+      "start_char": 2905,
+      "end_char": 2933
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0051",
+    "semantic_type": "deliverable_scope",
+    "value_type": "text",
+    "raw_text": "기존에 면접관 교육을 따로 하지 않았음",
+    "normalized": {
+      "text": "기존에 면접관 교육을 따로 하지 않았음",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0055",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "기존에 면접관 교육을 따로 하지 않았음",
+      "start_char": 3025,
+      "end_char": 3046
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W1",
+    "candidate_id": "C-0052",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+    "normalized": {
+      "text": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "source": "manual_rule_v1"
+    },
+    "evidence": {
+      "segment_id": "S-0056",
+      "section_path": [
+        "면접관 교육의 니즈"
+      ],
+      "exact_quote": "팀장들이야 몇번 들어가서 그냥 하겠지만, 실무자들은 경험없이 들어갈 때 처음 면접관이 되다보니 이런 데 도움이 필요함",
+      "start_char": 3050,
+      "end_char": 3115
+    },
+    "fn_candidate": true,
+    "suggested_fields": [],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

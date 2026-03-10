@@ -1,0 +1,298 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W78",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 4:44 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 4,
+        "minute": 44,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 4:44 ",
+          "start_char": 26,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "timeline:2763e496a08fed56",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.03",
+      "normalized": {
+        "expression": "2025.09.03"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.03",
+          "start_char": 13,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "timeline:4f82ebe0d25b6a08",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 102,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일단은 뭐 거기 써져 있는 내용 그대로 AI 를 통해서 비투비 마케팅 할 수 있다고 해가지고 그 부분이 되게 기대되고 사실 저희가 아직 도메인이나 이런 게 정해 그러니까 적극적으로 하지 않고 있다 보니까 이제 막 진행하려는 부분에서 뭔가 효율적인 방법을 이제 좀 찾고 있어가지고 그래서 이제 신청드리게 된 거거든요.",
+      "normalized": {
+        "text": "일단은 뭐 거기 써져 있는 내용 그대로 AI 를 통해서 비투비 마케팅 할 수 있다고 해가지고 그 부분이 되게 기대되고 사실 저희가 아직 도메인이나 이런 게 정해 그러니까 적극적으로 하지 않고 있다 보니까 이제 막 진행하려는 부분에서 뭔가 효율적인 방법을 이제 좀 찾고 있어가지고 그래서 이제 신청드리게 된 거거든요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "일단은 뭐 거기 써져 있는 내용 그대로 AI 를 통해서 비투비 마케팅 할 수 있다고 해가지고 그 부분이 되게 기대되고 사실 저희가 아직 도메인이나 이런 게 정해 그러니까 적극적으로 하지 않고 있다 보니까 이제 막 진행하려는 부분에서 뭔가 효율적인 방법을 이제 좀 찾고 있어가지고 그래서 이제 신청드리게 된 거거든요.",
+          "start_char": 282,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "action_item:5da770d613c38a5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네 그 폼 내용 보면은 웹사이트 주소를 안 적어주셨던데 네네 그럼 지금 마케팅을 진행하고 계시지 않은 거죠?",
+      "normalized": {
+        "text": "네 그 폼 내용 보면은 웹사이트 주소를 안 적어주셨던데 네네 그럼 지금 마케팅을 진행하고 계시지 않은 거죠?",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "네 그 폼 내용 보면은 웹사이트 주소를 안 적어주셨던데 네네 그럼 지금 마케팅을 진행하고 계시지 않은 거죠?",
+          "start_char": 460,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "action_item:8db7bf704330e1a0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아니요. 캐시노트라는 한국 곳에서 진행을 하고 있고 이게 저희가 다른 법인이다 보니까 네 나눠져 있어가지고 일단 도메인은 없어가지고 그렇게 적은 거긴 하거든요.",
+      "normalized": {
+        "text": "아니요. 캐시노트라는 한국 곳에서 진행을 하고 있고 이게 저희가 다른 법인이다 보니까 네 나눠져 있어가지고 일단 도메인은 없어가지고 그렇게 적은 거긴 하거든요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "아니요. 캐시노트라는 한국 곳에서 진행을 하고 있고 이게 저희가 다른 법인이다 보니까 네 나눠져 있어가지고 일단 도메인은 없어가지고 그렇게 적은 거긴 하거든요.",
+          "start_char": 522,
+          "end_char": 611
+        }
+      ],
+      "dedupe_key": "action_item:462da40aaa725339",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "블로그나 이메일 뉴스레터 같은"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 721,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러면은 9월 18일에 코엑스에서 진행되는 일정도 참여 가능하시고요.",
+      "normalized": {
+        "text": "그러면은 9월 18일에 코엑스에서 진행되는 일정도 참여 가능하시고요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "아 네네"
+          ],
+          "exact_quote": "그러면은 9월 18일에 코엑스에서 진행되는 일정도 참여 가능하시고요.",
+          "start_char": 1053,
+          "end_char": 1091
+        }
+      ],
+      "dedupe_key": "action_item:7f5b26119381c36a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 18일",
+      "normalized": {
+        "month": 9,
+        "day": 18
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "아 네네"
+          ],
+          "exact_quote": "9월 18일",
+          "start_char": 1058,
+          "end_char": 1064
+        }
+      ],
+      "dedupe_key": "timeline:46259edec4628701",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "아 네네"
+          ],
+          "exact_quote": "18일",
+          "start_char": 1061,
+          "end_char": 1064
+        }
+      ],
+      "dedupe_key": "duration:37571e0d7b3d26c5",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "아 네네"
+          ],
+          "exact_quote": "2명",
+          "start_char": 1096,
+          "end_char": 1098
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러면은 참석 혹시 확정되시면은 제가 메일로 관련 내용 보내드릴게요.",
+      "normalized": {
+        "text": "그러면은 참석 혹시 확정되시면은 제가 메일로 관련 내용 보내드릴게요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "맞아요 맞아요"
+          ],
+          "exact_quote": "그러면은 참석 혹시 확정되시면은 제가 메일로 관련 내용 보내드릴게요.",
+          "start_char": 1117,
+          "end_char": 1155
+        }
+      ],
+      "dedupe_key": "action_item:b00d2e8daeea4a12",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

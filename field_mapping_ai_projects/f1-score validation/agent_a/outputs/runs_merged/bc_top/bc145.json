@@ -1,0 +1,419 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W145",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0924 미팅 정리 @sales(1) NDA 체결필요마케팅 협업과 하타리마 상품은 분리해야 함",
+      "normalized": {
+        "text": "0924 미팅 정리 @sales(1) NDA 체결필요마케팅 협업과 하타리마 상품은 분리해야 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "0924 미팅 정리 @sales(1) NDA 체결필요마케팅 협업과 하타리마 상품은 분리해야 함",
+          "start_char": 10,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "action_item:9221a7f924e1c338",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(2) 마케팅 협업은 빠른진행 > 대표 간 협업 공식화",
+      "normalized": {
+        "text": "(2) 마케팅 협업은 빠른진행 > 대표 간 협업 공식화",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "(2) 마케팅 협업은 빠른진행 > 대표 간 협업 공식화",
+          "start_char": 63,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "action_item:c1d7952606694ad0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[인핸스 PO 인터뷰 > 콘텐츠 화] 를 속도감 있게 진행하기로; 콘텐츠 선제안 @김여경(Kristine) @황하운 (Hazel)",
+      "normalized": {
+        "text": "[인핸스 PO 인터뷰 > 콘텐츠 화] 를 속도감 있게 진행하기로; 콘텐츠 선제안 @김여경(Kristine) @황하운 (Hazel)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[인핸스 PO 인터뷰 > 콘텐츠 화] 를 속도감 있게 진행하기로; 콘텐츠 선제안 @김여경(Kristine) @황하운 (Hazel)",
+          "start_char": 151,
+          "end_char": 223
+        }
+      ],
+      "dedupe_key": "action_item:de3bf4ebc6e4bc55",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "추석 전후 양사 대표간 '마케팅 협업'을 공식화 함 @강대웅(Dario) @김우진(Woojin Andy Kim)",
+      "normalized": {
+        "text": "추석 전후 양사 대표간 '마케팅 협업'을 공식화 함 @강대웅(Dario) @김우진(Woojin Andy Kim)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "추석 전후 양사 대표간 '마케팅 협업'을 공식화 함 @강대웅(Dario) @김우진(Woojin Andy Kim)",
+          "start_char": 301,
+          "end_char": 363
+        }
+      ],
+      "dedupe_key": "collaboration_need:485c6025225ec461",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 21,
+          "end_char": 27
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김여경",
+      "normalized": {
+        "name": "김여경"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김여경",
+          "start_char": 196,
+          "end_char": 200
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:92bcae0f00c222f1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 211,
+          "end_char": 215
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 330,
+          "end_char": 334
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 676,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 342,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(3) 하타리마는 제안 여부 (지금대로면 비싸서 안살 듯) > 제안 진행",
+      "normalized": {
+        "text": "(3) 하타리마는 제안 여부 (지금대로면 비싸서 안살 듯) > 제안 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "(3) 하타리마는 제안 여부 (지금대로면 비싸서 안살 듯) > 제안 진행",
+          "start_char": 365,
+          "end_char": 405
+        }
+      ],
+      "dedupe_key": "action_item:fe36aed9f450b23b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(LTV예측) (Max) 인건비 절감액 으로 산출 시 월 1천 연 1.2억 (가능), (Min) 앰플리튜드가 연2천 인데? 연 1천, 월 80만 .. (불가)",
+      "normalized": {
+        "text": "(LTV예측) (Max) 인건비 절감액 으로 산출 시 월 1천 연 1.2억 (가능), (Min) 앰플리튜드가 연2천 인데? 연 1천, 월 80만 .. (불가)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "(LTV예측) (Max) 인건비 절감액 으로 산출 시 월 1천 연 1.2억 (가능), (Min) 앰플리튜드가 연2천 인데? 연 1천, 월 80만 .. (불가)",
+          "start_char": 777,
+          "end_char": 865
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f6eda1f128e831f5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "4~5개",
+      "normalized": {
+        "min": 4.0,
+        "max": 5.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "4~5개",
+          "start_char": 744,
+          "end_char": 748
+        }
+      ],
+      "dedupe_key": "case_metric:a7843c2fbc3791c0",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "5천만 원",
+          "start_char": 753,
+          "end_char": 758
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 770,
+          "end_char": 776
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "400개",
+      "normalized": {
+        "value": 400,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "400개",
+          "start_char": 619,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "case_metric:01b3df4b2fb9a89d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "240개",
+      "normalized": {
+        "value": 240,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "240개",
+          "start_char": 714,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "case_metric:6efab1df0b833328",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "24개",
+      "normalized": {
+        "value": 24,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "24개",
+          "start_char": 728,
+          "end_char": 731
+        }
+      ],
+      "dedupe_key": "case_metric:d0c2b5a2dc71e493",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "판매하려는 SaaS 형 상품의 LTV가 낮아 판매 단가가 문제라면; 일반적인 SI 상품의 판매를 제안하는 편이 나을 수 있음",
+      "normalized": {
+        "text": "판매하려는 SaaS 형 상품의 LTV가 낮아 판매 단가가 문제라면; 일반적인 SI 상품의 판매를 제안하는 편이 나을 수 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "판매 시도를 해보고도 파트너십의 의미가 퇴색되지 않도록 관리 잘 해보자?"
+          ],
+          "exact_quote": "판매하려는 SaaS 형 상품의 LTV가 낮아 판매 단가가 문제라면; 일반적인 SI 상품의 판매를 제안하는 편이 나을 수 있음",
+          "start_char": 1148,
+          "end_char": 1217
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b4636381f092df05",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

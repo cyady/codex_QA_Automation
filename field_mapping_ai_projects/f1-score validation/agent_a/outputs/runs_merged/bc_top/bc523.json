@@ -1,0 +1,578 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W523",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12.83",
+      "normalized": {
+        "year": 2012,
+        "month": 83,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "12.83",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:f678a09a23e00be7",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어3, 잠재매출 300만원 ~ 2000만원] 태양3C 글로벌 GTM 미팅 공유 cc @sales",
+      "normalized": {
+        "text": "[티어3, 잠재매출 300만원 ~ 2000만원] 태양3C 글로벌 GTM 미팅 공유 cc @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[티어3, 잠재매출 300만원 ~ 2000만원] 태양3C 글로벌 GTM 미팅 공유 cc @sales",
+          "start_char": 125,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "collaboration_need:4f5c885d8120caf7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 174,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 136,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2000만원",
+          "start_char": 144,
+          "end_char": 150
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 182,
+          "end_char": 186
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 229,
+          "end_char": 233
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 256,
+          "end_char": 259
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사는 유럽/인도 시장의 방열 소재(Thermal Pad) 수출을 위해 콜드 메일링을 시도 중이나, '미팅 전환율 저조'와 '전시회 사전 미팅 수립'에 대한 페인 포인트가 명확함.",
+      "normalized": {
+        "text": "고객사는 유럽/인도 시장의 방열 소재(Thermal Pad) 수출을 위해 콜드 메일링을 시도 중이나, '미팅 전환율 저조'와 '전시회 사전 미팅 수립'에 대한 페인 포인트가 명확함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "고객사는 유럽/인도 시장의 방열 소재(Thermal Pad) 수출을 위해 콜드 메일링을 시도 중이나, '미팅 전환율 저조'와 '전시회 사전 미팅 수립'에 대한 페인 포인트가 명확함.",
+          "start_char": 317,
+          "end_char": 418
+        }
+      ],
+      "dedupe_key": "action_item:623843a23cf72ca6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 430,
+          "end_char": 436
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 1080,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 473,
+          "end_char": 479
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 1180,
+          "end_char": 1186
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 424,
+          "end_char": 427
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1074,
+          "end_char": 1077
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "콜드 메일링 고도화 :현재 자체적으로 아폴로 등을 사용해 메일을 보내고 있으나, 오픈은 되어도 회신(CTA)으로 이어지지 않는 문제 발생.",
+      "normalized": {
+        "text": "콜드 메일링 고도화 :현재 자체적으로 아폴로 등을 사용해 메일을 보내고 있으나, 오픈은 되어도 회신(CTA)으로 이어지지 않는 문제 발생.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "콜드 메일링 고도화 :현재 자체적으로 아폴로 등을 사용해 메일을 보내고 있으나, 오픈은 되어도 회신(CTA)으로 이어지지 않는 문제 발생.",
+          "start_char": 668,
+          "end_char": 745
+        }
+      ],
+      "dedupe_key": "risk_or_concern:242fb2a0394bd45f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 724,
+          "end_char": 727
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전시회 연계 미팅 확보 :'The Battery Show', 'ABX' 등 전시회 참관 전, 잠재 바이어와 사전에 연락해 현장에서 미팅을 잡는 방안 제안",
+      "normalized": {
+        "text": "전시회 연계 미팅 확보 :'The Battery Show', 'ABX' 등 전시회 참관 전, 잠재 바이어와 사전에 연락해 현장에서 미팅을 잡는 방안 제안",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "전시회 연계 미팅 확보 :'The Battery Show', 'ABX' 등 전시회 참관 전, 잠재 바이어와 사전에 연락해 현장에서 미팅을 잡는 방안 제안",
+          "start_char": 818,
+          "end_char": 903
+        }
+      ],
+      "dedupe_key": "collaboration_need:cdf3ee0e322b1291",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "장기적 니즈 :방열 소재 사업(매출비중 낮음) 외에 케이블 사업에 대한 USP 정리 및 글로벌 마케팅 플레이북이 부재하여 이에 대한 컨설팅 니즈도 잠재되어 있음.",
+      "normalized": {
+        "text": "장기적 니즈 :방열 소재 사업(매출비중 낮음) 외에 케이블 사업에 대한 USP 정리 및 글로벌 마케팅 플레이북이 부재하여 이에 대한 컨설팅 니즈도 잠재되어 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "장기적 니즈 :방열 소재 사업(매출비중 낮음) 외에 케이블 사업에 대한 USP 정리 및 글로벌 마케팅 플레이북이 부재하여 이에 대한 컨설팅 니즈도 잠재되어 있음.",
+          "start_char": 953,
+          "end_char": 1043
+        }
+      ],
+      "dedupe_key": "risk_or_concern:039450d9f17e4808",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만 원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "100만 원",
+          "start_char": 1173,
+          "end_char": 1179
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "부사장- 실질적인 전략 방향을 결정하고 예산 집행을 조율하는 핵심 임원. 해외 수출 경험이 풍부하며 마케팅의 필요성을 인지하고 있음.",
+      "normalized": {
+        "text": "부사장- 실질적인 전략 방향을 결정하고 예산 집행을 조율하는 핵심 임원. 해외 수출 경험이 풍부하며 마케팅의 필요성을 인지하고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "Authority"
+          ],
+          "exact_quote": "부사장- 실질적인 전략 방향을 결정하고 예산 집행을 조율하는 핵심 임원. 해외 수출 경험이 풍부하며 마케팅의 필요성을 인지하고 있음.",
+          "start_char": 1279,
+          "end_char": 1353
+        }
+      ],
+      "dedupe_key": "action_item:036a9a6f00314ac8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전시회 일정: 향후 참관 예정인 배터리 관련 전시회(The Battery Show 등) 일정에 맞춰 사전 리드 발굴 및 컨택 작업이 필요함.",
+      "normalized": {
+        "text": "전시회 일정: 향후 참관 예정인 배터리 관련 전시회(The Battery Show 등) 일정에 맞춰 사전 리드 발굴 및 컨택 작업이 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "전시회 일정: 향후 참관 예정인 배터리 관련 전시회(The Battery Show 등) 일정에 맞춰 사전 리드 발굴 및 컨택 작업이 필요함.",
+          "start_char": 1393,
+          "end_char": 1471
+        }
+      ],
+      "dedupe_key": "action_item:eca142a17ac2aa60",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 상황: 이미 내부적으로 리드 수집 및 메일링을 진행 중이나 성과가 더뎌, 개선책 도입이 시급함.",
+      "normalized": {
+        "text": "현재 상황: 이미 내부적으로 리드 수집 및 메일링을 진행 중이나 성과가 더뎌, 개선책 도입이 시급함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "현재 상황: 이미 내부적으로 리드 수집 및 메일링을 진행 중이나 성과가 더뎌, 개선책 도입이 시급함.",
+          "start_char": 1475,
+          "end_char": 1531
+        }
+      ],
+      "dedupe_key": "action_item:49c3efaa1acb3bae",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Follow-up: 트로이 말론(Troy Malone) 인사이트 세션 초대 및 금일 미팅 요약 메일 발송",
+      "normalized": {
+        "text": "Follow-up: 트로이 말론(Troy Malone) 인사이트 세션 초대 및 금일 미팅 요약 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Next Steps"
+          ],
+          "exact_quote": "Follow-up: 트로이 말론(Troy Malone) 인사이트 세션 초대 및 금일 미팅 요약 메일 발송",
+          "start_char": 1551,
+          "end_char": 1609
+        }
+      ],
+      "dedupe_key": "action_item:28414f30ded9958b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소규모 패키지(리드 발굴 + 우선순위화) 견적 제안 필요",
+      "normalized": {
+        "text": "소규모 패키지(리드 발굴 + 우선순위화) 견적 제안 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Next Steps"
+          ],
+          "exact_quote": "소규모 패키지(리드 발굴 + 우선순위화) 견적 제안 필요",
+          "start_char": 1613,
+          "end_char": 1644
+        }
+      ],
+      "dedupe_key": "action_item:7cfbef5669fd3b65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "자료 공유: 유럽/미주 시장에 최적화된 랜딩 페이지 및 세일즈 덱(Sales Deck) 관련 레퍼런스 어필",
+      "normalized": {
+        "text": "자료 공유: 유럽/미주 시장에 최적화된 랜딩 페이지 및 세일즈 덱(Sales Deck) 관련 레퍼런스 어필",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "Next Steps"
+          ],
+          "exact_quote": "자료 공유: 유럽/미주 시장에 최적화된 랜딩 페이지 및 세일즈 덱(Sales Deck) 관련 레퍼런스 어필",
+          "start_char": 1648,
+          "end_char": 1707
+        }
+      ],
+      "dedupe_key": "collaboration_need:50f85f3752061bd2",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

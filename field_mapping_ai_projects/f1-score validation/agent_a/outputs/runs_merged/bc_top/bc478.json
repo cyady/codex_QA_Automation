@@ -1,0 +1,212 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W478",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 25,
+          "end_char": 30
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 84,
+          "end_char": 89
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 273,
+          "end_char": 278
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 502,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-프로젝트 \"배경\"에 Grace가 센싱해준 것처럼 네이버 키워드/베너 광고 등 B2B 맞춤형 리드젠 마케팅 활동이 부재하여 ROI가 낮았다 라고 쓰기.",
+      "normalized": {
+        "text": "-프로젝트 \"배경\"에 Grace가 센싱해준 것처럼 네이버 키워드/베너 광고 등 B2B 맞춤형 리드젠 마케팅 활동이 부재하여 ROI가 낮았다 라고 쓰기.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "-프로젝트 \"배경\"에 Grace가 센싱해준 것처럼 네이버 키워드/베너 광고 등 B2B 맞춤형 리드젠 마케팅 활동이 부재하여 ROI가 낮았다 라고 쓰기.",
+          "start_char": 141,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "risk_or_concern:56e3cf85c1570a59",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1/27",
+      "normalized": {
+        "month": 1,
+        "day": 27,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "1/27",
+          "start_char": 122,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "timeline:ac141a3ac1e66e6f",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-Blocker: 추가 식별 필요 ; 예산 2,400만원 정도는 활용 가능함.",
+      "normalized": {
+        "text": "-Blocker: 추가 식별 필요 ; 예산 2,400만원 정도는 활용 가능함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "-Blocker: 추가 식별 필요 ; 예산 2,400만원 정도는 활용 가능함.",
+          "start_char": 247,
+          "end_char": 290
+        }
+      ],
+      "dedupe_key": "action_item:54fdbf31cee16445",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-Driver: 최원석 대리님 (한국지사의 마케팅을 최원석 대리님 혼자 맡아서 총괄하고 있음) ; PR에이전시가 전 회사였고, 중장기적 B2B 마케팅 퍼널 구축에 대한 필요성에 대해 스스로 인지하고 있음.",
+      "normalized": {
+        "text": "-Driver: 최원석 대리님 (한국지사의 마케팅을 최원석 대리님 혼자 맡아서 총괄하고 있음) ; PR에이전시가 전 회사였고, 중장기적 B2B 마케팅 퍼널 구축에 대한 필요성에 대해 스스로 인지하고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "-Driver: 최원석 대리님 (한국지사의 마케팅을 최원석 대리님 혼자 맡아서 총괄하고 있음) ; PR에이전시가 전 회사였고, 중장기적 B2B 마케팅 퍼널 구축에 대한 필요성에 대해 스스로 인지하고 있음.",
+          "start_char": 356,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "action_item:5771670b9358a162",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1/28(수)",
+      "normalized": {
+        "month": 1,
+        "day": 28,
+        "kind": "month_day",
+        "weekday_ko": "수"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "1/28(수)",
+          "start_char": 333,
+          "end_char": 340
+        }
+      ],
+      "dedupe_key": "timeline:8955c6ceeb606351",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 633,
+          "end_char": 636
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 671,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

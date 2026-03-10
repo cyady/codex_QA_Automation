@@ -1,0 +1,144 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W252",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "금요일은 부득이하게 시간 확정이 조금 어렵습니다.",
+      "normalized": {
+        "text": "금요일은 부득이하게 시간 확정이 조금 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "금요일은 부득이하게 시간 확정이 조금 어렵습니다.",
+          "start_char": 279,
+          "end_char": 306
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c80a51601329174c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리더 워크샵이 진행 될 예정이라서요. 아직 일정 확정이 안되었어요. 어떡하죠? 다른 날이면 좋을텐데요.그리고 내부적으로 '리캐치' 도입은 진행할 것으로 보여집니다.",
+      "normalized": {
+        "text": "리더 워크샵이 진행 될 예정이라서요. 아직 일정 확정이 안되었어요. 어떡하죠? 다른 날이면 좋을텐데요.그리고 내부적으로 '리캐치' 도입은 진행할 것으로 보여집니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리더 워크샵이 진행 될 예정이라서요. 아직 일정 확정이 안되었어요. 어떡하죠? 다른 날이면 좋을텐데요.그리고 내부적으로 '리캐치' 도입은 진행할 것으로 보여집니다.",
+          "start_char": 307,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "action_item:a93cb16f9923f362",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "다만 시기가 문제가 제가 어떻게 보고를 해야하는지인데요.",
+      "normalized": {
+        "text": "다만 시기가 문제가 제가 어떻게 보고를 해야하는지인데요.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "다만 시기가 문제가 제가 어떻게 보고를 해야하는지인데요.",
+          "start_char": 399,
+          "end_char": 430
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6bc1b9150ce74795",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 84,
+          "end_char": 90
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "약 1000만원",
+          "start_char": 22,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 375,
+          "end_char": 378
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

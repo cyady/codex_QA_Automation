@@ -1,0 +1,485 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W84",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 4:03 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 4,
+        "minute": 3,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 4:03 ",
+          "start_char": 22,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "timeline:3593698043d13f2b",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.04",
+      "normalized": {
+        "expression": "2025.09.04"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.04",
+          "start_char": 9,
+          "end_char": 19
+        }
+      ],
+      "dedupe_key": "timeline:667a8e401ec44550",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "아 예 안녕"
+          ],
+          "exact_quote": "2명",
+          "start_char": 266,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 348,
+          "end_char": 351
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 367,
+          "end_char": 370
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 464,
+          "end_char": 467
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 343,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 540,
+          "end_char": 543
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 763,
+          "end_char": 766
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "그러시구나 그러면은 혹시 전체적으로 디자인 쪽을 개편하고 싶으신 걸까요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2007,
+          "end_char": 2010
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 25일",
+      "normalized": {
+        "month": 9,
+        "day": 25
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "9월 25일",
+          "start_char": 878,
+          "end_char": 884
+        }
+      ],
+      "dedupe_key": "timeline:1aba9bb62710f6f0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "1 대 1 그게 뭐예요?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 881,
+          "end_char": 884
+        }
+      ],
+      "dedupe_key": "duration:698d4f9a6eb2d4a7",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "9월 25일이면 얼마 정도 시간 동안 진행되는 건가요?"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1068,
+          "end_char": 1072
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "2주",
+          "start_char": 1577,
+          "end_char": 1579
+        },
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "2주",
+          "start_char": 1621,
+          "end_char": 1623
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10건",
+      "normalized": {
+        "value": 10,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "10건",
+          "start_char": 1583,
+          "end_char": 1586
+        },
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "10건",
+          "start_char": 1592,
+          "end_char": 1595
+        },
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "10건",
+          "start_char": 1632,
+          "end_char": 1635
+        }
+      ],
+      "dedupe_key": "case_metric:958aee4213f2d148",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5건",
+      "normalized": {
+        "value": 5,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "저희는 이거 통해서 샘플 신청"
+          ],
+          "exact_quote": "5건",
+          "start_char": 1627,
+          "end_char": 1629
+        }
+      ],
+      "dedupe_key": "case_metric:f92d6c1dc8d2a584",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "일단 h 태그가 가장 큰 문제고요. 왜냐하면",
+      "normalized": {
+        "text": "일단 h 태그가 가장 큰 문제고요. 왜냐하면",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "그러니까 치태그부터"
+          ],
+          "exact_quote": "일단 h 태그가 가장 큰 문제고요. 왜냐하면",
+          "start_char": 2289,
+          "end_char": 2313
+        }
+      ],
+      "dedupe_key": "risk_or_concern:473d6088d9e3964d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예 알겠습니다. 그럼 지금 보내주신 내용 토대로 만약에 그거 결제하게 되면 결제 창은 결제는 어떤 방식으로 진행되나요?",
+      "normalized": {
+        "text": "예 알겠습니다. 그럼 지금 보내주신 내용 토대로 만약에 그거 결제하게 되면 결제 창은 결제는 어떤 방식으로 진행되나요?",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0052",
+          "section_path": [
+            "거기도 그날 다 수업이"
+          ],
+          "exact_quote": "예 알겠습니다. 그럼 지금 보내주신 내용 토대로 만약에 그거 결제하게 되면 결제 창은 결제는 어떤 방식으로 진행되나요?",
+          "start_char": 2955,
+          "end_char": 3021
+        }
+      ],
+      "dedupe_key": "action_item:c2561c098b4c32d0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "혹시 확정되시면 저한테 문자 날려주시면 제가 메일로 보내드릴게요.",
+      "normalized": {
+        "text": "혹시 확정되시면 저한테 문자 날려주시면 제가 메일로 보내드릴게요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0053",
+          "section_path": [
+            "거기도 그날 다 수업이"
+          ],
+          "exact_quote": "혹시 확정되시면 저한테 문자 날려주시면 제가 메일로 보내드릴게요.",
+          "start_char": 3023,
+          "end_char": 3059
+        }
+      ],
+      "dedupe_key": "action_item:9e90f6c0fde11b7e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희는 계약서 진행하고 계좌 이체를 진행하고 있어요.",
+      "normalized": {
+        "text": "저희는 계약서 진행하고 계좌 이체를 진행하고 있어요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0054",
+          "section_path": [
+            "그러면 거기에서 카드로 결제하면 되는 건가요?"
+          ],
+          "exact_quote": "저희는 계약서 진행하고 계좌 이체를 진행하고 있어요.",
+          "start_char": 3088,
+          "end_char": 3117
+        }
+      ],
+      "dedupe_key": "action_item:55e14be4600fbd12",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0062",
+          "section_path": [
+            "진짜 10팀만 하나요? 아니면 더 하는데 그냥 10팀이라고 하신 건가요?"
+          ],
+          "exact_quote": "2명",
+          "start_char": 3359,
+          "end_char": 3361
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

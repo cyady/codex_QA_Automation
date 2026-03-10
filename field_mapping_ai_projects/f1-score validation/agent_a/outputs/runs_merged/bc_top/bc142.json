@@ -1,0 +1,624 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W142",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1/ 리캐치 x 아웃컴: 글로벌 바이어 발굴 및 GTM(Go-To-Market) 솔루션1. 프로그램 도입 목적",
+      "normalized": {
+        "text": "1/ 리캐치 x 아웃컴: 글로벌 바이어 발굴 및 GTM(Go-To-Market) 솔루션1. 프로그램 도입 목적",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1/ 리캐치 x 아웃컴: 글로벌 바이어 발굴 및 GTM(Go-To-Market) 솔루션1. 프로그램 도입 목적",
+          "start_char": 9,
+          "end_char": 70
+        }
+      ],
+      "dedupe_key": "collaboration_need:1c685c5b7c2c13f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 12,
+          "end_char": 15
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 220,
+          "end_char": 223
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 350,
+          "end_char": 353
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 728,
+          "end_char": 731
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "대면 전략 점검 (매월)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1587,
+          "end_char": 1590
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "한국 기업은 뛰어난 제품 경쟁력을 보유하고 있음에도, 해외 바이어와의 접점을 찾지 못해 시장 진출에 난항을 겪는 경우가 많습니다. 기존의 광고나 전시회 중심 방식은 비용 대비 효율(ROI)이 낮고, 실질적인 의사결정권자에게 도달하기 어렵다는 한계가 있습니다.",
+      "normalized": {
+        "text": "한국 기업은 뛰어난 제품 경쟁력을 보유하고 있음에도, 해외 바이어와의 접점을 찾지 못해 시장 진출에 난항을 겪는 경우가 많습니다. 기존의 광고나 전시회 중심 방식은 비용 대비 효율(ROI)이 낮고, 실질적인 의사결정권자에게 도달하기 어렵다는 한계가 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "한국 기업은 뛰어난 제품 경쟁력을 보유하고 있음에도, 해외 바이어와의 접점을 찾지 못해 시장 진출에 난항을 겪는 경우가 많습니다. 기존의 광고나 전시회 중심 방식은 비용 대비 효율(ROI)이 낮고, 실질적인 의사결정권자에게 도달하기 어렵다는 한계가 있습니다.",
+          "start_char": 73,
+          "end_char": 217
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e660f55edb62843f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일 및 LinkedIn 등 멀티채널을 통한 자동 발송 시스템",
+      "normalized": {
+        "text": "이메일 및 LinkedIn 등 멀티채널을 통한 자동 발송 시스템",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "이메일 및 LinkedIn 등 멀티채널을 통한 자동 발송 시스템",
+          "start_char": 625,
+          "end_char": 660
+        }
+      ],
+      "dedupe_key": "action_item:881cba8984ce6518",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6주",
+      "normalized": {
+        "value": 6.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "6주",
+          "start_char": 664,
+          "end_char": 666
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "대면 전략 점검 (매월)"
+          ],
+          "exact_quote": "6주",
+          "start_char": 1670,
+          "end_char": 1672
+        }
+      ],
+      "dedupe_key": "duration:fd621552dbebe3d4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "국가별·바이어 유형별 데이터 인사이트 제공"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 972,
+          "end_char": 978
+        },
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "피그마 디자인, 프레이머 애니메이션"
+          ],
+          "exact_quote": "400만원",
+          "start_char": 1962,
+          "end_char": 1967
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000건",
+      "normalized": {
+        "value": 0,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "000건",
+          "start_char": 1008,
+          "end_char": 1012
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "000건",
+          "start_char": 1293,
+          "end_char": 1297
+        }
+      ],
+      "dedupe_key": "case_metric:58cc13dea0bf4165",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "2개",
+          "start_char": 1026,
+          "end_char": 1028
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "콘텐츠 SEO 컨설팅"
+          ],
+          "exact_quote": "2개",
+          "start_char": 2040,
+          "end_char": 2042
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제공 결과물: Meeting Ready Lead 전달 (Show Interest 단계)",
+      "normalized": {
+        "text": "제공 결과물: Meeting Ready Lead 전달 (Show Interest 단계)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "제공 결과물: Meeting Ready Lead 전달 (Show Interest 단계)",
+          "start_char": 1055,
+          "end_char": 1103
+        }
+      ],
+      "dedupe_key": "collaboration_need:5053a64b7c52d515",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "월별 자동화 리포트"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1162,
+          "end_char": 1165
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "월별 자동화 리포트"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 1198,
+          "end_char": 1201
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "대면 전략 점검 (매월)"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 1475,
+          "end_char": 1478
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "월별 자동화 리포트"
+          ],
+          "exact_quote": "3개",
+          "start_char": 1218,
+          "end_char": 1220
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "700만 원",
+      "normalized": {
+        "value": 7000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Enterprise 패키지"
+          ],
+          "exact_quote": "700만 원",
+          "start_char": 1256,
+          "end_char": 1262
+        }
+      ],
+      "dedupe_key": "budget:221afdfdc0dd7bd5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "5개",
+          "start_char": 1311,
+          "end_char": 1313
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제공 결과물: Meeting Appointment 확정 (실제 미팅 일정 잡힘)",
+      "normalized": {
+        "text": "제공 결과물: Meeting Appointment 확정 (실제 미팅 일정 잡힘)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "아웃바운드 규모"
+          ],
+          "exact_quote": "제공 결과물: Meeting Appointment 확정 (실제 미팅 일정 잡힘)",
+          "start_char": 1340,
+          "end_char": 1384
+        }
+      ],
+      "dedupe_key": "action_item:8572b31fcc2c39cd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "6개",
+      "normalized": {
+        "value": 6,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "대면 전략 점검 (매월)"
+          ],
+          "exact_quote": "6개",
+          "start_char": 1495,
+          "end_char": 1497
+        }
+      ],
+      "dedupe_key": "case_metric:2024b6e4d8e267f0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참고 사항: LinkedIn Action은 1촌 신청 및 DM 발송을 합친 활동 수를 의미합니다.",
+      "normalized": {
+        "text": "참고 사항: LinkedIn Action은 1촌 신청 및 DM 발송을 합친 활동 수를 의미합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "대면 전략 점검 (매월)"
+          ],
+          "exact_quote": "참고 사항: LinkedIn Action은 1촌 신청 및 DM 발송을 합친 활동 수를 의미합니다.",
+          "start_char": 1507,
+          "end_char": 1561
+        }
+      ],
+      "dedupe_key": "action_item:ea55291ce5415933",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "==="
+          ],
+          "exact_quote": "300만원",
+          "start_char": 1825,
+          "end_char": 1830
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "피그마 디자인, 프레이머 애니메이션"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1947,
+          "end_char": 1950
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "콘텐츠 SEO 컨설팅"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2068,
+          "end_char": 2071
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실무자 인터뷰 진행 (인터뷰 1회당 2개 콘텐츠 제작)",
+      "normalized": {
+        "text": "실무자 인터뷰 진행 (인터뷰 1회당 2개 콘텐츠 제작)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "콘텐츠 SEO 컨설팅"
+          ],
+          "exact_quote": "실무자 인터뷰 진행 (인터뷰 1회당 2개 콘텐츠 제작)",
+          "start_char": 2020,
+          "end_char": 2050
+        }
+      ],
+      "dedupe_key": "action_item:e6e9275337fd3fa7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "콘텐츠 SEO 컨설팅"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2054,
+          "end_char": 2057
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0045",
+          "section_path": [
+            "콘텐츠 SEO 컨설팅"
+          ],
+          "exact_quote": "2000만원",
+          "start_char": 2103,
+          "end_char": 2109
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

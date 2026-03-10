@@ -1,0 +1,678 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W50",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[논티어, 잠재매출 2000만원 ~ 3천만원 ] 프렌들리에이아이 1차 미팅 공유",
+      "normalized": {
+        "text": "[논티어, 잠재매출 2000만원 ~ 3천만원 ] 프렌들리에이아이 1차 미팅 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[논티어, 잠재매출 2000만원 ~ 3천만원 ] 프렌들리에이아이 1차 미팅 공유",
+          "start_char": 0,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "collaboration_need:4f50dc5aece5579b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2000만원",
+          "start_char": 11,
+          "end_char": 17
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3천만원",
+          "start_char": 20,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상세 제안 자료와 이사님과 함께 하는 2차 미팅진행 계획",
+      "normalized": {
+        "text": "상세 제안 자료와 이사님과 함께 하는 2차 미팅진행 계획",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "상세 제안 자료와 이사님과 함께 하는 2차 미팅진행 계획",
+          "start_char": 107,
+          "end_char": 138
+        }
+      ],
+      "dedupe_key": "action_item:585292edc52120be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그 전에 어떤 백서 유형을 원하시는 지, 메일로 중간소통 진행 예정",
+      "normalized": {
+        "text": "그 전에 어떤 백서 유형을 원하시는 지, 메일로 중간소통 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "그 전에 어떤 백서 유형을 원하시는 지, 메일로 중간소통 진행 예정",
+          "start_char": 144,
+          "end_char": 181
+        }
+      ],
+      "dedupe_key": "action_item:ec6c37e73c00dc47",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "@growth",
+          "start_char": 204,
+          "end_char": 211
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 231,
+          "end_char": 235
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "페이지별로 개편을 담당하는 인력이 있음"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1591,
+          "end_char": 1595
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "최종적으로 진행한다면,"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1897,
+          "end_char": 1901
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 2196,
+          "end_char": 2200
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이 조직을 더 키우려고 충원하는 중",
+      "normalized": {
+        "text": "이 조직을 더 키우려고 충원하는 중",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미국 - 마케팅&세일즈&GTM 조직으로 형성"
+          ],
+          "exact_quote": "이 조직을 더 키우려고 충원하는 중",
+          "start_char": 559,
+          "end_char": 578
+        }
+      ],
+      "dedupe_key": "risk_or_concern:df9f2b7f1802b9ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이전 까지 개발 중시 문화로, 개발자 중심으로 제품 고도화에만 집중하다, 마케팅 활동이 제대로 진행된 것은 약 1년 정도밖에 되지 않았음",
+      "normalized": {
+        "text": "이전 까지 개발 중시 문화로, 개발자 중심으로 제품 고도화에만 집중하다, 마케팅 활동이 제대로 진행된 것은 약 1년 정도밖에 되지 않았음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "조직 및 마케팅 현황"
+          ],
+          "exact_quote": "이전 까지 개발 중시 문화로, 개발자 중심으로 제품 고도화에만 집중하다, 마케팅 활동이 제대로 진행된 것은 약 1년 정도밖에 되지 않았음",
+          "start_char": 604,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "action_item:24053677a1d820ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "조직 및 마케팅 현황"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 693,
+          "end_char": 696
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "조직 및 마케팅 현황"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 815,
+          "end_char": 818
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 주요 논의사항주요 페인포인트 - 트래픽은 발생하나 전환이 되지 않는다. 본인은 웹사이트 리뉴얼이 정말 필요하다고 느끼는데, 아래 2가지 이유로 쉽지 않은 상황",
+      "normalized": {
+        "text": "2/ 주요 논의사항주요 페인포인트 - 트래픽은 발생하나 전환이 되지 않는다. 본인은 웹사이트 리뉴얼이 정말 필요하다고 느끼는데, 아래 2가지 이유로 쉽지 않은 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리드 현황"
+          ],
+          "exact_quote": "2/ 주요 논의사항주요 페인포인트 - 트래픽은 발생하나 전환이 되지 않는다. 본인은 웹사이트 리뉴얼이 정말 필요하다고 느끼는데, 아래 2가지 이유로 쉽지 않은 상황",
+          "start_char": 1185,
+          "end_char": 1276
+        }
+      ],
+      "dedupe_key": "action_item:04718b86f1e20f69",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트는 바로 윗 내용 때문에 현재는 진행하기 어려움",
+      "normalized": {
+        "text": "웹사이트는 바로 윗 내용 때문에 현재는 진행하기 어려움",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "페이지별로 개편을 담당하는 인력이 있음"
+          ],
+          "exact_quote": "웹사이트는 바로 윗 내용 때문에 현재는 진행하기 어려움",
+          "start_char": 1629,
+          "end_char": 1659
+        }
+      ],
+      "dedupe_key": "action_item:2b9e53d0a573706c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "거의 테크 블로그 수준, 높은 기술적 이해도 바탕의 글을 제작하고 있기에 진행하기 어렵다고 판단 하심",
+      "normalized": {
+        "text": "거의 테크 블로그 수준, 높은 기술적 이해도 바탕의 글을 제작하고 있기에 진행하기 어렵다고 판단 하심",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "페이지별로 개편을 담당하는 인력이 있음"
+          ],
+          "exact_quote": "거의 테크 블로그 수준, 높은 기술적 이해도 바탕의 글을 제작하고 있기에 진행하기 어렵다고 판단 하심",
+          "start_char": 1741,
+          "end_char": 1797
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7db580bef4ca41ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "페이지별로 개편을 담당하는 인력이 있음"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1747,
+          "end_char": 1750
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "테크 중심 콘텐츠 중시"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2547,
+          "end_char": 2550
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영문제작 여부 및 이에 따른 견적 변화",
+      "normalized": {
+        "text": "영문제작 여부 및 이에 따른 견적 변화",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "최종적으로 진행한다면,"
+          ],
+          "exact_quote": "영문제작 여부 및 이에 따른 견적 변화",
+          "start_char": 1930,
+          "end_char": 1951
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a960d1c38ff566d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "가능하고, 견적은 추가비용이 든다고 소통"
+          ],
+          "exact_quote": "1천만원",
+          "start_char": 1990,
+          "end_char": 1994
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4천만원",
+      "normalized": {
+        "value": 40000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "가능하고, 견적은 추가비용이 든다고 소통"
+          ],
+          "exact_quote": "4천만원",
+          "start_char": 1997,
+          "end_char": 2001
+        }
+      ],
+      "dedupe_key": "budget:fb771a8a99b98ed7",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1차적으로 국문 제작으로 협의",
+      "normalized": {
+        "text": "1차적으로 국문 제작으로 협의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "가능하고, 견적은 추가비용이 든다고 소통"
+          ],
+          "exact_quote": "1차적으로 국문 제작으로 협의",
+          "start_char": 2015,
+          "end_char": 2031
+        }
+      ],
+      "dedupe_key": "collaboration_need:7012e551129cf490",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "원하시는 유형 레퍼런스를 전달해 주실 예정",
+      "normalized": {
+        "text": "원하시는 유형 레퍼런스를 전달해 주실 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "영문화는 자체적으로 소화"
+          ],
+          "exact_quote": "원하시는 유형 레퍼런스를 전달해 주실 예정",
+          "start_char": 2054,
+          "end_char": 2077
+        }
+      ],
+      "dedupe_key": "collaboration_need:8aaa6e1118196291",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "100만원",
+          "start_char": 2097,
+          "end_char": 2102
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3.5만개",
+      "normalized": {
+        "value": 35000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "3.5만개",
+          "start_char": 2117,
+          "end_char": 2122
+        }
+      ],
+      "dedupe_key": "case_metric:e8f2de149105044a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*해당 경우 뉴스레터 콘텐츠 딜리버리 방식의 상세 프로세스 구체화 하는 것이 필요4/ 예산 보유 현황",
+      "normalized": {
+        "text": "*해당 경우 뉴스레터 콘텐츠 딜리버리 방식의 상세 프로세스 구체화 하는 것이 필요4/ 예산 보유 현황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "*해당 경우 뉴스레터 콘텐츠 딜리버리 방식의 상세 프로세스 구체화 하는 것이 필요4/ 예산 보유 현황",
+          "start_char": 2189,
+          "end_char": 2245
+        }
+      ],
+      "dedupe_key": "action_item:c98f10b1330cd5fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "다만 처음부터 큰 비용을 투자하기에는 다소 어렵기는 하여 초기 프로젝트 비용에 대한 검토가 있을 것을 보인다.",
+      "normalized": {
+        "text": "다만 처음부터 큰 비용을 투자하기에는 다소 어렵기는 하여 초기 프로젝트 비용에 대한 검토가 있을 것을 보인다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "다만 처음부터 큰 비용을 투자하기에는 다소 어렵기는 하여 초기 프로젝트 비용에 대한 검토가 있을 것을 보인다.",
+          "start_char": 2288,
+          "end_char": 2349
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2307a65e499a81ab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "3/ 딜 블로커 (우려스러운 포인트)",
+      "normalized": {
+        "text": "3/ 딜 블로커 (우려스러운 포인트)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "뉴스레터"
+          ],
+          "exact_quote": "3/ 딜 블로커 (우려스러운 포인트)",
+          "start_char": 2351,
+          "end_char": 2371
+        }
+      ],
+      "dedupe_key": "risk_or_concern:37d889fd6ab8cb3f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "높은 퀄리티를 입증하여 설득하는 것이 필요해 보임 ( 어떻게? )",
+      "normalized": {
+        "text": "높은 퀄리티를 입증하여 설득하는 것이 필요해 보임 ( 어떻게? )",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "콘텐츠 제작 능력 검증 필요"
+          ],
+          "exact_quote": "높은 퀄리티를 입증하여 설득하는 것이 필요해 보임 ( 어떻게? )",
+          "start_char": 2462,
+          "end_char": 2498
+        }
+      ],
+      "dedupe_key": "action_item:6407078604bf6281",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 백서 경우도 \"AI 추론 시장 내에 AI 모델을 이해하면서 전문적인 기술 콘텐츠\" 제작 역량을 어필하는 것이 필요함",
+      "normalized": {
+        "text": "따라서 백서 경우도 \"AI 추론 시장 내에 AI 모델을 이해하면서 전문적인 기술 콘텐츠\" 제작 역량을 어필하는 것이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0046",
+          "section_path": [
+            "테크 중심 콘텐츠 중시"
+          ],
+          "exact_quote": "따라서 백서 경우도 \"AI 추론 시장 내에 AI 모델을 이해하면서 전문적인 기술 콘텐츠\" 제작 역량을 어필하는 것이 필요함",
+          "start_char": 2616,
+          "end_char": 2684
+        }
+      ],
+      "dedupe_key": "action_item:48e0591650920682",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

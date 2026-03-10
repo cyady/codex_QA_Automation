@@ -1,0 +1,600 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W230",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 64만 원",
+      "normalized": {
+        "value": 640000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "약 64만 원",
+          "start_char": 75,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "budget:833415ec848bf4fa",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "8명",
+          "start_char": 50,
+          "end_char": 52
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "우려 사항(Pain Point)"
+          ],
+          "exact_quote": "8명",
+          "start_char": 913,
+          "end_char": 915
+        }
+      ],
+      "dedupe_key": "team_size:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 56,
+          "end_char": 58
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "5명",
+          "start_char": 64,
+          "end_char": 66
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 80만 원",
+      "normalized": {
+        "value": 800000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "약 80만 원",
+          "start_char": 121,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "budget:66def1f6fd0bc205",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "약 400만 원",
+          "start_char": 189,
+          "end_char": 197
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 179,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "참고 사항: 별도의 무료 체험 기간은 제공하지 않으며, 도입 전 최소 조건(1개월) 결제를 통해 테스트해 볼 것을 권장했습니다.",
+      "normalized": {
+        "text": "참고 사항: 별도의 무료 체험 기간은 제공하지 않으며, 도입 전 최소 조건(1개월) 결제를 통해 테스트해 볼 것을 권장했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "참고 사항: 별도의 무료 체험 기간은 제공하지 않으며, 도입 전 최소 조건(1개월) 결제를 통해 테스트해 볼 것을 권장했습니다.",
+          "start_char": 210,
+          "end_char": 281
+        }
+      ],
+      "dedupe_key": "collaboration_need:913de3a04f0a2650",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 252,
+          "end_char": 255
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "의사결정 구조: 담당자가 정보를 수집하고 타당성을 검토한 뒤, 내부 회의를 거쳐 도입 여부를 결정하는 구조입니다.",
+      "normalized": {
+        "text": "의사결정 구조: 담당자가 정보를 수집하고 타당성을 검토한 뒤, 내부 회의를 거쳐 도입 여부를 결정하는 구조입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "Authority (결정권)"
+          ],
+          "exact_quote": "의사결정 구조: 담당자가 정보를 수집하고 타당성을 검토한 뒤, 내부 회의를 거쳐 도입 여부를 결정하는 구조입니다.",
+          "start_char": 361,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "action_item:be6bbe29fd3eeb3e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "핵심 니즈: 설립 5~6년 차에 접어들며 쌓인 고객 데이터(연간 약 300건 유입, 70건 수주)를 체계적으로 분석(수주/실주 원인, 매출 등)하고자 합니다. 이를 기반으로 기존 고객에게 뉴스레터 등 마케팅 활동을 재개하려는 목적이 있습니다.",
+      "normalized": {
+        "text": "핵심 니즈: 설립 5~6년 차에 접어들며 쌓인 고객 데이터(연간 약 300건 유입, 70건 수주)를 체계적으로 분석(수주/실주 원인, 매출 등)하고자 합니다. 이를 기반으로 기존 고객에게 뉴스레터 등 마케팅 활동을 재개하려는 목적이 있습니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need (니즈 및 고충)"
+          ],
+          "exact_quote": "핵심 니즈: 설립 5~6년 차에 접어들며 쌓인 고객 데이터(연간 약 300건 유입, 70건 수주)를 체계적으로 분석(수주/실주 원인, 매출 등)하고자 합니다. 이를 기반으로 기존 고객에게 뉴스레터 등 마케팅 활동을 재개하려는 목적이 있습니다.",
+          "start_char": 526,
+          "end_char": 661
+        }
+      ],
+      "dedupe_key": "collaboration_need:334b2159bc19fdf8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 300건",
+      "normalized": {
+        "value": 300,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need (니즈 및 고충)"
+          ],
+          "exact_quote": "약 300건",
+          "start_char": 562,
+          "end_char": 568
+        }
+      ],
+      "dedupe_key": "case_metric:f72b106a76d5db50",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "70건",
+      "normalized": {
+        "value": 70,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need (니즈 및 고충)"
+          ],
+          "exact_quote": "70건",
+          "start_char": 573,
+          "end_char": 576
+        }
+      ],
+      "dedupe_key": "case_metric:7d7bf2c52442c3ab",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need (니즈 및 고충)"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 631,
+          "end_char": 635
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "기능적 요구사항"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 703,
+          "end_char": 707
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "\"이메일 발송 (개별/벌크)\""
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1556,
+          "end_char": 1560
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일: 개별 고객 메일 발송뿐만 아니라 뉴스레터 발송을 위한 대량(Bulk) 메일 기능이 필수적입니다.",
+      "normalized": {
+        "text": "이메일: 개별 고객 메일 발송뿐만 아니라 뉴스레터 발송을 위한 대량(Bulk) 메일 기능이 필수적입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "기능적 요구사항"
+          ],
+          "exact_quote": "이메일: 개별 고객 메일 발송뿐만 아니라 뉴스레터 발송을 위한 대량(Bulk) 메일 기능이 필수적입니다.",
+          "start_char": 680,
+          "end_char": 738
+        }
+      ],
+      "dedupe_key": "action_item:de49efd38c9aee1f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "내부에 전문 영업/마케팅 팀이 없어 컨설턴트 8명이 직접 툴을 관리하고 입력해야 합니다.",
+      "normalized": {
+        "text": "내부에 전문 영업/마케팅 팀이 없어 컨설턴트 8명이 직접 툴을 관리하고 입력해야 합니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "우려 사항(Pain Point)"
+          ],
+          "exact_quote": "내부에 전문 영업/마케팅 팀이 없어 컨설턴트 8명이 직접 툴을 관리하고 입력해야 합니다.",
+          "start_char": 888,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4b7510876a9c94ad",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다.",
+      "normalized": {
+        "text": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "우려 사항(Pain Point)"
+          ],
+          "exact_quote": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다.",
+          "start_char": 941,
+          "end_char": 992
+        }
+      ],
+      "dedupe_key": "risk_or_concern:77501c54f8240f1f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다.",
+      "normalized": {
+        "text": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "우려 사항(Pain Point)"
+          ],
+          "exact_quote": "팀원들의 연령대가 다양하여 새로운 SaaS 툴 도입과 적응에 대한 심리적 장벽이 존재합니다.",
+          "start_char": 941,
+          "end_char": 992
+        }
+      ],
+      "dedupe_key": "collaboration_need:b5d6c55030fa60da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "통화나 문자 내역을 자동으로 불러오지 못하고 수기로 남겨야 하는 점에 대해 번거로움을 느끼고 있습니다.",
+      "normalized": {
+        "text": "통화나 문자 내역을 자동으로 불러오지 못하고 수기로 남겨야 하는 점에 대해 번거로움을 느끼고 있습니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "우려 사항(Pain Point)"
+          ],
+          "exact_quote": "통화나 문자 내역을 자동으로 불러오지 못하고 수기로 남겨야 하는 점에 대해 번거로움을 느끼고 있습니다.",
+          "start_char": 996,
+          "end_char": 1053
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0c5ac12583f04d82",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 시기: 구체적인 도입 마감 기한은 정해지지 않았으며, 내부 논의 후 결정할 예정입니다.",
+      "normalized": {
+        "text": "도입 시기: 구체적인 도입 마감 기한은 정해지지 않았으며, 내부 논의 후 결정할 예정입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Timeline (일정)"
+          ],
+          "exact_quote": "도입 시기: 구체적인 도입 마감 기한은 정해지지 않았으며, 내부 논의 후 결정할 예정입니다.",
+          "start_char": 1074,
+          "end_char": 1125
+        }
+      ],
+      "dedupe_key": "collaboration_need:f2a4e37a225ea242",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예상 소요 시간: 내부 정책(프로토콜) 수립 후 시스템 세팅까지는 약 2~3주, 이후 팀원들이 익숙해지는 안착 기간까지 약 3개월이 소요될 것으로 예상됩니다.",
+      "normalized": {
+        "text": "예상 소요 시간: 내부 정책(프로토콜) 수립 후 시스템 세팅까지는 약 2~3주, 이후 팀원들이 익숙해지는 안착 기간까지 약 3개월이 소요될 것으로 예상됩니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Timeline (일정)"
+          ],
+          "exact_quote": "예상 소요 시간: 내부 정책(프로토콜) 수립 후 시스템 세팅까지는 약 2~3주, 이후 팀원들이 익숙해지는 안착 기간까지 약 3개월이 소요될 것으로 예상됩니다.",
+          "start_char": 1129,
+          "end_char": 1217
+        }
+      ],
+      "dedupe_key": "action_item:16183a7d44e1eebf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3주",
+      "normalized": {
+        "value": 3.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Timeline (일정)"
+          ],
+          "exact_quote": "3주",
+          "start_char": 1170,
+          "end_char": 1172
+        }
+      ],
+      "dedupe_key": "duration:42e48959b88c9004",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Timeline (일정)"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 1196,
+          "end_char": 1201
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

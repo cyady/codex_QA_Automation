@@ -1,0 +1,166 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W422",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier3 상장사 알체라 - 잠재매출 3,000만원 ] 260109_마이그레이션 진행 방법에 대한 질의@여인찬 (Oliver) 님! 혹시 관련해서 이메일에 전체 답장 달아주실 수 있을까요오?----",
+      "normalized": {
+        "text": "[Tier3 상장사 알체라 - 잠재매출 3,000만원 ] 260109_마이그레이션 진행 방법에 대한 질의@여인찬 (Oliver) 님! 혹시 관련해서 이메일에 전체 답장 달아주실 수 있을까요오?----",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier3 상장사 알체라 - 잠재매출 3,000만원 ] 260109_마이그레이션 진행 방법에 대한 질의@여인찬 (Oliver) 님! 혹시 관련해서 이메일에 전체 답장 달아주실 수 있을까요오?----",
+          "start_char": 0,
+          "end_char": 111
+        }
+      ],
+      "dedupe_key": "action_item:b91bf4ebbd3db445",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "안녕하세요. 팀장님, 알체라 박민선입니다.보내주신 견적서 잘 확인하였습니다.추가 문의 드립니다.파이프드라이브에서 리캐치로 데이터 마이그레이션 시 어떤 방법으로 진행되는지 궁금합니다.",
+      "normalized": {
+        "text": "안녕하세요. 팀장님, 알체라 박민선입니다.보내주신 견적서 잘 확인하였습니다.추가 문의 드립니다.파이프드라이브에서 리캐치로 데이터 마이그레이션 시 어떤 방법으로 진행되는지 궁금합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "안녕하세요. 팀장님, 알체라 박민선입니다.보내주신 견적서 잘 확인하였습니다.추가 문의 드립니다.파이프드라이브에서 리캐치로 데이터 마이그레이션 시 어떤 방법으로 진행되는지 궁금합니다.",
+          "start_char": 112,
+          "end_char": 213
+        }
+      ],
+      "dedupe_key": "action_item:04da9f6bed362462",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예를들어 정보 보안상 저희 내부 내용을 드릴 수 없다면 매핑하는 사이트 통해서 직접 진행하는 걸까요?각 Deals의 주요 데이터필드 외의 활동, 파일도 있습니다. 이 부분도 이관이 되는지 추가 문의드리오니",
+      "normalized": {
+        "text": "예를들어 정보 보안상 저희 내부 내용을 드릴 수 없다면 매핑하는 사이트 통해서 직접 진행하는 걸까요?각 Deals의 주요 데이터필드 외의 활동, 파일도 있습니다. 이 부분도 이관이 되는지 추가 문의드리오니",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "예를들어 정보 보안상 저희 내부 내용을 드릴 수 없다면 매핑하는 사이트 통해서 직접 진행하는 걸까요?각 Deals의 주요 데이터필드 외의 활동, 파일도 있습니다. 이 부분도 이관이 되는지 추가 문의드리오니",
+          "start_char": 214,
+          "end_char": 328
+        }
+      ],
+      "dedupe_key": "action_item:3e7cc521550a4b6e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확인 및 회신 부탁드립니다.감사합니다.",
+      "normalized": {
+        "text": "확인 및 회신 부탁드립니다.감사합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "확인 및 회신 부탁드립니다.감사합니다.",
+          "start_char": 329,
+          "end_char": 350
+        }
+      ],
+      "dedupe_key": "action_item:a36fcdb57d670978",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 58,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 24,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 175,
+          "end_char": 178
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

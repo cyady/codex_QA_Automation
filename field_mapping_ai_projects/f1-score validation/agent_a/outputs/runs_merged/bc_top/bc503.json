@@ -1,0 +1,201 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W503",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참고: 부사장님이 CRM 검토하라고 탑다운 지시 내려왔고, 영업사원 20명정도부터 쓰길 원함. -> 오늘 이야기한 SWEET SPOT 고객인 것 같아요 @김숙영 (Esther) @여인찬 (Oliver)",
+      "normalized": {
+        "text": "참고: 부사장님이 CRM 검토하라고 탑다운 지시 내려왔고, 영업사원 20명정도부터 쓰길 원함. -> 오늘 이야기한 SWEET SPOT 고객인 것 같아요 @김숙영 (Esther) @여인찬 (Oliver)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "참고: 부사장님이 CRM 검토하라고 탑다운 지시 내려왔고, 영업사원 20명정도부터 쓰길 원함. -> 오늘 이야기한 SWEET SPOT 고객인 것 같아요 @김숙영 (Esther) @여인찬 (Oliver)",
+          "start_char": 48,
+          "end_char": 160
+        }
+      ],
+      "dedupe_key": "action_item:6d0a93554d791ee2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "해당 자료들을 검토해 보시고, 더 구체적인 논의를 위해 2월 초나 중순경 편하신 일정에 맞추어 귀사에 방문 드리고자 합니다. 솔루션에 대한 상세한 소개와 함께, 위밋모빌리티가 직면한 비즈니스 문제를 함께 논의할 기회를 주시면 감사하겠습니다.",
+      "normalized": {
+        "text": "해당 자료들을 검토해 보시고, 더 구체적인 논의를 위해 2월 초나 중순경 편하신 일정에 맞추어 귀사에 방문 드리고자 합니다. 솔루션에 대한 상세한 소개와 함께, 위밋모빌리티가 직면한 비즈니스 문제를 함께 논의할 기회를 주시면 감사하겠습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "해당 자료들을 검토해 보시고, 더 구체적인 논의를 위해 2월 초나 중순경 편하신 일정에 맞추어 귀사에 방문 드리고자 합니다. 솔루션에 대한 상세한 소개와 함께, 위밋모빌리티가 직면한 비즈니스 문제를 함께 논의할 기회를 주시면 감사하겠습니다.",
+          "start_char": 483,
+          "end_char": 617
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9643392ede4c92ea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "긍정적인 검토 부탁드립니다.",
+      "normalized": {
+        "text": "긍정적인 검토 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "긍정적인 검토 부탁드립니다.",
+          "start_char": 650,
+          "end_char": 665
+        }
+      ],
+      "dedupe_key": "action_item:c40233600f9bf35a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김숙영",
+          "start_char": 133,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8e7ddd7d7129c976",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 147,
+          "end_char": 151
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 초",
+      "normalized": {
+        "month": 2,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2월 초",
+          "start_char": 514,
+          "end_char": 518
+        }
+      ],
+      "dedupe_key": "timeline:647f324fd7abb8e9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "20명",
+          "start_char": 86,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "people_count:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 166,
+          "end_char": 169
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 194,
+          "end_char": 197
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 331,
+          "end_char": 334
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

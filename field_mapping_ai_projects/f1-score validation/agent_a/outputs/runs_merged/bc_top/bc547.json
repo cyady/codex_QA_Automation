@@ -1,0 +1,146 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W547",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "변호사님이고 정보사업5실에서 CRM 도입 관련 법적 검토를 이분한테 요청했다고 합니다.",
+      "normalized": {
+        "text": "변호사님이고 정보사업5실에서 CRM 도입 관련 법적 검토를 이분한테 요청했다고 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "변호사님이고 정보사업5실에서 CRM 도입 관련 법적 검토를 이분한테 요청했다고 합니다.",
+          "start_char": 49,
+          "end_char": 97
+        }
+      ],
+      "dedupe_key": "action_item:64a8324f44f71e9d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 0,
+          "end_char": 4
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 118,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "sdr",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 119,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "나평정 정보사업5실 CRM 도입 관련 법적 규제 검토",
+      "normalized": {
+        "text": "나평정 정보사업5실 CRM 도입 관련 법적 규제 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "나평정 정보사업5실 CRM 도입 관련 법적 규제 검토",
+          "start_char": 132,
+          "end_char": 161
+        }
+      ],
+      "dedupe_key": "action_item:2dac609a65d44f26",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정보사업5실에서 이분한테 법적 검토 요청하셨다고 함",
+      "normalized": {
+        "text": "정보사업5실에서 이분한테 법적 검토 요청하셨다고 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "컴플레이언스실 변호사"
+          ],
+          "exact_quote": "정보사업5실에서 이분한테 법적 검토 요청하셨다고 함",
+          "start_char": 473,
+          "end_char": 501
+        }
+      ],
+      "dedupe_key": "action_item:13a5a3d6d5020719",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

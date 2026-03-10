@@ -1,0 +1,300 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W452",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "위존 전사도입 및 마케팅+컨설팅 수주현황 cc @sales",
+      "normalized": {
+        "text": "위존 전사도입 및 마케팅+컨설팅 수주현황 cc @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "위존 전사도입 및 마케팅+컨설팅 수주현황 cc @sales",
+          "start_char": 0,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "collaboration_need:df45e25e78109e7b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 26,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1/ 올해는 마케팅 CRM 만 도입해 보려고 한다.",
+      "normalized": {
+        "text": "1/ 올해는 마케팅 CRM 만 도입해 보려고 한다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1/ 올해는 마케팅 CRM 만 도입해 보려고 한다.",
+          "start_char": 34,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "collaboration_need:bd8f0e113727f619",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1200만원",
+      "normalized": {
+        "value": 12000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1200만원",
+          "start_char": 87,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "budget:182439bdb7f09bd3",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "작년 성과가 좋지 않고, B2B 마케팅이 처음이라 소폭 추가 예산을 확보하기 어렵다고 함",
+      "normalized": {
+        "text": "작년 성과가 좋지 않고, B2B 마케팅이 처음이라 소폭 추가 예산을 확보하기 어렵다고 함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "작년 성과가 좋지 않고, B2B 마케팅이 처음이라 소폭 추가 예산을 확보하기 어렵다고 함",
+          "start_char": 139,
+          "end_char": 188
+        }
+      ],
+      "dedupe_key": "risk_or_concern:265cadd6797ebeac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스패키지(AEO 컨설팅)는 내년에 추가 예산을 확보하여 진행해보려고 함",
+      "normalized": {
+        "text": "그로스패키지(AEO 컨설팅)는 내년에 추가 예산을 확보하여 진행해보려고 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "그로스패키지(AEO 컨설팅)는 내년에 추가 예산을 확보하여 진행해보려고 함",
+          "start_char": 192,
+          "end_char": 233
+        }
+      ],
+      "dedupe_key": "action_item:1dc26384eeb7e1df",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "360만원",
+      "normalized": {
+        "value": 3600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "360만원",
+          "start_char": 266,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "budget:5def6b8c0a467969",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "네고를 원하는 듯이 요청해 주셨지만, 해당 금액으로 진행하기 매우 어렵다고 답변 드림",
+      "normalized": {
+        "text": "네고를 원하는 듯이 요청해 주셨지만, 해당 금액으로 진행하기 매우 어렵다고 답변 드림",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "네고를 원하는 듯이 요청해 주셨지만, 해당 금액으로 진행하기 매우 어렵다고 답변 드림",
+          "start_char": 324,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "risk_or_concern:61552ac03e339545",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "라이센스 비용을 충족하기 위해 추가 방안을 내부 검토해볼 예정",
+      "normalized": {
+        "text": "라이센스 비용을 충족하기 위해 추가 방안을 내부 검토해볼 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "라이센스 비용을 충족하기 위해 추가 방안을 내부 검토해볼 예정",
+          "start_char": 375,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "action_item:576abaf5a762f430",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 전사도입 검토 방안",
+      "normalized": {
+        "text": "2/ 전사도입 검토 방안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "2/ 전사도입 검토 방안",
+          "start_char": 413,
+          "end_char": 426
+        }
+      ],
+      "dedupe_key": "action_item:7adad1e87fb0beef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전사도입 확장 하기 위해선 DX 사업부가 원활히 사용하고 있다는 선례를 확보하는 것이 선행과제",
+      "normalized": {
+        "text": "전사도입 확장 하기 위해선 DX 사업부가 원활히 사용하고 있다는 선례를 확보하는 것이 선행과제",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "전사도입 확장 하기 위해선 DX 사업부가 원활히 사용하고 있다는 선례를 확보하는 것이 선행과제",
+          "start_char": 433,
+          "end_char": 485
+        }
+      ],
+      "dedupe_key": "collaboration_need:ae7aafc195bd9f00",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "여러 Voc 전달 주시며, 아직은 잘 활용하고 있다고 입증하기 어려운 상황",
+      "normalized": {
+        "text": "여러 Voc 전달 주시며, 아직은 잘 활용하고 있다고 입증하기 어려운 상황",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "여러 Voc 전달 주시며, 아직은 잘 활용하고 있다고 입증하기 어려운 상황",
+          "start_char": 491,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "collaboration_need:763f8e600d74da8f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "관련하여 전무님과 소통한 후, 커스텀 플랜 견적 요청 드려보겠다.",
+      "normalized": {
+        "text": "관련하여 전무님과 소통한 후, 커스텀 플랜 견적 요청 드려보겠다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "관련하여 전무님과 소통한 후, 커스텀 플랜 견적 요청 드려보겠다.",
+          "start_char": 606,
+          "end_char": 642
+        }
+      ],
+      "dedupe_key": "action_item:e14e7e188e93a811",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

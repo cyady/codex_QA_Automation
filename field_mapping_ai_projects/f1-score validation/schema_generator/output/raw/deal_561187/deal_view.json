@@ -1,0 +1,132 @@
+{
+  "deal": {
+    "id": 561187,
+    "visitor_id": null,
+    "first_name": "aa",
+    "deal_name": "aa",
+    "last_name": null,
+    "email": "im@gmail.com",
+    "company": null,
+    "timezone": "Etc/GMT",
+    "phone": {
+      "dial_code": "+82",
+      "value": null
+    },
+    "assignee": null,
+    "contract_amount": null,
+    "close_date": null,
+    "incoming_source": "미민",
+    "utm_source": null,
+    "utm_medium": null,
+    "utm_campaign": null,
+    "utm_content": null,
+    "utm_term": null,
+    "custom_field": {
+      "1607": null,
+      "1614": null,
+      "4835": null,
+      "4985": null,
+      "4986": null,
+      "4987": null,
+      "5074": null,
+      "5075": null,
+      "5173": null,
+      "5178": null,
+      "5362": null,
+      "5370": null,
+      "5574": null,
+      "5579": null,
+      "5580": null,
+      "5582": null,
+      "5586": null,
+      "5656": null,
+      "5657": null,
+      "5886": null,
+      "5895": null,
+      "6004": null,
+      "6091": null,
+      "6118": null,
+      "6129": null,
+      "6207": null,
+      "6237": null,
+      "6238": null,
+      "6583": null,
+      "6677": null,
+      "6695": null,
+      "6896": null,
+      "6900": null,
+      "6901": null,
+      "7011": null,
+      "7188": null,
+      "7189": null,
+      "7190": null,
+      "7506": null,
+      "7903": null,
+      "7973": null,
+      "7995": null,
+      "8001": null,
+      "8075": null,
+      "8372": null
+    },
+    "record_type": {
+      "id": 2035,
+      "name": "민우QA용딜"
+    },
+    "created_at": "2025-12-26T07:51:08.420Z",
+    "updated_at": "2025-12-26T07:51:08.420Z",
+    "created_by": null,
+    "contact": {
+      "id": 478918
+    },
+    "stage_id": 11834,
+    "deal_converted_at": "2025-12-26T07:51:08.420Z",
+    "pipeline": {
+      "id": 3033,
+      "statuses": [
+        {
+          "status": "BEFORE_SALES",
+          "stages": [
+            {
+              "id": 11834,
+              "label": "진행 전",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "IN_SALES",
+          "stages": [
+            {
+              "id": 11835,
+              "label": "진행 중",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "SALES_SUCCESS",
+          "stages": [
+            {
+              "id": 11836,
+              "label": "성공",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "SALES_FAILURE",
+          "stages": [
+            {
+              "id": 11837,
+              "label": "실패",
+              "order": 999
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "conversations": [],
+  "relations": {},
+  "files": []
+}

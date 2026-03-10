@@ -1,0 +1,182 @@
+[
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0002",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "8월 19일",
+    "normalized": {
+      "month": 8,
+      "day": 19
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "8월 19일",
+      "start_char": 6,
+      "end_char": 12
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0003",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "19일",
+    "normalized": {
+      "value": 19.0,
+      "unit": "days",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "19일",
+      "start_char": 9,
+      "end_char": 12
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "deal_name",
+        "label": "deal_name",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0005",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "리캐치",
+      "start_char": 111,
+      "end_char": 114
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0007",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+    "normalized": {
+      "text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [
+        "워트인텔리전스가 원하는 기능 (딜브레이커)"
+      ],
+      "exact_quote": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "start_char": 425,
+      "end_char": 487
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0008",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+    "normalized": {
+      "text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [
+        "워트인텔리전스가 원하는 기능 (딜브레이커)"
+      ],
+      "exact_quote": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "start_char": 488,
+      "end_char": 548
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4987",
+        "label": "직원 수",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W19",
+    "candidate_id": "C-0010",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+    "normalized": {
+      "text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0014",
+      "section_path": [
+        "리캐치의 주요 기능 및 한계"
+      ],
+      "exact_quote": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "start_char": 1544,
+      "end_char": 1631
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "6237",
+        "label": "광고성 정보 수신 동의 여부",
+        "type": "select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

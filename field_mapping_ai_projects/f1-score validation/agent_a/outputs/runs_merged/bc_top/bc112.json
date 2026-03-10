@@ -1,0 +1,164 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W112",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 23,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "400 주",
+      "normalized": {
+        "value": 400.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400 주",
+          "start_char": 692,
+          "end_char": 697
+        }
+      ],
+      "dedupe_key": "duration:c9d67396b534d7f7",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 20개",
+      "normalized": {
+        "value": 20,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "약 20개",
+          "start_char": 325,
+          "end_char": 330
+        }
+      ],
+      "dedupe_key": "case_metric:177a4efb2ffa3e62",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 422,
+          "end_char": 425
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 781,
+          "end_char": 784
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 805,
+          "end_char": 808
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 721,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 702,
+          "end_char": 705
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 848,
+          "end_char": 851
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

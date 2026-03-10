@@ -1,0 +1,494 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W130",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier 3 172억 상장사 알체라 - 잠재매출 미정] 251216_데모미팅 제공 여부에 대한 회신@sales 파이프드라이브 대비 리캐치가 CRM: CRM으로 오히려 세일즈포스보다 이기기 어려운 상대일 때가 있습니다.",
+      "normalized": {
+        "text": "[Tier 3 172억 상장사 알체라 - 잠재매출 미정] 251216_데모미팅 제공 여부에 대한 회신@sales 파이프드라이브 대비 리캐치가 CRM: CRM으로 오히려 세일즈포스보다 이기기 어려운 상대일 때가 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier 3 172억 상장사 알체라 - 잠재매출 미정] 251216_데모미팅 제공 여부에 대한 회신@sales 파이프드라이브 대비 리캐치가 CRM: CRM으로 오히려 세일즈포스보다 이기기 어려운 상대일 때가 있습니다.",
+          "start_char": 0,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "action_item:4c5f53019735eb92",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 56,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 74,
+          "end_char": 77
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 157,
+          "end_char": 160
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 217,
+          "end_char": 220
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 478,
+          "end_char": 481
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 531,
+          "end_char": 534
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 749,
+          "end_char": 752
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 767,
+          "end_char": 770
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1004,
+          "end_char": 1007
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1073,
+          "end_char": 1076
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부적으로 CRM 툴 교체 검토를 진행하고 있는 중으로",
+      "normalized": {
+        "text": "내부적으로 CRM 툴 교체 검토를 진행하고 있는 중으로",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "내부적으로 CRM 툴 교체 검토를 진행하고 있는 중으로",
+          "start_char": 429,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "action_item:880040f3ae0f1f92",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실제 사용하고 있는 담당자들에게 리캐치를 소개하는 자리를 요청드리고자 합니다.요청사항",
+      "normalized": {
+        "text": "실제 사용하고 있는 담당자들에게 리캐치를 소개하는 자리를 요청드리고자 합니다.요청사항",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "실제 사용하고 있는 담당자들에게 리캐치를 소개하는 자리를 요청드리고자 합니다.요청사항",
+          "start_char": 460,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "action_item:e59d568da1d78ec3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "약 10명",
+          "start_char": 516,
+          "end_char": 521
+        }
+      ],
+      "dedupe_key": "people_count:9c7c617250c17ea2",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 가격 조건(미팅 이후 추후 요청)관련해서 미팅 진행 가능하신지 문의드립니다.",
+      "normalized": {
+        "text": "- 가격 조건(미팅 이후 추후 요청)관련해서 미팅 진행 가능하신지 문의드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "- 가격 조건(미팅 이후 추후 요청)관련해서 미팅 진행 가능하신지 문의드립니다.",
+          "start_char": 571,
+          "end_char": 615
+        }
+      ],
+      "dedupe_key": "action_item:cf3916a2a069ab1d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부적으로 현재 사용하는 파이프드라이브와 비교 검토를 진행하고 있는 점 꼭 참고 부탁 드리겠습니다.확인 부탁 드립니다.감사합니다.",
+      "normalized": {
+        "text": "내부적으로 현재 사용하는 파이프드라이브와 비교 검토를 진행하고 있는 점 꼭 참고 부탁 드리겠습니다.확인 부탁 드립니다.감사합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "내부적으로 현재 사용하는 파이프드라이브와 비교 검토를 진행하고 있는 점 꼭 참고 부탁 드리겠습니다.확인 부탁 드립니다.감사합니다.",
+          "start_char": 648,
+          "end_char": 720
+        }
+      ],
+      "dedupe_key": "action_item:ebf64fd907cbbeb9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "메일 회신남준현팀장님 안녕하세요,",
+      "normalized": {
+        "text": "메일 회신남준현팀장님 안녕하세요,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "메일 회신남준현팀장님 안녕하세요,",
+          "start_char": 730,
+          "end_char": 748
+        }
+      ],
+      "dedupe_key": "action_item:10015765f09f9063",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "화요일(12.23) 오전 11시 시간 괜찮으실까요?2가지 후보 중 편한 일정을 안내해주시면 맞추어 방문드리겠습니다.아울러, 한 가지 꼭 요청드리고 싶은 정보가 있습니다.",
+      "normalized": {
+        "text": "화요일(12.23) 오전 11시 시간 괜찮으실까요?2가지 후보 중 편한 일정을 안내해주시면 맞추어 방문드리겠습니다.아울러, 한 가지 꼭 요청드리고 싶은 정보가 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "화요일(12.23) 오전 11시 시간 괜찮으실까요?2가지 후보 중 편한 일정을 안내해주시면 맞추어 방문드리겠습니다.아울러, 한 가지 꼭 요청드리고 싶은 정보가 있습니다.",
+          "start_char": 823,
+          "end_char": 917
+        }
+      ],
+      "dedupe_key": "action_item:65dd436fa8c15529",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 파이프드라이브를 사용하시며 가장 불편함을 느끼시는 지점, CRM 교체가 필요하다고 느끼셨던 지점은 무엇인지 몇 가지 정리해서 공유해주실 수 있을까요?리캐치는 파이프드라이브 대비 더 우수한 가격 경쟁력으로 가치를 드리기는 어려우며",
+      "normalized": {
+        "text": "현재 파이프드라이브를 사용하시며 가장 불편함을 느끼시는 지점, CRM 교체가 필요하다고 느끼셨던 지점은 무엇인지 몇 가지 정리해서 공유해주실 수 있을까요?리캐치는 파이프드라이브 대비 더 우수한 가격 경쟁력으로 가치를 드리기는 어려우며",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "현재 파이프드라이브를 사용하시며 가장 불편함을 느끼시는 지점, CRM 교체가 필요하다고 느끼셨던 지점은 무엇인지 몇 가지 정리해서 공유해주실 수 있을까요?리캐치는 파이프드라이브 대비 더 우수한 가격 경쟁력으로 가치를 드리기는 어려우며",
+          "start_char": 918,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "action_item:efea8a915fdd08fc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "많은 분들이 참석해주시는 미팅인만큼 사전에 기대하시는 부분을 미리 여쭙고 미팅에 참여코자 합니다.그럼, 회신 부탁드리겠습니다!감사합니다.",
+      "normalized": {
+        "text": "많은 분들이 참석해주시는 미팅인만큼 사전에 기대하시는 부분을 미리 여쭙고 미팅에 참여코자 합니다.그럼, 회신 부탁드리겠습니다!감사합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "많은 분들이 참석해주시는 미팅인만큼 사전에 기대하시는 부분을 미리 여쭙고 미팅에 참여코자 합니다.그럼, 회신 부탁드리겠습니다!감사합니다.",
+          "start_char": 1105,
+          "end_char": 1181
+        }
+      ],
+      "dedupe_key": "action_item:d75d2adde9c1bf29",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "김한규 배상.p.s: lucky.kim@business-canvas.com은 저희 팀에서 쓰는 가계정이어서 제 본 메일계정인 lucky@business-canvas.com 으로 회신 드립니다 :) (",
+      "normalized": {
+        "text": "김한규 배상.p.s: lucky.kim@business-canvas.com은 저희 팀에서 쓰는 가계정이어서 제 본 메일계정인 lucky@business-canvas.com 으로 회신 드립니다 :) (",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "김한규 배상.p.s: lucky.kim@business-canvas.com은 저희 팀에서 쓰는 가계정이어서 제 본 메일계정인 lucky@business-canvas.com 으로 회신 드립니다 :) (",
+          "start_char": 1182,
+          "end_char": 1293
+        }
+      ],
+      "dedupe_key": "action_item:2e5bf7c57ea39a8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "email",
+      "raw_text": "lucky@business-canvas.com",
+      "normalized": {
+        "value": "lucky@business-canvas.com"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "lucky@business-canvas.com",
+          "start_char": 1252,
+          "end_char": 1277
+        }
+      ],
+      "dedupe_key": "other:2374e2d46eef3427",
+      "confidence": 0.98
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 11시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 11,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "오전 11시",
+          "start_char": 813,
+          "end_char": 819
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "오전 11시",
+          "start_char": 834,
+          "end_char": 840
+        }
+      ],
+      "dedupe_key": "timeline:a7ee552fe5251acf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12.22",
+      "normalized": {
+        "year": 2012,
+        "month": 22,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "12.22",
+          "start_char": 805,
+          "end_char": 810
+        }
+      ],
+      "dedupe_key": "timeline:ba10fb8c2852a17c",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12.23",
+      "normalized": {
+        "year": 2012,
+        "month": 23,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "메일 원문"
+          ],
+          "exact_quote": "12.23",
+          "start_char": 827,
+          "end_char": 832
+        }
+      ],
+      "dedupe_key": "timeline:7e35c7da3f88ae92",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W216",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 28,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "웹사이트 개편 얼마나 걸릴지? -> 2~3개월 보시면 된다",
+      "normalized": {
+        "text": "웹사이트 개편 얼마나 걸릴지? -> 2~3개월 보시면 된다",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "웹사이트 개편 얼마나 걸릴지? -> 2~3개월 보시면 된다",
+          "start_char": 164,
+          "end_char": 196
+        }
+      ],
+      "dedupe_key": "other:673ac83281042a0b",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 186,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "내년 신학기 전에는 오픈하고 싶은데, 올해 예산을 증액받기는 좀 까다로울 것 같고 내년 예산을 쓰고 싶다. 선금/잔금 등 계약 구조가 어떻게 되는지?",
+      "normalized": {
+        "text": "내년 신학기 전에는 오픈하고 싶은데, 올해 예산을 증액받기는 좀 까다로울 것 같고 내년 예산을 쓰고 싶다. 선금/잔금 등 계약 구조가 어떻게 되는지?",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "내년 신학기 전에는 오픈하고 싶은데, 올해 예산을 증액받기는 좀 까다로울 것 같고 내년 예산을 쓰고 싶다. 선금/잔금 등 계약 구조가 어떻게 되는지?",
+          "start_char": 200,
+          "end_char": 283
+        }
+      ],
+      "dedupe_key": "other:dbea3e1d9a13f39f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "선금 50%, 잔금 50% 구조임.",
+      "normalized": {
+        "text": "선금 50%, 잔금 50% 구조임.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "선금 50%, 잔금 50% 구조임.",
+          "start_char": 289,
+          "end_char": 308
+        }
+      ],
+      "dedupe_key": "other:8967d4cbd8d62aff",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "학교시장 특성 고려하면 2월말까지는 작업 완료되어야 하는데, 그러려면 아래 타임라인이 가장 이상적이자 유일한 방법",
+      "normalized": {
+        "text": "학교시장 특성 고려하면 2월말까지는 작업 완료되어야 하는데, 그러려면 아래 타임라인이 가장 이상적이자 유일한 방법",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "학교시장 특성 고려하면 2월말까지는 작업 완료되어야 하는데, 그러려면 아래 타임라인이 가장 이상적이자 유일한 방법",
+          "start_char": 312,
+          "end_char": 375
+        }
+      ],
+      "dedupe_key": "other:4d58e1b3a58640e0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월말까지",
+      "normalized": {
+        "month": 2,
+        "part": "late",
+        "until": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "2월말까지",
+          "start_char": 325,
+          "end_char": 330
+        }
+      ],
+      "dedupe_key": "timeline:be910e7fb527dbbf",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "11월~12월초 중 계약서 서명하고",
+      "normalized": {
+        "text": "11월~12월초 중 계약서 서명하고",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "11월~12월초 중 계약서 서명하고",
+          "start_char": 381,
+          "end_char": 400
+        }
+      ],
+      "dedupe_key": "other:18da60223b929f53",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월초",
+      "normalized": {
+        "month": 12,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "12월초",
+          "start_char": 385,
+          "end_char": 389
+        }
+      ],
+      "dedupe_key": "timeline:908dc1ae25d3dff0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "12월 중으로 프로젝트 킥오프 하고 준비할거 준비하고",
+      "normalized": {
+        "text": "12월 중으로 프로젝트 킥오프 하고 준비할거 준비하고",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "12월 중으로 프로젝트 킥오프 하고 준비할거 준비하고",
+          "start_char": 404,
+          "end_char": 433
+        }
+      ],
+      "dedupe_key": "other:bf3b9e3cafb1b577",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "1월부터 본격적으로 작업 시작해서 2월 말에 끝내는 것",
+      "normalized": {
+        "text": "1월부터 본격적으로 작업 시작해서 2월 말에 끝내는 것",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "1월부터 본격적으로 작업 시작해서 2월 말에 끝내는 것",
+          "start_char": 437,
+          "end_char": 467
+        }
+      ],
+      "dedupe_key": "other:f9fad2d66e6b5721",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 말",
+      "normalized": {
+        "month": 2,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "2월 말",
+          "start_char": 456,
+          "end_char": 460
+        }
+      ],
+      "dedupe_key": "timeline:a30ee9b7dc179b81",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+      "normalized": {
+        "text": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+          "start_char": 473,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "other:23ea4617cfa5fff4",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+      "normalized": {
+        "text": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "선금은 1월초에 입금(우리 내부적으로 가능한지 확인은 필요)",
+          "start_char": 473,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "action_item:2fa2c1309bffd5a3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월초",
+      "normalized": {
+        "month": 1,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "질문사항"
+          ],
+          "exact_quote": "1월초",
+          "start_char": 477,
+          "end_char": 480
+        }
+      ],
+      "dedupe_key": "timeline:a6ac4146640de15b",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

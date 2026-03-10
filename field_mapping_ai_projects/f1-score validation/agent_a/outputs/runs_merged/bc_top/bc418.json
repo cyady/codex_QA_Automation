@@ -1,0 +1,190 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W418",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 22,
+          "end_char": 25
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 31,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 웹사이트 리뉴얼 마감 작업 진행 중",
+      "normalized": {
+        "text": "현재 웹사이트 리뉴얼 마감 작업 진행 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 웹사이트 리뉴얼 마감 작업 진행 중",
+          "start_char": 180,
+          "end_char": 202
+        }
+      ],
+      "dedupe_key": "action_item:11e64673d76bc4b3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 213,
+          "end_char": 216
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 263,
+          "end_char": 266
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM과 그로스 패키지 설명 드렸고, (당장 니즈가 있어 보이진 않았지만) 지속적으로 모니터링 하면서 향후 협업 가능한 부분 있으면 연락 주시겠다고 함",
+      "normalized": {
+        "text": "CRM과 그로스 패키지 설명 드렸고, (당장 니즈가 있어 보이진 않았지만) 지속적으로 모니터링 하면서 향후 협업 가능한 부분 있으면 연락 주시겠다고 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "CRM과 그로스 패키지 설명 드렸고, (당장 니즈가 있어 보이진 않았지만) 지속적으로 모니터링 하면서 향후 협업 가능한 부분 있으면 연락 주시겠다고 함",
+          "start_char": 391,
+          "end_char": 475
+        }
+      ],
+      "dedupe_key": "collaboration_need:8f4c4d2ea3dd30fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "앞으로 좋은 자료 나오면 보내드리겠다고 하니 그런거 있으면 마케팅팀끼리 다같이 공유한다면서 긍정적으로 반응하심",
+      "normalized": {
+        "text": "앞으로 좋은 자료 나오면 보내드리겠다고 하니 그런거 있으면 마케팅팀끼리 다같이 공유한다면서 긍정적으로 반응하심",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "앞으로 좋은 자료 나오면 보내드리겠다고 하니 그런거 있으면 마케팅팀끼리 다같이 공유한다면서 긍정적으로 반응하심",
+          "start_char": 533,
+          "end_char": 594
+        }
+      ],
+      "dedupe_key": "collaboration_need:b57c312295276966",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 간단 진단 이메일 발송(B2B 마케팅에 전문이라는 것을 보여주기 위함)",
+      "normalized": {
+        "text": "웹사이트 간단 진단 이메일 발송(B2B 마케팅에 전문이라는 것을 보여주기 위함)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "웹사이트 간단 진단 이메일 발송(B2B 마케팅에 전문이라는 것을 보여주기 위함)",
+          "start_char": 615,
+          "end_char": 659
+        }
+      ],
+      "dedupe_key": "action_item:0aea4a6c591f07de",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W521",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "나름 적극적으로 CRM 도입을 검토하고 있는 것으로 보입니다.",
+      "normalized": {
+        "text": "나름 적극적으로 CRM 도입을 검토하고 있는 것으로 보입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "나름 적극적으로 CRM 도입을 검토하고 있는 것으로 보입니다.",
+          "start_char": 30,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "action_item:4a587875d07939db",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 과정에서 몇 가지 확인하고 싶은 사항이 있어 아래와 같이 문의드립니다.",
+      "normalized": {
+        "text": "검토 과정에서 몇 가지 확인하고 싶은 사항이 있어 아래와 같이 문의드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "검토 과정에서 몇 가지 확인하고 싶은 사항이 있어 아래와 같이 문의드립니다.",
+          "start_char": 131,
+          "end_char": 173
+        }
+      ],
+      "dedupe_key": "action_item:16b1a4336e853352",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "65만 원",
+      "normalized": {
+        "value": 650000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "65만 원",
+          "start_char": 208,
+          "end_char": 213
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만 원",
+          "start_char": 640,
+          "end_char": 645
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만원",
+          "start_char": 665,
+          "end_char": 669
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만원",
+          "start_char": 781,
+          "end_char": 785
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만원",
+          "start_char": 849,
+          "end_char": 853
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만원",
+          "start_char": 1048,
+          "end_char": 1052
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "65만원",
+          "start_char": 1132,
+          "end_char": 1136
+        }
+      ],
+      "dedupe_key": "budget:c0d0bf475caa4e6b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만 원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "100만 원",
+          "start_char": 238,
+          "end_char": 244
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "100만 원",
+          "start_char": 696,
+          "end_char": 702
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전달 주신 링크 내 스탠다드 플랜 단가가 상이한 부분이 있어 해당 기준에 대해서도 확인 부탁드립니다.",
+      "normalized": {
+        "text": "전달 주신 링크 내 스탠다드 플랜 단가가 상이한 부분이 있어 해당 기준에 대해서도 확인 부탁드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "전달 주신 링크 내 스탠다드 플랜 단가가 상이한 부분이 있어 해당 기준에 대해서도 확인 부탁드립니다.",
+          "start_char": 320,
+          "end_char": 376
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "전달 주신 링크 내 스탠다드 플랜 단가가 상이한 부분이 있어 해당 기준에 대해서도 확인 부탁드립니다.",
+          "start_char": 949,
+          "end_char": 1005
+        }
+      ],
+      "dedupe_key": "collaboration_need:1b0fe778f25b21d0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "혹시 추가적인 할인 조정 가능 여부도 함께 검토해 주실 수 있을지 문의드립니다.",
+      "normalized": {
+        "text": "혹시 추가적인 할인 조정 가능 여부도 함께 검토해 주실 수 있을지 문의드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "혹시 추가적인 할인 조정 가능 여부도 함께 검토해 주실 수 있을지 문의드립니다.",
+          "start_char": 423,
+          "end_char": 467
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "혹시 추가적인 할인 조정 가능 여부도 함께 검토해 주실 수 있을지 문의드립니다.",
+          "start_char": 1203,
+          "end_char": 1247
+        }
+      ],
+      "dedupe_key": "action_item:a0bdfdd3ba96d94b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "위 사항 확인 후 회신 주시면 감사하겠습니다.",
+      "normalized": {
+        "text": "위 사항 확인 후 회신 주시면 감사하겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "위 사항 확인 후 회신 주시면 감사하겠습니다.",
+          "start_char": 468,
+          "end_char": 493
+        }
+      ],
+      "dedupe_key": "action_item:1b8c802edaf59fb5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확인되는 대로 내부 검토 후 빠르게 논의 이어가겠습니다.",
+      "normalized": {
+        "text": "확인되는 대로 내부 검토 후 빠르게 논의 이어가겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(원 메일)"
+          ],
+          "exact_quote": "확인되는 대로 내부 검토 후 빠르게 논의 이어가겠습니다.",
+          "start_char": 494,
+          "end_char": 525
+        }
+      ],
+      "dedupe_key": "action_item:0ea376ac91702a7f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 570,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 660,
+          "end_char": 662
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 771,
+          "end_char": 773
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 858,
+          "end_char": 860
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "2명",
+          "start_char": 693,
+          "end_char": 695
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "2명",
+          "start_char": 828,
+          "end_char": 830
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5만원",
+      "normalized": {
+        "value": 50000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "5만원",
+          "start_char": 818,
+          "end_char": 821
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "5만원",
+          "start_char": 887,
+          "end_char": 890
+        }
+      ],
+      "dedupe_key": "budget:15a7dc94cfd687a3",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "10만원",
+      "normalized": {
+        "value": 100000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "10만원",
+          "start_char": 836,
+          "end_char": 840
+        }
+      ],
+      "dedupe_key": "budget:10b4b501b82308dd",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "1명",
+          "start_char": 803,
+          "end_char": 805
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "1명",
+          "start_char": 875,
+          "end_char": 877
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "55만원",
+      "normalized": {
+        "value": 550000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "55만원",
+          "start_char": 1084,
+          "end_char": 1088
+        }
+      ],
+      "dedupe_key": "budget:6ee77ef55c9031f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(답변) 연간 견적 할인은 모든 고객사에 공통으로 안내드리는 터라 추가 할인은 어렵습니다.",
+      "normalized": {
+        "text": "(답변) 연간 견적 할인은 모든 고객사에 공통으로 안내드리는 터라 추가 할인은 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "(답변) 연간 견적 할인은 모든 고객사에 공통으로 안내드리는 터라 추가 할인은 어렵습니다.",
+          "start_char": 1249,
+          "end_char": 1299
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7cd6102eaeb02c5e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이렇게 진행했을 때, 총액에서 120만원의 비용이 절감될 수 있습니다.(부가세 별도)",
+      "normalized": {
+        "text": "이렇게 진행했을 때, 총액에서 120만원의 비용이 절감될 수 있습니다.(부가세 별도)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "이렇게 진행했을 때, 총액에서 120만원의 비용이 절감될 수 있습니다.(부가세 별도)",
+          "start_char": 1382,
+          "end_char": 1429
+        }
+      ],
+      "dedupe_key": "action_item:085b7d5c9fd5daa3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "120만원",
+      "normalized": {
+        "value": 1200000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "120만원",
+          "start_char": 1399,
+          "end_char": 1404
+        }
+      ],
+      "dedupe_key": "budget:b4008e4a2048155f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "2개월",
+          "start_char": 1323,
+          "end_char": 1326
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "10개월",
+      "normalized": {
+        "value": 10.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(한규 답변)"
+          ],
+          "exact_quote": "10개월",
+          "start_char": 1342,
+          "end_char": 1346
+        }
+      ],
+      "dedupe_key": "duration:fdf0b581f66a3004",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "56.92",
+      "normalized": {
+        "year": 2056,
+        "month": 92,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "감사합니다!"
+          ],
+          "exact_quote": "56.92",
+          "start_char": 1572,
+          "end_char": 1577
+        }
+      ],
+      "dedupe_key": "timeline:0e3873d1893420f8",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

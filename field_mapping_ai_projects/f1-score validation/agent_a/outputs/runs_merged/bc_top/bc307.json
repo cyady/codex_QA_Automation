@@ -1,0 +1,902 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W307",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "67.35",
+      "normalized": {
+        "year": 2067,
+        "month": 35,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "67.35",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:581c18cd63d5fa6c",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 131,
+          "end_char": 135
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 1502,
+          "end_char": 1506
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 1784,
+          "end_char": 1788
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 272,
+          "end_char": 275
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 289,
+          "end_char": 292
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 367,
+          "end_char": 370
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리캐치-디앤알 협업 시너지 제안"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 995,
+          "end_char": 998
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1528,
+          "end_char": 1531
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1626,
+          "end_char": 1629
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1707,
+          "end_char": 1710
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1835,
+          "end_char": 1838
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 리캐치는 NPJ 협업 성공 사례 및 AI·데이터 기반 CRM 강점 공유",
+      "normalized": {
+        "text": "• 리캐치는 NPJ 협업 성공 사례 및 AI·데이터 기반 CRM 강점 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "• 리캐치는 NPJ 협업 성공 사례 및 AI·데이터 기반 CRM 강점 공유",
+          "start_char": 287,
+          "end_char": 328
+        }
+      ],
+      "dedupe_key": "collaboration_need:b23d54f684cb8b13",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 347,
+          "end_char": 350
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 407,
+          "end_char": 410
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 534,
+          "end_char": 537
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "데이터 통합 (NPJ·리멤버 연동)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1324,
+          "end_char": 1327
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1363,
+          "end_char": 1366
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1452,
+          "end_char": 1455
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1491,
+          "end_char": 1494
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1570,
+          "end_char": 1573
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1608,
+          "end_char": 1611
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1750,
+          "end_char": 1753
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1803,
+          "end_char": 1806
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 11~12월 중 디앤알 직원 대상 AEO/SEO 출장 강연을 첫 액션 아이템으로 확정zCommit Level (레벨 2)",
+      "normalized": {
+        "text": "• 11~12월 중 디앤알 직원 대상 AEO/SEO 출장 강연을 첫 액션 아이템으로 확정zCommit Level (레벨 2)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "• 11~12월 중 디앤알 직원 대상 AEO/SEO 출장 강연을 첫 액션 아이템으로 확정zCommit Level (레벨 2)",
+          "start_char": 382,
+          "end_char": 451
+        }
+      ],
+      "dedupe_key": "action_item:1b7669375d450a2a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "CRM이나 그로스패키지의 가치사다리가 될 수 있는 디앤알의 명확한 문제(콘텐츠 관리·SEO/AEO 역량 강화) 해결을 위한 구체적 첫 단계(강연 일정 합의)",
+      "normalized": {
+        "text": "CRM이나 그로스패키지의 가치사다리가 될 수 있는 디앤알의 명확한 문제(콘텐츠 관리·SEO/AEO 역량 강화) 해결을 위한 구체적 첫 단계(강연 일정 합의)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "CRM이나 그로스패키지의 가치사다리가 될 수 있는 디앤알의 명확한 문제(콘텐츠 관리·SEO/AEO 역량 강화) 해결을 위한 구체적 첫 단계(강연 일정 합의)",
+          "start_char": 487,
+          "end_char": 574
+        }
+      ],
+      "dedupe_key": "risk_or_concern:25e6c98985dbecf5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "20명",
+          "start_char": 628,
+          "end_char": 631
+        }
+      ],
+      "dedupe_key": "people_count:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200만 건",
+      "normalized": {
+        "value": 2000000,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "독자적 데이터"
+          ],
+          "exact_quote": "200만 건",
+          "start_char": 810,
+          "end_char": 816
+        }
+      ],
+      "dedupe_key": "case_metric:7edbed976b853ccf",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "데이터 통합 (NPJ·리멤버 연동)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1316,
+          "end_char": 1319
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+      "normalized": {
+        "text": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+          "start_char": 1350,
+          "end_char": 1379
+        }
+      ],
+      "dedupe_key": "collaboration_need:e2ee91fa04b6f800",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+      "normalized": {
+        "text": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "콘텐츠 관리 산발적 → SEO/AEO 역량 강화 필요",
+          "start_char": 1350,
+          "end_char": 1379
+        }
+      ],
+      "dedupe_key": "action_item:6d927d0ce375343c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+      "normalized": {
+        "text": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+          "start_char": 1383,
+          "end_char": 1433
+        }
+      ],
+      "dedupe_key": "collaboration_need:f194ec9301e36666",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+      "normalized": {
+        "text": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "실무진 “CRM은 중노동만 시킨다” 인식 → CRM 도입에 있어서는 실무자 효용 중심 필요",
+          "start_char": 1383,
+          "end_char": 1433
+        }
+      ],
+      "dedupe_key": "action_item:07d487bd7ece463f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "실장님: “직원들이 AEO/SEO 논리를 이해해야 IT 부서 협조 가능”",
+      "normalized": {
+        "text": "실장님: “직원들이 AEO/SEO 논리를 이해해야 IT 부서 협조 가능”",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "실장님: “직원들이 AEO/SEO 논리를 이해해야 IT 부서 협조 가능”",
+          "start_char": 1437,
+          "end_char": 1477
+        }
+      ],
+      "dedupe_key": "collaboration_need:f6cdb23a8dac0970",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "향후 계획 (AEO/SEO 출장 강연) @박성준(Scott)",
+      "normalized": {
+        "text": "향후 계획 (AEO/SEO 출장 강연) @박성준(Scott)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "향후 계획 (AEO/SEO 출장 강연) @박성준(Scott)",
+          "start_char": 1480,
+          "end_char": 1513
+        }
+      ],
+      "dedupe_key": "collaboration_need:dc4eee0188b32017",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+      "normalized": {
+        "text": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+          "start_char": 1519,
+          "end_char": 1550
+        }
+      ],
+      "dedupe_key": "collaboration_need:214f0f8b28c1a6b8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+      "normalized": {
+        "text": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "디앤알 실장님이 리캐치에 내부 직원 대상 출장 강연 요청",
+          "start_char": 1519,
+          "end_char": 1550
+        }
+      ],
+      "dedupe_key": "action_item:eac17ff439cc013d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "목적: 전 부서의 AEO/SEO 이해도 제고 (마케팅·IT·사업부 전반)",
+      "normalized": {
+        "text": "목적: 전 부서의 AEO/SEO 이해도 제고 (마케팅·IT·사업부 전반)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "목적: 전 부서의 AEO/SEO 이해도 제고 (마케팅·IT·사업부 전반)",
+          "start_char": 1556,
+          "end_char": 1596
+        }
+      ],
+      "dedupe_key": "collaboration_need:16b035f926591405",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내용: AEO/SEO 마케팅 + 리드 전환 + 리캐치 툴 소개",
+      "normalized": {
+        "text": "내용: AEO/SEO 마케팅 + 리드 전환 + 리캐치 툴 소개",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "내용: AEO/SEO 마케팅 + 리드 전환 + 리캐치 툴 소개",
+          "start_char": 1600,
+          "end_char": 1634
+        }
+      ],
+      "dedupe_key": "collaboration_need:5df4ecef889b49ba",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "참석 인원: 20명 이상, 임원 관심도 높음",
+      "normalized": {
+        "text": "참석 인원: 20명 이상, 임원 관심도 높음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "참석 인원: 20명 이상, 임원 관심도 높음",
+          "start_char": 1638,
+          "end_char": 1662
+        }
+      ],
+      "dedupe_key": "collaboration_need:f3fa132363796f30",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "20명",
+          "start_char": 1645,
+          "end_char": 1648
+        }
+      ],
+      "dedupe_key": "team_size:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "강연료: 50~100만원 이상이라고 말씀 드림",
+      "normalized": {
+        "text": "강연료: 50~100만원 이상이라고 말씀 드림",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "강연료: 50~100만원 이상이라고 말씀 드림",
+          "start_char": 1666,
+          "end_char": 1691
+        }
+      ],
+      "dedupe_key": "collaboration_need:e2a5a878ddc47f2f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "100만원",
+          "start_char": 1674,
+          "end_char": 1679
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+      "normalized": {
+        "text": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+          "start_char": 1695,
+          "end_char": 1719
+        }
+      ],
+      "dedupe_key": "collaboration_need:9dd57884ce84f8fc",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+      "normalized": {
+        "text": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "디앤알 니즈"
+          ],
+          "exact_quote": "시너지 협업 차원에서 리캐치 적극 지원 예정",
+          "start_char": 1695,
+          "end_char": 1719
+        }
+      ],
+      "dedupe_key": "collaboration_need:b1891f93b14b23ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)",
+      "normalized": {
+        "text": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)",
+          "start_char": 1739,
+          "end_char": 1795
+        }
+      ],
+      "dedupe_key": "action_item:b2d18751ec42a9e0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)",
+      "normalized": {
+        "text": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "디앤알 내부 AEO/SEO 출장 강연 구체화 (내용 정리, 일정 조율 및 진행) @박성준(Scott)",
+          "start_char": 1739,
+          "end_char": 1795
+        }
+      ],
+      "dedupe_key": "action_item:ef45260bf0390ff5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)",
+      "normalized": {
+        "text": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)",
+          "start_char": 1799,
+          "end_char": 1868
+        }
+      ],
+      "dedupe_key": "action_item:67ab40a8c91e3f80",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)",
+      "normalized": {
+        "text": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "AEO/SEO 강연을 통해 확보된 고객 풀(참석 직원) 관리 및 리캐치 툴 소개 연계 @김우진(Woojin Andy Kim)",
+          "start_char": 1799,
+          "end_char": 1868
+        }
+      ],
+      "dedupe_key": "collaboration_need:575de25075a9f6c2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "액션 아이템 & 담당자"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 1847,
+          "end_char": 1851
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W26",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 1시",
+          "start_char": 1427,
+          "end_char": 1432
+        }
+      ],
+      "dedupe_key": "timeline:01785350c93fba4e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 18일",
+      "normalized": {
+        "month": 9,
+        "day": 18
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9월 18일",
+          "start_char": 1415,
+          "end_char": 1421
+        }
+      ],
+      "dedupe_key": "timeline:46259edec4628701",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "18일",
+          "start_char": 1418,
+          "end_char": 1421
+        }
+      ],
+      "dedupe_key": "duration:37571e0d7b3d26c5",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 1155,
+          "end_char": 1157
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 1506,
+          "end_char": 1508
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 421,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1692,
+          "end_char": 1695
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1997,
+          "end_char": 2000
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

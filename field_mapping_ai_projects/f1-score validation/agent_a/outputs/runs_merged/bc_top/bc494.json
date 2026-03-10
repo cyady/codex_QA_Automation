@@ -1,0 +1,151 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W494",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 34,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 19,
+          "end_char": 22
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 35,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "N) 현재 모든 페이지를 HTML 코딩으로 작업하고 있어 운영상 비효율이 매우 큼. 이를 해결하기 위해 일부 주요 페이지를 웹빌더로 이관하여 모듈/라이브러리화하길 희망하며 이를 수행해줄 파트너사 모색 중.",
+      "normalized": {
+        "text": "N) 현재 모든 페이지를 HTML 코딩으로 작업하고 있어 운영상 비효율이 매우 큼. 이를 해결하기 위해 일부 주요 페이지를 웹빌더로 이관하여 모듈/라이브러리화하길 희망하며 이를 수행해줄 파트너사 모색 중.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "N) 현재 모든 페이지를 HTML 코딩으로 작업하고 있어 운영상 비효율이 매우 큼. 이를 해결하기 위해 일부 주요 페이지를 웹빌더로 이관하여 모듈/라이브러리화하길 희망하며 이를 수행해줄 파트너사 모색 중.",
+          "start_char": 87,
+          "end_char": 201
+        }
+      ],
+      "dedupe_key": "collaboration_need:4431514e4fb650b0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "디자인: 본사 브랜드 가이드라인을 준수해야 함(만들어진 애셋을 주는건지, 디자인도 외주사에 맡길건지는 추가 파악 필요)",
+      "normalized": {
+        "text": "디자인: 본사 브랜드 가이드라인을 준수해야 함(만들어진 애셋을 주는건지, 디자인도 외주사에 맡길건지는 추가 파악 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "디자인: 본사 브랜드 가이드라인을 준수해야 함(만들어진 애셋을 주는건지, 디자인도 외주사에 맡길건지는 추가 파악 필요)",
+          "start_char": 237,
+          "end_char": 303
+        }
+      ],
+      "dedupe_key": "action_item:12eaaa05a06e79ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "타임라인: 이번 분기 내 업체 선정 완료하고 연내 프로젝트 진행 계획",
+      "normalized": {
+        "text": "타임라인: 이번 분기 내 업체 선정 완료하고 연내 프로젝트 진행 계획",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "타임라인: 이번 분기 내 업체 선정 완료하고 연내 프로젝트 진행 계획",
+          "start_char": 370,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "action_item:8cd7539207d16467",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "---[의견 요청]"
+          ],
+          "exact_quote": "@sales",
+          "start_char": 662,
+          "end_char": 668
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

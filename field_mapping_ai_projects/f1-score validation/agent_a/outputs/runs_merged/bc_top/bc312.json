@@ -1,0 +1,625 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W312",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 30만 원",
+      "normalized": {
+        "value": 300000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "약 30만 원",
+          "start_char": 74,
+          "end_char": 81
+        }
+      ],
+      "dedupe_key": "budget:a65ab2e87b1f2eff",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 110,
+          "end_char": 116
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 185,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 15건",
+      "normalized": {
+        "value": 15,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "약 15건",
+          "start_char": 95,
+          "end_char": 100
+        }
+      ],
+      "dedupe_key": "case_metric:3bcfeb485a5d2a2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "16건",
+      "normalized": {
+        "value": 16,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "16건",
+          "start_char": 128,
+          "end_char": 131
+        }
+      ],
+      "dedupe_key": "case_metric:4fd8d349e086b373",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 효율 문제에도 불구하고 대표님의 의지로 키워드 광고비(월 400만 원 수준 추정)를 유지 중인 상태",
+      "normalized": {
+        "text": "현재 효율 문제에도 불구하고 대표님의 의지로 키워드 광고비(월 400만 원 수준 추정)를 유지 중인 상태",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "현재 효율 문제에도 불구하고 대표님의 의지로 키워드 광고비(월 400만 원 수준 추정)를 유지 중인 상태",
+          "start_char": 150,
+          "end_char": 208
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ff6558d1c4f3760a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 리뉴얼 예산: 이미 기존 업체와 계약 및 비용 책정이 완료되어 제작이 진행 중인 상태",
+      "normalized": {
+        "text": "웹사이트 리뉴얼 예산: 이미 기존 업체와 계약 및 비용 책정이 완료되어 제작이 진행 중인 상태",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "웹사이트 리뉴얼 예산: 이미 기존 업체와 계약 및 비용 책정이 완료되어 제작이 진행 중인 상태",
+          "start_char": 212,
+          "end_char": 264
+        }
+      ],
+      "dedupe_key": "action_item:33dde35db7c73442",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "컨설팅 및 툴 도입 예산: 리캐치의 컨설팅(웹사이트 기획, SEO), 리드 마그넷 제작, 리캐치 솔루션 도입에 대한 비용 견적을 요청함",
+      "normalized": {
+        "text": "컨설팅 및 툴 도입 예산: 리캐치의 컨설팅(웹사이트 기획, SEO), 리드 마그넷 제작, 리캐치 솔루션 도입에 대한 비용 견적을 요청함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "컨설팅 및 툴 도입 예산: 리캐치의 컨설팅(웹사이트 기획, SEO), 리드 마그넷 제작, 리캐치 솔루션 도입에 대한 비용 견적을 요청함",
+          "start_char": 268,
+          "end_char": 343
+        }
+      ],
+      "dedupe_key": "action_item:9ae741ccfda8a195",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 301,
+          "end_char": 304
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "현황"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 766,
+          "end_char": 769
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "필요 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 946,
+          "end_char": 949
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "컨설팅 시점"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1447,
+          "end_char": 1450
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 283,
+          "end_char": 286
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 318,
+          "end_char": 321
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 347,
+          "end_char": 350
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 483,
+          "end_char": 486
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 661,
+          "end_char": 664
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "솔루션 도입 (ReCatch)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1293,
+          "end_char": 1296
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최종 의사결정권자 (대표님): B2B 마케팅 및 웹사이트 구조에 대한 이해도가 낮아 설득이 필요한 대상",
+      "normalized": {
+        "text": "최종 의사결정권자 (대표님): B2B 마케팅 및 웹사이트 구조에 대한 이해도가 낮아 설득이 필요한 대상",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "광고 집행 현황"
+          ],
+          "exact_quote": "최종 의사결정권자 (대표님): B2B 마케팅 및 웹사이트 구조에 대한 이해도가 낮아 설득이 필요한 대상",
+          "start_char": 527,
+          "end_char": 584
+        }
+      ],
+      "dedupe_key": "action_item:e5d5564f20a47e83",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기존 업체에 다시 맡겨 리뉴얼 진행 중(날코딩, 유지보수 2년 무료, 관리자 페이지 일부 활용 가능)",
+      "normalized": {
+        "text": "기존 업체에 다시 맡겨 리뉴얼 진행 중(날코딩, 유지보수 2년 무료, 관리자 페이지 일부 활용 가능)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "진행 상황"
+          ],
+          "exact_quote": "기존 업체에 다시 맡겨 리뉴얼 진행 중(날코딩, 유지보수 2년 무료, 관리자 페이지 일부 활용 가능)",
+          "start_char": 789,
+          "end_char": 845
+        }
+      ],
+      "dedupe_key": "action_item:58c64640a47816f7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "프레이머 도입을 시도했으나 10월경 도메인/기술 이슈로 중단됨",
+      "normalized": {
+        "text": "프레이머 도입을 시도했으나 10월경 도메인/기술 이슈로 중단됨",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "진행 상황"
+          ],
+          "exact_quote": "프레이머 도입을 시도했으나 10월경 도메인/기술 이슈로 중단됨",
+          "start_char": 850,
+          "end_char": 884
+        }
+      ],
+      "dedupe_key": "collaboration_need:2d7f509f9fba56b9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Thinking Partner (씽킹 파트너):1인 마케터로서의 한계를 느끼며, 전략을 함께 고민하고 내부(대표) 설득을 도와줄 전문가 파트너가 필요",
+      "normalized": {
+        "text": "Thinking Partner (씽킹 파트너):1인 마케터로서의 한계를 느끼며, 전략을 함께 고민하고 내부(대표) 설득을 도와줄 전문가 파트너가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "필요 사항"
+          ],
+          "exact_quote": "Thinking Partner (씽킹 파트너):1인 마케터로서의 한계를 느끼며, 전략을 함께 고민하고 내부(대표) 설득을 도와줄 전문가 파트너가 필요",
+          "start_char": 964,
+          "end_char": 1047
+        }
+      ],
+      "dedupe_key": "action_item:a52b8ed40b6c85d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "월간 컨설팅 형태의 자문 역할을 희망",
+      "normalized": {
+        "text": "월간 컨설팅 형태의 자문 역할을 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "필요 사항"
+          ],
+          "exact_quote": "월간 컨설팅 형태의 자문 역할을 희망",
+          "start_char": 1051,
+          "end_char": 1071
+        }
+      ],
+      "dedupe_key": "collaboration_need:b6996ce603cf0578",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표님 등 내부 관계자들의 B2B 웹사이트 및 마케팅 이해도를 높이기 위한 출강 교육 요청",
+      "normalized": {
+        "text": "대표님 등 내부 관계자들의 B2B 웹사이트 및 마케팅 이해도를 높이기 위한 출강 교육 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "경영진 대상 강연"
+          ],
+          "exact_quote": "대표님 등 내부 관계자들의 B2B 웹사이트 및 마케팅 이해도를 높이기 위한 출강 교육 요청",
+          "start_char": 1091,
+          "end_char": 1141
+        }
+      ],
+      "dedupe_key": "action_item:6c27f60ecb9d392d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내년도 계획으로 건기식/뷰티 등 특정 타겟을 위한 중형급 리드 마그넷 1~2건 제작 희망",
+      "normalized": {
+        "text": "내년도 계획으로 건기식/뷰티 등 특정 타겟을 위한 중형급 리드 마그넷 1~2건 제작 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "리드 마그넷 (Lead Magnet)"
+          ],
+          "exact_quote": "내년도 계획으로 건기식/뷰티 등 특정 타겟을 위한 중형급 리드 마그넷 1~2건 제작 희망",
+          "start_char": 1170,
+          "end_char": 1219
+        }
+      ],
+      "dedupe_key": "collaboration_need:70b76d1ab69a2993",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number_range",
+      "raw_text": "1~2건",
+      "normalized": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "리드 마그넷 (Lead Magnet)"
+          ],
+          "exact_quote": "1~2건",
+          "start_char": 1209,
+          "end_char": 1213
+        }
+      ],
+      "dedupe_key": "lead_volume:144b26f10afb460d",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 UTM, 퍼널 관리, 대시보드 등이 부재하여 성과 측정이 불가능함",
+      "normalized": {
+        "text": "현재 UTM, 퍼널 관리, 대시보드 등이 부재하여 성과 측정이 불가능함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "솔루션 도입 (ReCatch)"
+          ],
+          "exact_quote": "현재 UTM, 퍼널 관리, 대시보드 등이 부재하여 성과 측정이 불가능함",
+          "start_char": 1250,
+          "end_char": 1289
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0b161f5a75065cb8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 툴을 도입하여 데이터 기반의 마케팅 환경 구축 희망",
+      "normalized": {
+        "text": "리캐치 툴을 도입하여 데이터 기반의 마케팅 환경 구축 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "솔루션 도입 (ReCatch)"
+          ],
+          "exact_quote": "리캐치 툴을 도입하여 데이터 기반의 마케팅 환경 구축 희망",
+          "start_char": 1293,
+          "end_char": 1325
+        }
+      ],
+      "dedupe_key": "collaboration_need:7c24200874993589",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 말",
+      "normalized": {
+        "month": 1,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "솔루션 도입 (ReCatch)"
+          ],
+          "exact_quote": "1월 말",
+          "start_char": 1370,
+          "end_char": 1374
+        }
+      ],
+      "dedupe_key": "timeline:34fb9df0c4c074f0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 디자인/구조가 확정되기 전인 현재 시점(즉시)에 기획 및 SEO 컨설팅 투입이 필요함",
+      "normalized": {
+        "text": "웹사이트 디자인/구조가 확정되기 전인 현재 시점(즉시)에 기획 및 SEO 컨설팅 투입이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "컨설팅 시점"
+          ],
+          "exact_quote": "웹사이트 디자인/구조가 확정되기 전인 현재 시점(즉시)에 기획 및 SEO 컨설팅 투입이 필요함",
+          "start_char": 1410,
+          "end_char": 1462
+        }
+      ],
+      "dedupe_key": "action_item:a0bfcd9ebe2f05c4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내년도 사업 계획에 포함하여 진행 예정",
+      "normalized": {
+        "text": "내년도 사업 계획에 포함하여 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "리드 마그넷"
+          ],
+          "exact_quote": "내년도 사업 계획에 포함하여 진행 예정",
+          "start_char": 1478,
+          "end_char": 1499
+        }
+      ],
+      "dedupe_key": "action_item:11b779ece35e1655",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

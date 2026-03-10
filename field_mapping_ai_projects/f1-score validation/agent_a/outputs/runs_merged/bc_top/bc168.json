@@ -1,0 +1,56 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W168",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "251001_콜백 없어서 전화했는데 부재중 -> 이메일 발송",
+      "normalized": {
+        "text": "251001_콜백 없어서 전화했는데 부재중 -> 이메일 발송",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "251001_콜백 없어서 전화했는데 부재중 -> 이메일 발송",
+          "start_char": 23,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1cfc165498584457",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 137,
+          "end_char": 140
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "memo_id": "M-W4",
+    "candidate_id": "C-0001",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+    "normalized": {
+      "text": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+      "start_char": 41,
+      "end_char": 158
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5370",
+        "label": "고객상황",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W4",
+    "candidate_id": "C-0002",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "9/8",
+    "normalized": {
+      "month": 9,
+      "day": 8,
+      "kind": "month_day"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "9/8",
+      "start_char": 0,
+      "end_char": 3
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1588",
+        "label": "MQL 전환일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

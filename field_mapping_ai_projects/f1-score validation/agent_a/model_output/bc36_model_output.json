@@ -1,0 +1,408 @@
+[
+  {
+    "extracted_value": 4,
+    "field_definition": {
+      "id": "5773",
+      "label": "Commit Level",
+      "type": "number",
+      "category": "custom",
+      "display_order": 178,
+      "required": false,
+      "archive": false,
+      "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+      "description": "0,1,2,3,4로 써주세요",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "미팅 노트에 'Level3 -> Level4'로 명시되어 있으며, 구체적인 예산(2,500만원)과 타임라인이 확정되었고 계약서 초안 제작 단계에 진입하여 레벨 4의 조건을 충족합니다."
+  },
+  {
+    "extracted_value": 25000000,
+    "field_definition": {
+      "id": "5557",
+      "label": "✅ 총 계약 금액",
+      "type": "currency",
+      "category": "custom",
+      "display_order": 155,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": "총 계약 금액을 적어주세요. ",
+      "default_value": null,
+      "attributes": {
+        "code": "KRW",
+        "precision": 0
+      }
+    },
+    "reasoning": "예산 및 범위 섹션에서 5페이지 기준 견적 및 최종 합의된 예산이 2,500만 원(VAT 별도)으로 확정되었습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "e73d2a70-c360-42a6-944b-897aa2244535"
+      },
+      {
+        "value": "65403ef8-d662-4847-abe4-6e0f46270d43"
+      }
+    ],
+    "field_definition": {
+      "id": "5656",
+      "label": "결제 상품 (그로스패키지)",
+      "type": "multi-select",
+      "category": "custom",
+      "display_order": 175,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "웹사이트",
+            "order": 1,
+            "value": "e73d2a70-c360-42a6-944b-897aa2244535"
+          },
+          {
+            "label": "블로그",
+            "order": 2,
+            "value": "65403ef8-d662-4847-abe4-6e0f46270d43"
+          },
+          {
+            "label": "ABM",
+            "order": 3,
+            "value": "903cacc1-9e37-4d0b-8d6c-2acd90ce686e"
+          },
+          {
+            "label": "(미정)",
+            "order": 4,
+            "value": "5ad20670-2f8f-42b5-8400-5048842351dd"
+          },
+          {
+            "label": "백서",
+            "order": 5,
+            "value": "253b4e97-1b19-4728-abb3-bfaf3cee754e"
+          },
+          {
+            "label": "세일즈",
+            "order": 6,
+            "value": "4e1af48b-f874-4f5a-be00-56eeb1c99623"
+          },
+          {
+            "label": "마케팅",
+            "order": 7,
+            "value": "102eef66-b522-4100-bd55-76d1b2f8a34d"
+          },
+          {
+            "label": "GTM 패키지",
+            "order": 8,
+            "value": "b2d496a2-99e2-448e-b60f-4a9be8ce974b"
+          },
+          {
+            "label": "파트너 플랜",
+            "order": 9,
+            "value": "96907d04-2c0f-4c41-acfb-fbac1a20f20f"
+          },
+          {
+            "label": "글로벌 GTM 패키지 (Attract)",
+            "order": 10,
+            "value": "4708b13b-a068-49a2-88bb-2a9c3156100b"
+          },
+          {
+            "label": "글로벌 GTM 패키지 (Convert)",
+            "order": 11,
+            "value": "d0610293-7ee1-4e86-8fd4-5257605e8279"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "웹사이트 패키지 제작이 주 프로젝트이며, 인블로그를 활용한 블로그 구축 및 연동 비용이 별도로 논의되었으므로 웹사이트와 블로그를 모두 포함합니다."
+  },
+  {
+    "extracted_value": "2026-03-04",
+    "field_definition": {
+      "id": "5372",
+      "label": "예상 마감 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 141,
+      "required": false,
+      "archive": false,
+      "caption": "계약 예상 마감 일자",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "기준일인 2026-02-27(금요일)을 기준으로 '다음 주 초 중으로 계약 완료'할 예정이라고 명시되어 있어, 다음 주 수요일인 3월 4일을 예상 마감일로 추출했습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+      }
+    ],
+    "field_definition": {
+      "id": "5178",
+      "label": "Tier",
+      "type": "select",
+      "category": "custom",
+      "display_order": 120,
+      "required": false,
+      "archive": false,
+      "caption": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요\n티어1 - 매출 1조 이상\n티어2 - 매출 1000억 이상\n티어3 - 매출 100억 이상 \n티어4 (캐시카우 티어) - 매출 50억 이상",
+      "description": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요",
+      "default_value": [
+        {
+          "label": "Non-tier (new) - 10억 미만",
+          "order": 8,
+          "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+        }
+      ],
+      "attributes": {
+        "options": [
+          {
+            "label": "Tier1 - 매출 1조 이상",
+            "order": 1,
+            "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+          },
+          {
+            "label": "Tier2 - 매출 1000억 이상",
+            "order": 2,
+            "value": "b73574dd-3563-446b-aecc-4bdd75592c55"
+          },
+          {
+            "label": "Tier3 - 매출 100억 이상",
+            "order": 3,
+            "value": "1a042556-ac0f-4c6f-83d7-24739b5a462f"
+          },
+          {
+            "label": "Tier 4 (캐시카우 티어) - 매출 50억 이상",
+            "order": 4,
+            "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+          },
+          {
+            "label": "Tier 4 (old) - 투자유치 100억 이상",
+            "order": 5,
+            "value": "a5120d6f-b2ea-4071-87b3-92497ba4c4b2"
+          },
+          {
+            "label": "Tier 5 - 10억 이상 ~ 50억 미만",
+            "order": 6,
+            "value": "786693b9-d37a-4f6b-a494-4d8432171052"
+          },
+          {
+            "label": "❌ Non-tier (old) - 50억 미만",
+            "order": 7,
+            "value": "05331e01-2212-4014-a98c-372145ffe10e"
+          },
+          {
+            "label": "Non-tier (new) - 10억 미만",
+            "order": 8,
+            "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "미팅 노트 제목에 'Tier4'라고 직접적으로 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "고감도인테리어",
+    "field_definition": {
+      "id": "5577",
+      "label": "법인명",
+      "type": "text",
+      "category": "custom",
+      "display_order": 164,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "노트 제목 및 본문에서 언급된 고객사의 법인명입니다."
+  },
+  {
+    "extracted_value": true,
+    "field_definition": {
+      "id": "5375",
+      "label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "type": "checkbox",
+      "category": "custom",
+      "display_order": 144,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "의결권자인 고감도 대표와 직접 미팅을 진행하고 자료를 공유받으며, 차주 저녁 식사 약속까지 잡혀 있는 등 핵심 이해관계자를 확보한 상태입니다."
+  },
+  {
+    "extracted_value": "김은수 님: 공유 자료 검토 및 9페이지 제작 가능 여부 판단. 김한규 님: 견적서/계약서 초안 제작 및 전송, 다음 주 계약 완료 및 킥오프 미팅 수립, 차주 월요일 대표님과 저녁 식사.",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 'Next action' 섹션에 명시된 담당자별 향후 계획을 통합하여 정리했습니다."
+  },
+  {
+    "extracted_value": "2,500만원 (부가세 별도) 확정",
+    "field_definition": {
+      "id": "5374",
+      "label": "[B] 예산",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 143,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 결과 'Budget 2,500만원(부가세 별도) 확정' 문구가 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "고감도 대표. 공간 관련 논문으로 박사 학위를 취득하였으며, 영어와 중국어 등 외국계 회사와 다이렉트 소통이 가능한 전문성을 보유하고 있습니다.",
+    "field_definition": {
+      "id": "5373",
+      "label": "담당자 페르소나",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 142,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 고감도 히스토리 섹션에서 설명된 대표자의 전문성과 배경을 토대로 작성했습니다."
+  },
+  {
+    "extracted_value": "기존 웹사이트의 브랜드 가치 전달력 부족, CTA 미흡으로 인한 전환율 저하, 회사 소개 및 포트폴리오 설명 부족 등의 문제가 있어 프리미엄 이미지 정립과 신규 고객 유입을 위한 리뉴얼이 필요한 상황입니다.",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "블루핀 사례 검토와 고감도 리뉴얼 목표 섹션에서 언급된 현재의 문제점과 니즈를 요약했습니다."
+  },
+  {
+    "extracted_value": "내년 1월 전 오픈을 희망하나, 품질을 위해 늦어도 2월 초까지 오픈을 목표로 함. 다음 주 중 계약 완료 예정.",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "노트에 명시된 프로젝트 희망 완료 시점과 계약 체결 일정을 근거로 작성했습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "55071438-6660-4b54-8374-17001c41f234"
+      }
+    ],
+    "field_definition": {
+      "id": "6238",
+      "label": "월별 키어카운트",
+      "type": "select",
+      "category": "custom",
+      "display_order": 197,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "25년 9월",
+            "order": 1,
+            "value": "36b2fe95-d6e2-494f-80b8-2430cabbf2c7"
+          },
+          {
+            "label": "25년 10월",
+            "order": 2,
+            "value": "c9c565d7-0e28-40db-a91b-95296e97a6b0"
+          },
+          {
+            "label": "25년 11월",
+            "order": 3,
+            "value": "c4ef413c-8bcf-41e4-8d4b-fe204d942be0"
+          },
+          {
+            "label": "25년 12월",
+            "order": 4,
+            "value": "fd93a90d-b3cf-43b8-8b11-f1b7c1e76563"
+          },
+          {
+            "label": "26년 1월",
+            "order": 5,
+            "value": "d9a98dc0-237e-4498-8e34-84c01f2634bb"
+          },
+          {
+            "label": "26년 2월",
+            "order": 6,
+            "value": "55071438-6660-4b54-8374-17001c41f234"
+          },
+          {
+            "label": "26년 3월",
+            "order": 7,
+            "value": "50ff7c28-e368-4c5a-9f5a-54cb2a363878"
+          },
+          {
+            "label": "26년 4월",
+            "order": 8,
+            "value": "6818e745-6ced-479d-9bc2-fe7ca124c3dd"
+          },
+          {
+            "label": "26년 5월",
+            "order": 9,
+            "value": "3a2d79b3-166d-408f-bf2a-bd8621ae5f05"
+          },
+          {
+            "label": "26년 6월",
+            "order": 10,
+            "value": "4a574008-1c6e-481c-a0e2-3534bedff93c"
+          },
+          {
+            "label": "26년 7월",
+            "order": 11,
+            "value": "e49b5a72-7763-4cda-91eb-2d3409438b67"
+          },
+          {
+            "label": "26년 8월",
+            "order": 12,
+            "value": "d4f94c12-3a1a-41b9-bb1d-705b310d2019"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "기준일(2026-02-27) 현재, 이번 달 내로 선금 입금을 통한 현금흐름 추가를 기대하고 있으므로 26년 2월을 키어카운트 월로 선택했습니다."
+  }
+]

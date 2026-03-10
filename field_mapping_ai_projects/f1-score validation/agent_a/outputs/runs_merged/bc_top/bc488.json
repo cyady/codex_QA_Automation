@@ -1,0 +1,247 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W488",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 15,
+          "end_char": 18
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 31,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "과거 리멤버(Remember) 메인 배너 광고와 글로벌 에이전시 파운드리를 통해 약 1,000만 원 규모의 유료 마케팅을 진행하며 DB를 수집했으나, 실제 계약으로 이어지지 못한 경험이 있음",
+      "normalized": {
+        "text": "과거 리멤버(Remember) 메인 배너 광고와 글로벌 에이전시 파운드리를 통해 약 1,000만 원 규모의 유료 마케팅을 진행하며 DB를 수집했으나, 실제 계약으로 이어지지 못한 경험이 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "과거 리멤버(Remember) 메인 배너 광고와 글로벌 에이전시 파운드리를 통해 약 1,000만 원 규모의 유료 마케팅을 진행하며 DB를 수집했으나, 실제 계약으로 이어지지 못한 경험이 있음",
+          "start_char": 117,
+          "end_char": 223
+        }
+      ],
+      "dedupe_key": "action_item:17db9a60c72e6c4c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 166,
+          "end_char": 172
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 마케팅 전담 인력이 부재하여 작년 12월부터 마케팅 활동이 거의 중단된 상태이며, 소수의 영업 인력이 개인 인맥이나 인터넷 검색을 통해 직접 리드를 발굴하고 있는 상황임",
+      "normalized": {
+        "text": "현재 마케팅 전담 인력이 부재하여 작년 12월부터 마케팅 활동이 거의 중단된 상태이며, 소수의 영업 인력이 개인 인맥이나 인터넷 검색을 통해 직접 리드를 발굴하고 있는 상황임",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 마케팅 전담 인력이 부재하여 작년 12월부터 마케팅 활동이 거의 중단된 상태이며, 소수의 영업 인력이 개인 인맥이나 인터넷 검색을 통해 직접 리드를 발굴하고 있는 상황임",
+          "start_char": 227,
+          "end_char": 324
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7766bc20c56e8659",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 389,
+          "end_char": 392
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 440,
+          "end_char": 443
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 475,
+          "end_char": 478
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 628,
+          "end_char": 631
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 리소스가 없는 상황에서 효율적으로 온라인 마케팅 활동을 재개하고, 수집된 DB가 골든타임 내에 영업 미팅이나 계약으로 전환될 수 있는 체계적인 프로세스 수립을 원함",
+      "normalized": {
+        "text": "마케팅 리소스가 없는 상황에서 효율적으로 온라인 마케팅 활동을 재개하고, 수집된 DB가 골든타임 내에 영업 미팅이나 계약으로 전환될 수 있는 체계적인 프로세스 수립을 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "마케팅 리소스가 없는 상황에서 효율적으로 온라인 마케팅 활동을 재개하고, 수집된 DB가 골든타임 내에 영업 미팅이나 계약으로 전환될 수 있는 체계적인 프로세스 수립을 원함",
+          "start_char": 529,
+          "end_char": 624
+        }
+      ],
+      "dedupe_key": "action_item:02e111fa0e531a70",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "서비스 소개서와 제안 내용을 직접 검토하고 도입 여부를 판단하는 실무 결정권자임",
+      "normalized": {
+        "text": "서비스 소개서와 제안 내용을 직접 검토하고 도입 여부를 판단하는 실무 결정권자임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "서비스 소개서와 제안 내용을 직접 검토하고 도입 여부를 판단하는 실무 결정권자임",
+          "start_char": 749,
+          "end_char": 793
+        }
+      ],
+      "dedupe_key": "action_item:0feeafc383bea9d6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

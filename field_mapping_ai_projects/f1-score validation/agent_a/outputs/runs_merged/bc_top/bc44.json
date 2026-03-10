@@ -1,0 +1,438 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W44",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "하타리마의 구체적 니즈와 적절한 온도감이 있어 빠른 팔로업이 필요한 딜입니다.",
+      "normalized": {
+        "text": "하타리마의 구체적 니즈와 적절한 온도감이 있어 빠른 팔로업이 필요한 딜입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "하타리마의 구체적 니즈와 적절한 온도감이 있어 빠른 팔로업이 필요한 딜입니다.",
+          "start_char": 53,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "action_item:b9a4b7e3d1e00ec0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 Google Spreadsheet로 세일즈 현황 관리, 체계화된 시스템 도입 고민",
+      "normalized": {
+        "text": "현재 Google Spreadsheet로 세일즈 현황 관리, 체계화된 시스템 도입 고민",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 Google Spreadsheet로 세일즈 현황 관리, 체계화된 시스템 도입 고민",
+          "start_char": 321,
+          "end_char": 369
+        }
+      ],
+      "dedupe_key": "collaboration_need:a4f0af45e18c0bff",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제1: IoT 제품 특성상 복잡한 의사결정 구조",
+      "normalized": {
+        "text": "문제1: IoT 제품 특성상 복잡한 의사결정 구조",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "문제1: IoT 제품 특성상 복잡한 의사결정 구조",
+          "start_char": 723,
+          "end_char": 750
+        }
+      ],
+      "dedupe_key": "risk_or_concern:34a30b49a024ad14",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "생산팀, 구매팀, 공정팀, 신사업팀, 보안팀 등 여러 부서 결정 필요",
+      "normalized": {
+        "text": "생산팀, 구매팀, 공정팀, 신사업팀, 보안팀 등 여러 부서 결정 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "생산팀, 구매팀, 공정팀, 신사업팀, 보안팀 등 여러 부서 결정 필요",
+          "start_char": 751,
+          "end_char": 789
+        }
+      ],
+      "dedupe_key": "action_item:0c4a737192c334f5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제조업 특성상 전국 분산, 출장 다수 필요",
+      "normalized": {
+        "text": "제조업 특성상 전국 분산, 출장 다수 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "제조업 특성상 전국 분산, 출장 다수 필요",
+          "start_char": 812,
+          "end_char": 835
+        }
+      ],
+      "dedupe_key": "action_item:b91645400b71c585",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제2: 세일즈 관리 체계의 한계",
+      "normalized": {
+        "text": "문제2: 세일즈 관리 체계의 한계",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "문제2: 세일즈 관리 체계의 한계",
+          "start_char": 836,
+          "end_char": 854
+        }
+      ],
+      "dedupe_key": "risk_or_concern:628be33d64284724",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 Google Spreadsheet로만 관리, 체계적 CRM 부재",
+      "normalized": {
+        "text": "현재 Google Spreadsheet로만 관리, 체계적 CRM 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 Google Spreadsheet로만 관리, 체계적 CRM 부재",
+          "start_char": 855,
+          "end_char": 893
+        }
+      ],
+      "dedupe_key": "risk_or_concern:262d08bd5b28f166",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리드 스코어링 체계 부재",
+      "normalized": {
+        "text": "리드 스코어링 체계 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리드 스코어링 체계 부재",
+          "start_char": 954,
+          "end_char": 967
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d336d5f45c64d38a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제3: 타겟 마케팅의 어려움",
+      "normalized": {
+        "text": "문제3: 타겟 마케팅의 어려움",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "문제3: 타겟 마케팅의 어려움",
+          "start_char": 968,
+          "end_char": 984
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2e3533ae00ec2a55",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "급한 일정은 따로 없으나, 한없이 늘어질 수 있어 우리가 먼저 일정 선제시 필요",
+      "normalized": {
+        "text": "급한 일정은 따로 없으나, 한없이 늘어질 수 있어 우리가 먼저 일정 선제시 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "급한 일정은 따로 없으나, 한없이 늘어질 수 있어 우리가 먼저 일정 선제시 필요",
+          "start_char": 1078,
+          "end_char": 1122
+        }
+      ],
+      "dedupe_key": "action_item:b8912e052b9201c6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 Google Spreadsheet 기반 관리에서 체계적 시스템으로 전환 필요성은 인식하고 있으나, 구체적 구현 방안과 내부 프로세스 정립이 과제.",
+      "normalized": {
+        "text": "현재 Google Spreadsheet 기반 관리에서 체계적 시스템으로 전환 필요성은 인식하고 있으나, 구체적 구현 방안과 내부 프로세스 정립이 과제.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 Google Spreadsheet 기반 관리에서 체계적 시스템으로 전환 필요성은 인식하고 있으나, 구체적 구현 방안과 내부 프로세스 정립이 과제.",
+          "start_char": 1127,
+          "end_char": 1211
+        }
+      ],
+      "dedupe_key": "action_item:74302a5d7c195f33",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 영업 2명으로 추가 리드 대응 역량 검토 필요",
+      "normalized": {
+        "text": "현재 영업 2명으로 추가 리드 대응 역량 검토 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 영업 2명으로 추가 리드 대응 역량 검토 필요",
+          "start_char": 1212,
+          "end_char": 1240
+        }
+      ],
+      "dedupe_key": "action_item:b8792cb22cf461c0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "IoT 제품 특성상 다부서 의사결정 구조에 맞는 멀티스레딩 전략 필요",
+      "normalized": {
+        "text": "IoT 제품 특성상 다부서 의사결정 구조에 맞는 멀티스레딩 전략 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "IoT 제품 특성상 다부서 의사결정 구조에 맞는 멀티스레딩 전략 필요",
+          "start_char": 1241,
+          "end_char": 1279
+        }
+      ],
+      "dedupe_key": "action_item:1cb4c86bfb657583",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 46,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 109,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 195,
+          "end_char": 199
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 685,
+          "end_char": 689
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "11명",
+      "normalized": {
+        "value": 11,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "11명",
+          "start_char": 452,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "team_size:722c128cc12c2477",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 461,
+          "end_char": 463
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 1218,
+          "end_char": 1220
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

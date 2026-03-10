@@ -1,0 +1,460 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W249",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Tier4 브라운백 - 잠재 매출 3,000만원] 251021_저녁식사 내용 공유이런 게 CEO들의 저녁식사에서 나오는 이야긴가...",
+      "normalized": {
+        "text": "Tier4 브라운백 - 잠재 매출 3,000만원] 251021_저녁식사 내용 공유이런 게 CEO들의 저녁식사에서 나오는 이야긴가...",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier4 브라운백 - 잠재 매출 3,000만원] 251021_저녁식사 내용 공유이런 게 CEO들의 저녁식사에서 나오는 이야긴가...",
+          "start_char": 0,
+          "end_char": 74
+        }
+      ],
+      "dedupe_key": "collaboration_need:1545d726b3e2b878",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales이중",
+      "normalized": {
+        "name": "sales이중"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales이중",
+          "start_char": 125,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:170445e5a4856ea6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김병권",
+          "start_char": 357,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 21,
+          "end_char": 26
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "300만 명",
+      "normalized": {
+        "value": 3000000,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "300만 명",
+          "start_char": 471,
+          "end_char": 477
+        }
+      ],
+      "dedupe_key": "people_count:ae38a5ebd266e4ef",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "50~60%",
+      "normalized": {
+        "min": 0.5,
+        "max": 0.6,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "50~60%",
+          "start_char": 567,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "match_rate:08a4cf6b18ec2825",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주요 성과: 네이버 계열사인 스노우(SNOW)와 PoC(Proof of Concept)를 진행했는데, 한 달 만에 스노우의 광고 매출을 약 1.5배에서 2배 가까이 증가시키는 압도적인 성과를 냈습니다. 현재 스노우는 기존 네이버 광고 플랫폼을 떼고 딜라이트룸의 다로를 적용하기로 결정했습니다. 이러한 빅딜은 딜라이트룸에게 엄청난 레퍼런스가 될 것으로 평가받았습니다.",
+      "normalized": {
+        "text": "주요 성과: 네이버 계열사인 스노우(SNOW)와 PoC(Proof of Concept)를 진행했는데, 한 달 만에 스노우의 광고 매출을 약 1.5배에서 2배 가까이 증가시키는 압도적인 성과를 냈습니다. 현재 스노우는 기존 네이버 광고 플랫폼을 떼고 딜라이트룸의 다로를 적용하기로 결정했습니다. 이러한 빅딜은 딜라이트룸에게 엄청난 레퍼런스가 될 것으로 평가받았습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "주요 성과: 네이버 계열사인 스노우(SNOW)와 PoC(Proof of Concept)를 진행했는데, 한 달 만에 스노우의 광고 매출을 약 1.5배에서 2배 가까이 증가시키는 압도적인 성과를 냈습니다. 현재 스노우는 기존 네이버 광고 플랫폼을 떼고 딜라이트룸의 다로를 적용하기로 결정했습니다. 이러한 빅딜은 딜라이트룸에게 엄청난 레퍼런스가 될 것으로 평가받았습니다.",
+          "start_char": 1133,
+          "end_char": 1337
+        }
+      ],
+      "dedupe_key": "action_item:32d55bd9d1de2727",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사업 모델 확장: 다로는 광고 수익화가 필요한 B2C 앱들을 대상으로 하며, 이를 통해 매출이 빠르게 커질 것으로 기대됩니다. 또한, 다로를 활용하여 투자 또는 서비스 양수도 형태로 다른 회사에 밸류를 더해주고 성장을 가속화하는 그로스 펀드와 같은 방식으로 사업을 확장하고 있습니다.",
+      "normalized": {
+        "text": "사업 모델 확장: 다로는 광고 수익화가 필요한 B2C 앱들을 대상으로 하며, 이를 통해 매출이 빠르게 커질 것으로 기대됩니다. 또한, 다로를 활용하여 투자 또는 서비스 양수도 형태로 다른 회사에 밸류를 더해주고 성장을 가속화하는 그로스 펀드와 같은 방식으로 사업을 확장하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "사업 모델 확장: 다로는 광고 수익화가 필요한 B2C 앱들을 대상으로 하며, 이를 통해 매출이 빠르게 커질 것으로 기대됩니다. 또한, 다로를 활용하여 투자 또는 서비스 양수도 형태로 다른 회사에 밸류를 더해주고 성장을 가속화하는 그로스 펀드와 같은 방식으로 사업을 확장하고 있습니다.",
+          "start_char": 1483,
+          "end_char": 1641
+        }
+      ],
+      "dedupe_key": "action_item:3b81fd95b660809a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "브라운백의 커피 머신 사업은 기존의 비효율적인 프랜차이즈 비즈니스를 혁신하고, 체계적인 B2B 세일즈 방식을 도입하려는 신사업입니다.2.1./ 사업 전환 배경 및 목표",
+      "normalized": {
+        "text": "브라운백의 커피 머신 사업은 기존의 비효율적인 프랜차이즈 비즈니스를 혁신하고, 체계적인 B2B 세일즈 방식을 도입하려는 신사업입니다.2.1./ 사업 전환 배경 및 목표",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "브라운백의 커피 머신 사업은 기존의 비효율적인 프랜차이즈 비즈니스를 혁신하고, 체계적인 B2B 세일즈 방식을 도입하려는 신사업입니다.2.1./ 사업 전환 배경 및 목표",
+          "start_char": 1671,
+          "end_char": 1764
+        }
+      ],
+      "dedupe_key": "collaboration_need:20fe42872d7a5b6d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "궁극적인 목표는 프랜차이즈나 리테일 산업에서 필요한 솔루션을 기술로 개발하고 제공하여, 궂은 일을 해결해주는 회사가 되는 것입니다 (TSMC, 코스맥스 비유).",
+      "normalized": {
+        "text": "궁극적인 목표는 프랜차이즈나 리테일 산업에서 필요한 솔루션을 기술로 개발하고 제공하여, 궂은 일을 해결해주는 회사가 되는 것입니다 (TSMC, 코스맥스 비유).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "궁극적인 목표는 프랜차이즈나 리테일 산업에서 필요한 솔루션을 기술로 개발하고 제공하여, 궂은 일을 해결해주는 회사가 되는 것입니다 (TSMC, 코스맥스 비유).",
+          "start_char": 1946,
+          "end_char": 2035
+        }
+      ],
+      "dedupe_key": "action_item:e482e8db11a92fb4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "해결하려는 문제: FMB(식음료) 산업의 심각한 구인난과 바리스타의 숙련도/컨디션에 따른 커피 품질 관리의 어려움을 해결하는 것입니다. 이 머신을 통해 2명이 할 일을 1명이 할 수 있게 되어 카페 점주들의 수익화를 돕습니다.",
+      "normalized": {
+        "text": "해결하려는 문제: FMB(식음료) 산업의 심각한 구인난과 바리스타의 숙련도/컨디션에 따른 커피 품질 관리의 어려움을 해결하는 것입니다. 이 머신을 통해 2명이 할 일을 1명이 할 수 있게 되어 카페 점주들의 수익화를 돕습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "해결하려는 문제: FMB(식음료) 산업의 심각한 구인난과 바리스타의 숙련도/컨디션에 따른 커피 품질 관리의 어려움을 해결하는 것입니다. 이 머신을 통해 2명이 할 일을 1명이 할 수 있게 되어 카페 점주들의 수익화를 돕습니다.",
+          "start_char": 2206,
+          "end_char": 2332
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f4f92b1d347f0664",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 2291,
+          "end_char": 2293
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "1명",
+          "start_char": 2300,
+          "end_char": 2302
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 고객 접촉: 현재 투썸플레이스, 메머드 커피, 메가커피, GFFG(노티드) 등 대형 프랜차이즈 브랜드와 미팅을 진행하고 있습니다.",
+      "normalized": {
+        "text": "현재 고객 접촉: 현재 투썸플레이스, 메머드 커피, 메가커피, GFFG(노티드) 등 대형 프랜차이즈 브랜드와 미팅을 진행하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "현재 고객 접촉: 현재 투썸플레이스, 메머드 커피, 메가커피, GFFG(노티드) 등 대형 프랜차이즈 브랜드와 미팅을 진행하고 있습니다.",
+          "start_char": 2336,
+          "end_char": 2411
+        }
+      ],
+      "dedupe_key": "action_item:3936e187ac92b4fe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "글로벌 시장: FMB 구인난 문제는 한국뿐 아니라 고령화가 진행 중인 중국, 일본, 미국 등 글로벌 시장의 보편적인 문제이며, 특히 미국의 카페 전자동화 수준이 낮아 한국보다 최소 30배 이상 좋은 시장이라고 판단하고 있습니다.",
+      "normalized": {
+        "text": "글로벌 시장: FMB 구인난 문제는 한국뿐 아니라 고령화가 진행 중인 중국, 일본, 미국 등 글로벌 시장의 보편적인 문제이며, 특히 미국의 카페 전자동화 수준이 낮아 한국보다 최소 30배 이상 좋은 시장이라고 판단하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "글로벌 시장: FMB 구인난 문제는 한국뿐 아니라 고령화가 진행 중인 중국, 일본, 미국 등 글로벌 시장의 보편적인 문제이며, 특히 미국의 카페 전자동화 수준이 낮아 한국보다 최소 30배 이상 좋은 시장이라고 판단하고 있습니다.",
+          "start_char": 2415,
+          "end_char": 2542
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f21965239b8500dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "30억 원",
+      "normalized": {
+        "value": 3000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [],
+          "exact_quote": "30억 원",
+          "start_char": 3153,
+          "end_char": 3158
+        }
+      ],
+      "dedupe_key": "budget:c2587d7e0c6350ec",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "17개",
+      "normalized": {
+        "value": 17,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [],
+          "exact_quote": "17개",
+          "start_char": 3105,
+          "end_char": 3108
+        }
+      ],
+      "dedupe_key": "case_metric:6a008340e2fe47a8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "개인적 기부: 상장 시 얻은 수익 일부(와이프 증여분 6억 원 제외)를 연세대에 10억 원 기부했으며, 이 기부로 받은 건강검진권 덕분에 어머니의 암을 조기에 발견하는 선행이 돌아온 경험을 공유했습니다.",
+      "normalized": {
+        "text": "개인적 기부: 상장 시 얻은 수익 일부(와이프 증여분 6억 원 제외)를 연세대에 10억 원 기부했으며, 이 기부로 받은 건강검진권 덕분에 어머니의 암을 조기에 발견하는 선행이 돌아온 경험을 공유했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "개인적 기부: 상장 시 얻은 수익 일부(와이프 증여분 6억 원 제외)를 연세대에 10억 원 기부했으며, 이 기부로 받은 건강검진권 덕분에 어머니의 암을 조기에 발견하는 선행이 돌아온 경험을 공유했습니다.",
+          "start_char": 3244,
+          "end_char": 3357
+        }
+      ],
+      "dedupe_key": "collaboration_need:d7c4168ddea7b411",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "6억 원",
+      "normalized": {
+        "value": 600000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "6억 원",
+          "start_char": 3274,
+          "end_char": 3278
+        }
+      ],
+      "dedupe_key": "budget:3d6df25466844016",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "10억 원",
+      "normalized": {
+        "value": 1000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "10억 원",
+          "start_char": 3289,
+          "end_char": 3294
+        }
+      ],
+      "dedupe_key": "budget:e3cdc7ad30dd6291",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

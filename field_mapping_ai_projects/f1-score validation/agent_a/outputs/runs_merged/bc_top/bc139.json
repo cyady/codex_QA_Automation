@@ -1,0 +1,188 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W139",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅-> 세일즈 -> 프로젝트 관리의 데이터 통합관리가 필요함",
+      "normalized": {
+        "text": "마케팅-> 세일즈 -> 프로젝트 관리의 데이터 통합관리가 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "마케팅-> 세일즈 -> 프로젝트 관리의 데이터 통합관리가 필요함",
+          "start_char": 8,
+          "end_char": 43
+        }
+      ],
+      "dedupe_key": "action_item:e10b62558dcf570b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "노션과 리캐치를 동시에 활용하는 방안이 필요함",
+      "normalized": {
+        "text": "노션과 리캐치를 동시에 활용하는 방안이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "노션과 리캐치를 동시에 활용하는 방안이 필요함",
+          "start_char": 44,
+          "end_char": 69
+        }
+      ],
+      "dedupe_key": "action_item:2c2e63f1af96f697",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고객이 언급한 문제를 요약하면 다음과 같습니다.",
+      "normalized": {
+        "text": "고객이 언급한 문제를 요약하면 다음과 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "고객이 언급한 문제를 요약하면 다음과 같습니다.",
+          "start_char": 70,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "risk_or_concern:51a2305e210a4e04",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영업 데이터의 통합과 실시간 확인이 어려워 팀 내 협업과 의사결정이 지연되는 문제가 발생.",
+      "normalized": {
+        "text": "영업 데이터의 통합과 실시간 확인이 어려워 팀 내 협업과 의사결정이 지연되는 문제가 발생.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "영업 데이터의 통합과 실시간 확인이 어려워 팀 내 협업과 의사결정이 지연되는 문제가 발생.",
+          "start_char": 154,
+          "end_char": 204
+        }
+      ],
+      "dedupe_key": "risk_or_concern:713aec4ad92d9124",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객정보가 분산되어 있어 정확한 고객 분석과 맞춤형 영업 전략 수립이 어려움.",
+      "normalized": {
+        "text": "고객정보가 분산되어 있어 정확한 고객 분석과 맞춤형 영업 전략 수립이 어려움.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "고객정보가 분산되어 있어 정확한 고객 분석과 맞춤형 영업 전략 수립이 어려움.",
+          "start_char": 206,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "action_item:8f2b2c3454190cd9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "수작업 데이터 입력과 보고서 작성으로 시간 소모가 크고, 자동화된 솔루션 필요성 제기.",
+      "normalized": {
+        "text": "수작업 데이터 입력과 보고서 작성으로 시간 소모가 크고, 자동화된 솔루션 필요성 제기.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "수작업 데이터 입력과 보고서 작성으로 시간 소모가 크고, 자동화된 솔루션 필요성 제기.",
+          "start_char": 251,
+          "end_char": 299
+        }
+      ],
+      "dedupe_key": "action_item:9efb63d2eb86f717",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 솔루션이 예산과 맞지 않아 도입에 제약이 있으며, ROI에 대한 확신이 부족함.",
+      "normalized": {
+        "text": "현재 솔루션이 예산과 맞지 않아 도입에 제약이 있으며, ROI에 대한 확신이 부족함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 솔루션이 예산과 맞지 않아 도입에 제약이 있으며, ROI에 대한 확신이 부족함.",
+          "start_char": 301,
+          "end_char": 348
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf8efc881d3e4da3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 48,
+          "end_char": 51
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W96",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "케어 서비스 (세스코 모델): B2B 중심의 케어 서비스(예: 에어컨/히터 주기적 청소)를 제공하며, 숙박 시설(야놀자) 및 부동산 플랫폼(직방, 다방)과의 연계를 추진하고 있습니다.",
+      "normalized": {
+        "text": "케어 서비스 (세스코 모델): B2B 중심의 케어 서비스(예: 에어컨/히터 주기적 청소)를 제공하며, 숙박 시설(야놀자) 및 부동산 플랫폼(직방, 다방)과의 연계를 추진하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "케어 서비스 (세스코 모델): B2B 중심의 케어 서비스(예: 에어컨/히터 주기적 청소)를 제공하며, 숙박 시설(야놀자) 및 부동산 플랫폼(직방, 다방)과의 연계를 추진하고 있습니다.",
+          "start_char": 458,
+          "end_char": 560
+        }
+      ],
+      "dedupe_key": "collaboration_need:12950f234299c7e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "부품 유통: 카센터와 유사하게 AS 시 필요한 부품을 직접 매입하여 고마진(30~40%, 퓨즈 등은 100배 마진)으로 판매하는 사업을 진행하고 있습니다. 부품은 법적으로 반품이 가능하여 재고 부담이 적다는 장점이 있습니다.",
+      "normalized": {
+        "text": "부품 유통: 카센터와 유사하게 AS 시 필요한 부품을 직접 매입하여 고마진(30~40%, 퓨즈 등은 100배 마진)으로 판매하는 사업을 진행하고 있습니다. 부품은 법적으로 반품이 가능하여 재고 부담이 적다는 장점이 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "부품 유통: 카센터와 유사하게 AS 시 필요한 부품을 직접 매입하여 고마진(30~40%, 퓨즈 등은 100배 마진)으로 판매하는 사업을 진행하고 있습니다. 부품은 법적으로 반품이 가능하여 재고 부담이 적다는 장점이 있습니다.",
+          "start_char": 561,
+          "end_char": 686
+        }
+      ],
+      "dedupe_key": "action_item:8ca600389ac8a135",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "80/20",
+      "normalized": {
+        "month": 80,
+        "day": 20,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "80/20",
+          "start_char": 326,
+          "end_char": 331
+        }
+      ],
+      "dedupe_key": "timeline:bc01e29566c079cc",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "30~40%",
+      "normalized": {
+        "min": 0.3,
+        "max": 0.4,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "30~40%",
+          "start_char": 603,
+          "end_char": 609
+        }
+      ],
+      "dedupe_key": "match_rate:3b229b2ce071ca45",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "300개",
+      "normalized": {
+        "value": 300,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "300개",
+          "start_char": 213,
+          "end_char": 217
+        }
+      ],
+      "dedupe_key": "case_metric:8c8306a98f150f4d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "정찰제 및 책임지는 서비스:숨고, 미소와 달리 매칭 견적 거래가 아닌 정찰제로 서비스를 제공하며, 설치 품질에 대한 책임을 지고 문제가 발생 시 배상(예: 문 잘못 설치 시 배상)합니다.",
+      "normalized": {
+        "text": "정찰제 및 책임지는 서비스:숨고, 미소와 달리 매칭 견적 거래가 아닌 정찰제로 서비스를 제공하며, 설치 품질에 대한 책임을 지고 문제가 발생 시 배상(예: 문 잘못 설치 시 배상)합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "정찰제 및 책임지는 서비스:숨고, 미소와 달리 매칭 견적 거래가 아닌 정찰제로 서비스를 제공하며, 설치 품질에 대한 책임을 지고 문제가 발생 시 배상(예: 문 잘못 설치 시 배상)합니다.",
+          "start_char": 979,
+          "end_char": 1083
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d900660768981ad4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1주",
+      "normalized": {
+        "value": 1.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "1주",
+          "start_char": 1149,
+          "end_char": 1151
+        }
+      ],
+      "dedupe_key": "duration:f0c05592aec994f2",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "건설 감리 서비스: 야놀자의 프랜차이즈 사업 확장에 필요한 현장 감리 서비스를 제공하기 위해 천안에서 테스트 중입니다.",
+      "normalized": {
+        "text": "건설 감리 서비스: 야놀자의 프랜차이즈 사업 확장에 필요한 현장 감리 서비스를 제공하기 위해 천안에서 테스트 중입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "건설 감리 서비스: 야놀자의 프랜차이즈 사업 확장에 필요한 현장 감리 서비스를 제공하기 위해 천안에서 테스트 중입니다.",
+          "start_char": 1678,
+          "end_char": 1744
+        }
+      ],
+      "dedupe_key": "action_item:491496cd140e3199",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "크리에이티브 광고: AI 영상 기술을 활용하여 기존 광고를 패러디하는 바이럴 마케팅을 유튜브 등을 통해 진행할 아이디어를 가지고 있습니다.",
+      "normalized": {
+        "text": "크리에이티브 광고: AI 영상 기술을 활용하여 기존 광고를 패러디하는 바이럴 마케팅을 유튜브 등을 통해 진행할 아이디어를 가지고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "크리에이티브 광고: AI 영상 기술을 활용하여 기존 광고를 패러디하는 바이럴 마케팅을 유튜브 등을 통해 진행할 아이디어를 가지고 있습니다.",
+          "start_char": 1850,
+          "end_char": 1927
+        }
+      ],
+      "dedupe_key": "action_item:497d7eb5b48c17cc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "새로운 인력 풀: 베이비부머 세대 등 50대 은퇴자들을 대상으로 3주 교육을 통해 엔지니어로 양성하여 '저노동 고임금' 일자리를 제공하고 사회적 메시지를 전달하는 브랜딩을 고려하고 있습니다.",
+      "normalized": {
+        "text": "새로운 인력 풀: 베이비부머 세대 등 50대 은퇴자들을 대상으로 3주 교육을 통해 엔지니어로 양성하여 '저노동 고임금' 일자리를 제공하고 사회적 메시지를 전달하는 브랜딩을 고려하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "새로운 인력 풀: 베이비부머 세대 등 50대 은퇴자들을 대상으로 3주 교육을 통해 엔지니어로 양성하여 '저노동 고임금' 일자리를 제공하고 사회적 메시지를 전달하는 브랜딩을 고려하고 있습니다.",
+          "start_char": 2110,
+          "end_char": 2216
+        }
+      ],
+      "dedupe_key": "collaboration_need:605d199e2c09a7ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3주",
+      "normalized": {
+        "value": 3.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "3주",
+          "start_char": 2146,
+          "end_char": 2148
+        }
+      ],
+      "dedupe_key": "duration:42e48959b88c9004",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "800여 명",
+      "normalized": {
+        "value": 800,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "800여 명",
+          "start_char": 1403,
+          "end_char": 1409
+        }
+      ],
+      "dedupe_key": "team_size:556ca29cc5a1d086",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "000명",
+      "normalized": {
+        "value": 0,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000명",
+          "start_char": 1425,
+          "end_char": 1429
+        }
+      ],
+      "dedupe_key": "team_size:ef1bc41d6ca71f1b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "4. 주요 논의 및 우려 사항",
+      "normalized": {
+        "text": "4. 주요 논의 및 우려 사항",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "4. 주요 논의 및 우려 사항",
+          "start_char": 2217,
+          "end_char": 2233
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8138b9a0b70b25a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "법률적 검토: 새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태)을 추진함에 있어 광범위한 법률적 검토가 필요합니다.",
+      "normalized": {
+        "text": "법률적 검토: 새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태)을 추진함에 있어 광범위한 법률적 검토가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "법률적 검토: 새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태)을 추진함에 있어 광범위한 법률적 검토가 필요합니다.",
+          "start_char": 2518,
+          "end_char": 2585
+        }
+      ],
+      "dedupe_key": "action_item:3e7605ea08adcecb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2758,
+          "end_char": 2761
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B 영업 도구 활용: 기업들에게 회사 소개를 넘어, \"저희 홈페이지 들어가서 저희 이거 다 돼요. 이 금액이고 이건 소비 작가니까 너희는 기업 싸게 해 줄게.\"라는 메시지를 전달하는 효과적인 영업 도구로 웹사이트를 활용하고자 합니다.",
+      "normalized": {
+        "text": "B2B 영업 도구 활용: 기업들에게 회사 소개를 넘어, \"저희 홈페이지 들어가서 저희 이거 다 돼요. 이 금액이고 이건 소비 작가니까 너희는 기업 싸게 해 줄게.\"라는 메시지를 전달하는 효과적인 영업 도구로 웹사이트를 활용하고자 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "B2B 영업 도구 활용: 기업들에게 회사 소개를 넘어, \"저희 홈페이지 들어가서 저희 이거 다 돼요. 이 금액이고 이건 소비 작가니까 너희는 기업 싸게 해 줄게.\"라는 메시지를 전달하는 효과적인 영업 도구로 웹사이트를 활용하고자 합니다.",
+          "start_char": 3129,
+          "end_char": 3261
+        }
+      ],
+      "dedupe_key": "collaboration_need:8bd1fc7079329090",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사고 리더십 메시지 전달: AI 기술과 산업 혁신을 기반으로 한 마이스터즈의 '사고 리더십'을 웹사이트를 통해 체계적으로 전달하는 방안을 모색합니다.",
+      "normalized": {
+        "text": "사고 리더십 메시지 전달: AI 기술과 산업 혁신을 기반으로 한 마이스터즈의 '사고 리더십'을 웹사이트를 통해 체계적으로 전달하는 방안을 모색합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "사고 리더십 메시지 전달: AI 기술과 산업 혁신을 기반으로 한 마이스터즈의 '사고 리더십'을 웹사이트를 통해 체계적으로 전달하는 방안을 모색합니다.",
+          "start_char": 3262,
+          "end_char": 3345
+        }
+      ],
+      "dedupe_key": "collaboration_need:f7d4a918b6ed73eb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사회적 메시지 브랜딩: 50대 은퇴자(베이비부머 세대)를 대상으로 '저노동 고임금' 엔지니어 일자리를 제공하는 교육 프로그램을 통해 사회적 가치를 전달하고, 이를 브랜딩에 활용하는 방안을 구체화합니다.",
+      "normalized": {
+        "text": "사회적 메시지 브랜딩: 50대 은퇴자(베이비부머 세대)를 대상으로 '저노동 고임금' 엔지니어 일자리를 제공하는 교육 프로그램을 통해 사회적 가치를 전달하고, 이를 브랜딩에 활용하는 방안을 구체화합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "사회적 메시지 브랜딩: 50대 은퇴자(베이비부머 세대)를 대상으로 '저노동 고임금' 엔지니어 일자리를 제공하는 교육 프로그램을 통해 사회적 가치를 전달하고, 이를 브랜딩에 활용하는 방안을 구체화합니다.",
+          "start_char": 3448,
+          "end_char": 3560
+        }
+      ],
+      "dedupe_key": "collaboration_need:7d7f9718609d4641",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프리미엄 서비스 브랜딩: 서초/강남/송파 지역의 프리미엄 서비스(카카오 블루 형태)에 맞는 고급스러운 브랜드 이미지를 기획하고, 바이럴 마케팅 전략을 수립합니다.",
+      "normalized": {
+        "text": "프리미엄 서비스 브랜딩: 서초/강남/송파 지역의 프리미엄 서비스(카카오 블루 형태)에 맞는 고급스러운 브랜드 이미지를 기획하고, 바이럴 마케팅 전략을 수립합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "프리미엄 서비스 브랜딩: 서초/강남/송파 지역의 프리미엄 서비스(카카오 블루 형태)에 맞는 고급스러운 브랜드 이미지를 기획하고, 바이럴 마케팅 전략을 수립합니다.",
+          "start_char": 3638,
+          "end_char": 3728
+        }
+      ],
+      "dedupe_key": "action_item:df0553bed3480e8f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미디어 전략 수립: 엘리베이터 광고 등 특정 타겟(예: 강남 3구 프리미엄 서비스)에 효과적인 미디어 전략을 수립하여 브랜드 인지도를 높입니다.",
+      "normalized": {
+        "text": "미디어 전략 수립: 엘리베이터 광고 등 특정 타겟(예: 강남 3구 프리미엄 서비스)에 효과적인 미디어 전략을 수립하여 브랜드 인지도를 높입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "미디어 전략 수립: 엘리베이터 광고 등 특정 타겟(예: 강남 3구 프리미엄 서비스)에 효과적인 미디어 전략을 수립하여 브랜드 인지도를 높입니다.",
+          "start_char": 3851,
+          "end_char": 3931
+        }
+      ],
+      "dedupe_key": "action_item:46f2e6812706dc26",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "블로그 및 SEO 구축: 웹사이트 개편과 연계하여 블로그 콘텐츠 전략을 수립하고 검색 엔진 최적화(SEO)를 통해 유기적인 트래픽을 확보합니다.",
+      "normalized": {
+        "text": "블로그 및 SEO 구축: 웹사이트 개편과 연계하여 블로그 콘텐츠 전략을 수립하고 검색 엔진 최적화(SEO)를 통해 유기적인 트래픽을 확보합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "블로그 및 SEO 구축: 웹사이트 개편과 연계하여 블로그 콘텐츠 전략을 수립하고 검색 엔진 최적화(SEO)를 통해 유기적인 트래픽을 확보합니다.",
+          "start_char": 3932,
+          "end_char": 4012
+        }
+      ],
+      "dedupe_key": "action_item:77882768af9ae8c1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 3938,
+          "end_char": 3941
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 3987,
+          "end_char": 3990
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3932,
+          "end_char": 3935
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3960,
+          "end_char": 3963
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "MVP(최소기능제품) 가설 검증: 각 신사업 아이디어에 대한 가설을 수립하고, 실제 시장에서 빠르게 검증할 수 있는 MVP 전략을 설계하며, 초기 사업화 단계의 지표 설정을 지원합니다.",
+      "normalized": {
+        "text": "MVP(최소기능제품) 가설 검증: 각 신사업 아이디어에 대한 가설을 수립하고, 실제 시장에서 빠르게 검증할 수 있는 MVP 전략을 설계하며, 초기 사업화 단계의 지표 설정을 지원합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "+++"
+          ],
+          "exact_quote": "MVP(최소기능제품) 가설 검증: 각 신사업 아이디어에 대한 가설을 수립하고, 실제 시장에서 빠르게 검증할 수 있는 MVP 전략을 설계하며, 초기 사업화 단계의 지표 설정을 지원합니다.",
+          "start_char": 4160,
+          "end_char": 4263
+        }
+      ],
+      "dedupe_key": "action_item:b1a022098c8df04e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈 프로세스 설계: B2B 영업 (예: 유치원/어린이집 지원금 활용 식기세척기 교체 사업)과 같은 마이스터즈의 강점을 살린 세일즈 프로세스를 마케팅과 연계하여 설계하는 데 도움을 줄 수 있습니다.",
+      "normalized": {
+        "text": "세일즈 프로세스 설계: B2B 영업 (예: 유치원/어린이집 지원금 활용 식기세척기 교체 사업)과 같은 마이스터즈의 강점을 살린 세일즈 프로세스를 마케팅과 연계하여 설계하는 데 도움을 줄 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "+++"
+          ],
+          "exact_quote": "세일즈 프로세스 설계: B2B 영업 (예: 유치원/어린이집 지원금 활용 식기세척기 교체 사업)과 같은 마이스터즈의 강점을 살린 세일즈 프로세스를 마케팅과 연계하여 설계하는 데 도움을 줄 수 있습니다.",
+          "start_char": 4264,
+          "end_char": 4375
+        }
+      ],
+      "dedupe_key": "collaboration_need:a4b4ce625c99f793",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태의 인력 서비스) 추진 시 발생할 수 있는 광범위한 법률적 이슈를 사전에 식별하고, 이에 대한 검토 필요성을 제기하며 관련 법률 전문가와의 논의를 촉진하는 역할을 할 수 있습니다.",
+      "normalized": {
+        "text": "새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태의 인력 서비스) 추진 시 발생할 수 있는 광범위한 법률적 이슈를 사전에 식별하고, 이에 대한 검토 필요성을 제기하며 관련 법률 전문가와의 논의를 촉진하는 역할을 할 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "+++"
+          ],
+          "exact_quote": "새로운 사업 모델(예: 프랜차이즈 법을 우회하는 형태의 인력 서비스) 추진 시 발생할 수 있는 광범위한 법률적 이슈를 사전에 식별하고, 이에 대한 검토 필요성을 제기하며 관련 법률 전문가와의 논의를 촉진하는 역할을 할 수 있습니다.",
+          "start_char": 4396,
+          "end_char": 4525
+        }
+      ],
+      "dedupe_key": "action_item:0358e11644143268",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이 중에서도 웹사이트 개편과 브랜드 커뮤니케이션 전략 수립은 마이스터즈 대표님께서 가장 시급하다고 강조하신 부분이며, 모든 미래 사업 확장의 기반이 될 것이므로 우선적으로 논의를 시작하는 것이 효과적일 것입니다.",
+      "normalized": {
+        "text": "이 중에서도 웹사이트 개편과 브랜드 커뮤니케이션 전략 수립은 마이스터즈 대표님께서 가장 시급하다고 강조하신 부분이며, 모든 미래 사업 확장의 기반이 될 것이므로 우선적으로 논의를 시작하는 것이 효과적일 것입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "+++"
+          ],
+          "exact_quote": "이 중에서도 웹사이트 개편과 브랜드 커뮤니케이션 전략 수립은 마이스터즈 대표님께서 가장 시급하다고 강조하신 부분이며, 모든 미래 사업 확장의 기반이 될 것이므로 우선적으로 논의를 시작하는 것이 효과적일 것입니다.",
+          "start_char": 4526,
+          "end_char": 4644
+        }
+      ],
+      "dedupe_key": "action_item:7da271eb1346f4ec",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

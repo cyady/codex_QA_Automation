@@ -1,0 +1,227 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W37",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 563,
+          "end_char": 566
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "허브스팟 사용 중이라 당장 교체 의지는 없음. 다만 개인적으로 crm 관심 많고 국산 crm 중 리캐치가 좋아 보여서 당장 도입은 아니지만 나중에 허브스팟 유지 or 리캐치로 교체 검토도 할 수 있다 함",
+      "normalized": {
+        "text": "허브스팟 사용 중이라 당장 교체 의지는 없음. 다만 개인적으로 crm 관심 많고 국산 crm 중 리캐치가 좋아 보여서 당장 도입은 아니지만 나중에 허브스팟 유지 or 리캐치로 교체 검토도 할 수 있다 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "허브스팟 사용 중이라 당장 교체 의지는 없음. 다만 개인적으로 crm 관심 많고 국산 crm 중 리캐치가 좋아 보여서 당장 도입은 아니지만 나중에 허브스팟 유지 or 리캐치로 교체 검토도 할 수 있다 함",
+          "start_char": 35,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "action_item:03b714f01c5b048d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "본인 입사 전엔 사장, 부사장 등 임원급 사람들이 타겟 기업들의 핵심 인사들과 관계 맺으며 영업했음. 본인 입사 후 조직 커지면서 허브스팟 도입했고 인바운드 마케팅도 구축함.",
+      "normalized": {
+        "text": "본인 입사 전엔 사장, 부사장 등 임원급 사람들이 타겟 기업들의 핵심 인사들과 관계 맺으며 영업했음. 본인 입사 후 조직 커지면서 허브스팟 도입했고 인바운드 마케팅도 구축함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "본인 입사 전엔 사장, 부사장 등 임원급 사람들이 타겟 기업들의 핵심 인사들과 관계 맺으며 영업했음. 본인 입사 후 조직 커지면서 허브스팟 도입했고 인바운드 마케팅도 구축함.",
+          "start_char": 165,
+          "end_char": 262
+        }
+      ],
+      "dedupe_key": "collaboration_need:57cb478eab3aa56f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 89,
+          "end_char": 92
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 128,
+          "end_char": 131
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[Needs]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 421,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이제는 ai나 웹사이트 개편 통한 더 효율적인 리드 수집 방법을 알아보고 있고 그래서 그로스 워크샵도 신청함 cc @growth 아직 내부 결재는 못 받은 상태",
+      "normalized": {
+        "text": "이제는 ai나 웹사이트 개편 통한 더 효율적인 리드 수집 방법을 알아보고 있고 그래서 그로스 워크샵도 신청함 cc @growth 아직 내부 결재는 못 받은 상태",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[Needs]"
+          ],
+          "exact_quote": "이제는 ai나 웹사이트 개편 통한 더 효율적인 리드 수집 방법을 알아보고 있고 그래서 그로스 워크샵도 신청함 cc @growth 아직 내부 결재는 못 받은 상태",
+          "start_char": 272,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "collaboration_need:35e1d4b881830551",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "개인적으로 한규님처럼 외부 컨설팅 함(중소기업 대상). 그들에게 허브스팟 쓰라 하긴 가격 때문에 그렇고, 리캐치 소개해주는 제휴 사업도 혼자 구상했다고. 나중에 시간 되면 관련 얘기도 해보고 싶다 함.",
+      "normalized": {
+        "text": "개인적으로 한규님처럼 외부 컨설팅 함(중소기업 대상). 그들에게 허브스팟 쓰라 하긴 가격 때문에 그렇고, 리캐치 소개해주는 제휴 사업도 혼자 구상했다고. 나중에 시간 되면 관련 얘기도 해보고 싶다 함.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[Needs]"
+          ],
+          "exact_quote": "개인적으로 한규님처럼 외부 컨설팅 함(중소기업 대상). 그들에게 허브스팟 쓰라 하긴 가격 때문에 그렇고, 리캐치 소개해주는 제휴 사업도 혼자 구상했다고. 나중에 시간 되면 관련 얘기도 해보고 싶다 함.",
+          "start_char": 362,
+          "end_char": 474
+        }
+      ],
+      "dedupe_key": "collaboration_need:e87e85afce0c28bd",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[Needs]"
+          ],
+          "exact_quote": "@growth",
+          "start_char": 336,
+          "end_char": 343
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "만약 워크샵 참가 못 하시게 되면, SDR이 1:1 미팅 수립하기",
+      "normalized": {
+        "text": "만약 워크샵 참가 못 하시게 되면, SDR이 1:1 미팅 수립하기",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "만약 워크샵 참가 못 하시게 되면, SDR이 1:1 미팅 수립하기",
+          "start_char": 543,
+          "end_char": 579
+        }
+      ],
+      "dedupe_key": "action_item:0b5dca935d22beda",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

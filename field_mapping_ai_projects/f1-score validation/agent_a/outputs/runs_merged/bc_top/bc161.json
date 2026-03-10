@@ -1,0 +1,230 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W161",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품 연간으로 재계약 진행 예정",
+      "normalized": {
+        "text": "제품 연간으로 재계약 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "제품 연간으로 재계약 진행 예정",
+          "start_char": 36,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "action_item:4a4de9ae7323af57",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스 패키지 제안 결과, 리비짓 필요",
+      "normalized": {
+        "text": "그로스 패키지 제안 결과, 리비짓 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "그로스 패키지 제안 결과, 리비짓 필요",
+          "start_char": 65,
+          "end_char": 86
+        }
+      ],
+      "dedupe_key": "action_item:f3deeca20d3e7861",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "@박성준(Scott) 님위에 공유 드린 거 처럼, 사업적인 시너지가 있을 듯 하여 가볍게 소개 드려 보았습니다.다만 케이몬즈 고객사들이 얼리 스테이지 다 보니,",
+      "normalized": {
+        "text": "@박성준(Scott) 님위에 공유 드린 거 처럼, 사업적인 시너지가 있을 듯 하여 가볍게 소개 드려 보았습니다.다만 케이몬즈 고객사들이 얼리 스테이지 다 보니,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준(Scott) 님위에 공유 드린 거 처럼, 사업적인 시너지가 있을 듯 하여 가볍게 소개 드려 보았습니다.다만 케이몬즈 고객사들이 얼리 스테이지 다 보니,",
+          "start_char": 144,
+          "end_char": 233
+        }
+      ],
+      "dedupe_key": "collaboration_need:e404cec1eedf7ab4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "브랜드/상호 위조 방지 솔루션은 그렇게 필요하지 않을 거 같다고 말씀 주셔서 제휴 시너지는 없을 듯 해보여요!",
+      "normalized": {
+        "text": "브랜드/상호 위조 방지 솔루션은 그렇게 필요하지 않을 거 같다고 말씀 주셔서 제휴 시너지는 없을 듯 해보여요!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "브랜드/상호 위조 방지 솔루션은 그렇게 필요하지 않을 거 같다고 말씀 주셔서 제휴 시너지는 없을 듯 해보여요!",
+          "start_char": 234,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "action_item:97fd1d3d232b2488",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@growth",
+          "start_char": 19,
+          "end_char": 26
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales결론",
+      "normalized": {
+        "name": "sales결론"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales결론",
+          "start_char": 27,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:085825d8febc453c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 144,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 123,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 119,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "케이몬즈 보유 브랜드 대상으로 MarqVision 강의를 연계하거나, MarqVision 고객 대상 케이몬즈 글로벌 진출 성공 사례 공유",
+      "normalized": {
+        "text": "케이몬즈 보유 브랜드 대상으로 MarqVision 강의를 연계하거나, MarqVision 고객 대상 케이몬즈 글로벌 진출 성공 사례 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "해외 글로벌 진출 시"
+          ],
+          "exact_quote": "케이몬즈 보유 브랜드 대상으로 MarqVision 강의를 연계하거나, MarqVision 고객 대상 케이몬즈 글로벌 진출 성공 사례 공유",
+          "start_char": 477,
+          "end_char": 553
+        }
+      ],
+      "dedupe_key": "collaboration_need:b973f43db5c86fe5",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

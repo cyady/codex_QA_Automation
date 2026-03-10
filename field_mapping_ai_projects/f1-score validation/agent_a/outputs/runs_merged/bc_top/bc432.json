@@ -1,0 +1,334 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W432",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier 2 알브이핀(마르코로호) - 잠재매출 2,000만원 ~ 8,000만원] 260113_미팅 주요 내용신소미 실장 당사 서비스를 \"너무 필요한 서비스\"라고 언급하며 강력한 니즈를 보이고 있음",
+      "normalized": {
+        "text": "[Tier 2 알브이핀(마르코로호) - 잠재매출 2,000만원 ~ 8,000만원] 260113_미팅 주요 내용신소미 실장 당사 서비스를 \"너무 필요한 서비스\"라고 언급하며 강력한 니즈를 보이고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier 2 알브이핀(마르코로호) - 잠재매출 2,000만원 ~ 8,000만원] 260113_미팅 주요 내용신소미 실장 당사 서비스를 \"너무 필요한 서비스\"라고 언급하며 강력한 니즈를 보이고 있음",
+          "start_char": 0,
+          "end_char": 110
+        }
+      ],
+      "dedupe_key": "action_item:26dbeb4bd5f510df",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 29,
+          "end_char": 34
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 39,
+          "end_char": 44
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 264,
+          "end_char": 269
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 278,
+          "end_char": 283
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(내부 전문가 부재로 인한 막막함을 느끼고 있으며, 당사 서비스 도입 필요성을 매우 높게 인지함)",
+      "normalized": {
+        "text": "(내부 전문가 부재로 인한 막막함을 느끼고 있으며, 당사 서비스 도입 필요성을 매우 높게 인지함)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "(내부 전문가 부재로 인한 막막함을 느끼고 있으며, 당사 서비스 도입 필요성을 매우 높게 인지함)",
+          "start_char": 194,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7475cf2a584bea4d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "카카오톡으로 회사 소개서 및 패키지 정보 전달",
+      "normalized": {
+        "text": "카카오톡으로 회사 소개서 및 패키지 정보 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "(전체 예산 중 필수 비용 제외 시 가용 범위가 넓음)"
+          ],
+          "exact_quote": "카카오톡으로 회사 소개서 및 패키지 정보 전달",
+          "start_char": 335,
+          "end_char": 360
+        }
+      ],
+      "dedupe_key": "collaboration_need:fb5cbcf27eed62ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "필요 시 신촌 사무실 오프라인 미팅 진행 (대표님 설득 지원)",
+      "normalized": {
+        "text": "필요 시 신촌 사무실 오프라인 미팅 진행 (대표님 설득 지원)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "(전체 예산 중 필수 비용 제외 시 가용 범위가 넓음)"
+          ],
+          "exact_quote": "필요 시 신촌 사무실 오프라인 미팅 진행 (대표님 설득 지원)",
+          "start_char": 398,
+          "end_char": 432
+        }
+      ],
+      "dedupe_key": "action_item:55da90719098e17e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4월 중순 이전 착수 가능 여부(취소 건 등) 내부 확인 후 공유",
+      "normalized": {
+        "text": "4월 중순 이전 착수 가능 여부(취소 건 등) 내부 확인 후 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(전체 예산 중 필수 비용 제외 시 가용 범위가 넓음)"
+          ],
+          "exact_quote": "4월 중순 이전 착수 가능 여부(취소 건 등) 내부 확인 후 공유",
+          "start_char": 436,
+          "end_char": 472
+        }
+      ],
+      "dedupe_key": "collaboration_need:537065bf0bac0bc8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "4월 중순",
+      "normalized": {
+        "month": 4,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(전체 예산 중 필수 비용 제외 시 가용 범위가 넓음)"
+          ],
+          "exact_quote": "4월 중순",
+          "start_char": 436,
+          "end_char": 441
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "단, 대규모 예산 집행을 위해서는 대표님 승인 필수."
+          ],
+          "exact_quote": "4월 중순",
+          "start_char": 1052,
+          "end_char": 1057
+        }
+      ],
+      "dedupe_key": "timeline:e36a7c0972f2ae62",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Blocker: 일정(고객사 Q1 희망 vs 당사 4월 가능), 예산 집행을 위한 대표님 설득 필요",
+      "normalized": {
+        "text": "Blocker: 일정(고객사 Q1 희망 vs 당사 4월 가능), 예산 집행을 위한 대표님 설득 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "(전체 예산 중 필수 비용 제외 시 가용 범위가 넓음)"
+          ],
+          "exact_quote": "Blocker: 일정(고객사 Q1 희망 vs 당사 4월 가능), 예산 집행을 위한 대표님 설득 필요",
+          "start_char": 498,
+          "end_char": 553
+        }
+      ],
+      "dedupe_key": "action_item:2547d1390e66a2af",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Driver: 신소미 실장"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 718,
+          "end_char": 722
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만 원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Driver: 신소미 실장"
+          ],
+          "exact_quote": "3천만 원",
+          "start_char": 745,
+          "end_char": 750
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 인력만으로는 기획/구축에 한계를 느껴 전문적인 가이드와 실행이 필요한 상황.",
+      "normalized": {
+        "text": "내부 인력만으로는 기획/구축에 한계를 느껴 전문적인 가이드와 실행이 필요한 상황.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "단, 대규모 예산 집행을 위해서는 대표님 승인 필수."
+          ],
+          "exact_quote": "내부 인력만으로는 기획/구축에 한계를 느껴 전문적인 가이드와 실행이 필요한 상황.",
+          "start_char": 950,
+          "end_char": 995
+        }
+      ],
+      "dedupe_key": "action_item:88494c601ad79369",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당사 가용 일정(4월 중순)과 갭이 있어, 일정 조율 혹은 기다릴만한 가치 설득 필요.",
+      "normalized": {
+        "text": "당사 가용 일정(4월 중순)과 갭이 있어, 일정 조율 혹은 기다릴만한 가치 설득 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "단, 대규모 예산 집행을 위해서는 대표님 승인 필수."
+          ],
+          "exact_quote": "당사 가용 일정(4월 중순)과 갭이 있어, 일정 조율 혹은 기다릴만한 가치 설득 필요.",
+          "start_char": 1043,
+          "end_char": 1091
+        }
+      ],
+      "dedupe_key": "action_item:267295a110c4096d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

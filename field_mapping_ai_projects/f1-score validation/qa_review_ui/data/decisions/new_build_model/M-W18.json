@@ -1,0 +1,327 @@
+{
+  "memo_id": "M-W18",
+  "updated_at": "2026-02-27T05:11:42.326671+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "contract_amount",
+      "field_label": "contract_amount",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.60) - HITL 권장"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.34) - HITL 권장"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.59) - HITL 권장"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=8/10 | 기존 대비 값 유사도 높음(0.93), 이전 판정 이관"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 11,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+      "normalized": {
+        "text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+      "start_char": 270,
+      "end_char": 382,
+      "line_no": 6,
+      "line_text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 5.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.28)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+      "normalized": {
+        "text": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+      "start_char": 383,
+      "end_char": 462,
+      "line_no": 7,
+      "line_text": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6091",
+          "label": "이벤트 참가비 결제 수단",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@정효재",
+      "start_char": 55,
+      "end_char": 59,
+      "line_no": 2,
+      "line_text": "cc @정효재(Joy)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "블로그",
+      "start_char": 301,
+      "end_char": 304,
+      "line_no": 6,
+      "line_text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치",
+      "start_char": 91,
+      "end_char": 94,
+      "line_no": 5,
+      "line_text": "리캐치 김한규입니다.어제 미팅에서 '템플리' 서비스의 성장 방향성과 온라인 퍼널 구축에 대해 심도 깊은 이야기를 나눌 수 있어 매우 유익한 시간이었습니다. 논의해 주신 내용을 바탕으로 부에노컴퍼니의 성공적인 콘텐츠 마케팅 역량 내재화를 돕기 위한 '리캐치 그로스 패키지' 견적서를 준비하여 첨부 파일로 전달해 드립니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.03)"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+      "normalized": {
+        "text": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "[프로젝트 업무 분장 관련]"
+      ],
+      "evidence_quote": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+      "start_char": 921,
+      "end_char": 998,
+      "line_no": 17,
+      "line_text": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "7995",
+          "label": "참석 희망 일정",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.34)"
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+      "normalized": {
+        "text": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "[프로젝트 업무 분장 관련]"
+      ],
+      "evidence_quote": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+      "start_char": 999,
+      "end_char": 1076,
+      "line_no": 18,
+      "line_text": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.28)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+      "normalized": {
+        "text": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "[프로젝트 업무 분장 관련]"
+      ],
+      "evidence_quote": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+      "start_char": 1077,
+      "end_char": 1115,
+      "line_no": 19,
+      "line_text": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.19)"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W177",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 21,
+          "end_char": 24
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 31,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 89,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 198,
+          "end_char": 201
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 265,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 중순",
+      "normalized": {
+        "month": 1,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "1월 중순",
+          "start_char": 289,
+          "end_char": 294
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "이상적인 고객군은 물류량이 많은 제조업임"
+          ],
+          "exact_quote": "1월 중순",
+          "start_char": 1244,
+          "end_char": 1249
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "이상적인 고객군은 물류량이 많은 제조업임"
+          ],
+          "exact_quote": "1월 중순",
+          "start_char": 1302,
+          "end_char": 1307
+        }
+      ],
+      "dedupe_key": "timeline:ffbfdc2e92accc41",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-----1. 시스템 기능 개발 현황 - 홈페이지 내에 기능 개발이 필요한데 구축 중에 있다.",
+      "normalized": {
+        "text": "-----1. 시스템 기능 개발 현황 - 홈페이지 내에 기능 개발이 필요한데 구축 중에 있다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "-----1. 시스템 기능 개발 현황 - 홈페이지 내에 기능 개발이 필요한데 구축 중에 있다.",
+          "start_char": 329,
+          "end_char": 381
+        }
+      ],
+      "dedupe_key": "action_item:2d4237dc452bad0f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 시스템의 기능 개발 및 테스트가 진행되고 있음",
+      "normalized": {
+        "text": "현재 시스템의 기능 개발 및 테스트가 진행되고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "현재 시스템의 기능 개발 및 테스트가 진행되고 있음",
+          "start_char": 387,
+          "end_char": 415
+        }
+      ],
+      "dedupe_key": "action_item:f2017e078b84603b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기능적으로는 거의 완성 단계에 있으며, 현재 미비한 부분에 대한 검수를 진행 중임",
+      "normalized": {
+        "text": "기능적으로는 거의 완성 단계에 있으며, 현재 미비한 부분에 대한 검수를 진행 중임",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "기능적으로는 거의 완성 단계에 있으며, 현재 미비한 부분에 대한 검수를 진행 중임",
+          "start_char": 419,
+          "end_char": 464
+        }
+      ],
+      "dedupe_key": "risk_or_concern:130c15ad0744446c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당사(웰배)는 CJ 대한통운의 홈페이지 구축부터 구글 검색 엔진 노출 전략까지 진행했던 프로젝트 사례를 공유하며 향후 협력 방안에 대해 논의할 수 있음을 제안했음",
+      "normalized": {
+        "text": "당사(웰배)는 CJ 대한통운의 홈페이지 구축부터 구글 검색 엔진 노출 전략까지 진행했던 프로젝트 사례를 공유하며 향후 협력 방안에 대해 논의할 수 있음을 제안했음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "웹사이트는 이미 구축하고 있음"
+          ],
+          "exact_quote": "당사(웰배)는 CJ 대한통운의 홈페이지 구축부터 구글 검색 엔진 노출 전략까지 진행했던 프로젝트 사례를 공유하며 향후 협력 방안에 대해 논의할 수 있음을 제안했음",
+          "start_char": 920,
+          "end_char": 1010
+        }
+      ],
+      "dedupe_key": "action_item:dcdf555081f818cd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기능 개발 완료 후 영업 방안 및 후속 논의는 1월에 진행하는 것이 좋겠다는 의견에 합의함",
+      "normalized": {
+        "text": "기능 개발 완료 후 영업 방안 및 후속 논의는 1월에 진행하는 것이 좋겠다는 의견에 합의함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "이상적인 고객군은 물류량이 많은 제조업임"
+          ],
+          "exact_quote": "기능 개발 완료 후 영업 방안 및 후속 논의는 1월에 진행하는 것이 좋겠다는 의견에 합의함",
+          "start_char": 1190,
+          "end_char": 1240
+        }
+      ],
+      "dedupe_key": "action_item:746e3ebca5f7b716",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1월 중순 경에 다시 연락을 주시면 대면 미팅 일정을 잡아 구체적인 논의를 진행하기로 했음",
+      "normalized": {
+        "text": "1월 중순 경에 다시 연락을 주시면 대면 미팅 일정을 잡아 구체적인 논의를 진행하기로 했음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "이상적인 고객군은 물류량이 많은 제조업임"
+          ],
+          "exact_quote": "1월 중순 경에 다시 연락을 주시면 대면 미팅 일정을 잡아 구체적인 논의를 진행하기로 했음",
+          "start_char": 1244,
+          "end_char": 1294
+        }
+      ],
+      "dedupe_key": "action_item:575d6f0776c29a48",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당사는 1월 중순 논의를 위해 필요한 준비를 진행하기로 했음",
+      "normalized": {
+        "text": "당사는 1월 중순 논의를 위해 필요한 준비를 진행하기로 했음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "이상적인 고객군은 물류량이 많은 제조업임"
+          ],
+          "exact_quote": "당사는 1월 중순 논의를 위해 필요한 준비를 진행하기로 했음",
+          "start_char": 1298,
+          "end_char": 1331
+        }
+      ],
+      "dedupe_key": "action_item:3f2966cc10ea381f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

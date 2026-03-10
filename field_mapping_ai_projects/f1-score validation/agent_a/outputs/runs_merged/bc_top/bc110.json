@@ -1,0 +1,734 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W110",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "팀원들과 공유할 수 있도록 미팅 내용을 다음과 같이 정리했습니다.",
+      "normalized": {
+        "text": "팀원들과 공유할 수 있도록 미팅 내용을 다음과 같이 정리했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "팀원들과 공유할 수 있도록 미팅 내용을 다음과 같이 정리했습니다.",
+          "start_char": 30,
+          "end_char": 66
+        }
+      ],
+      "dedupe_key": "collaboration_need:7acdbdd879fbaf84",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일시: 2025년 9월 12일 (금) 오후 1:07, 총 85분 33초 진행",
+      "normalized": {
+        "text": "일시: 2025년 9월 12일 (금) 오후 1:07, 총 85분 33초 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "일시: 2025년 9월 12일 (금) 오후 1:07, 총 85분 33초 진행",
+          "start_char": 99,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "action_item:9f751b3239525e11",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1:07",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 7,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "오후 1:07",
+          "start_char": 120,
+          "end_char": 127
+        }
+      ],
+      "dedupe_key": "timeline:884552534fa82b95",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 12일",
+      "normalized": {
+        "month": 9,
+        "day": 12
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "9월 12일",
+          "start_char": 109,
+          "end_char": 115
+        }
+      ],
+      "dedupe_key": "timeline:219cac0fc5638398",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "12일",
+      "normalized": {
+        "value": 12.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "12일",
+          "start_char": 112,
+          "end_char": 115
+        }
+      ],
+      "dedupe_key": "duration:0c74c7f560a72291",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 75,
+          "end_char": 78
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 177,
+          "end_char": 180
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 190,
+          "end_char": 193
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 321,
+          "end_char": 324
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 539,
+          "end_char": 542
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 586,
+          "end_char": 589
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 596,
+          "end_char": 599
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 679,
+          "end_char": 682
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 734,
+          "end_char": 737
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 805,
+          "end_char": 808
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1124,
+          "end_char": 1127
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1201,
+          "end_char": 1204
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1281,
+          "end_char": 1284
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1346,
+          "end_char": 1349
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1426,
+          "end_char": 1429
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1806,
+          "end_char": 1809
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1903,
+          "end_char": 1906
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2400,
+          "end_char": 2403
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2409,
+          "end_char": 2412
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2516,
+          "end_char": 2519
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2559,
+          "end_char": 2562
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2681,
+          "end_char": 2684
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2701,
+          "end_char": 2704
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2751,
+          "end_char": 2754
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참석자 2 (한결님): 현재 SDR로 재직 중이며, SDR 업무 역량 강화를 위해 '콜드 메일' 발송 및 관련 서적(프레디 레비뉴 2.0 등)을 탐색하다가 참석자 4의 자료를 접하며 인연을 맺게 되었습니다. 이전에 블록체인 스타트업 창업 및 AICC 컨택센터 솔루션 분야에서 일했으며, SDR 업무는 현 직장에서 처음 시작했습니다.",
+      "normalized": {
+        "text": "참석자 2 (한결님): 현재 SDR로 재직 중이며, SDR 업무 역량 강화를 위해 '콜드 메일' 발송 및 관련 서적(프레디 레비뉴 2.0 등)을 탐색하다가 참석자 4의 자료를 접하며 인연을 맺게 되었습니다. 이전에 블록체인 스타트업 창업 및 AICC 컨택센터 솔루션 분야에서 일했으며, SDR 업무는 현 직장에서 처음 시작했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "참석자 2 (한결님): 현재 SDR로 재직 중이며, SDR 업무 역량 강화를 위해 '콜드 메일' 발송 및 관련 서적(프레디 레비뉴 2.0 등)을 탐색하다가 참석자 4의 자료를 접하며 인연을 맺게 되었습니다. 이전에 블록체인 스타트업 창업 및 AICC 컨택센터 솔루션 분야에서 일했으며, SDR 업무는 현 직장에서 처음 시작했습니다.",
+          "start_char": 161,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "action_item:2b473720aa37a0ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 367,
+          "end_char": 370
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 800,
+          "end_char": 803
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1720,
+          "end_char": 1723
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2509,
+          "end_char": 2512
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "KPI 설정: 리캐치의 SDR은 인바운드 미팅을 제외하고 월 20개 미팅을 KPI로 설정하며, 70% 이상의 달성을 독려합니다. 리드(벤치마크/트렌드 리포트)와 MQL(서비스 소개서/CRM 도입 실패 리포트)을 미팅으로 전환시키는 것이 핵심 KPI이며, 전환율은 MQL보다 리드가 3~4배 높게 나타납니다.",
+      "normalized": {
+        "text": "KPI 설정: 리캐치의 SDR은 인바운드 미팅을 제외하고 월 20개 미팅을 KPI로 설정하며, 70% 이상의 달성을 독려합니다. 리드(벤치마크/트렌드 리포트)와 MQL(서비스 소개서/CRM 도입 실패 리포트)을 미팅으로 전환시키는 것이 핵심 KPI이며, 전환율은 MQL보다 리드가 3~4배 높게 나타납니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "KPI 설정: 리캐치의 SDR은 인바운드 미팅을 제외하고 월 20개 미팅을 KPI로 설정하며, 70% 이상의 달성을 독려합니다. 리드(벤치마크/트렌드 리포트)와 MQL(서비스 소개서/CRM 도입 실패 리포트)을 미팅으로 전환시키는 것이 핵심 KPI이며, 전환율은 MQL보다 리드가 3~4배 높게 나타납니다.",
+          "start_char": 792,
+          "end_char": 963
+        }
+      ],
+      "dedupe_key": "collaboration_need:6fc3b3114c5006aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "20개",
+      "normalized": {
+        "value": 20,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "20개",
+          "start_char": 826,
+          "end_char": 829
+        }
+      ],
+      "dedupe_key": "case_metric:fad70b48f27da24c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 882,
+          "end_char": 885
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "SDR 업무 수행"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 939,
+          "end_char": 942
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주간 코칭 세션: 참석자 4는 주 1회(화요일 10:30-11:00) SDR 코칭 세션을 통해 녹음본 리뷰, 스크립트 작성 및 첨삭, 필요시 직접 콜드콜 시연을 통해 피드백을 제공합니다.",
+      "normalized": {
+        "text": "주간 코칭 세션: 참석자 4는 주 1회(화요일 10:30-11:00) SDR 코칭 세션을 통해 녹음본 리뷰, 스크립트 작성 및 첨삭, 필요시 직접 콜드콜 시연을 통해 피드백을 제공합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "주간 코칭 세션: 참석자 4는 주 1회(화요일 10:30-11:00) SDR 코칭 세션을 통해 녹음본 리뷰, 스크립트 작성 및 첨삭, 필요시 직접 콜드콜 시연을 통해 피드백을 제공합니다.",
+          "start_char": 1085,
+          "end_char": 1189
+        }
+      ],
+      "dedupe_key": "action_item:d256f0702a5d1cf2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "가격만 비교하며 접근하거나, 기능 설명/가치 인지 없이 견적서부터 요구하는 고객은 최대한 설득하되, 가격에만 앵커링되어 있다면 미팅으로 잡지 않거나 견적서 발송을 거부할 수 있습니다.",
+      "normalized": {
+        "text": "가격만 비교하며 접근하거나, 기능 설명/가치 인지 없이 견적서부터 요구하는 고객은 최대한 설득하되, 가격에만 앵커링되어 있다면 미팅으로 잡지 않거나 견적서 발송을 거부할 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "디스퀄리파이(Disqualify) 고객 유형"
+          ],
+          "exact_quote": "가격만 비교하며 접근하거나, 기능 설명/가치 인지 없이 견적서부터 요구하는 고객은 최대한 설득하되, 가격에만 앵커링되어 있다면 미팅으로 잡지 않거나 견적서 발송을 거부할 수 있습니다.",
+          "start_char": 2055,
+          "end_char": 2157
+        }
+      ],
+      "dedupe_key": "action_item:9b1846a16431e013",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "하프타임 (섀도우 복싱) 세션: 매주 금요일 오전 9시, 특정 고객사 페르소나를 설정하여 시뮬레이션하는 섀도우 복싱 세션을 진행합니다. 실제 상황보다 강도 높은 연습을 통해 약점을 파악하고, 위닝 시나리오를 준비하여 실전에서 버벅거리지 않도록 훈련합니다.",
+      "normalized": {
+        "text": "하프타임 (섀도우 복싱) 세션: 매주 금요일 오전 9시, 특정 고객사 페르소나를 설정하여 시뮬레이션하는 섀도우 복싱 세션을 진행합니다. 실제 상황보다 강도 높은 연습을 통해 약점을 파악하고, 위닝 시나리오를 준비하여 실전에서 버벅거리지 않도록 훈련합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "하프타임 (섀도우 복싱) 세션: 매주 금요일 오전 9시, 특정 고객사 페르소나를 설정하여 시뮬레이션하는 섀도우 복싱 세션을 진행합니다. 실제 상황보다 강도 높은 연습을 통해 약점을 파악하고, 위닝 시나리오를 준비하여 실전에서 버벅거리지 않도록 훈련합니다.",
+          "start_char": 2177,
+          "end_char": 2319
+        }
+      ],
+      "dedupe_key": "action_item:03f2bcb93d3f49fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제점 진단: 고객이 문제를 모호하게 인지하는 경우가 많으므로, 객관식 질문을 통해 고객의 가장 큰 고민을 명확히 파악하고 논의를 진행합니다.",
+      "normalized": {
+        "text": "문제점 진단: 고객이 문제를 모호하게 인지하는 경우가 많으므로, 객관식 질문을 통해 고객의 가장 큰 고민을 명확히 파악하고 논의를 진행합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "문제점 진단: 고객이 문제를 모호하게 인지하는 경우가 많으므로, 객관식 질문을 통해 고객의 가장 큰 고민을 명확히 파악하고 논의를 진행합니다.",
+          "start_char": 2320,
+          "end_char": 2399
+        }
+      ],
+      "dedupe_key": "risk_or_concern:050ceda498a9e1b8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 9시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 9,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "오전 9시",
+          "start_char": 2202,
+          "end_char": 2207
+        }
+      ],
+      "dedupe_key": "timeline:ec212071c2724261",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "5. 팀 협업 및 커뮤니케이션",
+      "normalized": {
+        "text": "5. 팀 협업 및 커뮤니케이션",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "5. 팀 협업 및 커뮤니케이션",
+          "start_char": 2484,
+          "end_char": 2500
+        }
+      ],
+      "dedupe_key": "collaboration_need:f7a1f50c16df0654",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "정기 회의체: 리캐치에서는 SDR 위클리, 세일즈 위클리, 레베뉴 위클리 등 정기적인 회의체를 운영하여 SDR, AE, 마케팅, CX 등 전 매출 조직이 참여해 새로운 인사이트와 고객 정보를 공유합니다.",
+      "normalized": {
+        "text": "정기 회의체: 리캐치에서는 SDR 위클리, 세일즈 위클리, 레베뉴 위클리 등 정기적인 회의체를 운영하여 SDR, AE, 마케팅, CX 등 전 매출 조직이 참여해 새로운 인사이트와 고객 정보를 공유합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "정기 회의체: 리캐치에서는 SDR 위클리, 세일즈 위클리, 레베뉴 위클리 등 정기적인 회의체를 운영하여 SDR, AE, 마케팅, CX 등 전 매출 조직이 참여해 새로운 인사이트와 고객 정보를 공유합니다.",
+          "start_char": 2501,
+          "end_char": 2614
+        }
+      ],
+      "dedupe_key": "collaboration_need:2f84b57069f9babd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "효율적인 피드백: 회의에서 \"왜 안 됐는지\"에만 집중하기보다는, 스스로 회고하고 솔루션을 제시하는 문화가 필요합니다.",
+      "normalized": {
+        "text": "효율적인 피드백: 회의에서 \"왜 안 됐는지\"에만 집중하기보다는, 스스로 회고하고 솔루션을 제시하는 문화가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "효율적인 피드백: 회의에서 \"왜 안 됐는지\"에만 집중하기보다는, 스스로 회고하고 솔루션을 제시하는 문화가 필요합니다.",
+          "start_char": 2615,
+          "end_char": 2680
+        }
+      ],
+      "dedupe_key": "action_item:5f4ba61be4a10475",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "SDR-AE 협업: AE는 미팅 전 SDR에게 고객사의 페인 포인트, 경쟁사, 문의 배경 등 상세 정보를 꼭 물어봐야 하며, SDR은 이를 잘 정리하여 제공해야 합니다.",
+      "normalized": {
+        "text": "SDR-AE 협업: AE는 미팅 전 SDR에게 고객사의 페인 포인트, 경쟁사, 문의 배경 등 상세 정보를 꼭 물어봐야 하며, SDR은 이를 잘 정리하여 제공해야 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "SDR-AE 협업: AE는 미팅 전 SDR에게 고객사의 페인 포인트, 경쟁사, 문의 배경 등 상세 정보를 꼭 물어봐야 하며, SDR은 이를 잘 정리하여 제공해야 합니다.",
+          "start_char": 2681,
+          "end_char": 2775
+        }
+      ],
+      "dedupe_key": "collaboration_need:9044d9650fc2a6b4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "71.25",
+      "normalized": {
+        "year": 2071,
+        "month": 25,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "AE 역량 강화 (리캐치 사례)"
+          ],
+          "exact_quote": "71.25",
+          "start_char": 3355,
+          "end_char": 3360
+        }
+      ],
+      "dedupe_key": "timeline:7bc32a8405d81fef",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

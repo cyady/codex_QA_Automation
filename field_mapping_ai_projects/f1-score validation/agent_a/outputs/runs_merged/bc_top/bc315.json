@@ -1,0 +1,57 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W315",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드는 꾸준히 들어오고 있는데, 보다 양질의 리드를 영업담당자에게 전달하려고 한다.",
+      "normalized": {
+        "text": "리드는 꾸준히 들어오고 있는데, 보다 양질의 리드를 영업담당자에게 전달하려고 한다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리드는 꾸준히 들어오고 있는데, 보다 양질의 리드를 영업담당자에게 전달하려고 한다.",
+          "start_char": 91,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "collaboration_need:a7568a368e3e1d1c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 마케팅의 인력들이 부재하다. 본인은 전략기획 총괄을 담당하고 있지만 마케팅 업무도 함께 도맡고 있음",
+      "normalized": {
+        "text": "현재 마케팅의 인력들이 부재하다. 본인은 전략기획 총괄을 담당하고 있지만 마케팅 업무도 함께 도맡고 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "현재 마케팅의 인력들이 부재하다. 본인은 전략기획 총괄을 담당하고 있지만 마케팅 업무도 함께 도맡고 있음",
+          "start_char": 152,
+          "end_char": 210
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a7fd637572971160",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

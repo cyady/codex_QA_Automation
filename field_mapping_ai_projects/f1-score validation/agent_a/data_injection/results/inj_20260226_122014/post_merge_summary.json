@@ -1,0 +1,10 @@
+{
+  "cases": 50,
+  "status_counts": {
+    "201": 50
+  },
+  "empty_list": 42,
+  "non_empty_list": 8,
+  "non_empty_with_5376": 8,
+  "retry_run": "f1-score validation/agent_a/data_injection/results/inj_20260226_124203"
+}

@@ -1,0 +1,306 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W472",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "66.82",
+      "normalized": {
+        "year": 2066,
+        "month": 82,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "66.82",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:13397b16b0f9fdc9",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 142,
+          "end_char": 145
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 224,
+          "end_char": 227
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 478,
+          "end_char": 481
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 785,
+          "end_char": 788
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1057,
+          "end_char": 1060
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "UiPath는 글로벌 정책상 세일즈포스를 필수적으로 사용해야 하며 CRM 교체는 불가능합니다.",
+      "normalized": {
+        "text": "UiPath는 글로벌 정책상 세일즈포스를 필수적으로 사용해야 하며 CRM 교체는 불가능합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "UiPath는 글로벌 정책상 세일즈포스를 필수적으로 사용해야 하며 CRM 교체는 불가능합니다.",
+          "start_char": 282,
+          "end_char": 334
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7f1beed97b382a5d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "필리핀에서 한국으로 거는 아웃바운드 콜은 수신율이 매우 낮아 이메일이나 세미나 위주의 영업을 진행 중입니다.",
+      "normalized": {
+        "text": "필리핀에서 한국으로 거는 아웃바운드 콜은 수신율이 매우 낮아 이메일이나 세미나 위주의 영업을 진행 중입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "필리핀에서 한국으로 거는 아웃바운드 콜은 수신율이 매우 낮아 이메일이나 세미나 위주의 영업을 진행 중입니다.",
+          "start_char": 413,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "action_item:8f14a79292b252b1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "4. 핵심 F/u 필요 사항",
+      "normalized": {
+        "text": "4. 핵심 F/u 필요 사항",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "4. 핵심 F/u 필요 사항",
+          "start_char": 643,
+          "end_char": 658
+        }
+      ],
+      "dedupe_key": "action_item:5be6c6264ace06e3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상황: 글로벌 본사가 직접 한국 로컬 툴을 도입하기 어려운 경우를 대비한 제안입니다.",
+      "normalized": {
+        "text": "상황: 글로벌 본사가 직접 한국 로컬 툴을 도입하기 어려운 경우를 대비한 제안입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "상황: 글로벌 본사가 직접 한국 로컬 툴을 도입하기 어려운 경우를 대비한 제안입니다.",
+          "start_char": 690,
+          "end_char": 737
+        }
+      ],
+      "dedupe_key": "collaboration_need:527fb4bc86cee202",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 811,
+          "end_char": 814
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "적용점: UiPath 역시 본사가 직접 도입하는 대신, 총판(KCC)이나 2차 벤더들이 영업을 잘할 수 있도록 마케팅 인프라를 지원해 주는 형태로 접근해 볼 것을 제안했습니다.",
+      "normalized": {
+        "text": "적용점: UiPath 역시 본사가 직접 도입하는 대신, 총판(KCC)이나 2차 벤더들이 영업을 잘할 수 있도록 마케팅 인프라를 지원해 주는 형태로 접근해 볼 것을 제안했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "적용점: UiPath 역시 본사가 직접 도입하는 대신, 총판(KCC)이나 2차 벤더들이 영업을 잘할 수 있도록 마케팅 인프라를 지원해 주는 형태로 접근해 볼 것을 제안했습니다.",
+          "start_char": 839,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "collaboration_need:4a7b7976b1febe23",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청: 예원님은 CRM 전체가 아닌, 웹사이트 내 고객 행동을 추적하는 '여정 데이터' 기능만 단독으로 도입하기를 강력히 희망했습니다.",
+      "normalized": {
+        "text": "요청: 예원님은 CRM 전체가 아닌, 웹사이트 내 고객 행동을 추적하는 '여정 데이터' 기능만 단독으로 도입하기를 강력히 희망했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "요청: 예원님은 CRM 전체가 아닌, 웹사이트 내 고객 행동을 추적하는 '여정 데이터' 기능만 단독으로 도입하기를 강력히 희망했습니다.",
+          "start_char": 970,
+          "end_char": 1045
+        }
+      ],
+      "dedupe_key": "action_item:5bb7a40732d19bd0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "액션 아이템: 리캐치 측은 현재 통합되어 있는 이 기능을 별도의 툴이나 모듈 형태로 떼어내어 제공할 수 있는지 내부적으로 기술 및 판매 가능성을 검토해야 합니다.",
+      "normalized": {
+        "text": "액션 아이템: 리캐치 측은 현재 통합되어 있는 이 기능을 별도의 툴이나 모듈 형태로 떼어내어 제공할 수 있는지 내부적으로 기술 및 판매 가능성을 검토해야 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "액션 아이템: 리캐치 측은 현재 통합되어 있는 이 기능을 별도의 툴이나 모듈 형태로 떼어내어 제공할 수 있는지 내부적으로 기술 및 판매 가능성을 검토해야 합니다.",
+          "start_char": 1049,
+          "end_char": 1139
+        }
+      ],
+      "dedupe_key": "action_item:0b8d58b43a72a3e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예원님은 위 두 가지 내용(IBM 사례, 여정 데이터 단독 도입 가능 여부)을 정리하여 내부 임원(상무님)께 보고하고 검토를 요청하기로 했습니다.",
+      "normalized": {
+        "text": "예원님은 위 두 가지 내용(IBM 사례, 여정 데이터 단독 도입 가능 여부)을 정리하여 내부 임원(상무님)께 보고하고 검토를 요청하기로 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "주요 현황 및 페인 포인트"
+          ],
+          "exact_quote": "예원님은 위 두 가지 내용(IBM 사례, 여정 데이터 단독 도입 가능 여부)을 정리하여 내부 임원(상무님)께 보고하고 검토를 요청하기로 했습니다.",
+          "start_char": 1150,
+          "end_char": 1231
+        }
+      ],
+      "dedupe_key": "action_item:d204eba769876c0c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

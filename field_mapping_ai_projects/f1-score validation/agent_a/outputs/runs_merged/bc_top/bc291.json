@@ -1,0 +1,169 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W291",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 24,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Budget: 추가 조정 필요(단, 스콥을 줄이며 예산을 줄여야지 예산만 줄여드려선 안됨)",
+      "normalized": {
+        "text": "Budget: 추가 조정 필요(단, 스콥을 줄이며 예산을 줄여야지 예산만 줄여드려선 안됨)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "Budget: 추가 조정 필요(단, 스콥을 줄이며 예산을 줄여야지 예산만 줄여드려선 안됨)",
+          "start_char": 56,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "action_item:5107f0fe2aff7376",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 181,
+          "end_char": 185
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 196,
+          "end_char": 200
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 147,
+          "end_char": 152
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 말",
+      "normalized": {
+        "month": 12,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "12월 말",
+          "start_char": 279,
+          "end_char": 284
+        }
+      ],
+      "dedupe_key": "timeline:bdf1d0b8a845547e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ 지금 현장(인테리어 현장)에 있어서 전화 받기가 어렵다.",
+      "normalized": {
+        "text": "1/ 지금 현장(인테리어 현장)에 있어서 전화 받기가 어렵다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "1/ 지금 현장(인테리어 현장)에 있어서 전화 받기가 어렵다.",
+          "start_char": 325,
+          "end_char": 359
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ba878169682d0c07",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

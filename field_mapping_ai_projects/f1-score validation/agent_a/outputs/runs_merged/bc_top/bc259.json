@@ -1,0 +1,344 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W259",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "미팅 핵심 요약"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 122,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "미팅 핵심 요약"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 155,
+          "end_char": 158
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "미팅 핵심 요약"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 236,
+          "end_char": 239
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "⸻ 사업 기회"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 279,
+          "end_char": 282
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "⸻ 즉시 실행 가능한 기회"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 533,
+          "end_char": 536
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "⸻ 즉시 실행 가능한 기회"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 603,
+          "end_char": 606
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "⸻ 내부 제안"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 685,
+          "end_char": 688
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "⸻ 내부 제안"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 741,
+          "end_char": 744
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "가설검증 주체"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 874,
+          "end_char": 877
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "⸻ 정리"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 973,
+          "end_char": 976
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "⸻ 정리"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1051,
+          "end_char": 1054
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "000건",
+      "normalized": {
+        "value": 0,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "미팅 핵심 요약"
+          ],
+          "exact_quote": "000건",
+          "start_char": 196,
+          "end_char": 200
+        }
+      ],
+      "dedupe_key": "sales_activity:58cc13dea0bf4165",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "⸻ 사업 기회"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 268,
+          "end_char": 274
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "⸻ 사업 기회"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 301,
+          "end_char": 304
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "⸻ 정리"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 983,
+          "end_char": 986
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이사님이 보유 중인 2,000건의 DB를 마스킹 없이 바로 공유 예정(내일 전달) → 이를 기반으로 사전 분석 및 SDR 프로세스 설계 테스트베드로 활용 가능.",
+      "normalized": {
+        "text": "이사님이 보유 중인 2,000건의 DB를 마스킹 없이 바로 공유 예정(내일 전달) → 이를 기반으로 사전 분석 및 SDR 프로세스 설계 테스트베드로 활용 가능.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "⸻ 즉시 실행 가능한 기회"
+          ],
+          "exact_quote": "이사님이 보유 중인 2,000건의 DB를 마스킹 없이 바로 공유 예정(내일 전달) → 이를 기반으로 사전 분석 및 SDR 프로세스 설계 테스트베드로 활용 가능.",
+          "start_char": 469,
+          "end_char": 558
+        }
+      ],
+      "dedupe_key": "collaboration_need:2f5e2cd4994e4b02",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000건",
+      "normalized": {
+        "value": 0,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "⸻ 즉시 실행 가능한 기회"
+          ],
+          "exact_quote": "000건",
+          "start_char": 482,
+          "end_char": 486
+        }
+      ],
+      "dedupe_key": "case_metric:58cc13dea0bf4165",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "가설검증 주체"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 779,
+          "end_char": 783
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "가설검증 주체"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 809,
+          "end_char": 813
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "가설검증 주체"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 823,
+          "end_char": 827
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

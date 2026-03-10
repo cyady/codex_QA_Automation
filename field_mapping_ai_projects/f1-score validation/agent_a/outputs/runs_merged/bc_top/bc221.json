@@ -1,0 +1,335 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W221",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기존: 인바운드 중심(과거 사용 경험 있는 유저가 기관/기업에서 도입 요청)",
+      "normalized": {
+        "text": "기존: 인바운드 중심(과거 사용 경험 있는 유저가 기관/기업에서 도입 요청)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "기존: 인바운드 중심(과거 사용 경험 있는 유저가 기관/기업에서 도입 요청)",
+          "start_char": 49,
+          "end_char": 91
+        }
+      ],
+      "dedupe_key": "action_item:f245854e3933ff3c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "400여 개",
+      "normalized": {
+        "value": 400,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "연구소·R&D 부서 보유 기업 우선"
+          ],
+          "exact_quote": "400여 개",
+          "start_char": 220,
+          "end_char": 226
+        }
+      ],
+      "dedupe_key": "case_metric:fda4cad55f3c29bb",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 50개",
+      "normalized": {
+        "value": 50,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "연구소·R&D 부서 보유 기업 우선"
+          ],
+          "exact_quote": "약 50개",
+          "start_char": 236,
+          "end_char": 241
+        }
+      ],
+      "dedupe_key": "case_metric:e9317414ef1e6ae7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세금계산서 발행 및 계약 관리 가능",
+      "normalized": {
+        "text": "세금계산서 발행 및 계약 관리 가능"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "다음 액션 일정 알림(메일로 수신)"
+          ],
+          "exact_quote": "세금계산서 발행 및 계약 관리 가능",
+          "start_char": 358,
+          "end_char": 377
+        }
+      ],
+      "dedupe_key": "action_item:fae52882ed701772",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "비즈·시트·팀내 공유파일 3중 관리 → 중복 입력·누락 발생",
+      "normalized": {
+        "text": "비즈·시트·팀내 공유파일 3중 관리 → 중복 입력·누락 발생",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "문제점"
+          ],
+          "exact_quote": "비즈·시트·팀내 공유파일 3중 관리 → 중복 입력·누락 발생",
+          "start_char": 449,
+          "end_char": 482
+        }
+      ],
+      "dedupe_key": "collaboration_need:2fd454770a7b66ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "100~200건",
+      "normalized": {
+        "min": 100.0,
+        "max": 200.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "문제점"
+          ],
+          "exact_quote": "100~200건",
+          "start_char": 506,
+          "end_char": 514
+        }
+      ],
+      "dedupe_key": "case_metric:f936b264b4a9aab3",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "메일 개별 발송, 벌크 발송 어려움(기관별 맞춤 내용 필요)",
+      "normalized": {
+        "text": "메일 개별 발송, 벌크 발송 어려움(기관별 맞춤 내용 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "문제점"
+          ],
+          "exact_quote": "메일 개별 발송, 벌크 발송 어려움(기관별 맞춤 내용 필요)",
+          "start_char": 521,
+          "end_char": 554
+        }
+      ],
+      "dedupe_key": "action_item:15bb42a97a9a6d6b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "폼 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 693,
+          "end_char": 696
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "UTM 정보 유지 여부"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 759,
+          "end_char": 762
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "아웃바운드 영업 활용 콘텐츠 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 977,
+          "end_char": 980
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "아웃바운드 영업 활용 콘텐츠 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1007,
+          "end_char": 1010
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "@김우진(Woojin Andy Kim)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1317,
+          "end_char": 1320
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대량 메일 발송 시 기관별 맞춤 정보 자동 반영 기능",
+      "normalized": {
+        "text": "대량 메일 발송 시 기관별 맞춤 정보 자동 반영 기능",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "UTM 정보 유지 여부"
+          ],
+          "exact_quote": "대량 메일 발송 시 기관별 맞춤 정보 자동 반영 기능",
+          "start_char": 867,
+          "end_char": 896
+        }
+      ],
+      "dedupe_key": "action_item:11f6e342910eeb5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅-영업 협업: 콘텐츠와 콜드메일 결합, 성과 추적·분석",
+      "normalized": {
+        "text": "마케팅-영업 협업: 콘텐츠와 콜드메일 결합, 성과 추적·분석",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "랜딩페이지/원페이저 제작 패키지 제공"
+          ],
+          "exact_quote": "마케팅-영업 협업: 콘텐츠와 콜드메일 결합, 성과 추적·분석",
+          "start_char": 1211,
+          "end_char": 1244
+        }
+      ],
+      "dedupe_key": "collaboration_need:14bb1dec8b362325",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "그런데 BIZ와 연동이 실제로 가능할 지는 확인해봐야 할 문제",
+      "normalized": {
+        "text": "그런데 BIZ와 연동이 실제로 가능할 지는 확인해봐야 할 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "@김우진(Woojin Andy Kim)"
+          ],
+          "exact_quote": "그런데 BIZ와 연동이 실제로 가능할 지는 확인해봐야 할 문제",
+          "start_char": 1348,
+          "end_char": 1382
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e618713572ce965a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "@김우진(Woojin Andy Kim)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1412,
+          "end_char": 1415
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

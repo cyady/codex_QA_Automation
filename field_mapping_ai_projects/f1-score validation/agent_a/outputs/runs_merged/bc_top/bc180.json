@@ -1,0 +1,235 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W180",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 영업팀장 김한규입니다.오늘 귀한 시간 함께 주셔서 감사합니다.오늘 미팅에서 논의된 핵심 내용과 향후 일정을 정리해 메일로 공유드립니다.1/ 현황 진단",
+      "normalized": {
+        "text": "리캐치 영업팀장 김한규입니다.오늘 귀한 시간 함께 주셔서 감사합니다.오늘 미팅에서 논의된 핵심 내용과 향후 일정을 정리해 메일로 공유드립니다.1/ 현황 진단",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 영업팀장 김한규입니다.오늘 귀한 시간 함께 주셔서 감사합니다.오늘 미팅에서 논의된 핵심 내용과 향후 일정을 정리해 메일로 공유드립니다.1/ 현황 진단",
+          "start_char": 69,
+          "end_char": 156
+        }
+      ],
+      "dedupe_key": "collaboration_need:1dd82782a24a5388",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 69,
+          "end_char": 72
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "웹사이트: 도메인 점수(33점)는 준수하나, SEO 전략 부재로 검색 유입이 없습니다,. 개발팀 의존적인 구조로 마케팅팀의 대응 또한 느린 상태입니다.",
+      "normalized": {
+        "text": "웹사이트: 도메인 점수(33점)는 준수하나, SEO 전략 부재로 검색 유입이 없습니다,. 개발팀 의존적인 구조로 마케팅팀의 대응 또한 느린 상태입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "웹사이트: 도메인 점수(33점)는 준수하나, SEO 전략 부재로 검색 유입이 없습니다,. 개발팀 의존적인 구조로 마케팅팀의 대응 또한 느린 상태입니다.",
+          "start_char": 162,
+          "end_char": 246
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c8291a440a601cc2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 187,
+          "end_char": 190
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 개편: 단순 디자인이 아닌 '고객 DB 확보'에 최적화된 노코드 사이트로 구축이 필요합니다(Framer 추천)",
+      "normalized": {
+        "text": "웹사이트 개편: 단순 디자인이 아닌 '고객 DB 확보'에 최적화된 노코드 사이트로 구축이 필요합니다(Framer 추천)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "웹사이트 개편: 단순 디자인이 아닌 '고객 DB 확보'에 최적화된 노코드 사이트로 구축이 필요합니다(Framer 추천)",
+          "start_char": 329,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "action_item:3f5c4ffd0b957664",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입: 나이스신용평가, 리멤버 연동 등을 통한 데이터 자동화로 마케팅/영업팀의 부담을 최소화하고 임원진을 위한 성과 보고를 실시간 대시보드로 시각화할 수 있습니다.",
+      "normalized": {
+        "text": "CRM 도입: 나이스신용평가, 리멤버 연동 등을 통한 데이터 자동화로 마케팅/영업팀의 부담을 최소화하고 임원진을 위한 성과 보고를 실시간 대시보드로 시각화할 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "CRM 도입: 나이스신용평가, 리멤버 연동 등을 통한 데이터 자동화로 마케팅/영업팀의 부담을 최소화하고 임원진을 위한 성과 보고를 실시간 대시보드로 시각화할 수 있습니다.",
+          "start_char": 399,
+          "end_char": 494
+        }
+      ],
+      "dedupe_key": "collaboration_need:04df5ca7642fdb72",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "2주",
+          "start_char": 588,
+          "end_char": 590
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자료 검토 후 1월 초 내부 보고 시 활용 부탁드립니다.",
+      "normalized": {
+        "text": "자료 검토 후 1월 초 내부 보고 시 활용 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "자료 검토 후 1월 초 내부 보고 시 활용 부탁드립니다.",
+          "start_char": 607,
+          "end_char": 638
+        }
+      ],
+      "dedupe_key": "action_item:02f2a4ac078928d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 초",
+      "normalized": {
+        "month": 1,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "1월 초",
+          "start_char": 615,
+          "end_char": 619
+        }
+      ],
+      "dedupe_key": "timeline:a6ac4146640de15b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "50.96",
+      "normalized": {
+        "year": 2050,
+        "month": 96,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "감사합니다!김한규 배상"
+          ],
+          "exact_quote": "50.96",
+          "start_char": 775,
+          "end_char": 780
+        }
+      ],
+      "dedupe_key": "timeline:d4ce6464b82897a1",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

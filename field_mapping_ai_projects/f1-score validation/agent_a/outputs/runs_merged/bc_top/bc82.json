@@ -1,0 +1,149 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W82",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "어제 전달 드린 성과보고 자료는 잘 조회해보셨을까요?미팅에서 나눈 대화를 바탕으로, 귀사의 성공적인 B2B 콘텐츠 마케팅 전략에 기여할 수 있는 추가 아이디어가 떠올라 메일 드립니다.",
+      "normalized": {
+        "text": "어제 전달 드린 성과보고 자료는 잘 조회해보셨을까요?미팅에서 나눈 대화를 바탕으로, 귀사의 성공적인 B2B 콘텐츠 마케팅 전략에 기여할 수 있는 추가 아이디어가 떠올라 메일 드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "어제 전달 드린 성과보고 자료는 잘 조회해보셨을까요?미팅에서 나눈 대화를 바탕으로, 귀사의 성공적인 B2B 콘텐츠 마케팅 전략에 기여할 수 있는 추가 아이디어가 떠올라 메일 드립니다.",
+          "start_char": 223,
+          "end_char": 325
+        }
+      ],
+      "dedupe_key": "collaboration_need:c3f7968ac071bf68",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 41,
+          "end_char": 47
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@growth",
+          "start_char": 136,
+          "end_char": 143
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 22,
+          "end_char": 27
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 211,
+          "end_char": 214
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 722,
+          "end_char": 725
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 801,
+          "end_char": 804
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 831,
+          "end_char": 834
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 844,
+          "end_char": 847
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

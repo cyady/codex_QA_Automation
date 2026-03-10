@@ -1,0 +1,179 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W328",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온라인 미팅 수립 예정이며, 확정되면 AE @김한규(Lucky) 님 배정드리겠습니다.",
+      "normalized": {
+        "text": "온라인 미팅 수립 예정이며, 확정되면 AE @김한규(Lucky) 님 배정드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "온라인 미팅 수립 예정이며, 확정되면 AE @김한규(Lucky) 님 배정드리겠습니다.",
+          "start_char": 38,
+          "end_char": 85
+        }
+      ],
+      "dedupe_key": "action_item:35ace197a43ca542",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 62,
+          "end_char": 66
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-> 리캐치에 특수 기능을 덧붙이는 형태가 아닌, 고객사 시스템에 리캐치 기능을 덧붙이는 형태는 매력적일지 판단이 어려워서 \"일단 데모로 리캐치의 전반적인 기능을 확인해보시고, 정말 리캐치로 구현이 어려울 것 같은지, 어렵다면 앞으로 어떻게 협업할 수 있을지 알아보자\"고 말씀드렸습니다",
+      "normalized": {
+        "text": "-> 리캐치에 특수 기능을 덧붙이는 형태가 아닌, 고객사 시스템에 리캐치 기능을 덧붙이는 형태는 매력적일지 판단이 어려워서 \"일단 데모로 리캐치의 전반적인 기능을 확인해보시고, 정말 리캐치로 구현이 어려울 것 같은지, 어렵다면 앞으로 어떻게 협업할 수 있을지 알아보자\"고 말씀드렸습니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "-> 리캐치에 특수 기능을 덧붙이는 형태가 아닌, 고객사 시스템에 리캐치 기능을 덧붙이는 형태는 매력적일지 판단이 어려워서 \"일단 데모로 리캐치의 전반적인 기능을 확인해보시고, 정말 리캐치로 구현이 어려울 것 같은지, 어렵다면 앞으로 어떻게 협업할 수 있을지 알아보자\"고 말씀드렸습니다",
+          "start_char": 204,
+          "end_char": 363
+        }
+      ],
+      "dedupe_key": "risk_or_concern:be4aa84dc0724351",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 207,
+          "end_char": 210
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 241,
+          "end_char": 244
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 281,
+          "end_char": 284
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 306,
+          "end_char": 309
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

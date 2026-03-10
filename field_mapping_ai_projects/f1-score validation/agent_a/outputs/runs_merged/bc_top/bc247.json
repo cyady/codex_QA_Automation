@@ -1,0 +1,620 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W247",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 28,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 13,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 29,
+          "end_char": 32
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "마케팅팀/박미정 팀장님"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 173,
+          "end_char": 176
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 470,
+          "end_char": 473
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 563,
+          "end_char": 566
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 615,
+          "end_char": 618
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 689,
+          "end_char": 692
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 924,
+          "end_char": 927
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1138,
+          "end_char": 1141
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1315,
+          "end_char": 1318
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 37,
+          "end_char": 40
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 684,
+          "end_char": 687
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 739,
+          "end_char": 742
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 769,
+          "end_char": 772
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 893,
+          "end_char": 896
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1331,
+          "end_char": 1334
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "세미나 참석 신청해주셨는데 팀장님이라 ICP에 맞지 않아 초청 불가. 대신 니즈 파악하고 미팅 연결하려고 SDR콜 진행해봄.",
+      "normalized": {
+        "text": "세미나 참석 신청해주셨는데 팀장님이라 ICP에 맞지 않아 초청 불가. 대신 니즈 파악하고 미팅 연결하려고 SDR콜 진행해봄.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "마케팅팀/박미정 팀장님"
+          ],
+          "exact_quote": "세미나 참석 신청해주셨는데 팀장님이라 ICP에 맞지 않아 초청 불가. 대신 니즈 파악하고 미팅 연결하려고 SDR콜 진행해봄.",
+          "start_char": 114,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6b86c1b782e0bf21",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 215,
+          "end_char": 218
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 251,
+          "end_char": 254
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 514,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 268,
+          "end_char": 272
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다시 아웃바운드를 체계적으로 키우기 위해 SDR 조직 세팅 검토 중",
+      "normalized": {
+        "text": "다시 아웃바운드를 체계적으로 키우기 위해 SDR 조직 세팅 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "다시 아웃바운드를 체계적으로 키우기 위해 SDR 조직 세팅 검토 중",
+          "start_char": 540,
+          "end_char": 577
+        }
+      ],
+      "dedupe_key": "action_item:7d62d29c53608220",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "외주(대행)도 생각했지만 이래저래 문제점이 많을 것 같아서 시도하진 않음",
+      "normalized": {
+        "text": "외주(대행)도 생각했지만 이래저래 문제점이 많을 것 같아서 시도하진 않음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "외주(대행)도 생각했지만 이래저래 문제점이 많을 것 같아서 시도하진 않음",
+          "start_char": 640,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7c2fe6d8a51d9f75",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3/ 리캐치가 웹사이트나 랜딩페이지를 빠르게 제작하던데 내부 협업 프로세스가 어떻게 되는지",
+      "normalized": {
+        "text": "3/ 리캐치가 웹사이트나 랜딩페이지를 빠르게 제작하던데 내부 협업 프로세스가 어떻게 되는지",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "3/ 리캐치가 웹사이트나 랜딩페이지를 빠르게 제작하던데 내부 협업 프로세스가 어떻게 되는지",
+          "start_char": 766,
+          "end_char": 816
+        }
+      ],
+      "dedupe_key": "collaboration_need:8342fbb02a29e9c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "버즈빌은 인하우스에서 기획만 하고 디자인, 개발은 외주로 진행 + 콘텐츠를 세일즈포스와 여기저기 얽히게 연동시켜 사용 중",
+      "normalized": {
+        "text": "버즈빌은 인하우스에서 기획만 하고 디자인, 개발은 외주로 진행 + 콘텐츠를 세일즈포스와 여기저기 얽히게 연동시켜 사용 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "팀장님이 남겨주신 세미나 신청 사유"
+          ],
+          "exact_quote": "버즈빌은 인하우스에서 기획만 하고 디자인, 개발은 외주로 진행 + 콘텐츠를 세일즈포스와 여기저기 얽히게 연동시켜 사용 중",
+          "start_char": 822,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "action_item:2e7c720163eb7c19",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "@김숙영",
+          "start_char": 1102,
+          "end_char": 1106
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8e7ddd7d7129c976",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 1119,
+          "end_char": 1123
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팀장님은 개인적으로 CRM에 관심 많고 더 잘 될 수 있는 시장이라 보고 계셔서 커피챗 진행하기로 함",
+      "normalized": {
+        "text": "팀장님은 개인적으로 CRM에 관심 많고 더 잘 될 수 있는 시장이라 보고 계셔서 커피챗 진행하기로 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "팀장님은 개인적으로 CRM에 관심 많고 더 잘 될 수 있는 시장이라 보고 계셔서 커피챗 진행하기로 함",
+          "start_char": 1195,
+          "end_char": 1251
+        }
+      ],
+      "dedupe_key": "action_item:259addb5596b18ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "11월 중순에 쿠팡으로 이직 예정이셔서 10월 말~11월 초에 커피챗 희망하심",
+      "normalized": {
+        "text": "11월 중순에 쿠팡으로 이직 예정이셔서 10월 말~11월 초에 커피챗 희망하심",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "11월 중순에 쿠팡으로 이직 예정이셔서 10월 말~11월 초에 커피챗 희망하심",
+          "start_char": 1359,
+          "end_char": 1402
+        }
+      ],
+      "dedupe_key": "collaboration_need:543342b7cca98d8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 중순",
+      "normalized": {
+        "month": 11,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "11월 중순",
+          "start_char": 1359,
+          "end_char": 1365
+        }
+      ],
+      "dedupe_key": "timeline:d2d4d98d832d2f59",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 말",
+      "normalized": {
+        "month": 10,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "10월 말",
+          "start_char": 1381,
+          "end_char": 1386
+        }
+      ],
+      "dedupe_key": "timeline:ad97181229af6305",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 초",
+      "normalized": {
+        "month": 11,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "너무 비싸고"
+          ],
+          "exact_quote": "11월 초",
+          "start_char": 1387,
+          "end_char": 1392
+        }
+      ],
+      "dedupe_key": "timeline:cf585d9297320d31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "혹시 @product 팀원분들 중에 세일즈포스 엄청 잘 쓰고 계신 분과 커피챗 희망하시는 분 계실까요?!",
+      "normalized": {
+        "text": "혹시 @product 팀원분들 중에 세일즈포스 엄청 잘 쓰고 계신 분과 커피챗 희망하시는 분 계실까요?!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "쿠팡에서도 세일즈포스를 쓰다고 함"
+          ],
+          "exact_quote": "혹시 @product 팀원분들 중에 세일즈포스 엄청 잘 쓰고 계신 분과 커피챗 희망하시는 분 계실까요?!",
+          "start_char": 1428,
+          "end_char": 1486
+        }
+      ],
+      "dedupe_key": "collaboration_need:16b1d26892733076",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@product",
+      "normalized": {
+        "name": "product"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "쿠팡에서도 세일즈포스를 쓰다고 함"
+          ],
+          "exact_quote": "@product",
+          "start_char": 1431,
+          "end_char": 1439
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:1e9f454213b4355e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt도",
+      "normalized": {
+        "name": "mkt도"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "쿠팡에서도 세일즈포스를 쓰다고 함"
+          ],
+          "exact_quote": "@mkt도",
+          "start_char": 1495,
+          "end_char": 1500
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6fd2255d0787cdad",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

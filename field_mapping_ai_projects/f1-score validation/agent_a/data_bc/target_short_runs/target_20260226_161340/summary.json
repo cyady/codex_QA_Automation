@@ -1,0 +1,106 @@
+[
+  {
+    "case_id": "G5656-01",
+    "target": "5656",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "G5656-02",
+    "target": "5656",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "G5656-03",
+    "target": "5656",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "P5657-01",
+    "target": "5657",
+    "status": 201,
+    "fields": [
+      "5375"
+    ],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "P5657-02",
+    "target": "5657",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "P5657-03",
+    "target": "5657",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "C6908-01",
+    "target": "6908",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "C6908-02",
+    "target": "6908",
+    "status": 201,
+    "fields": [
+      "5361",
+      "5373"
+    ],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  },
+  {
+    "case_id": "C6908-03",
+    "target": "6908",
+    "status": 201,
+    "fields": [],
+    "hit": {
+      "5656": false,
+      "5657": false,
+      "6908": false
+    }
+  }
+]

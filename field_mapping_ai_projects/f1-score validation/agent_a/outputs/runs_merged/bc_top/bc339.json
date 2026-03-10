@@ -1,0 +1,126 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W339",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.10",
+      "normalized": {
+        "year": 2011,
+        "month": 10,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "11.10",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:2fc2e6117588fb36",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "06.96",
+      "normalized": {
+        "year": 2006,
+        "month": 96,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "06.96",
+          "start_char": 103,
+          "end_char": 108
+        }
+      ],
+      "dedupe_key": "timeline:9d1a1029ff7d723b",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어3] 디퍼런트밀리언즈 1차 미팅 퀵 공유 cc @sales결론",
+      "normalized": {
+        "text": "[티어3] 디퍼런트밀리언즈 1차 미팅 퀵 공유 cc @sales결론",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[티어3] 디퍼런트밀리언즈 1차 미팅 퀵 공유 cc @sales결론",
+          "start_char": 132,
+          "end_char": 169
+        }
+      ],
+      "dedupe_key": "collaboration_need:039303f05c6e96f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales결론",
+      "normalized": {
+        "name": "sales결론"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales결론",
+          "start_char": 161,
+          "end_char": 169
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:085825d8febc453c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "2순위 : 크로스보더를 희망하는 브랜드사 모집",
+      "normalized": {
+        "text": "2순위 : 크로스보더를 희망하는 브랜드사 모집",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "CRM"
+          ],
+          "exact_quote": "2순위 : 크로스보더를 희망하는 브랜드사 모집",
+          "start_char": 380,
+          "end_char": 405
+        }
+      ],
+      "dedupe_key": "collaboration_need:62f753489517f0fa",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

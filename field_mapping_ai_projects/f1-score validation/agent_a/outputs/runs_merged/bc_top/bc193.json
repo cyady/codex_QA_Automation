@@ -1,0 +1,103 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W193",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 35,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 20,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1월 중 비즈니스(B2B) 전용 랜딩 페이지 오픈 예정이며, 이를 통한 신규 리드 유입 및 영업 프로세스 세팅 필요한 상황",
+      "normalized": {
+        "text": "1월 중 비즈니스(B2B) 전용 랜딩 페이지 오픈 예정이며, 이를 통한 신규 리드 유입 및 영업 프로세스 세팅 필요한 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "1월 중 비즈니스(B2B) 전용 랜딩 페이지 오픈 예정이며, 이를 통한 신규 리드 유입 및 영업 프로세스 세팅 필요한 상황",
+          "start_char": 108,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "action_item:ed84818c0578daa2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "신규 구축하는 B2B 페이지 내에서 고객이 문의 후 대기하는 것이 아니라, 즉시 미팅을 예약할 수 있는 '폼/리드라우터 기능' 도입이 최우선 니즈",
+      "normalized": {
+        "text": "신규 구축하는 B2B 페이지 내에서 고객이 문의 후 대기하는 것이 아니라, 즉시 미팅을 예약할 수 있는 '폼/리드라우터 기능' 도입이 최우선 니즈",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "신규 구축하는 B2B 페이지 내에서 고객이 문의 후 대기하는 것이 아니라, 즉시 미팅을 예약할 수 있는 '폼/리드라우터 기능' 도입이 최우선 니즈",
+          "start_char": 331,
+          "end_char": 412
+        }
+      ],
+      "dedupe_key": "collaboration_need:5f0f67d64ff53530",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

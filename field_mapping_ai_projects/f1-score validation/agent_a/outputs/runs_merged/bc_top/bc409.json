@@ -1,0 +1,416 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W409",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "타겟팅 명확화: 쏘카 측은 원하는 기업 규모와 타겟 기업 리스트가 명확하며, 불필요한 작은 기업의 리드는 필요 없다고 밝혔습니다.",
+      "normalized": {
+        "text": "타겟팅 명확화: 쏘카 측은 원하는 기업 규모와 타겟 기업 리스트가 명확하며, 불필요한 작은 기업의 리드는 필요 없다고 밝혔습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "타겟팅 명확화: 쏘카 측은 원하는 기업 규모와 타겟 기업 리스트가 명확하며, 불필요한 작은 기업의 리드는 필요 없다고 밝혔습니다.",
+          "start_char": 157,
+          "end_char": 229
+        }
+      ],
+      "dedupe_key": "action_item:de3226e36ef9feb3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "ABM 우회 전략: 리멤버는 유저 이탈 우려나 개인 정보 이슈 때문에 DB를 직접 판매하지 않으므로, 대신 좋은 콘텐츠(리드 마그넷)를 만들어 타겟에게 확실하게 노출시키고 그들이 자발적으로 정보를 제출하도록 유도하는 ABM 전략을 사용합니다. 이를 통해 명함 정보 기반으로 정밀하게 타겟하여 의사 결정권자 비율이 높은 리드를 확보할 수 있습니다.",
+      "normalized": {
+        "text": "ABM 우회 전략: 리멤버는 유저 이탈 우려나 개인 정보 이슈 때문에 DB를 직접 판매하지 않으므로, 대신 좋은 콘텐츠(리드 마그넷)를 만들어 타겟에게 확실하게 노출시키고 그들이 자발적으로 정보를 제출하도록 유도하는 ABM 전략을 사용합니다. 이를 통해 명함 정보 기반으로 정밀하게 타겟하여 의사 결정권자 비율이 높은 리드를 확보할 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM 우회 전략: 리멤버는 유저 이탈 우려나 개인 정보 이슈 때문에 DB를 직접 판매하지 않으므로, 대신 좋은 콘텐츠(리드 마그넷)를 만들어 타겟에게 확실하게 노출시키고 그들이 자발적으로 정보를 제출하도록 유도하는 ABM 전략을 사용합니다. 이를 통해 명함 정보 기반으로 정밀하게 타겟하여 의사 결정권자 비율이 높은 리드를 확보할 수 있습니다.",
+          "start_char": 233,
+          "end_char": 426
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3cb7b7f358a4c6ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 233,
+          "end_char": 236
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 354,
+          "end_char": 357
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 438,
+          "end_char": 441
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 554,
+          "end_char": 557
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 665,
+          "end_char": 668
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 799,
+          "end_char": 802
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 931,
+          "end_char": 934
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 948,
+          "end_char": 951
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 1958,
+          "end_char": 1961
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 1988,
+          "end_char": 1991
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 2208,
+          "end_char": 2211
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3일",
+      "normalized": {
+        "value": 3.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "3일",
+          "start_char": 881,
+          "end_char": 883
+        }
+      ],
+      "dedupe_key": "duration:14f2464143f2dd06",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "2주",
+          "start_char": 902,
+          "end_char": 904
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "40~50%",
+      "normalized": {
+        "min": 0.4,
+        "max": 0.5,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "40~50%",
+          "start_char": 1085,
+          "end_char": 1091
+        }
+      ],
+      "dedupe_key": "match_rate:481314d1362a6147",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 1534,
+          "end_char": 1537
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 1573,
+          "end_char": 1576
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 프로젝트 및 협업 방식",
+      "normalized": {
+        "text": "4. 프로젝트 및 협업 방식",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "4. 프로젝트 및 협업 방식",
+          "start_char": 1847,
+          "end_char": 1862
+        }
+      ],
+      "dedupe_key": "collaboration_need:42fac9106fcd5f13",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "패키지 구성 및 비용: 리멤버 협업 패키지는 리드 마그넷/랜딩 페이지 제작, 푸시/문자 발송(리멤버 회원 문자 발송이 FC보다 열람률이 좋음), 이메일 시퀀스, SDR 콜 대행 등으로 구성되며, SNI 코퍼레이션은 SDR 콜까지 포함하는 패키지를 진행했습니다. 비용은 보통 3개월 프로젝트 기준으로 6천만 원에서 1억 원대로 구성됩니다.",
+      "normalized": {
+        "text": "패키지 구성 및 비용: 리멤버 협업 패키지는 리드 마그넷/랜딩 페이지 제작, 푸시/문자 발송(리멤버 회원 문자 발송이 FC보다 열람률이 좋음), 이메일 시퀀스, SDR 콜 대행 등으로 구성되며, SNI 코퍼레이션은 SDR 콜까지 포함하는 패키지를 진행했습니다. 비용은 보통 3개월 프로젝트 기준으로 6천만 원에서 1억 원대로 구성됩니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "패키지 구성 및 비용: 리멤버 협업 패키지는 리드 마그넷/랜딩 페이지 제작, 푸시/문자 발송(리멤버 회원 문자 발송이 FC보다 열람률이 좋음), 이메일 시퀀스, SDR 콜 대행 등으로 구성되며, SNI 코퍼레이션은 SDR 콜까지 포함하는 패키지를 진행했습니다. 비용은 보통 3개월 프로젝트 기준으로 6천만 원에서 1억 원대로 구성됩니다.",
+          "start_char": 1868,
+          "end_char": 2056
+        }
+      ],
+      "dedupe_key": "action_item:6a46af0f76fd3673",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "6천만 원",
+      "normalized": {
+        "value": 60000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "6천만 원",
+          "start_char": 2035,
+          "end_char": 2040
+        }
+      ],
+      "dedupe_key": "budget:442a9f3972fa6560",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "1억 원",
+          "start_char": 2043,
+          "end_char": 2047
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 2021,
+          "end_char": 2024
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "목표 합의 vs. 보장: 프로젝트 진행 전 모수를 조회하여 대략적인 리드 수 및 미팅 수 목표를 합의할 수 있지만, 이는 마케팅 캠페인이므로 숫자를 개런티(보장)하지는 않습니다.",
+      "normalized": {
+        "text": "목표 합의 vs. 보장: 프로젝트 진행 전 모수를 조회하여 대략적인 리드 수 및 미팅 수 목표를 합의할 수 있지만, 이는 마케팅 캠페인이므로 숫자를 개런티(보장)하지는 않습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "목표 합의 vs. 보장: 프로젝트 진행 전 모수를 조회하여 대략적인 리드 수 및 미팅 수 목표를 합의할 수 있지만, 이는 마케팅 캠페인이므로 숫자를 개런티(보장)하지는 않습니다.",
+          "start_char": 2060,
+          "end_char": 2159
+        }
+      ],
+      "dedupe_key": "action_item:8a6ad24ff3ce87e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "조직적 고민 (쏘카): 쏘카의 경우 리드 마그넷 확보 이후 미팅을 주선하는 중간 SDR 역할이 부재하므로, 이를 컨설팅 팀에 넘길 때 어떤 기준으로 요청해야 할지에 대한 조직 구조 및 싱크 맞추기 고민이 필요합니다.",
+      "normalized": {
+        "text": "조직적 고민 (쏘카): 쏘카의 경우 리드 마그넷 확보 이후 미팅을 주선하는 중간 SDR 역할이 부재하므로, 이를 컨설팅 팀에 넘길 때 어떤 기준으로 요청해야 할지에 대한 조직 구조 및 싱크 맞추기 고민이 필요합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "조직적 고민 (쏘카): 쏘카의 경우 리드 마그넷 확보 이후 미팅을 주선하는 중간 SDR 역할이 부재하므로, 이를 컨설팅 팀에 넘길 때 어떤 기준으로 요청해야 할지에 대한 조직 구조 및 싱크 맞추기 고민이 필요합니다.",
+          "start_char": 2163,
+          "end_char": 2283
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d7600ecb4d5026e1",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

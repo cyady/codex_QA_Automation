@@ -1,0 +1,192 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W53",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "엘피지오 SAL 확정입니다",
+      "normalized": {
+        "text": "엘피지오 SAL 확정입니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "엘피지오 SAL 확정입니다",
+          "start_char": 0,
+          "end_char": 14
+        }
+      ],
+      "dedupe_key": "action_item:d2303c87ceafa8e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "먼데이닷컴 사용 중인데 챔피언인 김봉주 팀장님이 리캐치 도입 적극 검토 & 내부 설득 중",
+      "normalized": {
+        "text": "먼데이닷컴 사용 중인데 챔피언인 김봉주 팀장님이 리캐치 도입 적극 검토 & 내부 설득 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "먼데이닷컴 사용 중인데 챔피언인 김봉주 팀장님이 리캐치 도입 적극 검토 & 내부 설득 중",
+          "start_char": 73,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "action_item:69188da914076bc6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "23년에 도입 관련 미팅 했지만 먼데이닷컴을 교체할 정도의 임팩트는 없었음. 지금은 기능 많이 생겼으니 교체 검토 원함",
+      "normalized": {
+        "text": "23년에 도입 관련 미팅 했지만 먼데이닷컴을 교체할 정도의 임팩트는 없었음. 지금은 기능 많이 생겼으니 교체 검토 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "23년에 도입 관련 미팅 했지만 먼데이닷컴을 교체할 정도의 임팩트는 없었음. 지금은 기능 많이 생겼으니 교체 검토 원함",
+          "start_char": 123,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "action_item:13b27973ac510336",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자동 미팅 확정 기능(Grace 이메일에 커피챗 링크 있어서 클릭해서 확인해봤는데 본인들에게 필요한 기능이라 하심)",
+      "normalized": {
+        "text": "자동 미팅 확정 기능(Grace 이메일에 커피챗 링크 있어서 클릭해서 확인해봤는데 본인들에게 필요한 기능이라 하심)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "자동 미팅 확정 기능(Grace 이메일에 커피챗 링크 있어서 클릭해서 확인해봤는데 본인들에게 필요한 기능이라 하심)",
+          "start_char": 478,
+          "end_char": 542
+        }
+      ],
+      "dedupe_key": "action_item:45ab9f66964bf1a2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 572,
+          "end_char": 575
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 240,
+          "end_char": 242
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 100,
+          "end_char": 103
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 225,
+          "end_char": 228
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

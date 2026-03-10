@@ -1,0 +1,428 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W211",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객사 상황: 현재 인력 충원이 어려워 내부 인건비 대비 효율적인 외주 비용을 희망함.",
+      "normalized": {
+        "text": "고객사 상황: 현재 인력 충원이 어려워 내부 인건비 대비 효율적인 외주 비용을 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "BANT"
+          ],
+          "exact_quote": "고객사 상황: 현재 인력 충원이 어려워 내부 인건비 대비 효율적인 외주 비용을 희망함.",
+          "start_char": 25,
+          "end_char": 73
+        }
+      ],
+      "dedupe_key": "collaboration_need:3c7b9af3ec9e20de",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사 가용 예산: 월 200~300만 원 수준(3개월 프로젝트 기준 총 600~900만 원)이면 내부 검토가 가능하다고 언급.",
+      "normalized": {
+        "text": "고객사 가용 예산: 월 200~300만 원 수준(3개월 프로젝트 기준 총 600~900만 원)이면 내부 검토가 가능하다고 언급.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "BANT"
+          ],
+          "exact_quote": "고객사 가용 예산: 월 200~300만 원 수준(3개월 프로젝트 기준 총 600~900만 원)이면 내부 검토가 가능하다고 언급.",
+          "start_char": 77,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "action_item:0595111a0f0d00de",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "BANT"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 94,
+          "end_char": 100
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "900만 원",
+      "normalized": {
+        "value": 9000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "BANT"
+          ],
+          "exact_quote": "900만 원",
+          "start_char": 122,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "budget:85fb9eec8a4729b2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "BANT"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 104,
+          "end_char": 107
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 185,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 150만 원",
+      "normalized": {
+        "value": 1500000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "약 150만 원",
+          "start_char": 238,
+          "end_char": 246
+        }
+      ],
+      "dedupe_key": "budget:fbb37118488d3e29",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1건",
+      "normalized": {
+        "value": 1,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "1건",
+          "start_char": 234,
+          "end_char": 236
+        }
+      ],
+      "dedupe_key": "case_metric:14e2654ef6b13deb",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 221,
+          "end_char": 224
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "구체적 요구사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 773,
+          "end_char": 776
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 281,
+          "end_char": 284
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 458,
+          "end_char": 461
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Pain Point"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1097,
+          "end_char": 1100
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치 서비스의 필요성과 전문성에 긍정적이나, 예산 문제로 상부 설득에 부담을 느낌.",
+      "normalized": {
+        "text": "리캐치 서비스의 필요성과 전문성에 긍정적이나, 예산 문제로 상부 설득에 부담을 느낌.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "공급사(리캐치) 단가"
+          ],
+          "exact_quote": "리캐치 서비스의 필요성과 전문성에 긍정적이나, 예산 문제로 상부 설득에 부담을 느낌.",
+          "start_char": 458,
+          "end_char": 505
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ede2bfabf7aa22ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 4개",
+      "normalized": {
+        "value": 4,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "구체적 요구사항"
+          ],
+          "exact_quote": "약 4개",
+          "start_char": 797,
+          "end_char": 801
+        }
+      ],
+      "dedupe_key": "case_metric:7d9a4d357c9daef5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "구체적 요구사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 857,
+          "end_char": 860
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 B2C 도메인(히즈빈스닷컴)은 지수가 높으나 부서 및 R&R 문제로 활용 불가.",
+      "normalized": {
+        "text": "기존 B2C 도메인(히즈빈스닷컴)은 지수가 높으나 부서 및 R&R 문제로 활용 불가.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "Pain Point"
+          ],
+          "exact_quote": "기존 B2C 도메인(히즈빈스닷컴)은 지수가 높으나 부서 및 R&R 문제로 활용 불가.",
+          "start_char": 951,
+          "end_char": 998
+        }
+      ],
+      "dedupe_key": "risk_or_concern:566c3a5cee237b3f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제안 일정: 금주 중 리캐치 측에서 견적과 패키지 내용이 담긴 제안서를 전달하기로 함.",
+      "normalized": {
+        "text": "제안 일정: 금주 중 리캐치 측에서 견적과 패키지 내용이 담긴 제안서를 전달하기로 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Pain Point"
+          ],
+          "exact_quote": "제안 일정: 금주 중 리캐치 측에서 견적과 패키지 내용이 담긴 제안서를 전달하기로 함.",
+          "start_char": 1085,
+          "end_char": 1133
+        }
+      ],
+      "dedupe_key": "collaboration_need:09a36b4ec82cd1b9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "도입 시점: 내년부터 본격적인 콘텐츠 마케팅 실행을 계획하고 있어, 빠른 의사결정이 필요한 시점.",
+      "normalized": {
+        "text": "도입 시점: 내년부터 본격적인 콘텐츠 마케팅 실행을 계획하고 있어, 빠른 의사결정이 필요한 시점.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Pain Point"
+          ],
+          "exact_quote": "도입 시점: 내년부터 본격적인 콘텐츠 마케팅 실행을 계획하고 있어, 빠른 의사결정이 필요한 시점.",
+          "start_char": 1137,
+          "end_char": 1191
+        }
+      ],
+      "dedupe_key": "action_item:30c13d083d4749e6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

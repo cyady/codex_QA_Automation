@@ -1,0 +1,177 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W384",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 10,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 17,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 33,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "계열사에서 HubSpot 사용 중이고 본사는 지금까지 안 쓰다가 이제 슬슬 CRM 도입을 검토 중인 단계",
+      "normalized": {
+        "text": "계열사에서 HubSpot 사용 중이고 본사는 지금까지 안 쓰다가 이제 슬슬 CRM 도입을 검토 중인 단계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "계열사에서 HubSpot 사용 중이고 본사는 지금까지 안 쓰다가 이제 슬슬 CRM 도입을 검토 중인 단계",
+          "start_char": 47,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "action_item:4daea1f225df545e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본사에서는 마케팅팀에서 사용할 CRM을 중심으로 보고 있으며, 영업 파이프라인 관리 기능은 당장은 필요하지 않다고 함",
+      "normalized": {
+        "text": "본사에서는 마케팅팀에서 사용할 CRM을 중심으로 보고 있으며, 영업 파이프라인 관리 기능은 당장은 필요하지 않다고 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "본사에서는 마케팅팀에서 사용할 CRM을 중심으로 보고 있으며, 영업 파이프라인 관리 기능은 당장은 필요하지 않다고 함",
+          "start_char": 115,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "action_item:51774bc3db242a71",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 '담당자'까진 아니고 마케팅팀이 다같이 검토할 예정(애초에 지금 급한 상황이 아니라 담당자가 없는 듯)",
+      "normalized": {
+        "text": "검토 '담당자'까진 아니고 마케팅팀이 다같이 검토할 예정(애초에 지금 급한 상황이 아니라 담당자가 없는 듯)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "마케팅팀/팀원"
+          ],
+          "exact_quote": "검토 '담당자'까진 아니고 마케팅팀이 다같이 검토할 예정(애초에 지금 급한 상황이 아니라 담당자가 없는 듯)",
+          "start_char": 249,
+          "end_char": 309
+        }
+      ],
+      "dedupe_key": "action_item:80c94657ea16e77b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "당장 도입은 아니며, 내년 상반기에 논의하는 것을 목표로 천천히 알아보는 단계",
+      "normalized": {
+        "text": "당장 도입은 아니며, 내년 상반기에 논의하는 것을 목표로 천천히 알아보는 단계",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "T)"
+          ],
+          "exact_quote": "당장 도입은 아니며, 내년 상반기에 논의하는 것을 목표로 천천히 알아보는 단계",
+          "start_char": 319,
+          "end_char": 362
+        }
+      ],
+      "dedupe_key": "collaboration_need:f17f1f470eb3ef14",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W544",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 133,
+          "end_char": 136
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 348,
+          "end_char": 351
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 464,
+          "end_char": 467
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1788,
+          "end_char": 1791
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1937,
+          "end_char": 1940
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **목적**: 드림칩의 영업 효율화 및 재고 관리를 위한 AI CRM 도입 타당성 검토 및 제품 데모",
+      "normalized": {
+        "text": "*   **목적**: 드림칩의 영업 효율화 및 재고 관리를 위한 AI CRM 도입 타당성 검토 및 제품 데모",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **목적**: 드림칩의 영업 효율화 및 재고 관리를 위한 AI CRM 도입 타당성 검토 및 제품 데모",
+          "start_char": 153,
+          "end_char": 213
+        }
+      ],
+      "dedupe_key": "action_item:700ebcda589021f4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **배경**: 드림칩은 작년부터 '영림원 ERP(ACE 모델)'를 도입하여 사용 중이나, 영업 현장의 데이터가 체계적으로 쌓이지 않아 수요 예측 및 재고 관리에 어려움을 겪고 있음. 세미나 이후 AI를 활용한 해결 방안을 모색하고자 리캐치와 미팅을 진행함.",
+      "normalized": {
+        "text": "*   **배경**: 드림칩은 작년부터 '영림원 ERP(ACE 모델)'를 도입하여 사용 중이나, 영업 현장의 데이터가 체계적으로 쌓이지 않아 수요 예측 및 재고 관리에 어려움을 겪고 있음. 세미나 이후 AI를 활용한 해결 방안을 모색하고자 리캐치와 미팅을 진행함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **배경**: 드림칩은 작년부터 '영림원 ERP(ACE 모델)'를 도입하여 사용 중이나, 영업 현장의 데이터가 체계적으로 쌓이지 않아 수요 예측 및 재고 관리에 어려움을 겪고 있음. 세미나 이후 AI를 활용한 해결 방안을 모색하고자 리캐치와 미팅을 진행함.",
+          "start_char": 214,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "action_item:27b728f239b8ff22",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*   **영업 현장의 데이터 공백**: CRM 도입 시 가장 큰 문제점은 필드 영업직원들이 너무 바빠 데이터를 입력하지 않는다는 것.",
+      "normalized": {
+        "text": "*   **영업 현장의 데이터 공백**: CRM 도입 시 가장 큰 문제점은 필드 영업직원들이 너무 바빠 데이터를 입력하지 않는다는 것.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "*   **영업 현장의 데이터 공백**: CRM 도입 시 가장 큰 문제점은 필드 영업직원들이 너무 바빠 데이터를 입력하지 않는다는 것.",
+          "start_char": 378,
+          "end_char": 453
+        }
+      ],
+      "dedupe_key": "risk_or_concern:65e95b2323f2034f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*   **수요 예측의 어려움**: 고객사의 포캐스트(Forecast) 정보가 부정확하거나 없는 경우가 많아, 담당자의 감에 의존해 발주를 넣는 리스크가 존재함.",
+      "normalized": {
+        "text": "*   **수요 예측의 어려움**: 고객사의 포캐스트(Forecast) 정보가 부정확하거나 없는 경우가 많아, 담당자의 감에 의존해 발주를 넣는 리스크가 존재함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "*   **수요 예측의 어려움**: 고객사의 포캐스트(Forecast) 정보가 부정확하거나 없는 경우가 많아, 담당자의 감에 의존해 발주를 넣는 리스크가 존재함.",
+          "start_char": 686,
+          "end_char": 776
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d3bf837ab52c3722",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 50개",
+      "normalized": {
+        "value": 50,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "약 50개",
+          "start_char": 874,
+          "end_char": 879
+        }
+      ],
+      "dedupe_key": "case_metric:e9317414ef1e6ae7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**불용 재고 및 리드타임 관리**: 부품 발주 후 받기까지 2~4개월이 걸리는데, 수요 예측이 빗나갈 경우 재고 부담이 큼.",
+      "normalized": {
+        "text": "**불용 재고 및 리드타임 관리**: 부품 발주 후 받기까지 2~4개월이 걸리는데, 수요 예측이 빗나갈 경우 재고 부담이 큼."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**불용 재고 및 리드타임 관리**: 부품 발주 후 받기까지 2~4개월이 걸리는데, 수요 예측이 빗나갈 경우 재고 부담이 큼.",
+          "start_char": 922,
+          "end_char": 992
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7577e4ee2482c4d1",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 958,
+          "end_char": 961
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*드림칩*: \\\"사람의 판단보다 AI가 판단해서 리스키한 부분을 줄일 수 있을까 하는 의문이 있다.\\\"",
+      "normalized": {
+        "text": "*드림칩*: \\\"사람의 판단보다 AI가 판단해서 리스키한 부분을 줄일 수 있을까 하는 의문이 있다.\\\""
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "*드림칩*: \\\"사람의 판단보다 AI가 판단해서 리스키한 부분을 줄일 수 있을까 하는 의문이 있다.\\\"",
+          "start_char": 1002,
+          "end_char": 1059
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0c251e8f6388eafb",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**데이터 입력의 번거로움**: 영업 담당자들이 주간 보고, 분기 보고 등 내부 보고 자료를 만드느라 정작 중요한 영업 활동에 집중하기 어려움.",
+      "normalized": {
+        "text": "**데이터 입력의 번거로움**: 영업 담당자들이 주간 보고, 분기 보고 등 내부 보고 자료를 만드느라 정작 중요한 영업 활동에 집중하기 어려움."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**데이터 입력의 번거로움**: 영업 담당자들이 주간 보고, 분기 보고 등 내부 보고 자료를 만드느라 정작 중요한 영업 활동에 집중하기 어려움.",
+          "start_char": 1064,
+          "end_char": 1144
+        }
+      ],
+      "dedupe_key": "risk_or_concern:026a00453368a7bd",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*드림칩*: \\\"이미 있는 데이터를 시점에 맞게 짜는 게 귀찮고 시간 소모가 크다. 보고 업무만 없애주셔도 좋을 것 같다.\\\"",
+      "normalized": {
+        "text": "*드림칩*: \\\"이미 있는 데이터를 시점에 맞게 짜는 게 귀찮고 시간 소모가 크다. 보고 업무만 없애주셔도 좋을 것 같다.\\\""
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "*드림칩*: \\\"이미 있는 데이터를 시점에 맞게 짜는 게 귀찮고 시간 소모가 크다. 보고 업무만 없애주셔도 좋을 것 같다.\\\"",
+          "start_char": 1153,
+          "end_char": 1223
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0ddbe8b64bc152fd",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**복잡한 비즈니스 구조**: 벤더(제조사)와 커스터머(고객사) 양쪽을 모두 관리해야 하며, 한 프로젝트에 수많은 부품(BOM)과 스펙이 얽혀 있어 관리가 매우 복잡함.",
+      "normalized": {
+        "text": "**복잡한 비즈니스 구조**: 벤더(제조사)와 커스터머(고객사) 양쪽을 모두 관리해야 하며, 한 프로젝트에 수많은 부품(BOM)과 스펙이 얽혀 있어 관리가 매우 복잡함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**복잡한 비즈니스 구조**: 벤더(제조사)와 커스터머(고객사) 양쪽을 모두 관리해야 하며, 한 프로젝트에 수많은 부품(BOM)과 스펙이 얽혀 있어 관리가 매우 복잡함.",
+          "start_char": 1228,
+          "end_char": 1322
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2ad1957ce7f0e091",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용 (리캐치 AI CRM)"
+          ],
+          "exact_quote": "줌",
+          "start_char": 1535,
+          "end_char": 1536
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함.",
+      "normalized": {
+        "text": "**샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함.",
+          "start_char": 1764,
+          "end_char": 1867
+        }
+      ],
+      "dedupe_key": "action_item:d3a3d43f87324d19",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함.",
+      "normalized": {
+        "text": "*   **샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **샘플 데이터 분석 (POC 진행)**: 리캐치 측에서 드림칩의 실제 샘플 데이터(BOM, 수주 데이터 등)를 받아 AI가 어느 정도 수준까지 분석 및 예측이 가능한지 시연하기로 함.",
+          "start_char": 1760,
+          "end_char": 1867
+        }
+      ],
+      "dedupe_key": "action_item:2cf518f4718b6404",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함.",
+      "normalized": {
+        "text": "**실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함.",
+          "start_char": 1872,
+          "end_char": 1950
+        }
+      ],
+      "dedupe_key": "action_item:77715a418037fbd5",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함.",
+      "normalized": {
+        "text": "*   **실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **실무자 피드백 수집**: 드림칩 팀장들은 실무자들이 느끼는 구체적인 페인 포인트(Pain Point)를 정리하여 리캐치에 공유하기로 함.",
+          "start_char": 1868,
+          "end_char": 1950
+        }
+      ],
+      "dedupe_key": "collaboration_need:63ca5f03f09f0038",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함.",
+      "normalized": {
+        "text": "**추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함.",
+          "start_char": 1955,
+          "end_char": 2046
+        }
+      ],
+      "dedupe_key": "action_item:2a7a6127a9de4920",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함.",
+      "normalized": {
+        "text": "*   **추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **추후 일정**: 샘플 데이터를 바탕으로 한 2차 미팅을 통해 실제 도입 단계(Phase 1: 데이터 축적, Phase 2: AI 예측 고도화)를 논의하기로 함.",
+          "start_char": 1951,
+          "end_char": 2046
+        }
+      ],
+      "dedupe_key": "collaboration_need:80bc17941d5ef606",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요.",
+      "normalized": {
+        "text": "**협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요.",
+          "start_char": 2051,
+          "end_char": 2109
+        }
+      ],
+      "dedupe_key": "action_item:0025884a9bfd9ce6",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요.",
+      "normalized": {
+        "text": "*   **협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **협의 사항**: 영림원 ERP와의 API 연동 비용 및 방식에 대해서는 영림원 측과 추가 확인 필요.",
+          "start_char": 2047,
+          "end_char": 2109
+        }
+      ],
+      "dedupe_key": "action_item:80d4dce0c624049c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

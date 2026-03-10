@@ -1,0 +1,104 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W325",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0106) [핫리드] 서울 IR네트워크 SDR 콜 진행",
+      "normalized": {
+        "text": "0106) [핫리드] 서울 IR네트워크 SDR 콜 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0106) [핫리드] 서울 IR네트워크 SDR 콜 진행",
+          "start_char": 0,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "action_item:a0084f8330c5dc03",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 22,
+          "end_char": 25
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만 당장의 니즈는 없어 보여 파트너십 제안 가능성을 전달 드리며 향후 여의도 방문할 일 있다면 커피타임 요청 드림",
+      "normalized": {
+        "text": "다만 당장의 니즈는 없어 보여 파트너십 제안 가능성을 전달 드리며 향후 여의도 방문할 일 있다면 커피타임 요청 드림",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "핫리드인 만큼, 온도는 나쁘지 않았음"
+          ],
+          "exact_quote": "다만 당장의 니즈는 없어 보여 파트너십 제안 가능성을 전달 드리며 향후 여의도 방문할 일 있다면 커피타임 요청 드림",
+          "start_char": 115,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "action_item:21e7568c8a8cfc51",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "교육 강연, 마케팅 시너지에 전달 드리니 약간의 반응 보이며 명함 전달 요청",
+      "normalized": {
+        "text": "교육 강연, 마케팅 시너지에 전달 드리니 약간의 반응 보이며 명함 전달 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "핫리드인 만큼, 온도는 나쁘지 않았음"
+          ],
+          "exact_quote": "교육 강연, 마케팅 시너지에 전달 드리니 약간의 반응 보이며 명함 전달 요청",
+          "start_char": 185,
+          "end_char": 227
+        }
+      ],
+      "dedupe_key": "action_item:0299f2bd16ae5e52",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

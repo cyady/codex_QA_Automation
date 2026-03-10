@@ -1,0 +1,145 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W344",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "티어2, 잠재매출 2000만원 ~ 3000만원] 녹십자 미팅 결과 공유",
+      "normalized": {
+        "text": "티어2, 잠재매출 2000만원 ~ 3000만원] 녹십자 미팅 결과 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "티어2, 잠재매출 2000만원 ~ 3000만원] 녹십자 미팅 결과 공유",
+          "start_char": 0,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "collaboration_need:47bad9bf3000be53",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2000만원",
+          "start_char": 10,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "패스트트랙측 요청"
+          ],
+          "exact_quote": "2천만원",
+          "start_char": 239,
+          "end_char": 243
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 19,
+          "end_char": 25
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "3천만원",
+          "start_char": 102,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "상황 공유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 297,
+          "end_char": 300
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "상황 공유"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 554,
+          "end_char": 557
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

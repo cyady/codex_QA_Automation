@@ -1,0 +1,345 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W397",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "70명",
+      "normalized": {
+        "value": 70,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "70명",
+          "start_char": 79,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "team_size:8b1294a64cc4d094",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1개",
+      "normalized": {
+        "value": 1,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1개",
+          "start_char": 151,
+          "end_char": 153
+        }
+      ],
+      "dedupe_key": "case_metric:f7506e9ed9e8e729",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 70명",
+      "normalized": {
+        "value": 70,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "약 70명",
+          "start_char": 220,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "people_count:c0c404552572ebf0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 글로벌 진출을 강하게 희망하고 있으며, K뷰티의 글로벌 인기 상승과 함께 해외 시장 확대를 목표로 하고 있음",
+      "normalized": {
+        "text": "- 글로벌 진출을 강하게 희망하고 있으며, K뷰티의 글로벌 인기 상승과 함께 해외 시장 확대를 목표로 하고 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "- 글로벌 진출을 강하게 희망하고 있으며, K뷰티의 글로벌 인기 상승과 함께 해외 시장 확대를 목표로 하고 있음",
+          "start_char": 527,
+          "end_char": 589
+        }
+      ],
+      "dedupe_key": "collaboration_need:e34929716f33ed1d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 해외 대형 뷰티 리테일러나 OTC(Over The Counter) 브랜드들이 주요 타겟 고객이 될 수 있으며, 이들에게 소재를 공급하는 전략을 수립 중임",
+      "normalized": {
+        "text": "- 해외 대형 뷰티 리테일러나 OTC(Over The Counter) 브랜드들이 주요 타겟 고객이 될 수 있으며, 이들에게 소재를 공급하는 전략을 수립 중임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "- 해외 대형 뷰티 리테일러나 OTC(Over The Counter) 브랜드들이 주요 타겟 고객이 될 수 있으며, 이들에게 소재를 공급하는 전략을 수립 중임",
+          "start_char": 802,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "action_item:b718e62fde430b1e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 영어 커뮤니케이션 능력이 제한적이어서, 글로벌 바이어들과의 영어 미팅을 진행하는 데 어려움을 겪을 가능성이 높음",
+      "normalized": {
+        "text": "- 영어 커뮤니케이션 능력이 제한적이어서, 글로벌 바이어들과의 영어 미팅을 진행하는 데 어려움을 겪을 가능성이 높음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "- 영어 커뮤니케이션 능력이 제한적이어서, 글로벌 바이어들과의 영어 미팅을 진행하는 데 어려움을 겪을 가능성이 높음",
+          "start_char": 1026,
+          "end_char": 1090
+        }
+      ],
+      "dedupe_key": "action_item:602cc7b024e44faf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 전시회 참여 외에 글로벌 마케팅 활동으로 퍼포먼스 마케팅을 일부 진행하고 있으나, 이는 B2C 소비재 쪽에서만 활용되고 있음",
+      "normalized": {
+        "text": "- 전시회 참여 외에 글로벌 마케팅 활동으로 퍼포먼스 마케팅을 일부 진행하고 있으나, 이는 B2C 소비재 쪽에서만 활용되고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "- 전시회 참여 외에 글로벌 마케팅 활동으로 퍼포먼스 마케팅을 일부 진행하고 있으나, 이는 B2C 소비재 쪽에서만 활용되고 있음",
+          "start_char": 1300,
+          "end_char": 1371
+        }
+      ],
+      "dedupe_key": "action_item:10a4a57fb1e92e55",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- B2B 마케팅은 특별히 진행하고 있는 활동이 거의 없으며, 주로 직접 대면 미팅을 통한 영업에 의존하고 있음",
+      "normalized": {
+        "text": "- B2B 마케팅은 특별히 진행하고 있는 활동이 거의 없으며, 주로 직접 대면 미팅을 통한 영업에 의존하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "- B2B 마케팅은 특별히 진행하고 있는 활동이 거의 없으며, 주로 직접 대면 미팅을 통한 영업에 의존하고 있음",
+          "start_char": 1373,
+          "end_char": 1435
+        }
+      ],
+      "dedupe_key": "action_item:98b9aeb37210a215",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 콜드메일을 200통 발송해도 응답이 4통 정도만 오는 수준으로, B2B 영업의 어려움을 직접 체감하고 있음",
+      "normalized": {
+        "text": "- 콜드메일을 200통 발송해도 응답이 4통 정도만 오는 수준으로, B2B 영업의 어려움을 직접 체감하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "- 콜드메일을 200통 발송해도 응답이 4통 정도만 오는 수준으로, B2B 영업의 어려움을 직접 체감하고 있음",
+          "start_char": 1562,
+          "end_char": 1623
+        }
+      ],
+      "dedupe_key": "action_item:aefa5944dd562930",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [],
+          "exact_quote": "줌",
+          "start_char": 1726,
+          "end_char": 1727
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 투자 유치는 대표님이 주도적으로 진행했으며, 시리즈A를 성공적으로 마무리한 상태로 자금은 어느 정도 확보되어 있음",
+      "normalized": {
+        "text": "- 투자 유치는 대표님이 주도적으로 진행했으며, 시리즈A를 성공적으로 마무리한 상태로 자금은 어느 정도 확보되어 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "- 투자 유치는 대표님이 주도적으로 진행했으며, 시리즈A를 성공적으로 마무리한 상태로 자금은 어느 정도 확보되어 있음",
+          "start_char": 1766,
+          "end_char": 1831
+        }
+      ],
+      "dedupe_key": "action_item:4edd13fd4989d76f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 영어 카탈로그는 준비되어 있으나, 영어로 진행되는 세일즈 미팅, 프레젠테이션, 협상 등에 대한 준비와 역량이 부족한 상태임",
+      "normalized": {
+        "text": "- 영어 카탈로그는 준비되어 있으나, 영어로 진행되는 세일즈 미팅, 프레젠테이션, 협상 등에 대한 준비와 역량이 부족한 상태임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "- 영어 카탈로그는 준비되어 있으나, 영어로 진행되는 세일즈 미팅, 프레젠테이션, 협상 등에 대한 준비와 역량이 부족한 상태임",
+          "start_char": 1902,
+          "end_char": 1972
+        }
+      ],
+      "dedupe_key": "action_item:69bf91abed0702c8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 글로벌 화장품 브랜드 중 Product Manager, R&D Manager, Innovation Manager 등도 타겟이 될 수 있으며, 신- - 소재 도입을 결정하는 의사결정권자들이 핵심 타겟임",
+      "normalized": {
+        "text": "- 글로벌 화장품 브랜드 중 Product Manager, R&D Manager, Innovation Manager 등도 타겟이 될 수 있으며, 신- - 소재 도입을 결정하는 의사결정권자들이 핵심 타겟임",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [],
+          "exact_quote": "- 글로벌 화장품 브랜드 중 Product Manager, R&D Manager, Innovation Manager 등도 타겟이 될 수 있으며, 신- - 소재 도입을 결정하는 의사결정권자들이 핵심 타겟임",
+          "start_char": 2191,
+          "end_char": 2304
+        }
+      ],
+      "dedupe_key": "collaboration_need:9f8ae4d64429ce52",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 마케팅 자동화, 리드 너처링, 세일즈 프로세스 구축 등 전반적인 B2B 마케팅/세일즈 인프라가 필요한 상황임",
+      "normalized": {
+        "text": "- 마케팅 자동화, 리드 너처링, 세일즈 프로세스 구축 등 전반적인 B2B 마케팅/세일즈 인프라가 필요한 상황임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [],
+          "exact_quote": "- 마케팅 자동화, 리드 너처링, 세일즈 프로세스 구축 등 전반적인 B2B 마케팅/세일즈 인프라가 필요한 상황임",
+          "start_char": 2306,
+          "end_char": 2368
+        }
+      ],
+      "dedupe_key": "action_item:d1d5491240139995",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 영어 세일즈 역량 강화, 글로벌 B2B 마케팅 전략 수립, 리드 관리 시스템 구축 등 다방면의 지원이 시급히 필요한 상태임",
+      "normalized": {
+        "text": "- 영어 세일즈 역량 강화, 글로벌 B2B 마케팅 전략 수립, 리드 관리 시스템 구축 등 다방면의 지원이 시급히 필요한 상태임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [],
+          "exact_quote": "- 영어 세일즈 역량 강화, 글로벌 B2B 마케팅 전략 수립, 리드 관리 시스템 구축 등 다방면의 지원이 시급히 필요한 상태임",
+          "start_char": 2447,
+          "end_char": 2517
+        }
+      ],
+      "dedupe_key": "action_item:e689dfcc1c82de55",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

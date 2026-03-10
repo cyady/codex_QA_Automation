@@ -1,0 +1,332 @@
+{
+  "memo_id": "M-W2",
+  "updated_at": "2026-02-27T05:15:00.135771+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.59) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.67) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.83) - HITL 권장"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+      "normalized": {
+        "text": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+      "start_char": 868,
+      "end_char": 927,
+      "line_no": 11,
+      "line_text": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.26)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+      "normalized": {
+        "text": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+      "start_char": 1218,
+      "end_char": 1291,
+      "line_no": 13,
+      "line_text": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5575",
+          "label": "라이센스 특이사항",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.33)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@안민혁",
+      "start_char": 55,
+      "end_char": 59,
+      "line_no": 1,
+      "line_text": "[Tier4 엠브라운코리아 -잠재매출 약 3300만원] 그로스패키지 견적 및 제안서 발송 완료cc @안민혁 (minhyuk)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 25일",
+      "normalized": {
+        "month": 9,
+        "day": 25
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "9월 25일",
+      "start_char": 128,
+      "end_char": 134,
+      "line_no": 5,
+      "line_text": "지난 9월 25일 미팅에서 귀한 시간을 내어주셔서 진심으로 감사드립니다. 차장님과 담당자님께서 공유해주신 엠브라운코리아의 마케팅 고민에 대해 깊이 이해할 수 있었던 유익한 시간이었습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.25)"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "25일",
+      "start_char": 131,
+      "end_char": 134,
+      "line_no": 5,
+      "line_text": "지난 9월 25일 미팅에서 귀한 시간을 내어주셔서 진심으로 감사드립니다. 차장님과 담당자님께서 공유해주신 엠브라운코리아의 마케팅 고민에 대해 깊이 이해할 수 있었던 유익한 시간이었습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.31)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "3개월",
+      "start_char": 1052,
+      "end_char": 1055,
+      "line_no": 12,
+      "line_text": "더불어, 새롭게 유입될 잠재 고객들을 체계적으로 관리하고 영업 기회로 전환하실 수 있도록 리캐치 CRM 사용 혜택을 제안 드립니다. 제안드린 '블로그 패키지'를 진행하실 경우, 프로젝트 기간에 맞춰 리캐치 CRM 사용권을 3개월간 무료로 제공해 드립니다. 또한 패키지 진행 여부와 관계없이, 지난 워크숍에 참여해 주신 감사의 의미로 리캐치 CRM 1개월 무료 사용권을 별도로 제공해 드리고자 합니다. 잠재고객 획득부터 데이터 기반의 영업 관리까지, 마케팅 활동의 성과를 극대화하는 데 큰 도움이 될 것이라 확신합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "FN",
+      "assigned_field_id": "5368",
+      "assigned_field_label": "✅ 견적 개월 수",
+      "note": "confidence=7/10 | 신규 candidate, 커버 불명확(cov=0.18)으로 HITL //블로그 3개월이라는거 유추 가능 | 수동 확인 반영 + 라이센스 붙이거나 하는건 딜참조 같은게 업데이트 될 때, 다시 생각"
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "1개월",
+      "start_char": 1122,
+      "end_char": 1125,
+      "line_no": 12,
+      "line_text": "더불어, 새롭게 유입될 잠재 고객들을 체계적으로 관리하고 영업 기회로 전환하실 수 있도록 리캐치 CRM 사용 혜택을 제안 드립니다. 제안드린 '블로그 패키지'를 진행하실 경우, 프로젝트 기간에 맞춰 리캐치 CRM 사용권을 3개월간 무료로 제공해 드립니다. 또한 패키지 진행 여부와 관계없이, 지난 워크숍에 참여해 주신 감사의 의미로 리캐치 CRM 1개월 무료 사용권을 별도로 제공해 드리고자 합니다. 잠재고객 획득부터 데이터 기반의 영업 관리까지, 마케팅 활동의 성과를 극대화하는 데 큰 도움이 될 것이라 확신합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=3/10 | 신규 candidate, 커버 불명확(cov=0.04)으로 HITL"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "SEO",
+      "start_char": 558,
+      "end_char": 561,
+      "line_no": 8,
+      "line_text": "이는 잠재 고객이 주로 사용하는 구글을 통해 효과적으로 브랜드를 노출하는 전략입니다. 초기에는 '인블로그'와 같은 독립 CMS(콘텐츠 관리 시스템)를 활용해 SEO(검색엔진 최적화) 자산을 쌓고, 추후 자체 웹사이트를 구축할 경우 유연하게 통합할 수 있는 장기적인 관점의 전략입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.04)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치",
+      "start_char": 108,
+      "end_char": 111,
+      "line_no": 4,
+      "line_text": "안녕하세요. 리캐치 영업팀장 김한규입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.20)"
+    }
+  ]
+}

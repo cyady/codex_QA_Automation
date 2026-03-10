@@ -1,0 +1,388 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W107",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0917) 씨이랩 후속미팅 진행 공유",
+      "normalized": {
+        "text": "0917) 씨이랩 후속미팅 진행 공유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0917) 씨이랩 후속미팅 진행 공유",
+          "start_char": 0,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "action_item:01fbc0ee69a9cc01",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈포스, 세일즈맵 경쟁사 CRM 추가 검토로 도입 결정시점이 딜레이 되었음 최종 도입결정 시점은 10월 말",
+      "normalized": {
+        "text": "세일즈포스, 세일즈맵 경쟁사 CRM 추가 검토로 도입 결정시점이 딜레이 되었음 최종 도입결정 시점은 10월 말",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "세일즈포스, 세일즈맵 경쟁사 CRM 추가 검토로 도입 결정시점이 딜레이 되었음 최종 도입결정 시점은 10월 말",
+          "start_char": 21,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "action_item:28dd9b59124ccfdc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "도입을 검토하는 겸 이우영 의장님은 세일즈 포스를, 내부 영업리더 분은 세일즈맵을 알아보라 지시가 들어옴",
+      "normalized": {
+        "text": "도입을 검토하는 겸 이우영 의장님은 세일즈 포스를, 내부 영업리더 분은 세일즈맵을 알아보라 지시가 들어옴",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "도입을 검토하는 겸 이우영 의장님은 세일즈 포스를, 내부 영업리더 분은 세일즈맵을 알아보라 지시가 들어옴",
+          "start_char": 83,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "action_item:8c639d6a06b4ecc8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "순차적으로 미팅 진행하며 검토할 예정으로 10월 중으로 의사결정 예정",
+      "normalized": {
+        "text": "순차적으로 미팅 진행하며 검토할 예정으로 10월 중으로 의사결정 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "순차적으로 미팅 진행하며 검토할 예정으로 10월 중으로 의사결정 예정",
+          "start_char": 142,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "action_item:b0b55d5fd1924680",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 말",
+      "normalized": {
+        "month": 10,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "10월 말",
+          "start_char": 77,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "timeline:ad97181229af6305",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "액셀로 관리하다 보니, 임원진들이 각 영업사원마다의 수주 현황을 파악하기가 어려워 전문 솔루션을 도입하게 됨",
+      "normalized": {
+        "text": "액셀로 관리하다 보니, 임원진들이 각 영업사원마다의 수주 현황을 파악하기가 어려워 전문 솔루션을 도입하게 됨",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "액셀로 관리하다 보니, 임원진들이 각 영업사원마다의 수주 현황을 파악하기가 어려워 전문 솔루션을 도입하게 됨",
+          "start_char": 348,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e9b0a55dee7e620",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대시보드와 같이 핵심지표는 중요하게 보지 않고, 진행하고 있는 딜 진척상황을 파악하기 위해 딜바이딜로 현황을 체크하고 있음",
+      "normalized": {
+        "text": "대시보드와 같이 핵심지표는 중요하게 보지 않고, 진행하고 있는 딜 진척상황을 파악하기 위해 딜바이딜로 현황을 체크하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "대시보드와 같이 핵심지표는 중요하게 보지 않고, 진행하고 있는 딜 진척상황을 파악하기 위해 딜바이딜로 현황을 체크하고 있음",
+          "start_char": 451,
+          "end_char": 519
+        }
+      ],
+      "dedupe_key": "action_item:ae5cb06e29c7187e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 - 모든 리드 버전으로 현황 공유하시는 것을 추천했지만 가독성이 좋지 않다는 평을 남기며, 오히려 파이프라인 칸반보드 형태에 관심을 주셨음",
+      "normalized": {
+        "text": "리캐치 - 모든 리드 버전으로 현황 공유하시는 것을 추천했지만 가독성이 좋지 않다는 평을 남기며, 오히려 파이프라인 칸반보드 형태에 관심을 주셨음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "리캐치 - 모든 리드 버전으로 현황 공유하시는 것을 추천했지만 가독성이 좋지 않다는 평을 남기며, 오히려 파이프라인 칸반보드 형태에 관심을 주셨음",
+          "start_char": 520,
+          "end_char": 601
+        }
+      ],
+      "dedupe_key": "collaboration_need:a232f56cbba8a8bd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "또한, 임원진분들의 연령층이 50대로 IT 성숙도가 낮아 직접 로그인하여 보시길 희망하지 않음",
+      "normalized": {
+        "text": "또한, 임원진분들의 연령층이 50대로 IT 성숙도가 낮아 직접 로그인하여 보시길 희망하지 않음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "또한, 임원진분들의 연령층이 50대로 IT 성숙도가 낮아 직접 로그인하여 보시길 희망하지 않음",
+          "start_char": 602,
+          "end_char": 654
+        }
+      ],
+      "dedupe_key": "collaboration_need:420bc63bfd1a4dcd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"그래서 영업진행 현황을 스냅샷한 PDF 로 보고 싶어하길 원함",
+      "normalized": {
+        "text": "\"그래서 영업진행 현황을 스냅샷한 PDF 로 보고 싶어하길 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "\"그래서 영업진행 현황을 스냅샷한 PDF 로 보고 싶어하길 원함",
+          "start_char": 655,
+          "end_char": 690
+        }
+      ],
+      "dedupe_key": "action_item:36966c441c4c943d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 520,
+          "end_char": 523
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3/ 경영지원팀과 영업사원은 CRM 툴 도입에 반감이 있음",
+      "normalized": {
+        "text": "3/ 경영지원팀과 영업사원은 CRM 툴 도입에 반감이 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "3/ 경영지원팀과 영업사원은 CRM 툴 도입에 반감이 있음",
+          "start_char": 821,
+          "end_char": 853
+        }
+      ],
+      "dedupe_key": "collaboration_need:3d93e5549f667dd6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 대표님 주도하에 검토하고 있으니 도입은 할거 같다.4/ 많은 기능이 필요 없어 아마도 세일즈 포스는 도입하지 않을 것 같다",
+      "normalized": {
+        "text": "다만, 대표님 주도하에 검토하고 있으니 도입은 할거 같다.4/ 많은 기능이 필요 없어 아마도 세일즈 포스는 도입하지 않을 것 같다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "다만, 대표님 주도하에 검토하고 있으니 도입은 할거 같다.4/ 많은 기능이 필요 없어 아마도 세일즈 포스는 도입하지 않을 것 같다",
+          "start_char": 983,
+          "end_char": 1055
+        }
+      ],
+      "dedupe_key": "action_item:2543cdfb56d41d0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈맵은 아직 미팅 전이라, 보고 판단이 필요함",
+      "normalized": {
+        "text": "세일즈맵은 아직 미팅 전이라, 보고 판단이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "세일즈맵은 아직 미팅 전이라, 보고 판단이 필요함",
+          "start_char": 1056,
+          "end_char": 1083
+        }
+      ],
+      "dedupe_key": "action_item:4a36154fee030cd3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "1명",
+          "start_char": 923,
+          "end_char": 925
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "40개",
+      "normalized": {
+        "value": 40,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "40개",
+          "start_char": 930,
+          "end_char": 933
+        }
+      ],
+      "dedupe_key": "case_metric:a679282511a39944",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

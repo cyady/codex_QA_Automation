@@ -1,0 +1,196 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W197",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Tier3 - 잠재매출 1,500만원] 에스앤엘컴 미팅 내용 퀵 공유",
+      "normalized": {
+        "text": "Tier3 - 잠재매출 1,500만원] 에스앤엘컴 미팅 내용 퀵 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier3 - 잠재매출 1,500만원] 에스앤엘컴 미팅 내용 퀵 공유",
+          "start_char": 0,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "collaboration_need:5a1e28789a8d8228",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 15,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 77,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000개",
+          "start_char": 130,
+          "end_char": 134
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 201,
+          "end_char": 205
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 191,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "본부장님: 지금 CRM 도입도 안했는데 벌써부터 그런 걱정이냐. @김한규(Lucky) 가 CRM은 툴을 쓰는 게 아니라 매출 조직의 문화를 만들어나가는 거라고 하지 않냐. 차근차근 발 맞춰 나가자. 일단 잘 쓰기 위한 노력부터 하고 그런 이야기 해라 (약간 호통)",
+      "normalized": {
+        "text": "본부장님: 지금 CRM 도입도 안했는데 벌써부터 그런 걱정이냐. @김한규(Lucky) 가 CRM은 툴을 쓰는 게 아니라 매출 조직의 문화를 만들어나가는 거라고 하지 않냐. 차근차근 발 맞춰 나가자. 일단 잘 쓰기 위한 노력부터 하고 그런 이야기 해라 (약간 호통)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "본부장님: 지금 CRM 도입도 안했는데 벌써부터 그런 걱정이냐. @김한규(Lucky) 가 CRM은 툴을 쓰는 게 아니라 매출 조직의 문화를 만들어나가는 거라고 하지 않냐. 차근차근 발 맞춰 나가자. 일단 잘 쓰기 위한 노력부터 하고 그런 이야기 해라 (약간 호통)",
+          "start_char": 326,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "collaboration_need:1db4ca410fae67b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 362,
+          "end_char": 366
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 500,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

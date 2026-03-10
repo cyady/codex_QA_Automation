@@ -1,0 +1,363 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W273",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "GS ITM 우지윤 매니저와의 미팅 결과를 바탕으로 핵심 인사이트와 후속 전략을 공유합니다. 단순 문의를 고부가가치 기회로 전환시킨 성공적인 사례입니다.1.  미팅 개요 및 핵심 전환점",
+      "normalized": {
+        "text": "GS ITM 우지윤 매니저와의 미팅 결과를 바탕으로 핵심 인사이트와 후속 전략을 공유합니다. 단순 문의를 고부가가치 기회로 전환시킨 성공적인 사례입니다.1.  미팅 개요 및 핵심 전환점",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "GS ITM 우지윤 매니저와의 미팅 결과를 바탕으로 핵심 인사이트와 후속 전략을 공유합니다. 단순 문의를 고부가가치 기회로 전환시킨 성공적인 사례입니다.1.  미팅 개요 및 핵심 전환점",
+          "start_char": 0,
+          "end_char": 103
+        }
+      ],
+      "dedupe_key": "collaboration_need:36f9451c12254ccd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 17일",
+      "normalized": {
+        "month": 10,
+        "day": 17
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "10월 17일",
+          "start_char": 151,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "timeline:f580cd01bf378202",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "17일",
+      "normalized": {
+        "value": 17.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "17일",
+          "start_char": 155,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "duration:6d9b5f7e32becd20",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 236,
+          "end_char": 239
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 711,
+          "end_char": 714
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 985,
+          "end_char": 988
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1195,
+          "end_char": 1198
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "GS ITM은 현재 다음과 같은 시급한 문제를 겪고 있습니다. 이는 당사 솔루션 및 서비스의 명확한 도입 근거가 됩니다.",
+      "normalized": {
+        "text": "GS ITM은 현재 다음과 같은 시급한 문제를 겪고 있습니다. 이는 당사 솔루션 및 서비스의 명확한 도입 근거가 됩니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "GS ITM은 현재 다음과 같은 시급한 문제를 겪고 있습니다. 이는 당사 솔루션 및 서비스의 명확한 도입 근거가 됩니다.",
+          "start_char": 424,
+          "end_char": 491
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d637ced228f95830",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "비효율적 리드 분배: 웹사이트 문의를 수동으로 검토 후 배정하여, 담당자의 '머릿속 지식'에 과도하게 의존하며 확장성이 낮음.",
+      "normalized": {
+        "text": "비효율적 리드 분배: 웹사이트 문의를 수동으로 검토 후 배정하여, 담당자의 '머릿속 지식'에 과도하게 의존하며 확장성이 낮음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "비효율적 리드 분배: 웹사이트 문의를 수동으로 검토 후 배정하여, 담당자의 '머릿속 지식'에 과도하게 의존하며 확장성이 낮음.",
+          "start_char": 497,
+          "end_char": 567
+        }
+      ],
+      "dedupe_key": "action_item:b458f0e984e2c72d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "수동 데이터 입력: 문의 폼 정보를 영업대표가 시스템에 수기 입력하는 중복 업무와 데이터 정합성 문제.",
+      "normalized": {
+        "text": "수동 데이터 입력: 문의 폼 정보를 영업대표가 시스템에 수기 입력하는 중복 업무와 데이터 정합성 문제.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "수동 데이터 입력: 문의 폼 정보를 영업대표가 시스템에 수기 입력하는 중복 업무와 데이터 정합성 문제.",
+          "start_char": 630,
+          "end_char": 687
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f74a04896efee3f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "콘텐츠 마케팅 정체: 기본적인 기술 SEO 문제(H1 태그 누락)와 실무자 3명이라는 리소스 한계로 체계적 콘텐츠 운영 불가.",
+      "normalized": {
+        "text": "콘텐츠 마케팅 정체: 기본적인 기술 SEO 문제(H1 태그 누락)와 실무자 3명이라는 리소스 한계로 체계적 콘텐츠 운영 불가.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "콘텐츠 마케팅 정체: 기본적인 기술 SEO 문제(H1 태그 누락)와 실무자 3명이라는 리소스 한계로 체계적 콘텐츠 운영 불가.",
+          "start_char": 691,
+          "end_char": 761
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7f37677decec561e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "3명",
+          "start_char": 733,
+          "end_char": 735
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "3명",
+          "start_char": 1239,
+          "end_char": 1241
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "두 핵심 제안 모두에 대해 매우 긍정적인 반응을 얻었으며, CRM 도입과 마케팅 서비스 계약이라는 복수의 기회가 발굴되었습니다.",
+      "normalized": {
+        "text": "두 핵심 제안 모두에 대해 매우 긍정적인 반응을 얻었으며, CRM 도입과 마케팅 서비스 계약이라는 복수의 기회가 발굴되었습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "두 핵심 제안 모두에 대해 매우 긍정적인 반응을 얻었으며, CRM 도입과 마케팅 서비스 계약이라는 복수의 기회가 발굴되었습니다.",
+          "start_char": 782,
+          "end_char": 853
+        }
+      ],
+      "dedupe_key": "collaboration_need:6fd83d0358ae500e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 25일",
+      "normalized": {
+        "month": 10,
+        "day": 25
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "10월 25일",
+          "start_char": 1160,
+          "end_char": 1167
+        }
+      ],
+      "dedupe_key": "timeline:0ef1a700a122d44e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "25일",
+          "start_char": 1164,
+          "end_char": 1167
+        }
+      ],
+      "dedupe_key": "duration:698d4f9a6eb2d4a7",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전략적 접근: 도입 장벽이 낮은 AI 교육 세션이나 콘텐츠 대행을 먼저 진행하여 신뢰를 구축(Foot-in-the-door)하고, 이를 기반으로 re:catch CRM 도입으로 확장하는 전략 추진.",
+      "normalized": {
+        "text": "전략적 접근: 도입 장벽이 낮은 AI 교육 세션이나 콘텐츠 대행을 먼저 진행하여 신뢰를 구축(Foot-in-the-door)하고, 이를 기반으로 re:catch CRM 도입으로 확장하는 전략 추진.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "전략적 접근: 도입 장벽이 낮은 AI 교육 세션이나 콘텐츠 대행을 먼저 진행하여 신뢰를 구축(Foot-in-the-door)하고, 이를 기반으로 re:catch CRM 도입으로 확장하는 전략 추진.",
+          "start_char": 1376,
+          "end_char": 1486
+        }
+      ],
+      "dedupe_key": "action_item:65cf52ed7b64c2e6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다음 주 초까지 종합 제안서 초안을 완성하고, 특히 AI 교육 세션 제안의 차별화 포인트를 강화하는 방향으로 논의를 진행하겠습니다. 궁금한 점이나 추가 의견 있으시면 알려주세요!",
+      "normalized": {
+        "text": "다음 주 초까지 종합 제안서 초안을 완성하고, 특히 AI 교육 세션 제안의 차별화 포인트를 강화하는 방향으로 논의를 진행하겠습니다. 궁금한 점이나 추가 의견 있으시면 알려주세요!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "종합 제안서 작성/발송"
+          ],
+          "exact_quote": "다음 주 초까지 종합 제안서 초안을 완성하고, 특히 AI 교육 세션 제안의 차별화 포인트를 강화하는 방향으로 논의를 진행하겠습니다. 궁금한 점이나 추가 의견 있으시면 알려주세요!",
+          "start_char": 1488,
+          "end_char": 1587
+        }
+      ],
+      "dedupe_key": "action_item:5f7b81fafb176621",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

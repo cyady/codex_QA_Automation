@@ -1,0 +1,252 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W482",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 27,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B 리드 발굴: SEO·AEO 등 어퍼 퍼널(Upper Funnel)을 통한 인바운드 리드 확보 방법",
+      "normalized": {
+        "text": "B2B 리드 발굴: SEO·AEO 등 어퍼 퍼널(Upper Funnel)을 통한 인바운드 리드 확보 방법",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "B2B 리드 발굴: SEO·AEO 등 어퍼 퍼널(Upper Funnel)을 통한 인바운드 리드 확보 방법",
+          "start_char": 196,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "collaboration_need:ed675c22055cdc38",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 207,
+          "end_char": 210
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+      "normalized": {
+        "text": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+          "start_char": 258,
+          "end_char": 332
+        }
+      ],
+      "dedupe_key": "collaboration_need:254b2826d2861c9c",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+      "normalized": {
+        "text": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "시스템 부재 해결: 현재 [리드 스코어링 > 자동화 후속 액션 > 영업 조직 인계] 흐름이 체계화되어 있지 않아, 이를 구축하는 방법",
+          "start_char": 258,
+          "end_char": 332
+        }
+      ],
+      "dedupe_key": "risk_or_concern:91f517dcac7aca46",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "운영 사례: B2B 관점에서의 CDJ(Customer Decision Journey, 고객 구매 여정) 운영 사례",
+      "normalized": {
+        "text": "운영 사례: B2B 관점에서의 CDJ(Customer Decision Journey, 고객 구매 여정) 운영 사례",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "운영 사례: B2B 관점에서의 CDJ(Customer Decision Journey, 고객 구매 여정) 운영 사례",
+          "start_char": 336,
+          "end_char": 399
+        }
+      ],
+      "dedupe_key": "collaboration_need:6917fcc0f06cb193",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "> 전반적으로 저희 세미나에서 하는 이야기들 조금씩 들려드리면 좋을 것 같습니다!",
+      "normalized": {
+        "text": "> 전반적으로 저희 세미나에서 하는 이야기들 조금씩 들려드리면 좋을 것 같습니다!",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[니즈]"
+          ],
+          "exact_quote": "> 전반적으로 저희 세미나에서 하는 이야기들 조금씩 들려드리면 좋을 것 같습니다!",
+          "start_char": 404,
+          "end_char": 449
+        }
+      ],
+      "dedupe_key": "collaboration_need:fcdce77d520d4f82",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 3시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 3,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[미팅 일정]"
+          ],
+          "exact_quote": "오후 3시",
+          "start_char": 474,
+          "end_char": 479
+        }
+      ],
+      "dedupe_key": "timeline:3073e3e6b5fb59db",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 22일",
+      "normalized": {
+        "month": 1,
+        "day": 22
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[미팅 일정]"
+          ],
+          "exact_quote": "1월 22일",
+          "start_char": 464,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "timeline:9598ab8c01503379",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "22일",
+      "normalized": {
+        "value": 22.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[미팅 일정]"
+          ],
+          "exact_quote": "22일",
+          "start_char": 467,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "duration:03a0e1650c09445e",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

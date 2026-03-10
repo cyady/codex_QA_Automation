@@ -1,0 +1,3750 @@
+[
+  {
+    "id": "created_at",
+    "label": "created_at",
+    "type": "date-time",
+    "category": "system",
+    "order": 1,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "created_by",
+    "label": "created_by",
+    "type": "user",
+    "category": "system",
+    "order": 2,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "updated_at",
+    "label": "updated_at",
+    "type": "date-time",
+    "category": "system",
+    "order": 3,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "updated_by",
+    "label": "updated_by",
+    "type": "user",
+    "category": "system",
+    "order": 4,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "utm_source",
+    "label": "utm_source",
+    "type": "text",
+    "category": "system",
+    "order": 5,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "utm_medium",
+    "label": "utm_medium",
+    "type": "text",
+    "category": "system",
+    "order": 6,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "utm_campaign",
+    "label": "utm_campaign",
+    "type": "text",
+    "category": "system",
+    "order": 7,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "utm_content",
+    "label": "utm_content",
+    "type": "text",
+    "category": "system",
+    "order": 8,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "utm_term",
+    "label": "utm_term",
+    "type": "text",
+    "category": "system",
+    "order": 9,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "deal_converted_at",
+    "label": "deal_converted_at",
+    "type": "date-time",
+    "category": "system",
+    "order": 10,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "name",
+    "label": "name",
+    "type": "name",
+    "category": "standard",
+    "order": 1,
+    "required": false,
+    "attributes": null,
+    "refer": "contact"
+  },
+  {
+    "id": "phone_number",
+    "label": "phone_number",
+    "type": "phone-number",
+    "category": "standard",
+    "order": 2,
+    "required": false,
+    "attributes": null,
+    "refer": "contact"
+  },
+  {
+    "id": "email",
+    "label": "email",
+    "type": "email",
+    "category": "standard",
+    "order": 3,
+    "required": false,
+    "attributes": null,
+    "refer": "contact"
+  },
+  {
+    "id": "close_date",
+    "label": "close_date",
+    "type": "date",
+    "category": "standard",
+    "order": 4,
+    "caption": null,
+    "required": false,
+    "description": "딜 Closing 까지의 마감일을 의미합니다. ",
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "contract_amount",
+    "label": "contract_amount",
+    "type": "currency",
+    "category": "standard",
+    "order": 5,
+    "caption": "계산을 위해 MRR과 같은 값을 넣어주세요 \nupsell,downsell의 경우 변동 금액을 넣어주세요",
+    "required": false,
+    "description": "계산을 위해 MRR과 같은 값을 넣어주세요 ",
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "assignee",
+    "label": "assignee",
+    "type": "user",
+    "category": "standard",
+    "order": 6,
+    "caption": null,
+    "required": false,
+    "description": "해당 딜의 AE입니다.",
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "deal_name",
+    "label": "deal_name",
+    "type": "text",
+    "category": "standard",
+    "order": 7,
+    "caption": null,
+    "required": true,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "incoming_source",
+    "label": "incoming_source",
+    "type": "text",
+    "category": "standard",
+    "order": 8,
+    "caption": "자동으로 채워지는 필드",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": null
+  },
+  {
+    "id": "company",
+    "label": "company",
+    "type": "many-to-one",
+    "category": "standard",
+    "order": 9,
+    "required": false,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "company"
+    }
+  },
+  {
+    "id": "1407",
+    "label": "담당 AC",
+    "type": "user",
+    "category": "custom",
+    "order": 17,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1586",
+    "label": "웹사이트",
+    "type": "url",
+    "category": "custom",
+    "order": 18,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1588",
+    "label": "MQL 전환일자",
+    "type": "date",
+    "category": "custom",
+    "order": 20,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1589",
+    "label": "최초 유입 경로",
+    "type": "text",
+    "category": "custom",
+    "order": 21,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1590",
+    "label": "직전 유입 경로",
+    "type": "text",
+    "category": "custom",
+    "order": 22,
+    "caption": "전 MQL CTA",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1591",
+    "label": "첫 세일즈 미팅 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 23,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1593",
+    "label": "✅ MRR",
+    "type": "currency",
+    "category": "custom",
+    "order": 25,
+    "caption": "1. 클로징 전 단계에서는 [총 계약금액/견적개월수]로 계산하여 넣는다.\n2. 클로징 된 이후에는 정확하게 [Amount/결제주기]로 계산하여 넣는다",
+    "required": false,
+    "description": "1. 클로징 전 단계에서는 [총 계약금액/견적개월수]로 계산하여 넣는다. 2. 클로징 된 이후에는 정확하게 [Amount/결제주기]로 계산하여 넣는다",
+    "default_value": 1,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "1595",
+    "label": "분할 납부 주기 (Closing)",
+    "type": "number",
+    "category": "custom",
+    "order": 27,
+    "caption": "- Closing 되면 채우는 필드. \n- n 개월마다 결제되는 것을 의미. 견적 개월수와 다름.\n- 결제주기 =1 이면? 1개월 마다 결제 되는 것 = 매달 결제\n- 결제주기 =3 이면? 3개월마다 결제 되는 것",
+    "required": false,
+    "description": "Closing 되면 채우는 필드. n 개월마다 결제되는 것을 의미. 견적 개월수와 다름.",
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "1596",
+    "label": "대체 결제액 (총 금액)",
+    "type": "currency",
+    "category": "custom",
+    "order": 28,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "1597",
+    "label": "대체 결제 방식",
+    "type": "text",
+    "category": "custom",
+    "order": 29,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1599",
+    "label": "계약 시작 일자 (Closing)",
+    "type": "date",
+    "category": "custom",
+    "order": 31,
+    "caption": "이메일 캠페인 기능을 제공한 경우 제공 일자로 입력합니다\n",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1605",
+    "label": "계약 마감일 (Closing)",
+    "type": "date",
+    "category": "custom",
+    "order": 37,
+    "caption": "계약마감일자는 세금계산서, 일회성 결제 등 특이 건에 한해서 입력(월별 + 카드결제의 경우 입력 X)",
+    "required": false,
+    "description": "계약 기간 중 만료일을 의미합니다. ",
+    "attributes": null
+  },
+  {
+    "id": "1606",
+    "label": "팀 슬러그",
+    "type": "text",
+    "category": "custom",
+    "order": 38,
+    "caption": "팀 슬러그(team slug)는 다른 툴과의 데이터(제품 데이터 등)를 연결해주는 역할을 위한 필드임.",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1607",
+    "label": "결제 수단",
+    "type": "select",
+    "category": "custom",
+    "order": 39,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "세금계산서",
+          "order": 1,
+          "value": "331481c4-7879-444c-975e-082ea3d00acb"
+        },
+        {
+          "label": "StepPay",
+          "order": 2,
+          "value": "93ff9e61-ee32-4956-88ea-948e0e7e463c"
+        },
+        {
+          "label": "현금영수증",
+          "order": 3,
+          "value": "a538c936-fd77-412a-a9c4-0eacbf58d80d"
+        },
+        {
+          "label": "Stripe",
+          "order": 4,
+          "value": "ccb0de5b-13b9-45c7-804c-f59f315004b0"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "1608",
+    "label": "Seat 수",
+    "type": "number",
+    "category": "custom",
+    "order": 40,
+    "caption": "예상치일 경우 보수적으로 기입해주세요. ",
+    "required": false,
+    "description": "프로 플랜이나 커스텀 플랜일 경우 예상되는 시트 수를 입력해주세요. ",
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "1613",
+    "label": "이탈 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 45,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "1614",
+    "label": "Churn 사유(1순위)",
+    "type": "select",
+    "category": "custom",
+    "order": 46,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "컨설팅-컨설팅",
+          "order": 1,
+          "value": "c377ea90-ec98-4e82-8955-56934d811a71"
+        },
+        {
+          "label": "제품-니즈없음",
+          "order": 2,
+          "value": "5f0820af-ca65-4ed1-9983-c7f4623338e8"
+        },
+        {
+          "label": "제품-제품기능",
+          "order": 3,
+          "value": "f301db51-7a68-422d-bf51-9669d74aec81"
+        },
+        {
+          "label": "제품-제품비용",
+          "order": 4,
+          "value": "000615c1-e284-450c-93a8-54a06404d7d5"
+        },
+        {
+          "label": "고객사이슈-홀딩",
+          "order": 5,
+          "value": "3fb22702-3202-4e0c-a0e1-4567e682b526"
+        },
+        {
+          "label": "제품-도입목적달성",
+          "order": 6,
+          "value": "cf7c8025-4b2e-4d1d-a89f-add888d727d8"
+        },
+        {
+          "label": "제품-1개월사용(테스트사용)",
+          "order": 7,
+          "value": "7445eb68-0e18-4908-ad9a-dbed5ea3ac6a"
+        },
+        {
+          "label": "고객사이슈-리드없음",
+          "order": 8,
+          "value": "66b7dc87-c1f3-4a96-bd96-f3812e9bcd78"
+        },
+        {
+          "label": "고객사이슈-매출없음",
+          "order": 9,
+          "value": "f5c70466-2a91-4506-8846-8066a68962f3"
+        },
+        {
+          "label": "고객사이슈-자금이슈",
+          "order": 10,
+          "value": "98cc58a6-67cd-4970-a6e2-273c57561ad8"
+        },
+        {
+          "label": "고객사이슈-엑싯",
+          "order": 11,
+          "value": "6109a1db-2e4f-48cd-bff4-7ff10defe16f"
+        },
+        {
+          "label": "고객사이슈-폐업",
+          "order": 12,
+          "value": "881339d6-68df-4f64-a75e-02ed2e3de6fc"
+        },
+        {
+          "label": "고객사이슈-담당자변경",
+          "order": 13,
+          "value": "76c22d30-42ee-4ec3-95fb-5f7f9257b432"
+        },
+        {
+          "label": "고객사이슈-기타",
+          "order": 14,
+          "value": "5203285b-77ae-4f75-b4fb-29f6d7810e2e"
+        },
+        {
+          "label": "비즈니스이슈-관계기반도입",
+          "order": 15,
+          "value": "e1339cfb-4fe1-4c1c-b928-3737df6747c1"
+        },
+        {
+          "label": "기타-계약종료",
+          "order": 16,
+          "value": "76be2d35-06f2-457f-96fc-400414b57688"
+        },
+        {
+          "label": "기타-기타",
+          "order": 17,
+          "value": "90ae1a21-2027-44ea-980d-2f497e5fd036"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "1616",
+    "label": "✔️ Re-visit date",
+    "type": "date",
+    "category": "custom",
+    "order": 48,
+    "caption": "DROP 된 경우, 언제 다시 연락할 것인지 선택해주세요. 없는 경우 공란입니다. ",
+    "required": false,
+    "description": "DROP 된 경우, 언제 다시 연락할 것인지 선택해주세요. 없는 경우 공란입니다. ",
+    "attributes": null
+  },
+  {
+    "id": "1617",
+    "label": "Churn 사유(상세)",
+    "type": "textarea",
+    "category": "custom",
+    "order": 49,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "4346",
+    "label": "Expired 기회",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 57,
+    "caption": "참조 기회입니다",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "deal"
+    }
+  },
+  {
+    "id": "4422",
+    "label": "서비스명",
+    "type": "text",
+    "category": "custom",
+    "order": 73,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": "별도 서비스명이 있을 경우 입력해주세요. ",
+    "attributes": null
+  },
+  {
+    "id": "4598",
+    "label": "1:1 세션 여부 ",
+    "type": "text",
+    "category": "custom",
+    "order": 86,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "4654",
+    "label": "SDR 컨택 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 89,
+    "caption": null,
+    "required": false,
+    "description": "SDR 전화/이메일 등 컨택을 한 날",
+    "attributes": null
+  },
+  {
+    "id": "4814",
+    "label": "이메일 필드 유형 2 ",
+    "type": "email",
+    "category": "custom",
+    "order": 95,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "4835",
+    "label": "MQL-Drop 사유",
+    "type": "select",
+    "category": "custom",
+    "order": 98,
+    "caption": "콜 진행 후, 최종적으로 미팅이 잡히지 않은 이유를 선택해 주세요.",
+    "required": false,
+    "description": "MQL-Drop 사유 (SDR에서 사용)",
+    "default_value": [
+      {
+        "label": "리비짓 필요",
+        "order": 1,
+        "value": "81d497c6-de6e-4882-9b51-3311948fad74"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "리비짓 필요",
+          "order": 1,
+          "value": "81d497c6-de6e-4882-9b51-3311948fad74"
+        },
+        {
+          "label": "니즈 없음",
+          "order": 2,
+          "value": "15e44274-7d68-430b-8dd6-55fc70bf9d13"
+        },
+        {
+          "label": "의결권 없음",
+          "order": 3,
+          "value": "de44d8bd-4ac3-4045-8a70-4642b7f449f7"
+        },
+        {
+          "label": "온도 낮음",
+          "order": 4,
+          "value": "df9e5bd1-157e-44e0-bb2c-59484b985e5d"
+        },
+        {
+          "label": "부재중",
+          "order": 5,
+          "value": "9853cf40-5c93-416f-8414-e08ab9207c3c"
+        },
+        {
+          "label": "기타",
+          "order": 6,
+          "value": "288c3db2-3b4c-461d-b3a5-51f97c923436"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "4985",
+    "label": "직무",
+    "type": "select",
+    "category": "custom",
+    "order": 100,
+    "caption": "직무 단일 선택",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "영업",
+          "order": 1,
+          "value": "c4db43a6-f20c-49f0-a680-7e3956d78685"
+        },
+        {
+          "label": "마케팅",
+          "order": 2,
+          "value": "a43ee693-b2b3-4e67-8777-5495615fe501"
+        },
+        {
+          "label": "대표",
+          "order": 3,
+          "value": "20c8eff7-1aee-4513-8086-33da37a91ea4"
+        },
+        {
+          "label": "사업전략",
+          "order": 4,
+          "value": "aabc5662-9d53-4553-9bff-e2a30bae1364"
+        },
+        {
+          "label": "CS/CX",
+          "order": 5,
+          "value": "01b0433e-df9a-408f-830b-8e731abd1538"
+        },
+        {
+          "label": "기타",
+          "order": 6,
+          "value": "5a266347-5694-4fcd-abef-6b897c3086ed"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "4986",
+    "label": "직책",
+    "type": "select",
+    "category": "custom",
+    "order": 101,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "대표・경영진",
+          "order": 1,
+          "value": "fe489ca1-5829-4b94-af36-56e6605294b4"
+        },
+        {
+          "label": "팀장급 이상",
+          "order": 2,
+          "value": "c9a6bb1e-aea8-4b29-a0e1-425dc8778600"
+        },
+        {
+          "label": "팀원",
+          "order": 3,
+          "value": "c0bddab9-8a9c-487a-9d3e-8c00ae315170"
+        },
+        {
+          "label": "대표",
+          "order": 4,
+          "value": "ff35aa78-aa76-4c9a-bccb-fed3b55e7cb4"
+        },
+        {
+          "label": "경영진",
+          "order": 5,
+          "value": "e737a3b0-d790-4626-8b7d-452fcc3239bd"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "4987",
+    "label": "직원 수",
+    "type": "select",
+    "category": "custom",
+    "order": 102,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "1,001명 이상",
+          "order": 1,
+          "value": "3b815708-da91-4622-88ee-c639f3eee3c6"
+        },
+        {
+          "label": "501-1,000명",
+          "order": 2,
+          "value": "d60bf476-6809-490a-a936-a0831fb10c29"
+        },
+        {
+          "label": "201-500명",
+          "order": 3,
+          "value": "3fc56750-8753-4038-9bba-72c02d3f78f0"
+        },
+        {
+          "label": "51-200명",
+          "order": 4,
+          "value": "a23e5f30-6cf4-41e4-a5cd-6e687673cb4b"
+        },
+        {
+          "label": "11-50명",
+          "order": 5,
+          "value": "72206032-f189-432a-8030-9ae691c74ce1"
+        },
+        {
+          "label": "1-10명",
+          "order": 6,
+          "value": "4e4de315-517d-4ff2-825c-d9ad5ea634b6"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5074",
+    "label": "마케팅 팀 규모",
+    "type": "select",
+    "category": "custom",
+    "order": 109,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "51명 이상",
+          "order": 1,
+          "value": "8d48a97e-5647-42f4-aa77-cc28624f6b4a"
+        },
+        {
+          "label": "11~50명",
+          "order": 2,
+          "value": "b53ea9a8-1896-4a3a-a6b8-2a8b33367a20"
+        },
+        {
+          "label": "6~10명",
+          "order": 3,
+          "value": "ae753957-0f58-4580-baf2-228a1fa8ccba"
+        },
+        {
+          "label": "3~5명",
+          "order": 4,
+          "value": "05e8007b-dccb-4c8c-8182-17e8ca94d4a3"
+        },
+        {
+          "label": "1~2명",
+          "order": 5,
+          "value": "48cada62-a7ca-4177-9c86-fca16d3e6eff"
+        },
+        {
+          "label": "0명 - 별도 마케팅 부서 없음",
+          "order": 6,
+          "value": "1cc7150f-05ad-4b5f-9401-b9e7f30b1ca7"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5075",
+    "label": "세일즈 팀 규모",
+    "type": "select",
+    "category": "custom",
+    "order": 110,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "51명 이상",
+          "order": 1,
+          "value": "8ac85e40-7769-45d0-b456-5c25424ed6ff"
+        },
+        {
+          "label": "11~50명",
+          "order": 2,
+          "value": "21c20b80-e860-4731-b0dd-d1b31fe14e03"
+        },
+        {
+          "label": "6~10명",
+          "order": 3,
+          "value": "8d42c908-1be7-4dab-9751-c9dac06d1014"
+        },
+        {
+          "label": "3~5명",
+          "order": 4,
+          "value": "d797ebd6-a373-4015-b925-f749c09fb7a1"
+        },
+        {
+          "label": "1~2명",
+          "order": 5,
+          "value": "4d8740c3-8728-4f48-abab-92d8d94444ed"
+        },
+        {
+          "label": "0명 - 별도 세일즈 부서 없음",
+          "order": 6,
+          "value": "6beff0fd-d0a8-4f4b-951e-9e29a530a923"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5173",
+    "label": "솔루션 니즈",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 119,
+    "caption": "'어떤 고민을 갖고 계신가요?' 질문에 대한 응답입니다.\n",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "CRM(신규 검토)",
+          "order": 1,
+          "value": "855783fe-94f2-4545-9d90-eb715df570fa"
+        },
+        {
+          "label": "CRM(사용 중)",
+          "order": 2,
+          "value": "a0e711d5-da0f-4e32-a20f-238ba63c142f"
+        },
+        {
+          "label": "웹사이트 구축",
+          "order": 3,
+          "value": "dc9cd766-dc51-4f77-8222-342a4c7067fd"
+        },
+        {
+          "label": "블로그 대행",
+          "order": 4,
+          "value": "c6be5043-6c19-46a3-8842-6e85890ba19a"
+        },
+        {
+          "label": "전략 및 컨설팅",
+          "order": 5,
+          "value": "5052cf1f-f595-4737-86b2-4460d288cb2b"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5178",
+    "label": "Tier",
+    "type": "select",
+    "category": "custom",
+    "order": 120,
+    "caption": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요\n티어1 - 매출 1조 이상\n티어2 - 매출 1000억 이상\n티어3 - 매출 100억 이상 \n티어4 (캐시카우 티어) - 매출 50억 이상",
+    "required": false,
+    "description": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요",
+    "default_value": [
+      {
+        "label": "Non-tier (new) - 10억 미만",
+        "order": 8,
+        "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "Tier1 - 매출 1조 이상",
+          "order": 1,
+          "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+        },
+        {
+          "label": "Tier2 - 매출 1000억 이상",
+          "order": 2,
+          "value": "b73574dd-3563-446b-aecc-4bdd75592c55"
+        },
+        {
+          "label": "Tier3 - 매출 100억 이상",
+          "order": 3,
+          "value": "1a042556-ac0f-4c6f-83d7-24739b5a462f"
+        },
+        {
+          "label": "Tier 4 (캐시카우 티어) - 매출 50억 이상",
+          "order": 4,
+          "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+        },
+        {
+          "label": "Tier 4 (old) - 투자유치 100억 이상",
+          "order": 5,
+          "value": "a5120d6f-b2ea-4071-87b3-92497ba4c4b2"
+        },
+        {
+          "label": "Tier 5 - 10억 이상 ~ 50억 미만",
+          "order": 6,
+          "value": "786693b9-d37a-4f6b-a494-4d8432171052"
+        },
+        {
+          "label": "❌ Non-tier (old) - 50억 미만",
+          "order": 7,
+          "value": "05331e01-2212-4014-a98c-372145ffe10e"
+        },
+        {
+          "label": "Non-tier (new) - 10억 미만",
+          "order": 8,
+          "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5361",
+    "label": "Next Action",
+    "type": "textarea",
+    "category": "custom",
+    "order": 130,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5362",
+    "label": "미팅 참여자",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 131,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "김우진",
+          "order": 1,
+          "value": "28a3bbc3-f880-46af-bada-b9dc618cc20b"
+        },
+        {
+          "label": "강대웅",
+          "order": 2,
+          "value": "c7618ee4-8b3d-4ed1-bb8f-d7a1931ec3b1"
+        },
+        {
+          "label": "김숙영",
+          "order": 3,
+          "value": "d2441e2e-6f66-4752-81dc-2a74d1824185"
+        },
+        {
+          "label": "김한규",
+          "order": 4,
+          "value": "6acdbe78-fbc4-47dd-a920-a6bfce881233"
+        },
+        {
+          "label": "김민재",
+          "order": 5,
+          "value": "c811d9b3-65ae-4c74-bd60-b82d27e1f282"
+        },
+        {
+          "label": "김병권",
+          "order": 6,
+          "value": "93fafe87-d6c5-49d7-bf34-635d3aed6425"
+        },
+        {
+          "label": "박성준",
+          "order": 7,
+          "value": "4af62e74-c356-4daf-ab33-801aefe5913c"
+        },
+        {
+          "label": "여인찬",
+          "order": 8,
+          "value": "fa0c7226-fca2-40e1-ad29-88c8db55cf99"
+        },
+        {
+          "label": "황하운",
+          "order": 9,
+          "value": "ab46df36-f2c3-41ff-94dc-5e0c9e5ff97a"
+        },
+        {
+          "label": "김가은",
+          "order": 10,
+          "value": "a9119009-98d0-41af-93f2-6fb15bc8bf17"
+        },
+        {
+          "label": "그 외",
+          "order": 11,
+          "value": "4b02e191-876f-417a-a02b-19fc4314bf1a"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5363",
+    "label": "마케팅 팀 수",
+    "type": "number",
+    "category": "custom",
+    "order": 132,
+    "caption": "모르면 -1",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "5364",
+    "label": "세일즈 팀 수",
+    "type": "number",
+    "category": "custom",
+    "order": 133,
+    "caption": "모르면 -1",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "5368",
+    "label": "✅ 견적 개월 수",
+    "type": "text",
+    "category": "custom",
+    "order": 137,
+    "caption": "예상 견적 개월수를 기입해주세요. 예상치라면 보수적으로 적어주세요.\nex) 3개월, 1년 등",
+    "required": false,
+    "description": "예상 견적 개월수를 기입해주세요. 예상치라면 보수적으로 적어주세요.",
+    "attributes": null
+  },
+  {
+    "id": "5370",
+    "label": "고객상황",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 139,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "ToFu에 대한 니즈 - 신규로 도입하고자 하는 니즈",
+          "order": 1,
+          "value": "eef10379-8782-45b7-b184-68e21fc97cb1"
+        },
+        {
+          "label": "ToFu에 대한 니즈 - 기존 툴을 대체하고자 하는 니즈 (Tally, Goole폼 등)",
+          "order": 2,
+          "value": "d32d1123-7dcf-467b-9b16-ff59d3142f38"
+        },
+        {
+          "label": "ToFu에 대한 니즈 없음",
+          "order": 3,
+          "value": "b27ceaff-57be-4e9d-8140-a7d4a1eb7910"
+        },
+        {
+          "label": "Bofu에 대한 니즈 - 신규로 도입하고자 하는 니즈 (엑셀, 노션 등 CRM 특화 SaaS 를 사용하지 않는 경우)",
+          "order": 4,
+          "value": "9c869dc7-927a-473a-a44f-bec961b9d13a"
+        },
+        {
+          "label": "Bofu에 대한 니즈 - 타 CRM을 대체하고자 하는 니즈 (Salesforce, Salesmap 등)",
+          "order": 5,
+          "value": "8ed3def3-a8e1-4303-8c6a-119dd638a624"
+        },
+        {
+          "label": "Bofu에 대한 니즈 없음",
+          "order": 6,
+          "value": "51e54dd3-1ea2-4be5-a4e7-bcf8afbf99b8"
+        },
+        {
+          "label": "그로스패키지 (웹사이트)에 대한 니즈",
+          "order": 7,
+          "value": "67c93649-1c47-42e5-bf7a-4fc27da25944"
+        },
+        {
+          "label": "그로스패키지 (블로그)에 대한 니즈",
+          "order": 8,
+          "value": "1e9a919a-6e92-4005-836f-9c3106e11f92"
+        },
+        {
+          "label": "그로스패키지 (세일즈 컨설팅)에 대한 니즈",
+          "order": 9,
+          "value": "b5cc2991-964d-4697-a22b-65ebc5534e9c"
+        },
+        {
+          "label": "네트워크 및 파트너쉽",
+          "order": 10,
+          "value": "e9057f6c-f819-41ba-930e-94f26c51bc88"
+        },
+        {
+          "label": "컨설팅에 대한 니즈 - 투자, 글로벌 등",
+          "order": 11,
+          "value": "c7d78203-5143-49c0-b5ba-5008b495d5e6"
+        },
+        {
+          "label": "그 외",
+          "order": 12,
+          "value": "0ea36206-7a86-490d-973f-60d94b7410b9"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5371",
+    "label": "제품 외 매출 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 140,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5372",
+    "label": "예상 마감 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 141,
+    "caption": "계약 예상 마감 일자",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5373",
+    "label": "담당자 페르소나",
+    "type": "textarea",
+    "category": "custom",
+    "order": 142,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5374",
+    "label": "[B] 예산",
+    "type": "textarea",
+    "category": "custom",
+    "order": 143,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5375",
+    "label": "[A] 의결권자/내부 챔피언 확보 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 144,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5376",
+    "label": "[N] 상황 및 문제",
+    "type": "textarea",
+    "category": "custom",
+    "order": 145,
+    "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5378",
+    "label": "[T] 타임라인",
+    "type": "textarea",
+    "category": "custom",
+    "order": 147,
+    "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5379",
+    "label": "블로커",
+    "type": "textarea",
+    "category": "custom",
+    "order": 148,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5534",
+    "label": "1차 업데이트 완료",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 152,
+    "caption": "세일즈 미팅록 작성 완료시 체크해주세요",
+    "required": false,
+    "description": "세일즈 미팅록 작성 완료시 체크해주세요",
+    "attributes": null
+  },
+  {
+    "id": "5536",
+    "label": "세포 기회 ID",
+    "type": "text",
+    "category": "custom",
+    "order": 153,
+    "caption": "세포 기회 id 를 넣습니다. \nhttps://d2w00000rhwcpeat.my.salesforce.com/visualforce/session?url=https%3A%2F%2Fd2w00000rhwcpeat.lightning.force.com%2Flightning%2Fr%2FReport%2F00OTJ00000N0pyA2AR%2Fview",
+    "required": false,
+    "description": "세포 기회 id 를 넣습니다. ",
+    "attributes": null
+  },
+  {
+    "id": "5556",
+    "label": "고객사 담당자 이름",
+    "type": "text",
+    "category": "custom",
+    "order": 154,
+    "caption": null,
+    "required": false,
+    "description": "고객사의 담당자 이름",
+    "attributes": null
+  },
+  {
+    "id": "5557",
+    "label": "✅ 총 계약 금액",
+    "type": "currency",
+    "category": "custom",
+    "order": 155,
+    "caption": null,
+    "required": false,
+    "description": "총 계약 금액을 적어주세요. ",
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "5563",
+    "label": "참조 필드 테스트",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 158,
+    "caption": null,
+    "required": false,
+    "description": "잘되니?",
+    "default_value": null,
+    "attributes": {
+      "entity_type": "deal"
+    }
+  },
+  {
+    "id": "5572",
+    "label": "챔피언",
+    "type": "text",
+    "category": "custom",
+    "order": 159,
+    "caption": null,
+    "required": false,
+    "description": "해당 고객사의 챔피언을 적어주세요",
+    "attributes": null
+  },
+  {
+    "id": "5573",
+    "label": "의결권자(text)",
+    "type": "text",
+    "category": "custom",
+    "order": 160,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5574",
+    "label": "✔️ 이탈 가능성",
+    "type": "select",
+    "category": "custom",
+    "order": 161,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "재계약확정",
+          "order": 1,
+          "value": "af45d0be-8af8-4708-a75d-6866aa1ceb51"
+        },
+        {
+          "label": "다운확정",
+          "order": 2,
+          "value": "866d5070-0380-4f0e-a755-4901ef2c1343"
+        },
+        {
+          "label": "희망적",
+          "order": 3,
+          "value": "e0118fd6-a5df-4604-88fe-13485179d7ca"
+        },
+        {
+          "label": "미지수",
+          "order": 4,
+          "value": "2a6990d0-e1d0-4a12-b03f-c090ed8a6580"
+        },
+        {
+          "label": "이탈위험(gut shot)",
+          "order": 5,
+          "value": "64022155-42c2-4b4d-a666-65bc731807d1"
+        },
+        {
+          "label": "이탈가능(red flag)",
+          "order": 6,
+          "value": "a403eac7-c95b-46b0-be2c-b600bfcdb5d3"
+        },
+        {
+          "label": "이탈확정",
+          "order": 7,
+          "value": "8a7f460a-5813-4aa4-86c1-171178dcf5c4"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5575",
+    "label": "라이센스 특이사항",
+    "type": "text",
+    "category": "custom",
+    "order": 162,
+    "caption": null,
+    "required": false,
+    "description": "추가 시트, 기간 등을 추가로 제공할 시 여기에 작성 ",
+    "attributes": null
+  },
+  {
+    "id": "5576",
+    "label": "입금 주기 및 특이사항",
+    "type": "text",
+    "category": "custom",
+    "order": 163,
+    "caption": "ex) 50% 선금 지급 후 잔금 납입 ",
+    "required": false,
+    "description": "납입 관련 특이사항",
+    "attributes": null
+  },
+  {
+    "id": "5577",
+    "label": "법인명",
+    "type": "text",
+    "category": "custom",
+    "order": 164,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5578",
+    "label": "Drop 사유 (상세)",
+    "type": "textarea",
+    "category": "custom",
+    "order": 165,
+    "caption": "해당 기회가 Drop 되면 적어주세요",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5579",
+    "label": "Expired/재계약 사유",
+    "type": "select",
+    "category": "custom",
+    "order": 166,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "Upsell",
+          "order": 1,
+          "value": "f936f5b6-aa34-46e1-8dea-21e1fa8fec21"
+        },
+        {
+          "label": "Downsell",
+          "order": 2,
+          "value": "0eac2136-e99c-43fc-b055-c1be6b11d9f7"
+        },
+        {
+          "label": "Change",
+          "order": 3,
+          "value": "393a2963-0b76-4682-b76b-080027ccc442"
+        },
+        {
+          "label": "Winback",
+          "order": 4,
+          "value": "e5001915-d6a3-4b80-94b5-e4f9eb39bd00"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5580",
+    "label": "택한 경쟁사 ",
+    "type": "select",
+    "category": "custom",
+    "order": 167,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "세일즈포스",
+          "order": 1,
+          "value": "efd4809f-bbe1-4ff6-a608-e456507b192e"
+        },
+        {
+          "label": "릴레잇",
+          "order": 2,
+          "value": "2a033caa-6c36-4d81-87ae-c489b7a0ed2c"
+        },
+        {
+          "label": "세일즈맵",
+          "order": 3,
+          "value": "0347fd75-56dd-4d44-aaad-9b352e8f2d5a"
+        },
+        {
+          "label": "핑거세일즈",
+          "order": 4,
+          "value": "ae084165-205d-4a00-b319-0379b3259621"
+        },
+        {
+          "label": "허브스팟",
+          "order": 5,
+          "value": "5d1bb159-b426-4573-811f-6187549f5d70"
+        },
+        {
+          "label": "파이프드라이브",
+          "order": 6,
+          "value": "3babb7fa-37b4-4e45-95e8-1fd9ffd4533a"
+        },
+        {
+          "label": "노션",
+          "order": 7,
+          "value": "735671cd-4b2f-4d74-9bc8-8b6d36538877"
+        },
+        {
+          "label": "구글 시트",
+          "order": 8,
+          "value": "4f6fc536-86a4-4010-9471-d35288cefb49"
+        },
+        {
+          "label": "그 외",
+          "order": 9,
+          "value": "43d1a559-5f04-4fa5-99fe-9b548f2c3d7b"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5581",
+    "label": "Amount (Closing)",
+    "type": "currency",
+    "category": "custom",
+    "order": 168,
+    "caption": "Closing 되면 채우는 필드. 결제주기마다 결제되는 금액",
+    "required": false,
+    "description": "Closing 되면 채우는 필드. 결제주기에 결제되는 금액",
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "5582",
+    "label": "Drop 사유",
+    "type": "select",
+    "category": "custom",
+    "order": 169,
+    "caption": "해당 기회가 Drop 되면 적어주세요",
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "Budget",
+          "order": 1,
+          "value": "cd5670d5-c92d-497d-afd4-7c045e9988f9"
+        },
+        {
+          "label": "Authority",
+          "order": 2,
+          "value": "f553a6f0-5632-4e2f-9a04-cbbbce7b0310"
+        },
+        {
+          "label": "Need",
+          "order": 3,
+          "value": "ceecb61a-4727-426a-bc9a-ced0ad417f03"
+        },
+        {
+          "label": "Timeline",
+          "order": 4,
+          "value": "b7437580-3792-486e-a5e9-5fd0eb1e35fd"
+        },
+        {
+          "label": "Competitor",
+          "order": 5,
+          "value": "4f4cd794-34a5-47d7-97dd-f744d3c5d3ba"
+        },
+        {
+          "label": "Etc.",
+          "order": 6,
+          "value": "0828995d-4fcf-4de3-9aa2-2034100b8e0f"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5583",
+    "label": "제안자",
+    "type": "user",
+    "category": "custom",
+    "order": 170,
+    "caption": "제안서 작업을 하는 사람",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5584",
+    "label": "AC 잠입 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 171,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5585",
+    "label": "잠입 계정",
+    "type": "text",
+    "category": "custom",
+    "order": 172,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5586",
+    "label": "✔️ 제품 사용 의지",
+    "type": "select",
+    "category": "custom",
+    "order": 173,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "사용 X",
+          "order": 1,
+          "value": "dee64fe0-eba3-4e66-80bf-adb265966017"
+        },
+        {
+          "label": "사용 의향",
+          "order": 2,
+          "value": "7efcfd3d-16ac-4d58-877e-0c46a89142a6"
+        },
+        {
+          "label": "반드시 사용",
+          "order": 3,
+          "value": "b0ee1bcb-ea38-4b54-9a9a-6a3c92a81b52"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5648",
+    "label": "세포 계정 ID",
+    "type": "text",
+    "category": "custom",
+    "order": 174,
+    "caption": "세일즈포스 계정의 id 를 넣습니다. (AccountID)\nhttps://d2w00000rhwcpeat.my.salesforce.com/visualforce/session?url=https%3A%2F%2Fd2w00000rhwcpeat.lightning.force.com%2Flightning%2Fr%2FReport%2F00OTJ00000N0pyA2AR%2Fview",
+    "required": false,
+    "description": "세일즈포스 계정의 id 를 넣습니다. ",
+    "attributes": null
+  },
+  {
+    "id": "5657",
+    "label": "결제 상품 (제품)",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 175,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "베이직 (2507) -마케팅 ",
+          "order": 1,
+          "value": "c8da2baf-ef3e-476a-8455-af1e0e17fb50"
+        },
+        {
+          "label": "베이직 (2507) - 세일즈",
+          "order": 2,
+          "value": "338f925d-80eb-4a6a-a910-d77f23fa50c0"
+        },
+        {
+          "label": "스탠다드 (2507) - 마케팅",
+          "order": 3,
+          "value": "4825feeb-bb19-4e1d-8601-bacb1d07175d"
+        },
+        {
+          "label": "스탠다드 (2507) - 세일즈",
+          "order": 4,
+          "value": "40b8e20a-92f8-44b2-9c67-b0b4443152bf"
+        },
+        {
+          "label": "프리미엄 (2507) - 마케팅",
+          "order": 5,
+          "value": "1471d13e-9375-4e74-a12f-2997620d95e5"
+        },
+        {
+          "label": "(미정)",
+          "order": 6,
+          "value": "f31d0bd6-a056-4479-9d2e-688c8e45f9b5"
+        },
+        {
+          "label": "그로스 워크샵 - AIX",
+          "order": 7,
+          "value": "64646366-3a91-407d-ad0b-a588d30f4c51"
+        },
+        {
+          "label": "그로스 워크샵 - 웹사이트",
+          "order": 8,
+          "value": "9764ed03-d39a-4ebd-b5fb-549a988c7e75"
+        },
+        {
+          "label": "프로 플랜 - 워크샵",
+          "order": 9,
+          "value": "d1a4476c-f1cb-48d7-9378-995e5a23e7e8"
+        },
+        {
+          "label": "-------------------------------------------",
+          "order": 10,
+          "value": "7299441c-d036-4db5-a65f-2d0fee6c3ef3"
+        },
+        {
+          "label": "프로 플랜",
+          "order": 11,
+          "value": "892181ee-be97-4fa9-bfca-61f8f6543828"
+        },
+        {
+          "label": "파트너 플랜",
+          "order": 12,
+          "value": "af8b18c8-a751-4fee-8307-f16b1bb5a9d4"
+        },
+        {
+          "label": "커스텀 플랜",
+          "order": 13,
+          "value": "f58df6a2-3a5c-4cc7-bd27-e1a4e8fbed1a"
+        },
+        {
+          "label": "Outdated",
+          "order": 14,
+          "value": "89d33f55-c40d-4bef-90f1-b9682d5a0b09"
+        },
+        {
+          "label": "스타터 플랜",
+          "order": 15,
+          "value": "5805b8c7-3636-4bac-908c-e01b9c610a38"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5656",
+    "label": "결제 상품 (그로스패키지)",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 175,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "웹사이트",
+          "order": 1,
+          "value": "e73d2a70-c360-42a6-944b-897aa2244535"
+        },
+        {
+          "label": "블로그",
+          "order": 2,
+          "value": "65403ef8-d662-4847-abe4-6e0f46270d43"
+        },
+        {
+          "label": "ABM",
+          "order": 3,
+          "value": "903cacc1-9e37-4d0b-8d6c-2acd90ce686e"
+        },
+        {
+          "label": "(미정)",
+          "order": 4,
+          "value": "5ad20670-2f8f-42b5-8400-5048842351dd"
+        },
+        {
+          "label": "백서",
+          "order": 5,
+          "value": "253b4e97-1b19-4728-abb3-bfaf3cee754e"
+        },
+        {
+          "label": "세일즈",
+          "order": 6,
+          "value": "4e1af48b-f874-4f5a-be00-56eeb1c99623"
+        },
+        {
+          "label": "마케팅",
+          "order": 7,
+          "value": "102eef66-b522-4100-bd55-76d1b2f8a34d"
+        },
+        {
+          "label": "GTM 패키지",
+          "order": 8,
+          "value": "b2d496a2-99e2-448e-b60f-4a9be8ce974b"
+        },
+        {
+          "label": "파트너 플랜",
+          "order": 9,
+          "value": "96907d04-2c0f-4c41-acfb-fbac1a20f20f"
+        },
+        {
+          "label": "글로벌 GTM 패키지 (Attract)",
+          "order": 10,
+          "value": "4708b13b-a068-49a2-88bb-2a9c3156100b"
+        },
+        {
+          "label": "글로벌 GTM 패키지 (Convert)",
+          "order": 11,
+          "value": "d0610293-7ee1-4e86-8fd4-5257605e8279"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5665",
+    "label": "클라우드바우처 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 176,
+    "caption": "2025 클라우드바우처 문의를 넣으신 분인가요?",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5690",
+    "label": "전 기회",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 177,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "deal"
+    }
+  },
+  {
+    "id": "5773",
+    "label": "Commit Level",
+    "type": "number",
+    "category": "custom",
+    "order": 178,
+    "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+    "required": false,
+    "description": "0,1,2,3,4로 써주세요",
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "5775",
+    "label": "Blocker (Sniper)",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5776",
+    "label": "User",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5777",
+    "label": "Leader (Financial decision maker)",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5778",
+    "label": "Leader (Managerial decision maker)",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5779",
+    "label": "D (Driver = Champion)",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5774",
+    "label": "Blocker (Gatekeeper)",
+    "type": "text",
+    "category": "custom",
+    "order": 179,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5789",
+    "label": "업셀포텐셜",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 180,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5798",
+    "label": "전화통화 차수",
+    "type": "number",
+    "category": "custom",
+    "order": 182,
+    "caption": null,
+    "required": false,
+    "description": "전화통화의 누적 차수를 입력하세요",
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "5805",
+    "label": "환불 금액",
+    "type": "currency",
+    "category": "custom",
+    "order": 183,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "5808",
+    "label": "고객관리 기록",
+    "type": "textarea",
+    "category": "custom",
+    "order": 184,
+    "caption": "cx 고객관리 연락기록을 적재합니다.",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5886",
+    "label": "[최초 유입 경로] 대분류",
+    "type": "select",
+    "category": "custom",
+    "order": 185,
+    "caption": "최초 유입 경로 대분류 필드",
+    "required": false,
+    "description": "최초 유입 경로를 드롭다운으로 분류하는 필드",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "reportbook",
+          "order": 1,
+          "value": "f82367dc-caa2-4383-a681-a50663785b07"
+        },
+        {
+          "label": "brochure",
+          "order": 2,
+          "value": "0370c2be-9e9f-4f17-bdfc-6dfa1fa6c72c"
+        },
+        {
+          "label": "diagnostic",
+          "order": 3,
+          "value": "329c9013-ad05-427c-865b-695f228a7e58"
+        },
+        {
+          "label": "template",
+          "order": 4,
+          "value": "c493a696-15b0-4f7a-a3e6-ea456555fd77"
+        },
+        {
+          "label": "organic",
+          "order": 5,
+          "value": "d863a2a4-97f5-4c30-ac85-5310bbd50942"
+        },
+        {
+          "label": "private internal event",
+          "order": 6,
+          "value": "eeeb60f6-9887-45d2-baf4-ff4f2ed98344"
+        },
+        {
+          "label": "private external event",
+          "order": 7,
+          "value": "e6247088-42d8-4516-bc34-24675e2b2e42"
+        },
+        {
+          "label": "bulk event",
+          "order": 8,
+          "value": "321aa935-25e6-4ba8-b96d-defc93c6d3fa"
+        },
+        {
+          "label": "partnership",
+          "order": 9,
+          "value": "93341a5c-9d3f-4305-8546-5fe7a47f36b8"
+        },
+        {
+          "label": "referral",
+          "order": 10,
+          "value": "d63d21c1-fa88-4677-9796-43d4a87306b2"
+        },
+        {
+          "label": "others",
+          "order": 11,
+          "value": "1374f25f-5416-4942-b732-e8c16f8f2f44"
+        },
+        {
+          "label": "social media",
+          "order": 12,
+          "value": "4d098522-747e-40a6-a0fd-009c548bca2c"
+        },
+        {
+          "label": "voucher",
+          "order": 13,
+          "value": "e418f5a0-f228-4d96-8cb4-698099bec0d7"
+        },
+        {
+          "label": "bulk external event (사용 X)",
+          "order": 14,
+          "value": "7bf2aa3e-226c-4ae8-8a9b-e2762efc9018"
+        },
+        {
+          "label": "bulk internal event (사용 X)",
+          "order": 15,
+          "value": "2c76ebee-e83f-4779-be33-fae3e0916287"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5895",
+    "label": "[직전 유입 경로] 대분류",
+    "type": "select",
+    "category": "custom",
+    "order": 186,
+    "caption": "직전유입경로 대분류",
+    "required": false,
+    "description": "직전유입경로 대분류를 드롭다운으로 구분하는 필드",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "mql signal",
+          "order": 1,
+          "value": "63fe78de-b42c-4e78-be58-0b6f42067901"
+        },
+        {
+          "label": "diagnostic",
+          "order": 2,
+          "value": "07df2456-9d25-4404-a98b-89282e68edfb"
+        },
+        {
+          "label": "self",
+          "order": 3,
+          "value": "e58c7f68-3793-4f64-8525-6b992fea43e3"
+        },
+        {
+          "label": "private internal event",
+          "order": 4,
+          "value": "54d212d4-ec05-4dd8-a6d8-3acdf4b0ef0c"
+        },
+        {
+          "label": "partnership",
+          "order": 5,
+          "value": "3ef5d456-4114-4312-9078-fe27893c7103"
+        },
+        {
+          "label": "ads",
+          "order": 6,
+          "value": "b1e28110-42f6-4047-9fad-a0074f7cd37e"
+        },
+        {
+          "label": "referral",
+          "order": 7,
+          "value": "efa6dce8-4e2a-408b-8ba3-855a498c66c5"
+        },
+        {
+          "label": "crosssell",
+          "order": 8,
+          "value": "3984651c-fe33-4473-bbe7-ba777342ea09"
+        },
+        {
+          "label": "others",
+          "order": 9,
+          "value": "0f6506c7-2a98-4f3f-9b2c-8e3d9d9fb370"
+        },
+        {
+          "label": "voucher",
+          "order": 10,
+          "value": "c358f21e-5fa2-4dc4-a5c0-7addbb43e5e3"
+        },
+        {
+          "label": "social media",
+          "order": 11,
+          "value": "4184b51b-ba59-434b-854a-d535e2daea85"
+        },
+        {
+          "label": "email",
+          "order": 12,
+          "value": "b9ab3cf5-085a-458d-ac75-892c9d6d5b2b"
+        },
+        {
+          "label": "sdr (이제 사용X)",
+          "order": 13,
+          "value": "5462cb03-9bee-4de6-baa2-00eb20d0525e"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "5989",
+    "label": "특이 사항",
+    "type": "textarea",
+    "category": "custom",
+    "order": 187,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "5994",
+    "label": "Upsell/Downsell 시작 날짜",
+    "type": "date",
+    "category": "custom",
+    "order": 188,
+    "caption": "Upsell/Downsell 이 된 날짜를 적어주세요. ",
+    "required": false,
+    "description": "Upsell/Downsell 이 된 날짜를 적어주세요. ",
+    "attributes": null
+  },
+  {
+    "id": "6004",
+    "label": "소속 조직의 성격",
+    "type": "select",
+    "category": "custom",
+    "order": 189,
+    "caption": null,
+    "required": false,
+    "description": "현재 소속된 조직의 성격을 묻는 폼 질문과 연동된 필드",
+    "default_value": [
+      {
+        "label": "기타",
+        "order": 1,
+        "value": "600beda5-0153-4b64-8455-0a9feed34446"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "기존 주력 사업을 운영하는 부서",
+          "order": 1,
+          "value": "6ee7d6e1-b8c0-4c1b-91ee-cd219fb7f6c4"
+        },
+        {
+          "label": "조직 내 혁신 또는 신사업 전담 조직 (CVC, TF 등 포함)",
+          "order": 2,
+          "value": "e16ff413-0724-40ac-aad2-f29fd8f36b0b"
+        },
+        {
+          "label": "디지털 전환(DX), IT 고도화 등 기존 사업의 혁신을 담당하는 부서",
+          "order": 3,
+          "value": "9b3529df-67fd-4256-822d-6042939d361b"
+        },
+        {
+          "label": "기타",
+          "order": 4,
+          "value": "600beda5-0153-4b64-8455-0a9feed34446"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6089",
+    "label": "계약서 송부 일자(Nego)",
+    "type": "date",
+    "category": "custom",
+    "order": 190,
+    "caption": "계약서 발송 시 입력, optional ",
+    "required": false,
+    "description": "계약서 발송 시 입력, optional ",
+    "attributes": null
+  },
+  {
+    "id": "6091",
+    "label": "이벤트 참가비 결제 수단",
+    "type": "select",
+    "category": "custom",
+    "order": 191,
+    "caption": null,
+    "required": false,
+    "description": "참가비 결제를 위해 어떤 방식을 선택하였는지 기록",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "Steppay",
+          "order": 1,
+          "value": "bdb9fb6d-0467-478f-8602-c4f6ca336763"
+        },
+        {
+          "label": "세금계산서",
+          "order": 2,
+          "value": "6458ee36-a2c8-4c82-b7eb-7e92df66b003"
+        },
+        {
+          "label": "현금영수증",
+          "order": 3,
+          "value": "ba8f203c-a19b-422c-bc42-81c4e492e3fd"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6118",
+    "label": "도입 의사",
+    "type": "select",
+    "category": "custom",
+    "order": 192,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "검토중",
+          "order": 1,
+          "value": "838cd7e5-90ed-40ea-a04f-2f3834879d43"
+        },
+        {
+          "label": "테스트 중",
+          "order": 2,
+          "value": "650ed387-dcb3-48e7-b2d9-e8e2cb1632ff"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6129",
+    "label": "list 종류_test",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 193,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "sdaf",
+          "order": 1,
+          "value": "d12f8a7e-ad8e-42b9-a158-ea093a87b329"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6133",
+    "label": "세포등록",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 194,
+    "caption": null,
+    "required": false,
+    "description": "세포 등록 여부 체크",
+    "attributes": null
+  },
+  {
+    "id": "6207",
+    "label": "multi",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 195,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "a",
+          "order": 1,
+          "value": "e620f135-55cf-4d92-9fa0-e20f997b6e66"
+        },
+        {
+          "label": "v",
+          "order": 2,
+          "value": "a8475ff1-3e15-4a62-a219-8b356aa71754"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6237",
+    "label": "광고성 정보 수신 동의 여부",
+    "type": "select",
+    "category": "custom",
+    "order": 196,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "동의",
+          "order": 1,
+          "value": "c5723f94-a315-4dd5-ad47-ae26cc26ec2a"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6238",
+    "label": "월별 키어카운트",
+    "type": "select",
+    "category": "custom",
+    "order": 197,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "25년 9월",
+          "order": 1,
+          "value": "36b2fe95-d6e2-494f-80b8-2430cabbf2c7"
+        },
+        {
+          "label": "25년 10월",
+          "order": 2,
+          "value": "c9c565d7-0e28-40db-a91b-95296e97a6b0"
+        },
+        {
+          "label": "25년 11월",
+          "order": 3,
+          "value": "c4ef413c-8bcf-41e4-8d4b-fe204d942be0"
+        },
+        {
+          "label": "25년 12월",
+          "order": 4,
+          "value": "fd93a90d-b3cf-43b8-8b11-f1b7c1e76563"
+        },
+        {
+          "label": "26년 1월",
+          "order": 5,
+          "value": "d9a98dc0-237e-4498-8e34-84c01f2634bb"
+        },
+        {
+          "label": "26년 2월",
+          "order": 6,
+          "value": "55071438-6660-4b54-8374-17001c41f234"
+        },
+        {
+          "label": "26년 3월",
+          "order": 7,
+          "value": "50ff7c28-e368-4c5a-9f5a-54cb2a363878"
+        },
+        {
+          "label": "26년 4월",
+          "order": 8,
+          "value": "6818e745-6ced-479d-9bc2-fe7ca124c3dd"
+        },
+        {
+          "label": "26년 5월",
+          "order": 9,
+          "value": "3a2d79b3-166d-408f-bf2a-bd8621ae5f05"
+        },
+        {
+          "label": "26년 6월",
+          "order": 10,
+          "value": "4a574008-1c6e-481c-a0e2-3534bedff93c"
+        },
+        {
+          "label": "26년 7월",
+          "order": 11,
+          "value": "e49b5a72-7763-4cda-91eb-2d3409438b67"
+        },
+        {
+          "label": "26년 8월",
+          "order": 12,
+          "value": "d4f94c12-3a1a-41b9-bb1d-705b310d2019"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6264",
+    "label": "기고객사",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 198,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6281",
+    "label": "총 계약 금액",
+    "type": "currency",
+    "category": "custom",
+    "order": 199,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "6282",
+    "label": "입금액",
+    "type": "currency",
+    "category": "custom",
+    "order": 200,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "6283",
+    "label": "미수금",
+    "type": "currency",
+    "category": "custom",
+    "order": 201,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "6308",
+    "label": "AE 레퍼럴",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 202,
+    "caption": null,
+    "required": false,
+    "description": "AE 꾸치에서 초대드리는 거면 체크, 아니면 공란 > 세미나 모객 경로를 트래킹하기 위해 만들었어요.",
+    "attributes": null
+  },
+  {
+    "id": "6335",
+    "label": "플랜 등록 여부 ",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 203,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6384",
+    "label": "통화",
+    "type": "currency",
+    "category": "custom",
+    "order": 204,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "code": "USD",
+      "precision": 0
+    }
+  },
+  {
+    "id": "6583",
+    "label": "✔️ 이메일캠페인기능",
+    "type": "select",
+    "category": "custom",
+    "order": 207,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": [
+      {
+        "label": "-",
+        "order": 6,
+        "value": "7df87b0e-0694-409c-8b0d-b920e9a16f38"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "O - 라이센스",
+          "order": 1,
+          "value": "3204d1f8-e901-4500-8682-0bb1016b1566"
+        },
+        {
+          "label": "O - 플랜",
+          "order": 2,
+          "value": "e936a84b-d923-46da-9712-fba9f177f75b"
+        },
+        {
+          "label": "종료",
+          "order": 3,
+          "value": "17f7a25e-0914-44c4-8689-98128961e8cd"
+        },
+        {
+          "label": "후보군",
+          "order": 4,
+          "value": "a1036c4f-4e87-40ff-a9ec-68ed800c634e"
+        },
+        {
+          "label": "X - 논의 사항이 없는 경우",
+          "order": 5,
+          "value": "9838c29a-c3b8-4dc8-9c59-e2da6ab89190"
+        },
+        {
+          "label": "-",
+          "order": 6,
+          "value": "7df87b0e-0694-409c-8b0d-b920e9a16f38"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6599",
+    "label": "OPP",
+    "type": "text",
+    "category": "custom",
+    "order": 208,
+    "caption": null,
+    "required": false,
+    "description": "개발 인력 원가 계산 시 회계팀에서 참고할 사항",
+    "default_value": "OPP-",
+    "attributes": null
+  },
+  {
+    "id": "6639",
+    "label": "이메일 수신 상태",
+    "type": "text",
+    "category": "custom",
+    "order": 209,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6641",
+    "label": "세부 직책",
+    "type": "text",
+    "category": "custom",
+    "order": 211,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6642",
+    "label": "CRM 도입 희망 시기",
+    "type": "date",
+    "category": "custom",
+    "order": 212,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6643",
+    "label": "커피챗 관심 여부",
+    "type": "text",
+    "category": "custom",
+    "order": 213,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6644",
+    "label": "관리자 여부",
+    "type": "text",
+    "category": "custom",
+    "order": 214,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6645",
+    "label": "추가 경로",
+    "type": "text",
+    "category": "custom",
+    "order": 215,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6646",
+    "label": "그룹",
+    "type": "text",
+    "category": "custom",
+    "order": 216,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6647",
+    "label": "구독일",
+    "type": "text",
+    "category": "custom",
+    "order": 217,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6648",
+    "label": "마지막 업데이트일",
+    "type": "text",
+    "category": "custom",
+    "order": 218,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6649",
+    "label": "구독 해지 사유",
+    "type": "text",
+    "category": "custom",
+    "order": 219,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6655",
+    "label": "온보딩 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 220,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6657",
+    "label": "웹 사이트",
+    "type": "text",
+    "category": "custom",
+    "order": 221,
+    "caption": null,
+    "required": false,
+    "description": "기존 웹사이트 필드는 폼에서 연동이 안되는 url 유형이라, 텍스트 유형으로 새로운 필드값을 생성했습니다",
+    "attributes": null
+  },
+  {
+    "id": "6670",
+    "label": "최초 온보딩 일자",
+    "type": "date",
+    "category": "custom",
+    "order": 222,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6677",
+    "label": "뉴스레터 구독자(드롭다운)",
+    "type": "select",
+    "category": "custom",
+    "order": 224,
+    "caption": null,
+    "required": false,
+    "description": "뉴스레터 구독 여부를 선택합니다.",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "구독 중",
+          "order": 1,
+          "value": "d2a5da5a-8461-4efd-953d-f67ee1636811"
+        },
+        {
+          "label": "구독 X",
+          "order": 2,
+          "value": "8d4bf2aa-7a21-4a29-aac1-d55eb36924c4"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6695",
+    "label": "N군",
+    "type": "select",
+    "category": "custom",
+    "order": 225,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "0군",
+          "order": 1,
+          "value": "feaf2cda-ca5d-4035-9720-aa15e7d0d3a6"
+        },
+        {
+          "label": "1군",
+          "order": 2,
+          "value": "cd62b0de-8901-4b4f-b0be-a0433e37e062"
+        },
+        {
+          "label": "2군",
+          "order": 3,
+          "value": "d2319f5c-fa3d-4742-9a9a-73dd634fb8ec"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6843",
+    "label": "Next Action(스탠드업)",
+    "type": "text",
+    "category": "custom",
+    "order": 226,
+    "caption": null,
+    "required": false,
+    "description": "세일즈 데일리 스탠드업에서 논의하며 나온 Next Action을 적는 란입니다.",
+    "attributes": null
+  },
+  {
+    "id": "6855",
+    "label": "연락처참조필드",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 227,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "contact"
+    }
+  },
+  {
+    "id": "6856",
+    "label": "✔️ sales 영업 기회",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 228,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "deal"
+    }
+  },
+  {
+    "id": "6858",
+    "label": "✔️ 의결권자",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 229,
+    "caption": null,
+    "required": false,
+    "description": "연락처를 연결해 주세요.",
+    "default_value": null,
+    "attributes": {
+      "entity_type": "contact"
+    }
+  },
+  {
+    "id": "6863",
+    "label": "✔️리캐치 폼 설치 여부",
+    "type": "text",
+    "category": "custom",
+    "order": 230,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6864",
+    "label": "✔️ new 리캐치 폼 링크 ",
+    "type": "textarea",
+    "category": "custom",
+    "order": 231,
+    "caption": "리캐치 폼을 설치한 링크를 입력합니다 ",
+    "required": false,
+    "description": "리캐치 폼을 설치한 링크를 입력합니다 ",
+    "default_value": "리캐치 폼 설치한 링크를 입력해 주세요 ",
+    "attributes": null
+  },
+  {
+    "id": "6867",
+    "label": "이메일 발송 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 232,
+    "caption": null,
+    "required": false,
+    "description": "SDR이 이메일로도 터치를 했는지 체크해두기 위한 값입니다.",
+    "attributes": null
+  },
+  {
+    "id": "6868",
+    "label": "문자 발송 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 233,
+    "caption": null,
+    "required": false,
+    "description": "SDR이 문자로도 터치를 했는지 체크해두기 위한 값입니다.",
+    "attributes": null
+  },
+  {
+    "id": "6869",
+    "label": "콜 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 234,
+    "caption": null,
+    "required": false,
+    "description": "SDR이 콜로 터치를 했는지 체크해두기 위한 값입니다. 부재중일 경우 체크 x",
+    "attributes": null
+  },
+  {
+    "id": "6896",
+    "label": "[cx] 추가 경로",
+    "type": "select",
+    "category": "custom",
+    "order": 235,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "관리자",
+          "order": 1,
+          "value": "ddd5b432-20b3-42ea-9b2a-7cb3d0b57331"
+        },
+        {
+          "label": "구독자",
+          "order": 2,
+          "value": "ce978c98-c480-4a6e-b7a8-fc7643d5af36"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6897",
+    "label": "[cx] 구독일",
+    "type": "date",
+    "category": "custom",
+    "order": 236,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6898",
+    "label": "[cx] 마지막 업데이트일",
+    "type": "date",
+    "category": "custom",
+    "order": 237,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6900",
+    "label": "개편 시기",
+    "type": "select",
+    "category": "custom",
+    "order": 238,
+    "caption": null,
+    "required": false,
+    "description": "2511 웹사이트 웨비나를 위해 신청 폼에 최근 시기를 포함했습니다.",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "6개월 이내",
+          "order": 1,
+          "value": "2c63a45c-af52-41a7-805b-2233aedef8a8"
+        },
+        {
+          "label": "6개월 ~ 1년 사이",
+          "order": 2,
+          "value": "dd03b7da-7d75-44fc-8288-264c4b4bccca"
+        },
+        {
+          "label": "1년 ~ 2년 사이",
+          "order": 3,
+          "value": "da3e1156-9f8c-42f8-91b8-5757454f0fd8"
+        },
+        {
+          "label": "2년 이상",
+          "order": 4,
+          "value": "cef9b04e-aec4-401b-be28-180ce0cd0f74"
+        },
+        {
+          "label": "개편한 적 없음",
+          "order": 5,
+          "value": "63a84c07-74ad-47ee-90fc-67f0141df972"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6901",
+    "label": "개편 예산",
+    "type": "select",
+    "category": "custom",
+    "order": 239,
+    "caption": null,
+    "required": false,
+    "description": "2511 웹사이트 웨비나를 위해 신청 폼에 개편 예산을 포함했습니다.",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "1천만 원 미만",
+          "order": 1,
+          "value": "28c1f954-f5b5-4958-ba9f-b7216a09c7f8"
+        },
+        {
+          "label": "1천만 원 이상~2천만 원 미만\u001c",
+          "order": 2,
+          "value": "c550ff29-0053-455e-9039-462abe272b2e"
+        },
+        {
+          "label": "2천만 원 이상~3천만 원 미만",
+          "order": 3,
+          "value": "46670882-9f8b-438a-820f-6df11985c8ab"
+        },
+        {
+          "label": "3천만 원 이상~4천만 원 미만",
+          "order": 4,
+          "value": "1b3d024f-c677-4a18-980f-04fe6e0bb3dd"
+        },
+        {
+          "label": "4천만 원 이상~5천만 원 미만",
+          "order": 5,
+          "value": "00143273-eafd-45a7-9861-328f6838d0c0"
+        },
+        {
+          "label": "5천만 원 이상",
+          "order": 6,
+          "value": "4136cdc8-cb7b-4445-bc3c-8fb1a7d5490d"
+        },
+        {
+          "label": "개편 계획 없음",
+          "order": 7,
+          "value": "39bb468a-0ddc-4ecb-8f6b-f9732ea4cd0f"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "6908",
+    "label": "추가 회사/담당자 연락처",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 240,
+    "caption": "기등록된 연락처 외에 추가로 등록해야 하는 담당자 정보가 있다면 입력해 주세요",
+    "required": false,
+    "description": "기등록된 연락처 외에 추가로 등록해야 하는 담당자 정보가 있다면 입력",
+    "default_value": null,
+    "attributes": {
+      "entity_type": "contact"
+    }
+  },
+  {
+    "id": "6921",
+    "label": "이메일 캠페인 시작 ",
+    "type": "date",
+    "category": "custom",
+    "order": 241,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "6922",
+    "label": "이메일 캠페인 마감",
+    "type": "date",
+    "category": "custom",
+    "order": 242,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7011",
+    "label": "test",
+    "type": "select",
+    "category": "custom",
+    "order": 243,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "1",
+          "order": 1,
+          "value": "fc872a69-dae9-446a-958c-d4c3d673a972"
+        },
+        {
+          "label": "2",
+          "order": 2,
+          "value": "3aeace8c-e1b7-4a04-ac6b-a825699e7cfe"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7158",
+    "label": "opp(id)",
+    "type": "text",
+    "category": "custom",
+    "order": 244,
+    "caption": null,
+    "required": false,
+    "description": "oppid를 확인하는 필드필드필드",
+    "default_value": "opp-",
+    "attributes": null
+  },
+  {
+    "id": "7185",
+    "label": "Next Action(stand up)",
+    "type": "textarea",
+    "category": "custom",
+    "order": 245,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7188",
+    "label": "웹사이트 미팅",
+    "type": "select",
+    "category": "custom",
+    "order": 246,
+    "caption": null,
+    "required": false,
+    "description": "25.11.25 웹사이트 웨비나 1:1 미팅 희망",
+    "default_value": [
+      {
+        "label": "예",
+        "order": 1,
+        "value": "518f2cb9-44dc-4e85-b446-d8c23cbaf58a"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "예",
+          "order": 1,
+          "value": "518f2cb9-44dc-4e85-b446-d8c23cbaf58a"
+        },
+        {
+          "label": "아니오",
+          "order": 2,
+          "value": "b8b6711d-829e-4f24-b5f3-337738eb23f2"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7189",
+    "label": "웹사이트 개편 희망 시기",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 247,
+    "caption": null,
+    "required": false,
+    "description": "웹사이트 개편 희망 시기에 대한 필드",
+    "default_value": [
+      {
+        "label": "1개월 이내",
+        "order": 1,
+        "value": "69950963-5823-4c2b-9ff6-5d57028af0aa"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "1개월 이내",
+          "order": 1,
+          "value": "69950963-5823-4c2b-9ff6-5d57028af0aa"
+        },
+        {
+          "label": "1~3개월 ",
+          "order": 2,
+          "value": "25eb5e35-1079-4835-86ff-a1ef8fa2a023"
+        },
+        {
+          "label": "4~6개월",
+          "order": 3,
+          "value": "01ad022c-70d2-43c9-838a-dfa630998729"
+        },
+        {
+          "label": "6개월 이상",
+          "order": 4,
+          "value": "da1dd871-f969-4f20-9986-4344747e637c"
+        },
+        {
+          "label": "개편 계획 없음",
+          "order": 5,
+          "value": "eee53c97-0d09-47a4-8cea-6ce571abbdab"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7190",
+    "label": "웹사이트 개편 예산",
+    "type": "select",
+    "category": "custom",
+    "order": 248,
+    "caption": null,
+    "required": false,
+    "description": "웹사이트 웨비나 퀄리파잉 필드",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "5,000만원 이상",
+          "order": 1,
+          "value": "165e59cb-b807-4165-9994-fe773d5a304c"
+        },
+        {
+          "label": "3,000~5,000만원",
+          "order": 2,
+          "value": "7be125b6-437a-4650-991f-900a4ad15eea"
+        },
+        {
+          "label": "1,000~3,000만원",
+          "order": 3,
+          "value": "5b4043e9-12e9-4f68-8353-4eedc5454f26"
+        },
+        {
+          "label": "500~1,000만원",
+          "order": 4,
+          "value": "7e210fe8-4f34-414b-bf14-d2db649f92c1"
+        },
+        {
+          "label": "개편 계획 없음",
+          "order": 5,
+          "value": "545842ea-a019-4dd5-a77f-d66eda9aaeca"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7278",
+    "label": "아웃바운드 대상",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 249,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7279",
+    "label": "컨택 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 250,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7280",
+    "label": "컨시어지온보딩",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 251,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7305",
+    "label": "Re-visit 상세",
+    "type": "textarea",
+    "category": "custom",
+    "order": 252,
+    "caption": null,
+    "required": false,
+    "description": "어떻게 리비짓 할건지, 어떤 메시지를 던지면 되는지 기억하기 위해 적어두는 칸",
+    "attributes": null
+  },
+  {
+    "id": "7506",
+    "label": "[cx] 릴리즈메일 수신거부 ",
+    "type": "select",
+    "category": "custom",
+    "order": 253,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": [
+      {
+        "label": "구독 중",
+        "order": 1,
+        "value": "91b52084-48b1-44b4-a1b0-1d101b002438"
+      }
+    ],
+    "attributes": {
+      "options": [
+        {
+          "label": "구독 중",
+          "order": 1,
+          "value": "91b52084-48b1-44b4-a1b0-1d101b002438"
+        },
+        {
+          "label": "수신 거부",
+          "order": 2,
+          "value": "cbbbe9aa-8b77-4ced-a552-3ccba16c8bb8"
+        },
+        {
+          "label": "자동 삭제",
+          "order": 3,
+          "value": "29e690d2-401a-4c06-8b11-ec33b093d023"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7507",
+    "label": "SDR 전환 여부",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 254,
+    "caption": null,
+    "required": false,
+    "description": "SAL 확정 과정에서 SDR의 콜 컨택이 있었는지 여부. 마케팅 채널과 별개로 SDR의 전환 기여를 트래킹하기 위해 사용.",
+    "attributes": null
+  },
+  {
+    "id": "7889",
+    "label": "URL",
+    "type": "url",
+    "category": "custom",
+    "order": 255,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7903",
+    "label": "문의카테고리",
+    "type": "select",
+    "category": "custom",
+    "order": 256,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "소프트웨어",
+          "order": 1,
+          "value": "ed96b0e7-6032-41be-9a55-14b037935e1b"
+        },
+        {
+          "label": "기술지원요청",
+          "order": 2,
+          "value": "8e19c3ee-dbaa-4b0e-abbb-d762cdb69fe7"
+        },
+        {
+          "label": "기타",
+          "order": 3,
+          "value": "9da5747c-7570-48a9-9abe-408781fc5570"
+        },
+        {
+          "label": "등등",
+          "order": 4,
+          "value": "c399de07-e0e9-460b-a85a-8f869fa99924"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7973",
+    "label": "L&E ",
+    "type": "select",
+    "category": "custom",
+    "order": 257,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "G->P",
+          "order": 1,
+          "value": "1dfac46e-8c35-4d25-95de-b42ef8763835"
+        },
+        {
+          "label": "P->G",
+          "order": 2,
+          "value": "1c21ea42-a522-4e46-b573-e0a0d1ee3d50"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "7975",
+    "label": "인계 담당자",
+    "type": "user",
+    "category": "custom",
+    "order": 258,
+    "caption": null,
+    "required": false,
+    "description": "딜 인수인계 시 인계받을 담당자",
+    "attributes": null
+  },
+  {
+    "id": "7983",
+    "label": "뷰어 시트 수 ",
+    "type": "text",
+    "category": "custom",
+    "order": 259,
+    "caption": "뷰어용 시트 수 입력 ",
+    "required": false,
+    "description": "뷰어용 시트 수 입력 ",
+    "attributes": null
+  },
+  {
+    "id": "7986",
+    "label": "(cx) 추가/그로스 라이센스 ",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 260,
+    "caption": "데모 제공 등 계약기간과 별도로 라이센스를 추가 제공하거나 그로스패키지 고객에게 라이센스를 제공하는 경우에 체크합니다.",
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7987",
+    "label": "(cx) 추가/그로스 라이센스 제공 시작일",
+    "type": "date",
+    "category": "custom",
+    "order": 261,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7988",
+    "label": "(cx) 추가/그로스 라이센스 제공 마감일",
+    "type": "date",
+    "category": "custom",
+    "order": 262,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7989",
+    "label": "변동 금액",
+    "type": "number",
+    "category": "custom",
+    "order": 263,
+    "caption": "expansion, contraction으로 인한 변동 금액을 계산하여 입력합니다",
+    "required": false,
+    "description": "expansion, contraction으로 인한 변동 금액을 계산하여 입력 ",
+    "default_value": null,
+    "attributes": {
+      "precision": 0
+    }
+  },
+  {
+    "id": "7993",
+    "label": "신청 사유",
+    "type": "textarea",
+    "category": "custom",
+    "order": 264,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "7995",
+    "label": "참석 희망 일정",
+    "type": "select",
+    "category": "custom",
+    "order": 266,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "1차 - 2/5(목)",
+          "order": 1,
+          "value": "4c852502-9c22-4e9f-a156-34b4e9e6474b"
+        },
+        {
+          "label": "2회차 오픈 시 안내 희망",
+          "order": 2,
+          "value": "e81dc9a4-fe48-471b-93e8-9f1abc2e9d10"
+        },
+        {
+          "label": "2차 - 2/10(화)",
+          "order": 3,
+          "value": "ea07d683-09d9-4f16-9332-9b0c1a1a9f19"
+        },
+        {
+          "label": "[마감] 1차 대기 신청",
+          "order": 4,
+          "value": "770b40bc-8791-4117-a21a-9ee0c7455de0"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "8001",
+    "label": "성장 전략",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 267,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "신규 수주",
+          "order": 1,
+          "value": "d97eb4e9-3b9d-4a15-b46a-9e8c55be7442"
+        },
+        {
+          "label": "기고객 관리",
+          "order": 2,
+          "value": "6f8aadc1-51d8-44ab-8a17-22390d47a23f"
+        },
+        {
+          "label": "운영 효율화",
+          "order": 3,
+          "value": "dba3b8bd-ced8-4cbe-935f-5835449b3228"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "8075",
+    "label": "크로스보더 팔로업 담당자",
+    "type": "multi-select",
+    "category": "custom",
+    "order": 268,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "김숙영",
+          "order": 1,
+          "value": "f0b6e761-94c0-4cae-b7cf-9b066ec6ae1e"
+        },
+        {
+          "label": "조민우",
+          "order": 2,
+          "value": "dea9e26b-1620-4438-93c6-b04e7a77cfde"
+        },
+        {
+          "label": "그 외",
+          "order": 3,
+          "value": "67bd2a43-2e68-4d0f-b8c6-fff8da4a0aca"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "8142",
+    "label": "✅ 멀티플 반영 금액",
+    "type": "currency",
+    "category": "custom",
+    "order": 269,
+    "caption": "SaaS MRR 60만원 월간 계약 -> 480만원 입력. GP는 멀티플 미적용 ",
+    "required": false,
+    "description": "SaaS 월간 계약 시 8개월 멀티플, 연간 계약 시 15개월 멀티플을 적용합니다. GP의 경우 멀티플 반영이 없습니다.",
+    "default_value": null,
+    "attributes": {
+      "code": "KRW",
+      "precision": 0
+    }
+  },
+  {
+    "id": "8258",
+    "label": "0211 리캐치 이메일 오픈율 테스트",
+    "type": "text",
+    "category": "custom",
+    "order": 270,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "8282",
+    "label": "(연주)이메일 기능 체크",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 271,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  },
+  {
+    "id": "8356",
+    "label": "딜 참조",
+    "type": "many-to-one",
+    "category": "custom",
+    "order": 272,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "default_value": null,
+    "attributes": {
+      "entity_type": "deal"
+    }
+  },
+  {
+    "id": "8372",
+    "label": "🆕 온보딩 단계",
+    "type": "select",
+    "category": "custom",
+    "order": 273,
+    "caption": "어느 온보딩 단계에 있는지 선택합니다. ",
+    "required": false,
+    "description": "어느 온보딩 단계에 있는지 선택합니다. ",
+    "default_value": null,
+    "attributes": {
+      "options": [
+        {
+          "label": "Before Closing",
+          "order": 1,
+          "value": "dd6a4d07-d48d-4b37-b7cf-7db4c03ab73b"
+        },
+        {
+          "label": "온보딩 준비중",
+          "order": 2,
+          "value": "e631453e-8f50-452b-b47b-0a9a280f030a"
+        },
+        {
+          "label": "온보딩 0단계",
+          "order": 3,
+          "value": "9d22c84a-faa7-4952-a68a-6a70b8d52cd6"
+        },
+        {
+          "label": "온보딩 1단계",
+          "order": 4,
+          "value": "6589902c-1374-4f2e-9df1-e3d01198718e"
+        },
+        {
+          "label": "온보딩 2단계",
+          "order": 5,
+          "value": "e4d44bb1-8863-471d-9ecd-f710d359cede"
+        },
+        {
+          "label": "정기연락",
+          "order": 6,
+          "value": "5c6b813f-128c-45ae-81a3-9635538b02e0"
+        },
+        {
+          "label": "홀딩",
+          "order": 7,
+          "value": "1e3ff13d-2e38-4f95-9863-bd7c07c788b9"
+        },
+        {
+          "label": "반응없음",
+          "order": 8,
+          "value": "1bd5edea-6b92-4986-aaa3-37caeb694b6e"
+        }
+      ],
+      "allow_empty": true
+    }
+  },
+  {
+    "id": "8373",
+    "label": "(유진) 라이센스특이사항 이관 확인",
+    "type": "checkbox",
+    "category": "custom",
+    "order": 274,
+    "caption": null,
+    "required": false,
+    "description": null,
+    "attributes": null
+  }
+]

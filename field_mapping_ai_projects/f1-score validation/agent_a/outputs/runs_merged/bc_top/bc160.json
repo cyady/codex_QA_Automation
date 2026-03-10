@@ -1,0 +1,394 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W160",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.11",
+      "normalized": {
+        "year": 2025,
+        "month": 11,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.11",
+          "start_char": 15,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "timeline:1617cce31ad6f3bf",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내년도 마케팅 예산 고민 중인데 사업팀 내부에서 딜 현황 공유가 안 되는 것이 답답하고 계속 이러면 내년에 ABM을 제대로 못 할 것 같아 리캐치 툴 도입을 검토 중",
+      "normalized": {
+        "text": "내년도 마케팅 예산 고민 중인데 사업팀 내부에서 딜 현황 공유가 안 되는 것이 답답하고 계속 이러면 내년에 ABM을 제대로 못 할 것 같아 리캐치 툴 도입을 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "내년도 마케팅 예산 고민 중인데 사업팀 내부에서 딜 현황 공유가 안 되는 것이 답답하고 계속 이러면 내년에 ABM을 제대로 못 할 것 같아 리캐치 툴 도입을 검토 중",
+          "start_char": 53,
+          "end_char": 145
+        }
+      ],
+      "dedupe_key": "action_item:9c3d9dcf42249100",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 113,
+          "end_char": 116
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 193,
+          "end_char": 196
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 240,
+          "end_char": 243
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 537,
+          "end_char": 540
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 577,
+          "end_char": 580
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 131,
+          "end_char": 134
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "현재는 시트로 관리함"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 368,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "IT 솔루션(GPU 등) 특성상 리드타임이 12~18개월로 길어 리드 추적 및 관리가 어렵고, 이로 인해 CRM 도입의 필요성을 느낌",
+      "normalized": {
+        "text": "IT 솔루션(GPU 등) 특성상 리드타임이 12~18개월로 길어 리드 추적 및 관리가 어렵고, 이로 인해 CRM 도입의 필요성을 느낌",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "현재는 시트로 관리함"
+          ],
+          "exact_quote": "IT 솔루션(GPU 등) 특성상 리드타임이 12~18개월로 길어 리드 추적 및 관리가 어렵고, 이로 인해 CRM 도입의 필요성을 느낌",
+          "start_char": 404,
+          "end_char": 478
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0b880e3a87d8610b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18개월",
+      "normalized": {
+        "value": 18.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "현재는 시트로 관리함"
+          ],
+          "exact_quote": "18개월",
+          "start_char": 431,
+          "end_char": 435
+        }
+      ],
+      "dedupe_key": "duration:8dcd7bc00f1e1087",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 시 마케팅팀과 세일즈팀(총 10~15명 내외) 모두 사용 예정.",
+      "normalized": {
+        "text": "도입 시 마케팅팀과 세일즈팀(총 10~15명 내외) 모두 사용 예정.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "현재는 시트로 관리함"
+          ],
+          "exact_quote": "도입 시 마케팅팀과 세일즈팀(총 10~15명 내외) 모두 사용 예정.",
+          "start_char": 482,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "collaboration_need:e81a8e93b6e543ae",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number_range",
+      "raw_text": "10~15명",
+      "normalized": {
+        "min": 10.0,
+        "max": 15.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "현재는 시트로 관리함"
+          ],
+          "exact_quote": "10~15명",
+          "start_char": 500,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "team_size:327d616879ab2dff",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM 마케팅을 위한 리드 공유 툴 도입 및 초기 세팅 컨설팅",
+      "normalized": {
+        "text": "ABM 마케팅을 위한 리드 공유 툴 도입 및 초기 세팅 컨설팅",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "ABM 마케팅을 위한 리드 공유 툴 도입 및 초기 세팅 컨설팅",
+          "start_char": 537,
+          "end_char": 571
+        }
+      ],
+      "dedupe_key": "collaboration_need:90ab8b36f3eb4ec4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM 고객 리스트를 CRM 툴을 통해 사업본부와 공유",
+      "normalized": {
+        "text": "ABM 고객 리스트를 CRM 툴을 통해 사업본부와 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "ABM 고객 리스트를 CRM 툴을 통해 사업본부와 공유",
+          "start_char": 577,
+          "end_char": 607
+        }
+      ],
+      "dedupe_key": "collaboration_need:6fbd97ada85f9ff4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "긴 리드타임 동안의 리드 추적 및 마케팅팀 차원의 너처링 필요성 확인",
+      "normalized": {
+        "text": "긴 리드타임 동안의 리드 추적 및 마케팅팀 차원의 너처링 필요성 확인",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "긴 리드타임 동안의 리드 추적 및 마케팅팀 차원의 너처링 필요성 확인",
+          "start_char": 695,
+          "end_char": 733
+        }
+      ],
+      "dedupe_key": "action_item:0b9ffd89c0a0085f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일부 영업 활동 자동화(리드 그레이딩 같은) 및 고객 컨택 자동화(미팅 수립)",
+      "normalized": {
+        "text": "일부 영업 활동 자동화(리드 그레이딩 같은) 및 고객 컨택 자동화(미팅 수립)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "일부 영업 활동 자동화(리드 그레이딩 같은) 및 고객 컨택 자동화(미팅 수립)",
+          "start_char": 737,
+          "end_char": 780
+        }
+      ],
+      "dedupe_key": "action_item:b1e89591289abbdc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "월요일 온라인 미팅에는 팀장님과 마케팅 팀원이 같이 참여 예정이며, 팀장님이 먼저 검토 후 내부 설득(대표님 설득 등)을 진행할 계획",
+      "normalized": {
+        "text": "월요일 온라인 미팅에는 팀장님과 마케팅 팀원이 같이 참여 예정이며, 팀장님이 먼저 검토 후 내부 설득(대표님 설득 등)을 진행할 계획",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "마케팅팀 팀장님"
+          ],
+          "exact_quote": "월요일 온라인 미팅에는 팀장님과 마케팅 팀원이 같이 참여 예정이며, 팀장님이 먼저 검토 후 내부 설득(대표님 설득 등)을 진행할 계획",
+          "start_char": 802,
+          "end_char": 876
+        }
+      ],
+      "dedupe_key": "action_item:86f3693a29eb0cfc",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

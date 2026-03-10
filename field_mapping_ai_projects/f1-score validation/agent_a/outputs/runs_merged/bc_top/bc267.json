@@ -1,0 +1,396 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W267",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 21.3",
+      "normalized": {
+        "year": 2021,
+        "month": 3,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": " 21.3",
+          "start_char": 3,
+          "end_char": 8
+        }
+      ],
+      "dedupe_key": "timeline:2df51390f822fbf2",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 18,
+          "end_char": 21
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 31,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "@김민재",
+          "start_char": 59,
+          "end_char": 63
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 110,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 307,
+          "end_char": 310
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "내부 마케팅팀은 부재하며 곧 전문인력을 채용할 계획, 그 전까지 본인 포함 내부 리소스를 통해 콘텐츠 제작하려 하나 전문성이 매우 낮습니다.",
+      "normalized": {
+        "text": "내부 마케팅팀은 부재하며 곧 전문인력을 채용할 계획, 그 전까지 본인 포함 내부 리소스를 통해 콘텐츠 제작하려 하나 전문성이 매우 낮습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "내부 마케팅팀은 부재하며 곧 전문인력을 채용할 계획, 그 전까지 본인 포함 내부 리소스를 통해 콘텐츠 제작하려 하나 전문성이 매우 낮습니다.",
+          "start_char": 373,
+          "end_char": 451
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f2b1f274ac53f2ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "5/ 참고사항 개선 문제만 있고, 구체적인 해결방안이 나오지 않은 상황이라, 퍼널별로 정리하며 진단 내리고 그에 맞는 제안을 드리는 것이 필요합니다.",
+      "normalized": {
+        "text": "5/ 참고사항 개선 문제만 있고, 구체적인 해결방안이 나오지 않은 상황이라, 퍼널별로 정리하며 진단 내리고 그에 맞는 제안을 드리는 것이 필요합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "5/ 참고사항 개선 문제만 있고, 구체적인 해결방안이 나오지 않은 상황이라, 퍼널별로 정리하며 진단 내리고 그에 맞는 제안을 드리는 것이 필요합니다.",
+          "start_char": 455,
+          "end_char": 538
+        }
+      ],
+      "dedupe_key": "risk_or_concern:60bbc0b83bca1513",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "------------------------------사업 개요 - 슈즈테크 분야 기업으로 아래 2가지 사업을 진행하고 있음",
+      "normalized": {
+        "text": "------------------------------사업 개요 - 슈즈테크 분야 기업으로 아래 2가지 사업을 진행하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "------------------------------사업 개요 - 슈즈테크 분야 기업으로 아래 2가지 사업을 진행하고 있음",
+          "start_char": 596,
+          "end_char": 665
+        }
+      ],
+      "dedupe_key": "action_item:e8af290e956d9acd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1) 스케치나 텍스트 입력만으로 실제 제조가 가능한 수준의 신발 디자인과 텍스트를 생성하며, AI 견적 산출 기능을 통해 디자인의 생산 가능성을 검토를 지원하는 Saas 솔루션",
+      "normalized": {
+        "text": "1) 스케치나 텍스트 입력만으로 실제 제조가 가능한 수준의 신발 디자인과 텍스트를 생성하며, AI 견적 산출 기능을 통해 디자인의 생산 가능성을 검토를 지원하는 Saas 솔루션",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "슈캐치"
+          ],
+          "exact_quote": "1) 스케치나 텍스트 입력만으로 실제 제조가 가능한 수준의 신발 디자인과 텍스트를 생성하며, AI 견적 산출 기능을 통해 디자인의 생산 가능성을 검토를 지원하는 Saas 솔루션",
+          "start_char": 710,
+          "end_char": 808
+        }
+      ],
+      "dedupe_key": "action_item:7fba60e819e782d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1/ 퀄리파잉 시스템 통한 유효 리드 전환율 개선 ( 제품 플랜 )",
+      "normalized": {
+        "text": "1/ 퀄리파잉 시스템 통한 유효 리드 전환율 개선 ( 제품 플랜 )",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "핵심 페인포인트 및 니즈"
+          ],
+          "exact_quote": "1/ 퀄리파잉 시스템 통한 유효 리드 전환율 개선 ( 제품 플랜 )",
+          "start_char": 921,
+          "end_char": 958
+        }
+      ],
+      "dedupe_key": "collaboration_need:9d0765250812b8b4",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "2/ 신규 리드 증대 ( 소통 통해 선행과제 발굴 )",
+      "normalized": {
+        "text": "2/ 신규 리드 증대 ( 소통 통해 선행과제 발굴 )",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "핵심 페인포인트 및 니즈"
+          ],
+          "exact_quote": "2/ 신규 리드 증대 ( 소통 통해 선행과제 발굴 )",
+          "start_char": 962,
+          "end_char": 991
+        }
+      ],
+      "dedupe_key": "collaboration_need:7f2d491516065c43",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "구체적인 해결방안은 나오지 않은 상황고객세그먼트",
+      "normalized": {
+        "text": "구체적인 해결방안은 나오지 않은 상황고객세그먼트",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "핵심 페인포인트 및 니즈"
+          ],
+          "exact_quote": "구체적인 해결방안은 나오지 않은 상황고객세그먼트",
+          "start_char": 994,
+          "end_char": 1020
+        }
+      ],
+      "dedupe_key": "collaboration_need:8f959314456eb4b2",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "내부 마케팅팀은 부재하며 전문인력 채용을 준비하고 있음",
+      "normalized": {
+        "text": "내부 마케팅팀은 부재하며 전문인력 채용을 준비하고 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "A) 프로덕트 오너"
+          ],
+          "exact_quote": "내부 마케팅팀은 부재하며 전문인력 채용을 준비하고 있음",
+          "start_char": 1100,
+          "end_char": 1130
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2b9a13825b31cd1b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 70억 원",
+      "normalized": {
+        "value": 7000000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "B) 예산은 추가 파악이 필요"
+          ],
+          "exact_quote": "약 70억 원",
+          "start_char": 1162,
+          "end_char": 1169
+        }
+      ],
+      "dedupe_key": "budget:33068a89d7b6c4bf",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "140억 원",
+      "normalized": {
+        "value": 14000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "B) 예산은 추가 파악이 필요"
+          ],
+          "exact_quote": "140억 원",
+          "start_char": 1196,
+          "end_char": 1202
+        }
+      ],
+      "dedupe_key": "budget:3a349b0d4e9c7a61",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

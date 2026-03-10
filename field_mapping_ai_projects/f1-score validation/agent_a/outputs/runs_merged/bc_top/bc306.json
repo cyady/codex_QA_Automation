@@ -1,0 +1,229 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W306",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 18,
+          "end_char": 21
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 34,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 문의가 아닌, 'GEO 체크리스트' 자료를 다운로드하려다 버튼을 잘못 클릭해 문의가 인입됨",
+      "normalized": {
+        "text": "CRM 도입 문의가 아닌, 'GEO 체크리스트' 자료를 다운로드하려다 버튼을 잘못 클릭해 문의가 인입됨",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM 도입 문의가 아닌, 'GEO 체크리스트' 자료를 다운로드하려다 버튼을 잘못 클릭해 문의가 인입됨",
+          "start_char": 52,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "collaboration_need:4f605ff8e4229c70",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웨비나 및 오프라인 세미나까지 모두 혼자 진행하심",
+      "normalized": {
+        "text": "웨비나 및 오프라인 세미나까지 모두 혼자 진행하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "SEO/콘텐츠/리드 마그넷 운영"
+          ],
+          "exact_quote": "웨비나 및 오프라인 세미나까지 모두 혼자 진행하심",
+          "start_char": 195,
+          "end_char": 222
+        }
+      ],
+      "dedupe_key": "action_item:08cb26873636327e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "15건",
+      "normalized": {
+        "value": 15,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "SEO/콘텐츠/리드 마그넷 운영"
+          ],
+          "exact_quote": "15건",
+          "start_char": 288,
+          "end_char": 291
+        }
+      ],
+      "dedupe_key": "lead_volume:d174023f04e98a70",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 519,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "GEO 체크리스트와 함께, 1인 마케터이신 점을 감안하여 간단한 웹사이트 분석 피드백을 이메일로 전달(이메일 발송 완료)",
+      "normalized": {
+        "text": "GEO 체크리스트와 함께, 1인 마케터이신 점을 감안하여 간단한 웹사이트 분석 피드백을 이메일로 전달(이메일 발송 완료)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "GEO 체크리스트와 함께, 1인 마케터이신 점을 감안하여 간단한 웹사이트 분석 피드백을 이메일로 전달(이메일 발송 완료)",
+          "start_char": 656,
+          "end_char": 723
+        }
+      ],
+      "dedupe_key": "action_item:3e70ef11d7d6490b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그로스 니즈가 있을 것 같아 미팅 제안했으며 @박성준(Scott) 님 링크 전달드렸습니다(제발 미팅으로 연결돼라)",
+      "normalized": {
+        "text": "그로스 니즈가 있을 것 같아 미팅 제안했으며 @박성준(Scott) 님 링크 전달드렸습니다(제발 미팅으로 연결돼라)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "그로스 니즈가 있을 것 같아 미팅 제안했으며 @박성준(Scott) 님 링크 전달드렸습니다(제발 미팅으로 연결돼라)",
+          "start_char": 780,
+          "end_char": 843
+        }
+      ],
+      "dedupe_key": "collaboration_need:3bc2b246f0163a73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 805,
+          "end_char": 809
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

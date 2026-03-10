@@ -1,0 +1,397 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W209",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 시스템은 사용하지 않는 기능이 많고, 기능 활용을 위한 온보딩이나 지원이 전혀 없었습니다. 전 직장과 달리 마케터 없이 직접 CRM을 관리하며 데이터 누락이 잦습니다. 특히 딜 전환 시 날짜 수정이 어려워 수동 작업 지연 시 리드 타임이 왜곡되는 문제가 발생했습니다. 또한, 대시보드 내용을 외부에서 볼 수 있는 공유(뷰) 기능이 없어 데이터를 엑셀로 추출해 관리하고 있었습니다.",
+      "normalized": {
+        "text": "기존 시스템은 사용하지 않는 기능이 많고, 기능 활용을 위한 온보딩이나 지원이 전혀 없었습니다. 전 직장과 달리 마케터 없이 직접 CRM을 관리하며 데이터 누락이 잦습니다. 특히 딜 전환 시 날짜 수정이 어려워 수동 작업 지연 시 리드 타임이 왜곡되는 문제가 발생했습니다. 또한, 대시보드 내용을 외부에서 볼 수 있는 공유(뷰) 기능이 없어 데이터를 엑셀로 추출해 관리하고 있었습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "기존 시스템은 사용하지 않는 기능이 많고, 기능 활용을 위한 온보딩이나 지원이 전혀 없었습니다. 전 직장과 달리 마케터 없이 직접 CRM을 관리하며 데이터 누락이 잦습니다. 특히 딜 전환 시 날짜 수정이 어려워 수동 작업 지연 시 리드 타임이 왜곡되는 문제가 발생했습니다. 또한, 대시보드 내용을 외부에서 볼 수 있는 공유(뷰) 기능이 없어 데이터를 엑셀로 추출해 관리하고 있었습니다.",
+          "start_char": 30,
+          "end_char": 245
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f39a67bc69cd6523",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 253,
+          "end_char": 256
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 473,
+          "end_char": 476
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 800,
+          "end_char": 803
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1787,
+          "end_char": 1790
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 389,
+          "end_char": 392
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 신속한 미팅 유도: 잠재 고객의 관심도가 최고조일 때 폼 제출 즉시 미팅 시간을 확정 짓는 UI를 제공하여 파이프드라이브 사용 시 발생했던 액션 지연 문제를 해결합니다.",
+      "normalized": {
+        "text": "• 신속한 미팅 유도: 잠재 고객의 관심도가 최고조일 때 폼 제출 즉시 미팅 시간을 확정 짓는 UI를 제공하여 파이프드라이브 사용 시 발생했던 액션 지연 문제를 해결합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "• 신속한 미팅 유도: 잠재 고객의 관심도가 최고조일 때 폼 제출 즉시 미팅 시간을 확정 짓는 UI를 제공하여 파이프드라이브 사용 시 발생했던 액션 지연 문제를 해결합니다.",
+          "start_char": 667,
+          "end_char": 763
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d8cfaae7f3e5b4da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 이메일 캠페인 통합: 박람회 등에서 수집된 리드를 대상으로 리캐치 내에서 수신자 그룹을 설정하여 이메일 캠페인을 발송할 수 있으며, 고객 도메인에 맞는 사례를 담은 이메일을 자동으로 보낼 수 있습니다.",
+      "normalized": {
+        "text": "• 이메일 캠페인 통합: 박람회 등에서 수집된 리드를 대상으로 리캐치 내에서 수신자 그룹을 설정하여 이메일 캠페인을 발송할 수 있으며, 고객 도메인에 맞는 사례를 담은 이메일을 자동으로 보낼 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "• 이메일 캠페인 통합: 박람회 등에서 수집된 리드를 대상으로 리캐치 내에서 수신자 그룹을 설정하여 이메일 캠페인을 발송할 수 있으며, 고객 도메인에 맞는 사례를 담은 이메일을 자동으로 보낼 수 있습니다.",
+          "start_char": 765,
+          "end_char": 879
+        }
+      ],
+      "dedupe_key": "action_item:ac903d618745db9f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "MQL",
+          "start_char": 1319,
+          "end_char": 1322
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "MQL",
+          "start_char": 1335,
+          "end_char": 1338
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 자동화 알림: 딜이 특정 단계에 오래 머물러 있거나 (예: 7일), 계약 마감일이 임박했을 때 (예: 60일 전), 담당자에게 Slack 알림을 보내 파이프라인 진행을 촉진시킬 수 있습니다.",
+      "normalized": {
+        "text": "• 자동화 알림: 딜이 특정 단계에 오래 머물러 있거나 (예: 7일), 계약 마감일이 임박했을 때 (예: 60일 전), 담당자에게 Slack 알림을 보내 파이프라인 진행을 촉진시킬 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "• 자동화 알림: 딜이 특정 단계에 오래 머물러 있거나 (예: 7일), 계약 마감일이 임박했을 때 (예: 60일 전), 담당자에게 Slack 알림을 보내 파이프라인 진행을 촉진시킬 수 있습니다.",
+          "start_char": 1470,
+          "end_char": 1578
+        }
+      ],
+      "dedupe_key": "action_item:eeffcba1ef92e848",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "7일",
+      "normalized": {
+        "value": 7.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "7일",
+          "start_char": 1505,
+          "end_char": 1507
+        }
+      ],
+      "dedupe_key": "duration:cf68c78db280b04d",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "60일",
+      "normalized": {
+        "value": 60.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "60일",
+          "start_char": 1529,
+          "end_char": 1532
+        }
+      ],
+      "dedupe_key": "duration:1e1457f705ec2306",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "III. 도입 및 비용 관련 논의",
+      "normalized": {
+        "text": "III. 도입 및 비용 관련 논의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "III. 도입 및 비용 관련 논의",
+          "start_char": 1580,
+          "end_char": 1598
+        }
+      ],
+      "dedupe_key": "collaboration_need:267410cbc6042697",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "150만 원",
+      "normalized": {
+        "value": 1500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "150만 원",
+          "start_char": 1636,
+          "end_char": 1642
+        }
+      ],
+      "dedupe_key": "budget:fbb37118488d3e29",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만 원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "50만 원",
+          "start_char": 1646,
+          "end_char": 1651
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 1628,
+          "end_char": 1631
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5만 원",
+      "normalized": {
+        "value": 50000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "5만 원",
+          "start_char": 1761,
+          "end_char": 1765
+        }
+      ],
+      "dedupe_key": "budget:15a7dc94cfd687a3",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 뷰어 기능 부재: 리캐치는 별도의 뷰 권한 기능이 없습니다. 뷰만 필요한 인원(PM 등)은 일반 사용자 라이선스를 추가해야 하지만, 엔터프라이즈급 비용 상승 우려에 따라 일반 가격의 30~50% 수준에서 저렴하게 라이선스를 추가하는 방안이 논의될 수 있습니다.",
+      "normalized": {
+        "text": "• 뷰어 기능 부재: 리캐치는 별도의 뷰 권한 기능이 없습니다. 뷰만 필요한 인원(PM 등)은 일반 사용자 라이선스를 추가해야 하지만, 엔터프라이즈급 비용 상승 우려에 따라 일반 가격의 30~50% 수준에서 저렴하게 라이선스를 추가하는 방안이 논의될 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "• 뷰어 기능 부재: 리캐치는 별도의 뷰 권한 기능이 없습니다. 뷰만 필요한 인원(PM 등)은 일반 사용자 라이선스를 추가해야 하지만, 엔터프라이즈급 비용 상승 우려에 따라 일반 가격의 30~50% 수준에서 저렴하게 라이선스를 추가하는 방안이 논의될 수 있습니다.",
+          "start_char": 1775,
+          "end_char": 1922
+        }
+      ],
+      "dedupe_key": "risk_or_concern:29910fc46ba9a99c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "30~50%",
+      "normalized": {
+        "min": 0.3,
+        "max": 0.5,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "30~50%",
+          "start_char": 1879,
+          "end_char": 1885
+        }
+      ],
+      "dedupe_key": "match_rate:9d1f2f96ddf819ec",
+      "confidence": 0.95
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

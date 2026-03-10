@@ -1,0 +1,433 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W498",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[Tier2 비아이엠팩토리(BIM Factory) - 마케팅 CRM 도입 및 그로스 패키지 제안] 260122_미팅 주요 내용",
+      "normalized": {
+        "text": "[Tier2 비아이엠팩토리(BIM Factory) - 마케팅 CRM 도입 및 그로스 패키지 제안] 260122_미팅 주요 내용",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier2 비아이엠팩토리(BIM Factory) - 마케팅 CRM 도입 및 그로스 패키지 제안] 260122_미팅 주요 내용",
+          "start_char": 0,
+          "end_char": 70
+        }
+      ],
+      "dedupe_key": "collaboration_need:f42eeb9e41b11a5c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1/ Commit level: 2 (실무자의 도입 의지가 매우 강하며, 의사결정권자(부장)도 영업 DB 관리의 필요성에 공감하여 긍정적 검토 단계임)",
+      "normalized": {
+        "text": "1/ Commit level: 2 (실무자의 도입 의지가 매우 강하며, 의사결정권자(부장)도 영업 DB 관리의 필요성에 공감하여 긍정적 검토 단계임)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1/ Commit level: 2 (실무자의 도입 의지가 매우 강하며, 의사결정권자(부장)도 영업 DB 관리의 필요성에 공감하여 긍정적 검토 단계임)",
+          "start_char": 75,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "action_item:fe7cfb6dc7d5e0e3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "000원",
+          "start_char": 178,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "25만 원",
+          "start_char": 232,
+          "end_char": 237
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 266,
+          "end_char": 269
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "비아이엠팩토리 현황기반하여 민재홍대리와 어떻게 진행해볼지 논의 시작할 것",
+      "normalized": {
+        "text": "비아이엠팩토리 현황기반하여 민재홍대리와 어떻게 진행해볼지 논의 시작할 것",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "비아이엠팩토리 현황기반하여 민재홍대리와 어떻게 진행해볼지 논의 시작할 것",
+          "start_char": 313,
+          "end_char": 353
+        }
+      ],
+      "dedupe_key": "action_item:900622aff35c66c6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "민재홍 대리 (내부에서 마케팅 관련 리서치 및 1차 검토 주도)",
+      "normalized": {
+        "text": "민재홍 대리 (내부에서 마케팅 관련 리서치 및 1차 검토 주도)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "-Influencer"
+          ],
+          "exact_quote": "민재홍 대리 (내부에서 마케팅 관련 리서치 및 1차 검토 주도)",
+          "start_char": 550,
+          "end_char": 585
+        }
+      ],
+      "dedupe_key": "action_item:40d12d34b0cecc54",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "부장님 (기술 영업 총괄, 실질적 예산 및 도입 결정권자), 대표님 (최종 결재권자)",
+      "normalized": {
+        "text": "부장님 (기술 영업 총괄, 실질적 예산 및 도입 결정권자), 대표님 (최종 결재권자)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "-Leader"
+          ],
+          "exact_quote": "부장님 (기술 영업 총괄, 실질적 예산 및 도입 결정권자), 대표님 (최종 결재권자)",
+          "start_char": 597,
+          "end_char": 644
+        }
+      ],
+      "dedupe_key": "collaboration_need:5a907a3e91bc7488",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "민재홍 대리 (마케팅 활동이 매출로 연결되지 않는 현상에 대한 문제의식이 강하며, 전문가의 도움을 적극 희망함)",
+      "normalized": {
+        "text": "민재홍 대리 (마케팅 활동이 매출로 연결되지 않는 현상에 대한 문제의식이 강하며, 전문가의 도움을 적극 희망함)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-Driver"
+          ],
+          "exact_quote": "민재홍 대리 (마케팅 활동이 매출로 연결되지 않는 현상에 대한 문제의식이 강하며, 전문가의 도움을 적극 희망함)",
+          "start_char": 656,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2d6c36a988deb5be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "-Budget"
+          ],
+          "exact_quote": "3000만원",
+          "start_char": 758,
+          "end_char": 764
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+      "normalized": {
+        "text": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+          "start_char": 865,
+          "end_char": 932
+        }
+      ],
+      "dedupe_key": "collaboration_need:39d8b932560512de",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+      "normalized": {
+        "text": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "현재 진행 중인 마케팅 활동(홈페이지, 블로그, 뉴스레터, 세미나)이 실제 영업 DB나 매출로 연결되지 않는 문제 해결.",
+          "start_char": 865,
+          "end_char": 932
+        }
+      ],
+      "dedupe_key": "risk_or_concern:aa939fdf93b62cb9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 892,
+          "end_char": 896
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 887,
+          "end_char": 890
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+      "normalized": {
+        "text": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+          "start_char": 936,
+          "end_char": 988
+        }
+      ],
+      "dedupe_key": "collaboration_need:669465a756e183c8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+      "normalized": {
+        "text": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "오프라인 영업(명함)과 온라인 활동이 단절되어 있어 통합적인 리드 관리(CRM) 시스템 필요.",
+          "start_char": 936,
+          "end_char": 988
+        }
+      ],
+      "dedupe_key": "action_item:91cf5913e97f0262",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+      "normalized": {
+        "text": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+          "start_char": 992,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "collaboration_need:4618089d488ac356",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+      "normalized": {
+        "text": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "-Need"
+          ],
+          "exact_quote": "6월 런칭 예정인 신규 AI 플랫폼 마케팅 및 'Building in Public' 전략 지원 필요.",
+          "start_char": 992,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "action_item:94e3a06b606994d6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

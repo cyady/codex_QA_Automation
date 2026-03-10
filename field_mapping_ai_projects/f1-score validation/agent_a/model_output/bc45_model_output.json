@@ -1,0 +1,527 @@
+[
+  {
+    "extracted_value": 10000000,
+    "field_definition": {
+      "id": "contract_amount",
+      "label": "contract_amount",
+      "type": "currency",
+      "category": "standard",
+      "display_order": 5,
+      "required": false,
+      "archive": false,
+      "caption": "계산을 위해 MRR과 같은 값을 넣어주세요 \nupsell,downsell의 경우 변동 금액을 넣어주세요",
+      "description": "계산을 위해 MRR과 같은 값을 넣어주세요 ",
+      "default_value": null,
+      "attributes": {
+        "code": "KRW",
+        "precision": 0
+      }
+    },
+    "reasoning": "미팅 노트 헤더 및 예산 분석 섹션에서 언급된 총 예상 비용인 '약 1,000만원'을 근거로 추출했습니다."
+  },
+  {
+    "extracted_value": "2025-09-17",
+    "field_definition": {
+      "id": "1591",
+      "label": "첫 세일즈 미팅 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 23,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 제목에 명시된 '250917'을 첫 세일즈 미팅 일자로 판단했습니다."
+  },
+  {
+    "extracted_value": 833333,
+    "field_definition": {
+      "id": "1593",
+      "label": "✅ MRR",
+      "type": "currency",
+      "category": "custom",
+      "display_order": 25,
+      "required": false,
+      "archive": false,
+      "caption": "1. 클로징 전 단계에서는 [총 계약금액/견적개월수]로 계산하여 넣는다.\n2. 클로징 된 이후에는 정확하게 [Amount/결제주기]로 계산하여 넣는다",
+      "description": "1. 클로징 전 단계에서는 [총 계약금액/견적개월수]로 계산하여 넣는다. 2. 클로징 된 이후에는 정확하게 [Amount/결제주기]로 계산하여 넣는다",
+      "default_value": 1,
+      "attributes": {
+        "code": "KRW",
+        "precision": 0
+      }
+    },
+    "reasoning": "총 예상 계약 금액 1,000만원을 견적 개월 수인 12개월로 나누어 계산한 월 반복 매출(MRR) 값입니다."
+  },
+  {
+    "extracted_value": 10,
+    "field_definition": {
+      "id": "1608",
+      "label": "Seat 수",
+      "type": "number",
+      "category": "custom",
+      "display_order": 40,
+      "required": false,
+      "archive": false,
+      "caption": "예상치일 경우 보수적으로 기입해주세요. ",
+      "description": "프로 플랜이나 커스텀 플랜일 경우 예상되는 시트 수를 입력해주세요. ",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "예산 분석 섹션에서 '최대 10인 사용 시'라는 문구를 통해 예상되는 시트 수를 추출했습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+      }
+    ],
+    "field_definition": {
+      "id": "5178",
+      "label": "Tier",
+      "type": "select",
+      "category": "custom",
+      "display_order": 120,
+      "required": false,
+      "archive": false,
+      "caption": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요\n티어1 - 매출 1조 이상\n티어2 - 매출 1000억 이상\n티어3 - 매출 100억 이상 \n티어4 (캐시카우 티어) - 매출 50억 이상",
+      "description": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요",
+      "default_value": [
+        {
+          "label": "Non-tier (new) - 10억 미만",
+          "order": 8,
+          "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+        }
+      ],
+      "attributes": {
+        "options": [
+          {
+            "label": "Tier1 - 매출 1조 이상",
+            "order": 1,
+            "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+          },
+          {
+            "label": "Tier2 - 매출 1000억 이상",
+            "order": 2,
+            "value": "b73574dd-3563-446b-aecc-4bdd75592c55"
+          },
+          {
+            "label": "Tier3 - 매출 100억 이상",
+            "order": 3,
+            "value": "1a042556-ac0f-4c6f-83d7-24739b5a462f"
+          },
+          {
+            "label": "Tier 4 (캐시카우 티어) - 매출 50억 이상",
+            "order": 4,
+            "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+          },
+          {
+            "label": "Tier 4 (old) - 투자유치 100억 이상",
+            "order": 5,
+            "value": "a5120d6f-b2ea-4071-87b3-92497ba4c4b2"
+          },
+          {
+            "label": "Tier 5 - 10억 이상 ~ 50억 미만",
+            "order": 6,
+            "value": "786693b9-d37a-4f6b-a494-4d8432171052"
+          },
+          {
+            "label": "❌ Non-tier (old) - 50억 미만",
+            "order": 7,
+            "value": "05331e01-2212-4014-a98c-372145ffe10e"
+          },
+          {
+            "label": "Non-tier (new) - 10억 미만",
+            "order": 8,
+            "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "미팅 노트 제목에 'Tier4'라고 명시되어 있으며, 스키마의 티어 구분 정의와 일치합니다."
+  },
+  {
+    "extracted_value": "리캐치: 견적서 및 제안서 발송 (9월 중) / 이너스커뮤니티: 내부 검토 및 의사결정 (9월 말~10월 초) / 양측: 파트너십 조건 협의 (이너스 고객 대상 리캐치 영업)",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 '2/ Next Action' 섹션에 기재된 다음 실행 과제들을 추출했습니다."
+  },
+  {
+    "extracted_value": "12개월",
+    "field_definition": {
+      "id": "5368",
+      "label": "✅ 견적 개월 수",
+      "type": "text",
+      "category": "custom",
+      "display_order": 137,
+      "required": false,
+      "archive": false,
+      "caption": "예상 견적 개월수를 기입해주세요. 예상치라면 보수적으로 적어주세요.\nex) 3개월, 1년 등",
+      "description": "예상 견적 개월수를 기입해주세요. 예상치라면 보수적으로 적어주세요.",
+      "attributes": null
+    },
+    "reasoning": "예산 분석 섹션에서 '연 528만원(월 44만원 x 12개월)'이라는 설명을 통해 예상 견적 기간이 12개월임을 확인했습니다."
+  },
+  {
+    "extracted_value": "2025-10-15",
+    "field_definition": {
+      "id": "5372",
+      "label": "예상 마감 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 141,
+      "required": false,
+      "archive": false,
+      "caption": "계약 예상 마감 일자",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 4번 항목에 '10월 중순 (추석 연휴 후 최종 결정)'이라고 명시되어 있어, 해당 연도(2025년) 10월 15일로 추출했습니다."
+  },
+  {
+    "extracted_value": "최종 의사결정권자: 대표(황인영), 챔피언: 실장(황상윤), 실행 책임자: 그로스 팀장(왕태일), 기술 검토자: 기술본부장(황순영), 실무 담당자: HR팀 정용욱 대리",
+    "field_definition": {
+      "id": "5373",
+      "label": "담당자 페르소나",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 142,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 '5/ 구매자그룹 이해관계자별 페르소나' 섹션에 상세히 기술된 정보를 추출했습니다."
+  },
+  {
+    "extracted_value": "스탠다드 요금제: 연 528만원, 추가 사용자 인당 월 2만원, 컨설팅: 2-3개월 300만원. 총 예상 비용 연 800만원~1,000만원 수준.",
+    "field_definition": {
+      "id": "5374",
+      "label": "[B] 예산",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 143,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 '6/ B.A.T 분석' 중 Budget 항목의 상세 내용을 추출했습니다."
+  },
+  {
+    "extracted_value": true,
+    "field_definition": {
+      "id": "5375",
+      "label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "type": "checkbox",
+      "category": "custom",
+      "display_order": 144,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 커밋레벨 항목에 '대표가 직접 참석하여 적극적 관심 표명' 및 '챔피언 확보'가 명시되어 있어 긍정으로 판단했습니다."
+  },
+  {
+    "extracted_value": "아웃바운드 영업 역량 부족, 인바운드 리드 처리의 비효율성(자동 배분 시스템 부재), 현재 CRM 미사용 및 과거 지라 활용 실패. 내부 개발과 외부 솔루션 도입 사이의 고민.",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 '3/ 고객이 처한 상황, 문제' 및 '세부 내용' 섹션에 기재된 비즈니스 페인 포인트를 정리했습니다."
+  },
+  {
+    "extracted_value": "9월 중 견적/제안서 수령 후 내부 검토를 거쳐 10월 중순(추석 연휴 후)까지 최종 도입 여부 결정 예정.",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 Next Action 및 예상 마감일자 항목에서 확인된 타임라인 정보입니다."
+  },
+  {
+    "extracted_value": "자체 기술력을 보유하고 있어 외부 솔루션 도입 대신 자체 개발을 고려하는 점이 주요 블로커임. ROI 제시 및 솔루션 도입을 통한 속도 우위 강조가 필요함.",
+    "field_definition": {
+      "id": "5379",
+      "label": "블로커",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 148,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 '7/ 블로커 및 극복 방안' 섹션에서 명시된 내용을 추출했습니다."
+  },
+  {
+    "extracted_value": 10000000,
+    "field_definition": {
+      "id": "5557",
+      "label": "✅ 총 계약 금액",
+      "type": "currency",
+      "category": "custom",
+      "display_order": 155,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": "총 계약 금액을 적어주세요. ",
+      "default_value": null,
+      "attributes": {
+        "code": "KRW",
+        "precision": 0
+      }
+    },
+    "reasoning": "예산 분석 및 헤더에서 확인된 최대 예상 계약 금액인 1,000만원을 추출했습니다."
+  },
+  {
+    "extracted_value": "이너스커뮤니티",
+    "field_definition": {
+      "id": "5577",
+      "label": "법인명",
+      "type": "text",
+      "category": "custom",
+      "display_order": 164,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 제목 및 내용에서 확인되는 고객 법인명입니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "40b8e20a-92f8-44b2-9c67-b0b4443152bf"
+      }
+    ],
+    "field_definition": {
+      "id": "5657",
+      "label": "결제 상품 (제품)",
+      "type": "multi-select",
+      "category": "custom",
+      "display_order": 175,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "베이직 (2507) -마케팅 ",
+            "order": 1,
+            "value": "c8da2baf-ef3e-476a-8455-af1e0e17fb50"
+          },
+          {
+            "label": "베이직 (2507) - 세일즈",
+            "order": 2,
+            "value": "338f925d-80eb-4a6a-a910-d77f23fa50c0"
+          },
+          {
+            "label": "스탠다드 (2507) - 마케팅",
+            "order": 3,
+            "value": "4825feeb-bb19-4e1d-8601-bacb1d07175d"
+          },
+          {
+            "label": "스탠다드 (2507) - 세일즈",
+            "order": 4,
+            "value": "40b8e20a-92f8-44b2-9c67-b0b4443152bf"
+          },
+          {
+            "label": "프리미엄 (2507) - 마케팅",
+            "order": 5,
+            "value": "1471d13e-9375-4e74-a12f-2997620d95e5"
+          },
+          {
+            "label": "(미정)",
+            "order": 6,
+            "value": "f31d0bd6-a056-4479-9d2e-688c8e45f9b5"
+          },
+          {
+            "label": "그로스 워크샵 - AIX",
+            "order": 7,
+            "value": "64646366-3a91-407d-ad0b-a588d30f4c51"
+          },
+          {
+            "label": "그로스 워크샵 - 웹사이트",
+            "order": 8,
+            "value": "9764ed03-d39a-4ebd-b5fb-549a988c7e75"
+          },
+          {
+            "label": "프로 플랜 - 워크샵",
+            "order": 9,
+            "value": "d1a4476c-f1cb-48d7-9378-995e5a23e7e8"
+          },
+          {
+            "label": "-------------------------------------------",
+            "order": 10,
+            "value": "7299441c-d036-4db5-a65f-2d0fee6c3ef3"
+          },
+          {
+            "label": "프로 플랜",
+            "order": 11,
+            "value": "892181ee-be97-4fa9-bfca-61f8f6543828"
+          },
+          {
+            "label": "파트너 플랜",
+            "order": 12,
+            "value": "af8b18c8-a751-4fee-8307-f16b1bb5a9d4"
+          },
+          {
+            "label": "커스텀 플랜",
+            "order": 13,
+            "value": "f58df6a2-3a5c-4cc7-bd27-e1a4e8fbed1a"
+          },
+          {
+            "label": "Outdated",
+            "order": 14,
+            "value": "89d33f55-c40d-4bef-90f1-b9682d5a0b09"
+          },
+          {
+            "label": "스타터 플랜",
+            "order": 15,
+            "value": "5805b8c7-3636-4bac-908c-e01b9c610a38"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "노트에서 '스탠다드 요금제' 사용을 언급하고 있으며, 제안 내용이 영업 파이프라인 관리 및 리드 라우팅 등 세일즈 기능에 집중되어 있으므로 해당 옵션을 선택했습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "903cacc1-9e37-4d0b-8d6c-2acd90ce686e"
+      }
+    ],
+    "field_definition": {
+      "id": "5656",
+      "label": "결제 상품 (그로스패키지)",
+      "type": "multi-select",
+      "category": "custom",
+      "display_order": 175,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "웹사이트",
+            "order": 1,
+            "value": "e73d2a70-c360-42a6-944b-897aa2244535"
+          },
+          {
+            "label": "블로그",
+            "order": 2,
+            "value": "65403ef8-d662-4847-abe4-6e0f46270d43"
+          },
+          {
+            "label": "ABM",
+            "order": 3,
+            "value": "903cacc1-9e37-4d0b-8d6c-2acd90ce686e"
+          },
+          {
+            "label": "(미정)",
+            "order": 4,
+            "value": "5ad20670-2f8f-42b5-8400-5048842351dd"
+          },
+          {
+            "label": "백서",
+            "order": 5,
+            "value": "253b4e97-1b19-4728-abb3-bfaf3cee754e"
+          },
+          {
+            "label": "세일즈",
+            "order": 6,
+            "value": "4e1af48b-f874-4f5a-be00-56eeb1c99623"
+          },
+          {
+            "label": "마케팅",
+            "order": 7,
+            "value": "102eef66-b522-4100-bd55-76d1b2f8a34d"
+          },
+          {
+            "label": "GTM 패키지",
+            "order": 8,
+            "value": "b2d496a2-99e2-448e-b60f-4a9be8ce974b"
+          },
+          {
+            "label": "파트너 플랜",
+            "order": 9,
+            "value": "96907d04-2c0f-4c41-acfb-fbac1a20f20f"
+          },
+          {
+            "label": "글로벌 GTM 패키지 (Attract)",
+            "order": 10,
+            "value": "4708b13b-a068-49a2-88bb-2a9c3156100b"
+          },
+          {
+            "label": "글로벌 GTM 패키지 (Convert)",
+            "order": 11,
+            "value": "d0610293-7ee1-4e86-8fd4-5257605e8279"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "미팅 노트 3번 항목에서 '아웃바운드 영업을 위한 ABM 패키지'를 명시적으로 제안하고 있습니다."
+  },
+  {
+    "extracted_value": 2,
+    "field_definition": {
+      "id": "5773",
+      "label": "Commit Level",
+      "type": "number",
+      "category": "custom",
+      "display_order": 178,
+      "required": false,
+      "archive": false,
+      "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+      "description": "0,1,2,3,4로 써주세요",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "미팅 노트 1번 항목에 '커밋레벨 레벨 2 (문제 정의 완료, 챔피언 확보)'라고 명확히 기재되어 있습니다."
+  }
+]

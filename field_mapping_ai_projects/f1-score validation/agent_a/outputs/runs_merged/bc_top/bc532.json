@@ -1,0 +1,639 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W532",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 21,
+          "end_char": 26
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 31,
+          "end_char": 36
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 199,
+          "end_char": 204
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 209,
+          "end_char": 214
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 52,
+          "end_char": 55
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 245,
+          "end_char": 248
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 475,
+          "end_char": 478
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 982,
+          "end_char": 985
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1470,
+          "end_char": 1473
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 156,
+          "end_char": 161
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 166,
+          "end_char": 171
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 266,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "150만원",
+      "normalized": {
+        "value": 1500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "150만원",
+          "start_char": 276,
+          "end_char": 281
+        }
+      ],
+      "dedupe_key": "budget:fbb37118488d3e29",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "12주",
+      "normalized": {
+        "value": 12.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "12주",
+          "start_char": 258,
+          "end_char": 261
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "12주",
+          "start_char": 1479,
+          "end_char": 1482
+        }
+      ],
+      "dedupe_key": "duration:17de976e1c52db17",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 솔루션(ReCatch): 패키지 도입 시 2개월 무료 제공 (이후 베이직/스탠다드 요금제 전환 가능성)",
+      "normalized": {
+        "text": "CRM 솔루션(ReCatch): 패키지 도입 시 2개월 무료 제공 (이후 베이직/스탠다드 요금제 전환 가능성)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "CRM 솔루션(ReCatch): 패키지 도입 시 2개월 무료 제공 (이후 베이직/스탠다드 요금제 전환 가능성)",
+          "start_char": 289,
+          "end_char": 350
+        }
+      ],
+      "dedupe_key": "collaboration_need:25c81cca7d97e15a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "2개월",
+          "start_char": 316,
+          "end_char": 319
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "ReCatch",
+          "start_char": 297,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참고: 리멤버 광고 패키지는 타겟 모수(패션/뷰티) 부족으로 드랍 (이미 진행해보았고, 상당히 불만족함)",
+      "normalized": {
+        "text": "참고: 리멤버 광고 패키지는 타겟 모수(패션/뷰티) 부족으로 드랍 (이미 진행해보았고, 상당히 불만족함)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "참고: 리멤버 광고 패키지는 타겟 모수(패션/뷰티) 부족으로 드랍 (이미 진행해보았고, 상당히 불만족함)",
+          "start_char": 354,
+          "end_char": 412
+        }
+      ],
+      "dedupe_key": "action_item:d5bc6be60e507f0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트+블로그 동시 진행 시 할인 프로모션 적용 여부 확인 및 제안.",
+      "normalized": {
+        "text": "웹사이트+블로그 동시 진행 시 할인 프로모션 적용 여부 확인 및 제안.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "웹사이트+블로그 동시 진행 시 할인 프로모션 적용 여부 확인 및 제안.",
+          "start_char": 470,
+          "end_char": 509
+        }
+      ],
+      "dedupe_key": "action_item:a4c996e81e6b6ce7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 착수 가능 시점(4월 중순)에 맞춘 일정 계획 수립.",
+      "normalized": {
+        "text": "프로젝트 착수 가능 시점(4월 중순)에 맞춘 일정 계획 수립.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "프로젝트 착수 가능 시점(4월 중순)에 맞춘 일정 계획 수립.",
+          "start_char": 513,
+          "end_char": 547
+        }
+      ],
+      "dedupe_key": "action_item:8d2e2d540cdd8f39",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "4월 중순",
+      "normalized": {
+        "month": 4,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "4월 중순",
+          "start_char": 527,
+          "end_char": 532
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "4월 중순",
+          "start_char": 1435,
+          "end_char": 1440
+        }
+      ],
+      "dedupe_key": "timeline:e36a7c0972f2ae62",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "3천만원",
+          "start_char": 612,
+          "end_char": 616
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현빈 매니저: SEO 및 콘텐츠 마케팅의 필요성을 강하게 느끼고 있음.",
+      "normalized": {
+        "text": "현빈 매니저: SEO 및 콘텐츠 마케팅의 필요성을 강하게 느끼고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Influencer"
+          ],
+          "exact_quote": "현빈 매니저: SEO 및 콘텐츠 마케팅의 필요성을 강하게 느끼고 있음.",
+          "start_char": 735,
+          "end_char": 774
+        }
+      ],
+      "dedupe_key": "action_item:566bc7270b2b0922",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Influencer"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 743,
+          "end_char": 746
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1257,
+          "end_char": 1260
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "ITD 대표님: 미팅에 직접 참석하여 비용 대비 효율 및 전략(기획만 맡길지, 턴키로 맡길지) 검토 중",
+      "normalized": {
+        "text": "ITD 대표님: 미팅에 직접 참석하여 비용 대비 효율 및 전략(기획만 맡길지, 턴키로 맡길지) 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "Leader"
+          ],
+          "exact_quote": "ITD 대표님: 미팅에 직접 참석하여 비용 대비 효율 및 전략(기획만 맡길지, 턴키로 맡길지) 검토 중",
+          "start_char": 788,
+          "end_char": 845
+        }
+      ],
+      "dedupe_key": "action_item:5546add1c68e7f91",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "블로그 컨설팅 비용(1,800)은 상대적으로 수용하는 분위기이나, 합계 금액에 대한 네고(할인) 요청.",
+      "normalized": {
+        "text": "블로그 컨설팅 비용(1,800)은 상대적으로 수용하는 분위기이나, 합계 금액에 대한 네고(할인) 요청.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "블로그 컨설팅 비용(1,800)은 상대적으로 수용하는 분위기이나, 합계 금액에 대한 네고(할인) 요청.",
+          "start_char": 982,
+          "end_char": 1039
+        }
+      ],
+      "dedupe_key": "action_item:d668d2148d6c18f7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "신규 고객 창출(Inbound): 기존의 수동 영업 방식을 벗어나, B2B 신규 리드를 웹에서 발굴하는 것이 최우선 과제.",
+      "normalized": {
+        "text": "신규 고객 창출(Inbound): 기존의 수동 영업 방식을 벗어나, B2B 신규 리드를 웹에서 발굴하는 것이 최우선 과제.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "신규 고객 창출(Inbound): 기존의 수동 영업 방식을 벗어나, B2B 신규 리드를 웹에서 발굴하는 것이 최우선 과제.",
+          "start_char": 1175,
+          "end_char": 1243
+        }
+      ],
+      "dedupe_key": "collaboration_need:1425ea1378198993",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콘텐츠 마케팅 & SEO: 패션/뷰티 트렌드 키워드를 선점하여 실무자들을 ITDkorea.com으로 유입시키고, 이를 리드로 전환(DB 확보)해야 함.",
+      "normalized": {
+        "text": "콘텐츠 마케팅 & SEO: 패션/뷰티 트렌드 키워드를 선점하여 실무자들을 ITDkorea.com으로 유입시키고, 이를 리드로 전환(DB 확보)해야 함.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "콘텐츠 마케팅 & SEO: 패션/뷰티 트렌드 키워드를 선점하여 실무자들을 ITDkorea.com으로 유입시키고, 이를 리드로 전환(DB 확보)해야 함.",
+          "start_char": 1247,
+          "end_char": 1331
+        }
+      ],
+      "dedupe_key": "collaboration_need:26a971d97f0666c6",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사이트 개편: 노후화된 사이트(5년 이상)를 트렌드에 맞게 개선하고, CTA(행동유도버튼) 배치를 최적화하고 싶어 함.",
+      "normalized": {
+        "text": "사이트 개편: 노후화된 사이트(5년 이상)를 트렌드에 맞게 개선하고, CTA(행동유도버튼) 배치를 최적화하고 싶어 함.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "사이트 개편: 노후화된 사이트(5년 이상)를 트렌드에 맞게 개선하고, CTA(행동유도버튼) 배치를 최적화하고 싶어 함.",
+          "start_char": 1335,
+          "end_char": 1401
+        }
+      ],
+      "dedupe_key": "collaboration_need:1538a0b31faca573",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 1374,
+          "end_char": 1377
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 1463,
+          "end_char": 1468
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4주",
+      "normalized": {
+        "value": 4.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "4주",
+          "start_char": 1486,
+          "end_char": 1488
+        }
+      ],
+      "dedupe_key": "duration:ba77bba0a9ec8dac",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

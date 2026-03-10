@@ -1,0 +1,399 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W86",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1:30 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 30,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 1:30 ",
+          "start_char": 24,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "timeline:1e5dbe5a2c3e9ed8",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.11",
+      "normalized": {
+        "expression": "2025.09.11"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.11",
+          "start_char": 11,
+          "end_char": 21
+        }
+      ],
+      "dedupe_key": "timeline:1735e94c59d67bda",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "네 안녕하세요 지금 통화 잠깐 가능하실까요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 196,
+          "end_char": 199
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "네 안녕하세요 지금 통화 잠깐 가능하실까요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 284,
+          "end_char": 287
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 450,
+          "end_char": 453
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 554,
+          "end_char": 557
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 605,
+          "end_char": 608
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 679,
+          "end_char": 682
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 694,
+          "end_char": 697
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 762,
+          "end_char": 765
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 897,
+          "end_char": 900
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네 저희가 내부에서 홈페이지를 진행하고 있는 게 아니라 디자인 업체를 통해서 제작을 했는데 거기에서 이제 SEO랑 이미지별로 이름 다 정해놓는 거 그런 것들 좀 신경 써주신다고 하셨었고 근데 저희가 실질적으로 보이고 내부적으로도 좀 체크를 할 수 있으면 좋겠는데 그게 저희한테 공개가 되고 그런 게 아니다 보니까 좀 넣어도 돼요.",
+      "normalized": {
+        "text": "네 저희가 내부에서 홈페이지를 진행하고 있는 게 아니라 디자인 업체를 통해서 제작을 했는데 거기에서 이제 SEO랑 이미지별로 이름 다 정해놓는 거 그런 것들 좀 신경 써주신다고 하셨었고 근데 저희가 실질적으로 보이고 내부적으로도 좀 체크를 할 수 있으면 좋겠는데 그게 저희한테 공개가 되고 그런 게 아니다 보니까 좀 넣어도 돼요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "네 안녕하세요 지금 통화 잠깐 가능하실까요?"
+          ],
+          "exact_quote": "네 저희가 내부에서 홈페이지를 진행하고 있는 게 아니라 디자인 업체를 통해서 제작을 했는데 거기에서 이제 SEO랑 이미지별로 이름 다 정해놓는 거 그런 것들 좀 신경 써주신다고 하셨었고 근데 저희가 실질적으로 보이고 내부적으로도 좀 체크를 할 수 있으면 좋겠는데 그게 저희한테 공개가 되고 그런 게 아니다 보니까 좀 넣어도 돼요.",
+          "start_char": 225,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "action_item:02d9f8ba7698252c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네네 저희가 3부로 나뉘어져 있는데 웹사이트 워크샵은 네 그중에 일부가 SEO를 중심으로 진행되거든요.",
+      "normalized": {
+        "text": "네네 저희가 3부로 나뉘어져 있는데 웹사이트 워크샵은 네 그중에 일부가 SEO를 중심으로 진행되거든요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "네네 저희가 3부로 나뉘어져 있는데 웹사이트 워크샵은 네 그중에 일부가 SEO를 중심으로 진행되거든요.",
+          "start_char": 514,
+          "end_char": 571
+        }
+      ],
+      "dedupe_key": "action_item:83a09d898628fa6f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "네 그걸 바탕으로 웹사이트 판단하실 수도 있을 것 같고 저희가 상적 기업을 대상으로 SEO 홈페이지를 바탕으로 SEO 진단을 하는 보고서를 전달해드리고 또 체크리스트까지 전달해 드려서 이 정도 도움",
+      "normalized": {
+        "text": "네 그걸 바탕으로 웹사이트 판단하실 수도 있을 것 같고 저희가 상적 기업을 대상으로 SEO 홈페이지를 바탕으로 SEO 진단을 하는 보고서를 전달해드리고 또 체크리스트까지 전달해 드려서 이 정도 도움",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "네 그걸 바탕으로 웹사이트 판단하실 수도 있을 것 같고 저희가 상적 기업을 대상으로 SEO 홈페이지를 바탕으로 SEO 진단을 하는 보고서를 전달해드리고 또 체크리스트까지 전달해 드려서 이 정도 도움",
+          "start_char": 632,
+          "end_char": 742
+        }
+      ],
+      "dedupe_key": "collaboration_need:bc071084bad1dfd5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10개",
+      "normalized": {
+        "value": 10,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "그럼 SEO에 대한 기본 개념을 좀 알고 싶으신 거죠?"
+          ],
+          "exact_quote": "10개",
+          "start_char": 618,
+          "end_char": 621
+        }
+      ],
+      "dedupe_key": "case_metric:632ab007d33722f7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "근데 저희가 워크숍을 두 차례 진행을 하는데",
+      "normalized": {
+        "text": "근데 저희가 워크숍을 두 차례 진행을 하는데",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "그런 부분도 같이 말씀해 주시나요?"
+          ],
+          "exact_quote": "근데 저희가 워크숍을 두 차례 진행을 하는데",
+          "start_char": 811,
+          "end_char": 835
+        }
+      ],
+      "dedupe_key": "action_item:eb16169eff1df9cc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1001,
+          "end_char": 1004
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1684,
+          "end_char": 1687
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "18일",
+          "start_char": 1065,
+          "end_char": 1068
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "18일",
+          "start_char": 1087,
+          "end_char": 1090
+        }
+      ],
+      "dedupe_key": "duration:37571e0d7b3d26c5",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2건",
+      "normalized": {
+        "value": 2,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 살짝"
+          ],
+          "exact_quote": "2건",
+          "start_char": 1711,
+          "end_char": 1713
+        }
+      ],
+      "dedupe_key": "case_metric:93a4823f7038ff8d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "그러면 혹시 확인차 여쭤보는 건데 이번 워크샵 유료로 진행되는 점은 알고 계실까요?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 2205,
+          "end_char": 2208
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "그러면 혹시 확인차 여쭤보는 건데 이번 워크샵 유료로 진행되는 점은 알고 계실까요?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 2213,
+          "end_char": 2216
+        }
+      ],
+      "dedupe_key": "duration:698d4f9a6eb2d4a7",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

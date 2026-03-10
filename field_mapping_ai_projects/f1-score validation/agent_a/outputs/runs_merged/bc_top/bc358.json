@@ -1,0 +1,375 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W358",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[논티어, 잠재매출 규모 1500만원 ~ 2500만원] 누비랩 1차 그로스 미팅 공유 cc @sales",
+      "normalized": {
+        "text": "[논티어, 잠재매출 규모 1500만원 ~ 2500만원] 누비랩 1차 그로스 미팅 공유 cc @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[논티어, 잠재매출 규모 1500만원 ~ 2500만원] 누비랩 1차 그로스 미팅 공유 cc @sales",
+          "start_char": 0,
+          "end_char": 57
+        }
+      ],
+      "dedupe_key": "collaboration_need:aed2fdb75984c212",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 51,
+          "end_char": 57
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1500만원",
+      "normalized": {
+        "value": 15000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1500만원",
+          "start_char": 14,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "budget:f69e056c04e65b47",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2500만원",
+      "normalized": {
+        "value": 25000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2500만원",
+          "start_char": 23,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "budget:9aa84ab8bc70a5a4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "NextAction대략적인 견적에 대해 소개하여, 내부 1차 논의 이후 금주 중으로 진행의사에 대해 공유할 예정회신 없을 시, 목/금요일 태핑 예정",
+      "normalized": {
+        "text": "NextAction대략적인 견적에 대해 소개하여, 내부 1차 논의 이후 금주 중으로 진행의사에 대해 공유할 예정회신 없을 시, 목/금요일 태핑 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "NextAction대략적인 견적에 대해 소개하여, 내부 1차 논의 이후 금주 중으로 진행의사에 대해 공유할 예정회신 없을 시, 목/금요일 태핑 예정",
+          "start_char": 59,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "action_item:b53e6666d00f5ef1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀 담당자도 잘 알고 있고, 웹사이트 간략 진단을 통해 전문성을 전달했다고 판단함보고 프로세스(상세) 및 키맨 파악이 필요주요",
+      "normalized": {
+        "text": "영업팀 담당자도 잘 알고 있고, 웹사이트 간략 진단을 통해 전문성을 전달했다고 판단함보고 프로세스(상세) 및 키맨 파악이 필요주요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "영업팀 담당자도 잘 알고 있고, 웹사이트 간략 진단을 통해 전문성을 전달했다고 판단함보고 프로세스(상세) 및 키맨 파악이 필요주요",
+          "start_char": 157,
+          "end_char": 229
+        }
+      ],
+      "dedupe_key": "action_item:1bda9db76110a68c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "딜블로커 - 가격1/ 생각보다 높은 비용을 언급해 주셨음2/ 페이지 기반으로 과금구조가 형성되어 있어, 누비랩 메인 웹사이트를 전면 개편할지 혹은 냠냠키즈만 개편할지 1단계 논의가 필요",
+      "normalized": {
+        "text": "딜블로커 - 가격1/ 생각보다 높은 비용을 언급해 주셨음2/ 페이지 기반으로 과금구조가 형성되어 있어, 누비랩 메인 웹사이트를 전면 개편할지 혹은 냠냠키즈만 개편할지 1단계 논의가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "딜블로커 - 가격1/ 생각보다 높은 비용을 언급해 주셨음2/ 페이지 기반으로 과금구조가 형성되어 있어, 누비랩 메인 웹사이트를 전면 개편할지 혹은 냠냠키즈만 개편할지 1단계 논의가 필요",
+          "start_char": 231,
+          "end_char": 334
+        }
+      ],
+      "dedupe_key": "action_item:6c29e54039c2088d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 누비랩은 AI 푸드 스캐닝 기술을 토대로 어린이집/유치원(냠냠키즈), 성인/학교 급식, 글로벌(미국 병원) 등 대상자의 특성에 따라 서비스를 다르게 적용하고 있음• 특히 냠냠키즈는 영유아 대상으로, 식습관 데이터를 쌓아 학부모에게 리포트를 발송하고, 칭찬 기반의 동기 부여를 제공하며 / 전국 약 700~800개 사이트에 납품되어 가장 활성화된 프로젝트임",
+      "normalized": {
+        "text": "• 누비랩은 AI 푸드 스캐닝 기술을 토대로 어린이집/유치원(냠냠키즈), 성인/학교 급식, 글로벌(미국 병원) 등 대상자의 특성에 따라 서비스를 다르게 적용하고 있음• 특히 냠냠키즈는 영유아 대상으로, 식습관 데이터를 쌓아 학부모에게 리포트를 발송하고, 칭찬 기반의 동기 부여를 제공하며 / 전국 약 700~800개 사이트에 납품되어 가장 활성화된 프로젝트임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "• 누비랩은 AI 푸드 스캐닝 기술을 토대로 어린이집/유치원(냠냠키즈), 성인/학교 급식, 글로벌(미국 병원) 등 대상자의 특성에 따라 서비스를 다르게 적용하고 있음• 특히 냠냠키즈는 영유아 대상으로, 식습관 데이터를 쌓아 학부모에게 리포트를 발송하고, 칭찬 기반의 동기 부여를 제공하며 / 전국 약 700~800개 사이트에 납품되어 가장 활성화된 프로젝트임",
+          "start_char": 558,
+          "end_char": 758
+        }
+      ],
+      "dedupe_key": "action_item:6c497aaf258368a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "700~800개",
+      "normalized": {
+        "min": 700.0,
+        "max": 800.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "700~800개",
+          "start_char": 726,
+          "end_char": 734
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "700~800개",
+          "start_char": 1362,
+          "end_char": 1370
+        }
+      ],
+      "dedupe_key": "case_metric:8824585023251e09",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 기존 누비랩 웹페이지는 2023년에 만들어진 후 마케터 부재로 장기간 멈춰 있었으며, 현재 프로덕트들은 노션이나 우피(Woopee) 웹페이지를 간편하게 구축하여 유지해왔음",
+      "normalized": {
+        "text": "• 기존 누비랩 웹페이지는 2023년에 만들어진 후 마케터 부재로 장기간 멈춰 있었으며, 현재 프로덕트들은 노션이나 우피(Woopee) 웹페이지를 간편하게 구축하여 유지해왔음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "• 기존 누비랩 웹페이지는 2023년에 만들어진 후 마케터 부재로 장기간 멈춰 있었으며, 현재 프로덕트들은 노션이나 우피(Woopee) 웹페이지를 간편하게 구축하여 유지해왔음",
+          "start_char": 786,
+          "end_char": 883
+        }
+      ],
+      "dedupe_key": "risk_or_concern:371bc54995ff4f5d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 고객사 측은 냠냠키즈가 높은 만족도를 보이고 사례도 많지만, 검색 유입 최적화(SEO)가 안 되어 있고 사례가 잘 알려져 있지 않은 점이 큰 문제라고 인식함",
+      "normalized": {
+        "text": "• 고객사 측은 냠냠키즈가 높은 만족도를 보이고 사례도 많지만, 검색 유입 최적화(SEO)가 안 되어 있고 사례가 잘 알려져 있지 않은 점이 큰 문제라고 인식함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "• 고객사 측은 냠냠키즈가 높은 만족도를 보이고 사례도 많지만, 검색 유입 최적화(SEO)가 안 되어 있고 사례가 잘 알려져 있지 않은 점이 큰 문제라고 인식함",
+          "start_char": 884,
+          "end_char": 973
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7ff144e51655258f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 930,
+          "end_char": 933
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1348,
+          "end_char": 1351
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 웹사이트 개편의 핵심 목적은 검색 유입 증대와 함께 성공 사례들을 쉽게 확인하여 확산하는 것임냠냠키즈라는 웹사이트를 현재 개편하길 희망했으나,세부 논의한 결과, 함께 소통하며 새로운 웹사이트 방향성에 대해 의견 나누어 봄",
+      "normalized": {
+        "text": "• 웹사이트 개편의 핵심 목적은 검색 유입 증대와 함께 성공 사례들을 쉽게 확인하여 확산하는 것임냠냠키즈라는 웹사이트를 현재 개편하길 희망했으나,세부 논의한 결과, 함께 소통하며 새로운 웹사이트 방향성에 대해 의견 나누어 봄",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "• 웹사이트 개편의 핵심 목적은 검색 유입 증대와 함께 성공 사례들을 쉽게 확인하여 확산하는 것임냠냠키즈라는 웹사이트를 현재 개편하길 희망했으나,세부 논의한 결과, 함께 소통하며 새로운 웹사이트 방향성에 대해 의견 나누어 봄",
+          "start_char": 974,
+          "end_char": 1099
+        }
+      ],
+      "dedupe_key": "collaboration_need:61eb6ad3d8723772",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "누비랩(메인 회사페이지)를 통해 각 분산된 프로덕트 페이지를 통합하는 방식으로 개편하는 방식다만, 이러면 비용이 커지는 우려를 가지고 있음3/ 인바운드 현황 및 마케팅 전략 ( 현행 )• 현재 영업은 민호 매니저를 통한 네트워킹 및 아웃바운드 중심으로 전개되고 있음",
+      "normalized": {
+        "text": "누비랩(메인 회사페이지)를 통해 각 분산된 프로덕트 페이지를 통합하는 방식으로 개편하는 방식다만, 이러면 비용이 커지는 우려를 가지고 있음3/ 인바운드 현황 및 마케팅 전략 ( 현행 )• 현재 영업은 민호 매니저를 통한 네트워킹 및 아웃바운드 중심으로 전개되고 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "누비랩(메인 회사페이지)를 통해 각 분산된 프로덕트 페이지를 통합하는 방식으로 개편하는 방식다만, 이러면 비용이 커지는 우려를 가지고 있음3/ 인바운드 현황 및 마케팅 전략 ( 현행 )• 현재 영업은 민호 매니저를 통한 네트워킹 및 아웃바운드 중심으로 전개되고 있음",
+          "start_char": 1101,
+          "end_char": 1249
+        }
+      ],
+      "dedupe_key": "risk_or_concern:149e692ca4709e46",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "50건",
+      "normalized": {
+        "value": 50,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "2/ 웹사이트 현황 및 개편 방향 ( 초기 )"
+          ],
+          "exact_quote": "50건",
+          "start_char": 1281,
+          "end_char": 1284
+        }
+      ],
+      "dedupe_key": "sales_activity:881d53138c3950e4",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

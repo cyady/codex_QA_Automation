@@ -1,0 +1,538 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W483",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "웹사이트 및 블로그 프로젝트를 담당할 전문 PM(컨설턴트)이 배정된 후속 미팅 일정 어레인지 및 전달,",
+      "normalized": {
+        "text": "웹사이트 및 블로그 프로젝트를 담당할 전문 PM(컨설턴트)이 배정된 후속 미팅 일정 어레인지 및 전달,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "next action"
+          ],
+          "exact_quote": "웹사이트 및 블로그 프로젝트를 담당할 전문 PM(컨설턴트)이 배정된 후속 미팅 일정 어레인지 및 전달,",
+          "start_char": 56,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "collaboration_need:921399c479db2183",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "next action"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 63,
+          "end_char": 66
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 351,
+          "end_char": 354
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 745,
+          "end_char": 748
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 754,
+          "end_char": 757
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 901,
+          "end_char": 904
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 보고를 위한 리캐치 서비스 소개 자료 및 미팅 가능한 슬롯 정리하여 메일 발송,",
+      "normalized": {
+        "text": "내부 보고를 위한 리캐치 서비스 소개 자료 및 미팅 가능한 슬롯 정리하여 메일 발송,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "next action"
+          ],
+          "exact_quote": "내부 보고를 위한 리캐치 서비스 소개 자료 및 미팅 가능한 슬롯 정리하여 메일 발송,",
+          "start_char": 117,
+          "end_char": 164
+        }
+      ],
+      "dedupe_key": "action_item:fb1e7dff6d97c087",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "next action"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 127,
+          "end_char": 130
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 826,
+          "end_char": 829
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기존 하드웨어 중심에서 소프트웨어(AI 인프라)로 사업을 확장하며 마케팅 변화의 필요성을 절감하고 있음,",
+      "normalized": {
+        "text": "기존 하드웨어 중심에서 소프트웨어(AI 인프라)로 사업을 확장하며 마케팅 변화의 필요성을 절감하고 있음,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "기존 하드웨어 중심에서 소프트웨어(AI 인프라)로 사업을 확장하며 마케팅 변화의 필요성을 절감하고 있음,",
+          "start_char": 180,
+          "end_char": 238
+        }
+      ],
+      "dedupe_key": "action_item:f6ee5f0e57e3df41",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최종 의사결정을 위해 내부 임원(이사) 보고 및 설득 과정이 필요함",
+      "normalized": {
+        "text": "최종 의사결정을 위해 내부 임원(이사) 보고 및 설득 과정이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "최종 의사결정을 위해 내부 임원(이사) 보고 및 설득 과정이 필요함",
+          "start_char": 304,
+          "end_char": 341
+        }
+      ],
+      "dedupe_key": "action_item:954242c36e1350d8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "블로그(4건+컨설팅, 약 800만 원)와 웹사이트(10페이지 기준 약 3,000만 원) 동시 도입을 고려 중이며 번들 할인 가능 여부 문의,",
+      "normalized": {
+        "text": "블로그(4건+컨설팅, 약 800만 원)와 웹사이트(10페이지 기준 약 3,000만 원) 동시 도입을 고려 중이며 번들 할인 가능 여부 문의,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "블로그(4건+컨설팅, 약 800만 원)와 웹사이트(10페이지 기준 약 3,000만 원) 동시 도입을 고려 중이며 번들 할인 가능 여부 문의,",
+          "start_char": 351,
+          "end_char": 429
+        }
+      ],
+      "dedupe_key": "collaboration_need:9581a4b855723425",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 800만 원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "약 800만 원",
+          "start_char": 363,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 392,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "4건",
+      "normalized": {
+        "value": 4,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "4건",
+          "start_char": 355,
+          "end_char": 357
+        }
+      ],
+      "dedupe_key": "case_metric:1079b75daf70035d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 713,
+          "end_char": 716
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구글 유입 비중이 95%로 높아 인블로그와 네이버 블로그를 병행 중이나, 전문적인 콘텐츠 기획 및 SEO 최적화가 필요함",
+      "normalized": {
+        "text": "구글 유입 비중이 95%로 높아 인블로그와 네이버 블로그를 병행 중이나, 전문적인 콘텐츠 기획 및 SEO 최적화가 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "구글 유입 비중이 95%로 높아 인블로그와 네이버 블로그를 병행 중이나, 전문적인 콘텐츠 기획 및 SEO 최적화가 필요함",
+          "start_char": 726,
+          "end_char": 793
+        }
+      ],
+      "dedupe_key": "action_item:ff0186217dc82972",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 781,
+          "end_char": 784
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객사는 빠른 착수를 희망하나, 리캐치 팀 일정상 12월 말~1월 초 계약 시 1월 말 또는 2월 초 착수 가능,",
+      "normalized": {
+        "text": "고객사는 빠른 착수를 희망하나, 리캐치 팀 일정상 12월 말~1월 초 계약 시 1월 말 또는 2월 초 착수 가능,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "고객사는 빠른 착수를 희망하나, 리캐치 팀 일정상 12월 말~1월 초 계약 시 1월 말 또는 2월 초 착수 가능,",
+          "start_char": 808,
+          "end_char": 871
+        }
+      ],
+      "dedupe_key": "collaboration_need:0cf4d4659dc5a4e6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 말",
+      "normalized": {
+        "month": 12,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "12월 말",
+          "start_char": 836,
+          "end_char": 841
+        }
+      ],
+      "dedupe_key": "timeline:bdf1d0b8a845547e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 초",
+      "normalized": {
+        "month": 1,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "1월 초",
+          "start_char": 842,
+          "end_char": 846
+        }
+      ],
+      "dedupe_key": "timeline:a6ac4146640de15b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 말",
+      "normalized": {
+        "month": 1,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "1월 말",
+          "start_char": 852,
+          "end_char": 856
+        }
+      ],
+      "dedupe_key": "timeline:34fb9df0c4c074f0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 초",
+      "normalized": {
+        "month": 2,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "2월 초",
+          "start_char": 860,
+          "end_char": 864
+        }
+      ],
+      "dedupe_key": "timeline:647f324fd7abb8e9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 887,
+          "end_char": 892
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "경영진 설득: 인바운드 마케팅을 처음 시도하는 상황이라 보수적인 경영진(이사급)의 예산 승인이 필요함",
+      "normalized": {
+        "text": "경영진 설득: 인바운드 마케팅을 처음 시도하는 상황이라 보수적인 경영진(이사급)의 예산 승인이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "경영진 설득: 인바운드 마케팅을 처음 시도하는 상황이라 보수적인 경영진(이사급)의 예산 승인이 필요함",
+          "start_char": 1019,
+          "end_char": 1075
+        }
+      ],
+      "dedupe_key": "action_item:5aa3d4d69cdfd245",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

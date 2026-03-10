@@ -1,0 +1,37 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W309",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 어도비 마케토 파트너사인 네오다임측에서 파트너사 제휴를 요청해 주셨다.",
+      "normalized": {
+        "text": "2/ 어도비 마케토 파트너사인 네오다임측에서 파트너사 제휴를 요청해 주셨다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[SDR 콜 스크립트]"
+          ],
+          "exact_quote": "2/ 어도비 마케토 파트너사인 네오다임측에서 파트너사 제휴를 요청해 주셨다.",
+          "start_char": 67,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "action_item:6ff08ed0e59c4e44",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

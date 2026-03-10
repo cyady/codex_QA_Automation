@@ -1,0 +1,641 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W465",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어2 윈스테크넷(매출액 1,000억) - 잠재 매출 1,200만원 ] 260130_미팅주요 내용 공유",
+      "normalized": {
+        "text": "[티어2 윈스테크넷(매출액 1,000억) - 잠재 매출 1,200만원 ] 260130_미팅주요 내용 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어2 윈스테크넷(매출액 1,000억) - 잠재 매출 1,200만원 ] 260130_미팅주요 내용 공유",
+          "start_char": 0,
+          "end_char": 58
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e1c82bd029521a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "200만원",
+          "start_char": 33,
+          "end_char": 38
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "200만원",
+          "start_char": 91,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "3명",
+          "start_char": 223,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "-Budget: 잡혀있는 예산은 없으나, 올해 중 반드시 CRM도입해야하는 게 미션.",
+      "normalized": {
+        "text": "-Budget: 잡혀있는 예산은 없으나, 올해 중 반드시 CRM도입해야하는 게 미션.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "-Budget: 잡혀있는 예산은 없으나, 올해 중 반드시 CRM도입해야하는 게 미션.",
+          "start_char": 373,
+          "end_char": 420
+        }
+      ],
+      "dedupe_key": "collaboration_need:d06e5a1c23d26eaa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-Timing: 올해 하반기에 CRM 업체 선정 및 도입 진행.",
+      "normalized": {
+        "text": "-Timing: 올해 하반기에 CRM 업체 선정 및 도입 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "-Timing: 올해 하반기에 CRM 업체 선정 및 도입 진행.",
+          "start_char": 573,
+          "end_char": 608
+        }
+      ],
+      "dedupe_key": "action_item:91a79154726fd620",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "주요 내용은 고객사의 현재 영업 관리 현황 파악, 리캐치 솔루션의 주요 기능 시연, 그리고 도입 비용 및 향후 일정에 대한 논의로 요약할 수 있습니다.",
+      "normalized": {
+        "text": "주요 내용은 고객사의 현재 영업 관리 현황 파악, 리캐치 솔루션의 주요 기능 시연, 그리고 도입 비용 및 향후 일정에 대한 논의로 요약할 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "주요 내용은 고객사의 현재 영업 관리 현황 파악, 리캐치 솔루션의 주요 기능 시연, 그리고 도입 비용 및 향후 일정에 대한 논의로 요약할 수 있습니다.",
+          "start_char": 624,
+          "end_char": 708
+        }
+      ],
+      "dedupe_key": "collaboration_need:838332c5e039929b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 652,
+          "end_char": 655
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1080,
+          "end_char": 1083
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1097,
+          "end_char": 1100
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1580,
+          "end_char": 1583
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2107,
+          "end_char": 2110
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 배경: 올해 처음 팀장을 맡게 된 고객은 기존의 수기 관리 방식에서 벗어나 체계적인 영업 관리를 하고자 하는 강력한 니즈가 있습니다.",
+      "normalized": {
+        "text": "도입 배경: 올해 처음 팀장을 맡게 된 고객은 기존의 수기 관리 방식에서 벗어나 체계적인 영업 관리를 하고자 하는 강력한 니즈가 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "도입 배경: 올해 처음 팀장을 맡게 된 고객은 기존의 수기 관리 방식에서 벗어나 체계적인 영업 관리를 하고자 하는 강력한 니즈가 있습니다.",
+          "start_char": 736,
+          "end_char": 813
+        }
+      ],
+      "dedupe_key": "collaboration_need:6e2d25dfe63686cb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 방식: 현재 4명의 영업 팀원이 개별적으로 사이트를 관리하며, 주간 보고 시 워드나 엑셀로 텍스트 위주의 공유를 하고 있습니다. 그룹웨어(더존)는 기안 및 결재 용도로만 사용 중입니다.",
+      "normalized": {
+        "text": "기존 방식: 현재 4명의 영업 팀원이 개별적으로 사이트를 관리하며, 주간 보고 시 워드나 엑셀로 텍스트 위주의 공유를 하고 있습니다. 그룹웨어(더존)는 기안 및 결재 용도로만 사용 중입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "기존 방식: 현재 4명의 영업 팀원이 개별적으로 사이트를 관리하며, 주간 보고 시 워드나 엑셀로 텍스트 위주의 공유를 하고 있습니다. 그룹웨어(더존)는 기안 및 결재 용도로만 사용 중입니다.",
+          "start_char": 817,
+          "end_char": 923
+        }
+      ],
+      "dedupe_key": "collaboration_need:9d44b715283e4e80",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "4명",
+      "normalized": {
+        "value": 4,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "4명",
+          "start_char": 827,
+          "end_char": 829
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "4명",
+          "start_char": 1002,
+          "end_char": 1004
+        }
+      ],
+      "dedupe_key": "team_size:be10403e5a840b94",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "주요 문제점: 실시간으로 볼 수 있는 대시보드가 부재하며, 파이프라인 관리가 명확히 규정되어 있지 않습니다.",
+      "normalized": {
+        "text": "주요 문제점: 실시간으로 볼 수 있는 대시보드가 부재하며, 파이프라인 관리가 명확히 규정되어 있지 않습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "주요 문제점: 실시간으로 볼 수 있는 대시보드가 부재하며, 파이프라인 관리가 명확히 규정되어 있지 않습니다.",
+          "start_char": 927,
+          "end_char": 987
+        }
+      ],
+      "dedupe_key": "risk_or_concern:59b09634aa2e7010",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 규모: 영업팀 4명을 포함하여 임원진 및 마케팅/전략 팀을 합쳐 약 10명 규모의 사용을 예상하고 있습니다. 주요 타겟 시장은 공공 분야입니다.",
+      "normalized": {
+        "text": "도입 규모: 영업팀 4명을 포함하여 임원진 및 마케팅/전략 팀을 합쳐 약 10명 규모의 사용을 예상하고 있습니다. 주요 타겟 시장은 공공 분야입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "도입 규모: 영업팀 4명을 포함하여 임원진 및 마케팅/전략 팀을 합쳐 약 10명 규모의 사용을 예상하고 있습니다. 주요 타겟 시장은 공공 분야입니다.",
+          "start_char": 991,
+          "end_char": 1074
+        }
+      ],
+      "dedupe_key": "collaboration_need:c86393e85a730417",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "약 10명",
+          "start_char": 1030,
+          "end_char": 1035
+        }
+      ],
+      "dedupe_key": "target_population:9c7c617250c17ea2",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 측은 단순한 소프트웨어 도입을 넘어 영업 조직의 문화 개선과 데이터 입력의 효율성을 강조했습니다.",
+      "normalized": {
+        "text": "리캐치 측은 단순한 소프트웨어 도입을 넘어 영업 조직의 문화 개선과 데이터 입력의 효율성을 강조했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "리캐치 측은 단순한 소프트웨어 도입을 넘어 영업 조직의 문화 개선과 데이터 입력의 효율성을 강조했습니다.",
+          "start_char": 1097,
+          "end_char": 1155
+        }
+      ],
+      "dedupe_key": "collaboration_need:09668b2fa877db0f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 864만 원",
+      "normalized": {
+        "value": 8640000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [],
+          "exact_quote": "약 864만 원",
+          "start_char": 1673,
+          "end_char": 1681
+        }
+      ],
+      "dedupe_key": "budget:c3826e0dd6df4b57",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [],
+          "exact_quote": "10명",
+          "start_char": 1652,
+          "end_char": 1655
+        }
+      ],
+      "dedupe_key": "people_count:650538adf940c376",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [],
+          "exact_quote": "400만 원",
+          "start_char": 1705,
+          "end_char": 1711
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [],
+          "exact_quote": "4개월",
+          "start_char": 1715,
+          "end_char": 1718
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [],
+          "exact_quote": "4개월",
+          "start_char": 1802,
+          "end_char": 1805
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "260만 원",
+      "normalized": {
+        "value": 2600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "260만 원",
+          "start_char": 1759,
+          "end_char": 1765
+        }
+      ],
+      "dedupe_key": "budget:52e95188bd8b8f10",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "온보딩의 중요성: CRM 도입 실패를 막기 위해 3~4개월간 고객사의 비즈니스에 맞춰 필드 구성, 대시보드 세팅 등을 대신 수행해 주는 컨시어지 온보딩을 필수적으로 권장했습니다.",
+      "normalized": {
+        "text": "온보딩의 중요성: CRM 도입 실패를 막기 위해 3~4개월간 고객사의 비즈니스에 맞춰 필드 구성, 대시보드 세팅 등을 대신 수행해 주는 컨시어지 온보딩을 필수적으로 권장했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [],
+          "exact_quote": "온보딩의 중요성: CRM 도입 실패를 막기 위해 3~4개월간 고객사의 비즈니스에 맞춰 필드 구성, 대시보드 세팅 등을 대신 수행해 주는 컨시어지 온보딩을 필수적으로 권장했습니다.",
+          "start_char": 1773,
+          "end_char": 1872
+        }
+      ],
+      "dedupe_key": "collaboration_need:39b327fc90a57e74",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 일정: 윈스테크넷은 내부 보고 및 결재 과정이 보수적인 편이라, 상반기 내 보고 및 업체 선정, 하반기 실제 도입을 목표로 하고 있습니다. 확대 시 최대 SEAT 수는 약 50개로 추정됩니다. cc @pm @sales",
+      "normalized": {
+        "text": "도입 일정: 윈스테크넷은 내부 보고 및 결재 과정이 보수적인 편이라, 상반기 내 보고 및 업체 선정, 하반기 실제 도입을 목표로 하고 있습니다. 확대 시 최대 SEAT 수는 약 50개로 추정됩니다. cc @pm @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "도입 일정: 윈스테크넷은 내부 보고 및 결재 과정이 보수적인 편이라, 상반기 내 보고 및 업체 선정, 하반기 실제 도입을 목표로 하고 있습니다. 확대 시 최대 SEAT 수는 약 50개로 추정됩니다. cc @pm @sales",
+          "start_char": 1894,
+          "end_char": 2018
+        }
+      ],
+      "dedupe_key": "collaboration_need:8799aaaccaec589f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "@pm",
+          "start_char": 2008,
+          "end_char": 2011
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 2012,
+          "end_char": 2018
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 50개",
+      "normalized": {
+        "value": 50,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "약 50개",
+          "start_char": 1991,
+          "end_char": 1996
+        }
+      ],
+      "dedupe_key": "case_metric:e9317414ef1e6ae7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 사항: 그룹웨어(더존)와의 연동을 희망하지만, 이는 기술적/비용적 이슈가 있어 필수라기보다 희망 사항(옵션)으로 남겨두었습니다.",
+      "normalized": {
+        "text": "검토 사항: 그룹웨어(더존)와의 연동을 희망하지만, 이는 기술적/비용적 이슈가 있어 필수라기보다 희망 사항(옵션)으로 남겨두었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [],
+          "exact_quote": "검토 사항: 그룹웨어(더존)와의 연동을 희망하지만, 이는 기술적/비용적 이슈가 있어 필수라기보다 희망 사항(옵션)으로 남겨두었습니다.",
+          "start_char": 2022,
+          "end_char": 2096
+        }
+      ],
+      "dedupe_key": "action_item:60be3808acc76e9e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "다음 단계: 리캐치 측은 추후 AI CRM 관련 세미나 등에 초청하기로 했으며(2월 세미나는 참여 불가) 고객사는 내부 보고 준비를 진행할 예정입니다.",
+      "normalized": {
+        "text": "다음 단계: 리캐치 측은 추후 AI CRM 관련 세미나 등에 초청하기로 했으며(2월 세미나는 참여 불가) 고객사는 내부 보고 준비를 진행할 예정입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "다음 단계: 리캐치 측은 추후 AI CRM 관련 세미나 등에 초청하기로 했으며(2월 세미나는 참여 불가) 고객사는 내부 보고 준비를 진행할 예정입니다.",
+          "start_char": 2100,
+          "end_char": 2184
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fc8a353170c1ce73",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

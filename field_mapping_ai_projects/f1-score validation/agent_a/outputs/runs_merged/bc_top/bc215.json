@@ -1,0 +1,159 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W215",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier3 에스앤엘컴 - 594만원 부가세포함 확정] 최종 견적서 송부--",
+      "normalized": {
+        "text": "[Tier3 에스앤엘컴 - 594만원 부가세포함 확정] 최종 견적서 송부--",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier3 에스앤엘컴 - 594만원 부가세포함 확정] 최종 견적서 송부--",
+          "start_char": 0,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "action_item:02ab41d410b76ec2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 김한규입니다.리캐치 세일즈 CRM 도입을 위한 3개월 계약 결정에 진심으로 감사드립니다.",
+      "normalized": {
+        "text": "리캐치 김한규입니다.리캐치 세일즈 CRM 도입을 위한 3개월 계약 결정에 진심으로 감사드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 김한규입니다.리캐치 세일즈 CRM 도입을 위한 3개월 계약 결정에 진심으로 감사드립니다.",
+          "start_char": 66,
+          "end_char": 119
+        }
+      ],
+      "dedupe_key": "collaboration_need:114d8fc8fff93824",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 358,
+          "end_char": 362
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "594만원",
+      "normalized": {
+        "value": 5940000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "594만원",
+          "start_char": 15,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "budget:c7f08f66baf29646",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 96,
+          "end_char": 99
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 134,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 66,
+          "end_char": 69
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 77,
+          "end_char": 80
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

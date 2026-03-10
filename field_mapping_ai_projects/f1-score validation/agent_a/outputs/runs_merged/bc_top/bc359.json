@@ -1,0 +1,141 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W359",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 46,
+          "end_char": 50
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 34,
+          "end_char": 37
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 47,
+          "end_char": 50
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 94,
+          "end_char": 97
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 321,
+          "end_char": 324
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 1차 미팅은 온라인으로 1) 하림의 현상황을 더 깊이 있게 듣고 2) 그로스랩이 어떤 프로젝트들을 진행하고 있고 그동안의 성공 사례는 무엇이 있는지 설명드리고 3) 하림 측에서 원하는 방향을 우리 그로스랩이 수행할 수 있을지 여부에 대해 서로 가볍게 알아보는 자리로 기대치 조율했습니다",
+      "normalized": {
+        "text": "따라서 1차 미팅은 온라인으로 1) 하림의 현상황을 더 깊이 있게 듣고 2) 그로스랩이 어떤 프로젝트들을 진행하고 있고 그동안의 성공 사례는 무엇이 있는지 설명드리고 3) 하림 측에서 원하는 방향을 우리 그로스랩이 수행할 수 있을지 여부에 대해 서로 가볍게 알아보는 자리로 기대치 조율했습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "따라서 1차 미팅은 온라인으로 1) 하림의 현상황을 더 깊이 있게 듣고 2) 그로스랩이 어떤 프로젝트들을 진행하고 있고 그동안의 성공 사례는 무엇이 있는지 설명드리고 3) 하림 측에서 원하는 방향을 우리 그로스랩이 수행할 수 있을지 여부에 대해 서로 가볍게 알아보는 자리로 기대치 조율했습니다",
+          "start_char": 478,
+          "end_char": 641
+        }
+      ],
+      "dedupe_key": "action_item:636ad1c5e6c7370e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 689,
+          "end_char": 693
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

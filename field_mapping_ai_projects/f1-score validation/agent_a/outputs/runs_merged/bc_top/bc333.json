@@ -1,0 +1,180 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W333",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 28,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 13,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 29,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "6명",
+      "normalized": {
+        "value": 6,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "6명",
+          "start_char": 58,
+          "end_char": 60
+        }
+      ],
+      "dedupe_key": "team_size:263ae329b9d81ffd",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "20명",
+          "start_char": 67,
+          "end_char": 70
+        }
+      ],
+      "dedupe_key": "team_size:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "인바운드 리드: 인바운드로 들어와서 15일 무료 데모 계정 신청한 리드에겐 영업팀이 따로 연락해서 클로징까지 유도(개인이 결제할 수 있는 시스템은 아님. 셀프서브 불가)",
+      "normalized": {
+        "text": "인바운드 리드: 인바운드로 들어와서 15일 무료 데모 계정 신청한 리드에겐 영업팀이 따로 연락해서 클로징까지 유도(개인이 결제할 수 있는 시스템은 아님. 셀프서브 불가)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "기존 고객 대상: 업셀/크로스셀 유도"
+          ],
+          "exact_quote": "인바운드 리드: 인바운드로 들어와서 15일 무료 데모 계정 신청한 리드에겐 영업팀이 따로 연락해서 클로징까지 유도(개인이 결제할 수 있는 시스템은 아님. 셀프서브 불가)",
+          "start_char": 205,
+          "end_char": 299
+        }
+      ],
+      "dedupe_key": "risk_or_concern:335530b6382ab94e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "15일",
+      "normalized": {
+        "value": 15.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "기존 고객 대상: 업셀/크로스셀 유도"
+          ],
+          "exact_quote": "15일",
+          "start_char": 225,
+          "end_char": 228
+        }
+      ],
+      "dedupe_key": "duration:84a672f3498c2190",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "-------"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 502,
+          "end_char": 505
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

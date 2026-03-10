@@ -1,0 +1,476 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W495",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[리얼패킹 - 파이프드라이브 대체 및 아웃바운드 세일즈 관리 툴 도입 검토] 260121_미팅 주요 내용",
+      "normalized": {
+        "text": "[리얼패킹 - 파이프드라이브 대체 및 아웃바운드 세일즈 관리 툴 도입 검토] 260121_미팅 주요 내용",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[리얼패킹 - 파이프드라이브 대체 및 아웃바운드 세일즈 관리 툴 도입 검토] 260121_미팅 주요 내용",
+          "start_char": 0,
+          "end_char": 58
+        }
+      ],
+      "dedupe_key": "action_item:1fbadbd69df30d59",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "파이프드라이브 대체 니즈 명확하나, 내부 보고 및 결재 과정 필요",
+      "normalized": {
+        "text": "파이프드라이브 대체 니즈 명확하나, 내부 보고 및 결재 과정 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "파이프드라이브 대체 니즈 명확하나, 내부 보고 및 결재 과정 필요",
+          "start_char": 112,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "action_item:e00e2aa2a35c746a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "000원",
+          "start_char": 166,
+          "end_char": 170
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "약 300만 원",
+          "start_char": 189,
+          "end_char": 197
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "맞춤형 제안서 전달: 리얼패킹 상황(아웃바운드 확장, 파이프드라이브 대체)에 맞춘 소개 자료 준비",
+      "normalized": {
+        "text": "맞춤형 제안서 전달: 리얼패킹 상황(아웃바운드 확장, 파이프드라이브 대체)에 맞춘 소개 자료 준비",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "맞춤형 제안서 전달: 리얼패킹 상황(아웃바운드 확장, 파이프드라이브 대체)에 맞춘 소개 자료 준비",
+          "start_char": 247,
+          "end_char": 301
+        }
+      ],
+      "dedupe_key": "collaboration_need:15c391a655780048",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 보고: 실무자 검토 후 의사결정권자(이사/대표급) 보고 및 피드백 청취",
+      "normalized": {
+        "text": "내부 보고: 실무자 검토 후 의사결정권자(이사/대표급) 보고 및 피드백 청취",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "내부 보고: 실무자 검토 후 의사결정권자(이사/대표급) 보고 및 피드백 청취",
+          "start_char": 303,
+          "end_char": 345
+        }
+      ],
+      "dedupe_key": "action_item:2590ad2afc5618b8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "연동성 확인: 외부 아웃바운드 대행사(카운드)와의 협업 프로세스에 리캐치 활용 가능 여부 체크",
+      "normalized": {
+        "text": "연동성 확인: 외부 아웃바운드 대행사(카운드)와의 협업 프로세스에 리캐치 활용 가능 여부 체크",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "연동성 확인: 외부 아웃바운드 대행사(카운드)와의 협업 프로세스에 리캐치 활용 가능 여부 체크",
+          "start_char": 347,
+          "end_char": 399
+        }
+      ],
+      "dedupe_key": "collaboration_need:48cefbb8a7c38232",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 384,
+          "end_char": 387
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "외부 아웃바운드 대행사와의 툴 연동성 검증 필요",
+      "normalized": {
+        "text": "외부 아웃바운드 대행사와의 툴 연동성 검증 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "외부 아웃바운드 대행사와의 툴 연동성 검증 필요",
+          "start_char": 480,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "action_item:e262475abe296889",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "약 5명",
+          "start_char": 525,
+          "end_char": 529
+        }
+      ],
+      "dedupe_key": "team_size:5f3580569c4e019d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "외부 아웃바운드 영업 대행사 (카운드 등 협업 파트너)",
+      "normalized": {
+        "text": "외부 아웃바운드 영업 대행사 (카운드 등 협업 파트너)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "마케팅팀 (기존 인바운드 성과 우수)"
+          ],
+          "exact_quote": "외부 아웃바운드 영업 대행사 (카운드 등 협업 파트너)",
+          "start_char": 575,
+          "end_char": 605
+        }
+      ],
+      "dedupe_key": "collaboration_need:a40a3127b8bcec3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 툴의 기능 과다/활용 저조로 인해 직관적인 툴 도입을 강력히 희망함",
+      "normalized": {
+        "text": "기존 툴의 기능 과다/활용 저조로 인해 직관적인 툴 도입을 강력히 희망함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "기존 툴의 기능 과다/활용 저조로 인해 직관적인 툴 도입을 강력히 희망함",
+          "start_char": 675,
+          "end_char": 715
+        }
+      ],
+      "dedupe_key": "collaboration_need:2b638f43051963a2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 748,
+          "end_char": 753
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "베이직 플랜의 기능 범위(연동 등)가 예산 내 해결 가능한지 확인 필요",
+      "normalized": {
+        "text": "베이직 플랜의 기능 범위(연동 등)가 예산 내 해결 가능한지 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "베이직 플랜의 기능 범위(연동 등)가 예산 내 해결 가능한지 확인 필요",
+          "start_char": 797,
+          "end_char": 836
+        }
+      ],
+      "dedupe_key": "action_item:a19e688c896dc7b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "툴 도입 제안 및 검토 권한 보유",
+      "normalized": {
+        "text": "툴 도입 제안 및 검토 권한 보유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "툴 도입 제안 및 검토 권한 보유",
+          "start_char": 851,
+          "end_char": 869
+        }
+      ],
+      "dedupe_key": "action_item:4f952699983b357d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최종 예산 집행은 상위 보고 및 결재 필요",
+      "normalized": {
+        "text": "최종 예산 집행은 상위 보고 및 결재 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "최종 예산 집행은 상위 보고 및 결재 필요",
+          "start_char": 871,
+          "end_char": 894
+        }
+      ],
+      "dedupe_key": "action_item:043067e51a064a10",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아웃바운드 관리: 올해 영업 강화 예정으로 간편한 관리 툴 필요",
+      "normalized": {
+        "text": "아웃바운드 관리: 올해 영업 강화 예정으로 간편한 관리 툴 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "아웃바운드 관리: 올해 영업 강화 예정으로 간편한 관리 툴 필요",
+          "start_char": 943,
+          "end_char": 978
+        }
+      ],
+      "dedupe_key": "action_item:f5d8d124d0a66814",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일정 관리: 미팅 수립 및 일정 관리 자동화 니즈 강함",
+      "normalized": {
+        "text": "일정 관리: 미팅 수립 및 일정 관리 자동화 니즈 강함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "일정 관리: 미팅 수립 및 일정 관리 자동화 니즈 강함",
+          "start_char": 1040,
+          "end_char": 1070
+        }
+      ],
+      "dedupe_key": "action_item:c17d7aa889964fd8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1분기 내 도입 희망",
+      "normalized": {
+        "text": "1분기 내 도입 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "1분기 내 도입 희망",
+          "start_char": 1082,
+          "end_char": 1093
+        }
+      ],
+      "dedupe_key": "collaboration_need:5446b83d756bbdfa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 아웃바운드 대행사 선정 등 영업 확장 준비 단계로 도입 시급",
+      "normalized": {
+        "text": "현재 아웃바운드 대행사 선정 등 영업 확장 준비 단계로 도입 시급",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "금일 미팅 참석자 (팀장/매니저급)"
+          ],
+          "exact_quote": "현재 아웃바운드 대행사 선정 등 영업 확장 준비 단계로 도입 시급",
+          "start_char": 1095,
+          "end_char": 1131
+        }
+      ],
+      "dedupe_key": "collaboration_need:e03ba48f5e2c9915",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

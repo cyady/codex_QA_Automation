@@ -1,0 +1,16 @@
+{
+  "case": {
+    "case_id": "G5656-01",
+    "technique": "target_5656",
+    "prompt": "결제 상품 (그로스패키지): 웹사이트, 블로그, ABM으로 확정."
+  },
+  "payload": {
+    "summary": "결제 상품 (그로스패키지): 웹사이트, 블로그, ABM으로 확정.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:04:47.512Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": []
+}

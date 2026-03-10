@@ -1,0 +1,252 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W289",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "결론: CRM 도입은 어려워보임. 이야기가 길어져서 그로스 니즈는 못 팜. 온도 좋아서 11월 11일 세미나 블로그 보내드리며 초청드림(아직 신청 x)",
+      "normalized": {
+        "text": "결론: CRM 도입은 어려워보임. 이야기가 길어져서 그로스 니즈는 못 팜. 온도 좋아서 11월 11일 세미나 블로그 보내드리며 초청드림(아직 신청 x)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "결론: CRM 도입은 어려워보임. 이야기가 길어져서 그로스 니즈는 못 팜. 온도 좋아서 11월 11일 세미나 블로그 보내드리며 초청드림(아직 신청 x)",
+          "start_char": 39,
+          "end_char": 123
+        }
+      ],
+      "dedupe_key": "collaboration_need:e399b7560fdebfcf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 11일",
+      "normalized": {
+        "month": 11,
+        "day": 11
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "11월 11일",
+          "start_char": 88,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "timeline:05d62464fe69f57f",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "11일",
+      "normalized": {
+        "value": 11.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "11일",
+          "start_char": 92,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "duration:c92e87ddf0b84ec9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 100,
+          "end_char": 103
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 129,
+          "end_char": 132
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200개",
+      "normalized": {
+        "value": 200,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "허브스팟을 어떻게 사용하고 있냐면"
+          ],
+          "exact_quote": "200개",
+          "start_char": 445,
+          "end_char": 449
+        }
+      ],
+      "dedupe_key": "case_metric:4b5bc16117ca9cfe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "@김우진(Woojin Andy Kim) 님 어제 아웃컴 미팅 이후 API 여는 것에 대해 고려하고 계신 것 같은데, 요 부분도 참고해주시면 좋을 것 같아 공유드립니다!",
+      "normalized": {
+        "text": "@김우진(Woojin Andy Kim) 님 어제 아웃컴 미팅 이후 API 여는 것에 대해 고려하고 계신 것 같은데, 요 부분도 참고해주시면 좋을 것 같아 공유드립니다!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "허브스팟을 어떻게 사용하고 있냐면"
+          ],
+          "exact_quote": "@김우진(Woojin Andy Kim) 님 어제 아웃컴 미팅 이후 API 여는 것에 대해 고려하고 계신 것 같은데, 요 부분도 참고해주시면 좋을 것 같아 공유드립니다!",
+          "start_char": 882,
+          "end_char": 975
+        }
+      ],
+      "dedupe_key": "collaboration_need:6d3c2ce01c0746d6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "허브스팟을 어떻게 사용하고 있냐면"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 882,
+          "end_char": 886
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "허브스팟을 어떻게 사용하고 있냐면"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 999,
+          "end_char": 1003
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

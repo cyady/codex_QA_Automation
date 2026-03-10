@@ -1,0 +1,282 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W10",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+      "normalized": {
+        "text": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "(참고) 0918 카카오를 활용하여 진행하도록 문의 메일",
+          "start_char": 0,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "action_item:d7640d049ec83427",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+      "normalized": {
+        "text": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "리캐치 팀 강대웅 입니다.어제 미팅 감사합니다. 팀장님/ 파트장님 및 참석하신 매니저분들의 폭넓은 맥락과 문제 공유 덕택으로 온보딩이 쉬웠습니다.우선 다음의 협업을 내부적으로 고민해 볼 수 있을 것 같습니다.",
+          "start_char": 55,
+          "end_char": 171
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9a76e37666a0b6de",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 55,
+          "end_char": 58
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2344,
+          "end_char": 2347
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+      "normalized": {
+        "text": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "(요청) 미팅에서 언급해 주신 '금융권 데이터수요', '경쟁사 이탈고객 윈백 마케팅의 수요' 외에도 여러 고객 가설과 상품 가설을 가지고 계실 것으로 생각하는데; 이에 대한 단서를 제공해 주시면 보다 구체적 논의를 이어갈 수 있을 것으로 생각합니다.",
+          "start_char": 414,
+          "end_char": 553
+        }
+      ],
+      "dedupe_key": "action_item:b84c831f59c9e22d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+      "normalized": {
+        "text": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "오히려 이런 건은 구체적인 상황이 있어야 진도가 더 나갈 수 있다 생각하는데, 어제 말씀을 먼저 꺼내주신 만큼 구체적인 필요가 있으시다면 편히 말씀해 주십시오. 상상하는 것 보다는 구체적인 사안에 대해 어떤 구조가 가능할지 검토하는 것이 더 빠를 듯 합니다. ^^",
+          "start_char": 667,
+          "end_char": 814
+        }
+      ],
+      "dedupe_key": "action_item:2e50edd147d0c48f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "메타",
+          "start_char": 2012,
+          "end_char": 2014
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+      "normalized": {
+        "text": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "참고로 어제 미팅을 통해 다음을 이해했습니다. 아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다.",
+          "start_char": 2136,
+          "end_char": 2194
+        }
+      ],
+      "dedupe_key": "collaboration_need:03488433dc0be69e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+      "normalized": {
+        "text": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "가설단계에 있는 아젠다/ 스케일업 단계에 있는 아젠다들에 대해 리캐치팀 과의 협업을 통해 가능한 협업에 대해 소개해 주셨습니다.",
+          "start_char": 2309,
+          "end_char": 2380
+        }
+      ],
+      "dedupe_key": "collaboration_need:3d3053d2bf05ca3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+      "normalized": {
+        "text": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "구체적으로 다음 3가지 협업 아이디어를 제시해 주셨습니다.",
+          "start_char": 2381,
+          "end_char": 2413
+        }
+      ],
+      "dedupe_key": "collaboration_need:bb62fd4b4461c82c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+      "normalized": {
+        "text": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "-- (a. 광고상품 판매) 카카오페이(및 가용오디언스)를 광고매체로서 인지 > 구매 전환을 위한 '광고주 직접 영업' 문제 해결에 관한 고민으로; 높은 데이터해상도의 타겟팅이 가능해 '윈백' 수준의 캠페인 설계도 가능하다는 강점과; 광고상품으로서 넘어야 하는 한계에 대한 고민",
+          "start_char": 2414,
+          "end_char": 2569
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4d71bc2eff4da072",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+      "normalized": {
+        "text": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요, 팀장님, 파트장님 매니저님"
+          ],
+          "exact_quote": "-- (c. 리드젠 전문 에이전시) 해상도 높은 타겟팅으로 '외제차', '금융상품' 고객들 유치 배너를 보여주시며, [상품세일즈 > 페이지구축 > 리드획득 > 운영] 등에 걸친 에이전시 형 모델의 가능성 제시와 현실적 first-step 에 관한 논의를 진행했습니다.",
+          "start_char": 2678,
+          "end_char": 2827
+        }
+      ],
+      "dedupe_key": "action_item:a307995191066650",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

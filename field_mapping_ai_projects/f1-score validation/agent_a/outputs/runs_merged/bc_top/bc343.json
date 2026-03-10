@@ -1,0 +1,280 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W343",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사업부별로 별도 홈페이지가 있고, '충돌시험 사업부'의 홈페이지 개편 희망",
+      "normalized": {
+        "text": "사업부별로 별도 홈페이지가 있고, '충돌시험 사업부'의 홈페이지 개편 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "사업부별로 별도 홈페이지가 있고, '충돌시험 사업부'의 홈페이지 개편 희망",
+          "start_char": 54,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "collaboration_need:f89db89e08ad6eb4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품 스펙 변경 등 자잘한 수정이 3개월 주기로 발생하여, 그런 업데이트가 필요할 때마다 제3자 끼지 않고 마케팅팀에서 직접 수정 가능한 환경 구축을 원함",
+      "normalized": {
+        "text": "제품 스펙 변경 등 자잘한 수정이 3개월 주기로 발생하여, 그런 업데이트가 필요할 때마다 제3자 끼지 않고 마케팅팀에서 직접 수정 가능한 환경 구축을 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "제품 스펙 변경 등 자잘한 수정이 3개월 주기로 발생하여, 그런 업데이트가 필요할 때마다 제3자 끼지 않고 마케팅팀에서 직접 수정 가능한 환경 구축을 원함",
+          "start_char": 225,
+          "end_char": 311
+        }
+      ],
+      "dedupe_key": "action_item:31574554e8f2bb35",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 244,
+          "end_char": 247
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 워드프레스와 프레이머를 두고 검토 중",
+      "normalized": {
+        "text": "현재 워드프레스와 프레이머를 두고 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 워드프레스와 프레이머를 두고 검토 중",
+          "start_char": 315,
+          "end_char": 338
+        }
+      ],
+      "dedupe_key": "action_item:778bd600bc530c73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@황하운",
+          "start_char": 386,
+          "end_char": 390
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 399,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 342,
+          "end_char": 345
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 525,
+          "end_char": 528
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 572,
+          "end_char": 575
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "다른 사업부 홈페이지와 동일하게 서치 콘솔 등록 등 SEO 작업을 했음에도 노출이 안돼, 현 웹사이트의 구조적 문제인건지, 뭐가 문제인지 파악하고 싶음",
+      "normalized": {
+        "text": "다른 사업부 홈페이지와 동일하게 서치 콘솔 등록 등 SEO 작업을 했음에도 노출이 안돼, 현 웹사이트의 구조적 문제인건지, 뭐가 문제인지 파악하고 싶음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "다른 사업부 홈페이지와 동일하게 서치 콘솔 등록 등 SEO 작업을 했음에도 노출이 안돼, 현 웹사이트의 구조적 문제인건지, 뭐가 문제인지 파악하고 싶음",
+          "start_char": 543,
+          "end_char": 627
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bf0b14d5d9c90704",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 팀장님은 출장이 잦아서 우선 박아름 매니저님이 먼저 미팅한 다음, 추가로 팀장님과 2차 미팅 하는 방향으로 진행하길 원하심",
+      "normalized": {
+        "text": "마케팅 팀장님은 출장이 잦아서 우선 박아름 매니저님이 먼저 미팅한 다음, 추가로 팀장님과 2차 미팅 하는 방향으로 진행하길 원하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "마케팅팀 / 매니저"
+          ],
+          "exact_quote": "마케팅 팀장님은 출장이 잦아서 우선 박아름 매니저님이 먼저 미팅한 다음, 추가로 팀장님과 2차 미팅 하는 방향으로 진행하길 원하심",
+          "start_char": 683,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "action_item:5c0a4dc30657ed5e",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

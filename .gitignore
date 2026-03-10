@@ -6,6 +6,10 @@ __pycache__/
 # Python environments
 .venv/
 venv/
+**/.venv/
+**/venv/
+**/*.egg-info/
+**/__pycache__/
 
 # Runtime artifacts
 logs/
@@ -28,3 +32,4 @@ tmp_*
 .DS_Store
 Thumbs.db
 .vscode/
+_cleanup_archive/

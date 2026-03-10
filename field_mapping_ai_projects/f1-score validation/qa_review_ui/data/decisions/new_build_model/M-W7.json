@@ -1,0 +1,257 @@
+{
+  "memo_id": "M-W7",
+  "updated_at": "2026-02-27T05:11:42.318753+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.61) - HITL 권장"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.68) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.64) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+      "normalized": {
+        "text": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+      "start_char": 92,
+      "end_char": 193,
+      "line_no": 2,
+      "line_text": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": "5376",
+      "assigned_field_label": "[N] 상황 및 문제",
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.28)"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+      "normalized": {
+        "text": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+      "start_char": 234,
+      "end_char": 344,
+      "line_no": 5,
+      "line_text": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6004",
+          "label": "소속 조직의 성격",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.18)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+      "normalized": {
+        "text": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+      "start_char": 345,
+      "end_char": 459,
+      "line_no": 6,
+      "line_text": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.32)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+      "normalized": {
+        "text": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+      "start_char": 460,
+      "end_char": 573,
+      "line_no": 7,
+      "line_text": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다. ",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4987",
+          "label": "직원 수",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.37)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@sales",
+      "start_char": 70,
+      "end_char": 76,
+      "line_no": 1,
+      "line_text": "Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 회신 옴!뭔가 가능성이 높아진 느낌을 주는 메일입니다. @sales @안민혁 (minhyuk)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.20)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@안민혁",
+      "start_char": 77,
+      "end_char": 81,
+      "line_no": 1,
+      "line_text": "Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 회신 옴!뭔가 가능성이 높아진 느낌을 주는 메일입니다. @sales @안민혁 (minhyuk)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.00)"
+    }
+  ]
+}

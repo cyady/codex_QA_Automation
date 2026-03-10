@@ -1,0 +1,237 @@
+{
+  "memo_id": "M-W19",
+  "updated_at": "2026-02-26T08:53:28.361751+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "첫 미팅인지 알 수 없음"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "8월 19일",
+      "normalized": {
+        "month": 8,
+        "day": 19
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "8월 19일",
+      "start_char": 6,
+      "end_char": 12,
+      "line_no": 1,
+      "line_text": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "close_date",
+          "label": "close_date",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "19일",
+      "normalized": {
+        "value": 19.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "19일",
+      "start_char": 9,
+      "end_char": 12,
+      "line_no": 1,
+      "line_text": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "deal_name",
+          "label": "deal_name",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치",
+      "start_char": 111,
+      "end_char": 114,
+      "line_no": 1,
+      "line_text": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "normalized": {
+        "text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "워트인텔리전스가 원하는 기능 (딜브레이커)"
+      ],
+      "evidence_quote": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "start_char": 425,
+      "end_char": 487,
+      "line_no": 9,
+      "line_text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "normalized": {
+        "text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "워트인텔리전스가 원하는 기능 (딜브레이커)"
+      ],
+      "evidence_quote": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "start_char": 488,
+      "end_char": 548,
+      "line_no": 10,
+      "line_text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4987",
+          "label": "직원 수",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "normalized": {
+        "text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0014",
+      "evidence_section_path": [
+        "리캐치의 주요 기능 및 한계"
+      ],
+      "evidence_quote": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "start_char": 1544,
+      "end_char": 1631,
+      "line_no": 37,
+      "line_text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6237",
+          "label": "광고성 정보 수신 동의 여부",
+          "type": "select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

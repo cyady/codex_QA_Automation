@@ -1,0 +1,203 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W423",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "약 400만원",
+          "start_char": 100,
+          "end_char": 107
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 123,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 269,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 문제점: 현재는 직원이 바뀔 때마다 영업 이력이 단절되거나, 여러 직원이 중구난방으로 컨택하여 히스토리 파악이 어렵습니다",
+      "normalized": {
+        "text": "• 문제점: 현재는 직원이 바뀔 때마다 영업 이력이 단절되거나, 여러 직원이 중구난방으로 컨택하여 히스토리 파악이 어렵습니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "(1) 영업 히스토리의 통합 관리 및 협업 기능"
+          ],
+          "exact_quote": "• 문제점: 현재는 직원이 바뀔 때마다 영업 이력이 단절되거나, 여러 직원이 중구난방으로 컨택하여 히스토리 파악이 어렵습니다",
+          "start_char": 450,
+          "end_char": 519
+        }
+      ],
+      "dedupe_key": "risk_or_concern:186e49ebd2af5484",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 문제점: '북키즈콘', '올드 트래블' 등 성격이 다른 여러 전시회(프로젝트)를 동시에 진행합니다i.",
+      "normalized": {
+        "text": "• 문제점: '북키즈콘', '올드 트래블' 등 성격이 다른 여러 전시회(프로젝트)를 동시에 진행합니다i.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "(2)프로젝트별 데이터 분리 및 통합 관리"
+          ],
+          "exact_quote": "• 문제점: '북키즈콘', '올드 트래블' 등 성격이 다른 여러 전시회(프로젝트)를 동시에 진행합니다i.",
+          "start_char": 693,
+          "end_char": 751
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0ce40fccc1fbbf47",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 문제점: 아웃바운드 영업(콜드콜) 비중이 높으나, 데이터가 섞여 있어 \"관심 있음\", \"거절\", \"부재중\" 등의 반응을 체계적으로 분석하기 어렵습니다",
+      "normalized": {
+        "text": "• 문제점: 아웃바운드 영업(콜드콜) 비중이 높으나, 데이터가 섞여 있어 \"관심 있음\", \"거절\", \"부재중\" 등의 반응을 체계적으로 분석하기 어렵습니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "(3)텔레마케팅(TM) 성과 시각화 및 가망 고객 선별"
+          ],
+          "exact_quote": "• 문제점: 아웃바운드 영업(콜드콜) 비중이 높으나, 데이터가 섞여 있어 \"관심 있음\", \"거절\", \"부재중\" 등의 반응을 체계적으로 분석하기 어렵습니다",
+          "start_char": 878,
+          "end_char": 963
+        }
+      ],
+      "dedupe_key": "risk_or_concern:50f4fa3c1dad1c0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(4)복잡하지 않은 사용성과 접근성 (UI/UX)"
+          ],
+          "exact_quote": "약 5명",
+          "start_char": 1112,
+          "end_char": 1116
+        }
+      ],
+      "dedupe_key": "team_size:5f3580569c4e019d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "T: 아직 둘러보는 단계. 적극 검토도 시작 안했으니 너무 힘들여서 팔로업하시지 말라고 직접 말씀하심.",
+      "normalized": {
+        "text": "T: 아직 둘러보는 단계. 적극 검토도 시작 안했으니 너무 힘들여서 팔로업하시지 말라고 직접 말씀하심.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "(4)복잡하지 않은 사용성과 접근성 (UI/UX)"
+          ],
+          "exact_quote": "T: 아직 둘러보는 단계. 적극 검토도 시작 안했으니 너무 힘들여서 팔로업하시지 말라고 직접 말씀하심.",
+          "start_char": 1244,
+          "end_char": 1301
+        }
+      ],
+      "dedupe_key": "action_item:cf6b207ef5ac39bf",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

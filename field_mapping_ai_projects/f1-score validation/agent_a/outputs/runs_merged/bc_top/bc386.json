@@ -1,0 +1,157 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W386",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 36,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 11,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 47,
+          "end_char": 50
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 591,
+          "end_char": 594
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 624,
+          "end_char": 627
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "더플레이북 책 전달드림 -> @김한규(Lucky) 손종수 대표님이 전사 직원들 다 읽으라고 했고, 이 책으로 사내 스터디도 할 예정이라고 하심.",
+      "normalized": {
+        "text": "더플레이북 책 전달드림 -> @김한규(Lucky) 손종수 대표님이 전사 직원들 다 읽으라고 했고, 이 책으로 사내 스터디도 할 예정이라고 하심.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "더플레이북 책 전달드림 -> @김한규(Lucky) 손종수 대표님이 전사 직원들 다 읽으라고 했고, 이 책으로 사내 스터디도 할 예정이라고 하심.",
+          "start_char": 70,
+          "end_char": 150
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf37e2374816101e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 86,
+          "end_char": 90
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(민재 답변) 오가닉 만으로는 불가능. 1분기~2분기는 paid도 병행해야 함. 다만 오가닉 트래픽은 바로 올라가는 게 아니기 때문에 paid 하는 동시에 오가닉 트래픽을 위한 작업을 미리 시작해야 함.",
+      "normalized": {
+        "text": "(민재 답변) 오가닉 만으로는 불가능. 1분기~2분기는 paid도 병행해야 함. 다만 오가닉 트래픽은 바로 올라가는 게 아니기 때문에 paid 하는 동시에 오가닉 트래픽을 위한 작업을 미리 시작해야 함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "(민재 답변) 오가닉 만으로는 불가능. 1분기~2분기는 paid도 병행해야 함. 다만 오가닉 트래픽은 바로 올라가는 게 아니기 때문에 paid 하는 동시에 오가닉 트래픽을 위한 작업을 미리 시작해야 함.",
+          "start_char": 416,
+          "end_char": 529
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5aca23d3f89859a2",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

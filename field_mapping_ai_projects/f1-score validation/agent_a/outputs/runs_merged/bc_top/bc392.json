@@ -1,0 +1,147 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W392",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "논티어(35억)_라스컴_SDR콜_251204 cc @sdr이전 회사에서부터 리캐치를 알고 있었기에 리캐치에 대한 온도는 좋지만 N,B,T가 부족 -> 꾸치 필요",
+      "normalized": {
+        "text": "논티어(35억)_라스컴_SDR콜_251204 cc @sdr이전 회사에서부터 리캐치를 알고 있었기에 리캐치에 대한 온도는 좋지만 N,B,T가 부족 -> 꾸치 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "논티어(35억)_라스컴_SDR콜_251204 cc @sdr이전 회사에서부터 리캐치를 알고 있었기에 리캐치에 대한 온도는 좋지만 N,B,T가 부족 -> 꾸치 필요",
+          "start_char": 0,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "action_item:a6097344db1d7cab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr이전",
+      "normalized": {
+        "name": "sdr이전"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr이전",
+          "start_char": 28,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:7affe6db2ac3fb98",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 42,
+          "end_char": 45
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 55,
+          "end_char": 58
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 13,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 29,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 368,
+          "end_char": 371
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 412,
+          "end_char": 415
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 460,
+          "end_char": 463
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

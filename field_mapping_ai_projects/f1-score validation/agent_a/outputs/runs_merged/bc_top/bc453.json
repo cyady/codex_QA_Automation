@@ -1,0 +1,469 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W453",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier 2 세이지(Sage) - 전사 1개월 유료 기능 무료 트라이얼 확정] 260114_미팅 주요 내용",
+      "normalized": {
+        "text": "[Tier 2 세이지(Sage) - 전사 1개월 유료 기능 무료 트라이얼 확정] 260114_미팅 주요 내용",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier 2 세이지(Sage) - 전사 1개월 유료 기능 무료 트라이얼 확정] 260114_미팅 주요 내용",
+          "start_char": 0,
+          "end_char": 60
+        }
+      ],
+      "dedupe_key": "action_item:fdce6f951a75c952",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 23,
+          "end_char": 26
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 156,
+          "end_char": 159
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 365,
+          "end_char": 368
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Level 2 (Solution Fit / Trial): 비전사업부, 모니터링사업부 두 본부 모두 리캐치 도입에 긍정적이며, 즉시 1개월 무료 체험(Trial)을 진행하기로 합의함.",
+      "normalized": {
+        "text": "Level 2 (Solution Fit / Trial): 비전사업부, 모니터링사업부 두 본부 모두 리캐치 도입에 긍정적이며, 즉시 1개월 무료 체험(Trial)을 진행하기로 합의함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "Level 2 (Solution Fit / Trial): 비전사업부, 모니터링사업부 두 본부 모두 리캐치 도입에 긍정적이며, 즉시 1개월 무료 체험(Trial)을 진행하기로 합의함.",
+          "start_char": 83,
+          "end_char": 184
+        }
+      ],
+      "dedupe_key": "action_item:fb320d4a20089d47",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 138,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "약 12 User 규모 구독료 (금액 산정 필요)",
+      "normalized": {
+        "text": "약 12 User 규모 구독료 (금액 산정 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "약 12 User 규모 구독료 (금액 산정 필요)",
+          "start_char": 200,
+          "end_char": 227
+        }
+      ],
+      "dedupe_key": "action_item:5dabeb3ddfcdadd3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 12명",
+      "normalized": {
+        "value": 12,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "약 12명",
+          "start_char": 255,
+          "end_char": 260
+        }
+      ],
+      "dedupe_key": "team_size:b43ce2ba70e7752c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "트라이얼 종료 후 정식 도입 시 Seat당 단가 적용 예정.",
+      "normalized": {
+        "text": "트라이얼 종료 후 정식 도입 시 Seat당 단가 적용 예정.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "트라이얼 종료 후 정식 도입 시 Seat당 단가 적용 예정.",
+          "start_char": 271,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "collaboration_need:7011fdd64351dbf5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "재영님과 소통하여 총 12분께 초대 링크 발송 및 온보딩 지원.",
+      "normalized": {
+        "text": "재영님과 소통하여 총 12분께 초대 링크 발송 및 온보딩 지원.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "재영님과 소통하여 총 12분께 초대 링크 발송 및 온보딩 지원.",
+          "start_char": 326,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "action_item:56f27bac5e5142b1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이메일 연동 부재: 슬랙 알림은 가능하나, 아직 이메일 직접 연동 기능은 개발 예정 단계임 (대표님이 질문함).",
+      "normalized": {
+        "text": "이메일 연동 부재: 슬랙 알림은 가능하나, 아직 이메일 직접 연동 기능은 개발 예정 단계임 (대표님이 질문함).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "이메일 연동 부재: 슬랙 알림은 가능하나, 아직 이메일 직접 연동 기능은 개발 예정 단계임 (대표님이 질문함).",
+          "start_char": 623,
+          "end_char": 685
+        }
+      ],
+      "dedupe_key": "risk_or_concern:42154ef6a0ac6007",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 12명",
+      "normalized": {
+        "value": 12,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "약 12명",
+          "start_char": 715,
+          "end_char": 720
+        }
+      ],
+      "dedupe_key": "people_count:b43ce2ba70e7752c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "Influencer"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 748,
+          "end_char": 751
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드를 각 사업부로 자동 배분하고 파이프라인을 관리해야 하는 주체로서 도입 의지가 강함.",
+      "normalized": {
+        "text": "리드를 각 사업부로 자동 배분하고 파이프라인을 관리해야 하는 주체로서 도입 의지가 강함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Leader: 대표님"
+          ],
+          "exact_quote": "리드를 각 사업부로 자동 배분하고 파이프라인을 관리해야 하는 주체로서 도입 의지가 강함.",
+          "start_char": 962,
+          "end_char": 1011
+        }
+      ],
+      "dedupe_key": "collaboration_need:30bb3bf22ad49587",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드 자동 배분: 홈페이지 문의를 비전/모니터링 사업부로 자동 분류하여 담당자에게 배정하는 자동화 니즈.",
+      "normalized": {
+        "text": "리드 자동 배분: 홈페이지 문의를 비전/모니터링 사업부로 자동 분류하여 담당자에게 배정하는 자동화 니즈.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "리드 자동 배분: 홈페이지 문의를 비전/모니터링 사업부로 자동 분류하여 담당자에게 배정하는 자동화 니즈.",
+          "start_char": 1240,
+          "end_char": 1298
+        }
+      ],
+      "dedupe_key": "collaboration_need:3897ee93c855105e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "데이터 입력 자동화: 노션 수기 입력의 번거로움 해소 및 기업 정보(매출, 인원 등) 자동 확보 니즈.",
+      "normalized": {
+        "text": "데이터 입력 자동화: 노션 수기 입력의 번거로움 해소 및 기업 정보(매출, 인원 등) 자동 확보 니즈.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "데이터 입력 자동화: 노션 수기 입력의 번거로움 해소 및 기업 정보(매출, 인원 등) 자동 확보 니즈.",
+          "start_char": 1302,
+          "end_char": 1359
+        }
+      ],
+      "dedupe_key": "collaboration_need:7c2e1e40a016c151",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+      "normalized": {
+        "text": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+          "start_char": 1363,
+          "end_char": 1402
+        }
+      ],
+      "dedupe_key": "collaboration_need:3d75d5e350d9c30a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+      "normalized": {
+        "text": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "세일즈 포캐스팅: 딜 진행 상황 및 예상 매출을 한눈에 파악하고자 함.",
+          "start_char": 1363,
+          "end_char": 1402
+        }
+      ],
+      "dedupe_key": "action_item:eefa0f364408fa96",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콜드메일/팔로업 효율화: AI 메일 작성(리메일) 기능에 대한 관심 높음.",
+      "normalized": {
+        "text": "콜드메일/팔로업 효율화: AI 메일 작성(리메일) 기능에 대한 관심 높음.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "콜드메일/팔로업 효율화: AI 메일 작성(리메일) 기능에 대한 관심 높음.",
+          "start_char": 1406,
+          "end_char": 1447
+        }
+      ],
+      "dedupe_key": "collaboration_need:8ddeb7447d798ded",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 14일",
+      "normalized": {
+        "month": 1,
+        "day": 14
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "1월 14일",
+          "start_char": 1481,
+          "end_char": 1487
+        }
+      ],
+      "dedupe_key": "timeline:5574505909aeb2a0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "14일",
+      "normalized": {
+        "value": 14.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "14일",
+          "start_char": 1484,
+          "end_char": 1487
+        }
+      ],
+      "dedupe_key": "duration:f8b076e35002e801",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W535",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[티어2 이투마스 - 잠재매출 600만원 +(컨시어지온보딩 400만원)] 260212_CRM 계약 구두컨펌. (레벨4 인상) + 그로스패키지 추가 기회 메일 회신@sales",
+      "normalized": {
+        "text": "[티어2 이투마스 - 잠재매출 600만원 +(컨시어지온보딩 400만원)] 260212_CRM 계약 구두컨펌. (레벨4 인상) + 그로스패키지 추가 기회 메일 회신@sales",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어2 이투마스 - 잠재매출 600만원 +(컨시어지온보딩 400만원)] 260212_CRM 계약 구두컨펌. (레벨4 인상) + 그로스패키지 추가 기회 메일 회신@sales",
+          "start_char": 0,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "action_item:01d5e606448354aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 90,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 17,
+          "end_char": 22
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 33,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 118,
+          "end_char": 121
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 343,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기쁜 소식 공유해주셔서 감사합니다.",
+      "normalized": {
+        "text": "기쁜 소식 공유해주셔서 감사합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "기쁜 소식 공유해주셔서 감사합니다.",
+          "start_char": 131,
+          "end_char": 150
+        }
+      ],
+      "dedupe_key": "collaboration_need:af5d9b49e362b159",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청 주신 사항에 대해 아래와 같이 회신 드립니다.",
+      "normalized": {
+        "text": "요청 주신 사항에 대해 아래와 같이 회신 드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "요청 주신 사항에 대해 아래와 같이 회신 드립니다.",
+          "start_char": 151,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "action_item:f4b7e58e19f7a569",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-어렵다면 26일(목요일) 오전 시간도 좋습니다-!",
+      "normalized": {
+        "text": "-어렵다면 26일(목요일) 오전 시간도 좋습니다-!",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "-어렵다면 26일(목요일) 오전 시간도 좋습니다-!",
+          "start_char": 229,
+          "end_char": 257
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c3fcd27fb0531f73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "-3월 첫 주에 해외 출장으로 쭉 자리를 비우는 관계로, 꼭 수요일 또는 목요일에 뵙길 희망합니다. 아쉽게도 월-화는 모두 일정이 풀이네요 ㅠㅠ",
+      "normalized": {
+        "text": "-3월 첫 주에 해외 출장으로 쭉 자리를 비우는 관계로, 꼭 수요일 또는 목요일에 뵙길 희망합니다. 아쉽게도 월-화는 모두 일정이 풀이네요 ㅠㅠ",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "-3월 첫 주에 해외 출장으로 쭉 자리를 비우는 관계로, 꼭 수요일 또는 목요일에 뵙길 희망합니다. 아쉽게도 월-화는 모두 일정이 풀이네요 ㅠㅠ",
+          "start_char": 258,
+          "end_char": 338
+        }
+      ],
+      "dedupe_key": "collaboration_need:5b7b557b820607ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "26일",
+      "normalized": {
+        "value": 26.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "26일",
+          "start_char": 235,
+          "end_char": 238
+        }
+      ],
+      "dedupe_key": "duration:89b2b7b0d4104c51",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-내부 검토를 보다 면밀히 진행하시기 위해서는 단순 견적서뿐만 아니라 지난 오프라인 미팅 때 구두로 설명드렸던 [현황 진단 및 해결책]이 기술된 제안서가 함께 필요하실 것으로 생각합니다.",
+      "normalized": {
+        "text": "-내부 검토를 보다 면밀히 진행하시기 위해서는 단순 견적서뿐만 아니라 지난 오프라인 미팅 때 구두로 설명드렸던 [현황 진단 및 해결책]이 기술된 제안서가 함께 필요하실 것으로 생각합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "-내부 검토를 보다 면밀히 진행하시기 위해서는 단순 견적서뿐만 아니라 지난 오프라인 미팅 때 구두로 설명드렸던 [현황 진단 및 해결책]이 기술된 제안서가 함께 필요하실 것으로 생각합니다.",
+          "start_char": 358,
+          "end_char": 462
+        }
+      ],
+      "dedupe_key": "action_item:a1ce842f455a4973",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 이에 견적서만 전달드리기보다는, 귀사 상황에 맞춘 맞춤형 제안서를 제작해 설 연휴 이후 송부드리겠습니다. 제안서를 기반으로 내부 검토를 진행하실 수 있도록 지원해, 팀장님의 소통 코스트를 줄여드리겠습니다.",
+      "normalized": {
+        "text": "- 이에 견적서만 전달드리기보다는, 귀사 상황에 맞춘 맞춤형 제안서를 제작해 설 연휴 이후 송부드리겠습니다. 제안서를 기반으로 내부 검토를 진행하실 수 있도록 지원해, 팀장님의 소통 코스트를 줄여드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "- 이에 견적서만 전달드리기보다는, 귀사 상황에 맞춘 맞춤형 제안서를 제작해 설 연휴 이후 송부드리겠습니다. 제안서를 기반으로 내부 검토를 진행하실 수 있도록 지원해, 팀장님의 소통 코스트를 줄여드리겠습니다.",
+          "start_char": 463,
+          "end_char": 579
+        }
+      ],
+      "dedupe_key": "action_item:415ba2a1a48f6078",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다시 한 번 긍정적인 검토 감사드립니다 :)",
+      "normalized": {
+        "text": "다시 한 번 긍정적인 검토 감사드립니다 :)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "다시 한 번 긍정적인 검토 감사드립니다 :)",
+          "start_char": 581,
+          "end_char": 605
+        }
+      ],
+      "dedupe_key": "action_item:3168e5c72e805391",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "편안한 설 연휴 되시길 바라며, 위 2개 사항에 대해 편히 회신 부탁드립니다!",
+      "normalized": {
+        "text": "편안한 설 연휴 되시길 바라며, 위 2개 사항에 대해 편히 회신 부탁드립니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "편안한 설 연휴 되시길 바라며, 위 2개 사항에 대해 편히 회신 부탁드립니다!",
+          "start_char": 606,
+          "end_char": 649
+        }
+      ],
+      "dedupe_key": "action_item:73092c5a72000119",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "-혹 25일(수요일) 오후 3시 이후 시간대도 괜찮으실까요-?"
+          ],
+          "exact_quote": "2개",
+          "start_char": 626,
+          "end_char": 628
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

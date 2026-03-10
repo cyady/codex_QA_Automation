@@ -1,0 +1,511 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W538",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **미팅 목적**: 리케치 CRM과 영림원 ERP의 연동 방식, 프로젝트 진행 절차, 비용 구조 및 파트너십 모델에 대한 전문가 조언 확보",
+      "normalized": {
+        "text": "*   **미팅 목적**: 리케치 CRM과 영림원 ERP의 연동 방식, 프로젝트 진행 절차, 비용 구조 및 파트너십 모델에 대한 전문가 조언 확보",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **미팅 목적**: 리케치 CRM과 영림원 ERP의 연동 방식, 프로젝트 진행 절차, 비용 구조 및 파트너십 모델에 대한 전문가 조언 확보",
+          "start_char": 108,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "action_item:81fa57559c8b8a78",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **전체적인 흐름**: 영림원 ERP의 제품군별 연동 가능성 검토 → 주요 타겟 고객사(드림칩, 위존) 현황 공유 → 연동 개발 비용 및 유지보수 정책 확인 → 향후 영업 협력 프로세스 정립",
+      "normalized": {
+        "text": "*   **전체적인 흐름**: 영림원 ERP의 제품군별 연동 가능성 검토 → 주요 타겟 고객사(드림칩, 위존) 현황 공유 → 연동 개발 비용 및 유지보수 정책 확인 → 향후 영업 협력 프로세스 정립",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **전체적인 흐름**: 영림원 ERP의 제품군별 연동 가능성 검토 → 주요 타겟 고객사(드림칩, 위존) 현황 공유 → 연동 개발 비용 및 유지보수 정책 확인 → 향후 영업 협력 프로세스 정립",
+          "start_char": 190,
+          "end_char": 300
+        }
+      ],
+      "dedupe_key": "action_item:7f3985f38626c564",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **연구소 주도 패키징**: 영림원 본사 연구소에서 공식 연동 패키지를 만들려면 최소 3~4개 이상의 고객사 레퍼런스가 확보되어야 함. 현재는 개별 연동으로 진행해야 하는 단계임.",
+      "normalized": {
+        "text": "*   **연구소 주도 패키징**: 영림원 본사 연구소에서 공식 연동 패키지를 만들려면 최소 3~4개 이상의 고객사 레퍼런스가 확보되어야 함. 현재는 개별 연동으로 진행해야 하는 단계임.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " [연동 주체 및 패키징 조건]"
+          ],
+          "exact_quote": "*   **연구소 주도 패키징**: 영림원 본사 연구소에서 공식 연동 패키지를 만들려면 최소 3~4개 이상의 고객사 레퍼런스가 확보되어야 함. 현재는 개별 연동으로 진행해야 하는 단계임.",
+          "start_char": 746,
+          "end_char": 850
+        }
+      ],
+      "dedupe_key": "action_item:6d75812f6b98c282",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "3~4개",
+      "normalized": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " [연동 주체 및 패키징 조건]"
+          ],
+          "exact_quote": "3~4개",
+          "start_char": 798,
+          "end_char": 802
+        }
+      ],
+      "dedupe_key": "case_metric:e7d94c51232374af",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **Q (리케치)**: \"영림원 연구소와 직접 연동 개발을 진행할 수 있나요?\"",
+      "normalized": {
+        "text": "*   **Q (리케치)**: \"영림원 연구소와 직접 연동 개발을 진행할 수 있나요?\"",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " [질의응답 요약]"
+          ],
+          "exact_quote": "*   **Q (리케치)**: \"영림원 연구소와 직접 연동 개발을 진행할 수 있나요?\"",
+          "start_char": 963,
+          "end_char": 1011
+        }
+      ],
+      "dedupe_key": "action_item:8d37345c1a557607",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **A (전문가)**: \"연구소는 항상 바쁘기 때문에 새로운 스케줄을 바로 넣어주지 않습니다. 현재로서는 개별 연동을 진행해야 하며, 각 고객사를 관리하는 주체(파트너사 등)와 직접 소통해야 합니다.\"",
+      "normalized": {
+        "text": "*   **A (전문가)**: \"연구소는 항상 바쁘기 때문에 새로운 스케줄을 바로 넣어주지 않습니다. 현재로서는 개별 연동을 진행해야 하며, 각 고객사를 관리하는 주체(파트너사 등)와 직접 소통해야 합니다.\"",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " [질의응답 요약]"
+          ],
+          "exact_quote": "*   **A (전문가)**: \"연구소는 항상 바쁘기 때문에 새로운 스케줄을 바로 넣어주지 않습니다. 현재로서는 개별 연동을 진행해야 하며, 각 고객사를 관리하는 주체(파트너사 등)와 직접 소통해야 합니다.\"",
+          "start_char": 1012,
+          "end_char": 1128
+        }
+      ],
+      "dedupe_key": "action_item:c9e12ce9625b973e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**연동 경험 부족**: 리케치 측은 영림원 ERP와의 연동 프로젝트가 처음이라 구체적인 프로세스와 기술적 제약 사항에 대한 가이드가 절실한 상황임.",
+      "normalized": {
+        "text": "**연동 경험 부족**: 리케치 측은 영림원 ERP와의 연동 프로젝트가 처음이라 구체적인 프로세스와 기술적 제약 사항에 대한 가이드가 절실한 상황임."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**연동 경험 부족**: 리케치 측은 영림원 ERP와의 연동 프로젝트가 처음이라 구체적인 프로세스와 기술적 제약 사항에 대한 가이드가 절실한 상황임.",
+          "start_char": 1152,
+          "end_char": 1235
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2c6812f15f3603ab",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**고객사의 연동 요구**:",
+      "normalized": {
+        "text": "**고객사의 연동 요구**:"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**고객사의 연동 요구**:",
+          "start_char": 1240,
+          "end_char": 1255
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d716cd45dd99c4be",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**드림칩(부품 유통사)**: 매출 600억 대의 강소기업으로, 재고 관리(SCM)와 주문 발주 시스템이 ERP와 연동되기를 강력히 원함.",
+      "normalized": {
+        "text": "**드림칩(부품 유통사)**: 매출 600억 대의 강소기업으로, 재고 관리(SCM)와 주문 발주 시스템이 ERP와 연동되기를 강력히 원함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**드림칩(부품 유통사)**: 매출 600억 대의 강소기업으로, 재고 관리(SCM)와 주문 발주 시스템이 ERP와 연동되기를 강력히 원함.",
+          "start_char": 1265,
+          "end_char": 1342
+        }
+      ],
+      "dedupe_key": "risk_or_concern:db2d8dd666f0fa7c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**위존**: 이미 리케치를 사용 중이며, 다음 단계(Next Phase)로 ERP 연동을 요구하고 있음.",
+      "normalized": {
+        "text": "**위존**: 이미 리케치를 사용 중이며, 다음 단계(Next Phase)로 ERP 연동을 요구하고 있음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**위존**: 이미 리케치를 사용 중이며, 다음 단계(Next Phase)로 ERP 연동을 요구하고 있음.",
+          "start_char": 1351,
+          "end_char": 1410
+        }
+      ],
+      "dedupe_key": "risk_or_concern:417e833698d2362d",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**비용 산정의 어려움**: 고객사에게 연동 견적을 제시해야 하나, Man-day 단가나 유지보수 요율에 대한 기준이 없어 제안에 어려움을 겪고 있음.",
+      "normalized": {
+        "text": "**비용 산정의 어려움**: 고객사에게 연동 견적을 제시해야 하나, Man-day 단가나 유지보수 요율에 대한 기준이 없어 제안에 어려움을 겪고 있음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**비용 산정의 어려움**: 고객사에게 연동 견적을 제시해야 하나, Man-day 단가나 유지보수 요율에 대한 기준이 없어 제안에 어려움을 겪고 있음.",
+          "start_char": 1415,
+          "end_char": 1499
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7b552f71ee203400",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 70만 원",
+      "normalized": {
+        "value": 700000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "약 70만 원",
+          "start_char": 1625,
+          "end_char": 1632
+        }
+      ],
+      "dedupe_key": "budget:49d8bc1c037f826f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **기존 ERP 고객**: 이미 파트너사가 지정되어 있으므로 리케치가 직접 연동 견적을 내거나 파트너사와 협업하여 진행.",
+      "normalized": {
+        "text": "*   **기존 ERP 고객**: 이미 파트너사가 지정되어 있으므로 리케치가 직접 연동 견적을 내거나 파트너사와 협업하여 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "*   **기존 ERP 고객**: 이미 파트너사가 지정되어 있으므로 리케치가 직접 연동 견적을 내거나 파트너사와 협업하여 진행.",
+          "start_char": 1737,
+          "end_char": 1808
+        }
+      ],
+      "dedupe_key": "action_item:29dbcbb9a4eb3e18",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **신규 ERP 도입 고객**: 리케치가 영림원 ERP 도입을 소개할 경우, 이에 따른 영업 수수료(정산) 논의가 가능함.",
+      "normalized": {
+        "text": "*   **신규 ERP 도입 고객**: 리케치가 영림원 ERP 도입을 소개할 경우, 이에 따른 영업 수수료(정산) 논의가 가능함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "*   **신규 ERP 도입 고객**: 리케치가 영림원 ERP 도입을 소개할 경우, 이에 따른 영업 수수료(정산) 논의가 가능함.",
+          "start_char": 1813,
+          "end_char": 1885
+        }
+      ],
+      "dedupe_key": "collaboration_need:36f6dd5c796fb312",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**고객사 ERP 버전 파악 (리케치 담당자)**: 오늘 예정된 드림칩 미팅에서 사용 중인 영림원 ERP 버전(Ace, SCF, Ever 중 무엇인지)과 사스(SaaS) 형태 여부를 반드시 확인할 것.",
+      "normalized": {
+        "text": "**고객사 ERP 버전 파악 (리케치 담당자)**: 오늘 예정된 드림칩 미팅에서 사용 중인 영림원 ERP 버전(Ace, SCF, Ever 중 무엇인지)과 사스(SaaS) 형태 여부를 반드시 확인할 것."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**고객사 ERP 버전 파악 (리케치 담당자)**: 오늘 예정된 드림칩 미팅에서 사용 중인 영림원 ERP 버전(Ace, SCF, Ever 중 무엇인지)과 사스(SaaS) 형태 여부를 반드시 확인할 것.",
+          "start_char": 1911,
+          "end_char": 2023
+        }
+      ],
+      "dedupe_key": "action_item:6ea634a9606e00bf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함.",
+      "normalized": {
+        "text": "**고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함.",
+          "start_char": 2028,
+          "end_char": 2125
+        }
+      ],
+      "dedupe_key": "action_item:f6286ec442737eaf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함.",
+      "normalized": {
+        "text": "*   **고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **고객사 관리 주체 확인 (G2J 대표)**: 리케치 측에서 드림칩과 위존의 사업자 정보를 공유하면, 영림원 내부망을 통해 현재 관리 파트너사가 어디인지 확인해 주기로 함.",
+          "start_char": 2024,
+          "end_char": 2125
+        }
+      ],
+      "dedupe_key": "collaboration_need:1dc26b30f5f410d4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음.",
+      "normalized": {
+        "text": "**연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음.",
+          "start_char": 2130,
+          "end_char": 2242
+        }
+      ],
+      "dedupe_key": "action_item:fcf3e6ed978340b7",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음.",
+      "normalized": {
+        "text": "*   **연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **연동 견적 프로세스**: 구체적인 연동 범위(Scope)가 나오면 내부 개발팀과 협의하여 견적을 산출하기로 함. 리케치 측도 자사 API 개발 비용을 포함하여 고객에게 통합 견적을 제시할 수 있음.",
+          "start_char": 2126,
+          "end_char": 2242
+        }
+      ],
+      "dedupe_key": "collaboration_need:f1a62fef936c8f70",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**후속 연락 채널**: 영림원 고객가치팀의 영업 담당자(4명) 중 적합한 인물을 G2J 대표가 매칭하여 리케치 측에 소개해 주기로 합의함.",
+      "normalized": {
+        "text": "**후속 연락 채널**: 영림원 고객가치팀의 영업 담당자(4명) 중 적합한 인물을 G2J 대표가 매칭하여 리케치 측에 소개해 주기로 합의함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**후속 연락 채널**: 영림원 고객가치팀의 영업 담당자(4명) 중 적합한 인물을 G2J 대표가 매칭하여 리케치 측에 소개해 주기로 합의함.",
+          "start_char": 2247,
+          "end_char": 2325
+        }
+      ],
+      "dedupe_key": "action_item:2ea6387838709595",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "4명",
+      "normalized": {
+        "value": 4,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "4명",
+          "start_char": 2279,
+          "end_char": 2281
+        }
+      ],
+      "dedupe_key": "team_size:be10403e5a840b94",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

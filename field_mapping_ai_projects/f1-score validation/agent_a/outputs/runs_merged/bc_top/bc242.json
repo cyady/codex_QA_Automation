@@ -1,0 +1,238 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W242",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 8,
+          "end_char": 11
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 257,
+          "end_char": 260
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1. API 및 기술 연동 (가장 큰 우려)",
+      "normalized": {
+        "text": "1. API 및 기술 연동 (가장 큰 우려)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "1. API 및 기술 연동 (가장 큰 우려)",
+          "start_char": 82,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b181b6663dd42627",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소프트웨어 고객 관리: 소프트웨어 고객사가 많으나, 라이센스 관리는 수동으로 처리하고 있으며, 서버 연동은 커스텀 서비스로 개발팀과 논의가 필요하다.",
+      "normalized": {
+        "text": "소프트웨어 고객 관리: 소프트웨어 고객사가 많으나, 라이센스 관리는 수동으로 처리하고 있으며, 서버 연동은 커스텀 서비스로 개발팀과 논의가 필요하다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "소프트웨어 고객 관리: 소프트웨어 고객사가 많으나, 라이센스 관리는 수동으로 처리하고 있으며, 서버 연동은 커스텀 서비스로 개발팀과 논의가 필요하다.",
+          "start_char": 162,
+          "end_char": 245
+        }
+      ],
+      "dedupe_key": "action_item:7b7172929c9d493b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 617,
+          "end_char": 622
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "3명",
+          "start_char": 624,
+          "end_char": 626
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2만 원",
+      "normalized": {
+        "value": 20000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "2만 원",
+          "start_char": 691,
+          "end_char": 695
+        }
+      ],
+      "dedupe_key": "budget:19daf3b223e28ae2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스 패키지 가격: 정액제가 아니며, 프로젝트 범위에 따라 상의한다. 전체 프로젝트는 1억 원에 육박할 수 있고, 블로그만 진행 시 수천만 원 수준이다.",
+      "normalized": {
+        "text": "그로스 패키지 가격: 정액제가 아니며, 프로젝트 범위에 따라 상의한다. 전체 프로젝트는 1억 원에 육박할 수 있고, 블로그만 진행 시 수천만 원 수준이다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "그로스 패키지 가격: 정액제가 아니며, 프로젝트 범위에 따라 상의한다. 전체 프로젝트는 1억 원에 육박할 수 있고, 블로그만 진행 시 수천만 원 수준이다.",
+          "start_char": 713,
+          "end_char": 799
+        }
+      ],
+      "dedupe_key": "action_item:bce84807ff235f8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 762,
+          "end_char": 766
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "높은 요구사항 수준"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 778,
+          "end_char": 781
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

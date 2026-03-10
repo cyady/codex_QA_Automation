@@ -1,0 +1,484 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W526",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "720만원",
+      "normalized": {
+        "value": 7200000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "720만원",
+          "start_char": 15,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "720만원",
+          "start_char": 172,
+          "end_char": 177
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "약 720만원",
+          "start_char": 728,
+          "end_char": 735
+        }
+      ],
+      "dedupe_key": "budget:7e9c477f14c7ea9f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 조직 정비 완료 후 솔루션 도입 적극 검토 중",
+      "normalized": {
+        "text": "내부 조직 정비 완료 후 솔루션 도입 적극 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "내부 조직 정비 완료 후 솔루션 도입 적극 검토 중",
+          "start_char": 66,
+          "end_char": 94
+        }
+      ],
+      "dedupe_key": "action_item:339efd4796745772",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구체적인 사용 인원(5명) 확정 및 견적 문의",
+      "normalized": {
+        "text": "구체적인 사용 인원(5명) 확정 및 견적 문의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "구체적인 사용 인원(5명) 확정 및 견적 문의",
+          "start_char": 98,
+          "end_char": 123
+        }
+      ],
+      "dedupe_key": "action_item:aed7b1f6c8d96256",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 109,
+          "end_char": 111
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "User"
+          ],
+          "exact_quote": "5명",
+          "start_char": 452,
+          "end_char": 454
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "60만원",
+          "start_char": 181,
+          "end_char": 185
+        }
+      ],
+      "dedupe_key": "budget:56f8121aedea73d8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "월결제 가능성도 존재함"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 265,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "맹그로브: 설 연휴 이후 차주 목~금요일경 내부 논의 및 의사결정 진행",
+      "normalized": {
+        "text": "맹그로브: 설 연휴 이후 차주 목~금요일경 내부 논의 및 의사결정 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "월결제 가능성도 존재함"
+          ],
+          "exact_quote": "맹그로브: 설 연휴 이후 차주 목~금요일경 내부 논의 및 의사결정 진행",
+          "start_char": 314,
+          "end_char": 353
+        }
+      ],
+      "dedupe_key": "action_item:74c0299a3b5116e5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "월결제 가능성도 존재함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 357,
+          "end_char": 360
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Influencer"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 518,
+          "end_char": 521
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정원석님 (내부 조직 개편 상황 공유 및 신사업 확장에 따른 CRM 도입 필요성 역설).",
+      "normalized": {
+        "text": "정원석님 (내부 조직 개편 상황 공유 및 신사업 확장에 따른 CRM 도입 필요성 역설).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Leader"
+          ],
+          "exact_quote": "정원석님 (내부 조직 개편 상황 공유 및 신사업 확장에 따른 CRM 도입 필요성 역설).",
+          "start_char": 584,
+          "end_char": 633
+        }
+      ],
+      "dedupe_key": "action_item:54acea09f12bb321",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "정원석님(실제 도입 시기 및 견적 확인, 내부 보고 준비).",
+      "normalized": {
+        "text": "정원석님(실제 도입 시기 및 견적 확인, 내부 보고 준비).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Driver"
+          ],
+          "exact_quote": "정원석님(실제 도입 시기 및 견적 확인, 내부 보고 준비).",
+          "start_char": 648,
+          "end_char": 681
+        }
+      ],
+      "dedupe_key": "collaboration_need:223257f78823340b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객 데이터 통합: 지점별, B2B/B2C(외국인, 멤버십, 임대인 등)로 파편화된 고객 정보를 한곳에서 관리하고 싶음.",
+      "normalized": {
+        "text": "고객 데이터 통합: 지점별, B2B/B2C(외국인, 멤버십, 임대인 등)로 파편화된 고객 정보를 한곳에서 관리하고 싶음.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "고객 데이터 통합: 지점별, B2B/B2C(외국인, 멤버십, 임대인 등)로 파편화된 고객 정보를 한곳에서 관리하고 싶음.",
+          "start_char": 888,
+          "end_char": 955
+        }
+      ],
+      "dedupe_key": "collaboration_need:eb46741485a8b15a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+      "normalized": {
+        "text": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+          "start_char": 959,
+          "end_char": 1043
+        }
+      ],
+      "dedupe_key": "collaboration_need:e890798f5ad8d8ba",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+      "normalized": {
+        "text": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "마케팅 자동화: 신규 사업(임대인 위탁 운영) 확장을 위해 잠재 고객(MQL)을 리드 너처링하여 실제 계약(SQL)으로 전환하는 파이프라인 구축 필요.",
+          "start_char": 959,
+          "end_char": 1043
+        }
+      ],
+      "dedupe_key": "action_item:61f2966bbb372ac4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 998,
+          "end_char": 1001
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "SQL",
+      "normalized": {
+        "keyword": "SQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "SQL",
+          "start_char": 1019,
+          "end_char": 1022
+        }
+      ],
+      "dedupe_key": "kpi_definition:5851e96d79a2bc41",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+      "normalized": {
+        "text": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+          "start_char": 1047,
+          "end_char": 1107
+        }
+      ],
+      "dedupe_key": "collaboration_need:d8b8ce7c1c02959d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+      "normalized": {
+        "text": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "업무 효율화: 기존 수동 관리(엑셀, 타이폼)에서 벗어나 폼 데이터 자동 연동 및 이메일 발송 자동화 희망.",
+          "start_char": 1047,
+          "end_char": 1107
+        }
+      ],
+      "dedupe_key": "action_item:81f5c239d4aaeaeb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 조직 정비가 완료된 시점으로, 설 연휴 직후(차주 말) 도입 여부 결정 예정. 즉시 도입 가능성 있음",
+      "normalized": {
+        "text": "내부 조직 정비가 완료된 시점으로, 설 연휴 직후(차주 말) 도입 여부 결정 예정. 즉시 도입 가능성 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "내부 조직 정비가 완료된 시점으로, 설 연휴 직후(차주 말) 도입 여부 결정 예정. 즉시 도입 가능성 있음",
+          "start_char": 1122,
+          "end_char": 1181
+        }
+      ],
+      "dedupe_key": "collaboration_need:d94b238307e12010",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

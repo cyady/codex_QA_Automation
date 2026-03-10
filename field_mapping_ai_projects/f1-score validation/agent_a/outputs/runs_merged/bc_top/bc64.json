@@ -1,0 +1,264 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W64",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "신사업 '팝플리'와 기존 IMC 사이 균형 잡기가 필요",
+      "normalized": {
+        "text": "신사업 '팝플리'와 기존 IMC 사이 균형 잡기가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "신사업 '팝플리'와 기존 IMC 사이 균형 잡기가 필요",
+          "start_char": 44,
+          "end_char": 74
+        }
+      ],
+      "dedupe_key": "action_item:88e0b959553c4bbb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지금까지는 따로 SDR 없이 문의가 들어오면 실장님과 팀원 1명이 직접 1차 상담을 진행하고 있었음",
+      "normalized": {
+        "text": "지금까지는 따로 SDR 없이 문의가 들어오면 실장님과 팀원 1명이 직접 1차 상담을 진행하고 있었음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "지금까지는 따로 SDR 없이 문의가 들어오면 실장님과 팀원 1명이 직접 1차 상담을 진행하고 있었음",
+          "start_char": 300,
+          "end_char": 355
+        }
+      ],
+      "dedupe_key": "action_item:8d5eab81642246b1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "지라 활용 중이지만 100% 만족스럽진 않아 전문 서비스인 리캐치를 도입해볼까 고민 중",
+      "normalized": {
+        "text": "지라 활용 중이지만 100% 만족스럽진 않아 전문 서비스인 리캐치를 도입해볼까 고민 중",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "지라 활용 중이지만 100% 만족스럽진 않아 전문 서비스인 리캐치를 도입해볼까 고민 중",
+          "start_char": 550,
+          "end_char": 598
+        }
+      ],
+      "dedupe_key": "collaboration_need:f5c8466d061233a5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "1명",
+          "start_char": 333,
+          "end_char": 335
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "1명",
+          "start_char": 435,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 583,
+          "end_char": 586
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 616,
+          "end_char": 619
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 643,
+          "end_char": 646
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 693,
+          "end_char": 696
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1059,
+          "end_char": 1062
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 287,
+          "end_char": 290
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 309,
+          "end_char": 312
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 366,
+          "end_char": 369
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 420,
+          "end_char": 423
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 824,
+          "end_char": 827
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 839,
+          "end_char": 842
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 865,
+          "end_char": 868
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[이너스커뮤니티 현 상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1126,
+          "end_char": 1129
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

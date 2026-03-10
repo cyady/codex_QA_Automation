@@ -1,0 +1,213 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W425",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "17.9",
+      "normalized": {
+        "year": 2017,
+        "month": 9,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "17.9",
+          "start_char": 4,
+          "end_char": 8
+        }
+      ],
+      "dedupe_key": "timeline:0492230caa318834",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100억 원",
+      "normalized": {
+        "value": 10000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "비즈니스 프로세스"
+          ],
+          "exact_quote": "100억 원",
+          "start_char": 114,
+          "end_char": 120
+        }
+      ],
+      "dedupe_key": "budget:61e43b68a8a35e70",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "팀 특성"
+          ],
+          "exact_quote": "10명",
+          "start_char": 391,
+          "end_char": 394
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "10명",
+          "start_char": 1064,
+          "end_char": 1067
+        }
+      ],
+      "dedupe_key": "people_count:650538adf940c376",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 활동이 거의 없어 마케팅 CRM은 불필요하며, 세일즈 CRM 베이직 플랜 위주로 검토 중",
+      "normalized": {
+        "text": "마케팅 활동이 거의 없어 마케팅 CRM은 불필요하며, 세일즈 CRM 베이직 플랜 위주로 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "팀 특성"
+          ],
+          "exact_quote": "마케팅 활동이 거의 없어 마케팅 CRM은 불필요하며, 세일즈 CRM 베이직 플랜 위주로 검토 중",
+          "start_char": 417,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "action_item:e8445362dd95da4b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM을 직접 사용할 영업팀 소속은 아니며, 먼저 툴 검토 및 타당성 확인 후 승인 받아 영업팀에 전파하려 하심",
+      "normalized": {
+        "text": "CRM을 직접 사용할 영업팀 소속은 아니며, 먼저 툴 검토 및 타당성 확인 후 승인 받아 영업팀에 전파하려 하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "CRM을 직접 사용할 영업팀 소속은 아니며, 먼저 툴 검토 및 타당성 확인 후 승인 받아 영업팀에 전파하려 하심",
+          "start_char": 770,
+          "end_char": 832
+        }
+      ],
+      "dedupe_key": "action_item:f732b6b9badad352",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "c.f) 영업팀도 미팅에 참여하면 좋을 것 같아서 '영업팀에서 CRM 도입을 반대하는 경우도 있더라구요' 밑밥 깔았더니 그건 일단 본인이 검토한 다음에 진행할 부분이고, 영업사원들 대부분 CRM 사용 경험 있어서 큰 문제 없을거라 하심",
+      "normalized": {
+        "text": "c.f) 영업팀도 미팅에 참여하면 좋을 것 같아서 '영업팀에서 CRM 도입을 반대하는 경우도 있더라구요' 밑밥 깔았더니 그건 일단 본인이 검토한 다음에 진행할 부분이고, 영업사원들 대부분 CRM 사용 경험 있어서 큰 문제 없을거라 하심",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "c.f) 영업팀도 미팅에 참여하면 좋을 것 같아서 '영업팀에서 CRM 도입을 반대하는 경우도 있더라구요' 밑밥 깔았더니 그건 일단 본인이 검토한 다음에 진행할 부분이고, 영업사원들 대부분 CRM 사용 경험 있어서 큰 문제 없을거라 하심",
+          "start_char": 838,
+          "end_char": 969
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fca10b6eeda43c35",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "50명",
+      "normalized": {
+        "value": 50,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "50명",
+          "start_char": 1041,
+          "end_char": 1044
+        }
+      ],
+      "dedupe_key": "people_count:b09bc45d315cd8a7",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

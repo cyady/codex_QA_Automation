@@ -1,0 +1,359 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W109",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팔로업 이메일 발송했습니다. @김우진(Woojin Andy Kim) @sales",
+      "normalized": {
+        "text": "팔로업 이메일 발송했습니다. @김우진(Woojin Andy Kim) @sales",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "팔로업 이메일 발송했습니다. @김우진(Woojin Andy Kim) @sales",
+          "start_char": 0,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "action_item:6d67422daa3eab65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2단계 정도입니다 @김한규(Lucky)차주 화요일 오전까지 제안서 발송 예정",
+      "normalized": {
+        "text": "2단계 정도입니다 @김한규(Lucky)차주 화요일 오전까지 제안서 발송 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2단계 정도입니다 @김한규(Lucky)차주 화요일 오전까지 제안서 발송 예정",
+          "start_char": 45,
+          "end_char": 87
+        }
+      ],
+      "dedupe_key": "action_item:14d70054e8d4150a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내일까지 최대한 초안 작성해서 공유드릴게요 cc @강대웅(Dario)",
+      "normalized": {
+        "text": "내일까지 최대한 초안 작성해서 공유드릴게요 cc @강대웅(Dario)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "내일까지 최대한 초안 작성해서 공유드릴게요 cc @강대웅(Dario)",
+          "start_char": 88,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "collaboration_need:1ef0063f64504afb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "와이즈에이아이는 신규리드가 필요한거 맞음",
+      "normalized": {
+        "text": "와이즈에이아이는 신규리드가 필요한거 맞음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "와이즈에이아이는 신규리드가 필요한거 맞음",
+          "start_char": 196,
+          "end_char": 218
+        }
+      ],
+      "dedupe_key": "action_item:2d21a2a71bcfe43c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 DB에 충분한 모수가 있는지 확인 필요 @여인찬 (Oliver) (1차 병의원 치과 / 너무 적으면, 성형분야까지 )",
+      "normalized": {
+        "text": "리멤버 DB에 충분한 모수가 있는지 확인 필요 @여인찬 (Oliver) (1차 병의원 치과 / 너무 적으면, 성형분야까지 )",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리멤버 DB에 충분한 모수가 있는지 확인 필요 @여인찬 (Oliver) (1차 병의원 치과 / 너무 적으면, 성형분야까지 )",
+          "start_char": 219,
+          "end_char": 288
+        }
+      ],
+      "dedupe_key": "action_item:47bb414bb18c9fef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "강력한 후킹 메세지인 '절세' 내러티브를 사용하길 희망 -> 검증함",
+      "normalized": {
+        "text": "강력한 후킹 메세지인 '절세' 내러티브를 사용하길 희망 -> 검증함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "강력한 후킹 메세지인 '절세' 내러티브를 사용하길 희망 -> 검증함",
+          "start_char": 330,
+          "end_char": 367
+        }
+      ],
+      "dedupe_key": "collaboration_need:b7bf675e403ad6f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 16,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 38,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 55,
+          "end_char": 59
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 115,
+          "end_char": 119
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 245,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 431,
+          "end_char": 435
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 442,
+          "end_char": 446
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 170,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개",
+          "start_char": 374,
+          "end_char": 376
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 392,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

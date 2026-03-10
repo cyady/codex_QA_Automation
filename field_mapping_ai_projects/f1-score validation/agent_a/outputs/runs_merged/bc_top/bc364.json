@@ -1,0 +1,670 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W364",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 66,
+          "end_char": 72
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 21,
+          "end_char": 26
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 193,
+          "end_char": 198
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 931,
+          "end_char": 936
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 978,
+          "end_char": 983
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그로스패키지 제네럴 버전 소개서 전달(목적: 옆 신사업부서 홈닉에 전달용) -> 전달 완료",
+      "normalized": {
+        "text": "그로스패키지 제네럴 버전 소개서 전달(목적: 옆 신사업부서 홈닉에 전달용) -> 전달 완료",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "그로스패키지 제네럴 버전 소개서 전달(목적: 옆 신사업부서 홈닉에 전달용) -> 전달 완료",
+          "start_char": 218,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "collaboration_need:4b75e8c38661bd0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "삼성물산 바인드팀 맞춤형 제안서 제작 및 전달(1/12~13일까지 빠르게 제작 필요)",
+      "normalized": {
+        "text": "삼성물산 바인드팀 맞춤형 제안서 제작 및 전달(1/12~13일까지 빠르게 제작 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "삼성물산 바인드팀 맞춤형 제안서 제작 및 전달(1/12~13일까지 빠르게 제작 필요)",
+          "start_char": 272,
+          "end_char": 319
+        }
+      ],
+      "dedupe_key": "action_item:23ee8dc2036f0c27",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1/12",
+      "normalized": {
+        "month": 1,
+        "day": 12,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "1/12",
+          "start_char": 298,
+          "end_char": 302
+        }
+      ],
+      "dedupe_key": "timeline:8edc24a4a7e2bebd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "13일",
+      "normalized": {
+        "value": 13.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "13일",
+          "start_char": 303,
+          "end_char": 306
+        }
+      ],
+      "dedupe_key": "duration:5c19beb8efb52287",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "홈닉 팀과 추가 미팅 진행, 바인드팀과 견적 논의 빠르게 진행하며 2월 초 중 전략 및 세일즈 컨설팅부터 먼저 수주하면서 프로젝트 진행",
+      "normalized": {
+        "text": "홈닉 팀과 추가 미팅 진행, 바인드팀과 견적 논의 빠르게 진행하며 2월 초 중 전략 및 세일즈 컨설팅부터 먼저 수주하면서 프로젝트 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "홈닉 팀과 추가 미팅 진행, 바인드팀과 견적 논의 빠르게 진행하며 2월 초 중 전략 및 세일즈 컨설팅부터 먼저 수주하면서 프로젝트 진행",
+          "start_char": 323,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "action_item:cc74f8803fe06df0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 초",
+      "normalized": {
+        "month": 2,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "2월 초",
+          "start_char": 360,
+          "end_char": 364
+        }
+      ],
+      "dedupe_key": "timeline:647f324fd7abb8e9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경에 ABM 패키지 진행",
+      "normalized": {
+        "text": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경에 ABM 패키지 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경에 ABM 패키지 진행",
+          "start_char": 402,
+          "end_char": 449
+        }
+      ],
+      "dedupe_key": "action_item:e6e2acfedbc74e2d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 439,
+          "end_char": 442
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1390,
+          "end_char": 1393
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경 웹사이트 패키지 및 블로그 패키지 억 단위로 제안",
+      "normalized": {
+        "text": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경 웹사이트 패키지 및 블로그 패키지 억 단위로 제안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "프로젝트 진행하며 스킨십 & 신뢰 높여나가고 -> 2분기 말 경 웹사이트 패키지 및 블로그 패키지 억 단위로 제안",
+          "start_char": 453,
+          "end_char": 516
+        }
+      ],
+      "dedupe_key": "action_item:27646c7a69b33bb5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 500,
+          "end_char": 503
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Blocker: 아직 없음. 추가 파악 필요",
+      "normalized": {
+        "text": "Blocker: 아직 없음. 추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "Blocker: 아직 없음. 추가 파악 필요",
+          "start_char": 586,
+          "end_char": 610
+        }
+      ],
+      "dedupe_key": "action_item:7c86656def5d145f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1개",
+      "normalized": {
+        "value": 1,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Leader: 추가 파악 필요"
+          ],
+          "exact_quote": "1개",
+          "start_char": 738,
+          "end_char": 740
+        }
+      ],
+      "dedupe_key": "case_metric:f7506e9ed9e8e729",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, SaaS 신사업에 대한 이해도는 낮고, 전략의 큰 판을 짜줄 컨설팅 업체의 필요성을 크게 느끼고 계심.",
+      "normalized": {
+        "text": "다만, SaaS 신사업에 대한 이해도는 낮고, 전략의 큰 판을 짜줄 컨설팅 업체의 필요성을 크게 느끼고 계심.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "매우 스마트하신 그룹장님 페르소나"
+          ],
+          "exact_quote": "다만, SaaS 신사업에 대한 이해도는 낮고, 전략의 큰 판을 짜줄 컨설팅 업체의 필요성을 크게 느끼고 계심.",
+          "start_char": 783,
+          "end_char": 844
+        }
+      ],
+      "dedupe_key": "action_item:c9d4d493c983fb79",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "2개",
+          "start_char": 1046,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "신사업 전략 컨설팅이 가장 큰 니즈.",
+      "normalized": {
+        "text": "신사업 전략 컨설팅이 가장 큰 니즈.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "신사업 전략 컨설팅이 가장 큰 니즈.",
+          "start_char": 1115,
+          "end_char": 1135
+        }
+      ],
+      "dedupe_key": "collaboration_need:6b554a5fcf791542",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM에 대한 니즈도 있으나 커스텀까진 아님. 단, CRM을 잘 쓰기 위해 컨시어지 온보딩 3개월 400~500만원에 매우 동의하고 계신 상황.",
+      "normalized": {
+        "text": "CRM에 대한 니즈도 있으나 커스텀까진 아님. 단, CRM을 잘 쓰기 위해 컨시어지 온보딩 3개월 400~500만원에 매우 동의하고 계신 상황.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "CRM에 대한 니즈도 있으나 커스텀까진 아님. 단, CRM을 잘 쓰기 위해 컨시어지 온보딩 3개월 400~500만원에 매우 동의하고 계신 상황.",
+          "start_char": 1139,
+          "end_char": 1219
+        }
+      ],
+      "dedupe_key": "collaboration_need:fcde05ead2799e9e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 1198,
+          "end_char": 1203
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1190,
+          "end_char": 1193
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+      "normalized": {
+        "text": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+          "start_char": 1225,
+          "end_char": 1319
+        }
+      ],
+      "dedupe_key": "collaboration_need:1f1443b15618bb0f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+      "normalized": {
+        "text": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "ISMS-P인증을 받은 솔루션이어서 CRM 도입 시에도 이게 블로커가 될 수 있음. cc @정민지(jasminji) @김우진 (Benett Kim) @김영주 (Rick)",
+          "start_char": 1225,
+          "end_char": 1319
+        }
+      ],
+      "dedupe_key": "collaboration_need:7b2ef941799daf51",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정민지",
+      "normalized": {
+        "name": "정민지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "@정민지",
+          "start_char": 1275,
+          "end_char": 1279
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:bd3a46d30f5d8f67",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 1290,
+          "end_char": 1294
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김영주",
+      "normalized": {
+        "name": "김영주"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "@김영주",
+          "start_char": 1308,
+          "end_char": 1312
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:554cc25dda201cf0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4월부터 본격적으로 그로스패키지 희망함.",
+      "normalized": {
+        "text": "4월부터 본격적으로 그로스패키지 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "4월부터 본격적으로 그로스패키지 희망함.",
+          "start_char": 1358,
+          "end_char": 1380
+        }
+      ],
+      "dedupe_key": "collaboration_need:f0f47cc7e10622df",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

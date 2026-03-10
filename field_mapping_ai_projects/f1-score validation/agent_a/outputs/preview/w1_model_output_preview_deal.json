@@ -1,0 +1,56 @@
+[
+  {
+    "extracted_value": "지금까지 단 한번도 리더십 교육을 안 한 회사(올해 처음 진행) / 지난 주 신임팀장 오프라인 집체 교육을 진행함 (이틀에서 하루반 정도) / 예산을 받으면 그거 가지고 교육을 진행함(예산을 받은 게 아니라 예산이 있을 지 모르겠다) / ‘25년 1월 중순말 사이에 시영이 제안서 발송",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom"
+    },
+    "reasoning": "???? ?? ?? ??? ???? ??????: 지금까지 단 한번도 리더십 교육을 안 한 회사(올해 처음 진행)"
+  },
+  {
+    "extracted_value": "리더들의 인력 운용하는 게 문제가 있나…? 이런 생각이 든다 / 명목이 있으면 진행이 쉬운데 명목이 없으면 진행이 어렵다",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] ?? ? ??",
+      "type": "textarea",
+      "category": "custom"
+    },
+    "reasoning": "??/?? ??? ?? ?????: 리더들의 인력 운용하는 게 문제가 있나…? 이런 생각이 든다"
+  },
+  {
+    "extracted_value": "1월 말 / ’25.11 ~ ’26.1 / 1월 중순 / 1/1",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] ????",
+      "type": "textarea",
+      "category": "custom"
+    },
+    "reasoning": "?? ?? ??? ?? ?????? ??????: 1월 말"
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "d60bf476-6809-490a-a936-a0831fb10c29"
+      }
+    ],
+    "field_definition": {
+      "id": "4987",
+      "label": "?? ?",
+      "type": "select",
+      "category": "custom"
+    },
+    "reasoning": "???? ?? ??? 900?? ???? ?? ? ??(501-1,000?)?? ??????. ??: 900명"
+  },
+  {
+    "extracted_value": 40,
+    "field_definition": {
+      "id": "5364",
+      "label": "??? ? ?",
+      "type": "number",
+      "category": "custom"
+    },
+    "reasoning": "?? ? 40? ??? ? ?? ??? ??? ?????. ??: 40명"
+  }
+]

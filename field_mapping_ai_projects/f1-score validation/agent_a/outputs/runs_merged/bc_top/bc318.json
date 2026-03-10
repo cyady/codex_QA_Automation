@@ -1,0 +1,229 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W318",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[녹십자 프로젝트 제휴] 패스트트랙투원 회신 내용 공유",
+      "normalized": {
+        "text": "[녹십자 프로젝트 제휴] 패스트트랙투원 회신 내용 공유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[녹십자 프로젝트 제휴] 패스트트랙투원 회신 내용 공유",
+          "start_char": 0,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "action_item:68ce0eae6c918c3b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희 프로젝트 스콥(블로그 등)을 넓혀도 괜찮다고 생각되는데, 검토 부탁 드립니다!",
+      "normalized": {
+        "text": "저희 프로젝트 스콥(블로그 등)을 넓혀도 괜찮다고 생각되는데, 검토 부탁 드립니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "저희 프로젝트 스콥(블로그 등)을 넓혀도 괜찮다고 생각되는데, 검토 부탁 드립니다!",
+          "start_char": 71,
+          "end_char": 117
+        }
+      ],
+      "dedupe_key": "action_item:62675952d48eb57f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 82,
+          "end_char": 85
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 클라이언트 본 미팅 이전 사전 미팅을 진행하기로 결정하였습니다.",
+      "normalized": {
+        "text": "2/ 클라이언트 본 미팅 이전 사전 미팅을 진행하기로 결정하였습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "2/ 클라이언트 본 미팅 이전 사전 미팅을 진행하기로 결정하였습니다.",
+          "start_char": 119,
+          "end_char": 157
+        }
+      ],
+      "dedupe_key": "action_item:573be57fb6a54c2a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 4시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 4,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "오후 4시",
+          "start_char": 206,
+          "end_char": 211
+        }
+      ],
+      "dedupe_key": "timeline:ba2c07d3f47db670",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.10",
+      "normalized": {
+        "year": 2011,
+        "month": 10,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "11.10",
+          "start_char": 197,
+          "end_char": 202
+        }
+      ],
+      "dedupe_key": "timeline:2fc2e6117588fb36",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 459,
+          "end_char": 464
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "2개",
+          "start_char": 353,
+          "end_char": 355
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "2개",
+          "start_char": 379,
+          "end_char": 381
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-----"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 291,
+          "end_char": 294
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

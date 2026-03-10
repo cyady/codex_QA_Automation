@@ -1,0 +1,303 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W296",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 57,
+          "end_char": 61
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 26,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 말",
+      "normalized": {
+        "month": 12,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "12월 말",
+          "start_char": 101,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "timeline:bdf1d0b8a845547e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 중순",
+      "normalized": {
+        "month": 12,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "12월 중순",
+          "start_char": 160,
+          "end_char": 166
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "12월 중순",
+          "start_char": 773,
+          "end_char": 779
+        }
+      ],
+      "dedupe_key": "timeline:c64af6f2309b1502",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 한창 비딩(RFP 입찰) 참여중이어서 CRM 검토가 최우선순위 대상이 아님.",
+      "normalized": {
+        "text": "현재 한창 비딩(RFP 입찰) 참여중이어서 CRM 검토가 최우선순위 대상이 아님.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "현재 한창 비딩(RFP 입찰) 참여중이어서 CRM 검토가 최우선순위 대상이 아님.",
+          "start_char": 181,
+          "end_char": 226
+        }
+      ],
+      "dedupe_key": "action_item:f33aee3f5d914849",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입 검토 건은 대표님이 직접 탑다운으로 지시 내렸던 건이어서 우선순위가 다시 올라오긴 할 것.",
+      "normalized": {
+        "text": "CRM 도입 검토 건은 대표님이 직접 탑다운으로 지시 내렸던 건이어서 우선순위가 다시 올라오긴 할 것.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "CRM 도입 검토 건은 대표님이 직접 탑다운으로 지시 내렸던 건이어서 우선순위가 다시 올라오긴 할 것.",
+          "start_char": 232,
+          "end_char": 289
+        }
+      ],
+      "dedupe_key": "action_item:2f67061e51188361",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 도입 챔피언인 왕태일 부장님이 입찰 참여 리딩중이어서 대표님과 CRM 도입의사결정 관련 추가 소통을 못하고 있음.",
+      "normalized": {
+        "text": "리캐치 도입 챔피언인 왕태일 부장님이 입찰 참여 리딩중이어서 대표님과 CRM 도입의사결정 관련 추가 소통을 못하고 있음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "리캐치 도입 챔피언인 왕태일 부장님이 입찰 참여 리딩중이어서 대표님과 CRM 도입의사결정 관련 추가 소통을 못하고 있음.",
+          "start_char": 403,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "collaboration_need:692a4727e6bfd907",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 403,
+          "end_char": 406
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "정용욱 대리는 CRM 도입 추진 중 왕태일 부장님이 바빠지면 추진 못할까봐 대신 붙은 실무자이자 6년 차 대리임.",
+      "normalized": {
+        "text": "정용욱 대리는 CRM 도입 추진 중 왕태일 부장님이 바빠지면 추진 못할까봐 대신 붙은 실무자이자 6년 차 대리임.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "정용욱 대리는 CRM 도입 추진 중 왕태일 부장님이 바빠지면 추진 못할까봐 대신 붙은 실무자이자 6년 차 대리임.",
+          "start_char": 570,
+          "end_char": 633
+        }
+      ],
+      "dedupe_key": "collaboration_need:ddf39e9cbdbbc861",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "다만, 조직 내부적으로 힘이 크게 없고, 6년동안 이너스커뮤니티 다니고 있는데 이 시점에 대표님과 CRM 도입 건으로 논의하자고 하면 싫어하실게 뻔하다고 하며 미루는 중. 대표님을 다들 무서워하고 어려워하는 듯.",
+      "normalized": {
+        "text": "다만, 조직 내부적으로 힘이 크게 없고, 6년동안 이너스커뮤니티 다니고 있는데 이 시점에 대표님과 CRM 도입 건으로 논의하자고 하면 싫어하실게 뻔하다고 하며 미루는 중. 대표님을 다들 무서워하고 어려워하는 듯.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "다만, 조직 내부적으로 힘이 크게 없고, 6년동안 이너스커뮤니티 다니고 있는데 이 시점에 대표님과 CRM 도입 건으로 논의하자고 하면 싫어하실게 뻔하다고 하며 미루는 중. 대표님을 다들 무서워하고 어려워하는 듯.",
+          "start_char": 639,
+          "end_char": 757
+        }
+      ],
+      "dedupe_key": "collaboration_need:0c712c370c84d8d7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "12월 중순 이후 리비짓 필요.",
+      "normalized": {
+        "text": "12월 중순 이후 리비짓 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "12월 중순 이후 리비짓 필요.",
+          "start_char": 773,
+          "end_char": 790
+        }
+      ],
+      "dedupe_key": "action_item:9f096336a112c521",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "챔피언인 부장님의 온도감은 크게 문제 없음.",
+      "normalized": {
+        "text": "챔피언인 부장님의 온도감은 크게 문제 없음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "챔피언인 부장님의 온도감은 크게 문제 없음.",
+          "start_char": 796,
+          "end_char": 820
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e5950aa659d7a306",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

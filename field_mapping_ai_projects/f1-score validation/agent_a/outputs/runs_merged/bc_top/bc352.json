@@ -1,0 +1,230 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W352",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제: 구글 및 AI 검색 툴에서 한미양행이 전혀 검색되지 않음.",
+      "normalized": {
+        "text": "문제: 구글 및 AI 검색 툴에서 한미양행이 전혀 검색되지 않음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "핵심 목표 및 문제"
+          ],
+          "exact_quote": "문제: 구글 및 AI 검색 툴에서 한미양행이 전혀 검색되지 않음.",
+          "start_char": 189,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a6804c6c7efb135e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리캐치 진단"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 291,
+          "end_char": 294
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리캐치 진단"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 327,
+          "end_char": 330
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "주요 제안 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 443,
+          "end_char": 446
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리캐치 진단"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 384,
+          "end_char": 387
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "주요 제안 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 494,
+          "end_char": 497
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "경영진: 사장님이 2주 전 'AI에 목숨 걸고 하라'고 지시. (ASAP 진행 희망).",
+      "normalized": {
+        "text": "경영진: 사장님이 2주 전 'AI에 목숨 걸고 하라'고 지시. (ASAP 진행 희망).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "내부 상황 및 요청"
+          ],
+          "exact_quote": "경영진: 사장님이 2주 전 'AI에 목숨 걸고 하라'고 지시. (ASAP 진행 희망).",
+          "start_char": 621,
+          "end_char": 669
+        }
+      ],
+      "dedupe_key": "action_item:79aa458b5034edf7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "내부 상황 및 요청"
+          ],
+          "exact_quote": "2주",
+          "start_char": 631,
+          "end_char": 633
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업: 실무진(광고대행사 출신)은 전문 외주(리캐치)와의 협업을 강력히 희망.",
+      "normalized": {
+        "text": "협업: 실무진(광고대행사 출신)은 전문 외주(리캐치)와의 협업을 강력히 희망.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "내부 상황 및 요청"
+          ],
+          "exact_quote": "협업: 실무진(광고대행사 출신)은 전문 외주(리캐치)와의 협업을 강력히 희망.",
+          "start_char": 690,
+          "end_char": 733
+        }
+      ],
+      "dedupe_key": "collaboration_need:10acfc88477618dc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "내부 상황 및 요청"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 715,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청: 내부 보고용 제안서 (경쟁사 비교, 필요 작업, 소요 비용 명시).",
+      "normalized": {
+        "text": "요청: 내부 보고용 제안서 (경쟁사 비교, 필요 작업, 소요 비용 명시).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "내부 상황 및 요청"
+          ],
+          "exact_quote": "요청: 내부 보고용 제안서 (경쟁사 비교, 필요 작업, 소요 비용 명시).",
+          "start_char": 737,
+          "end_char": 778
+        }
+      ],
+      "dedupe_key": "action_item:173384ce138deca6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W255",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "--안녕하세요, 윤현집 이사님.어제(10월 20일), 귀한 시간을 내어 베스핀글로벌과 리캐치의 전략적 협업 방안에 대해 심도 깊은 논의를 나누어 주셔서 진심으로 감사드립니다.",
+      "normalized": {
+        "text": "--안녕하세요, 윤현집 이사님.어제(10월 20일), 귀한 시간을 내어 베스핀글로벌과 리캐치의 전략적 협업 방안에 대해 심도 깊은 논의를 나누어 주셔서 진심으로 감사드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "--안녕하세요, 윤현집 이사님.어제(10월 20일), 귀한 시간을 내어 베스핀글로벌과 리캐치의 전략적 협업 방안에 대해 심도 깊은 논의를 나누어 주셔서 진심으로 감사드립니다.",
+          "start_char": 90,
+          "end_char": 187
+        }
+      ],
+      "dedupe_key": "collaboration_need:71838317aeb7dccf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "특히 B2B 마케팅/세일즈 시장에서 상호 보완적인 가치를 창출할 수 있다고 확신하게 되었습니다.이외에도 미팅에서 나눈 주요 내용들을 아래와 같이 공유 드립니다.1/ 주요 논의 결과 및 협업 시너지 방향",
+      "normalized": {
+        "text": "특히 B2B 마케팅/세일즈 시장에서 상호 보완적인 가치를 창출할 수 있다고 확신하게 되었습니다.이외에도 미팅에서 나눈 주요 내용들을 아래와 같이 공유 드립니다.1/ 주요 논의 결과 및 협업 시너지 방향",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "특히 B2B 마케팅/세일즈 시장에서 상호 보완적인 가치를 창출할 수 있다고 확신하게 되었습니다.이외에도 미팅에서 나눈 주요 내용들을 아래와 같이 공유 드립니다.1/ 주요 논의 결과 및 협업 시너지 방향",
+          "start_char": 308,
+          "end_char": 420
+        }
+      ],
+      "dedupe_key": "collaboration_need:e3b5e4e03cb401c3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이사님께서 제안해 주신 협력 로드맵 (1차 마케팅 컨설팅 → 2차 리셀링 → 인수 또는 전략적 투자)에 발맞춰 다음과 같은 협업 포인트를 확인했습니다.",
+      "normalized": {
+        "text": "이사님께서 제안해 주신 협력 로드맵 (1차 마케팅 컨설팅 → 2차 리셀링 → 인수 또는 전략적 투자)에 발맞춰 다음과 같은 협업 포인트를 확인했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이사님께서 제안해 주신 협력 로드맵 (1차 마케팅 컨설팅 → 2차 리셀링 → 인수 또는 전략적 투자)에 발맞춰 다음과 같은 협업 포인트를 확인했습니다.",
+          "start_char": 421,
+          "end_char": 505
+        }
+      ],
+      "dedupe_key": "collaboration_need:2c53ee9c30b34f9c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 55,
+          "end_char": 59
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 77,
+          "end_char": 81
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 20일",
+      "normalized": {
+        "month": 10,
+        "day": 20
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10월 20일",
+          "start_char": 110,
+          "end_char": 117
+        }
+      ],
+      "dedupe_key": "timeline:1837ce27df1909f9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 23,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "20일",
+      "normalized": {
+        "value": 20.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "20일",
+          "start_char": 114,
+          "end_char": 117
+        }
+      ],
+      "dedupe_key": "duration:fe99217527957764",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 138,
+          "end_char": 141
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 194,
+          "end_char": 197
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 738,
+          "end_char": 741
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 806,
+          "end_char": 809
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 909,
+          "end_char": 912
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 972,
+          "end_char": 975
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1154,
+          "end_char": 1157
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1423,
+          "end_char": 1426
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1653,
+          "end_char": 1656
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1805,
+          "end_char": 1808
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "베스핀글로벌 마케팅 프로세스 지원: 현재 마케팅 리드(월 100건 내외 유입)는 충분하나, 영업팀의 마케팅 리드 소화 역량 부족으로 Opti 대비 Win이 적은 적체 현상이 발생하고 있습니다. 또한, 웹사이트 및 블로그 내 고객 여정을 정비할 필요성도 이해할 수 있었습니다.",
+      "normalized": {
+        "text": "베스핀글로벌 마케팅 프로세스 지원: 현재 마케팅 리드(월 100건 내외 유입)는 충분하나, 영업팀의 마케팅 리드 소화 역량 부족으로 Opti 대비 Win이 적은 적체 현상이 발생하고 있습니다. 또한, 웹사이트 및 블로그 내 고객 여정을 정비할 필요성도 이해할 수 있었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "베스핀글로벌 마케팅 프로세스 지원: 현재 마케팅 리드(월 100건 내외 유입)는 충분하나, 영업팀의 마케팅 리드 소화 역량 부족으로 Opti 대비 Win이 적은 적체 현상이 발생하고 있습니다. 또한, 웹사이트 및 블로그 내 고객 여정을 정비할 필요성도 이해할 수 있었습니다.",
+          "start_char": 511,
+          "end_char": 664
+        }
+      ],
+      "dedupe_key": "action_item:5f16f949488e7343",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "100건",
+      "normalized": {
+        "value": 100,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "100건",
+          "start_char": 543,
+          "end_char": 547
+        }
+      ],
+      "dedupe_key": "lead_volume:6f2d5517fd8133e6",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 630,
+          "end_char": 633
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1494,
+          "end_char": 1497
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B2B AIX/DT 공동 PI 컨설팅: 베스핀의 고객사 중 예산은 확보했으나 '무엇을 해야 할지 모르는' 기업들을 대상으로, 리캐치의 CRM 기반 위에서 B2B 마케팅/세일즈 AI 관련 PI 컨설팅 및 시스템 구축을 공동으로 수행할 수 있습니다. 리캐치 CRM 위에 필요한 커스터마이제이션(SI) 영역은 베스핀 글로벌이 담당하여 시너지를 창출할 수 있습니다.",
+      "normalized": {
+        "text": "B2B AIX/DT 공동 PI 컨설팅: 베스핀의 고객사 중 예산은 확보했으나 '무엇을 해야 할지 모르는' 기업들을 대상으로, 리캐치의 CRM 기반 위에서 B2B 마케팅/세일즈 AI 관련 PI 컨설팅 및 시스템 구축을 공동으로 수행할 수 있습니다. 리캐치 CRM 위에 필요한 커스터마이제이션(SI) 영역은 베스핀 글로벌이 담당하여 시너지를 창출할 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "B2B AIX/DT 공동 PI 컨설팅: 베스핀의 고객사 중 예산은 확보했으나 '무엇을 해야 할지 모르는' 기업들을 대상으로, 리캐치의 CRM 기반 위에서 B2B 마케팅/세일즈 AI 관련 PI 컨설팅 및 시스템 구축을 공동으로 수행할 수 있습니다. 리캐치 CRM 위에 필요한 커스터마이제이션(SI) 영역은 베스핀 글로벌이 담당하여 시너지를 창출할 수 있습니다.",
+          "start_char": 668,
+          "end_char": 868
+        }
+      ],
+      "dedupe_key": "action_item:54148d72dbb421c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리셀링 파트너십: 우상돈 본부장님의 강력한 리셀링 역량을 활용하여 리캐치 CRM을 베스핀의 5,000여 개 고객사 풀에 교차 판매하는 레비뉴 쉐어링 구조가 현실화될 수 있습니다. 리캐치는 나이스평가정보 및 리멤버와의 성공적인 협업 사례를 바탕으로 귀사와의 협업에 큰 기대감을 가지고 있습니다.",
+      "normalized": {
+        "text": "리셀링 파트너십: 우상돈 본부장님의 강력한 리셀링 역량을 활용하여 리캐치 CRM을 베스핀의 5,000여 개 고객사 풀에 교차 판매하는 레비뉴 쉐어링 구조가 현실화될 수 있습니다. 리캐치는 나이스평가정보 및 리멤버와의 성공적인 협업 사례를 바탕으로 귀사와의 협업에 큰 기대감을 가지고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리셀링 파트너십: 우상돈 본부장님의 강력한 리셀링 역량을 활용하여 리캐치 CRM을 베스핀의 5,000여 개 고객사 풀에 교차 판매하는 레비뉴 쉐어링 구조가 현실화될 수 있습니다. 리캐치는 나이스평가정보 및 리멤버와의 성공적인 협업 사례를 바탕으로 귀사와의 협업에 큰 기대감을 가지고 있습니다.",
+          "start_char": 872,
+          "end_char": 1035
+        }
+      ],
+      "dedupe_key": "collaboration_need:9c2bd607499308be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000여 개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000여 개",
+          "start_char": 925,
+          "end_char": 931
+        }
+      ],
+      "dedupe_key": "case_metric:e8afcbe16f88321f",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "향후 액션을 진행함에 있어 빠르게 작은 프로젝트라도 시작하여 실제 시너지를 입증하고, 이를 통해 향후 전략적 투자 등을 논의할 기반을 마련하는 것이 중요함을 이해하고 있습니다.가장 먼저 추진할 항목 (1순위): 온라인 마케팅 컨설팅",
+      "normalized": {
+        "text": "향후 액션을 진행함에 있어 빠르게 작은 프로젝트라도 시작하여 실제 시너지를 입증하고, 이를 통해 향후 전략적 투자 등을 논의할 기반을 마련하는 것이 중요함을 이해하고 있습니다.가장 먼저 추진할 항목 (1순위): 온라인 마케팅 컨설팅",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "향후 액션을 진행함에 있어 빠르게 작은 프로젝트라도 시작하여 실제 시너지를 입증하고, 이를 통해 향후 전략적 투자 등을 논의할 기반을 마련하는 것이 중요함을 이해하고 있습니다.가장 먼저 추진할 항목 (1순위): 온라인 마케팅 컨설팅",
+          "start_char": 1251,
+          "end_char": 1380
+        }
+      ],
+      "dedupe_key": "action_item:4b35eac259386a9d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구체적인 스코프 (실무 논의 필요): 현재 이사님께서 고민하시는 웹사이트 오퍼링 페이지 개선 또는 블로그 안에 소비자 중심의 콘텐츠 여정 구축.",
+      "normalized": {
+        "text": "구체적인 스코프 (실무 논의 필요): 현재 이사님께서 고민하시는 웹사이트 오퍼링 페이지 개선 또는 블로그 안에 소비자 중심의 콘텐츠 여정 구축.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "구체적인 스코프 (실무 논의 필요): 현재 이사님께서 고민하시는 웹사이트 오퍼링 페이지 개선 또는 블로그 안에 소비자 중심의 콘텐츠 여정 구축.",
+          "start_char": 1439,
+          "end_char": 1519
+        }
+      ],
+      "dedupe_key": "action_item:7c2e07d74de16fc0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다음 스텝: 다만, 현재 내부 콘텐츠 제작팀이 동일한 주제를 테스트 중이므로, 내부 검토를 거쳐 실무자 레벨에서 구체적인 스텝과 스코프를 신중하게 논의할 수 있도록 일정을 잡아 주시면 감사하겠습니다.",
+      "normalized": {
+        "text": "다음 스텝: 다만, 현재 내부 콘텐츠 제작팀이 동일한 주제를 테스트 중이므로, 내부 검토를 거쳐 실무자 레벨에서 구체적인 스텝과 스코프를 신중하게 논의할 수 있도록 일정을 잡아 주시면 감사하겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "다음 스텝: 다만, 현재 내부 콘텐츠 제작팀이 동일한 주제를 테스트 중이므로, 내부 검토를 거쳐 실무자 레벨에서 구체적인 스텝과 스코프를 신중하게 논의할 수 있도록 일정을 잡아 주시면 감사하겠습니다.",
+          "start_char": 1523,
+          "end_char": 1634
+        }
+      ],
+      "dedupe_key": "action_item:528fb4aa4bbdebb3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정보 공유 요청: 아울러, 리캐치 팀은 베스핀의 SFDC/Pardot 기반 마케팅 대시보드 및 파이프라인 운영 관리 방식에 대해 배우고 싶습니다. 이사님께서 허락해 주신다면, PM 및 실무 인력들과 함께 내부 운영 상황을 공유받을 수 있는 기회를 요청드립니다.",
+      "normalized": {
+        "text": "정보 공유 요청: 아울러, 리캐치 팀은 베스핀의 SFDC/Pardot 기반 마케팅 대시보드 및 파이프라인 운영 관리 방식에 대해 배우고 싶습니다. 이사님께서 허락해 주신다면, PM 및 실무 인력들과 함께 내부 운영 상황을 공유받을 수 있는 기회를 요청드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "정보 공유 요청: 아울러, 리캐치 팀은 베스핀의 SFDC/Pardot 기반 마케팅 대시보드 및 파이프라인 운영 관리 방식에 대해 배우고 싶습니다. 이사님께서 허락해 주신다면, PM 및 실무 인력들과 함께 내부 운영 상황을 공유받을 수 있는 기회를 요청드립니다.",
+          "start_char": 1638,
+          "end_char": 1783
+        }
+      ],
+      "dedupe_key": "action_item:ac09b1926a81edca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이사님의 긍정적인 회신을 기다리겠습니다.감사합니다!",
+      "normalized": {
+        "text": "이사님의 긍정적인 회신을 기다리겠습니다.감사합니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "이사님의 긍정적인 회신을 기다리겠습니다.감사합니다!",
+          "start_char": 1870,
+          "end_char": 1898
+        }
+      ],
+      "dedupe_key": "action_item:0b38bc6599437370",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

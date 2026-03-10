@@ -1,0 +1,251 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W94",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "250929_이메일 발송 완료",
+      "normalized": {
+        "text": "250929_이메일 발송 완료",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "250929_이메일 발송 완료",
+          "start_char": 0,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "action_item:9aa34c5c80fcc022",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 34,
+          "end_char": 37
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 888,
+          "end_char": 891
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1277,
+          "end_char": 1280
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1427,
+          "end_char": 1430
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 활용의 어려움: 세일즈포스를 도입했지만, 현업에서의 사용성이 떨어져 고객 여정 전체를 한눈에 파악하고 리드가 어디서 누락되는지 분석하기 어려운 상황.",
+      "normalized": {
+        "text": "CRM 활용의 어려움: 세일즈포스를 도입했지만, 현업에서의 사용성이 떨어져 고객 여정 전체를 한눈에 파악하고 리드가 어디서 누락되는지 분석하기 어려운 상황.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "CRM 활용의 어려움: 세일즈포스를 도입했지만, 현업에서의 사용성이 떨어져 고객 여정 전체를 한눈에 파악하고 리드가 어디서 누락되는지 분석하기 어려운 상황.",
+          "start_char": 536,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "collaboration_need:513f590a4ae05ba6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "'24시간 일하는 영업사원'으로서의 웹사이트: 앞으로는 인바운드 리드 확보가 중요하며, 이를 위해 웹사이트를 고도화해야 할 필요성을 느끼고 계시지만, 과거 아웃소싱의 좋지 않은 경험으로 인해 내부 설득에 대한 고민이 있으신 점.",
+      "normalized": {
+        "text": "'24시간 일하는 영업사원'으로서의 웹사이트: 앞으로는 인바운드 리드 확보가 중요하며, 이를 위해 웹사이트를 고도화해야 할 필요성을 느끼고 계시지만, 과거 아웃소싱의 좋지 않은 경험으로 인해 내부 설득에 대한 고민이 있으신 점.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "'24시간 일하는 영업사원'으로서의 웹사이트: 앞으로는 인바운드 리드 확보가 중요하며, 이를 위해 웹사이트를 고도화해야 할 필요성을 느끼고 계시지만, 과거 아웃소싱의 좋지 않은 경험으로 인해 내부 설득에 대한 고민이 있으신 점.",
+          "start_char": 698,
+          "end_char": 825
+        }
+      ],
+      "dedupe_key": "action_item:ae471baaac7f4616",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "8천만 원",
+      "normalized": {
+        "value": 80000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "8천만 원",
+          "start_char": 447,
+          "end_char": 452
+        }
+      ],
+      "dedupe_key": "budget:00bb2b5f5a3b1e1b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "24시간",
+      "normalized": {
+        "value": 24.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "24시간",
+          "start_char": 699,
+          "end_char": 703
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "24시간",
+          "start_char": 1105,
+          "end_char": 1109
+        }
+      ],
+      "dedupe_key": "duration:370393945fedda2f",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "쓰리빌리언 맞춤형 제안서 전달: 현재 쓰리빌리언의 웹사이트와 블로그 현황을 진단하고, 24시간 일하는 웹사이트를 구축하기 위한 구체적인 실행 방안과 기대효과를 담은 맞춤형 제안서를 전달드리겠습니다.",
+      "normalized": {
+        "text": "쓰리빌리언 맞춤형 제안서 전달: 현재 쓰리빌리언의 웹사이트와 블로그 현황을 진단하고, 24시간 일하는 웹사이트를 구축하기 위한 구체적인 실행 방안과 기대효과를 담은 맞춤형 제안서를 전달드리겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "쓰리빌리언 맞춤형 제안서 전달: 현재 쓰리빌리언의 웹사이트와 블로그 현황을 진단하고, 24시간 일하는 웹사이트를 구축하기 위한 구체적인 실행 방안과 기대효과를 담은 맞춤형 제안서를 전달드리겠습니다.",
+          "start_char": 1057,
+          "end_char": 1167
+        }
+      ],
+      "dedupe_key": "collaboration_need:41dfc93ab598cfba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "프로젝트 범위(Scope) 및 WBS(Work Breakdown Structure) 초안 공유: 제안서와 함께 프로젝트의 전체적인 범위와 각 단계별 상세 업무 내역(WBS), 그리고 쓰리빌리언과 리캐치의 역할(R&R)을 정의한 문서를 함께 전달하여, 이사님께서 내부적으로 설득하고 의사결정 하시는 데 도움을 드리겠습니다.",
+      "normalized": {
+        "text": "프로젝트 범위(Scope) 및 WBS(Work Breakdown Structure) 초안 공유: 제안서와 함께 프로젝트의 전체적인 범위와 각 단계별 상세 업무 내역(WBS), 그리고 쓰리빌리언과 리캐치의 역할(R&R)을 정의한 문서를 함께 전달하여, 이사님께서 내부적으로 설득하고 의사결정 하시는 데 도움을 드리겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "프로젝트 범위(Scope) 및 WBS(Work Breakdown Structure) 초안 공유: 제안서와 함께 프로젝트의 전체적인 범위와 각 단계별 상세 업무 내역(WBS), 그리고 쓰리빌리언과 리캐치의 역할(R&R)을 정의한 문서를 함께 전달하여, 이사님께서 내부적으로 설득하고 의사결정 하시는 데 도움을 드리겠습니다.",
+          "start_char": 1168,
+          "end_char": 1347
+        }
+      ],
+      "dedupe_key": "collaboration_need:affaec1b66f05a00",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "후속 진행 필요 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1091,
+          "end_char": 1094
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

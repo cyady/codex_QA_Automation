@@ -1,0 +1,386 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W140",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "금감원 감사대응: 순조롭게 진행 중 (2개씩 굴러감)",
+      "normalized": {
+        "text": "금감원 감사대응: 순조롭게 진행 중 (2개씩 굴러감)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "금감원 감사대응: 순조롭게 진행 중 (2개씩 굴러감)",
+          "start_char": 65,
+          "end_char": 94
+        }
+      ],
+      "dedupe_key": "action_item:7ed9356af0053caf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "정기자문: 탑다운 방식 접근 희망 (실무는 ok, 윗선에서 차단)",
+      "normalized": {
+        "text": "정기자문: 탑다운 방식 접근 희망 (실무는 ok, 윗선에서 차단)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "정기자문: 탑다운 방식 접근 희망 (실무는 ok, 윗선에서 차단)",
+          "start_char": 95,
+          "end_char": 131
+        }
+      ],
+      "dedupe_key": "collaboration_need:93fd71e56405decf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "“질적인 전환” 관점에서 접근 필요",
+      "normalized": {
+        "text": "“질적인 전환” 관점에서 접근 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "“질적인 전환” 관점에서 접근 필요",
+          "start_char": 145,
+          "end_char": 164
+        }
+      ],
+      "dedupe_key": "action_item:4c2a91a28359d86a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세미나 진행 → 자문계약 전환 의도",
+      "normalized": {
+        "text": "세미나 진행 → 자문계약 전환 의도",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "세미나 진행 → 자문계약 전환 의도",
+          "start_char": 178,
+          "end_char": 197
+        }
+      ],
+      "dedupe_key": "action_item:96ea09c9c72e51bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 15,
+          "end_char": 19
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 29,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 86,
+          "end_char": 88
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "노동청분쟁: 부재신청, 부당해고, 채불, 노동위원회",
+      "normalized": {
+        "text": "노동청분쟁: 부재신청, 부당해고, 채불, 노동위원회",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "어떤 수요?"
+          ],
+          "exact_quote": "노동청분쟁: 부재신청, 부당해고, 채불, 노동위원회",
+          "start_char": 210,
+          "end_char": 238
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3cf5362c59239d4d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그 외 f/up 진행해보기 -> 따로 만나기, 마이스터즈 만남 주선",
+      "normalized": {
+        "text": "그 외 f/up 진행해보기 -> 따로 만나기, 마이스터즈 만남 주선",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "그 외 f/up 진행해보기 -> 따로 만나기, 마이스터즈 만남 주선",
+          "start_char": 294,
+          "end_char": 331
+        }
+      ],
+      "dedupe_key": "action_item:e65901fa707b26d8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "10~15%",
+      "normalized": {
+        "min": 0.1,
+        "max": 0.15,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "10~15%",
+          "start_char": 469,
+          "end_char": 475
+        }
+      ],
+      "dedupe_key": "match_rate:810d7b011d21959f",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만 원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "600만 원",
+          "start_char": 397,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1.8억 원",
+      "normalized": {
+        "value": 180000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "1.8억 원",
+          "start_char": 446,
+          "end_char": 452
+        }
+      ],
+      "dedupe_key": "budget:885505ba958165da",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 481,
+          "end_char": 487
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "보람 팀장님께 3-4개 예시 전달"
+          ],
+          "exact_quote": "5개",
+          "start_char": 425,
+          "end_char": 427
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(미팅 수립을 위한 뉴스레터 시퀀싱 등)",
+      "normalized": {
+        "text": "(미팅 수립을 위한 뉴스레터 시퀀싱 등)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "우리가 제공하는 것"
+          ],
+          "exact_quote": "(미팅 수립을 위한 뉴스레터 시퀀싱 등)",
+          "start_char": 573,
+          "end_char": 595
+        }
+      ],
+      "dedupe_key": "action_item:3b5dfa530f3a970d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "우리가 제공하는 것"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 584,
+          "end_char": 588
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

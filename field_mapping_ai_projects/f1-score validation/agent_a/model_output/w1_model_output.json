@@ -1,0 +1,515 @@
+[
+    {
+        "extracted_value": 40,
+        "field_definition": {
+            "id": "1608",
+            "label": "Seat 수",
+            "type": "number",
+            "category": "custom",
+            "display_order": 40,
+            "required": false,
+            "archive": false,
+            "caption": "예상치일 경우 보수적으로 기입해주세요. ",
+            "description": "프로 플랜이나 커스텀 플랜일 경우 예상되는 시트 수를 입력해주세요. ",
+            "default_value": null,
+            "attributes": {
+                "precision": 0
+            }
+        },
+        "reasoning": "미팅 노트 내 '팀장 수는 40명 정도'라는 언급을 바탕으로 예상 시트 수를 40으로 추출함."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "d60bf476-6809-490a-a936-a0831fb10c29"
+            }
+        ],
+        "field_definition": {
+            "id": "4987",
+            "label": "직원 수",
+            "type": "select",
+            "category": "custom",
+            "display_order": 102,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "1,001명 이상",
+                        "order": 1,
+                        "value": "3b815708-da91-4622-88ee-c639f3eee3c6"
+                    },
+                    {
+                        "label": "501-1,000명",
+                        "order": 2,
+                        "value": "d60bf476-6809-490a-a936-a0831fb10c29"
+                    },
+                    {
+                        "label": "201-500명",
+                        "order": 3,
+                        "value": "3fc56750-8753-4038-9bba-72c02d3f78f0"
+                    },
+                    {
+                        "label": "51-200명",
+                        "order": 4,
+                        "value": "a23e5f30-6cf4-41e4-a5cd-6e687673cb4b"
+                    },
+                    {
+                        "label": "11-50명",
+                        "order": 5,
+                        "value": "72206032-f189-432a-8030-9ae691c74ce1"
+                    },
+                    {
+                        "label": "1-10명",
+                        "order": 6,
+                        "value": "4e4de315-517d-4ff2-825c-d9ad5ea634b6"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "'전체 사원수는 900명 정도'라는 텍스트를 기반으로 '501-1,000명' 옵션의 value를 매칭함."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "c9a6bb1e-aea8-4b29-a0e1-425dc8778600"
+            }
+        ],
+        "field_definition": {
+            "id": "4986",
+            "label": "직책",
+            "type": "select",
+            "category": "custom",
+            "display_order": 101,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "대표・경영진",
+                        "order": 1,
+                        "value": "fe489ca1-5829-4b94-af36-56e6605294b4"
+                    },
+                    {
+                        "label": "팀장급 이상",
+                        "order": 2,
+                        "value": "c9a6bb1e-aea8-4b29-a0e1-425dc8778600"
+                    },
+                    {
+                        "label": "팀원",
+                        "order": 3,
+                        "value": "c0bddab9-8a9c-487a-9d3e-8c00ae315170"
+                    },
+                    {
+                        "label": "대표",
+                        "order": 4,
+                        "value": "ff35aa78-aa76-4c9a-bccb-fed3b55e7cb4"
+                    },
+                    {
+                        "label": "경영진",
+                        "order": 5,
+                        "value": "e737a3b0-d790-4626-8b7d-452fcc3239bd"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "미팅 대상자인 신현철 수석의 직책과 교육 대상이 팀장급임을 고려하여 '팀장급 이상' 옵션의 value를 매칭함."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+            }
+        ],
+        "field_definition": {
+            "id": "5178",
+            "label": "Tier",
+            "type": "select",
+            "category": "custom",
+            "display_order": 120,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요",
+            "default_value": [
+                {
+                    "label": "Non-tier (new) - 10억 미만",
+                    "order": 8,
+                    "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+                }
+            ],
+            "attributes": {
+                "options": [
+                    {
+                        "label": "Tier1 - 매출 1조 이상",
+                        "order": 1,
+                        "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+                    },
+                    {
+                        "label": "Tier2 - 매출 1000억 이상",
+                        "order": 2,
+                        "value": "b73574dd-3563-446b-aecc-4bdd75592c55"
+                    },
+                    {
+                        "label": "Tier3 - 매출 100억 이상",
+                        "order": 3,
+                        "value": "1a042556-ac0f-4c6f-83d7-24739b5a462f"
+                    },
+                    {
+                        "label": "Tier 4 (캐시카우 티어) - 매출 50억 이상",
+                        "order": 4,
+                        "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+                    },
+                    {
+                        "label": "Tier 4 (old) - 투자유치 100억 이상",
+                        "order": 5,
+                        "value": "a5120d6f-b2ea-4071-87b3-92497ba4c4b2"
+                    },
+                    {
+                        "label": "Tier 5 - 10억 이상 ~ 50억 미만",
+                        "order": 6,
+                        "value": "786693b9-d37a-4f6b-a494-4d8432171052"
+                    },
+                    {
+                        "label": "❌ Non-tier (old) - 50억 미만",
+                        "order": 7,
+                        "value": "05331e01-2212-4014-a98c-372145ffe10e"
+                    },
+                    {
+                        "label": "Non-tier (new) - 10억 미만",
+                        "order": 8,
+                        "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "STX엔진은 대규모 기업군에 속하며, 직원 수 900명 및 조직 규모를 고려할 때 매출 1조 이상인 'Tier1'에 해당함."
+    },
+    {
+        "extracted_value": "2026-01-25",
+        "field_definition": {
+            "id": "5372",
+            "label": "예상 마감 일자",
+            "type": "date",
+            "category": "custom",
+            "display_order": 141,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "'25년 1월 중순말 사이에 시영이 제안서 발송' 문구에서 제안 시점을 2026년 1월 25일경으로 판단하여 예상 마감 일자로 추출함. (현재일 2026-02-21 기준 과거 시점이나 미팅 기록상의 타임라인 근거)"
+    },
+    {
+        "extracted_value": "신현철 수석 (STX엔진 교육담당자 및 채용담당)",
+        "field_definition": {
+            "id": "5373",
+            "label": "담당자 페르소나",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 142,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "미팅 노트에 명시된 담당자의 역할과 상황을 요약함."
+    },
+    {
+        "extracted_value": "내년도 1월 말 정도가 되어서 여유가 생겨, 팀장&대표를 설득해야 한다고 함. 명목이 있으면 진행이 쉬운데 없으면 어렵고 팀장 결제 받기가 가장 힘든 상황.",
+        "field_definition": {
+            "id": "5379",
+            "label": "블로커",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 148,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "의사결정 구조와 결제권자 설득의 어려움이 블로커로 명시됨."
+    },
+    {
+        "extracted_value": "신현철 수석",
+        "field_definition": {
+            "id": "5556",
+            "label": "고객사 담당자 이름",
+            "type": "text",
+            "category": "custom",
+            "display_order": 154,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": "고객사의 담당자 이름",
+            "attributes": null
+        },
+        "reasoning": "미팅 상대방의 성함이 명시됨."
+    },
+    {
+        "extracted_value": "STX엔진",
+        "field_definition": {
+            "id": "5577",
+            "label": "법인명",
+            "type": "text",
+            "category": "custom",
+            "display_order": 164,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "고객사의 법인명이 명시됨."
+    },
+    {
+        "extracted_value": "2026-01-25",
+        "field_definition": {
+            "id": "6089",
+            "label": "계약서 송부 일자(Nego)",
+            "type": "date",
+            "category": "custom",
+            "display_order": 190,
+            "required": false,
+            "archive": false,
+            "caption": "계약서 발송 시 입력, optional ",
+            "description": "계약서 발송 시 입력, optional ",
+            "attributes": null
+        },
+        "reasoning": "제안서 발송 예정 시점인 1월 중순~말을 기준으로 날짜를 특정함."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "4d098522-747e-40a6-a0fd-009c548bca2c"
+            }
+        ],
+        "field_definition": {
+            "id": "5886",
+            "label": "[최초 유입 경로] 대분류",
+            "type": "select",
+            "category": "custom",
+            "display_order": 185,
+            "required": false,
+            "archive": false,
+            "caption": "최초 유입 경로 대분류 필드",
+            "description": "최초 유입 경로를 드롭다운으로 분류하는 필드",
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "reportbook",
+                        "order": 1,
+                        "value": "f82367dc-caa2-4383-a681-a50663785b07"
+                    },
+                    {
+                        "label": "brochure",
+                        "order": 2,
+                        "value": "0370c2be-9e9f-4f17-bdfc-6dfa1fa6c72c"
+                    },
+                    {
+                        "label": "diagnostic",
+                        "order": 3,
+                        "value": "329c9013-ad05-427c-865b-695f228a7e58"
+                    },
+                    {
+                        "label": "template",
+                        "order": 4,
+                        "value": "c493a696-15b0-4f7a-a3e6-ea456555fd77"
+                    },
+                    {
+                        "label": "organic",
+                        "order": 5,
+                        "value": "d863a2a4-97f5-4c30-ac85-5310bbd50942"
+                    },
+                    {
+                        "label": "private internal event",
+                        "order": 6,
+                        "value": "eeeb60f6-9887-45d2-baf4-ff4f2ed98344"
+                    },
+                    {
+                        "label": "private external event",
+                        "order": 7,
+                        "value": "e6247088-42d8-4516-bc34-24675e2b2e42"
+                    },
+                    {
+                        "label": "bulk event",
+                        "order": 8,
+                        "value": "321aa935-25e6-4ba8-b96d-defc93c6d3fa"
+                    },
+                    {
+                        "label": "partnership",
+                        "order": 9,
+                        "value": "93341a5c-9d3f-4305-8546-5fe7a47f36b8"
+                    },
+                    {
+                        "label": "referral",
+                        "order": 10,
+                        "value": "d63d21c1-fa88-4677-9796-43d4a87306b2"
+                    },
+                    {
+                        "label": "others",
+                        "order": 11,
+                        "value": "1374f25f-5416-4942-b732-e8c16f8f2f44"
+                    },
+                    {
+                        "label": "social media",
+                        "order": 12,
+                        "value": "4d098522-747e-40a6-a0fd-009c548bca2c"
+                    },
+                    {
+                        "label": "voucher",
+                        "order": 13,
+                        "value": "e418f5a0-f228-4d96-8cb4-698099bec0d7"
+                    },
+                    {
+                        "label": "bulk external event (사용 X)",
+                        "order": 14,
+                        "value": "7bf2aa3e-226c-4ae8-8a9b-e2762efc9018"
+                    },
+                    {
+                        "label": "bulk internal event (사용 X)",
+                        "order": 15,
+                        "value": "2c76ebee-e83f-4779-be33-fae3e0916287"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "'인스타에서 광고 문구를 보고 TIPP 웹사이트를 보게 되었다'는 언급을 바탕으로 'social media' 옵션 매칭."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "b1e28110-42f6-4047-9fad-a0074f7cd37e"
+            }
+        ],
+        "field_definition": {
+            "id": "5895",
+            "label": "[직전 유입 경로] 대분류",
+            "type": "select",
+            "category": "custom",
+            "display_order": 186,
+            "required": false,
+            "archive": false,
+            "caption": "직전유입경로 대분류",
+            "description": "직전유입경로 대분류를 드롭다운으로 구분하는 필드",
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "mql signal",
+                        "order": 1,
+                        "value": "63fe78de-b42c-4e78-be58-0b6f42067901"
+                    },
+                    {
+                        "label": "diagnostic",
+                        "order": 2,
+                        "value": "07df2456-9d25-4404-a98b-89282e68edfb"
+                    },
+                    {
+                        "label": "self",
+                        "order": 3,
+                        "value": "e58c7f68-3793-4f64-8525-6b992fea43e3"
+                    },
+                    {
+                        "label": "private internal event",
+                        "order": 4,
+                        "value": "54d212d4-ec05-4dd8-a6d8-3acdf4b0ef0c"
+                    },
+                    {
+                        "label": "partnership",
+                        "order": 5,
+                        "value": "3ef5d456-4114-4312-9078-fe27893c7103"
+                    },
+                    {
+                        "label": "ads",
+                        "order": 6,
+                        "value": "b1e28110-42f6-4047-9fad-a0074f7cd37e"
+                    },
+                    {
+                        "label": "referral",
+                        "order": 7,
+                        "value": "efa6dce8-4e2a-408b-8ba3-855a498c66c5"
+                    },
+                    {
+                        "label": "crosssell",
+                        "order": 8,
+                        "value": "3984651c-fe33-4473-bbe7-ba777342ea09"
+                    },
+                    {
+                        "label": "others",
+                        "order": 9,
+                        "value": "0f6506c7-2a98-4f3f-9b2c-8e3d9d9fb370"
+                    },
+                    {
+                        "label": "voucher",
+                        "order": 10,
+                        "value": "c358f21e-5fa2-4dc4-a5c0-7addbb43e5e3"
+                    },
+                    {
+                        "label": "social media",
+                        "order": 11,
+                        "value": "4184b51b-ba59-434b-854a-d535e2daea85"
+                    },
+                    {
+                        "label": "email",
+                        "order": 12,
+                        "value": "b9ab3cf5-085a-458d-ac75-892c9d6d5b2b"
+                    },
+                    {
+                        "label": "sdr (이제 사용X)",
+                        "order": 13,
+                        "value": "5462cb03-9bee-4de6-baa2-00eb20d0525e"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "인스타그램 광고를 통해 유입되었으므로 'ads' 옵션 매칭."
+    },
+    {
+        "extracted_value": "대표가 팀장들의 변화 및 성장에 관심을 가지고 있고, 일대일 코칭 + 커리큘럼에 실질적인 관심. 이론 교육 말고 실질적으로 도움되는 교육 니즈.",
+        "field_definition": {
+            "id": "5376",
+            "label": "[N] 상황 및 문제",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 145,
+            "required": false,
+            "archive": false,
+            "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "고객사가 처한 상황과 해결하고자 하는 문제 정의."
+    },
+    {
+        "extracted_value": "'25.11 ~ '26.1 까지 채용 시즌으로 바쁨. 1월 중순말 제안서 발송 예정. 1/1 조직개편 예정.",
+        "field_definition": {
+            "id": "5378",
+            "label": "[T] 타임라인",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 147,
+            "required": false,
+            "archive": false,
+            "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "미팅 노트에 기재된 고객사의 향후 일정 및 제안 타임라인."
+    }
+]

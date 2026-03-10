@@ -1,0 +1,369 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W123",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "@강대웅(Dario) 님, 다음주 수요일 인핸스 정석연 리드님 (알고보니 마케팅 뿐만 아니라 세일즈도 총괄) 통화 내용 공유 드립니다!",
+      "normalized": {
+        "text": "@강대웅(Dario) 님, 다음주 수요일 인핸스 정석연 리드님 (알고보니 마케팅 뿐만 아니라 세일즈도 총괄) 통화 내용 공유 드립니다!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅(Dario) 님, 다음주 수요일 인핸스 정석연 리드님 (알고보니 마케팅 뿐만 아니라 세일즈도 총괄) 통화 내용 공유 드립니다!",
+          "start_char": 0,
+          "end_char": 75
+        }
+      ],
+      "dedupe_key": "collaboration_need:6e283525f3d9cc73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "먼저 4분기에 AI CRM 프로젝트 하나부터 하는 것을 검토 cc. @pm",
+      "normalized": {
+        "text": "먼저 4분기에 AI CRM 프로젝트 하나부터 하는 것을 검토 cc. @pm",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "먼저 4분기에 AI CRM 프로젝트 하나부터 하는 것을 검토 cc. @pm",
+          "start_char": 114,
+          "end_char": 155
+        }
+      ],
+      "dedupe_key": "action_item:efa209d017f73f8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 0,
+          "end_char": 4
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "@강대웅",
+          "start_char": 699,
+          "end_char": 703
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@pm",
+          "start_char": 152,
+          "end_char": 155
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 241,
+          "end_char": 244
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 683,
+          "end_char": 686
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 713,
+          "end_char": 716
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 732,
+          "end_char": 735
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 756,
+          "end_char": 759
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 812,
+          "end_char": 815
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "100개",
+          "start_char": 424,
+          "end_char": 428
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10개",
+      "normalized": {
+        "value": 10,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "10개",
+          "start_char": 481,
+          "end_char": 484
+        }
+      ],
+      "dedupe_key": "case_metric:632ab007d33722f7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "– AI 솔루션 특성상 초기 요청과 다른 방향으로 진행되는 경우가 많아 리소스 소모가 큼.",
+      "normalized": {
+        "text": "– AI 솔루션 특성상 초기 요청과 다른 방향으로 진행되는 경우가 많아 리소스 소모가 큼.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "– AI 솔루션 특성상 초기 요청과 다른 방향으로 진행되는 경우가 많아 리소스 소모가 큼.",
+          "start_char": 489,
+          "end_char": 539
+        }
+      ],
+      "dedupe_key": "action_item:1515f08a50bcfd22",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "1천만원",
+          "start_char": 572,
+          "end_char": 576
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "5천만원",
+          "start_char": 598,
+          "end_char": 602
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 기술 개발 고도화로 유지보수가 어려워질 수 있다는 우려도 존재.",
+      "normalized": {
+        "text": "• 기술 개발 고도화로 유지보수가 어려워질 수 있다는 우려도 존재.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "• 기술 개발 고도화로 유지보수가 어려워질 수 있다는 우려도 존재.",
+          "start_char": 625,
+          "end_char": 662
+        }
+      ],
+      "dedupe_key": "risk_or_concern:11ea3234e9e80d22",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• ABM 노하우 공유: 인핸스에서도 ABM을 준비 중이며, 리캐치는 올 초부터 ABM으로 좋은 성과를 내고 있어 다음 미팅에서 적극적으로 노하우를 공유하기로 합의.",
+      "normalized": {
+        "text": "• ABM 노하우 공유: 인핸스에서도 ABM을 준비 중이며, 리캐치는 올 초부터 ABM으로 좋은 성과를 내고 있어 다음 미팅에서 적극적으로 노하우를 공유하기로 합의.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "• ABM 노하우 공유: 인핸스에서도 ABM을 준비 중이며, 리캐치는 올 초부터 ABM으로 좋은 성과를 내고 있어 다음 미팅에서 적극적으로 노하우를 공유하기로 합의.",
+          "start_char": 711,
+          "end_char": 803
+        }
+      ],
+      "dedupe_key": "collaboration_need:e207f4209a7a8d76",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "마케팅~세일즈 총괄"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 745,
+          "end_char": 748
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W433",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객이 전달한 PPT(상세 요구사항)를 검토하여 구체적인 개편 방향 제안",
+      "normalized": {
+        "text": "고객이 전달한 PPT(상세 요구사항)를 검토하여 구체적인 개편 방향 제안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "고객이 전달한 PPT(상세 요구사항)를 검토하여 구체적인 개편 방향 제안",
+          "start_char": 42,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "action_item:52f2897eee638441",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프레이머 구축 및 SEO 전략이 포함된 서비스 제안서 및 견적 전달 필요",
+      "normalized": {
+        "text": "프레이머 구축 및 SEO 전략이 포함된 서비스 제안서 및 견적 전달 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "프레이머 구축 및 SEO 전략이 포함된 서비스 제안서 및 견적 전달 필요",
+          "start_char": 84,
+          "end_char": 124
+        }
+      ],
+      "dedupe_key": "action_item:2a26e3a2de7ecc60",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 94,
+          "end_char": 97
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 362,
+          "end_char": 365
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 523,
+          "end_char": 526
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 829,
+          "end_char": 832
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제품 및 상황 변화에 따라 웹사이트를 즉각 수정하고 싶어 하며, 코딩 없이 관리 가능한 '노코드 툴(워드프레스, 프레이머)' 도입을 강력히 희망함,",
+      "normalized": {
+        "text": "제품 및 상황 변화에 따라 웹사이트를 즉각 수정하고 싶어 하며, 코딩 없이 관리 가능한 '노코드 툴(워드프레스, 프레이머)' 도입을 강력히 희망함,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "제품 및 상황 변화에 따라 웹사이트를 즉각 수정하고 싶어 하며, 코딩 없이 관리 가능한 '노코드 툴(워드프레스, 프레이머)' 도입을 강력히 희망함,",
+          "start_char": 159,
+          "end_char": 241
+        }
+      ],
+      "dedupe_key": "collaboration_need:587b65b9e8372445",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 253,
+          "end_char": 257
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "디자이너가 있으나 편집 디자인 위주라 웹 UI/UX 및 SEO 작업은 외부 전문가의 도움이 필요함",
+      "normalized": {
+        "text": "디자이너가 있으나 편집 디자인 위주라 웹 UI/UX 및 SEO 작업은 외부 전문가의 도움이 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "디자이너가 있으나 편집 디자인 위주라 웹 UI/UX 및 SEO 작업은 외부 전문가의 도움이 필요함",
+          "start_char": 331,
+          "end_char": 385
+        }
+      ],
+      "dedupe_key": "action_item:c707a886c0af94e1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "구체적인 예산 규모는 언급되지 않음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 439,
+          "end_char": 442
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "구체적인 착수 일정은 언급되지 않음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 760,
+          "end_char": 763
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 514,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "10~12건",
+      "normalized": {
+        "min": 10.0,
+        "max": 12.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "10~12건",
+          "start_char": 623,
+          "end_char": 629
+        }
+      ],
+      "dedupe_key": "case_metric:1161f5fc9ab0ee78",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "000명",
+      "normalized": {
+        "value": 0,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "000명",
+          "start_char": 614,
+          "end_char": 618
+        }
+      ],
+      "dedupe_key": "people_count:ef1bc41d6ca71f1b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "구체적인 착수 일정은 언급되지 않음"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 778,
+          "end_char": 783
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 의견 조율: 실무자는 구글 SEO를 원하지만, 팀장은 네이버 블로그 운영을 중시하고 있어 채널 전략에 대한 내부 설득이 필요할 수 있음",
+      "normalized": {
+        "text": "내부 의견 조율: 실무자는 구글 SEO를 원하지만, 팀장은 네이버 블로그 운영을 중시하고 있어 채널 전략에 대한 내부 설득이 필요할 수 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "내부 의견 조율: 실무자는 구글 SEO를 원하지만, 팀장은 네이버 블로그 운영을 중시하고 있어 채널 전략에 대한 내부 설득이 필요할 수 있음",
+          "start_char": 811,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "action_item:451915359c74fba1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 848,
+          "end_char": 851
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드 퀄리티 정의: 영업팀이 마케팅 리드(단순 문의)를 '성가신 것'으로 취급하는 경향이 있어, MQL(마케팅 유효 리드) 기준을 명확히 세우지 않으면 도입 후에도 성과 인정이 어려울 수 있음,",
+      "normalized": {
+        "text": "리드 퀄리티 정의: 영업팀이 마케팅 리드(단순 문의)를 '성가신 것'으로 취급하는 경향이 있어, MQL(마케팅 유효 리드) 기준을 명확히 세우지 않으면 도입 후에도 성과 인정이 어려울 수 있음,",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "리드 퀄리티 정의: 영업팀이 마케팅 리드(단순 문의)를 '성가신 것'으로 취급하는 경향이 있어, MQL(마케팅 유효 리드) 기준을 명확히 세우지 않으면 도입 후에도 성과 인정이 어려울 수 있음,",
+          "start_char": 891,
+          "end_char": 999
+        }
+      ],
+      "dedupe_key": "collaboration_need:a224014bfab0f362",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 945,
+          "end_char": 948
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "local_default": {
+      "memo_text_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/data_bc/memo_w29.txt",
+      "candidate_pool_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/outputs/runs_merged/bc_top/bc29.json",
+      "model_output_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/model_output/bc29_model_output.json",
+      "fn_input_path_input": "schema_generator/output/bc29_fn_review_input.json",
+      "effective_schema_path_input": "/Users/admin/Desktop/Auto/Codex/f1-score validation/schema_generator/output/effective_schema_566094.json",
+      "deal_id_for_schema": "566094",
+      "decision_source": "new_build_model"
+    },
+    "ua:Mozilla_5.0_Macintosh_Intel_Mac_OS_X_10_15_7_AppleWebKit_537.": {
+      "memo_text_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/data_bc/memo_w9.txt",
+      "candidate_pool_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/outputs/runs_merged/bc_top/bc9.json",
+      "model_output_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/model_output/bc9_model_output.json",
+      "fn_input_path_input": "schema_generator/output/bc9_fn_review_input.json",
+      "effective_schema_path_input": "/Users/admin/Desktop/Auto/Codex/f1-score validation/schema_generator/output/effective_schema_566094.json",
+      "deal_id_for_schema": "566094",
+      "decision_source": "new_build_model"
+    },
+    "ip:10.67.210.112": {
+      "memo_text_path": "agent_a/data_w/memo_w1.txt",
+      "candidate_pool_path": "agent_a/outputs/runs_merged\\1w2\\3candidate_pool.jsonl",
+      "model_output_path": "agent_a/model_output/w1_model_output.json",
+      "fn_input_path_input": "schema_generator/output/candidate_pool_fn_review_input.json",
+      "effective_schema_path_input": "schema_generator/output/effective_schema_566552.json",
+      "deal_id_for_schema": "566552",
+      "decision_source": "new_build_model"
+    }
+  },
+  "active_user": "ua:Mozilla_5.0_Macintosh_Intel_Mac_OS_X_10_15_7_AppleWebKit_537."
+}

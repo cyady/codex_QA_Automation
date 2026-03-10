@@ -1,0 +1,127 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W58",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0915) 위존 강연 이후 진행상황 공유",
+      "normalized": {
+        "text": "0915) 위존 강연 이후 진행상황 공유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0915) 위존 강연 이후 진행상황 공유",
+          "start_char": 0,
+          "end_char": 22
+        }
+      ],
+      "dedupe_key": "action_item:37eff4bc62a8db80",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품 도입 관련 계약 체결은 금주 중으로 진행할 예정",
+      "normalized": {
+        "text": "제품 도입 관련 계약 체결은 금주 중으로 진행할 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "제품 도입 관련 계약 체결은 금주 중으로 진행할 예정",
+          "start_char": 24,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "action_item:231dbb599e54f917",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "최초 그로스 패키지 제안서부터 전달할 예정이었지만, 마케팅팀의 니즈가 뚜렷하게 발견하지 못한 상황으로 후속미팅 부터 제안 드려 보겠습니다.",
+      "normalized": {
+        "text": "최초 그로스 패키지 제안서부터 전달할 예정이었지만, 마케팅팀의 니즈가 뚜렷하게 발견하지 못한 상황으로 후속미팅 부터 제안 드려 보겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "최초 그로스 패키지 제안서부터 전달할 예정이었지만, 마케팅팀의 니즈가 뚜렷하게 발견하지 못한 상황으로 후속미팅 부터 제안 드려 보겠습니다.",
+          "start_char": 188,
+          "end_char": 265
+        }
+      ],
+      "dedupe_key": "collaboration_need:c92f1eeca5f5a93c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품도입 관련 계약서 및 견적서 발송",
+      "normalized": {
+        "text": "제품도입 관련 계약서 및 견적서 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "제품도입 관련 계약서 및 견적서 발송",
+          "start_char": 303,
+          "end_char": 323
+        }
+      ],
+      "dedupe_key": "action_item:edb20acba18f5522",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스패키지 관련 건으로 마케팅팀과 후속미팅 수립",
+      "normalized": {
+        "text": "그로스패키지 관련 건으로 마케팅팀과 후속미팅 수립",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "그로스패키지 관련 건으로 마케팅팀과 후속미팅 수립",
+          "start_char": 324,
+          "end_char": 351
+        }
+      ],
+      "dedupe_key": "action_item:84fa2dcebb4ae791",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

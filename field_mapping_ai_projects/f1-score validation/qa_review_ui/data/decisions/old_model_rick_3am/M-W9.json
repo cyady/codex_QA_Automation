@@ -1,0 +1,367 @@
+{
+  "memo_id": "M-W9",
+  "updated_at": "2026-02-24T08:23:41.405652+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "contract_amount",
+      "field_label": "contract_amount",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1593",
+      "field_label": "✅ MRR",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5372",
+      "field_label": "예상 마감 일자",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5362",
+      "field_label": "미팅 참여자",
+      "decision": "FP",
+      "note": "인찬님이 태그 된 것일 뿐, 미팅 참여자인지 알 수 없음"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "연간 계약시의 할인이 정책에 있으나 AI가 알 방법이 없으므로 정상 판정"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5370",
+      "field_label": "고객상황",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "FP",
+      "note": "웹싸이트 리뉴얼+ 그로스 관련 내용 누락"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "FP",
+      "note": "그로스 말고도, CRM 연간 결제 예정인데 빠졌음"
+    },
+    {
+      "item_idx": 11,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "샵라이브 코리아 계약 확정(??)",
+      "normalized": {
+        "text": "샵라이브 코리아 계약 확정(??)",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "샵라이브 코리아 계약 확정(??)",
+      "start_char": 0,
+      "end_char": 18,
+      "line_no": 1,
+      "line_text": "샵라이브 코리아 계약 확정(??)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "FN",
+      "assigned_field_id": "5577",
+      "assigned_field_label": "법인명",
+      "note": "법인명 미탐지"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "견적서 전달 드리기",
+      "normalized": {
+        "text": "견적서 전달 드리기",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "NextAction"
+      ],
+      "evidence_quote": "견적서 전달 드리기",
+      "start_char": 38,
+      "end_char": 48,
+      "line_no": 5,
+      "line_text": "견적서 전달 드리기",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "normalized": {
+        "text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "NextAction"
+      ],
+      "evidence_quote": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "start_char": 84,
+      "end_char": 180,
+      "line_no": 7,
+      "line_text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "NextAction"
+      ],
+      "evidence_quote": "@여인찬",
+      "start_char": 160,
+      "end_char": 164,
+      "line_no": 7,
+      "line_text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@cx",
+      "normalized": {
+        "name": "cx"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "NextAction"
+      ],
+      "evidence_quote": "@cx",
+      "start_char": 177,
+      "end_char": 180,
+      "line_no": 7,
+      "line_text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+      "normalized": {
+        "text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [
+        "-------"
+      ],
+      "evidence_quote": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+      "start_char": 205,
+      "end_char": 286,
+      "line_no": 12,
+      "line_text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [
+        "-------"
+      ],
+      "evidence_quote": "리캐치",
+      "start_char": 263,
+      "end_char": 266,
+      "line_no": 12,
+      "line_text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6864",
+          "label": "✔️ new 리캐치 폼 링크 ",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+      "normalized": {
+        "text": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+      ],
+      "evidence_quote": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+      "start_char": 323,
+      "end_char": 395,
+      "line_no": 15,
+      "line_text": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+      ],
+      "evidence_quote": "1명",
+      "start_char": 469,
+      "end_char": 471,
+      "line_no": 18,
+      "line_text": "본인 포함 1명 더 갈수 있는지? > 최대 2명까지 갈 수 있는거 확인!",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W264",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확보 여부 및 수준: 구체적인 예산 금액을 밝히지는 않았으나, 고가의 외산 툴인 '세일즈포스(Salesforce)'와 이미 미팅을 진행했고 '허브스팟(HubSpot)'도 고려 대상이었다는 점에서 유료 CRM 도입을 위한 예산은 충분히 확보된 것으로 보입니다.",
+      "normalized": {
+        "text": "확보 여부 및 수준: 구체적인 예산 금액을 밝히지는 않았으나, 고가의 외산 툴인 '세일즈포스(Salesforce)'와 이미 미팅을 진행했고 '허브스팟(HubSpot)'도 고려 대상이었다는 점에서 유료 CRM 도입을 위한 예산은 충분히 확보된 것으로 보입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            ":돈가방: Budget (예산)"
+          ],
+          "exact_quote": "확보 여부 및 수준: 구체적인 예산 금액을 밝히지는 않았으나, 고가의 외산 툴인 '세일즈포스(Salesforce)'와 이미 미팅을 진행했고 '허브스팟(HubSpot)'도 고려 대상이었다는 점에서 유료 CRM 도입을 위한 예산은 충분히 확보된 것으로 보입니다.",
+          "start_char": 137,
+          "end_char": 281
+        }
+      ],
+      "dedupe_key": "action_item:45c46c78e36b4987",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치 측에서 제시한 월 25만 원(기본 3인) 및 추가 인원당 5만 원이라는 가격 정책에 대해 구체적으로 질문하며 확인하는 단계로, 비용 자체보다는 기능과 효용성을 검토하는 단계입니다.",
+      "normalized": {
+        "text": "리캐치 측에서 제시한 월 25만 원(기본 3인) 및 추가 인원당 5만 원이라는 가격 정책에 대해 구체적으로 질문하며 확인하는 단계로, 비용 자체보다는 기능과 효용성을 검토하는 단계입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "가격 수용성"
+          ],
+          "exact_quote": "리캐치 측에서 제시한 월 25만 원(기본 3인) 및 추가 인원당 5만 원이라는 가격 정책에 대해 구체적으로 질문하며 확인하는 단계로, 비용 자체보다는 기능과 효용성을 검토하는 단계입니다.",
+          "start_char": 293,
+          "end_char": 397
+        }
+      ],
+      "dedupe_key": "action_item:4f8d0e1a3eb04531",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "가격 수용성"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 307,
+          "end_char": 312
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5만 원",
+      "normalized": {
+        "value": 50000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "가격 수용성"
+          ],
+          "exact_quote": "5만 원",
+          "start_char": 329,
+          "end_char": 333
+        }
+      ],
+      "dedupe_key": "budget:15a7dc94cfd687a3",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "가격 수용성"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 293,
+          "end_char": 296
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1292,
+          "end_char": 1295
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1473,
+          "end_char": 1476
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1620,
+          "end_char": 1623
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "의사결정 주체: 회의를 주도한 '참석자 1'이 내부의 페인 포인트(Pain Point)를 명확히 인지하고 있으며, 솔루션 도입의 필요성을 강력하게 어필하고 있습니다.",
+      "normalized": {
+        "text": "의사결정 주체: 회의를 주도한 '참석자 1'이 내부의 페인 포인트(Pain Point)를 명확히 인지하고 있으며, 솔루션 도입의 필요성을 강력하게 어필하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Authority (결정 권한)"
+          ],
+          "exact_quote": "의사결정 주체: 회의를 주도한 '참석자 1'이 내부의 페인 포인트(Pain Point)를 명확히 인지하고 있으며, 솔루션 도입의 필요성을 강력하게 어필하고 있습니다.",
+          "start_char": 418,
+          "end_char": 510
+        }
+      ],
+      "dedupe_key": "action_item:dcbca7c43a396051",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 협의: '여원님'을 포함한 다른 팀원들이 회의에 참석하였고, 내부적으로 개발 인력 및 디자이너가 있어 웹사이트/도메인 정리에 대한 내부 교통정리가 필요하다고 언급했습니다. 실무진의 의견이 모이면 도입을 결정할 수 있는 구조로 파악됩니다.",
+      "normalized": {
+        "text": "내부 협의: '여원님'을 포함한 다른 팀원들이 회의에 참석하였고, 내부적으로 개발 인력 및 디자이너가 있어 웹사이트/도메인 정리에 대한 내부 교통정리가 필요하다고 언급했습니다. 실무진의 의견이 모이면 도입을 결정할 수 있는 구조로 파악됩니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "Authority (결정 권한)"
+          ],
+          "exact_quote": "내부 협의: '여원님'을 포함한 다른 팀원들이 회의에 참석하였고, 내부적으로 개발 인력 및 디자이너가 있어 웹사이트/도메인 정리에 대한 내부 교통정리가 필요하다고 언급했습니다. 실무진의 의견이 모이면 도입을 결정할 수 있는 구조로 파악됩니다.",
+          "start_char": 512,
+          "end_char": 647
+        }
+      ],
+      "dedupe_key": "action_item:29bd90d9c8082b2c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+      "normalized": {
+        "text": "데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+          "start_char": 662,
+          "end_char": 785
+        }
+      ],
+      "dedupe_key": "collaboration_need:a192c9e901bceb45",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+      "normalized": {
+        "text": "• 데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "• 데이터의 중앙화 및 일관성: 기존에 사용하던 노션(Notion)과 엑셀이 데이터가 쌓이면서 로딩이 느려지고, BD(Business Developer)마다 기록 방식이 달라 데이터 관리가 어렵다는 점이 가장 큰 문제입니다.",
+          "start_char": 660,
+          "end_char": 785
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7bdee4736860c285",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "긴 세일즈 사이클 관리:",
+      "normalized": {
+        "text": "긴 세일즈 사이클 관리:",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "긴 세일즈 사이클 관리:",
+          "start_char": 789,
+          "end_char": 802
+        }
+      ],
+      "dedupe_key": "collaboration_need:ff9073e09f14f157",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전력 거래 비즈니스 특성상 리드 타임이 6개월 이상 길어지는 경우가 많은데, 이 과정에서 히스토리 추적 실패나 커뮤니케이션 미스를 방지하고자 합니다.",
+      "normalized": {
+        "text": "전력 거래 비즈니스 특성상 리드 타임이 6개월 이상 길어지는 경우가 많은데, 이 과정에서 히스토리 추적 실패나 커뮤니케이션 미스를 방지하고자 합니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "전력 거래 비즈니스 특성상 리드 타임이 6개월 이상 길어지는 경우가 많은데, 이 과정에서 히스토리 추적 실패나 커뮤니케이션 미스를 방지하고자 합니다.",
+          "start_char": 805,
+          "end_char": 888
+        }
+      ],
+      "dedupe_key": "collaboration_need:a9cb411fe03c49df",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 827,
+          "end_char": 830
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협력사 및 파트너 관리:",
+      "normalized": {
+        "text": "협력사 및 파트너 관리:",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "협력사 및 파트너 관리:",
+          "start_char": 892,
+          "end_char": 905
+        }
+      ],
+      "dedupe_key": "collaboration_need:b506945b68dd4be7",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "잠재 고객뿐만 아니라 다양한 협력 파트너 기관과의 미팅 로그를 체계적으로 아카이빙하려는 니즈가 강합니다.",
+      "normalized": {
+        "text": "잠재 고객뿐만 아니라 다양한 협력 파트너 기관과의 미팅 로그를 체계적으로 아카이빙하려는 니즈가 강합니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "잠재 고객뿐만 아니라 다양한 협력 파트너 기관과의 미팅 로그를 체계적으로 아카이빙하려는 니즈가 강합니다.",
+          "start_char": 908,
+          "end_char": 966
+        }
+      ],
+      "dedupe_key": "collaboration_need:fe249e98b92baaec",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객층 특성 반영:",
+      "normalized": {
+        "text": "고객층 특성 반영:",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "고객층 특성 반영:",
+          "start_char": 970,
+          "end_char": 980
+        }
+      ],
+      "dedupe_key": "collaboration_need:52c274f7e41565f4",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "주요 고객(대표급, 발전소 소유주 등)의 연령대가 높아 이메일 자동화보다는 전화/문자 위주의 소통 이력을 관리하는 것이 중요합니다.",
+      "normalized": {
+        "text": "주요 고객(대표급, 발전소 소유주 등)의 연령대가 높아 이메일 자동화보다는 전화/문자 위주의 소통 이력을 관리하는 것이 중요합니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "주요 고객(대표급, 발전소 소유주 등)의 연령대가 높아 이메일 자동화보다는 전화/문자 위주의 소통 이력을 관리하는 것이 중요합니다.",
+          "start_char": 983,
+          "end_char": 1056
+        }
+      ],
+      "dedupe_key": "collaboration_need:68ebb93a9585c4e7",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입 니즈가 크고 \"빠르게 진행이 되었으면 좋겠다\"라고 직접적으로 언급할 만큼 도입 의지가 강하고 시급한 상황입니다.",
+      "normalized": {
+        "text": "CRM 도입 니즈가 크고 \"빠르게 진행이 되었으면 좋겠다\"라고 직접적으로 언급할 만큼 도입 의지가 강하고 시급한 상황입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "CRM 도입 니즈가 크고 \"빠르게 진행이 되었으면 좋겠다\"라고 직접적으로 언급할 만큼 도입 의지가 강하고 시급한 상황입니다.",
+          "start_char": 1092,
+          "end_char": 1161
+        }
+      ],
+      "dedupe_key": "action_item:0da4eb29fd7fe6f4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 신규 서비스 런칭을 앞두고 있어, 도메인 교통정리와 맞물려 솔루션을 도입하고자 하는 타이밍입니다.",
+      "normalized": {
+        "text": "현재 신규 서비스 런칭을 앞두고 있어, 도메인 교통정리와 맞물려 솔루션을 도입하고자 하는 타이밍입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "현재 신규 서비스 런칭을 앞두고 있어, 도메인 교통정리와 맞물려 솔루션을 도입하고자 하는 타이밍입니다.",
+          "start_char": 1178,
+          "end_char": 1235
+        }
+      ],
+      "dedupe_key": "collaboration_need:8f330196f471e6d1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1. 명확한 Pain Point 해결: 굿뉴스 에너지가 겪고 있는 '긴 호흡의 B2B 영업 관리'와 '히스토리 아카이빙' 문제는 리캐치가 강조하는 강점과 정확히 일치합니다. 특히 세일즈포스와 같은 무거운 툴보다 직관적인 관리를 원하고 있습니다.",
+      "normalized": {
+        "text": "1. 명확한 Pain Point 해결: 굿뉴스 에너지가 겪고 있는 '긴 호흡의 B2B 영업 관리'와 '히스토리 아카이빙' 문제는 리캐치가 강조하는 강점과 정확히 일치합니다. 특히 세일즈포스와 같은 무거운 툴보다 직관적인 관리를 원하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "1. 명확한 Pain Point 해결: 굿뉴스 에너지가 겪고 있는 '긴 호흡의 B2B 영업 관리'와 '히스토리 아카이빙' 문제는 리캐치가 강조하는 강점과 정확히 일치합니다. 특히 세일즈포스와 같은 무거운 툴보다 직관적인 관리를 원하고 있습니다.",
+          "start_char": 1401,
+          "end_char": 1537
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b11ac2a2349b379c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객은 이미 고가의 외산 툴(세일즈포스)을 검토했으나, 기능적 복잡함보다는 '접근성'과 '체계적 정리'를 원하고 있습니다. 리캐치의 가격 경쟁력과 한국형 B2B 세일즈 프로세스(명함 관리 등)가 큰 매력으로 작용했습니다.",
+      "normalized": {
+        "text": "고객은 이미 고가의 외산 툴(세일즈포스)을 검토했으나, 기능적 복잡함보다는 '접근성'과 '체계적 정리'를 원하고 있습니다. 리캐치의 가격 경쟁력과 한국형 B2B 세일즈 프로세스(명함 관리 등)가 큰 매력으로 작용했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "고객은 이미 고가의 외산 툴(세일즈포스)을 검토했으나, 기능적 복잡함보다는 '접근성'과 '체계적 정리'를 원하고 있습니다. 리캐치의 가격 경쟁력과 한국형 B2B 세일즈 프로세스(명함 관리 등)가 큰 매력으로 작용했습니다.",
+          "start_char": 1551,
+          "end_char": 1674
+        }
+      ],
+      "dedupe_key": "action_item:1d5c244d89dba1d0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "트라이얼(Trial) 가능 여부를 묻고, 트라이얼이 없다는 답변에도 \"최소 요건으로 월 결제를 해보겠다\"는 뉘앙스로 가격 정책과 커스텀 개발 여부를 구체적으로 질문했습니다. 이는 단순 검토를 넘어 도입을 전제로 한 질문들입니다.",
+      "normalized": {
+        "text": "트라이얼(Trial) 가능 여부를 묻고, 트라이얼이 없다는 답변에도 \"최소 요건으로 월 결제를 해보겠다\"는 뉘앙스로 가격 정책과 커스텀 개발 여부를 구체적으로 질문했습니다. 이는 단순 검토를 넘어 도입을 전제로 한 질문들입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "트라이얼(Trial) 가능 여부를 묻고, 트라이얼이 없다는 답변에도 \"최소 요건으로 월 결제를 해보겠다\"는 뉘앙스로 가격 정책과 커스텀 개발 여부를 구체적으로 질문했습니다. 이는 단순 검토를 넘어 도입을 전제로 한 질문들입니다.",
+          "start_char": 1693,
+          "end_char": 1820
+        }
+      ],
+      "dedupe_key": "action_item:ccebb35840835a38",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"빠르게 진행되었으면 좋겠다\"는 고객의 발언은 딜 클로징 시기를 앞당길 수 있는 강력한 신호입니다.",
+      "normalized": {
+        "text": "\"빠르게 진행되었으면 좋겠다\"는 고객의 발언은 딜 클로징 시기를 앞당길 수 있는 강력한 신호입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "\"빠르게 진행되었으면 좋겠다\"는 고객의 발언은 딜 클로징 시기를 앞당길 수 있는 강력한 신호입니다.",
+          "start_char": 1835,
+          "end_char": 1890
+        }
+      ],
+      "dedupe_key": "action_item:3e6c42954d529b73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": ":경고: 고려해야 할 리스크 (Risk Factors)",
+      "normalized": {
+        "text": ":경고: 고려해야 할 리스크 (Risk Factors)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": ":경고: 고려해야 할 리스크 (Risk Factors)",
+          "start_char": 1892,
+          "end_char": 1922
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d0467ffebb6ea4cc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "신규 서비스 런칭과 맞물려 도메인이 여러 개로 나뉘어 있어, 이를 내부적으로 정리하는 과정에서 도입 시기가 다소 지연될 수 있습니다.",
+      "normalized": {
+        "text": "신규 서비스 런칭과 맞물려 도메인이 여러 개로 나뉘어 있어, 이를 내부적으로 정리하는 과정에서 도입 시기가 다소 지연될 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "신규 서비스 런칭과 맞물려 도메인이 여러 개로 나뉘어 있어, 이를 내부적으로 정리하는 과정에서 도입 시기가 다소 지연될 수 있습니다.",
+          "start_char": 1940,
+          "end_char": 2014
+        }
+      ],
+      "dedupe_key": "collaboration_need:e561c5ac762e5c24",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고객이 복수 웹사이트 간의 여정 추적을 문의했으나, 기술적으로 당장 어렵다는 답변을 받았습니다. 다만, 고객이 이를 이해하고 넘어갔으므로 치명적인 결격 사유는 아닐 것으로 보입니다.",
+      "normalized": {
+        "text": "고객이 복수 웹사이트 간의 여정 추적을 문의했으나, 기술적으로 당장 어렵다는 답변을 받았습니다. 다만, 고객이 이를 이해하고 넘어갔으므로 치명적인 결격 사유는 아닐 것으로 보입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            ":자명종_시계: Timing (도입 시기)"
+          ],
+          "exact_quote": "고객이 복수 웹사이트 간의 여정 추적을 문의했으나, 기술적으로 당장 어렵다는 답변을 받았습니다. 다만, 고객이 이를 이해하고 넘어갔으므로 치명적인 결격 사유는 아닐 것으로 보입니다.",
+          "start_char": 2034,
+          "end_char": 2135
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4b937355c55daee4",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

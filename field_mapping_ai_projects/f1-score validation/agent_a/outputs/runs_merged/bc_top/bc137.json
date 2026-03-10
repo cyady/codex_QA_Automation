@@ -1,0 +1,129 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W137",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0922 인핸스 회신",
+      "normalized": {
+        "text": "0922 인핸스 회신",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0922 인핸스 회신",
+          "start_char": 0,
+          "end_char": 11
+        }
+      ],
+      "dedupe_key": "action_item:2d2419c88c83a9ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "--보내주신 상세한 정리와 제안 잘 확인했습니다. 서비스 소개서와 단가표도 검토하였습니다.",
+      "normalized": {
+        "text": "--보내주신 상세한 정리와 제안 잘 확인했습니다. 서비스 소개서와 단가표도 검토하였습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 일정 수립 필요 - 수 오후2~3시 <- 한규님 kaist IMBA 조정가능?"
+          ],
+          "exact_quote": "--보내주신 상세한 정리와 제안 잘 확인했습니다. 서비스 소개서와 단가표도 검토하였습니다.",
+          "start_char": 100,
+          "end_char": 150
+        }
+      ],
+      "dedupe_key": "action_item:a7dbc7c17cb3b703",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 11시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 11,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 일정 수립 필요 - 수 오후2~3시 <- 한규님 kaist IMBA 조정가능?"
+          ],
+          "exact_quote": "오전 11시",
+          "start_char": 83,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "timeline:a7ee552fe5251acf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 2시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 2,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "기대하는 최종 효과(전환, 고객 확보 등)는 구체적으로 어떤 것인지?"
+          ],
+          "exact_quote": "오후 2시",
+          "start_char": 406,
+          "end_char": 411
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "기대하는 최종 효과(전환, 고객 확보 등)는 구체적으로 어떤 것인지?"
+          ],
+          "exact_quote": "오후 2시",
+          "start_char": 420,
+          "end_char": 425
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "기대하는 최종 효과(전환, 고객 확보 등)는 구체적으로 어떤 것인지?"
+          ],
+          "exact_quote": "오후 2시",
+          "start_char": 440,
+          "end_char": 445
+        }
+      ],
+      "dedupe_key": "timeline:9875493659f641dd",
+      "confidence": 0.88
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W162",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이에이트의 현재 문제상황",
+      "normalized": {
+        "text": "이에이트의 현재 문제상황",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이에이트의 현재 문제상황",
+          "start_char": 0,
+          "end_char": 13
+        }
+      ],
+      "dedupe_key": "risk_or_concern:dc93a83e3cfd414e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 임원 보고는 추석 이후, 10월 13일 전후 진행 예정",
+      "normalized": {
+        "text": "내부 임원 보고는 추석 이후, 10월 13일 전후 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "내부 임원 보고는 추석 이후, 10월 13일 전후 진행 예정",
+          "start_char": 262,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "action_item:98515869ac8a0884",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 진행 상황·업데이트 내역을 한눈에 확인",
+      "normalized": {
+        "text": "프로젝트 진행 상황·업데이트 내역을 한눈에 확인",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "프로젝트 진행 상황·업데이트 내역을 한눈에 확인",
+          "start_char": 497,
+          "end_char": 523
+        }
+      ],
+      "dedupe_key": "action_item:946d4e98399dabc3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10/17",
+      "normalized": {
+        "month": 10,
+        "day": 17,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10/17",
+          "start_char": 309,
+          "end_char": 314
+        }
+      ],
+      "dedupe_key": "timeline:82deb5e3eb0661e6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 13일",
+      "normalized": {
+        "month": 10,
+        "day": 13
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10월 13일",
+          "start_char": 279,
+          "end_char": 286
+        }
+      ],
+      "dedupe_key": "timeline:add6f38a867c9d0b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "13일",
+      "normalized": {
+        "value": 13.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "13일",
+          "start_char": 283,
+          "end_char": 286
+        }
+      ],
+      "dedupe_key": "duration:5c19beb8efb52287",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 230,
+          "end_char": 232
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 247,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 315,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

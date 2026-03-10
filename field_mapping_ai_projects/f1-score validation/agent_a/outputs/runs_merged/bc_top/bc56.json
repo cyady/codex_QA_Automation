@@ -1,0 +1,870 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W56",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 18,
+          "end_char": 23
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 1337,
+          "end_char": 1343
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 11시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 11,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "오전 11시",
+          "start_char": 118,
+          "end_char": 124
+        }
+      ],
+      "dedupe_key": "timeline:a7ee552fe5251acf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 12시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 12,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "오후 12시",
+          "start_char": 131,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "timeline:cf2000deda91ae78",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 15일",
+      "normalized": {
+        "month": 9,
+        "day": 15
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "9월 15일",
+          "start_char": 89,
+          "end_char": 95
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "9월 15일",
+          "start_char": 107,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "timeline:2f40b997a15500aa",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "15일",
+      "normalized": {
+        "value": 15.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "15일",
+          "start_char": 92,
+          "end_char": 95
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "15일",
+          "start_char": 110,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "duration:84a672f3498c2190",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 78,
+          "end_char": 81
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 185,
+          "end_char": 188
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1018,
+          "end_char": 1021
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1145,
+          "end_char": 1148
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1219,
+          "end_char": 1222
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2740,
+          "end_char": 2743
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2834,
+          "end_char": 2837
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2957,
+          "end_char": 2960
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주요 기능: 마트 사장님들을 위한 모바일 전단, POP 제작 및 메시지 발송 솔루션.",
+      "normalized": {
+        "text": "주요 기능: 마트 사장님들을 위한 모바일 전단, POP 제작 및 메시지 발송 솔루션.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "주요 기능: 마트 사장님들을 위한 모바일 전단, POP 제작 및 메시지 발송 솔루션.",
+          "start_char": 332,
+          "end_char": 379
+        }
+      ],
+      "dedupe_key": "action_item:bf3cb7cf35787bc4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "'마트 홍보', '전단지 제작', '인쇄소' 등 일반 키워드로도 노출 희망.",
+      "normalized": {
+        "text": "'마트 홍보', '전단지 제작', '인쇄소' 등 일반 키워드로도 노출 희망.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "'마트 홍보', '전단지 제작', '인쇄소' 등 일반 키워드로도 노출 희망.",
+          "start_char": 692,
+          "end_char": 734
+        }
+      ],
+      "dedupe_key": "collaboration_need:9e51856844833c1c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "UX/UI 노출 시 카피 우려로 인해 가입해야만 서비스 활용 가능 (영상 제작의 어려움).",
+      "normalized": {
+        "text": "UX/UI 노출 시 카피 우려로 인해 가입해야만 서비스 활용 가능 (영상 제작의 어려움).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "UX/UI 노출 시 카피 우려로 인해 가입해야만 서비스 활용 가능 (영상 제작의 어려움).",
+          "start_char": 735,
+          "end_char": 785
+        }
+      ],
+      "dedupe_key": "risk_or_concern:31523861b7062a25",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기타 메시지 발송 플랫폼 제휴 시, 썸네일 제작(저가) 고객을 전단 서비스(중가) 및 관리 대행 서비스(고가)로 유도하는 가치 사다리(Value Ladder) 구축 필요.",
+      "normalized": {
+        "text": "기타 메시지 발송 플랫폼 제휴 시, 썸네일 제작(저가) 고객을 전단 서비스(중가) 및 관리 대행 서비스(고가)로 유도하는 가치 사다리(Value Ladder) 구축 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "기타 메시지 발송 플랫폼 제휴 시, 썸네일 제작(저가) 고객을 전단 서비스(중가) 및 관리 대행 서비스(고가)로 유도하는 가치 사다리(Value Ladder) 구축 필요.",
+          "start_char": 879,
+          "end_char": 974
+        }
+      ],
+      "dedupe_key": "action_item:46f3d5fefd3cd8e2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "마트 사장님들의 온라인 검색 활동 부족에 대한 우려 (검색량 데이터 부족).",
+      "normalized": {
+        "text": "마트 사장님들의 온라인 검색 활동 부족에 대한 우려 (검색량 데이터 부족).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "마트 사장님들의 온라인 검색 활동 부족에 대한 우려 (검색량 데이터 부족).",
+          "start_char": 975,
+          "end_char": 1017
+        }
+      ],
+      "dedupe_key": "risk_or_concern:601e009b149b85d0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "서비스 소개서 PDF 카탈로그는 제작되어 있으나, 이를 활용한 리드 마그넷 퍼널 설계 컨설팅 필요.",
+      "normalized": {
+        "text": "서비스 소개서 PDF 카탈로그는 제작되어 있으나, 이를 활용한 리드 마그넷 퍼널 설계 컨설팅 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "서비스 소개서 PDF 카탈로그는 제작되어 있으나, 이를 활용한 리드 마그넷 퍼널 설계 컨설팅 필요.",
+          "start_char": 1085,
+          "end_char": 1140
+        }
+      ],
+      "dedupe_key": "action_item:ee9e7f51372aff97",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "테크니컬 SEO 세션 (약 2시간): 웹사이트의 개발적인 SEO 개선 방안을 학습 및 안내하여, 향후 자체적으로 웹사이트 노출 문제 해결 가능하도록 지원. (개발 인력의 협업 필요).",
+      "normalized": {
+        "text": "테크니컬 SEO 세션 (약 2시간): 웹사이트의 개발적인 SEO 개선 방안을 학습 및 안내하여, 향후 자체적으로 웹사이트 노출 문제 해결 가능하도록 지원. (개발 인력의 협업 필요).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "테크니컬 SEO 세션 (약 2시간): 웹사이트의 개발적인 SEO 개선 방안을 학습 및 안내하여, 향후 자체적으로 웹사이트 노출 문제 해결 가능하도록 지원. (개발 인력의 협업 필요).",
+          "start_char": 1370,
+          "end_char": 1472
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ecbc3cad2ab625e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "콘텐츠 SEO 세션: 고객 요청을 콘텐츠로 변환하고 전환까지 이끌어내는 방법론 교육.",
+      "normalized": {
+        "text": "콘텐츠 SEO 세션: 고객 요청을 콘텐츠로 변환하고 전환까지 이끌어내는 방법론 교육.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "콘텐츠 SEO 세션: 고객 요청을 콘텐츠로 변환하고 전환까지 이끌어내는 방법론 교육.",
+          "start_char": 1473,
+          "end_char": 1520
+        }
+      ],
+      "dedupe_key": "action_item:04f84656a8da1328",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 2시간",
+      "normalized": {
+        "value": 2.0,
+        "unit": "hours",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "약 2시간",
+          "start_char": 1383,
+          "end_char": 1388
+        }
+      ],
+      "dedupe_key": "duration:6f2491483f0a6648",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1375,
+          "end_char": 1378
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1402,
+          "end_char": 1405
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1477,
+          "end_char": 1480
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2246,
+          "end_char": 2249
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2316,
+          "end_char": 2319
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1316,
+          "end_char": 1319
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2209,
+          "end_char": 2212
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2221,
+          "end_char": 2224
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2256,
+          "end_char": 2259
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2308,
+          "end_char": 2311
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2389,
+          "end_char": 2392
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2418,
+          "end_char": 2421
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만 원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "200만 원",
+          "start_char": 1784,
+          "end_char": 1790
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "800만원",
+          "start_char": 1794,
+          "end_char": 1799
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "4건",
+      "normalized": {
+        "value": 4,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "성공/도입 사례 위주 콘텐츠 제작 (4건)"
+          ],
+          "exact_quote": "4건",
+          "start_char": 1760,
+          "end_char": 1762
+        }
+      ],
+      "dedupe_key": "case_metric:1079b75daf70035d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "부에노컴퍼니 내부에서 역량 내재화를 위한 카운터 파트 (최소 1명) 지정 필요.",
+      "normalized": {
+        "text": "부에노컴퍼니 내부에서 역량 내재화를 위한 카운터 파트 (최소 1명) 지정 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "부에노컴퍼니 내부에서 역량 내재화를 위한 카운터 파트 (최소 1명) 지정 필요.",
+          "start_char": 2789,
+          "end_char": 2833
+        }
+      ],
+      "dedupe_key": "action_item:a75d794d74809d41",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 중순",
+      "normalized": {
+        "month": 10,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "10월 중순",
+          "start_char": 2685,
+          "end_char": 2691
+        }
+      ],
+      "dedupe_key": "timeline:30c0238d023f3066",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 말",
+      "normalized": {
+        "month": 12,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "12월 말",
+          "start_char": 2720,
+          "end_char": 2725
+        }
+      ],
+      "dedupe_key": "timeline:bdf1d0b8a845547e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "1~2회",
+      "normalized": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "1~2회",
+          "start_char": 2873,
+          "end_char": 2877
+        }
+      ],
+      "dedupe_key": "sales_activity:ffdd93594ae979ba",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 10주",
+      "normalized": {
+        "value": 10.0,
+        "unit": "weeks",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "약 10주",
+          "start_char": 2713,
+          "end_char": 2718
+        }
+      ],
+      "dedupe_key": "duration:678909dc4d7f4deb",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "1명",
+          "start_char": 2823,
+          "end_char": 2825
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다음 단계: 리캐치 측에서 송부될 견적서와 R&R 확인 후 계약 진행. 내부 팀원 중 카운터 파트 지정 준비. cc @정효재(Joy) @김가은(Bona)",
+      "normalized": {
+        "text": "다음 단계: 리캐치 측에서 송부될 견적서와 R&R 확인 후 계약 진행. 내부 팀원 중 카운터 파트 지정 준비. cc @정효재(Joy) @김가은(Bona)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "다음 단계: 리캐치 측에서 송부될 견적서와 R&R 확인 후 계약 진행. 내부 팀원 중 카운터 파트 지정 준비. cc @정효재(Joy) @김가은(Bona)",
+          "start_char": 2950,
+          "end_char": 3035
+        }
+      ],
+      "dedupe_key": "action_item:adb975284553e121",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "@정효재",
+          "start_char": 3015,
+          "end_char": 3019
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:cf6290db46513a77",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 3025,
+          "end_char": 3029
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "53.78",
+      "normalized": {
+        "year": 2053,
+        "month": 78,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "퍼널 구축 컨설팅"
+          ],
+          "exact_quote": "53.78",
+          "start_char": 3133,
+          "end_char": 3138
+        }
+      ],
+      "dedupe_key": "timeline:f35846f492592e6a",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

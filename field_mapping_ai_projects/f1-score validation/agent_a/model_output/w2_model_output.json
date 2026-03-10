@@ -1,0 +1,222 @@
+[
+    {
+        "extracted_value": [
+            {
+                "value": "c9a6bb1e-aea8-4b29-a0e1-425dc8778600"
+            }
+        ],
+        "field_definition": {
+            "id": "4986",
+            "label": "직책",
+            "type": "select",
+            "category": "custom",
+            "display_order": 101,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "대표・경영진",
+                        "order": 1,
+                        "value": "fe489ca1-5829-4b94-af36-56e6605294b4"
+                    },
+                    {
+                        "label": "팀장급 이상",
+                        "order": 2,
+                        "value": "c9a6bb1e-aea8-4b29-a0e1-425dc8778600"
+                    },
+                    {
+                        "label": "팀원",
+                        "order": 3,
+                        "value": "c0bddab9-8a9c-487a-9d3e-8c00ae315170"
+                    },
+                    {
+                        "label": "대표",
+                        "order": 4,
+                        "value": "ff35aa78-aa76-4c9a-bccb-fed3b55e7cb4"
+                    },
+                    {
+                        "label": "경영진",
+                        "order": 5,
+                        "value": "e737a3b0-d790-4626-8b7d-452fcc3239bd"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "미팅 참석자인 홍인표 팀장과 송유빈 차장의 직책을 바탕으로 '팀장급 이상' 옵션을 선택함."
+    },
+    {
+        "extracted_value": [
+            {
+                "value": "3b815708-da91-4622-88ee-c639f3eee3c6"
+            }
+        ],
+        "field_definition": {
+            "id": "4987",
+            "label": "직원 수",
+            "type": "select",
+            "category": "custom",
+            "display_order": 102,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "default_value": null,
+            "attributes": {
+                "options": [
+                    {
+                        "label": "1,001명 이상",
+                        "order": 1,
+                        "value": "3b815708-da91-4622-88ee-c639f3eee3c6"
+                    },
+                    {
+                        "label": "501-1,000명",
+                        "order": 2,
+                        "value": "d60bf476-6809-490a-a936-a0831fb10c29"
+                    },
+                    {
+                        "label": "201-500명",
+                        "order": 3,
+                        "value": "3fc56750-8753-4038-9bba-72c02d3f78f0"
+                    },
+                    {
+                        "label": "51-200명",
+                        "order": 4,
+                        "value": "a23e5f30-6cf4-41e4-a5cd-6e687673cb4b"
+                    },
+                    {
+                        "label": "11-50명",
+                        "order": 5,
+                        "value": "72206032-f189-432a-8030-9ae691c74ce1"
+                    },
+                    {
+                        "label": "1-10명",
+                        "order": 6,
+                        "value": "4e4de315-517d-4ff2-825c-d9ad5ea634b6"
+                    }
+                ],
+                "allow_empty": true
+            }
+        },
+        "reasoning": "미팅 노트 내 '전체 임직원이 2500명'이라는 문구를 근거로 '1,001명 이상' 옵션을 선택함."
+    },
+    {
+        "extracted_value": 300,
+        "field_definition": {
+            "id": "5364",
+            "label": "세일즈 팀 수",
+            "type": "number",
+            "category": "custom",
+            "display_order": 133,
+            "required": false,
+            "archive": false,
+            "caption": "모르면 -1",
+            "description": null,
+            "default_value": null,
+            "attributes": {
+                "precision": 0
+            }
+        },
+        "reasoning": "미팅 노트 내 '팀장 300명 정도'라는 문구와 이들이 관리자 역할을 수행함을 고려하여 세일즈 및 조직 관리 리더의 수로 판단하여 입력함."
+    },
+    {
+        "extracted_value": "대상 주식회사는 일대일 코칭 리소스 절감 및 시스템화에 관심이 높음. 현재 신임 팀장(평균 47세, 약 60~70명) 온보딩 및 리더십 교육을 오프라인에서 온라인/시스템 베이스로 전환하려는 니즈가 있음. AI 활용 역량 강화에도 관심이 있음.",
+        "field_definition": {
+            "id": "5376",
+            "label": "[N] 상황 및 문제",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 145,
+            "required": false,
+            "archive": false,
+            "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "미팅 노트의 핵심 요약 및 고객 질문 내용을 바탕으로 현재의 상황과 페인 포인트를 요약함."
+    },
+    {
+        "extracted_value": "12월 연말 PoC 3~5명 진행 검토(2026년 12월 예상), 1-2월 다면진단 후 3-4월 추가 코칭 논의 예정.",
+        "field_definition": {
+            "id": "5378",
+            "label": "[T] 타임라인",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 147,
+            "required": false,
+            "archive": false,
+            "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "타임라인 섹션에 명시된 PoC 검토 시기 및 내년도(2027년 예상) 교육 일정 계획을 추출함."
+    },
+    {
+        "extracted_value": true,
+        "field_definition": {
+            "id": "5534",
+            "label": "1차 업데이트 완료",
+            "type": "checkbox",
+            "category": "custom",
+            "display_order": 152,
+            "required": false,
+            "archive": false,
+            "caption": "세일즈 미팅록 작성 완료시 체크해주세요",
+            "description": "세일즈 미팅록 작성 완료시 체크해주세요",
+            "attributes": null
+        },
+        "reasoning": "상세한 미팅 기록이 작성되었으므로 미팅록 작성 완료로 판단하여 true 설정함."
+    },
+    {
+        "extracted_value": "홍인표 팀장, 송유빈 차장",
+        "field_definition": {
+            "id": "5556",
+            "label": "고객사 담당자 이름",
+            "type": "text",
+            "category": "custom",
+            "display_order": 154,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": "고객사의 담당자 이름",
+            "attributes": null
+        },
+        "reasoning": "참석자 명단에 기재된 고객사 담당자 성함을 추출함."
+    },
+    {
+        "extracted_value": "대상 주식회사",
+        "field_definition": {
+            "id": "5577",
+            "label": "법인명",
+            "type": "text",
+            "category": "custom",
+            "display_order": 164,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "미팅 노트 제목 및 서두에 명시된 법인명을 추출함."
+    },
+    {
+        "extracted_value": "연말 PoC 제안(3~5명), 내년도 시기에 맞는 팔로업 제공(한샘, 신한DS 사례 포함)",
+        "field_definition": {
+            "id": "5361",
+            "label": "Next Action",
+            "type": "textarea",
+            "category": "custom",
+            "display_order": 130,
+            "required": false,
+            "archive": false,
+            "caption": null,
+            "description": null,
+            "attributes": null
+        },
+        "reasoning": "Action Item 섹션에 명시된 향후 실행 과제를 추출함."
+    }
+]

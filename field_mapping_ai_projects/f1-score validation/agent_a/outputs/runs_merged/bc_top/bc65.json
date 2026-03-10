@@ -1,0 +1,233 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W65",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.09",
+      "normalized": {
+        "year": 2025,
+        "month": 9,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.09",
+          "start_char": 8,
+          "end_char": 13
+        }
+      ],
+      "dedupe_key": "timeline:f8ab960d07128cfe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 17,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 369,
+          "end_char": 372
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9/4",
+      "normalized": {
+        "month": 9,
+        "day": 4,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "9/4",
+          "start_char": 47,
+          "end_char": 50
+        }
+      ],
+      "dedupe_key": "timeline:147ee689ab952f45",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그 파트너로 리캐치 그로스랩 + CRM 도입을 생각 중인데 기대치 조율할 부분이 많아 내일 다시 통화 예정",
+      "normalized": {
+        "text": "그 파트너로 리캐치 그로스랩 + CRM 도입을 생각 중인데 기대치 조율할 부분이 많아 내일 다시 통화 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "그 파트너로 리캐치 그로스랩 + CRM 도입을 생각 중인데 기대치 조율할 부분이 많아 내일 다시 통화 예정",
+          "start_char": 611,
+          "end_char": 670
+        }
+      ],
+      "dedupe_key": "collaboration_need:b77ba51485407b41",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 359,
+          "end_char": 362
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 295,
+          "end_char": 298
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 462,
+          "end_char": 465
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 618,
+          "end_char": 621
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[기대치 조율 필요한 부분]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 950,
+          "end_char": 953
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "회원가입한 사람에게 알림톡/문자 보내는 등의 B2C CRM 기능 부재",
+      "normalized": {
+        "text": "회원가입한 사람에게 알림톡/문자 보내는 등의 B2C CRM 기능 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[기대치 조율 필요한 부분]"
+          ],
+          "exact_quote": "회원가입한 사람에게 알림톡/문자 보내는 등의 B2C CRM 기능 부재",
+          "start_char": 1025,
+          "end_char": 1063
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0262c1dc19d58d1b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[기대치 조율 필요한 부분]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 784,
+          "end_char": 787
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W517",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 36,
+          "end_char": 40
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 21,
+          "end_char": 24
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 37,
+          "end_char": 40
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객사 DB 공유는 아직 열려있진 않다. 내부 확인 후 말씀 드리겠다.",
+      "normalized": {
+        "text": "고객사 DB 공유는 아직 열려있진 않다. 내부 확인 후 말씀 드리겠다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "파트너십: 리캐치 고객사 DB 공유 가능한지?"
+          ],
+          "exact_quote": "고객사 DB 공유는 아직 열려있진 않다. 내부 확인 후 말씀 드리겠다.",
+          "start_char": 90,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "collaboration_need:c5331656c90d6fb2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "파트너십: 리캐치 고객사 DB 공유 가능한지?"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 136,
+          "end_char": 139
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 368,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일 발송: 1) ABM 소구 2) 솔루션 파트너 웹사이트 공유",
+      "normalized": {
+        "text": "이메일 발송: 1) ABM 소구 2) 솔루션 파트너 웹사이트 공유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "이메일 발송: 1) ABM 소구 2) 솔루션 파트너 웹사이트 공유",
+          "start_char": 357,
+          "end_char": 393
+        }
+      ],
+      "dedupe_key": "action_item:bb55872af437a2ee",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

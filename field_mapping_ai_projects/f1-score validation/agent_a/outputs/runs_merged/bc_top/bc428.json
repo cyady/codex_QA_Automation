@@ -1,0 +1,353 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W428",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[삼성물산 Bynd] GTM 전략 수립 및 디지털 영업 체계 구축 제안의 건안녕하세요, 삼성물산 전혜문 그룹장님, 김성은 프로님.",
+      "normalized": {
+        "text": "[삼성물산 Bynd] GTM 전략 수립 및 디지털 영업 체계 구축 제안의 건안녕하세요, 삼성물산 전혜문 그룹장님, 김성은 프로님.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[삼성물산 Bynd] GTM 전략 수립 및 디지털 영업 체계 구축 제안의 건안녕하세요, 삼성물산 전혜문 그룹장님, 김성은 프로님.",
+          "start_char": 73,
+          "end_char": 145
+        }
+      ],
+      "dedupe_key": "action_item:0d83dc2c08940efc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아래 안내 드리는 WBS는 향후 진행될 프로젝트의 전반적인 양식과 대략적인 일정을 참고하시기 위해 작성된 가안입니다.",
+      "normalized": {
+        "text": "아래 안내 드리는 WBS는 향후 진행될 프로젝트의 전반적인 양식과 대략적인 일정을 참고하시기 위해 작성된 가안입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "아래 안내 드리는 WBS는 향후 진행될 프로젝트의 전반적인 양식과 대략적인 일정을 참고하시기 위해 작성된 가안입니다.",
+          "start_char": 260,
+          "end_char": 325
+        }
+      ],
+      "dedupe_key": "action_item:a0ba49d104158e0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실제 WBS는 계약 체결 직후 진행될 프로젝트 킥오프 단계에서 최종적인 업무 스코프와 세부 일정을 상호 조율하여 확정할 예정이오니, 이 점 참고 부탁드립니다.",
+      "normalized": {
+        "text": "실제 WBS는 계약 체결 직후 진행될 프로젝트 킥오프 단계에서 최종적인 업무 스코프와 세부 일정을 상호 조율하여 확정할 예정이오니, 이 점 참고 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "실제 WBS는 계약 체결 직후 진행될 프로젝트 킥오프 단계에서 최종적인 업무 스코프와 세부 일정을 상호 조율하여 확정할 예정이오니, 이 점 참고 부탁드립니다.",
+          "start_char": 326,
+          "end_char": 414
+        }
+      ],
+      "dedupe_key": "action_item:70661e2e2a4add60",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*혹 보안 문제로 해당 스프레드시트 링크가 열리지 않는다면 편히 말씀 부탁드립니다. 별도 채널로 다시 안내드릴 수 있도록 하겠습니다.저희 리캐치팀은 Bynd 신사업의 성공적인 궤도 진입을 위한 1차 프로젝트로 'GTM 컨설팅' 프로그램을 제안드립니다.",
+      "normalized": {
+        "text": "*혹 보안 문제로 해당 스프레드시트 링크가 열리지 않는다면 편히 말씀 부탁드립니다. 별도 채널로 다시 안내드릴 수 있도록 하겠습니다.저희 리캐치팀은 Bynd 신사업의 성공적인 궤도 진입을 위한 1차 프로젝트로 'GTM 컨설팅' 프로그램을 제안드립니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "*혹 보안 문제로 해당 스프레드시트 링크가 열리지 않는다면 편히 말씀 부탁드립니다. 별도 채널로 다시 안내드릴 수 있도록 하겠습니다.저희 리캐치팀은 Bynd 신사업의 성공적인 궤도 진입을 위한 1차 프로젝트로 'GTM 컨설팅' 프로그램을 제안드립니다.",
+          "start_char": 433,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "risk_or_concern:01b1ef55c8e5501c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 21,
+          "end_char": 26
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 146,
+          "end_char": 149
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 510,
+          "end_char": 513
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2시간",
+      "normalized": {
+        "value": 2.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2시간",
+          "start_char": 677,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "duration:8d5f5904f3e854a3",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "성공 사례: 제안서에도 언급된 한화비전 키퍼(Keeper)팀의 경우, 2025년 3월부터 프로젝트를 진행하여 주간 영업 미팅 수가 140배 증가하며 신사업을 성공적인 궤도에 올린 바 있습니다.",
+      "normalized": {
+        "text": "성공 사례: 제안서에도 언급된 한화비전 키퍼(Keeper)팀의 경우, 2025년 3월부터 프로젝트를 진행하여 주간 영업 미팅 수가 140배 증가하며 신사업을 성공적인 궤도에 올린 바 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "성공 사례: 제안서에도 언급된 한화비전 키퍼(Keeper)팀의 경우, 2025년 3월부터 프로젝트를 진행하여 주간 영업 미팅 수가 140배 증가하며 신사업을 성공적인 궤도에 올린 바 있습니다.",
+          "start_char": 805,
+          "end_char": 912
+        }
+      ],
+      "dedupe_key": "action_item:a8087b4dd4afe929",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제안서를 검토하신 후, 향후 프로세스는 다음과 같이 진행될 예정입니다.",
+      "normalized": {
+        "text": "제안서를 검토하신 후, 향후 프로세스는 다음과 같이 진행될 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "제안서를 검토하신 후, 향후 프로세스는 다음과 같이 진행될 예정입니다.",
+          "start_char": 914,
+          "end_char": 953
+        }
+      ],
+      "dedupe_key": "action_item:8914da76336105a5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2. 최종 견적 및 계약: 확정된 스코프를 바탕으로 계약서 송부 및 날인",
+      "normalized": {
+        "text": "2. 최종 견적 및 계약: 확정된 스코프를 바탕으로 계약서 송부 및 날인",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "2. 최종 견적 및 계약: 확정된 스코프를 바탕으로 계약서 송부 및 날인",
+          "start_char": 1003,
+          "end_char": 1043
+        }
+      ],
+      "dedupe_key": "action_item:1c4fb8b6816b2efe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3. 프로젝트 킥오프: 계약 직후 진행하며, 최종 WBS 확정",
+      "normalized": {
+        "text": "3. 프로젝트 킥오프: 계약 직후 진행하며, 최종 WBS 확정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "3. 프로젝트 킥오프: 계약 직후 진행하며, 최종 WBS 확정",
+          "start_char": 1047,
+          "end_char": 1081
+        }
+      ],
+      "dedupe_key": "action_item:f5fd400e2ca03154",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "4. 프로젝트 진행: GTM 컨설팅 기준, 최소 2개월에서 최대 3개월 예상",
+      "normalized": {
+        "text": "4. 프로젝트 진행: GTM 컨설팅 기준, 최소 2개월에서 최대 3개월 예상",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "4. 프로젝트 진행: GTM 컨설팅 기준, 최소 2개월에서 최대 3개월 예상",
+          "start_char": 1085,
+          "end_char": 1127
+        }
+      ],
+      "dedupe_key": "action_item:c9b8c3ecabcd52a2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "2개월",
+          "start_char": 1112,
+          "end_char": 1115
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 1121,
+          "end_char": 1124
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 후 편하게 말씀 부탁드립니다.감사합니다.김한규 배상",
+      "normalized": {
+        "text": "검토 후 편하게 말씀 부탁드립니다.감사합니다.김한규 배상",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "검토 후 편하게 말씀 부탁드립니다.감사합니다.김한규 배상",
+          "start_char": 1199,
+          "end_char": 1230
+        }
+      ],
+      "dedupe_key": "action_item:e0796a08dd2de2c9",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

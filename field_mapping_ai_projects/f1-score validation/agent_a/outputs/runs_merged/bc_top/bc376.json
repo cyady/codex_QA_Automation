@@ -1,0 +1,446 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W376",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "251223_오리콤(HP 광고대행사) 미팅 주요 내용 공유 @이지황(8.30) @김민석(8.30) cc @김우진(Woojin Andy Kim)",
+      "normalized": {
+        "text": "251223_오리콤(HP 광고대행사) 미팅 주요 내용 공유 @이지황(8.30) @김민석(8.30) cc @김우진(Woojin Andy Kim)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "251223_오리콤(HP 광고대행사) 미팅 주요 내용 공유 @이지황(8.30) @김민석(8.30) cc @김우진(Woojin Andy Kim)",
+          "start_char": 0,
+          "end_char": 79
+        }
+      ],
+      "dedupe_key": "collaboration_need:e6247e9cec541c85",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "--1/ 오리콤 측의 주요 질문 및 요청 사항",
+      "normalized": {
+        "text": "--1/ 오리콤 측의 주요 질문 및 요청 사항",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "--1/ 오리콤 측의 주요 질문 및 요청 사항",
+          "start_char": 80,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "action_item:8120ef893249cb4f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@이지황",
+      "normalized": {
+        "name": "이지황"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@이지황",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dcf5dd360e810a18",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민석",
+      "normalized": {
+        "name": "김민석"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민석",
+          "start_char": 44,
+          "end_char": 48
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6d0ead47b3ca1dd5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 58,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "패키지 구성 및 비용 조정: 패키지 구성 요소 중 일부(랜딩 페이지 등)를 제외할 경우 단가 조정이 가능한지 문의했습니다. 이에 대해 리멤버/리캐치 측은 패키지 형태이기에 현재 가격이 가능하며, 개별적으로 진행할 경우 오히려 비용이 상승하거나 성과 관리가 어려워 현재로서는 불가능하다고 답변했습니다.",
+      "normalized": {
+        "text": "패키지 구성 및 비용 조정: 패키지 구성 요소 중 일부(랜딩 페이지 등)를 제외할 경우 단가 조정이 가능한지 문의했습니다. 이에 대해 리멤버/리캐치 측은 패키지 형태이기에 현재 가격이 가능하며, 개별적으로 진행할 경우 오히려 비용이 상승하거나 성과 관리가 어려워 현재로서는 불가능하다고 답변했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "패키지 구성 및 비용 조정: 패키지 구성 요소 중 일부(랜딩 페이지 등)를 제외할 경우 단가 조정이 가능한지 문의했습니다. 이에 대해 리멤버/리캐치 측은 패키지 형태이기에 현재 가격이 가능하며, 개별적으로 진행할 경우 오히려 비용이 상승하거나 성과 관리가 어려워 현재로서는 불가능하다고 답변했습니다.",
+          "start_char": 111,
+          "end_char": 278
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c6c992767ff725a7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 190,
+          "end_char": 193
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 352,
+          "end_char": 355
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 746,
+          "end_char": 749
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "글로벌 가이드라인 준수: HP 코리아는 글로벌 가이드라인 때문에 자사 랜딩 페이지를 사용해야 할 가능성이 높습니다. 이 경우 리캐치가 제작하는 랜딩 페이지와의 유연한 협업이 가능한지 확인하고자 했습니다.",
+      "normalized": {
+        "text": "글로벌 가이드라인 준수: HP 코리아는 글로벌 가이드라인 때문에 자사 랜딩 페이지를 사용해야 할 가능성이 높습니다. 이 경우 리캐치가 제작하는 랜딩 페이지와의 유연한 협업이 가능한지 확인하고자 했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "글로벌 가이드라인 준수: HP 코리아는 글로벌 가이드라인 때문에 자사 랜딩 페이지를 사용해야 할 가능성이 높습니다. 이 경우 리캐치가 제작하는 랜딩 페이지와의 유연한 협업이 가능한지 확인하고자 했습니다.",
+          "start_char": 282,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "collaboration_need:4af0d503cec61cd1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사례 및 데이터 요청: 1월 제안서 작성을 위해 기존 ABM 패키지 수행 사례(삼성 SDS, NHN 클라우드 등)와 구체적인 성과 데이터를 요청했습니다.",
+      "normalized": {
+        "text": "사례 및 데이터 요청: 1월 제안서 작성을 위해 기존 ABM 패키지 수행 사례(삼성 SDS, NHN 클라우드 등)와 구체적인 성과 데이터를 요청했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "사례 및 데이터 요청: 1월 제안서 작성을 위해 기존 ABM 패키지 수행 사례(삼성 SDS, NHN 클라우드 등)와 구체적인 성과 데이터를 요청했습니다.",
+          "start_char": 399,
+          "end_char": 484
+        }
+      ],
+      "dedupe_key": "action_item:5565d0ab891dfa75",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 429,
+          "end_char": 432
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 769,
+          "end_char": 772
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 DB 활용 및 너처링: HP가 이미 보유한 퍼스트 파티 데이터(CRM 데이터)를 활용하거나 너처링하는 기능도 제공하는지 질문했습니다. 리멤버 측은 개인정보 보호법 및 보안 문제로 외부 데이터를 이관받아 매칭하는 것은 현재 어렵다고 설명했습니다.",
+      "normalized": {
+        "text": "기존 DB 활용 및 너처링: HP가 이미 보유한 퍼스트 파티 데이터(CRM 데이터)를 활용하거나 너처링하는 기능도 제공하는지 질문했습니다. 리멤버 측은 개인정보 보호법 및 보안 문제로 외부 데이터를 이관받아 매칭하는 것은 현재 어렵다고 설명했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "기존 DB 활용 및 너처링: HP가 이미 보유한 퍼스트 파티 데이터(CRM 데이터)를 활용하거나 너처링하는 기능도 제공하는지 질문했습니다. 리멤버 측은 개인정보 보호법 및 보안 문제로 외부 데이터를 이관받아 매칭하는 것은 현재 어렵다고 설명했습니다.",
+          "start_char": 488,
+          "end_char": 627
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c42bb89827727f6c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "광고 상품 선호도: HP는 일반적인 디스플레이 광고(DA)보다는 EDM이나 구체적인 리드 발굴 목적의 캠페인을 선호한다는 점을 언급하며 설득을 위한 백업 방안을 요청했습니다.",
+      "normalized": {
+        "text": "광고 상품 선호도: HP는 일반적인 디스플레이 광고(DA)보다는 EDM이나 구체적인 리드 발굴 목적의 캠페인을 선호한다는 점을 언급하며 설득을 위한 백업 방안을 요청했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "광고 상품 선호도: HP는 일반적인 디스플레이 광고(DA)보다는 EDM이나 구체적인 리드 발굴 목적의 캠페인을 선호한다는 점을 언급하며 설득을 위한 백업 방안을 요청했습니다.",
+          "start_char": 631,
+          "end_char": 728
+        }
+      ],
+      "dedupe_key": "action_item:cdb1e8c817b101e6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "의사 결정권자 타겟팅: 실제 프로젝트 수행 사례를 통해 실무자뿐만 아니라 공장장, 임원급 등 핵심 의사 결정권자에게 접근하여 실제 대형 딜을 클로징했던 경험을 공유했습니다.",
+      "normalized": {
+        "text": "의사 결정권자 타겟팅: 실제 프로젝트 수행 사례를 통해 실무자뿐만 아니라 공장장, 임원급 등 핵심 의사 결정권자에게 접근하여 실제 대형 딜을 클로징했던 경험을 공유했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "의사 결정권자 타겟팅: 실제 프로젝트 수행 사례를 통해 실무자뿐만 아니라 공장장, 임원급 등 핵심 의사 결정권자에게 접근하여 실제 대형 딜을 클로징했던 경험을 공유했습니다.",
+          "start_char": 990,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "collaboration_need:d3ca8c7fe1e50d9f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "도메인 지식 습득: 고객사의 기술적 분야(클라우드, 로보틱스 등)를 잘 모를 것이라는 우려에 대해, 임원 및 실무자 인터뷰를 통해 지식을 습득하고 맞춤형 콘텐츠를 제작하는 프로세스를 갖추고 있다고 답변했습니다.",
+      "normalized": {
+        "text": "도메인 지식 습득: 고객사의 기술적 분야(클라우드, 로보틱스 등)를 잘 모를 것이라는 우려에 대해, 임원 및 실무자 인터뷰를 통해 지식을 습득하고 맞춤형 콘텐츠를 제작하는 프로세스를 갖추고 있다고 답변했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "도메인 지식 습득: 고객사의 기술적 분야(클라우드, 로보틱스 등)를 잘 모를 것이라는 우려에 대해, 임원 및 실무자 인터뷰를 통해 지식을 습득하고 맞춤형 콘텐츠를 제작하는 프로세스를 갖추고 있다고 답변했습니다.",
+          "start_char": 1090,
+          "end_char": 1207
+        }
+      ],
+      "dedupe_key": "risk_or_concern:176d58ec7b0dd2bb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "550만 명",
+      "normalized": {
+        "value": 5500000,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "550만 명",
+          "start_char": 1232,
+          "end_char": 1238
+        }
+      ],
+      "dedupe_key": "people_count:09bc959fdaf2294b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "성과 예측(Forecasting): 마케팅에서 보장형 숫자는 어렵지만, 리멤버의 모수 데이터와 기존 전환율을 바탕으로 기대 수익(ROI)을 추산하여 광고주를 설득할 수 있는 근거를 제공하겠다고 제안했습니다.",
+      "normalized": {
+        "text": "성과 예측(Forecasting): 마케팅에서 보장형 숫자는 어렵지만, 리멤버의 모수 데이터와 기존 전환율을 바탕으로 기대 수익(ROI)을 추산하여 광고주를 설득할 수 있는 근거를 제공하겠다고 제안했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "성과 예측(Forecasting): 마케팅에서 보장형 숫자는 어렵지만, 리멤버의 모수 데이터와 기존 전환율을 바탕으로 기대 수익(ROI)을 추산하여 광고주를 설득할 수 있는 근거를 제공하겠다고 제안했습니다.",
+          "start_char": 1430,
+          "end_char": 1545
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1072fe0ad159511b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 1566,
+          "end_char": 1568
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "인스타",
+      "normalized": {
+        "keyword": "인스타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "인스타",
+          "start_char": 1610,
+          "end_char": 1613
+        }
+      ],
+      "dedupe_key": "tool_or_channel:7bf909e682384b15",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 지원: 오리콤이 HP 광고주와 미팅할 때 필요하다면 직접 참석하여 기술적인 부분이나 매체 효과를 함께 설득해 주겠다는 의사를 표명했습니다.",
+      "normalized": {
+        "text": "미팅 지원: 오리콤이 HP 광고주와 미팅할 때 필요하다면 직접 참석하여 기술적인 부분이나 매체 효과를 함께 설득해 주겠다는 의사를 표명했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "미팅 지원: 오리콤이 HP 광고주와 미팅할 때 필요하다면 직접 참석하여 기술적인 부분이나 매체 효과를 함께 설득해 주겠다는 의사를 표명했습니다.",
+          "start_char": 1690,
+          "end_char": 1770
+        }
+      ],
+      "dedupe_key": "action_item:0ea770cd0cd70074",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

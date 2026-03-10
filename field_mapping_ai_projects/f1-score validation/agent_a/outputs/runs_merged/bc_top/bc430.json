@@ -1,0 +1,189 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W430",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "툴 사용 현황: 현재 엑셀 관리 중이며, 이전에 '이카운트(ERP)'를 검토했으나 CRM 기능 부재로 도입 무산",
+      "normalized": {
+        "text": "툴 사용 현황: 현재 엑셀 관리 중이며, 이전에 '이카운트(ERP)'를 검토했으나 CRM 기능 부재로 도입 무산",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "툴 사용 현황: 현재 엑셀 관리 중이며, 이전에 '이카운트(ERP)'를 검토했으나 CRM 기능 부재로 도입 무산",
+          "start_char": 168,
+          "end_char": 230
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a8fdcc45fcd16043",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 326,
+          "end_char": 330
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 831,
+          "end_char": 835
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사업팀 책임 (실무 검토 및 미팅 주선자, 김민수 선임과 협업 중)",
+      "normalized": {
+        "text": "사업팀 책임 (실무 검토 및 미팅 주선자, 김민수 선임과 협업 중)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "사업팀 책임 (실무 검토 및 미팅 주선자, 김민수 선임과 협업 중)",
+          "start_char": 610,
+          "end_char": 647
+        }
+      ],
+      "dedupe_key": "action_item:52c638e0925040b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 시 약 6명 규모로 사용 예정",
+      "normalized": {
+        "text": "도입 시 약 6명 규모로 사용 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "도입 시 약 6명 규모로 사용 예정",
+          "start_char": 657,
+          "end_char": 676
+        }
+      ],
+      "dedupe_key": "collaboration_need:20c62c6a56b0fbea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 6명",
+      "normalized": {
+        "value": 6,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "약 6명",
+          "start_char": 662,
+          "end_char": 666
+        }
+      ],
+      "dedupe_key": "people_count:9430e330c6877df7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3월부터 공식적으로 활동 시작 예정. 그 전에 도입하면 좋을 것 같다고 하심",
+      "normalized": {
+        "text": "3월부터 공식적으로 활동 시작 예정. 그 전에 도입하면 좋을 것 같다고 하심",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "T)"
+          ],
+          "exact_quote": "3월부터 공식적으로 활동 시작 예정. 그 전에 도입하면 좋을 것 같다고 하심",
+          "start_char": 686,
+          "end_char": 728
+        }
+      ],
+      "dedupe_key": "collaboration_need:7f938287a321590b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정민지",
+      "normalized": {
+        "name": "정민지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@정민지",
+          "start_char": 770,
+          "end_char": 774
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:bd3a46d30f5d8f67",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

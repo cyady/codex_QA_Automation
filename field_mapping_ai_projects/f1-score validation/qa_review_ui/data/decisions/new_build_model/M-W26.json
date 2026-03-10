@@ -1,0 +1,247 @@
+{
+  "memo_id": "M-W26",
+  "updated_at": "2026-02-27T05:18:45.391484+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": ""
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "SKIP",
+      "note": "이 메모 내용은 미팅 전에 SDR 콜 메모라서 이 필드와 맞지 않아 스킵"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "SKIP",
+      "note": "이 메모 내용은 미팅 전에 SDR 콜 메모라서 이 필드와 맞지 않아 스킵"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "SKIP",
+      "note": "이 메모 내용은 미팅 전에 SDR 콜 메모라서 이 필드와 맞지 않아 스킵"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "오후 1시",
+      "start_char": 1427,
+      "end_char": 1432,
+      "line_no": 4,
+      "line_text": "아 네 그렇군요. 그러면 혹시 확인차 저희가 여쭤보는데 이번 워크샵이 유료로 진행되는 거 혹시 알고 계실까요? 아 네네. 아 그러면 그 AIX 세션 신청해 주셨는데 9월 18일 목요일에 오후 1시부터 4시 반까지 그 스파크 플러스 코엑스점에서 진행되는 일정은 참석이 괜찮으실까요? 네, 우선 내부적으로는 괜찮을 것 같은데 최대 2명이면 제가 신청을 하고 결제를 했을 때 한 분 더 참여가 가능한 부분 맞을까요? 네, 맞습니다. 그러면 될 것 같습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 18일",
+      "normalized": {
+        "month": 9,
+        "day": 18
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "9월 18일",
+      "start_char": 1415,
+      "end_char": 1421,
+      "line_no": 4,
+      "line_text": "아 네 그렇군요. 그러면 혹시 확인차 저희가 여쭤보는데 이번 워크샵이 유료로 진행되는 거 혹시 알고 계실까요? 아 네네. 아 그러면 그 AIX 세션 신청해 주셨는데 9월 18일 목요일에 오후 1시부터 4시 반까지 그 스파크 플러스 코엑스점에서 진행되는 일정은 참석이 괜찮으실까요? 네, 우선 내부적으로는 괜찮을 것 같은데 최대 2명이면 제가 신청을 하고 결제를 했을 때 한 분 더 참여가 가능한 부분 맞을까요? 네, 맞습니다. 그러면 될 것 같습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "18일",
+      "start_char": 1418,
+      "end_char": 1421,
+      "line_no": 4,
+      "line_text": "아 네 그렇군요. 그러면 혹시 확인차 저희가 여쭤보는데 이번 워크샵이 유료로 진행되는 거 혹시 알고 계실까요? 아 네네. 아 그러면 그 AIX 세션 신청해 주셨는데 9월 18일 목요일에 오후 1시부터 4시 반까지 그 스파크 플러스 코엑스점에서 진행되는 일정은 참석이 괜찮으실까요? 네, 우선 내부적으로는 괜찮을 것 같은데 최대 2명이면 제가 신청을 하고 결제를 했을 때 한 분 더 참여가 가능한 부분 맞을까요? 네, 맞습니다. 그러면 될 것 같습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "5명",
+      "start_char": 1155,
+      "end_char": 1157,
+      "line_no": 3,
+      "line_text": "아 그럼 콘텐츠 톤앤매너 맞출 때 사용하고 계시는 거네요? 네. 아겠습니다. 그러면 혹시 마케팅 팀원분은 몇 분 정도 되실까요? 저희가 팀원은 팀장님 분들 포함해서 전체 시열에서는 5명 정도인데 저희 제품별로 담당하는 게 달라서 아 그럼 제품별로 담당하시는 분이 다 계시고 이제 통틀어서 다섯 분이 계신 거예요? 네. 그럼 혹시 매니저님은 어떤 제품 소속이신지 여쭤봐도 될까요? 저는 이제 저희 회사 제품에서 리모트 콜이라고 원격 지원 솔루션이랑 방음부스 제품이랑 하고 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "SEO",
+      "start_char": 421,
+      "end_char": 424,
+      "line_no": 1,
+      "line_text": "그러면 제가 지금 지금 전화 괜찮으신가요? 네, 전화 괜찮을 것 같습니다. 네, 그럼 혹시 이번 워크숍에서 어떤 부분을 제일 기대하고 계신가요? 우선 이제 저희가 내부적으로 그 안에 기재를 하긴 했는데 콘텐츠를 생산하는 것에 대해서 아무래도 B2B 서비스이다 보니까 사람들에게 많이 알려야 되는 게 가장 큰 목적 중 하나인데 지금 그렇게 인력이 많지 않아서 AI를 활용해서 어떻게 하면 다량으로 퀄리티 높은 콘텐츠를 빠르게 생산할 수 있는지에 대한 부분인데 그게 약간 메소드적인 부분이 있잖아요. 그런데 그런 부분에 대한 궁금증도 있지만 퀄리티 있는 콘텐츠를 다른 회사들에서는 그래도 가져가면서 진행하고 있는 걸로 알고 있는데 어떻게 진행을 하고 있는지, 특히 콘텐츠 제작하는 걸 첫 번째로 세션에 있었던 것 같고 두 번째 중에 하나가 CEO라고 해서 SEO 다음에 키워드로 되고 있는 걸 설명해주시는 것 같아서 네, 맞아요. 그래서 어떻게 지금 다른 회사들은 방향성을 잡고 진행하고 있는지 약간 좀 인사이트를 좀 얻고자 생각하고 제일 첫 번째가 사실은 그 메소드를 좀 배우는 방법이 될 것 같고 두 번째는 이제 방향성, 다른 회사들 어떻게 하고 있는지 B2C랑 다르게 받는 B2B 회사들 어떻게 하고 있는지 B2B 마케팅에서 콘텐츠 제작을 어떻게 하고 있는지 좀 알아보려고 하는 게 가장 큽니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "블로그",
+      "start_char": 1692,
+      "end_char": 1695,
+      "line_no": 5,
+      "line_text": "그럼 두 분이서 참석하실 예정인가요? 네네. 알겠습니다. 그러면 어떤 분이랑 같이 오실까요? 지금 참석하실 예정인 분은 사실 저희가 여러 가지 개편이 있었는데 재편 전에? 재편 전이든 후든 지금 계속 네이버 블로그 기업 사이트 완전히 주 메인으로 담당하시는 완전 콘텐츠 마케팅 내부에서 메인으로 가져가고 계시는 시니어분 참석하실 예정입니다. 아, 네.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

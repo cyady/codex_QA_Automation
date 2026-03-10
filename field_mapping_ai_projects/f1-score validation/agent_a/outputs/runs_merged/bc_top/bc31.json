@@ -1,0 +1,814 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W31",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 12.7",
+      "normalized": {
+        "year": 2012,
+        "month": 7,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": " 12.7",
+          "start_char": 61,
+          "end_char": 66
+        }
+      ],
+      "dedupe_key": "timeline:5e2306246041af44",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 16.4",
+      "normalized": {
+        "year": 2016,
+        "month": 4,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": " 16.4",
+          "start_char": 77,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "timeline:518a92066e68e523",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 7.9억 원",
+      "normalized": {
+        "value": 790000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "약 7.9억 원",
+          "start_char": 45,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "budget:a15eef689b48729e",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 12.7억 원",
+      "normalized": {
+        "value": 1270000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "약 12.7억 원",
+          "start_char": 60,
+          "end_char": 69
+        }
+      ],
+      "dedupe_key": "budget:0641e4a3d2306afa",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 16.4억 원",
+      "normalized": {
+        "value": 1639999999.9999998,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "약 16.4억 원",
+          "start_char": 76,
+          "end_char": 85
+        }
+      ],
+      "dedupe_key": "budget:f312c01bb711b86a",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "51억 원",
+      "normalized": {
+        "value": 5100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "51억 원",
+          "start_char": 129,
+          "end_char": 134
+        }
+      ],
+      "dedupe_key": "budget:c68678c30ce69d89",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "82억 원",
+      "normalized": {
+        "value": 8200000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "82억 원",
+          "start_char": 143,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "budget:79d48f8b6e4e63e0",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "99억 원",
+      "normalized": {
+        "value": 9900000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "99억 원",
+          "start_char": 157,
+          "end_char": 162
+        }
+      ],
+      "dedupe_key": "budget:0c79f8e84e049477",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "⚠️ 리스크: 매출은 커졌지만 영업 효율성이 떨어짐 → 수익성 둔화 뚜렷",
+      "normalized": {
+        "text": "⚠️ 리스크: 매출은 커졌지만 영업 효율성이 떨어짐 → 수익성 둔화 뚜렷",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "⚠️ 리스크: 매출은 커졌지만 영업 효율성이 떨어짐 → 수익성 둔화 뚜렷",
+          "start_char": 495,
+          "end_char": 535
+        }
+      ],
+      "dedupe_key": "risk_or_concern:33dc95a0a5d6c67f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 12.4",
+      "normalized": {
+        "year": 2012,
+        "month": 4,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 12.4",
+          "start_char": 383,
+          "end_char": 388
+        }
+      ],
+      "dedupe_key": "timeline:c164b7ccd834bbb3",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 17.0",
+      "normalized": {
+        "year": 2017,
+        "month": 0,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 17.0",
+          "start_char": 395,
+          "end_char": 400
+        }
+      ],
+      "dedupe_key": "timeline:ee4e9a947683093a",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 12.5",
+      "normalized": {
+        "year": 2012,
+        "month": 5,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 12.5",
+          "start_char": 422,
+          "end_char": 427
+        }
+      ],
+      "dedupe_key": "timeline:84d77cb002656efe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 26.2",
+      "normalized": {
+        "year": 2026,
+        "month": 2,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 26.2",
+          "start_char": 434,
+          "end_char": 439
+        }
+      ],
+      "dedupe_key": "timeline:fe490e7f79d9a315",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 83.5",
+      "normalized": {
+        "year": 2083,
+        "month": 5,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 83.5",
+          "start_char": 460,
+          "end_char": 465
+        }
+      ],
+      "dedupe_key": "timeline:1dc5b204cf1802d9",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 99.8",
+      "normalized": {
+        "year": 2099,
+        "month": 8,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 99.8",
+          "start_char": 472,
+          "end_char": 477
+        }
+      ],
+      "dedupe_key": "timeline:633087f56f6bffb9",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 27.7",
+      "normalized": {
+        "year": 2027,
+        "month": 7,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": " 27.7",
+          "start_char": 484,
+          "end_char": 489
+        }
+      ],
+      "dedupe_key": "timeline:a868a0f6033af406",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "07.8",
+      "normalized": {
+        "year": 2007,
+        "month": 8,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "07.8",
+          "start_char": 551,
+          "end_char": 555
+        }
+      ],
+      "dedupe_key": "timeline:63072b5e5bf32d37",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 64.8",
+      "normalized": {
+        "year": 2064,
+        "month": 8,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 64.8",
+          "start_char": 562,
+          "end_char": 567
+        }
+      ],
+      "dedupe_key": "timeline:2888c1d10c49f348",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 50.6",
+      "normalized": {
+        "year": 2050,
+        "month": 6,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 50.6",
+          "start_char": 574,
+          "end_char": 579
+        }
+      ],
+      "dedupe_key": "timeline:34da9b308f519233",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 32.5",
+      "normalized": {
+        "year": 2032,
+        "month": 5,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 32.5",
+          "start_char": 598,
+          "end_char": 603
+        }
+      ],
+      "dedupe_key": "timeline:a863ffa42860fab4",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 60.7",
+      "normalized": {
+        "year": 2060,
+        "month": 7,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 60.7",
+          "start_char": 610,
+          "end_char": 615
+        }
+      ],
+      "dedupe_key": "timeline:12c2e3070f43c647",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 66.4",
+      "normalized": {
+        "year": 2066,
+        "month": 4,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 66.4",
+          "start_char": 622,
+          "end_char": 627
+        }
+      ],
+      "dedupe_key": "timeline:8efe287660fe5594",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 39.7",
+      "normalized": {
+        "year": 2039,
+        "month": 7,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 39.7",
+          "start_char": 641,
+          "end_char": 646
+        }
+      ],
+      "dedupe_key": "timeline:c120c2d4dfc81cf0",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 19.5",
+      "normalized": {
+        "year": 2019,
+        "month": 5,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 19.5",
+          "start_char": 653,
+          "end_char": 658
+        }
+      ],
+      "dedupe_key": "timeline:ee6282c2e74f3570",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 16.1",
+      "normalized": {
+        "year": 2016,
+        "month": 1,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 16.1",
+          "start_char": 665,
+          "end_char": 670
+        }
+      ],
+      "dedupe_key": "timeline:cb8fab30cea78e3f",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 13.8",
+      "normalized": {
+        "year": 2013,
+        "month": 8,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 13.8",
+          "start_char": 683,
+          "end_char": 688
+        }
+      ],
+      "dedupe_key": "timeline:24277c38c38b5fe8",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 25.3",
+      "normalized": {
+        "year": 2025,
+        "month": 3,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": " 25.3",
+          "start_char": 695,
+          "end_char": 700
+        }
+      ],
+      "dedupe_key": "timeline:6353e94b1e0e66e3",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "채용/인원: 꾸준한 채용 진행, 팀 확장 신호",
+      "normalized": {
+        "text": "채용/인원: 꾸준한 채용 진행, 팀 확장 신호",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "채용/인원: 꾸준한 채용 진행, 팀 확장 신호",
+          "start_char": 1028,
+          "end_char": 1053
+        }
+      ],
+      "dedupe_key": "action_item:954c7c601cb082fa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "투자·시장: 20/35 (투자 유치 데이터 부재, 대신 글로벌 확장으로 보완)",
+      "normalized": {
+        "text": "투자·시장: 20/35 (투자 유치 데이터 부재, 대신 글로벌 확장으로 보완)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "투자·시장: 20/35 (투자 유치 데이터 부재, 대신 글로벌 확장으로 보완)",
+          "start_char": 1074,
+          "end_char": 1117
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fb8b2fc682143407",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "20/35",
+      "normalized": {
+        "month": 20,
+        "day": 35,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "20/35",
+          "start_char": 1081,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "timeline:b97b75fdf317aa53",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "28/35",
+      "normalized": {
+        "month": 28,
+        "day": 35,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "28/35",
+          "start_char": 1125,
+          "end_char": 1130
+        }
+      ],
+      "dedupe_key": "timeline:8a705c7fa0df4274",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "18/20",
+      "normalized": {
+        "month": 18,
+        "day": 20,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "18/20",
+          "start_char": 1168,
+          "end_char": 1173
+        }
+      ],
+      "dedupe_key": "timeline:05f1ddecfd667ded",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10/10",
+      "normalized": {
+        "month": 10,
+        "day": 10,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "10/10",
+          "start_char": 1205,
+          "end_char": 1210
+        }
+      ],
+      "dedupe_key": "timeline:2121f961be418ac3",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "76/10",
+      "normalized": {
+        "month": 76,
+        "day": 10,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "76/10",
+          "start_char": 1237,
+          "end_char": 1242
+        }
+      ],
+      "dedupe_key": "timeline:899d33b0c610b8f5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리스크: 영업이익률 급락 & 현금흐름 둔화 → 구매력 측정 시 단기적 주의 필요",
+      "normalized": {
+        "text": "리스크: 영업이익률 급락 & 현금흐름 둔화 → 구매력 측정 시 단기적 주의 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "리스크: 영업이익률 급락 & 현금흐름 둔화 → 구매력 측정 시 단기적 주의 필요",
+          "start_char": 1337,
+          "end_char": 1381
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8b94b5a286b86bcd",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

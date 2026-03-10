@@ -1,0 +1,415 @@
+{
+  "memo_id": "M-W23",
+  "updated_at": "2026-02-27T05:11:42.328628+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "contract_amount",
+      "field_label": "contract_amount",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "confidence=8/10 | 기존 대비 값 유사도 높음(0.90), 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "1593",
+      "field_label": "✅ MRR",
+      "decision": "TP",
+      "note": "confidence=7/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "1608",
+      "field_label": "Seat 수",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.28) - HITL 권장"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5368",
+      "field_label": "✅ 견적 개월 수",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.34) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.23) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.52) - HITL 권장"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 11,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.43) - HITL 권장"
+    },
+    {
+      "item_idx": 12,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 13,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.00) - HITL 권장"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "서류 요청하시면 크리니티 빠져 있죠 크리니티 저한테 넣어주세요.",
+      "normalized": {
+        "text": "서류 요청하시면 크리니티 빠져 있죠 크리니티 저한테 넣어주세요.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "왜 연락 안 온 게 너 옆에 담당자에 없죠? 없죠 왜 있지?"
+      ],
+      "evidence_quote": "서류 요청하시면 크리니티 빠져 있죠 크리니티 저한테 넣어주세요.",
+      "start_char": 439,
+      "end_char": 474,
+      "line_no": 21,
+      "line_text": "서류 요청하시면 크리니티 빠져 있죠 크리니티 저한테 넣어주세요.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.25)"
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "evidence_segment_id": "S-0014",
+      "evidence_section_path": [
+        "SEO는 웹사이트"
+      ],
+      "evidence_quote": "블로그",
+      "start_char": 914,
+      "end_char": 917,
+      "line_no": 44,
+      "line_text": "그래서 레그 문서 기반으로 g팀 운영해서 TCPT 실제로 만들어서 사용하고 있기도 하고 저희가 인플루언서 마케팅도 글 쓸 때 블로그 콘텐츠 쓸 때도 그런 식으로 활용을 하고 있기는 해요.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "네 저희도 내부적으로 클로드를 굉장히 잘 활용하고 있어서 그 노하우를 잘 전달해 드릴 수 있을 것 같고",
+      "normalized": {
+        "text": "네 저희도 내부적으로 클로드를 굉장히 잘 활용하고 있어서 그 노하우를 잘 전달해 드릴 수 있을 것 같고",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0018",
+      "evidence_section_path": [
+        "그럼 지금 클로드랑 챗gpt 사용하고 계신 거죠?"
+      ],
+      "evidence_quote": "네 저희도 내부적으로 클로드를 굉장히 잘 활용하고 있어서 그 노하우를 잘 전달해 드릴 수 있을 것 같고",
+      "start_char": 1830,
+      "end_char": 1887,
+      "line_no": 62,
+      "line_text": "네 저희도 내부적으로 클로드를 굉장히 잘 활용하고 있어서 그 노하우를 잘 전달해 드릴 수 있을 것 같고",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "evidence_segment_id": "S-0023",
+      "evidence_section_path": [
+        "아 네네네"
+      ],
+      "evidence_quote": "SEO",
+      "start_char": 2319,
+      "end_char": 2322,
+      "line_no": 86,
+      "line_text": "네 그래가지고 그리고 테크니컬 SEO랑 마케팅 방법론은 웹사이트 세션 때 더 다루긴 하는데 네 그래서 AI를 집중적으로 좀 알려드리는 게 18일 AI 워크샵이고 네 좀 더 SEO나 그런 마케팅 부분에서는 25일이 더 적합하실 것 같아요.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만 원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0027",
+      "evidence_section_path": [
+        "네"
+      ],
+      "evidence_quote": "60만 원",
+      "start_char": 2850,
+      "end_char": 2855,
+      "line_no": 102,
+      "line_text": "60만 원입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.36)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "아니요. 별도입니다.",
+      "normalized": {
+        "text": "아니요. 별도입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0028",
+      "evidence_section_path": [
+        "이거 세금 포함"
+      ],
+      "evidence_quote": "아니요. 별도입니다.",
+      "start_char": 2871,
+      "end_char": 2882,
+      "line_no": 106,
+      "line_text": "아니요. 별도입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.16)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이거는 조금 내부적으로 의논이 필요할 것 아가지고 그럼 참여 요금 66만 원 돼 있고 2명이 참여 가능하다는 말씀이신 거죠?",
+      "normalized": {
+        "text": "이거는 조금 내부적으로 의논이 필요할 것 아가지고 그럼 참여 요금 66만 원 돼 있고 2명이 참여 가능하다는 말씀이신 거죠?",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0032",
+      "evidence_section_path": [
+        "네 맞아요. 혹시 두 분 참여하실 예정이실까요?"
+      ],
+      "evidence_quote": "이거는 조금 내부적으로 의논이 필요할 것 아가지고 그럼 참여 요금 66만 원 돼 있고 2명이 참여 가능하다는 말씀이신 거죠?",
+      "start_char": 2967,
+      "end_char": 3036,
+      "line_no": 116,
+      "line_text": "이거는 조금 내부적으로 의논이 필요할 것 아가지고 그럼 참여 요금 66만 원 돼 있고 2명이 참여 가능하다는 말씀이신 거죠?",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.23)"
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0032",
+      "evidence_section_path": [
+        "네 맞아요. 혹시 두 분 참여하실 예정이실까요?"
+      ],
+      "evidence_quote": "1개월",
+      "start_char": 3071,
+      "end_char": 3074,
+      "line_no": 117,
+      "line_text": "맞아요. 저 혹시 그리고 궁금한 점이 있는데요. 여기 리케츠 1개월 사용권 및 1대 1 컨설팅 포함 이게 적혀 있는데 혹시 어떤 컨설팅인지 알 수 있을까요?",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=8/10 | 기존 NOT_FN 유지(cov=1.00)"
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0033",
+      "evidence_section_path": [
+        "네 맞아요. 혹시 두 분 참여하실 예정이실까요?"
+      ],
+      "evidence_quote": "리캐치",
+      "start_char": 3130,
+      "end_char": 3133,
+      "line_no": 119,
+      "line_text": "저희가 리캐치를 더 잘 활용하실 수 있도록 그 cx 팀이 1 대 1로 컨설팅을 해드리는데 혹시 리케치에 대해서 들어보셨나요?",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.12)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "감사합니다. 그럼 이메일로 그 계약서랑 관련 내용 해서 전달해 드릴게요.",
+      "normalized": {
+        "text": "감사합니다. 그럼 이메일로 그 계약서랑 관련 내용 해서 전달해 드릴게요.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0037",
+      "evidence_section_path": [
+        "근데 혹시 간략하게 설명해 주실 수 있나요?"
+      ],
+      "evidence_quote": "감사합니다. 그럼 이메일로 그 계약서랑 관련 내용 해서 전달해 드릴게요.",
+      "start_char": 3372,
+      "end_char": 3412,
+      "line_no": 129,
+      "line_text": "감사합니다. 그럼 이메일로 그 계약서랑 관련 내용 해서 전달해 드릴게요.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.27)"
+    }
+  ]
+}

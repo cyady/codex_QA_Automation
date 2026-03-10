@@ -1,0 +1,49 @@
+{
+  "case": {
+    "case_id": "P5657-01",
+    "technique": "target_5657",
+    "prompt": "결제 상품 (제품): 스탠다드 (2507) - 세일즈, 프리미엄 (2507) - 마케팅으로 확정."
+  },
+  "payload": {
+    "summary": "결제 상품 (제품): 스탠다드 (2507) - 세일즈, 프리미엄 (2507) - 마케팅으로 확정.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:07:05.180Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": [
+    {
+      "extracted_value": true,
+      "field_definition": {
+        "id": "5375",
+        "label": "[A] 의결권자/내부 챔피언 확보 여부",
+        "type": "checkbox",
+        "category": "custom",
+        "display_order": 144,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "미팅 노트에서 결제 상품이 '확정'되었다고 명시된 것은 해당 도입 건에 대해 내부적인 합의나 의결권자의 동의가 이루어진 상태임을 나타내므로, 의결권자 및 내부 챔피언 확보 여부를 긍정(true)으로 판단했습니다."
+    },
+    {
+      "extracted_value": "세일즈, 마케팅",
+      "field_definition": {
+        "id": "5373",
+        "label": "담당자 페르소나",
+        "type": "textarea",
+        "category": "custom",
+        "display_order": 142,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "결제 상품인 스탠다드와 프리미엄 제품의 사용 주체로 '세일즈'와 '마케팅'이 명시되어 있어, 이를 관련 담당자 페르소나로 추출했습니다."
+    }
+  ]
+}

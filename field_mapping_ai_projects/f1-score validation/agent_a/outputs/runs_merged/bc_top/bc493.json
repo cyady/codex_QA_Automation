@@ -1,0 +1,411 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W493",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "JTK 바이오 내부 경영진 설득을 위한 리캐치 소개 자료 및 고객 사례(JTK 바이오와 유사한 다품종 소량 생산 및 다수 팀 운영 사례인 KT알파 사례) 링크 전달 필요",
+      "normalized": {
+        "text": "JTK 바이오 내부 경영진 설득을 위한 리캐치 소개 자료 및 고객 사례(JTK 바이오와 유사한 다품종 소량 생산 및 다수 팀 운영 사례인 KT알파 사례) 링크 전달 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "next action (리캐치 팀의)"
+          ],
+          "exact_quote": "JTK 바이오 내부 경영진 설득을 위한 리캐치 소개 자료 및 고객 사례(JTK 바이오와 유사한 다품종 소량 생산 및 다수 팀 운영 사례인 KT알파 사례) 링크 전달 필요",
+          "start_char": 54,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "action_item:2bf9b108ab4ae4e1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "next action (리캐치 팀의)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 76,
+          "end_char": 79
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사내 CRM 도입을 주도적으로 제안하고 검토하는 실무자이자 변화를 원하는 챔피언",
+      "normalized": {
+        "text": "사내 CRM 도입을 주도적으로 제안하고 검토하는 실무자이자 변화를 원하는 챔피언",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "담당자 페르소나 (제이투케이바이오의)"
+          ],
+          "exact_quote": "사내 CRM 도입을 주도적으로 제안하고 검토하는 실무자이자 변화를 원하는 챔피언",
+          "start_char": 256,
+          "end_char": 300
+        }
+      ],
+      "dedupe_key": "action_item:2ac0119e3b5671e7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "보수적인 경영진을 설득하기 위해 CRM 도입의 당위성(데이터 기반 매출 예측, 히스토리 자산화)과 구체적인 활용 사례를 필요로 함",
+      "normalized": {
+        "text": "보수적인 경영진을 설득하기 위해 CRM 도입의 당위성(데이터 기반 매출 예측, 히스토리 자산화)과 구체적인 활용 사례를 필요로 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "담당자 페르소나 (제이투케이바이오의)"
+          ],
+          "exact_quote": "보수적인 경영진을 설득하기 위해 CRM 도입의 당위성(데이터 기반 매출 예측, 히스토리 자산화)과 구체적인 활용 사례를 필요로 함",
+          "start_char": 302,
+          "end_char": 374
+        }
+      ],
+      "dedupe_key": "action_item:2ba5326d76196fab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "4명",
+      "normalized": {
+        "value": 4,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "4명",
+          "start_char": 404,
+          "end_char": 406
+        }
+      ],
+      "dedupe_key": "team_size:be10403e5a840b94",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "8명",
+          "start_char": 427,
+          "end_char": 429
+        }
+      ],
+      "dedupe_key": "team_size:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈 CRM 도입을 우선 고려 중이며 4명 기준 월 30만 원(연간 결제 시 20% 할인) 수준의 견적 안내받음",
+      "normalized": {
+        "text": "세일즈 CRM 도입을 우선 고려 중이며 4명 기준 월 30만 원(연간 결제 시 20% 할인) 수준의 견적 안내받음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "세일즈 CRM 도입을 우선 고려 중이며 4명 기준 월 30만 원(연간 결제 시 20% 할인) 수준의 견적 안내받음",
+          "start_char": 434,
+          "end_char": 497
+        }
+      ],
+      "dedupe_key": "collaboration_need:f867a8f0d4ba30e2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "30만 원",
+      "normalized": {
+        "value": 300000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "30만 원",
+          "start_char": 464,
+          "end_char": 469
+        }
+      ],
+      "dedupe_key": "budget:a65ab2e87b1f2eff",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "4명",
+      "normalized": {
+        "value": 4,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "4명",
+          "start_char": 456,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "people_count:be10403e5a840b94",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2만 원",
+      "normalized": {
+        "value": 20000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "2만 원",
+          "start_char": 519,
+          "end_char": 523
+        }
+      ],
+      "dedupe_key": "budget:19daf3b223e28ae2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "예산 (제이투케이바이오의)"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 537,
+          "end_char": 540
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 808,
+          "end_char": 811
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "샘플 전달 후 진행 척도나 영업 기회의 구체적인 현황 파악이 어려워 정확한 매출 예측이 불가능함",
+      "normalized": {
+        "text": "샘플 전달 후 진행 척도나 영업 기회의 구체적인 현황 파악이 어려워 정확한 매출 예측이 불가능함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "상황 및 문제 (제이투케이바이오의)"
+          ],
+          "exact_quote": "샘플 전달 후 진행 척도나 영업 기회의 구체적인 현황 파악이 어려워 정확한 매출 예측이 불가능함",
+          "start_char": 720,
+          "end_char": 773
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1dd35a208b7d4cfb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "올해 상반기 내 도입 결정을 목표로 함",
+      "normalized": {
+        "text": "올해 상반기 내 도입 결정을 목표로 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "올해 상반기 내 도입 결정을 목표로 함",
+          "start_char": 785,
+          "end_char": 806
+        }
+      ],
+      "dedupe_key": "collaboration_need:8d30f73dfdf7d0d5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1개월 시범 운영(구독)을 거쳐 내부 효용성 검증 후 정식 도입 추진 예정",
+      "normalized": {
+        "text": "1개월 시범 운영(구독)을 거쳐 내부 효용성 검증 후 정식 도입 추진 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "1개월 시범 운영(구독)을 거쳐 내부 효용성 검증 후 정식 도입 추진 예정",
+          "start_char": 808,
+          "end_char": 849
+        }
+      ],
+      "dedupe_key": "collaboration_need:013671d551dc0df0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "ERP 연동 불가: 더존 ERP를 사용 중이나 API 연동이 지원되지 않아, 매출 데이터를 CRM에 별도로 수기 입력해야 하는 이중 작업 부담 존재",
+      "normalized": {
+        "text": "ERP 연동 불가: 더존 ERP를 사용 중이나 API 연동이 지원되지 않아, 매출 데이터를 CRM에 별도로 수기 입력해야 하는 이중 작업 부담 존재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "ERP 연동 불가: 더존 ERP를 사용 중이나 API 연동이 지원되지 않아, 매출 데이터를 CRM에 별도로 수기 입력해야 하는 이중 작업 부담 존재",
+          "start_char": 942,
+          "end_char": 1024
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c16dedae6a51954c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "팀 내 적응 문제: 과거 타사 솔루션(세일즈맵) 데모 사용 시 기능이 많아 적응에 어려움을 겪은 경험이 있어, 새로운 툴 도입 시 팀원들의 사용성 저항 우려",
+      "normalized": {
+        "text": "팀 내 적응 문제: 과거 타사 솔루션(세일즈맵) 데모 사용 시 기능이 많아 적응에 어려움을 겪은 경험이 있어, 새로운 툴 도입 시 팀원들의 사용성 저항 우려",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "팀 내 적응 문제: 과거 타사 솔루션(세일즈맵) 데모 사용 시 기능이 많아 적응에 어려움을 겪은 경험이 있어, 새로운 툴 도입 시 팀원들의 사용성 저항 우려",
+          "start_char": 1026,
+          "end_char": 1113
+        }
+      ],
+      "dedupe_key": "risk_or_concern:38dda244485602f9",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

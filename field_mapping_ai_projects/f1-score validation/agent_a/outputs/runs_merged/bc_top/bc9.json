@@ -1,0 +1,282 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W9",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "샵라이브 코리아 계약 확정(??)",
+      "normalized": {
+        "text": "샵라이브 코리아 계약 확정(??)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "샵라이브 코리아 계약 확정(??)",
+          "start_char": 0,
+          "end_char": 18
+        }
+      ],
+      "dedupe_key": "action_item:bfa5ceb9e9c6fb6a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "50만원",
+          "start_char": 21,
+          "end_char": 25
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "견적서 전달 드리기",
+      "normalized": {
+        "text": "견적서 전달 드리기",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "견적서 전달 드리기",
+          "start_char": 38,
+          "end_char": 48
+        }
+      ],
+      "dedupe_key": "collaboration_need:03b0bf9ac5522c02",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+      "normalized": {
+        "text": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "구두로 확정해 주셨고, 빠르게 솔루션 도입이 필요하신 상황이라, 계약진행과 동시에 스페이스 열어 드리려고 하는데 검토 부탁 드립니당~! @여인찬 (Oliver) cc @cx",
+          "start_char": 84,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "action_item:0b963b5b11fec9d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 160,
+          "end_char": 164
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@cx",
+      "normalized": {
+        "name": "cx"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "@cx",
+          "start_char": 177,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:48a69daaa74b7fa1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+      "normalized": {
+        "text": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-------"
+          ],
+          "exact_quote": "1/ 인바운드 리드젠으로 사용하고 있던 프레쉬세일즈가 이번주로 만료되어 빠른 결정이 필요하였고, 최대한 리캐치로 밀어 붙여 도입 결정하게 되었다.",
+          "start_char": 205,
+          "end_char": 286
+        }
+      ],
+      "dedupe_key": "action_item:deef1f59967f26da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-------"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 263,
+          "end_char": 266
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 419,
+          "end_char": 422
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+      "normalized": {
+        "text": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+          ],
+          "exact_quote": "2/ 최대한 연간 결제로 진행할 예정인데, 견적 관련해서 재무팀께 또 보고 드려야 하니, 월/연간 별로 견적서를 보내줬으면 한다.",
+          "start_char": 323,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "action_item:63f3541addd126ef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+          ],
+          "exact_quote": "1명",
+          "start_char": 469,
+          "end_char": 471
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "웹사이트 내에 폼 교체가 시급해서 빠르게 열어 줄 수 있는지?"
+          ],
+          "exact_quote": "2명",
+          "start_char": 487,
+          "end_char": 489
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

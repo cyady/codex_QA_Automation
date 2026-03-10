@@ -1,0 +1,783 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W319",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어2 잠재매출 규모 3000만원 ~ 4000만원] 패스트트랙투원 전화미팅 내용 퀵 공유",
+      "normalized": {
+        "text": "[티어2 잠재매출 규모 3000만원 ~ 4000만원] 패스트트랙투원 전화미팅 내용 퀵 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어2 잠재매출 규모 3000만원 ~ 4000만원] 패스트트랙투원 전화미팅 내용 퀵 공유",
+          "start_char": 0,
+          "end_char": 50
+        }
+      ],
+      "dedupe_key": "collaboration_need:2378a9a263297733",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 13,
+          "end_char": 19
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4000만원",
+      "normalized": {
+        "value": 40000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "4000만원",
+          "start_char": 22,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "budget:fb771a8a99b98ed7",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "클라이언트인 녹십자 CHC 본부는 원래 OTC 본부 등 여러 조직으로 나뉘어 사업을 진행했으나 현재는 CHC 본부로 통합되어 약국 공급 및 건강 기능 식품 사업 등을 총괄하고 있습니다",
+      "normalized": {
+        "text": "클라이언트인 녹십자 CHC 본부는 원래 OTC 본부 등 여러 조직으로 나뉘어 사업을 진행했으나 현재는 CHC 본부로 통합되어 약국 공급 및 건강 기능 식품 사업 등을 총괄하고 있습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "클라이언트인 녹십자 CHC 본부는 원래 OTC 본부 등 여러 조직으로 나뉘어 사업을 진행했으나 현재는 CHC 본부로 통합되어 약국 공급 및 건강 기능 식품 사업 등을 총괄하고 있습니다",
+          "start_char": 99,
+          "end_char": 201
+        }
+      ],
+      "dedupe_key": "action_item:d995733d8fe51ead",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "60~70%",
+      "normalized": {
+        "min": 0.6,
+        "max": 0.7,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "60~70%",
+          "start_char": 219,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "match_rate:f449bf2561153aba",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 335,
+          "end_char": 341
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 1297,
+          "end_char": 1303
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "경영진에서 GEO 트렌드이니, 진행해봐 라고 탑다운으로 찍어준 상황",
+      "normalized": {
+        "text": "경영진에서 GEO 트렌드이니, 진행해봐 라고 탑다운으로 찍어준 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "경영진에서 GEO 트렌드이니, 진행해봐 라고 탑다운으로 찍어준 상황",
+          "start_char": 352,
+          "end_char": 389
+        }
+      ],
+      "dedupe_key": "action_item:9fe8080698c71fe1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "GEO에 대한 이론적 이해: GEO에 대해 전반적으로 어떻게 접근하는 것이 좋은지에 대한 이론적인 배경 설명을 원함",
+      "normalized": {
+        "text": "GEO에 대한 이론적 이해: GEO에 대해 전반적으로 어떻게 접근하는 것이 좋은지에 대한 이론적인 배경 설명을 원함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "GEO에 대한 이론적 이해: GEO에 대해 전반적으로 어떻게 접근하는 것이 좋은지에 대한 이론적인 배경 설명을 원함",
+          "start_char": 409,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "collaboration_need:1dc2bdd40799966e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+      "normalized": {
+        "text": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+          "start_char": 477,
+          "end_char": 575
+        }
+      ],
+      "dedupe_key": "collaboration_need:664ef8d052fb4134",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+      "normalized": {
+        "text": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "대행사 검증 및 신뢰 구축: 기존에 만났던 대행사들이 가격 제시(너무 비싸거나 너무 싸게)나 전문성 면에서 신뢰를 주지 못했기 때문에, 괜찮은 대행사인지에 대한 검증이 필요함시",
+          "start_char": 477,
+          "end_char": 575
+        }
+      ],
+      "dedupe_key": "action_item:efd3253783ed97a7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제품 포지셔닝 강화: 프로젝트 제품인 탁센 (진통제)과 제놀 (파스 등)을 소형 진통제/파스 시장에서 AI 검색 시장에서 우리가 최고라는 점을 명확하게 보여주는 것이 목표",
+      "normalized": {
+        "text": "제품 포지셔닝 강화: 프로젝트 제품인 탁센 (진통제)과 제놀 (파스 등)을 소형 진통제/파스 시장에서 AI 검색 시장에서 우리가 최고라는 점을 명확하게 보여주는 것이 목표",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "제품 포지셔닝 강화: 프로젝트 제품인 탁센 (진통제)과 제놀 (파스 등)을 소형 진통제/파스 시장에서 AI 검색 시장에서 우리가 최고라는 점을 명확하게 보여주는 것이 목표",
+          "start_char": 579,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "collaboration_need:652a126f49b082fe",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B2C 타겟팅: 최종 소비자는 B2C이지만, B2B2C 구조를 가짐자. 타겟층은 크게 약사와 약국 방문 소비자",
+      "normalized": {
+        "text": "B2B2C 타겟팅: 최종 소비자는 B2C이지만, B2B2C 구조를 가짐자. 타겟층은 크게 약사와 약국 방문 소비자",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "B2B2C 타겟팅: 최종 소비자는 B2C이지만, B2B2C 구조를 가짐자. 타겟층은 크게 약사와 약국 방문 소비자",
+          "start_char": 678,
+          "end_char": 741
+        }
+      ],
+      "dedupe_key": "collaboration_need:893a59d4866d6030",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "약사 니즈: 약사가 제품을 추천했을 때, 소비자가 검색하여 검증하더라도 콘텐츠 상에 잘 나와 있어 의심하지 않으며, 약사 스스로 좋은 제품을 추천했다는 확신을 갖도록",
+      "normalized": {
+        "text": "약사 니즈: 약사가 제품을 추천했을 때, 소비자가 검색하여 검증하더라도 콘텐츠 상에 잘 나와 있어 의심하지 않으며, 약사 스스로 좋은 제품을 추천했다는 확신을 갖도록",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "약사 니즈: 약사가 제품을 추천했을 때, 소비자가 검색하여 검증하더라도 콘텐츠 상에 잘 나와 있어 의심하지 않으며, 약사 스스로 좋은 제품을 추천했다는 확신을 갖도록",
+          "start_char": 747,
+          "end_char": 839
+        }
+      ],
+      "dedupe_key": "collaboration_need:c8ff76bfadf3a290",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+      "normalized": {
+        "text": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+          "start_char": 843,
+          "end_char": 904
+        }
+      ],
+      "dedupe_key": "collaboration_need:5b68b8786f0bfb11",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+      "normalized": {
+        "text": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": "소비자 니즈: 제품에 대해 검색했을 때 이거 괜찮네 라고 느끼고 바로 직접 구매를 유도할 만한 콘텐츠가 필요함",
+          "start_char": 843,
+          "end_char": 904
+        }
+      ],
+      "dedupe_key": "action_item:4e6a7142fca321bf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": ".",
+      "normalized": {
+        "text": ".",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "클라이언트의 핵심 니즈"
+          ],
+          "exact_quote": ".",
+          "start_char": 906,
+          "end_char": 907
+        }
+      ],
+      "dedupe_key": "collaboration_need:3ee4d3aa116a7f70",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 녹십자 홈페이지 컨텐츠만으로는 GEO 노출에 부족할 것으로 판단되므로, 부족한 컨텐츠를 제안하고 새로운 컨텐츠 제작 필요성을 제시하는 것이 중요함CH.",
+      "normalized": {
+        "text": "현재 녹십자 홈페이지 컨텐츠만으로는 GEO 노출에 부족할 것으로 판단되므로, 부족한 컨텐츠를 제안하고 새로운 컨텐츠 제작 필요성을 제시하는 것이 중요함CH.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "현재 녹십자 홈페이지 컨텐츠만으로는 GEO 노출에 부족할 것으로 판단되므로, 부족한 컨텐츠를 제안하고 새로운 컨텐츠 제작 필요성을 제시하는 것이 중요함CH.",
+          "start_char": 936,
+          "end_char": 1023
+        }
+      ],
+      "dedupe_key": "action_item:acb358009bdf8d84",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "클라이언트는 내년도 사업 계획 압박으로 인해 ASAP (가능한 한 빨리) 프로젝트 시작을 희망하고 있으며, 늦어도 12월 중 테스트 시작 또는 1월에는 프로젝트를 시작해야 하는 상황임",
+      "normalized": {
+        "text": "클라이언트는 내년도 사업 계획 압박으로 인해 ASAP (가능한 한 빨리) 프로젝트 시작을 희망하고 있으며, 늦어도 12월 중 테스트 시작 또는 1월에는 프로젝트를 시작해야 하는 상황임",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "클라이언트는 내년도 사업 계획 압박으로 인해 ASAP (가능한 한 빨리) 프로젝트 시작을 희망하고 있으며, 늦어도 12월 중 테스트 시작 또는 1월에는 프로젝트를 시작해야 하는 상황임",
+          "start_char": 1480,
+          "end_char": 1582
+        }
+      ],
+      "dedupe_key": "collaboration_need:45044da0b3638705",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이 프로젝트가 성공적으로 진행될 경우, 클라이언트가 보유한 다른 여러 브랜드로도 GEO 작업을 확장하여 지속적으로 진행하고 싶다는 의사를 밝힘건.",
+      "normalized": {
+        "text": "이 프로젝트가 성공적으로 진행될 경우, 클라이언트가 보유한 다른 여러 브랜드로도 GEO 작업을 확장하여 지속적으로 진행하고 싶다는 의사를 밝힘건.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "이 프로젝트가 성공적으로 진행될 경우, 클라이언트가 보유한 다른 여러 브랜드로도 GEO 작업을 확장하여 지속적으로 진행하고 싶다는 의사를 밝힘건.",
+          "start_char": 1685,
+          "end_char": 1766
+        }
+      ],
+      "dedupe_key": "action_item:6f213f94de9ebc23",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 1863,
+          "end_char": 1867
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 1874,
+          "end_char": 1878
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "GEO 관련 장표 전달 ( 차주 11.10(월) 까지 )",
+      "normalized": {
+        "text": "GEO 관련 장표 전달 ( 차주 11.10(월) 까지 )",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "GEO 관련 장표 전달 ( 차주 11.10(월) 까지 )",
+          "start_char": 1900,
+          "end_char": 1931
+        }
+      ],
+      "dedupe_key": "collaboration_need:bc5bd572bc5a61a2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 11.10",
+      "normalized": {
+        "year": 2011,
+        "month": 10,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": " 11.10",
+          "start_char": 1917,
+          "end_char": 1923
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": " 11.10",
+          "start_char": 2040,
+          "end_char": 2046
+        }
+      ],
+      "dedupe_key": "timeline:2fc2e6117588fb36",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1960,
+          "end_char": 1963
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2173,
+          "end_char": 2176
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2246,
+          "end_char": 2249
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 미팅 현장에서 소개할 자료가 필요하여 요청해 주셨음",
+      "normalized": {
+        "text": "2/ 미팅 현장에서 소개할 자료가 필요하여 요청해 주셨음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "2/ 미팅 현장에서 소개할 자료가 필요하여 요청해 주셨음",
+          "start_char": 1993,
+          "end_char": 2024
+        }
+      ],
+      "dedupe_key": "action_item:8ea225d5e2ca3f6a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사전 씽크업 진행 예정 11.10(월) 오후 4시",
+      "normalized": {
+        "text": "사전 씽크업 진행 예정 11.10(월) 오후 4시",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "사전 씽크업 진행 예정 11.10(월) 오후 4시",
+          "start_char": 2028,
+          "end_char": 2055
+        }
+      ],
+      "dedupe_key": "action_item:ae610c6b1071e41d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 4시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 4,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "오후 4시",
+          "start_char": 2050,
+          "end_char": 2055
+        }
+      ],
+      "dedupe_key": "timeline:ba2c07d3f47db670",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 이후 녹십자 <> 패스트트랙투원, 리캐치 공동미팅",
+      "normalized": {
+        "text": "검토 이후 녹십자 <> 패스트트랙투원, 리캐치 공동미팅",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "검토 이후 녹십자 <> 패스트트랙투원, 리캐치 공동미팅",
+          "start_char": 2224,
+          "end_char": 2254
+        }
+      ],
+      "dedupe_key": "action_item:174906a99da4878c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제안 이후, 프로젝트 진행 ( 12월 중순 ~ 1월 초 )",
+      "normalized": {
+        "text": "제안 이후, 프로젝트 진행 ( 12월 중순 ~ 1월 초 )",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "제안 이후, 프로젝트 진행 ( 12월 중순 ~ 1월 초 )",
+          "start_char": 2258,
+          "end_char": 2290
+        }
+      ],
+      "dedupe_key": "action_item:dd1f462029bc316f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 중순",
+      "normalized": {
+        "month": 12,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "12월 중순",
+          "start_char": 2275,
+          "end_char": 2281
+        }
+      ],
+      "dedupe_key": "timeline:c64af6f2309b1502",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 초",
+      "normalized": {
+        "month": 1,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "콘텐츠 보강 필요성 제기(병권)"
+          ],
+          "exact_quote": "1월 초",
+          "start_char": 2284,
+          "end_char": 2288
+        }
+      ],
+      "dedupe_key": "timeline:a6ac4146640de15b",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

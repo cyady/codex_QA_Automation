@@ -1,0 +1,235 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W237",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 15,
+          "end_char": 18
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 31,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "백종건 프로님이 직접 프레이머 만지면서 개편해보려 하고 있으나, 프레이머 툴이 익숙하지 않고 다른 과업도 있어 외주 방안을 함께 검토 중.",
+      "normalized": {
+        "text": "백종건 프로님이 직접 프레이머 만지면서 개편해보려 하고 있으나, 프레이머 툴이 익숙하지 않고 다른 과업도 있어 외주 방안을 함께 검토 중.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "백종건 프로님이 직접 프레이머 만지면서 개편해보려 하고 있으나, 프레이머 툴이 익숙하지 않고 다른 과업도 있어 외주 방안을 함께 검토 중.",
+          "start_char": 102,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "action_item:3d9ca7ce10c92fef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "백종건 프로님은 이전부터 리캐치 알고 있었음. 리캐치 툴을 도입할 생각은 아직 없으나, 블로그 보면서 많이 참고 하고 있다고 함",
+      "normalized": {
+        "text": "백종건 프로님은 이전부터 리캐치 알고 있었음. 리캐치 툴을 도입할 생각은 아직 없으나, 블로그 보면서 많이 참고 하고 있다고 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "백종건 프로님은 이전부터 리캐치 알고 있었음. 리캐치 툴을 도입할 생각은 아직 없으나, 블로그 보면서 많이 참고 하고 있다고 함",
+          "start_char": 183,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "collaboration_need:dd83213502902cf5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 232,
+          "end_char": 235
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 197,
+          "end_char": 200
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 209,
+          "end_char": 212
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "온라인 미팅 희망하시며, @김민재(Jay) 님 배정드리겠습니다.",
+      "normalized": {
+        "text": "온라인 미팅 희망하시며, @김민재(Jay) 님 배정드리겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "온라인 미팅 희망하시며, @김민재(Jay) 님 배정드리겠습니다.",
+          "start_char": 327,
+          "end_char": 362
+        }
+      ],
+      "dedupe_key": "collaboration_need:61b2af02ca0b0a90",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "@김민재",
+          "start_char": 341,
+          "end_char": 345
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "미팅 기대치 조율"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 406,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

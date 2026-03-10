@@ -1,0 +1,339 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W525",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제: 수동 마이크로 타게팅 피로 → 효율적 ABM 필요",
+      "normalized": {
+        "text": "문제: 수동 마이크로 타게팅 피로 → 효율적 ABM 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "문제: 수동 마이크로 타게팅 피로 → 효율적 ABM 필요",
+          "start_char": 53,
+          "end_char": 84
+        }
+      ],
+      "dedupe_key": "risk_or_concern:02e6769e4d0f7cd9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 78,
+          "end_char": 81
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 102,
+          "end_char": 105
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "수작업 타게팅 피로"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 568,
+          "end_char": 571
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 92,
+          "end_char": 95
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 849,
+          "end_char": 852
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 909,
+          "end_char": 912
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "커밋 레벨:  Lv.2 (문제 명확 + 챔피언 확보) cc. @김한규(Lucky)",
+      "normalized": {
+        "text": "커밋 레벨:  Lv.2 (문제 명확 + 챔피언 확보) cc. @김한규(Lucky)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "커밋 레벨:  Lv.2 (문제 명확 + 챔피언 확보) cc. @김한규(Lucky)",
+          "start_char": 180,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8052af7c1709ea29",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 214,
+          "end_char": 218
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "단, 계약 확정 전 단계 → 상위 설득 필요",
+      "normalized": {
+        "text": "단, 계약 확정 전 단계 → 상위 설득 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "단, 계약 확정 전 단계 → 상위 설득 필요",
+          "start_char": 290,
+          "end_char": 314
+        }
+      ],
+      "dedupe_key": "action_item:f0976c58091e455d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 마그넷 제작 + 서베이 + 타겟 메시지 발송",
+      "normalized": {
+        "text": "리드 마그넷 제작 + 서베이 + 타겟 메시지 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "제안 패키지 & 예산"
+          ],
+          "exact_quote": "리드 마그넷 제작 + 서베이 + 타겟 메시지 발송",
+          "start_char": 354,
+          "end_char": 381
+        }
+      ],
+      "dedupe_key": "action_item:e95b23efcb88da8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "SEO·오가닉 약함 → ABM/인바운드 구조 필요",
+      "normalized": {
+        "text": "SEO·오가닉 약함 → ABM/인바운드 구조 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "수작업 타게팅 피로"
+          ],
+          "exact_quote": "SEO·오가닉 약함 → ABM/인바운드 구조 필요",
+          "start_char": 555,
+          "end_char": 582
+        }
+      ],
+      "dedupe_key": "action_item:1e818afefcc78b0d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "수작업 타게팅 피로"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 555,
+          "end_char": 558
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리캐치 ABM 핵심"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 683,
+          "end_char": 686
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 870,
+          "end_char": 874
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 945,
+          "end_char": 949
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 883,
+          "end_char": 887
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

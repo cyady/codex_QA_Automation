@@ -1,0 +1,226 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W229",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기능이 많아지긴 했으나, 필요한 기능이 많아지진 않았음",
+      "normalized": {
+        "text": "기능이 많아지긴 했으나, 필요한 기능이 많아지진 않았음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "기능이 많아지긴 했으나, 필요한 기능이 많아지진 않았음",
+          "start_char": 34,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "action_item:0de43440c8da785f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "과거 리캐치 검토 시 대시보드와 리드 라우터는 좋았지만, 필드값 고도화 및 필터링 부재로 선택하지 않았음",
+      "normalized": {
+        "text": "과거 리캐치 검토 시 대시보드와 리드 라우터는 좋았지만, 필드값 고도화 및 필터링 부재로 선택하지 않았음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "과거 리캐치 검토 시 대시보드와 리드 라우터는 좋았지만, 필드값 고도화 및 필터링 부재로 선택하지 않았음",
+          "start_char": 94,
+          "end_char": 152
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8f2976fff4e29f4c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 97,
+          "end_char": 100
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 219,
+          "end_char": 222
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 351,
+          "end_char": 354
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 375,
+          "end_char": 378
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 406,
+          "end_char": 409
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 532,
+          "end_char": 535
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 다시 도입을 검토할 때 릴레잇이 최우선순위였지만, 리캐치가 성장하면서 많은 기능을 도입한 것 같아 미팅을 요청드렸음",
+      "normalized": {
+        "text": "현재 다시 도입을 검토할 때 릴레잇이 최우선순위였지만, 리캐치가 성장하면서 많은 기능을 도입한 것 같아 미팅을 요청드렸음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "현재 다시 도입을 검토할 때 릴레잇이 최우선순위였지만, 리캐치가 성장하면서 많은 기능을 도입한 것 같아 미팅을 요청드렸음",
+          "start_char": 188,
+          "end_char": 255
+        }
+      ],
+      "dedupe_key": "action_item:718d973824f0c2c0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "000개",
+          "start_char": 292,
+          "end_char": 296
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지금 리캐치는 진짜 B2B에 적합한 느낌이며, 당장 저희 실무에 쓰기에는 굳이 필요 없는 기능들이 있는 오버스펙 같음",
+      "normalized": {
+        "text": "지금 리캐치는 진짜 B2B에 적합한 느낌이며, 당장 저희 실무에 쓰기에는 굳이 필요 없는 기능들이 있는 오버스펙 같음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "지금 리캐치는 진짜 B2B에 적합한 느낌이며, 당장 저희 실무에 쓰기에는 굳이 필요 없는 기능들이 있는 오버스펙 같음",
+          "start_char": 403,
+          "end_char": 468
+        }
+      ],
+      "dedupe_key": "action_item:03b2ac4ff5d4a069",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "만약 도입한다면, 과거에 마음에 들어 했던 리드 라우터가 포함된 마케팅 CRM을 써야 할 것 같음",
+      "normalized": {
+        "text": "만약 도입한다면, 과거에 마음에 들어 했던 리드 라우터가 포함된 마케팅 CRM을 써야 할 것 같음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "가격매리트가 과거에 비해 없음"
+          ],
+          "exact_quote": "만약 도입한다면, 과거에 마음에 들어 했던 리드 라우터가 포함된 마케팅 CRM을 써야 할 것 같음",
+          "start_char": 584,
+          "end_char": 638
+        }
+      ],
+      "dedupe_key": "collaboration_need:07cdb58447d45131",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

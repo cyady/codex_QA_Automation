@@ -1,0 +1,249 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W186",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "50.96",
+      "normalized": {
+        "year": 2050,
+        "month": 96,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "50.96",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:d4ce6464b82897a1",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Tier3 엑스퍼넷, 잠재매출 미정] 251208_엑스퍼넷 미팅 후 주요 내용 공유 @sales",
+      "normalized": {
+        "text": "Tier3 엑스퍼넷, 잠재매출 미정] 251208_엑스퍼넷 미팅 후 주요 내용 공유 @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "Tier3 엑스퍼넷, 잠재매출 미정] 251208_엑스퍼넷 미팅 후 주요 내용 공유 @sales",
+          "start_char": 123,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "collaboration_need:9f9c13e03dbc7fcb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 170,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Need: CRM(마케터 3명, 영업 14명, 총 17명) + 웹사이트 개편 + 블로그 구축 필요성 모두 느낌",
+      "normalized": {
+        "text": "Need: CRM(마케터 3명, 영업 14명, 총 17명) + 웹사이트 개편 + 블로그 구축 필요성 모두 느낌",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "Need: CRM(마케터 3명, 영업 14명, 총 17명) + 웹사이트 개편 + 블로그 구축 필요성 모두 느낌",
+          "start_char": 218,
+          "end_char": 279
+        }
+      ],
+      "dedupe_key": "action_item:4cfe4134303136b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "3명",
+          "start_char": 232,
+          "end_char": 234
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "14명",
+      "normalized": {
+        "value": 14,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "14명",
+          "start_char": 239,
+          "end_char": 242
+        }
+      ],
+      "dedupe_key": "people_count:fc49f93dff77ed7d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "17명",
+      "normalized": {
+        "value": 17,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "17명",
+          "start_char": 246,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "people_count:d6933d677d41c107",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 263,
+          "end_char": 266
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Authority: 이주희 팀장님이 웹사이트 개편, CRM 도입의 필요성을 느껴서 내부 이슈레이징을 하셨고, 대표님이 알아보라고 지시하셔서 본격 알아보며 비교하고 계신 상황",
+      "normalized": {
+        "text": "Authority: 이주희 팀장님이 웹사이트 개편, CRM 도입의 필요성을 느껴서 내부 이슈레이징을 하셨고, 대표님이 알아보라고 지시하셔서 본격 알아보며 비교하고 계신 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Budget: 아직 모름"
+          ],
+          "exact_quote": "Authority: 이주희 팀장님이 웹사이트 개편, CRM 도입의 필요성을 느껴서 내부 이슈레이징을 하셨고, 대표님이 알아보라고 지시하셔서 본격 알아보며 비교하고 계신 상황",
+          "start_char": 385,
+          "end_char": 481
+        }
+      ],
+      "dedupe_key": "action_item:1ff5f3157a887017",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "엑스퍼넷 맞춤형 제안서 만들어드리기(경쟁사 대비 Ahrefs 분석 현황, 인지-관심-고려-구매 콘텐츠 구축 필요성, 웹사이트 제작 레퍼런스, GEO 대응, CRM 도입 프로세스(컨시어지 온보딩 포함), 총 견적 구성 등)",
+      "normalized": {
+        "text": "엑스퍼넷 맞춤형 제안서 만들어드리기(경쟁사 대비 Ahrefs 분석 현황, 인지-관심-고려-구매 콘텐츠 구축 필요성, 웹사이트 제작 레퍼런스, GEO 대응, CRM 도입 프로세스(컨시어지 온보딩 포함), 총 견적 구성 등)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "엑스퍼넷 맞춤형 제안서 만들어드리기(경쟁사 대비 Ahrefs 분석 현황, 인지-관심-고려-구매 콘텐츠 구축 필요성, 웹사이트 제작 레퍼런스, GEO 대응, CRM 도입 프로세스(컨시어지 온보딩 포함), 총 견적 구성 등)",
+          "start_char": 502,
+          "end_char": 625
+        }
+      ],
+      "dedupe_key": "action_item:e5da61b5230f61d0",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

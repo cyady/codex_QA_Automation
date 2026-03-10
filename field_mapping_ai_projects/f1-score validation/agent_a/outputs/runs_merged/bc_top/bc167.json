@@ -1,0 +1,224 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W167",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdrAB180",
+      "normalized": {
+        "name": "sdrAB180"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdrAB180",
+          "start_char": 28,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:0b980a16479198e9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "sdr",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 29,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지금까지 따로 영업 활동 없이 주로 홈페이지 문의 및 기존 고객의 연이은 프로젝트 진행으로 운영해옴",
+      "normalized": {
+        "text": "지금까지 따로 영업 활동 없이 주로 홈페이지 문의 및 기존 고객의 연이은 프로젝트 진행으로 운영해옴",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "지금까지 따로 영업 활동 없이 주로 홈페이지 문의 및 기존 고객의 연이은 프로젝트 진행으로 운영해옴",
+          "start_char": 60,
+          "end_char": 115
+        }
+      ],
+      "dedupe_key": "action_item:431ac9fe7c20492b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다 인바운드로 들어왔는데, 유입 채널은 홈페이지 & 기존 프로젝트 진행 고객의 재문의",
+      "normalized": {
+        "text": "다 인바운드로 들어왔는데, 유입 채널은 홈페이지 & 기존 프로젝트 진행 고객의 재문의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "다 인바운드로 들어왔는데, 유입 채널은 홈페이지 & 기존 프로젝트 진행 고객의 재문의",
+          "start_char": 223,
+          "end_char": 270
+        }
+      ],
+      "dedupe_key": "action_item:f05b709968bc6161",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 프로젝트 진행 과정 및 고객 관리는 노션, 폴로, 구글 드라이브, 스프레드시트 등을 활용 중",
+      "normalized": {
+        "text": "현재 프로젝트 진행 과정 및 고객 관리는 노션, 폴로, 구글 드라이브, 스프레드시트 등을 활용 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 프로젝트 진행 과정 및 고객 관리는 노션, 폴로, 구글 드라이브, 스프레드시트 등을 활용 중",
+          "start_char": 274,
+          "end_char": 328
+        }
+      ],
+      "dedupe_key": "action_item:3e9149386424bb8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업 프로세스: 전화로 상황/히스토리 청취 → 제안서 발송 → 수주 시 온라인 킥오프 미팅",
+      "normalized": {
+        "text": "영업 프로세스: 전화로 상황/히스토리 청취 → 제안서 발송 → 수주 시 온라인 킥오프 미팅",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "영업 프로세스: 전화로 상황/히스토리 청취 → 제안서 발송 → 수주 시 온라인 킥오프 미팅",
+          "start_char": 438,
+          "end_char": 488
+        }
+      ],
+      "dedupe_key": "action_item:465ff149d243a99b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "데모 미팅 시 마케팅 CRM 기능에 집중해서 안내 필요",
+      "normalized": {
+        "text": "데모 미팅 시 마케팅 CRM 기능에 집중해서 안내 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "데모 미팅 시 마케팅 CRM 기능에 집중해서 안내 필요",
+          "start_char": 719,
+          "end_char": 749
+        }
+      ],
+      "dedupe_key": "action_item:30a8ea6e5dea05eb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "8명",
+          "start_char": 832,
+          "end_char": 834
+        }
+      ],
+      "dedupe_key": "team_size:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이들 전부가 활용할지는 추가 파악 필요",
+      "normalized": {
+        "text": "이들 전부가 활용할지는 추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "이들 전부가 활용할지는 추가 파악 필요",
+          "start_char": 847,
+          "end_char": 868
+        }
+      ],
+      "dedupe_key": "action_item:9409b3690e4cc7a3",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

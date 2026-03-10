@@ -1,0 +1,104 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W527",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "ONJ에 대한 매출 정보는 없지만 매출 118억 (주)오토스의 신규 법인이라 하여(출처: 잡코리아) 일단 미팅 진행 해보는 게 좋을 것 같습니다..!",
+      "normalized": {
+        "text": "ONJ에 대한 매출 정보는 없지만 매출 118억 (주)오토스의 신규 법인이라 하여(출처: 잡코리아) 일단 미팅 진행 해보는 게 좋을 것 같습니다..!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "ONJ에 대한 매출 정보는 없지만 매출 118억 (주)오토스의 신규 법인이라 하여(출처: 잡코리아) 일단 미팅 진행 해보는 게 좋을 것 같습니다..!",
+          "start_char": 47,
+          "end_char": 130
+        }
+      ],
+      "dedupe_key": "action_item:2c71fa992cf79910",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 678,
+          "end_char": 683
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 711,
+          "end_char": 714
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

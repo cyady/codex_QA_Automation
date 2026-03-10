@@ -1,0 +1,137 @@
+{
+  "memo_id": "M-W22",
+  "updated_at": "2026-02-26T09:24:04.453400+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지난 주 금요일 통화 후 연락 드립니다.리캐치 제품에 대한 추가 소개가 필요한 상황으로 이해하고 있습니다.CRM 사용은 \"온보딩\"이 핵심인 터라, 무료 체험판 제공은 드리고 있지 않습니다. 조만간 만나뵙고 제품 디테일하게 소개드려보면 어떨까요-? 온라인/오프라인 모두 좋습니다-!",
+      "normalized": {
+        "text": "지난 주 금요일 통화 후 연락 드립니다.리캐치 제품에 대한 추가 소개가 필요한 상황으로 이해하고 있습니다.CRM 사용은 \"온보딩\"이 핵심인 터라, 무료 체험판 제공은 드리고 있지 않습니다. 조만간 만나뵙고 제품 디테일하게 소개드려보면 어떨까요-? 온라인/오프라인 모두 좋습니다-!",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "지난 주 금요일 통화 후 연락 드립니다.리캐치 제품에 대한 추가 소개가 필요한 상황으로 이해하고 있습니다.CRM 사용은 \"온보딩\"이 핵심인 터라, 무료 체험판 제공은 드리고 있지 않습니다. 조만간 만나뵙고 제품 디테일하게 소개드려보면 어떨까요-? 온라인/오프라인 모두 좋습니다-!",
+      "start_char": 132,
+      "end_char": 288,
+      "line_no": 2,
+      "line_text": "지난 주 금요일 통화 후 연락 드립니다.리캐치 제품에 대한 추가 소개가 필요한 상황으로 이해하고 있습니다.CRM 사용은 \"온보딩\"이 핵심인 터라, 무료 체험판 제공은 드리고 있지 않습니다. 조만간 만나뵙고 제품 디테일하게 소개드려보면 어떨까요-? 온라인/오프라인 모두 좋습니다-!",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5575",
+          "label": "라이센스 특이사항",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@안민혁",
+      "start_char": 91,
+      "end_char": 95,
+      "line_no": 1,
+      "line_text": "[Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 카톡목적: 리캐치 제품 무료 제공 없다고 기대치 조율 & 온/오프라인 추가 미팅 조율 cc @안민혁 (minhyuk)--팀장님 안녕하세요 :) 리캐치 김한규입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "000만원",
+      "start_char": 17,
+      "end_char": 22,
+      "line_no": 1,
+      "line_text": "[Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 카톡목적: 리캐치 제품 무료 제공 없다고 기대치 조율 & 온/오프라인 추가 미팅 조율 cc @안민혁 (minhyuk)--팀장님 안녕하세요 :) 리캐치 김한규입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

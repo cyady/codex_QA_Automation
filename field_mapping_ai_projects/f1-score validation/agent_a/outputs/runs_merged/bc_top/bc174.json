@@ -1,0 +1,763 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W174",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[Tier1 - 잠재매출 2,500~5000만원] 251001_베스핀글로벌 미팅 상세 내용 공유",
+      "normalized": {
+        "text": "[Tier1 - 잠재매출 2,500~5000만원] 251001_베스핀글로벌 미팅 상세 내용 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier1 - 잠재매출 2,500~5000만원] 251001_베스핀글로벌 미팅 상세 내용 공유",
+          "start_char": 0,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "collaboration_need:358215dd3e880842",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5000만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5000만원",
+          "start_char": 20,
+          "end_char": 26
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이번 미팅은 베스핀글로벌 마케팅팀의 현재 과제를 공유하고, 이에 대한 리캐치의 해결 방안과 성공 사례를 논의하는 자리였습니다. 주요 논의 내용은 다음과 같습니다.",
+      "normalized": {
+        "text": "이번 미팅은 베스핀글로벌 마케팅팀의 현재 과제를 공유하고, 이에 대한 리캐치의 해결 방안과 성공 사례를 논의하는 자리였습니다. 주요 논의 내용은 다음과 같습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 주요 내용 요약"
+          ],
+          "exact_quote": "이번 미팅은 베스핀글로벌 마케팅팀의 현재 과제를 공유하고, 이에 대한 리캐치의 해결 방안과 성공 사례를 논의하는 자리였습니다. 주요 논의 내용은 다음과 같습니다.",
+          "start_char": 68,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "collaboration_need:d0dcce6e994296a9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 주요 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 107,
+          "end_char": 110
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "미팅 주요 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 548,
+          "end_char": 551
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "데이터 기반의 고객 여정 분석 및 활용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 912,
+          "end_char": 915
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "업무 효율 향상을 위한 솔루션 기능"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1337,
+          "end_char": 1340
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "CRM 솔루션"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1390,
+          "end_char": 1393
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "CRM 솔루션"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1467,
+          "end_char": 1470
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1901,
+          "end_char": 1904
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1954,
+          "end_char": 1957
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2138,
+          "end_char": 2141
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2196,
+          "end_char": 2199
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "미팅 주요 내용 요약"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 236,
+          "end_char": 239
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "데이터 기반의 고객 여정 분석 및 활용"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 986,
+          "end_char": 989
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "가장 큰 차이점은 양 팀이 세일즈 미팅 수라는 공동의 KPI를 가지고 있다는 점입니다. 예를 들어, 월 목표 미팅 50건 중 70%(35건)는 마케팅이, 30%(15건)는 영업이 직접 만들어야 하는 구조로, 자연스러운 협업을 유도합니다.",
+      "normalized": {
+        "text": "가장 큰 차이점은 양 팀이 세일즈 미팅 수라는 공동의 KPI를 가지고 있다는 점입니다. 예를 들어, 월 목표 미팅 50건 중 70%(35건)는 마케팅이, 30%(15건)는 영업이 직접 만들어야 하는 구조로, 자연스러운 협업을 유도합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "영업-마케팅 협업 문화 구축"
+          ],
+          "exact_quote": "가장 큰 차이점은 양 팀이 세일즈 미팅 수라는 공동의 KPI를 가지고 있다는 점입니다. 예를 들어, 월 목표 미팅 50건 중 70%(35건)는 마케팅이, 30%(15건)는 영업이 직접 만들어야 하는 구조로, 자연스러운 협업을 유도합니다.",
+          "start_char": 586,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "collaboration_need:c81ddbe717808362",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "50건",
+      "normalized": {
+        "value": 50,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "영업-마케팅 협업 문화 구축"
+          ],
+          "exact_quote": "50건",
+          "start_char": 650,
+          "end_char": 653
+        }
+      ],
+      "dedupe_key": "sales_activity:881d53138c3950e4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "35건",
+      "normalized": {
+        "value": 35,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "영업-마케팅 협업 문화 구축"
+          ],
+          "exact_quote": "35건",
+          "start_char": 660,
+          "end_char": 663
+        }
+      ],
+      "dedupe_key": "sales_activity:b39823eb1def40a0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "15건",
+      "normalized": {
+        "value": 15,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "영업-마케팅 협업 문화 구축"
+          ],
+          "exact_quote": "15건",
+          "start_char": 676,
+          "end_char": 679
+        }
+      ],
+      "dedupe_key": "sales_activity:d174023f04e98a70",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "영업-마케팅 협업 문화 구축"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 792,
+          "end_char": 796
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1시간",
+      "normalized": {
+        "value": 1.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "데이터 기반의 고객 여정 분석 및 활용"
+          ],
+          "exact_quote": "1시간",
+          "start_char": 1023,
+          "end_char": 1026
+        }
+      ],
+      "dedupe_key": "duration:df792b64e2093972",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "100명",
+      "normalized": {
+        "value": 100,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "업무 효율 향상을 위한 솔루션 기능"
+          ],
+          "exact_quote": "100명",
+          "start_char": 1145,
+          "end_char": 1149
+        }
+      ],
+      "dedupe_key": "team_size:869998daef8cbea5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 자동화: 담당자가 배정되면 고객이 즉시 해당 영업 대표의 캘린더에서 가능한 시간을 선택해 미팅을 확정할 수 있습니다. 이를 통해 리드 발생 후 미팅까지의 시간을 단축시켜 전환율을 극대화할 수 있습니다 (실제 VD로보틱스 사례에서 계약 성사율 3%p 증가).",
+      "normalized": {
+        "text": "미팅 자동화: 담당자가 배정되면 고객이 즉시 해당 영업 대표의 캘린더에서 가능한 시간을 선택해 미팅을 확정할 수 있습니다. 이를 통해 리드 발생 후 미팅까지의 시간을 단축시켜 전환율을 극대화할 수 있습니다 (실제 VD로보틱스 사례에서 계약 성사율 3%p 증가).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "업무 효율 향상을 위한 솔루션 기능"
+          ],
+          "exact_quote": "미팅 자동화: 담당자가 배정되면 고객이 즉시 해당 영업 대표의 캘린더에서 가능한 시간을 선택해 미팅을 확정할 수 있습니다. 이를 통해 리드 발생 후 미팅까지의 시간을 단축시켜 전환율을 극대화할 수 있습니다 (실제 VD로보틱스 사례에서 계약 성사율 3%p 증가).",
+          "start_char": 1186,
+          "end_char": 1332
+        }
+      ],
+      "dedupe_key": "action_item:6b0d742e22a434bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "초기 도입 시 3개월간 마이그레이션, 셋업 컨설팅 등을 지원하는 '컨시어지 온보딩' 서비스를 제공합니다.",
+      "normalized": {
+        "text": "초기 도입 시 3개월간 마이그레이션, 셋업 컨설팅 등을 지원하는 '컨시어지 온보딩' 서비스를 제공합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "CRM 솔루션"
+          ],
+          "exact_quote": "초기 도입 시 3개월간 마이그레이션, 셋업 컨설팅 등을 지원하는 '컨시어지 온보딩' 서비스를 제공합니다.",
+          "start_char": 1487,
+          "end_char": 1545
+        }
+      ],
+      "dedupe_key": "collaboration_need:66f4c3e5acb406b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "CRM 솔루션"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1495,
+          "end_char": 1498
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 2027,
+          "end_char": 2030
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 2147,
+          "end_char": 2150
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1581,
+          "end_char": 1584
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1623,
+          "end_char": 1626
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1727,
+          "end_char": 1730
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2020,
+          "end_char": 2023
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 1751,
+          "end_char": 1757
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 1779,
+          "end_char": 1785
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 2043,
+          "end_char": 2048
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 2071,
+          "end_char": 2076
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "4/ Next Action (향후 진행 계획)",
+      "normalized": {
+        "text": "4/ Next Action (향후 진행 계획)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "4/ Next Action (향후 진행 계획)",
+          "start_char": 1796,
+          "end_char": 1821
+        }
+      ],
+      "dedupe_key": "action_item:24a51ffcf432f3c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "베스핀글로벌 내부 논의: 미팅에 참석한 팀원들과 오늘 논의된 내용(영업-마케팅 협업 방안, 리캐치 솔루션 등)을 공유하고 의견을 수렴합니다.",
+      "normalized": {
+        "text": "베스핀글로벌 내부 논의: 미팅에 참석한 팀원들과 오늘 논의된 내용(영업-마케팅 협업 방안, 리캐치 솔루션 등)을 공유하고 의견을 수렴합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "베스핀글로벌 내부 논의: 미팅에 참석한 팀원들과 오늘 논의된 내용(영업-마케팅 협업 방안, 리캐치 솔루션 등)을 공유하고 의견을 수렴합니다.",
+          "start_char": 1850,
+          "end_char": 1928
+        }
+      ],
+      "dedupe_key": "collaboration_need:71ba19e5f21b7859",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "도입 우선순위 결정: 논의 결과를 바탕으로 리캐치에서 제안한 솔루션 및 서비스 패키지 중 어떤 것을 우선적으로 도입할지 또는 기존 방식을 유지할지 검토합니다.",
+      "normalized": {
+        "text": "도입 우선순위 결정: 논의 결과를 바탕으로 리캐치에서 제안한 솔루션 및 서비스 패키지 중 어떤 것을 우선적으로 도입할지 또는 기존 방식을 유지할지 검토합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "도입 우선순위 결정: 논의 결과를 바탕으로 리캐치에서 제안한 솔루션 및 서비스 패키지 중 어떤 것을 우선적으로 도입할지 또는 기존 방식을 유지할지 검토합니다.",
+          "start_char": 1930,
+          "end_char": 2018
+        }
+      ],
+      "dedupe_key": "action_item:5d261b5f3e220d44",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 2100,
+          "end_char": 2105
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 2131,
+          "end_char": 2136
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 2122,
+          "end_char": 2125
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "결과 공유 및 후속 조치: 내부 검토가 완료되면 그 결과를 리캐치 측에 전달하고 다음 단계를 진행할 예정입니다.",
+      "normalized": {
+        "text": "결과 공유 및 후속 조치: 내부 검토가 완료되면 그 결과를 리캐치 측에 전달하고 다음 단계를 진행할 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "결과 공유 및 후속 조치: 내부 검토가 완료되면 그 결과를 리캐치 측에 전달하고 다음 단계를 진행할 예정입니다.",
+          "start_char": 2163,
+          "end_char": 2225
+        }
+      ],
+      "dedupe_key": "action_item:199dbc7b8b958f11",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "84.44",
+      "normalized": {
+        "year": 2084,
+        "month": 44,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "그로스 패키지 (컨설팅 및 대행 서비스)"
+          ],
+          "exact_quote": "84.44",
+          "start_char": 2324,
+          "end_char": 2329
+        }
+      ],
+      "dedupe_key": "timeline:2053bf3f44ec3621",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

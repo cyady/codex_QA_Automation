@@ -1,0 +1,504 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W451",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   김방건 담당자가 CTK 코스메틱의 상황과 니즈를 추측하며 대화를 시작했고, 조수연 부팀장이 이를 확인하며 구체적인 고민을 언급했습니다. 이후 김방건 담당자가 자사의 솔루션 제안 의사를 밝히고, 후속 조치로 메일 발송을 약속하며 미팅이 마무리되었습니다.",
+      "normalized": {
+        "text": "*   김방건 담당자가 CTK 코스메틱의 상황과 니즈를 추측하며 대화를 시작했고, 조수연 부팀장이 이를 확인하며 구체적인 고민을 언급했습니다. 이후 김방건 담당자가 자사의 솔루션 제안 의사를 밝히고, 후속 조치로 메일 발송을 약속하며 미팅이 마무리되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   김방건 담당자가 CTK 코스메틱의 상황과 니즈를 추측하며 대화를 시작했고, 조수연 부팀장이 이를 확인하며 구체적인 고민을 언급했습니다. 이후 김방건 담당자가 자사의 솔루션 제안 의사를 밝히고, 후속 조치로 메일 발송을 약속하며 미팅이 마무리되었습니다.",
+          "start_char": 406,
+          "end_char": 550
+        }
+      ],
+      "dedupe_key": "action_item:8aae6c9978364504",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   “좋은 세션이나 아니면 B2B 관련해서 유입량 늘릴 수 있는 것들 있으면 한번 저희 제가 남겨준 이메일로 보내주시면 저희도 한번 검토해 보도록 하겠습니다.”라고 구체적인 요청을 했습니다.",
+      "normalized": {
+        "text": "*   “좋은 세션이나 아니면 B2B 관련해서 유입량 늘릴 수 있는 것들 있으면 한번 저희 제가 남겨준 이메일로 보내주시면 저희도 한번 검토해 보도록 하겠습니다.”라고 구체적인 요청을 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   “좋은 세션이나 아니면 B2B 관련해서 유입량 늘릴 수 있는 것들 있으면 한번 저희 제가 남겨준 이메일로 보내주시면 저희도 한번 검토해 보도록 하겠습니다.”라고 구체적인 요청을 했습니다.",
+          "start_char": 1069,
+          "end_char": 1177
+        }
+      ],
+      "dedupe_key": "action_item:5764f117ccdc3b4c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**웹사이트 유입량 증대:** 특히 오가닉 트래픽을 높이고자 하는 니즈가 있습니다.",
+      "normalized": {
+        "text": "**웹사이트 유입량 증대:** 특히 오가닉 트래픽을 높이고자 하는 니즈가 있습니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**웹사이트 유입량 증대:** 특히 오가닉 트래픽을 높이고자 하는 니즈가 있습니다.",
+          "start_char": 1842,
+          "end_char": 1888
+        }
+      ],
+      "dedupe_key": "risk_or_concern:334d4efcfebf63e3",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**B2B 타겟 솔루션 부족:** B2B 서비스의 특성상 B2B를 명확히 타겟하는 솔루션이나 정보가 부족하여 어려움을 겪고 있습니다.",
+      "normalized": {
+        "text": "**B2B 타겟 솔루션 부족:** B2B 서비스의 특성상 B2B를 명확히 타겟하는 솔루션이나 정보가 부족하여 어려움을 겪고 있습니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**B2B 타겟 솔루션 부족:** B2B 서비스의 특성상 B2B를 명확히 타겟하는 솔루션이나 정보가 부족하여 어려움을 겪고 있습니다.",
+          "start_char": 1893,
+          "end_char": 1967
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c0af6838547d09f8",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**사이트 내 체류 시간 증대:** 웹사이트 방문자의 체류 시간을 높이는 것이 내부적인 목표입니다.",
+      "normalized": {
+        "text": "**사이트 내 체류 시간 증대:** 웹사이트 방문자의 체류 시간을 높이는 것이 내부적인 목표입니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**사이트 내 체류 시간 증대:** 웹사이트 방문자의 체류 시간을 높이는 것이 내부적인 목표입니다.",
+          "start_char": 1972,
+          "end_char": 2027
+        }
+      ],
+      "dedupe_key": "risk_or_concern:baf3150bdfbbaa1b",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**글로벌 시장 우선순위:** 국내 시장뿐만 아니라 해외 시장, 특히 영문 페이지를 통한 글로벌 진출에 대한 니즈와 우선순위가 높습니다.",
+      "normalized": {
+        "text": "**글로벌 시장 우선순위:** 국내 시장뿐만 아니라 해외 시장, 특히 영문 페이지를 통한 글로벌 진출에 대한 니즈와 우선순위가 높습니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**글로벌 시장 우선순위:** 국내 시장뿐만 아니라 해외 시장, 특히 영문 페이지를 통한 글로벌 진출에 대한 니즈와 우선순위가 높습니다.",
+          "start_char": 2032,
+          "end_char": 2108
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0eac5130e7b036ea",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**액션 아이템 1: 리케치 팀의 메일 발송**",
+      "normalized": {
+        "text": "**액션 아이템 1: 리케치 팀의 메일 발송**"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**액션 아이템 1: 리케치 팀의 메일 발송**",
+          "start_char": 2351,
+          "end_char": 2377
+        }
+      ],
+      "dedupe_key": "action_item:44626dd2588f9197",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **액션 아이템 1: 리케치 팀의 메일 발송**",
+      "normalized": {
+        "text": "*   **액션 아이템 1: 리케치 팀의 메일 발송**",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **액션 아이템 1: 리케치 팀의 메일 발송**",
+          "start_char": 2347,
+          "end_char": 2377
+        }
+      ],
+      "dedupe_key": "action_item:bc132a860a05c838",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송.",
+      "normalized": {
+        "text": "**내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송.",
+          "start_char": 2386,
+          "end_char": 2458
+        }
+      ],
+      "dedupe_key": "action_item:668c662d1fe8b116",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송.",
+      "normalized": {
+        "text": "*   **내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **내용:** CTK 코스메틱의 유입량 증대 및 B2B 오가닉 전환 목표에 대한 리케치 팀의 솔루션 제안 내용을 담은 메일 발송.",
+          "start_char": 2382,
+          "end_char": 2458
+        }
+      ],
+      "dedupe_key": "action_item:e249515b5632fa08",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**담당자:** 리케치 팀 김방건",
+      "normalized": {
+        "text": "**담당자:** 리케치 팀 김방건"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**담당자:** 리케치 팀 김방건",
+          "start_char": 2467,
+          "end_char": 2485
+        }
+      ],
+      "dedupe_key": "action_item:921734071a414d9f",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)",
+      "normalized": {
+        "text": "**마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)",
+          "start_char": 2494,
+          "end_char": 2537
+        }
+      ],
+      "dedupe_key": "action_item:acc6bcdfebfaedac",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)",
+      "normalized": {
+        "text": "*   **마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **마감일:** 미팅 직후 (메시지로 명함과 함께 코멘트 남긴 후 발송 예정)",
+          "start_char": 2490,
+          "end_char": 2537
+        }
+      ],
+      "dedupe_key": "action_item:7ac4a772ffcf48d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**액션 아이템 2: CTK 코스메틱의 메일 검토**",
+      "normalized": {
+        "text": "**액션 아이템 2: CTK 코스메틱의 메일 검토**"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**액션 아이템 2: CTK 코스메틱의 메일 검토**",
+          "start_char": 2542,
+          "end_char": 2571
+        }
+      ],
+      "dedupe_key": "action_item:a2c7b41d5d0d0dfb",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **액션 아이템 2: CTK 코스메틱의 메일 검토**",
+      "normalized": {
+        "text": "*   **액션 아이템 2: CTK 코스메틱의 메일 검토**",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **액션 아이템 2: CTK 코스메틱의 메일 검토**",
+          "start_char": 2538,
+          "end_char": 2571
+        }
+      ],
+      "dedupe_key": "action_item:f5b81bfc4f3dc327",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토.",
+      "normalized": {
+        "text": "**내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토.",
+          "start_char": 2580,
+          "end_char": 2612
+        }
+      ],
+      "dedupe_key": "action_item:2c7f4c2d3b561e86",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토.",
+      "normalized": {
+        "text": "*   **내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **내용:** 리케치 팀에서 보낸 솔루션 제안 메일 검토.",
+          "start_char": 2576,
+          "end_char": 2612
+        }
+      ],
+      "dedupe_key": "action_item:974f1fcc70ef2545",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**담당자:** CTK 코스메틱 조수연 부팀장",
+      "normalized": {
+        "text": "**담당자:** CTK 코스메틱 조수연 부팀장"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**담당자:** CTK 코스메틱 조수연 부팀장",
+          "start_char": 2621,
+          "end_char": 2646
+        }
+      ],
+      "dedupe_key": "action_item:dc15ba1ec0752539",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**마감일:** 메일 수신 후",
+      "normalized": {
+        "text": "**마감일:** 메일 수신 후"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**마감일:** 메일 수신 후",
+          "start_char": 2655,
+          "end_char": 2671
+        }
+      ],
+      "dedupe_key": "action_item:d7a5c3b2017e6fa7",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정.",
+      "normalized": {
+        "text": "**후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정.",
+          "start_char": 2676,
+          "end_char": 2740
+        }
+      ],
+      "dedupe_key": "action_item:cd1a7000def951a2",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정.",
+      "normalized": {
+        "text": "*   **후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   **후속 조치 계획:** 메일 검토 후 CTK 코스메틱의 피드백에 따라 추가 논의 또는 방문 미팅 진행 여부 결정.",
+          "start_char": 2672,
+          "end_char": 2740
+        }
+      ],
+      "dedupe_key": "action_item:becb21d6c7e9040f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

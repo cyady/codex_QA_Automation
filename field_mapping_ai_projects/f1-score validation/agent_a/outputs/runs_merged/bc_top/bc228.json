@@ -1,0 +1,531 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W228",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈팀원들 다 들어왔는데, 거센 반발 (ERP에서 다 하고 있는건데? 뭐가 다름? 액셀에서 다 관리하고 공유폴더에 있는데? 뭐가다름?)",
+      "normalized": {
+        "text": "세일즈팀원들 다 들어왔는데, 거센 반발 (ERP에서 다 하고 있는건데? 뭐가 다름? 액셀에서 다 관리하고 공유폴더에 있는데? 뭐가다름?)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "세일즈팀원들 다 들어왔는데, 거센 반발 (ERP에서 다 하고 있는건데? 뭐가 다름? 액셀에서 다 관리하고 공유폴더에 있는데? 뭐가다름?)",
+          "start_char": 25,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "collaboration_need:71f08f3ece291bd4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상무님은 도입의지가 있으나, 알 수 없음",
+      "normalized": {
+        "text": "상무님은 도입의지가 있으나, 알 수 없음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "상무님은 도입의지가 있으나, 알 수 없음",
+          "start_char": 104,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf877b7b3739c3dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "진행방향"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 270,
+          "end_char": 273
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 861,
+          "end_char": 864
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 영업 관리 현황 및 문제점",
+      "normalized": {
+        "text": "현재 영업 관리 현황 및 문제점",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "미팅요약"
+          ],
+          "exact_quote": "현재 영업 관리 현황 및 문제점",
+          "start_char": 323,
+          "end_char": 340
+        }
+      ],
+      "dedupe_key": "risk_or_concern:458132b661c83a89",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 영업팀은 담당자별로 특정 건설사 고객군(A 담당자 30개, B 담당자 25개 등)을 지정하여 관리하고 있습니다. ERP는 프로젝트별 입찰, 계약, 현장 진행, 준공 등 숫자적인 정보만 관리하며, 건설사 관련 세부 내용은 담당자들이 개별적으로 관리합니다.",
+      "normalized": {
+        "text": "현재 영업팀은 담당자별로 특정 건설사 고객군(A 담당자 30개, B 담당자 25개 등)을 지정하여 관리하고 있습니다. ERP는 프로젝트별 입찰, 계약, 현장 진행, 준공 등 숫자적인 정보만 관리하며, 건설사 관련 세부 내용은 담당자들이 개별적으로 관리합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "미팅요약"
+          ],
+          "exact_quote": "현재 영업팀은 담당자별로 특정 건설사 고객군(A 담당자 30개, B 담당자 25개 등)을 지정하여 관리하고 있습니다. ERP는 프로젝트별 입찰, 계약, 현장 진행, 준공 등 숫자적인 정보만 관리하며, 건설사 관련 세부 내용은 담당자들이 개별적으로 관리합니다.",
+          "start_char": 342,
+          "end_char": 486
+        }
+      ],
+      "dedupe_key": "action_item:af86099fc471748f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "30개",
+      "normalized": {
+        "value": 30,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "미팅요약"
+          ],
+          "exact_quote": "30개",
+          "start_char": 373,
+          "end_char": 376
+        }
+      ],
+      "dedupe_key": "case_metric:a06f0b3d1bf117d7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "25개",
+      "normalized": {
+        "value": 25,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "미팅요약"
+          ],
+          "exact_quote": "25개",
+          "start_char": 384,
+          "end_char": 387
+        }
+      ],
+      "dedupe_key": "case_metric:65bff0641c5b9083",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "히스토리 부재 및 보고서 단절: 누가, 언제, 어떤 영업 활동이나 미팅을 했는지 정성적인 히스토리가 ERP에 없으며, 세부 보고서도 보고로만 끝나 흐름 파악이 어렵습니다.",
+      "normalized": {
+        "text": "히스토리 부재 및 보고서 단절: 누가, 언제, 어떤 영업 활동이나 미팅을 했는지 정성적인 히스토리가 ERP에 없으며, 세부 보고서도 보고로만 끝나 흐름 파악이 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "히스토리 부재 및 보고서 단절: 누가, 언제, 어떤 영업 활동이나 미팅을 했는지 정성적인 히스토리가 ERP에 없으며, 세부 보고서도 보고로만 끝나 흐름 파악이 어렵습니다.",
+          "start_char": 514,
+          "end_char": 609
+        }
+      ],
+      "dedupe_key": "risk_or_concern:43bdc9a2fc75b1c2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정보 파악 및 기록의 어려움: 신제품 제안이나 프로젝트 피드백 진행 상황을 담당자에게 일일이 물어봐야 알 수 있으며, 미팅 기록이 제대로 안 되어 내용이 자주 끊깁니다.",
+      "normalized": {
+        "text": "정보 파악 및 기록의 어려움: 신제품 제안이나 프로젝트 피드백 진행 상황을 담당자에게 일일이 물어봐야 알 수 있으며, 미팅 기록이 제대로 안 되어 내용이 자주 끊깁니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "정보 파악 및 기록의 어려움: 신제품 제안이나 프로젝트 피드백 진행 상황을 담당자에게 일일이 물어봐야 알 수 있으며, 미팅 기록이 제대로 안 되어 내용이 자주 끊깁니다.",
+          "start_char": 611,
+          "end_char": 705
+        }
+      ],
+      "dedupe_key": "action_item:0da9b07b78deab1c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "자료 관리 비효율성: 자료 관리가 어렵고, 자료를 찾는 데 시간이 많이 소요됩니다.",
+      "normalized": {
+        "text": "자료 관리 비효율성: 자료 관리가 어렵고, 자료를 찾는 데 시간이 많이 소요됩니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "자료 관리 비효율성: 자료 관리가 어렵고, 자료를 찾는 데 시간이 많이 소요됩니다.",
+          "start_char": 707,
+          "end_char": 753
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e793e15b4caa0959",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "명함 관리 비효율성: 현재 사용 중인 리멤버 팀 명함첩은 처음부터 소그룹으로 나누지 않아 A 건설사에 8명 연락처가 뭉텅이로 들어가 있는 등 소팅이 안 되어 관리하기 어렵습니다.",
+      "normalized": {
+        "text": "명함 관리 비효율성: 현재 사용 중인 리멤버 팀 명함첩은 처음부터 소그룹으로 나누지 않아 A 건설사에 8명 연락처가 뭉텅이로 들어가 있는 등 소팅이 안 되어 관리하기 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "명함 관리 비효율성: 현재 사용 중인 리멤버 팀 명함첩은 처음부터 소그룹으로 나누지 않아 A 건설사에 8명 연락처가 뭉텅이로 들어가 있는 등 소팅이 안 되어 관리하기 어렵습니다.",
+          "start_char": 755,
+          "end_char": 854
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e603f6a009726db9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "8명",
+          "start_char": 812,
+          "end_char": 814
+        }
+      ],
+      "dedupe_key": "team_size:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM (리캐치) 도입 목표 및 기능",
+      "normalized": {
+        "text": "CRM (리캐치) 도입 목표 및 기능",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "CRM (리캐치) 도입 목표 및 기능",
+          "start_char": 856,
+          "end_char": 876
+        }
+      ],
+      "dedupe_key": "collaboration_need:48e62d26239a9496",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상무님은 영업 활동의 족보(아웃트라인)를 파악하고, 정보 공유를 통해 보고 과정 없이도 누구나 자료를 찾아볼 수 있게 하며, 자료를 보고 신속하게 피드백을 제공하고자 CRM 도입을 요구하셨습니다.",
+      "normalized": {
+        "text": "상무님은 영업 활동의 족보(아웃트라인)를 파악하고, 정보 공유를 통해 보고 과정 없이도 누구나 자료를 찾아볼 수 있게 하며, 자료를 보고 신속하게 피드백을 제공하고자 CRM 도입을 요구하셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "상무님은 영업 활동의 족보(아웃트라인)를 파악하고, 정보 공유를 통해 보고 과정 없이도 누구나 자료를 찾아볼 수 있게 하며, 자료를 보고 신속하게 피드백을 제공하고자 CRM 도입을 요구하셨습니다.",
+          "start_char": 878,
+          "end_char": 987
+        }
+      ],
+      "dedupe_key": "collaboration_need:6f876cc83516b174",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 계획 및 기대 효과",
+      "normalized": {
+        "text": "CRM 도입 계획 및 기대 효과",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "CRM 도입 계획 및 기대 효과",
+          "start_char": 989,
+          "end_char": 1006
+        }
+      ],
+      "dedupe_key": "collaboration_need:d06dde69050aa5f1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 결정: 현재 관리 고객사 100개 기준으로 CRM 활용에 적절하며, 상무님은 리멤버 연동이 가능하다면 바로 도입할 의사를 보이셨습니다.",
+      "normalized": {
+        "text": "도입 결정: 현재 관리 고객사 100개 기준으로 CRM 활용에 적절하며, 상무님은 리멤버 연동이 가능하다면 바로 도입할 의사를 보이셨습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "도입 결정: 현재 관리 고객사 100개 기준으로 CRM 활용에 적절하며, 상무님은 리멤버 연동이 가능하다면 바로 도입할 의사를 보이셨습니다.",
+          "start_char": 1008,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "collaboration_need:fbbe27ad751913fd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "100개",
+          "start_char": 1025,
+          "end_char": 1029
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "현행 관리의 주요 문제점은 다음과 같습니다"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 1097,
+          "end_char": 1102
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM은 영업 활동에서 발생하는 정성적인 정보를 모아 효율적으로 관리하고 협업을 돕는 소프트웨어입니다.",
+      "normalized": {
+        "text": "CRM은 영업 활동에서 발생하는 정성적인 정보를 모아 효율적으로 관리하고 협업을 돕는 소프트웨어입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "CRM의 주요 역할 및 기능"
+          ],
+          "exact_quote": "CRM은 영업 활동에서 발생하는 정성적인 정보를 모아 효율적으로 관리하고 협업을 돕는 소프트웨어입니다.",
+          "start_char": 1275,
+          "end_char": 1332
+        }
+      ],
+      "dedupe_key": "collaboration_need:da1547e0cb65a2e4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재는 아웃바운드(찾아가는 영업)가 많으며, 기존 건설사는 필요시 회사로 연락을 주는 상황입니다. 유리한 영업을 위해 고객이 먼저 문의하는 인바운드 채널을 늘리는 방안이 별도의 프로젝트로 제시되었습니다.",
+      "normalized": {
+        "text": "현재는 아웃바운드(찾아가는 영업)가 많으며, 기존 건설사는 필요시 회사로 연락을 주는 상황입니다. 유리한 영업을 위해 고객이 먼저 문의하는 인바운드 채널을 늘리는 방안이 별도의 프로젝트로 제시되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "CRM의 주요 역할 및 기능"
+          ],
+          "exact_quote": "현재는 아웃바운드(찾아가는 영업)가 많으며, 기존 건설사는 필요시 회사로 연락을 주는 상황입니다. 유리한 영업을 위해 고객이 먼저 문의하는 인바운드 채널을 늘리는 방안이 별도의 프로젝트로 제시되었습니다.",
+          "start_char": 1837,
+          "end_char": 1950
+        }
+      ],
+      "dedupe_key": "action_item:0a583e60d3154709",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "CRM의 주요 역할 및 기능"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 2331,
+          "end_char": 2334
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

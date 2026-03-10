@@ -1,0 +1,487 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W72",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "웹사이트/블로그"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 39,
+          "end_char": 42
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1872,
+          "end_char": 1875
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅팀에서는 홈페이지 개편을 희망하고 있으나, 상부에서는 홈페이지 개편에 예산 투자 회의적(마케팅팀에서는 에이전시에 맡기자고 주장하고, 상부에서는 프레이머로 싸게 하라고 주장하고 있음)",
+      "normalized": {
+        "text": "마케팅팀에서는 홈페이지 개편을 희망하고 있으나, 상부에서는 홈페이지 개편에 예산 투자 회의적(마케팅팀에서는 에이전시에 맡기자고 주장하고, 상부에서는 프레이머로 싸게 하라고 주장하고 있음)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "웹사이트/블로그"
+          ],
+          "exact_quote": "마케팅팀에서는 홈페이지 개편을 희망하고 있으나, 상부에서는 홈페이지 개편에 예산 투자 회의적(마케팅팀에서는 에이전시에 맡기자고 주장하고, 상부에서는 프레이머로 싸게 하라고 주장하고 있음)",
+          "start_char": 164,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "collaboration_need:f6502a3067d1dfcb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "더존에서 ERP 베이스로 구축한 영업관리시스템이 있음(발주관리 등 기능). 영업에서만 쓰고 있고 마케팅에서는 따로 쓰는거 없음",
+      "normalized": {
+        "text": "더존에서 ERP 베이스로 구축한 영업관리시스템이 있음(발주관리 등 기능). 영업에서만 쓰고 있고 마케팅에서는 따로 쓰는거 없음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "CRM 니즈"
+          ],
+          "exact_quote": "더존에서 ERP 베이스로 구축한 영업관리시스템이 있음(발주관리 등 기능). 영업에서만 쓰고 있고 마케팅에서는 따로 쓰는거 없음",
+          "start_char": 284,
+          "end_char": 354
+        }
+      ],
+      "dedupe_key": "collaboration_need:788a5a2d66e0bd54",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅팀에서 온/오프라인으로 확보한 리드가 세일즈에 얼마나 기여하고 있는지 측정이 전혀 되고있지 않음",
+      "normalized": {
+        "text": "마케팅팀에서 온/오프라인으로 확보한 리드가 세일즈에 얼마나 기여하고 있는지 측정이 전혀 되고있지 않음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "CRM 니즈"
+          ],
+          "exact_quote": "마케팅팀에서 온/오프라인으로 확보한 리드가 세일즈에 얼마나 기여하고 있는지 측정이 전혀 되고있지 않음",
+          "start_char": 358,
+          "end_char": 414
+        }
+      ],
+      "dedupe_key": "collaboration_need:05f7ecf90eff7a74",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "As-Is : 마케팅 캠페인별로 리드를 스프레드시트로 정리하고, 거기에 디커콜 결과 정리해서 세일즈에 넘김 -> 이력관리 안되고, 세일즈에서 절~대 마케팅 덕에 수주했다는 말 안함",
+      "normalized": {
+        "text": "As-Is : 마케팅 캠페인별로 리드를 스프레드시트로 정리하고, 거기에 디커콜 결과 정리해서 세일즈에 넘김 -> 이력관리 안되고, 세일즈에서 절~대 마케팅 덕에 수주했다는 말 안함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "CRM 니즈"
+          ],
+          "exact_quote": "As-Is : 마케팅 캠페인별로 리드를 스프레드시트로 정리하고, 거기에 디커콜 결과 정리해서 세일즈에 넘김 -> 이력관리 안되고, 세일즈에서 절~대 마케팅 덕에 수주했다는 말 안함",
+          "start_char": 420,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "collaboration_need:75f3634fe715ff0e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "김유린 과장) 영업에서 자꾸 본인들이 잘해서 딜 된거라고 해서 억울하다. 성과 증명하고 싶음",
+      "normalized": {
+        "text": "김유린 과장) 영업에서 자꾸 본인들이 잘해서 딜 된거라고 해서 억울하다. 성과 증명하고 싶음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "CRM 니즈"
+          ],
+          "exact_quote": "김유린 과장) 영업에서 자꾸 본인들이 잘해서 딜 된거라고 해서 억울하다. 성과 증명하고 싶음",
+          "start_char": 524,
+          "end_char": 575
+        }
+      ],
+      "dedupe_key": "collaboration_need:91cb936d1ea3ddc7",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2차, 3차 시퀀스는 안쓰고 매달 한번씩 벌크 메일로 발송하고 있음. 스티비 대체도 가능하겠네요 -> ㅇㅇ",
+      "normalized": {
+        "text": "2차, 3차 시퀀스는 안쓰고 매달 한번씩 벌크 메일로 발송하고 있음. 스티비 대체도 가능하겠네요 -> ㅇㅇ",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "스티비 쓰고 있음"
+          ],
+          "exact_quote": "2차, 3차 시퀀스는 안쓰고 매달 한번씩 벌크 메일로 발송하고 있음. 스티비 대체도 가능하겠네요 -> ㅇㅇ",
+          "start_char": 594,
+          "end_char": 653
+        }
+      ],
+      "dedupe_key": "action_item:c497a91d79adca4a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@product",
+      "normalized": {
+        "name": "product"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "스티비 쓰고 있음"
+          ],
+          "exact_quote": "@product",
+          "start_char": 675,
+          "end_char": 683
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:1e9f454213b4355e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상부 설득 필요함.",
+      "normalized": {
+        "text": "상부 설득 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "B, A (예산 및 의결권자)"
+          ],
+          "exact_quote": "상부 설득 필요함.",
+          "start_char": 709,
+          "end_char": 719
+        }
+      ],
+      "dedupe_key": "action_item:155a5295cb841ddf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "@김우진(Woojin Andy Kim) 멀티스레딩 매우 필요합니다!",
+      "normalized": {
+        "text": "@김우진(Woojin Andy Kim) 멀티스레딩 매우 필요합니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "손정우 이사님이 최종 의사결정 예정"
+          ],
+          "exact_quote": "@김우진(Woojin Andy Kim) 멀티스레딩 매우 필요합니다!",
+          "start_char": 748,
+          "end_char": 785
+        }
+      ],
+      "dedupe_key": "action_item:fae3519f529a70c3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "손정우 이사님이 최종 의사결정 예정"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 748,
+          "end_char": 752
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "T (타임라인)"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 811,
+          "end_char": 814
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "3명",
+          "start_char": 934,
+          "end_char": 936
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "2명",
+          "start_char": 941,
+          "end_char": 943
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "4만개",
+      "normalized": {
+        "value": 40000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Q) 세일즈포스와 리캐치의 차이점은 뭔가?"
+          ],
+          "exact_quote": "4만개",
+          "start_char": 1177,
+          "end_char": 1180
+        }
+      ],
+      "dedupe_key": "case_metric:af27e61fc4532468",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Q) 세일즈포스와 리캐치의 차이점은 뭔가?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1124,
+          "end_char": 1127
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Q) 세일즈포스와 리캐치의 차이점은 뭔가?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1191,
+          "end_char": 1194
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "한화비전도 본사는 총판구조 세일즈 하는데 신사업팀은 직영업 해야해서 CRM과 그로스패키지 도입한 사례. 지금 전사도입 검토중임. 장기적으로 총판구조 -> 직영업 하고싶어하는 이스트시큐리티와도 적합",
+      "normalized": {
+        "text": "한화비전도 본사는 총판구조 세일즈 하는데 신사업팀은 직영업 해야해서 CRM과 그로스패키지 도입한 사례. 지금 전사도입 검토중임. 장기적으로 총판구조 -> 직영업 하고싶어하는 이스트시큐리티와도 적합",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Q) 우리같이 좀 오래된 오프라인 기반 영업하는 조직에서도 잘 쓰는지?"
+          ],
+          "exact_quote": "한화비전도 본사는 총판구조 세일즈 하는데 신사업팀은 직영업 해야해서 CRM과 그로스패키지 도입한 사례. 지금 전사도입 검토중임. 장기적으로 총판구조 -> 직영업 하고싶어하는 이스트시큐리티와도 적합",
+          "start_char": 1443,
+          "end_char": 1552
+        }
+      ],
+      "dedupe_key": "action_item:0787f70b12bd6363",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스 제너럴 제안서, 제품 소개서, 사용권 안내 팔로업 메일 발송",
+      "normalized": {
+        "text": "그로스 제너럴 제안서, 제품 소개서, 사용권 안내 팔로업 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "그로스 제너럴 제안서, 제품 소개서, 사용권 안내 팔로업 메일 발송",
+          "start_char": 1717,
+          "end_char": 1754
+        }
+      ],
+      "dedupe_key": "action_item:28d062733e5978f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월말",
+      "normalized": {
+        "month": 10,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "10월말",
+          "start_char": 1765,
+          "end_char": 1769
+        }
+      ],
+      "dedupe_key": "timeline:ad97181229af6305",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W485",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Tier 1 한화솔루션 전략영업본부 최훈기 상무_260203 미팅 핵심 결과 공유",
+      "normalized": {
+        "text": "Tier 1 한화솔루션 전략영업본부 최훈기 상무_260203 미팅 핵심 결과 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier 1 한화솔루션 전략영업본부 최훈기 상무_260203 미팅 핵심 결과 공유",
+          "start_char": 0,
+          "end_char": 45
+        }
+      ],
+      "dedupe_key": "collaboration_need:c20341412e0c8761",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ 커밋레벨: 2 구체적 문제 파악 완료. 현재 그룹사 차원에서 도입된 SAP CRM을 사용 중이나, 현장 영업사원들이 \"입력하기 너무 복잡하고 모바일 대응이 안 된다\"며 거의 사용하지 않는 '데이터 무덤' 상태. 최 상무님은 글로벌 시장 속도에 맞춘 유연한 CRM 도입을 원하며, 기존 SAP는 회계/재고용으로만 두고 영업 관리용 '세컨드 엔진' 도입을 강력히 희망함.",
+      "normalized": {
+        "text": "1/ 커밋레벨: 2 구체적 문제 파악 완료. 현재 그룹사 차원에서 도입된 SAP CRM을 사용 중이나, 현장 영업사원들이 \"입력하기 너무 복잡하고 모바일 대응이 안 된다\"며 거의 사용하지 않는 '데이터 무덤' 상태. 최 상무님은 글로벌 시장 속도에 맞춘 유연한 CRM 도입을 원하며, 기존 SAP는 회계/재고용으로만 두고 영업 관리용 '세컨드 엔진' 도입을 강력히 희망함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1/ 커밋레벨: 2 구체적 문제 파악 완료. 현재 그룹사 차원에서 도입된 SAP CRM을 사용 중이나, 현장 영업사원들이 \"입력하기 너무 복잡하고 모바일 대응이 안 된다\"며 거의 사용하지 않는 '데이터 무덤' 상태. 최 상무님은 글로벌 시장 속도에 맞춘 유연한 CRM 도입을 원하며, 기존 SAP는 회계/재고용으로만 두고 영업 관리용 '세컨드 엔진' 도입을 강력히 희망함.",
+          "start_char": 47,
+          "end_char": 255
+        }
+      ],
+      "dedupe_key": "risk_or_concern:20b0e3cdcd6622f7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 버젯: 그룹사 DT 혁신 예산 별도 편성 가능성 확인 상무님 전결권 내에서 PoC(개념 증명) 비용 집행 가능. 정식 도입 시 본사 IT 전략팀과 협의 필요하나, 상무님이 \"내가 총대 메겠다\"고 언급함.",
+      "normalized": {
+        "text": "2/ 버젯: 그룹사 DT 혁신 예산 별도 편성 가능성 확인 상무님 전결권 내에서 PoC(개념 증명) 비용 집행 가능. 정식 도입 시 본사 IT 전략팀과 협의 필요하나, 상무님이 \"내가 총대 메겠다\"고 언급함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2/ 버젯: 그룹사 DT 혁신 예산 별도 편성 가능성 확인 상무님 전결권 내에서 PoC(개념 증명) 비용 집행 가능. 정식 도입 시 본사 IT 전략팀과 협의 필요하나, 상무님이 \"내가 총대 메겠다\"고 언급함.",
+          "start_char": 257,
+          "end_char": 373
+        }
+      ],
+      "dedupe_key": "action_item:1061b0fe99c7c9ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3/ 타이밍: 2분기 내 글로벌 통합 대시보드 구축 희망 미국 조지아 공장 증설에 따른 북미 영업 리드 폭증으로 인해 4월 전까지는 체계 잡기를 원함.",
+      "normalized": {
+        "text": "3/ 타이밍: 2분기 내 글로벌 통합 대시보드 구축 희망 미국 조지아 공장 증설에 따른 북미 영업 리드 폭증으로 인해 4월 전까지는 체계 잡기를 원함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "3/ 타이밍: 2분기 내 글로벌 통합 대시보드 구축 희망 미국 조지아 공장 증설에 따른 북미 영업 리드 폭증으로 인해 4월 전까지는 체계 잡기를 원함.",
+          "start_char": 375,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "collaboration_need:99851d438f6b0340",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "4/ 블로커: 본사 IT 전략팀(가칭 '한화 시스템즈' 파견 인력) 대기업 특유의 보안 및 데이터 통합 이슈를 제기할 가능성 농후. \"기존 SAP와 데이터 연동 안 되면 어렵다\"는 논리로 방어할 수 있음. 최 상무님은 이를 '영업 현장의 특수성'으로 밀어붙일 계획이지만, 기술적 소명 자료가 탄탄해야 함.",
+      "normalized": {
+        "text": "4/ 블로커: 본사 IT 전략팀(가칭 '한화 시스템즈' 파견 인력) 대기업 특유의 보안 및 데이터 통합 이슈를 제기할 가능성 농후. \"기존 SAP와 데이터 연동 안 되면 어렵다\"는 논리로 방어할 수 있음. 최 상무님은 이를 '영업 현장의 특수성'으로 밀어붙일 계획이지만, 기술적 소명 자료가 탄탄해야 함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "4/ 블로커: 본사 IT 전략팀(가칭 '한화 시스템즈' 파견 인력) 대기업 특유의 보안 및 데이터 통합 이슈를 제기할 가능성 농후. \"기존 SAP와 데이터 연동 안 되면 어렵다\"는 논리로 방어할 수 있음. 최 상무님은 이를 '영업 현장의 특수성'으로 밀어붙일 계획이지만, 기술적 소명 자료가 탄탄해야 함.",
+          "start_char": 461,
+          "end_char": 631
+        }
+      ],
+      "dedupe_key": "risk_or_concern:26f82930d3c03e57",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "비즈니스캔버스의 '리캐치' 도입 사례 중 제조/에너지 분야 대기업 윈백(Win-back) 케이스를 매우 궁금해함.",
+      "normalized": {
+        "text": "비즈니스캔버스의 '리캐치' 도입 사례 중 제조/에너지 분야 대기업 윈백(Win-back) 케이스를 매우 궁금해함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "비즈니스캔버스의 '리캐치' 도입 사례 중 제조/에너지 분야 대기업 윈백(Win-back) 케이스를 매우 궁금해함.",
+          "start_char": 782,
+          "end_char": 845
+        }
+      ],
+      "dedupe_key": "collaboration_need:879c955ba919f3df",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 792,
+          "end_char": 795
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/10(화) IT 전략팀 실무자 포함된 기술 검토 미팅 어레인지.",
+      "normalized": {
+        "text": "2/10(화) IT 전략팀 실무자 포함된 기술 검토 미팅 어레인지.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "2/10(화) IT 전략팀 실무자 포함된 기술 검토 미팅 어레인지.",
+          "start_char": 930,
+          "end_char": 967
+        }
+      ],
+      "dedupe_key": "action_item:c2cc2eb42da80168",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2/10(화)",
+      "normalized": {
+        "month": 2,
+        "day": 10,
+        "kind": "month_day",
+        "weekday_ko": "화"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "2/10(화)",
+          "start_char": 930,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "timeline:073578b0d2a1b2eb",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

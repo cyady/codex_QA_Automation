@@ -1,0 +1,399 @@
+{
+  "memo_id": "M-W8",
+  "updated_at": "2026-02-24T07:45:03.150969+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1608",
+      "field_label": "Seat 수",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 1,
+      "field_id": "4987",
+      "field_label": "직원 수",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "4985",
+      "field_label": "직무",
+      "decision": "FP",
+      "note": "BD면 사업 전략에 가까운 듯"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "4986",
+      "field_label": "직책",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5364",
+      "field_label": "세일즈 팀 수",
+      "decision": "FP",
+      "note": "BD2명이 세일즈 팀 수는 아닌 것 같음"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5075",
+      "field_label": "세일즈 팀 규모",
+      "decision": "FP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5370",
+      "field_label": "고객상황",
+      "decision": "SKIP",
+      "note": ""
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 11,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "FP",
+      "note": "분량 부족으로 판단됨"
+    },
+    {
+      "item_idx": 12,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 13,
+      "field_id": "5372",
+      "field_label": "예상 마감 일자",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 14,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 15,
+      "field_id": "7983",
+      "field_label": "뷰어 시트 수 ",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+      "normalized": {
+        "text": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [
+        "Next Action"
+      ],
+      "evidence_quote": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+      "start_char": 71,
+      "end_char": 135,
+      "line_no": 5,
+      "line_text": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5362",
+          "label": "미팅 참여자",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+      "normalized": {
+        "text": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [
+        "Next Action"
+      ],
+      "evidence_quote": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+      "start_char": 207,
+      "end_char": 263,
+      "line_no": 9,
+      "line_text": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+      "normalized": {
+        "text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [
+        "Next Action"
+      ],
+      "evidence_quote": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+      "start_char": 401,
+      "end_char": 448,
+      "line_no": 12,
+      "line_text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6004",
+          "label": "소속 조직의 성격",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 15명",
+      "normalized": {
+        "value": 15,
+        "unit": "people",
+        "approx": true
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [
+        "Next Action"
+      ],
+      "evidence_quote": "약 15명",
+      "start_char": 407,
+      "end_char": 412,
+      "line_no": 12,
+      "line_text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+      "normalized": {
+        "text": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "제안한 솔루션"
+      ],
+      "evidence_quote": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+      "start_char": 546,
+      "end_char": 623,
+      "line_no": 18,
+      "line_text": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5657",
+          "label": "결제 상품 (제품)",
+          "type": "multi-select",
+          "score": 5.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+      "normalized": {
+        "text": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "제안한 솔루션"
+      ],
+      "evidence_quote": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+      "start_char": 660,
+      "end_char": 701,
+      "line_no": 21,
+      "line_text": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1606",
+          "label": "팀 슬러그",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+      "normalized": {
+        "text": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "제안한 솔루션"
+      ],
+      "evidence_quote": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+      "start_char": 1071,
+      "end_char": 1137,
+      "line_no": 33,
+      "line_text": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1606",
+          "label": "팀 슬러그",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+      "normalized": {
+        "text": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "제안한 솔루션"
+      ],
+      "evidence_quote": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+      "start_char": 1138,
+      "end_char": 1192,
+      "line_no": 34,
+      "line_text": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4835",
+          "label": "MQL-Drop 사유",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "제안한 솔루션"
+      ],
+      "evidence_quote": "SEO",
+      "start_char": 508,
+      "end_char": 511,
+      "line_no": 16,
+      "line_text": "SEO/콘텐츠 기반 인바운드 확장 및 UTM 트래킹 개선 제언",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "FN",
+      "assigned_field_id": "5173",
+      "assigned_field_label": "솔루션 니즈",
+      "note": "웹싸이트 관련 니즈, 솔루션 니즈 필드에 추천 되었어야 했을듯"
+    }
+  ]
+}

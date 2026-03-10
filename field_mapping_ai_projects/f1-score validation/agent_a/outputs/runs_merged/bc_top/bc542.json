@@ -1,0 +1,256 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W542",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 10,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "--------"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 74,
+          "end_char": 78
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "추가 파악 필요"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 1081,
+          "end_char": 1085
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 234,
+          "end_char": 237
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 확보 - 그로스"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 412,
+          "end_char": 415
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "리드 확보 - 그로스"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 705,
+          "end_char": 708
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "대표"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 764,
+          "end_char": 767
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "대표"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 817,
+          "end_char": 820
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 확보 - 그로스"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 395,
+          "end_char": 399
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "대표"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 786,
+          "end_char": 790
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "대표"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 791,
+          "end_char": 794
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스 결제 가능성은 추가 파악 필요",
+      "normalized": {
+        "text": "그로스 결제 가능성은 추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "그로스 결제 가능성은 추가 파악 필요",
+          "start_char": 917,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "action_item:4371b74974943df2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 956,
+          "end_char": 958
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 982,
+          "end_char": 984
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

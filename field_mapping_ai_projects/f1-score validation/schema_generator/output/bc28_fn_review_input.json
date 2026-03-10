@@ -1,0 +1,794 @@
+[
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0001",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@sales",
+    "normalized": {
+      "name": "sales"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@sales",
+      "start_char": 47,
+      "end_char": 53
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0003",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "구체적인 기능(UTM, 고객 여정, IP 보안 이슈)과 견적에 대해 상세히 질문하며 적극적인 검토 의사를 보임.",
+    "normalized": {
+      "text": "구체적인 기능(UTM, 고객 여정, IP 보안 이슈)과 견적에 대해 상세히 질문하며 적극적인 검토 의사를 보임.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [],
+      "exact_quote": "구체적인 기능(UTM, 고객 여정, IP 보안 이슈)과 견적에 대해 상세히 질문하며 적극적인 검토 의사를 보임.",
+      "start_char": 198,
+      "end_char": 260
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0004",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "다만, 최종 의사결정권자가 아니며, 기존 영업팀이 주도하는 파이프드라이브(PipeDrive) 체계가 있어 내부 설득 과정이 필요함.",
+    "normalized": {
+      "text": "다만, 최종 의사결정권자가 아니며, 기존 영업팀이 주도하는 파이프드라이브(PipeDrive) 체계가 있어 내부 설득 과정이 필요함.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [],
+      "exact_quote": "다만, 최종 의사결정권자가 아니며, 기존 영업팀이 주도하는 파이프드라이브(PipeDrive) 체계가 있어 내부 설득 과정이 필요함.",
+      "start_char": 266,
+      "end_char": 339
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0005",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "300만 원",
+    "normalized": {
+      "value": 3000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [],
+      "exact_quote": "300만 원",
+      "start_char": 367,
+      "end_char": 373
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0006",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "020만 원",
+    "normalized": {
+      "value": 200000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [],
+      "exact_quote": "020만 원",
+      "start_char": 415,
+      "end_char": 421
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0007",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "약 624만 원",
+    "normalized": {
+      "value": 6240000,
+      "currency": "KRW",
+      "approx": true
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [],
+      "exact_quote": "약 624만 원",
+      "start_char": 434,
+      "end_char": 442
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0008",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "400만 원",
+    "normalized": {
+      "value": 4000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [],
+      "exact_quote": "400만 원",
+      "start_char": 454,
+      "end_char": 460
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0009",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "약 900만 원",
+    "normalized": {
+      "value": 9000000,
+      "currency": "KRW",
+      "approx": true
+    },
+    "evidence": {
+      "segment_id": "S-0009",
+      "section_path": [],
+      "exact_quote": "약 900만 원",
+      "start_char": 508,
+      "end_char": 516
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0010",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "참고: 별도의 너처링/콘텐츠 컨설팅 진행 시 약 2,400만 원 추가 발생 가능하나 필수 사항은 아님.",
+    "normalized": {
+      "text": "참고: 별도의 너처링/콘텐츠 컨설팅 진행 시 약 2,400만 원 추가 발생 가능하나 필수 사항은 아님.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [],
+      "exact_quote": "참고: 별도의 너처링/콘텐츠 컨설팅 진행 시 약 2,400만 원 추가 발생 가능하나 필수 사항은 아님.",
+      "start_char": 537,
+      "end_char": 594
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5575",
+        "label": "라이센스 특이사항",
+        "type": "text",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0011",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "참석자 오예나 매니저 이메일 주소 공유.",
+    "normalized": {
+      "text": "참석자 오예나 매니저 이메일 주소 공유.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0012",
+      "section_path": [
+        "고객사 (두핸즈)"
+      ],
+      "exact_quote": "참석자 오예나 매니저 이메일 주소 공유.",
+      "start_char": 634,
+      "end_char": 656
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0012",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "자사 웹사이트의 IP 보안/차단 관련 구체적인 제약 사항 정리하여 전달.",
+    "normalized": {
+      "text": "자사 웹사이트의 IP 보안/차단 관련 구체적인 제약 사항 정리하여 전달.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0013",
+      "section_path": [
+        "고객사 (두핸즈)"
+      ],
+      "exact_quote": "자사 웹사이트의 IP 보안/차단 관련 구체적인 제약 사항 정리하여 전달.",
+      "start_char": 660,
+      "end_char": 700
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0014",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "전달받은 보안 이슈(IP 차단 등)와 관련하여 고객 여정 데이터 수집 가능 여부 기술팀 확인 후 공유.",
+    "normalized": {
+      "text": "전달받은 보안 이슈(IP 차단 등)와 관련하여 고객 여정 데이터 수집 가능 여부 기술팀 확인 후 공유.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0015",
+      "section_path": [
+        "공급사 (리캐치)"
+      ],
+      "exact_quote": "전달받은 보안 이슈(IP 차단 등)와 관련하여 고객 여정 데이터 수집 가능 여부 기술팀 확인 후 공유.",
+      "start_char": 771,
+      "end_char": 828
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0015",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "기술적 제약: 내부 보안 정책으로 인한 IP 데이터 수집 불가 가능성.",
+    "normalized": {
+      "text": "기술적 제약: 내부 보안 정책으로 인한 IP 데이터 수집 불가 가능성.",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0018",
+      "section_path": [
+        "Blocker (장벽)"
+      ],
+      "exact_quote": "기술적 제약: 내부 보안 정책으로 인한 IP 데이터 수집 불가 가능성.",
+      "start_char": 907,
+      "end_char": 946
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0016",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "비용: 현재 사용 중인 파이프드라이브(연 700만 원 수준) 대비 높은 도입 비용.",
+    "normalized": {
+      "text": "비용: 현재 사용 중인 파이프드라이브(연 700만 원 수준) 대비 높은 도입 비용.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0019",
+      "section_path": [
+        "Blocker (장벽)"
+      ],
+      "exact_quote": "비용: 현재 사용 중인 파이프드라이브(연 700만 원 수준) 대비 높은 도입 비용.",
+      "start_char": 950,
+      "end_char": 996
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5378",
+        "label": "[T] 타임라인",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0017",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "700만 원",
+    "normalized": {
+      "value": 7000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0019",
+      "section_path": [
+        "Blocker (장벽)"
+      ],
+      "exact_quote": "700만 원",
+      "start_char": 973,
+      "end_char": 979
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0018",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "원다솜 총괄 등 상위 임원진 (이전 미팅 이력 존재)이 또 의사결정에 영향을 주는 지는 파악 필요",
+    "normalized": {
+      "text": "원다솜 총괄 등 상위 임원진 (이전 미팅 이력 존재)이 또 의사결정에 영향을 주는 지는 파악 필요",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0023",
+      "section_path": [
+        "Leader (의사결정권자)"
+      ],
+      "exact_quote": "원다솜 총괄 등 상위 임원진 (이전 미팅 이력 존재)이 또 의사결정에 영향을 주는 지는 파악 필요",
+      "start_char": 1190,
+      "end_char": 1244
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0019",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "김준성 매니저 (마케팅 성과 개선 및 너처링 필요성을 느끼고 문의함).",
+    "normalized": {
+      "text": "김준성 매니저 (마케팅 성과 개선 및 너처링 필요성을 느끼고 문의함).",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0024",
+      "section_path": [
+        "Driver (추진자)"
+      ],
+      "exact_quote": "김준성 매니저 (마케팅 성과 개선 및 너처링 필요성을 느끼고 문의함).",
+      "start_char": 1267,
+      "end_char": 1306
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0020",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "구체적인 예산이 확정된 상태는 아니며 정보를 알아보는 단계임.",
+    "normalized": {
+      "text": "구체적인 예산이 확정된 상태는 아니며 정보를 알아보는 단계임.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0026",
+      "section_path": [
+        "Budget (예산)"
+      ],
+      "exact_quote": "구체적인 예산이 확정된 상태는 아니며 정보를 알아보는 단계임.",
+      "start_char": 1351,
+      "end_char": 1385
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0021",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "기존 툴보다 높은 비용(1,000만 원 이상)에 대한 내부 설득(임원 보고)이 필요함.",
+    "normalized": {
+      "text": "기존 툴보다 높은 비용(1,000만 원 이상)에 대한 내부 설득(임원 보고)이 필요함.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0027",
+      "section_path": [
+        "Budget (예산)"
+      ],
+      "exact_quote": "기존 툴보다 높은 비용(1,000만 원 이상)에 대한 내부 설득(임원 보고)이 필요함.",
+      "start_char": 1389,
+      "end_char": 1437
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0022",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "고은진 이사 및 상위 임원진의 결재가 필요함.",
+    "normalized": {
+      "text": "고은진 이사 및 상위 임원진의 결재가 필요함.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0029",
+      "section_path": [
+        "Authority (권한)"
+      ],
+      "exact_quote": "고은진 이사 및 상위 임원진의 결재가 필요함.",
+      "start_char": 1505,
+      "end_char": 1530
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0023",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+    "normalized": {
+      "text": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0030",
+      "section_path": [
+        "Need (필요성)"
+      ],
+      "exact_quote": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+      "start_char": 1551,
+      "end_char": 1606
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 4.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0024",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+    "normalized": {
+      "text": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0030",
+      "section_path": [
+        "Need (필요성)"
+      ],
+      "exact_quote": "높음. 메타 광고 등을 통해 리드는 확보했으나 영업 기회(물동량)로 전환되지 않는 문제 해결 시급.",
+      "start_char": 1551,
+      "end_char": 1606
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 4.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0025",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "메타",
+    "normalized": {
+      "keyword": "메타"
+    },
+    "evidence": {
+      "segment_id": "S-0030",
+      "section_path": [
+        "Need (필요성)"
+      ],
+      "exact_quote": "메타",
+      "start_char": 1555,
+      "end_char": 1557
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0026",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+    "normalized": {
+      "text": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+      "label_hint": "need_item"
+    },
+    "evidence": {
+      "segment_id": "S-0031",
+      "section_path": [
+        "Need (필요성)"
+      ],
+      "exact_quote": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+      "start_char": 1610,
+      "end_char": 1674
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0027",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+    "normalized": {
+      "text": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0031",
+      "section_path": [
+        "Need (필요성)"
+      ],
+      "exact_quote": "스프레드시트 수작업 관리의 한계를 느끼고 있으며, 마케팅 성과를 증명할 대시보드와 고객 여정 데이터 파악이 필요함.",
+      "start_char": 1610,
+      "end_char": 1674
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W28",
+    "candidate_id": "C-0028",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "현재 탐색 단계이며, 3월 중순 이후 오프라인 미팅을 통해 의사결정권자를 설득한 후 도입 여부가 결정될 것으로 보임.",
+    "normalized": {
+      "text": "현재 탐색 단계이며, 3월 중순 이후 오프라인 미팅을 통해 의사결정권자를 설득한 후 도입 여부가 결정될 것으로 보임.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0032",
+      "section_path": [
+        "Timing (시기)"
+      ],
+      "exact_quote": "현재 탐색 단계이며, 3월 중순 이후 오프라인 미팅을 통해 의사결정권자를 설득한 후 도입 여부가 결정될 것으로 보임.",
+      "start_char": 1696,
+      "end_char": 1761
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "6238",
+        "label": "월별 키어카운트",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

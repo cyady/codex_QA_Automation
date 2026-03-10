@@ -1,0 +1,436 @@
+[
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0002",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+    "normalized": {
+      "text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "start_char": 205,
+      "end_char": 239
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5075",
+        "label": "세일즈 팀 규모",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0003",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+    "normalized": {
+      "text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "start_char": 269,
+      "end_char": 306
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "6118",
+        "label": "도입 의사",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0004",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+    "normalized": {
+      "text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "start_char": 392,
+      "end_char": 433
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0005",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "상황 및 문제점",
+    "normalized": {
+      "text": "상황 및 문제점",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "상황 및 문제점",
+      "start_char": 540,
+      "end_char": 548
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0006",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "인턴이 기고객에 오발송하는 사례 발생",
+    "normalized": {
+      "text": "인턴이 기고객에 오발송하는 사례 발생",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "인턴이 기고객에 오발송하는 사례 발생",
+      "start_char": 631,
+      "end_char": 651
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0007",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+    "normalized": {
+      "text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "start_char": 688,
+      "end_char": 736
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0008",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "히트맵 적용 불가 등 분석 불가 문제",
+    "normalized": {
+      "text": "히트맵 적용 불가 등 분석 불가 문제",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "히트맵 적용 불가 등 분석 불가 문제",
+      "start_char": 769,
+      "end_char": 789
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5370",
+        "label": "고객상황",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0009",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+    "normalized": {
+      "text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "start_char": 835,
+      "end_char": 867
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0010",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+    "normalized": {
+      "text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "start_char": 941,
+      "end_char": 968
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0011",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+    "normalized": {
+      "text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "start_char": 969,
+      "end_char": 999
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0012",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@sales",
+    "normalized": {
+      "name": "sales"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@sales",
+      "start_char": 31,
+      "end_char": 37
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0013",
+    "semantic_type": "lead_volume",
+    "value_type": "number",
+    "raw_text": "47건",
+    "normalized": {
+      "value": 47,
+      "unit": "cases",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "47건",
+      "start_char": 830,
+      "end_char": 833
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0014",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "CTA",
+    "normalized": {
+      "keyword": "CTA"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "CTA",
+      "start_char": 440,
+      "end_char": 443
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0015",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "리캐치",
+      "start_char": 269,
+      "end_char": 272
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W12",
+    "candidate_id": "C-0016",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "05.45",
+    "normalized": {
+      "year": 2005,
+      "month": 45,
+      "kind": "short_year_month"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "05.45",
+      "start_char": 1097,
+      "end_char": 1102
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

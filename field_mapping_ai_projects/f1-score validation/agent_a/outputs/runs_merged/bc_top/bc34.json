@@ -1,0 +1,1124 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W34",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김은수",
+      "normalized": {
+        "name": "김은수"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김은수",
+          "start_char": 43,
+          "end_char": 47
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:e22aad20f69fa965",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 26,
+          "end_char": 31
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 95,
+          "end_char": 100
+        },
+        {
+          "segment_id": "S-0048",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 3320,
+          "end_char": 3326
+        },
+        {
+          "segment_id": "S-0049",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 3366,
+          "end_char": 3372
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Budget 2,500만원(부가세 별도) 확정",
+      "normalized": {
+        "text": "Budget 2,500만원(부가세 별도) 확정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "Budget 2,500만원(부가세 별도) 확정",
+          "start_char": 86,
+          "end_char": 111
+        }
+      ],
+      "dedupe_key": "action_item:039551f34bc42023",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 154,
+          "end_char": 159
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "150만원",
+      "normalized": {
+        "value": 1500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "150만원",
+          "start_char": 173,
+          "end_char": 178
+        }
+      ],
+      "dedupe_key": "budget:fbb37118488d3e29",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 187,
+          "end_char": 192
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "100만원",
+          "start_char": 199,
+          "end_char": 204
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "오늘 고감도 대표님이 공유해주신 자료 확인해보시고 9페이지 이내에 크게 무리없이 제작 가능한지 판단 부탁드립니다. cc @김가은(Bona)",
+      "normalized": {
+        "text": "오늘 고감도 대표님이 공유해주신 자료 확인해보시고 9페이지 이내에 크게 무리없이 제작 가능한지 판단 부탁드립니다. cc @김가은(Bona)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "@김은수(Eunsoo) 님"
+          ],
+          "exact_quote": "오늘 고감도 대표님이 공유해주신 자료 확인해보시고 9페이지 이내에 크게 무리없이 제작 가능한지 판단 부탁드립니다. cc @김가은(Bona)",
+          "start_char": 256,
+          "end_char": 333
+        }
+      ],
+      "dedupe_key": "collaboration_need:27eaf0e8d1086ee2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "@김은수(Eunsoo) 님"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 323,
+          "end_char": 327
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "견적서 및 계약서 초안 제작하여 대표님께 전송 & 계약 다음주 초 중으로 완료하고 바로 킥오프 미팅 수립.",
+      "normalized": {
+        "text": "견적서 및 계약서 초안 제작하여 대표님께 전송 & 계약 다음주 초 중으로 완료하고 바로 킥오프 미팅 수립.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "@김한규(Lucky)"
+          ],
+          "exact_quote": "견적서 및 계약서 초안 제작하여 대표님께 전송 & 계약 다음주 초 중으로 완료하고 바로 킥오프 미팅 수립.",
+          "start_char": 354,
+          "end_char": 413
+        }
+      ],
+      "dedupe_key": "action_item:fb21c5d3fe429df1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@ops",
+      "normalized": {
+        "name": "ops"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "@김한규(Lucky)"
+          ],
+          "exact_quote": "@ops",
+          "start_char": 481,
+          "end_char": 485
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6b9c7db4277b25f5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "250만원",
+      "normalized": {
+        "value": 2500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "@김한규(Lucky)"
+          ],
+          "exact_quote": "250만원",
+          "start_char": 448,
+          "end_char": 453
+        }
+      ],
+      "dedupe_key": "budget:9b2e712e57b4b9e8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제공해주신 자료를 바탕으로 미팅의 주요 내용을 다음과 같이 정리했습니다. 이번 미팅은 블루핀(Bluepin) 웹사이트 개편 사례 검토 및 고감도 웹사이트 리뉴얼 프로젝트 논의가 핵심이었습니다.1. 블루핀 웹사이트 개편 사례 검토 (발표: 참석자 1=은수님, 김한규)",
+      "normalized": {
+        "text": "제공해주신 자료를 바탕으로 미팅의 주요 내용을 다음과 같이 정리했습니다. 이번 미팅은 블루핀(Bluepin) 웹사이트 개편 사례 검토 및 고감도 웹사이트 리뉴얼 프로젝트 논의가 핵심이었습니다.1. 블루핀 웹사이트 개편 사례 검토 (발표: 참석자 1=은수님, 김한규)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "제공해주신 자료를 바탕으로 미팅의 주요 내용을 다음과 같이 정리했습니다. 이번 미팅은 블루핀(Bluepin) 웹사이트 개편 사례 검토 및 고감도 웹사이트 리뉴얼 프로젝트 논의가 핵심이었습니다.1. 블루핀 웹사이트 개편 사례 검토 (발표: 참석자 1=은수님, 김한규)",
+          "start_char": 568,
+          "end_char": 716
+        }
+      ],
+      "dedupe_key": "action_item:d7299d1a989c05e6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참석자 1은 자신이 담당했던 블루핀 웹사이트 리뉴얼 과정을 공유하며 시행착오와 프로젝트 진행 방식을 설명했습니다.",
+      "normalized": {
+        "text": "참석자 1은 자신이 담당했던 블루핀 웹사이트 리뉴얼 과정을 공유하며 시행착오와 프로젝트 진행 방식을 설명했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "참석자 1은 자신이 담당했던 블루핀 웹사이트 리뉴얼 과정을 공유하며 시행착오와 프로젝트 진행 방식을 설명했습니다.",
+          "start_char": 717,
+          "end_char": 780
+        }
+      ],
+      "dedupe_key": "action_item:6a4d1d5d6eb29f64",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1.1. 블루핀 회사 개요 및 기존 웹사이트 문제점 (As-Is)",
+      "normalized": {
+        "text": "1.1. 블루핀 회사 개요 및 기존 웹사이트 문제점 (As-Is)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "1.1. 블루핀 회사 개요 및 기존 웹사이트 문제점 (As-Is)",
+          "start_char": 781,
+          "end_char": 817
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bc4ff734c393c1da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 웹사이트 문제점:브랜드 가치 인식이 어려움.",
+      "normalized": {
+        "text": "기존 웹사이트 문제점:브랜드 가치 인식이 어려움.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "기존 웹사이트 문제점:브랜드 가치 인식이 어려움.",
+          "start_char": 892,
+          "end_char": 919
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b7652f1d72c9444a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 952,
+          "end_char": 955
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 1149,
+          "end_char": 1152
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 1208,
+          "end_char": 1211
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 1251,
+          "end_char": 1254
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "회사 소개 내용이 부족하여 기업 가치, 진행 프로젝트, 생각 등이 설명되지 않음.",
+      "normalized": {
+        "text": "회사 소개 내용이 부족하여 기업 가치, 진행 프로젝트, 생각 등이 설명되지 않음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "회사 소개 내용이 부족하여 기업 가치, 진행 프로젝트, 생각 등이 설명되지 않음.",
+          "start_char": 1021,
+          "end_char": 1066
+        }
+      ],
+      "dedupe_key": "action_item:3e5d0fb49c397aff",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "줌",
+          "start_char": 1143,
+          "end_char": 1144
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1176,
+          "end_char": 1179
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2676,
+          "end_char": 2679
+        },
+        {
+          "segment_id": "S-0047",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3245,
+          "end_char": 3248
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "프로젝트 전후 사진 (Before/After)을 같은 구도로 비교하는 섹션 도입.",
+      "normalized": {
+        "text": "프로젝트 전후 사진 (Before/After)을 같은 구도로 비교하는 섹션 도입.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "프로젝트 전후 사진 (Before/After)을 같은 구도로 비교하는 섹션 도입.",
+          "start_char": 1438,
+          "end_char": 1483
+        }
+      ],
+      "dedupe_key": "collaboration_need:8500fcd72f1971fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1557,
+          "end_char": 1560
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1563,
+          "end_char": 1566
+        },
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2915,
+          "end_char": 2918
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2933,
+          "end_char": 2936
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2946,
+          "end_char": 2949
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2957,
+          "end_char": 2960
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2963,
+          "end_char": 2966
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2995,
+          "end_char": 2998
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3023,
+          "end_char": 3026
+        },
+        {
+          "segment_id": "S-0052",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3556,
+          "end_char": 3559
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제작 과정: 피그마를 이용해 디자인 초안을 잡고 피드백을 받은 후, 프레이머로 이관하여 애니메이션 적용 및 웹사이트 배포 (도메인 연결)를 진행.",
+      "normalized": {
+        "text": "제작 과정: 피그마를 이용해 디자인 초안을 잡고 피드백을 받은 후, 프레이머로 이관하여 애니메이션 적용 및 웹사이트 배포 (도메인 연결)를 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "제작 과정: 피그마를 이용해 디자인 초안을 잡고 피드백을 받은 후, 프레이머로 이관하여 애니메이션 적용 및 웹사이트 배포 (도메인 연결)를 진행.",
+          "start_char": 1614,
+          "end_char": 1695
+        }
+      ],
+      "dedupe_key": "action_item:924101f3917b02dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "SEO 작업: 프레이머 이관 과정에서 SEO 작업(h 태그, 대체 테스트, 핵심 키워드 반복)을 진행하여 검색 노출에 유리하도록 설계.",
+      "normalized": {
+        "text": "SEO 작업: 프레이머 이관 과정에서 SEO 작업(h 태그, 대체 테스트, 핵심 키워드 반복)을 진행하여 검색 노출에 유리하도록 설계.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO 작업: 프레이머 이관 과정에서 SEO 작업(h 태그, 대체 테스트, 핵심 키워드 반복)을 진행하여 검색 노출에 유리하도록 설계.",
+          "start_char": 1699,
+          "end_char": 1774
+        }
+      ],
+      "dedupe_key": "action_item:492473247e4bcc9a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1699,
+          "end_char": 1702
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1720,
+          "end_char": 1723
+        },
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2921,
+          "end_char": 2924
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 3056,
+          "end_char": 3059
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 3090,
+          "end_char": 3093
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "2주",
+          "start_char": 1790,
+          "end_char": 1792
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이미지 선정의 중요성: 인테리어 업계의 특성상 이미지가 매우 중요한데, 초반에는 담당자들이 인테리어 지식이 부족하여 이미지를 잘못 선정하는 시행착오가 있었음. 결국 블루핀 매니저가 직접 이미지를 선정하여 수정 진행.",
+      "normalized": {
+        "text": "이미지 선정의 중요성: 인테리어 업계의 특성상 이미지가 매우 중요한데, 초반에는 담당자들이 인테리어 지식이 부족하여 이미지를 잘못 선정하는 시행착오가 있었음. 결국 블루핀 매니저가 직접 이미지를 선정하여 수정 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "이미지 선정의 중요성: 인테리어 업계의 특성상 이미지가 매우 중요한데, 초반에는 담당자들이 인테리어 지식이 부족하여 이미지를 잘못 선정하는 시행착오가 있었음. 결국 블루핀 매니저가 직접 이미지를 선정하여 수정 진행.",
+          "start_char": 1853,
+          "end_char": 1973
+        }
+      ],
+      "dedupe_key": "action_item:2f575accb1a3a18c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업의 중요성: 카운터 파트 담당자와의 깊이 있는 소통이 웹사이트 퀄리티를 좌우함. 림빅 프레임워크를 기반으로 고객 페르소나와 성향(성과형, 혁신형 등)에 맞춰 문구를 기획.",
+      "normalized": {
+        "text": "협업의 중요성: 카운터 파트 담당자와의 깊이 있는 소통이 웹사이트 퀄리티를 좌우함. 림빅 프레임워크를 기반으로 고객 페르소나와 성향(성과형, 혁신형 등)에 맞춰 문구를 기획.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "협업의 중요성: 카운터 파트 담당자와의 깊이 있는 소통이 웹사이트 퀄리티를 좌우함. 림빅 프레임워크를 기반으로 고객 페르소나와 성향(성과형, 혁신형 등)에 맞춰 문구를 기획.",
+          "start_char": 1977,
+          "end_char": 2074
+        }
+      ],
+      "dedupe_key": "collaboration_need:a05c01ab993ba5a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참석자 3은 고감도의 리뉴얼 계획과 목표, 강점 등을 공유하며 프로젝트 진행 방향에 대해 논의했습니다.",
+      "normalized": {
+        "text": "참석자 3은 고감도의 리뉴얼 계획과 목표, 강점 등을 공유하며 프로젝트 진행 방향에 대해 논의했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "참석자 3은 고감도의 리뉴얼 계획과 목표, 강점 등을 공유하며 프로젝트 진행 방향에 대해 논의했습니다.",
+          "start_char": 2100,
+          "end_char": 2157
+        }
+      ],
+      "dedupe_key": "action_item:2d921641a26d9d15",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 기록: 공사 진행 과정을 담은 타임랩스 동영상을 프로젝트 페이지에 넣을 계획.",
+      "normalized": {
+        "text": "프로젝트 기록: 공사 진행 과정을 담은 타임랩스 동영상을 프로젝트 페이지에 넣을 계획.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "프로젝트 기록: 공사 진행 과정을 담은 타임랩스 동영상을 프로젝트 페이지에 넣을 계획.",
+          "start_char": 2801,
+          "end_char": 2849
+        }
+      ],
+      "dedupe_key": "action_item:7ab75510ea8ac362",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "블로그 이원화: 네이버 블로그와 자체 구축 블로그 (인블로그/워드프레스)를 병행 운영하는 방식을 추천. 네이버 블로그는 페르소나가 다르기 때문에 필요하며, 자체 블로그는 도메인 점수를 높여 웹사이트 노출에 기여함.",
+      "normalized": {
+        "text": "블로그 이원화: 네이버 블로그와 자체 구축 블로그 (인블로그/워드프레스)를 병행 운영하는 방식을 추천. 네이버 블로그는 페르소나가 다르기 때문에 필요하며, 자체 블로그는 도메인 점수를 높여 웹사이트 노출에 기여함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "블로그 이원화: 네이버 블로그와 자체 구축 블로그 (인블로그/워드프레스)를 병행 운영하는 방식을 추천. 네이버 블로그는 페르소나가 다르기 때문에 필요하며, 자체 블로그는 도메인 점수를 높여 웹사이트 노출에 기여함.",
+          "start_char": 2933,
+          "end_char": 3052
+        }
+      ],
+      "dedupe_key": "action_item:06461833ee76b779",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "키워드 광고: 고감도 관련 키워드 금액대가 낮아, 웹사이트 개편 직후 CPC 검색 광고를 적극적으로 진행하는 것을 추천.",
+      "normalized": {
+        "text": "키워드 광고: 고감도 관련 키워드 금액대가 낮아, 웹사이트 개편 직후 CPC 검색 광고를 적극적으로 진행하는 것을 추천.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0045",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "키워드 광고: 고감도 관련 키워드 금액대가 낮아, 웹사이트 개편 직후 CPC 검색 광고를 적극적으로 진행하는 것을 추천.",
+          "start_char": 3115,
+          "end_char": 3182
+        }
+      ],
+      "dedupe_key": "action_item:ff3f879505b91d97",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2.4. 프로젝트 진행 범위 및 예산 논의",
+      "normalized": {
+        "text": "2.4. 프로젝트 진행 범위 및 예산 논의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0046",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "2.4. 프로젝트 진행 범위 및 예산 논의",
+          "start_char": 3184,
+          "end_char": 3207
+        }
+      ],
+      "dedupe_key": "action_item:ea69d4ca283b5126",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "진행 방식: 고감도 측에서 리서치한 자료(초안)를 전문가(리캐치 팀)가 검토하여 방향성을 설정하고 교통정리를 해주는 방식으로 협업 요청.",
+      "normalized": {
+        "text": "진행 방식: 고감도 측에서 리서치한 자료(초안)를 전문가(리캐치 팀)가 검토하여 방향성을 설정하고 교통정리를 해주는 방식으로 협업 요청.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0047",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "진행 방식: 고감도 측에서 리서치한 자료(초안)를 전문가(리캐치 팀)가 검토하여 방향성을 설정하고 교통정리를 해주는 방식으로 협업 요청.",
+          "start_char": 3213,
+          "end_char": 3289
+        }
+      ],
+      "dedupe_key": "action_item:d1c9f2c6a6adad22",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "참석자 2는 최대 9페이지까지 기존 예산인 2,500만 원 (VAT 별도)으로 진행할 것을 제안하며, 향후 레퍼럴(소개) 마케팅을 기대함.",
+      "normalized": {
+        "text": "참석자 2는 최대 9페이지까지 기존 예산인 2,500만 원 (VAT 별도)으로 진행할 것을 제안하며, 향후 레퍼럴(소개) 마케팅을 기대함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0049",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "참석자 2는 최대 9페이지까지 기존 예산인 2,500만 원 (VAT 별도)으로 진행할 것을 제안하며, 향후 레퍼럴(소개) 마케팅을 기대함.",
+          "start_char": 3340,
+          "end_char": 3417
+        }
+      ],
+      "dedupe_key": "action_item:97a93e22591a920a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "일정: 내년 1월 전 오픈을 희망하지만, 품질을 위해 늦어도 2월 초까지 오픈하는 것을 목표로 함 (시간에 쫓기지 않는 것을 선호).",
+      "normalized": {
+        "text": "일정: 내년 1월 전 오픈을 희망하지만, 품질을 위해 늦어도 2월 초까지 오픈하는 것을 목표로 함 (시간에 쫓기지 않는 것을 선호).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0051",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "일정: 내년 1월 전 오픈을 희망하지만, 품질을 위해 늦어도 2월 초까지 오픈하는 것을 목표로 함 (시간에 쫓기지 않는 것을 선호).",
+          "start_char": 3469,
+          "end_char": 3543
+        }
+      ],
+      "dedupe_key": "collaboration_need:74b935d5836d7ffc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 초까지",
+      "normalized": {
+        "month": 2,
+        "part": "early",
+        "until": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0051",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "2월 초까지",
+          "start_char": 3503,
+          "end_char": 3509
+        }
+      ],
+      "dedupe_key": "timeline:452c9f67afa31339",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0052",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 3577,
+          "end_char": 3583
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0039",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "23.29",
+      "normalized": {
+        "year": 2023,
+        "month": 29,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0053",
+          "section_path": [
+            "미팅 세부 내용 정리"
+          ],
+          "exact_quote": "23.29",
+          "start_char": 3717,
+          "end_char": 3722
+        }
+      ],
+      "dedupe_key": "timeline:ee58acca3f3dfd54",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

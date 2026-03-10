@@ -1,0 +1,331 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W329",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "주요 배경"
+          ],
+          "exact_quote": "줌",
+          "start_char": 194,
+          "end_char": 195
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "트래픽: 땅집고(MAU 200만) + 조선닷컴(2,000만) 연계 기사 송출 가능.",
+      "normalized": {
+        "text": "트래픽: 땅집고(MAU 200만) + 조선닷컴(2,000만) 연계 기사 송출 가능.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "핵심 경쟁 우위"
+          ],
+          "exact_quote": "트래픽: 땅집고(MAU 200만) + 조선닷컴(2,000만) 연계 기사 송출 가능.",
+          "start_char": 373,
+          "end_char": 419
+        }
+      ],
+      "dedupe_key": "collaboration_need:27298470a9d3857e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "핵심 경쟁 우위"
+          ],
+          "exact_quote": "000개",
+          "start_char": 526,
+          "end_char": 530
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "뉴스레터 마케팅 (1순위)"
+          ],
+          "exact_quote": "000개",
+          "start_char": 861,
+          "end_char": 865
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "인력 부족: 내부 세일즈 팀 부재로 외부 에이전시나 인플루언서와의 수익 셰어(Profit Share) 모델 희망",
+      "normalized": {
+        "text": "인력 부족: 내부 세일즈 팀 부재로 외부 에이전시나 인플루언서와의 수익 셰어(Profit Share) 모델 희망",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "핵심 경쟁 우위"
+          ],
+          "exact_quote": "인력 부족: 내부 세일즈 팀 부재로 외부 에이전시나 인플루언서와의 수익 셰어(Profit Share) 모델 희망",
+          "start_char": 686,
+          "end_char": 748
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8fa24259104ad878",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "핵심 경쟁 우위"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 752,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사장된 8,000개 DB 대상 뉴스레터 발송 (스티비, 메일침프 등 활용)",
+      "normalized": {
+        "text": "사장된 8,000개 DB 대상 뉴스레터 발송 (스티비, 메일침프 등 활용)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "뉴스레터 마케팅 (1순위)"
+          ],
+          "exact_quote": "사장된 8,000개 DB 대상 뉴스레터 발송 (스티비, 메일침프 등 활용)",
+          "start_char": 855,
+          "end_char": 896
+        }
+      ],
+      "dedupe_key": "action_item:83f26ae3ed5df958",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "뉴스레터 마케팅 (1순위)"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 872,
+          "end_char": 876
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전략: 고품질 리포트 등 후킹 콘텐츠를 제작하여 리드 수집 및 미팅 연계",
+      "normalized": {
+        "text": "전략: 고품질 리포트 등 후킹 콘텐츠를 제작하여 리드 수집 및 미팅 연계",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "전략: 고품질 리포트 등 후킹 콘텐츠를 제작하여 리드 수집 및 미팅 연계",
+          "start_char": 1332,
+          "end_char": 1372
+        }
+      ],
+      "dedupe_key": "collaboration_need:1c4c0b58ad9b7820",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정부 지원 활용: 클라우드 바우처 등을 통해 컨설팅 및 서비스 도입 검토",
+      "normalized": {
+        "text": "정부 지원 활용: 클라우드 바우처 등을 통해 컨설팅 및 서비스 도입 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "정부 지원 활용: 클라우드 바우처 등을 통해 컨설팅 및 서비스 도입 검토",
+          "start_char": 1505,
+          "end_char": 1545
+        }
+      ],
+      "dedupe_key": "action_item:9d9bb9c39c2f3c69",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "파트너십 논의: 리캐치 측 내부에서 수익 셰어 모델 가능성 논의 (가능성은 낮으나 검토 예정)",
+      "normalized": {
+        "text": "파트너십 논의: 리캐치 측 내부에서 수익 셰어 모델 가능성 논의 (가능성은 낮으나 검토 예정)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "파트너십 논의: 리캐치 측 내부에서 수익 셰어 모델 가능성 논의 (가능성은 낮으나 검토 예정)",
+          "start_char": 1585,
+          "end_char": 1637
+        }
+      ],
+      "dedupe_key": "action_item:e6ea9f256d37af70",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1594,
+          "end_char": 1597
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영업 대행 해주고 성사된 건에 대해서 수익쉐어-> 검토해본다고는 했으나 불가할 것",
+      "normalized": {
+        "text": "영업 대행 해주고 성사된 건에 대해서 수익쉐어-> 검토해본다고는 했으나 불가할 것",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "영업 대행 해주고 성사된 건에 대해서 수익쉐어-> 검토해본다고는 했으나 불가할 것",
+          "start_char": 1643,
+          "end_char": 1688
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b1c9094be8948c1e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표이사 의지: 조선일보 위임 방식에서 탈피, 자체적인 액션 플랜 수립 및 세일즈 실행 착수",
+      "normalized": {
+        "text": "대표이사 의지: 조선일보 위임 방식에서 탈피, 자체적인 액션 플랜 수립 및 세일즈 실행 착수",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "ABM (Account Based Marketing)"
+          ],
+          "exact_quote": "대표이사 의지: 조선일보 위임 방식에서 탈피, 자체적인 액션 플랜 수립 및 세일즈 실행 착수",
+          "start_char": 1692,
+          "end_char": 1743
+        }
+      ],
+      "dedupe_key": "action_item:4e6162250bef4e46",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

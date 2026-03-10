@@ -1,0 +1,162 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W351",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 28,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5천만원",
+          "start_char": 4,
+          "end_char": 8
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "지금 웹사이트에 대한 불만: 있어빌리티 하지 않다(조금 짜친다), 정보 전달이 미흡하다",
+      "normalized": {
+        "text": "지금 웹사이트에 대한 불만: 있어빌리티 하지 않다(조금 짜친다), 정보 전달이 미흡하다",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "지금 웹사이트에 대한 불만: 있어빌리티 하지 않다(조금 짜친다), 정보 전달이 미흡하다",
+          "start_char": 97,
+          "end_char": 145
+        }
+      ],
+      "dedupe_key": "collaboration_need:e670ce6d04650217",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "지금 웹사이트는 webflow로 구축함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 439,
+          "end_char": 442
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "지금 웹사이트는 webflow로 구축함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 491,
+          "end_char": 494
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제작까진 희망 안 하시냐? -> 너무 비쌀 것 같아서.. 얼마냐? -> 프로젝트 범위에 따라 다르겠지만 약 3천만원 이상이다 -> 확실히 비싸네요",
+      "normalized": {
+        "text": "제작까진 희망 안 하시냐? -> 너무 비쌀 것 같아서.. 얼마냐? -> 프로젝트 범위에 따라 다르겠지만 약 3천만원 이상이다 -> 확실히 비싸네요",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "제작까진 희망 안 하시냐? -> 너무 비쌀 것 같아서.. 얼마냐? -> 프로젝트 범위에 따라 다르겠지만 약 3천만원 이상이다 -> 확실히 비싸네요",
+          "start_char": 599,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "collaboration_need:fca5d1a17ba334f0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 3천만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "약 3천만원",
+          "start_char": 657,
+          "end_char": 663
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

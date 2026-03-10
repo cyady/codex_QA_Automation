@@ -1,0 +1,320 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W331",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Tier3 티오더 김신CBO_251222미팅 핵심 결과 공유",
+      "normalized": {
+        "text": "Tier3 티오더 김신CBO_251222미팅 핵심 결과 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier3 티오더 김신CBO_251222미팅 핵심 결과 공유",
+          "start_char": 0,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "collaboration_need:ceaa38f791aa56e7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "구체적 문제 파악 완료. 세일즈포스를 헤비하게 도입하여 연 7,000만원 수준(구축비 별도)로 활용중에 있으며, 너무 헤비한 나머지 잘 쓰고 있지 못하고 있음. 이사님도 세일즈포스 담당자들에게 계속 클레임 걸고 있으나 모르쇠하는 느낌.",
+      "normalized": {
+        "text": "구체적 문제 파악 완료. 세일즈포스를 헤비하게 도입하여 연 7,000만원 수준(구축비 별도)로 활용중에 있으며, 너무 헤비한 나머지 잘 쓰고 있지 못하고 있음. 이사님도 세일즈포스 담당자들에게 계속 클레임 걸고 있으나 모르쇠하는 느낌.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "구체적 문제 파악 완료. 세일즈포스를 헤비하게 도입하여 연 7,000만원 수준(구축비 별도)로 활용중에 있으며, 너무 헤비한 나머지 잘 쓰고 있지 못하고 있음. 이사님도 세일즈포스 담당자들에게 계속 클레임 걸고 있으나 모르쇠하는 느낌.",
+          "start_char": 48,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1ef54c6eb46b0885",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 83,
+          "end_char": 88
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자체 어드민과의 추가 연동도 필요함. 별도 구축 논의 필요",
+      "normalized": {
+        "text": "자체 어드민과의 추가 연동도 필요함. 별도 구축 논의 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "자체 어드민과의 추가 연동도 필요함. 별도 구축 논의 필요",
+          "start_char": 181,
+          "end_char": 213
+        }
+      ],
+      "dedupe_key": "action_item:ea490afa01152994",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 개발자 30명 붙여서 B2B CRM을 개발 1년 넘게 했을 정도로, 직접 CRM 만드는 데 진심이었음. 지금도 그 꿈을 꺾진 않았으나 여러모로 만드는 게 어려워 세일즈포스를 도입해서 쓰고 있음",
+      "normalized": {
+        "text": "내부 개발자 30명 붙여서 B2B CRM을 개발 1년 넘게 했을 정도로, 직접 CRM 만드는 데 진심이었음. 지금도 그 꿈을 꺾진 않았으나 여러모로 만드는 게 어려워 세일즈포스를 도입해서 쓰고 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "내부 개발자 30명 붙여서 B2B CRM을 개발 1년 넘게 했을 정도로, 직접 CRM 만드는 데 진심이었음. 지금도 그 꿈을 꺾진 않았으나 여러모로 만드는 게 어려워 세일즈포스를 도입해서 쓰고 있음",
+          "start_char": 307,
+          "end_char": 417
+        }
+      ],
+      "dedupe_key": "collaboration_need:ad63d3837611df5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "30명",
+      "normalized": {
+        "value": 30,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "30명",
+          "start_char": 314,
+          "end_char": 317
+        }
+      ],
+      "dedupe_key": "people_count:bc81a7966f4ba1a4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 680,
+          "end_char": 686
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 1026,
+          "end_char": 1030
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 1037,
+          "end_char": 1041
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1-2월 중 @김우진(Woojin Andy Kim) 님과 오프라인 미팅 주선.(리더 후보로서 검토, 세일즈포스 윈백을 위한 밑밥, 제품 데모 등 다양한 목적으로 어레인지)",
+      "normalized": {
+        "text": "1-2월 중 @김우진(Woojin Andy Kim) 님과 오프라인 미팅 주선.(리더 후보로서 검토, 세일즈포스 윈백을 위한 밑밥, 제품 데모 등 다양한 목적으로 어레인지)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "1-2월 중 @김우진(Woojin Andy Kim) 님과 오프라인 미팅 주선.(리더 후보로서 검토, 세일즈포스 윈백을 위한 밑밥, 제품 데모 등 다양한 목적으로 어레인지)",
+          "start_char": 1068,
+          "end_char": 1163
+        }
+      ],
+      "dedupe_key": "action_item:3a4c1132310b5b8d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 1075,
+          "end_char": 1079
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이후 제품팀과 함께 미팅 어레인지. 내부 어드민과의 연동 가능성 파악 및 견적 산출 필요.",
+      "normalized": {
+        "text": "이후 제품팀과 함께 미팅 어레인지. 내부 어드민과의 연동 가능성 파악 및 견적 산출 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "이후 제품팀과 함께 미팅 어레인지. 내부 어드민과의 연동 가능성 파악 및 견적 산출 필요.",
+          "start_char": 1165,
+          "end_char": 1215
+        }
+      ],
+      "dedupe_key": "action_item:58f8efda0f56b87e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "GEO 대응에 대해 미비한 점이 있다는 것을 짚는 자료 보내드리기(오늘 시간 부족해서 다 못드린 상황)",
+      "normalized": {
+        "text": "GEO 대응에 대해 미비한 점이 있다는 것을 짚는 자료 보내드리기(오늘 시간 부족해서 다 못드린 상황)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "GEO 대응에 대해 미비한 점이 있다는 것을 짚는 자료 보내드리기(오늘 시간 부족해서 다 못드린 상황)",
+          "start_char": 1217,
+          "end_char": 1274
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2d8e4a54bf7cc990",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "50.70",
+      "normalized": {
+        "year": 2050,
+        "month": 70,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "50.70",
+          "start_char": 1403,
+          "end_char": 1408
+        }
+      ],
+      "dedupe_key": "timeline:35ecc06c7f556457",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

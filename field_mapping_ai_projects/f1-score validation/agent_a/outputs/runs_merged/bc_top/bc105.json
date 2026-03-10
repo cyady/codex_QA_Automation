@@ -1,0 +1,464 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W105",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0919 메일 발송",
+      "normalized": {
+        "text": "0919 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0919 메일 발송",
+          "start_char": 0,
+          "end_char": 10
+        }
+      ],
+      "dedupe_key": "action_item:48d3408a6520e114",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "수요일 미팅 감사합니다.리드님, 매니저님께서 폭넓은 맥락과 문제를 공유해주신 덕택으로 온보딩이 쉬웠습니다.앞으로 많은 협업을 구상해 나갈 수 있겠지만, 우선 다음을 먼저 전달 드립니다.1/ '프라이스 에이전트' 적확고객 확보를 위한 '하이퍼타기팅 상품' 제안",
+      "normalized": {
+        "text": "수요일 미팅 감사합니다.리드님, 매니저님께서 폭넓은 맥락과 문제를 공유해주신 덕택으로 온보딩이 쉬웠습니다.앞으로 많은 협업을 구상해 나갈 수 있겠지만, 우선 다음을 먼저 전달 드립니다.1/ '프라이스 에이전트' 적확고객 확보를 위한 '하이퍼타기팅 상품' 제안",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "수요일 미팅 감사합니다.리드님, 매니저님께서 폭넓은 맥락과 문제를 공유해주신 덕택으로 온보딩이 쉬웠습니다.앞으로 많은 협업을 구상해 나갈 수 있겠지만, 우선 다음을 먼저 전달 드립니다.1/ '프라이스 에이전트' 적확고객 확보를 위한 '하이퍼타기팅 상품' 제안",
+          "start_char": 13,
+          "end_char": 157
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8942a2ee82ef775d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-- (리드전환) 전환을 이끌기에 적합할 것으로 판단하는 랜딩페이지 and/or 리포트/백서 형 리드 마그넷 활용 (TBD; 추가 논의필요)",
+      "normalized": {
+        "text": "-- (리드전환) 전환을 이끌기에 적합할 것으로 판단하는 랜딩페이지 and/or 리포트/백서 형 리드 마그넷 활용 (TBD; 추가 논의필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "-- (리드전환) 전환을 이끌기에 적합할 것으로 판단하는 랜딩페이지 and/or 리포트/백서 형 리드 마그넷 활용 (TBD; 추가 논의필요)",
+          "start_char": 273,
+          "end_char": 351
+        }
+      ],
+      "dedupe_key": "action_item:79adb79e54217167",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-- (리드너처링) 자연스러운 너쳐링을 위한 온/오프라인 이벤트 시퀀스 설계 및 진행 (TBD; 추가 논의필요)",
+      "normalized": {
+        "text": "-- (리드너처링) 자연스러운 너쳐링을 위한 온/오프라인 이벤트 시퀀스 설계 및 진행 (TBD; 추가 논의필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "-- (리드너처링) 자연스러운 너쳐링을 위한 온/오프라인 이벤트 시퀀스 설계 및 진행 (TBD; 추가 논의필요)",
+          "start_char": 352,
+          "end_char": 414
+        }
+      ],
+      "dedupe_key": "action_item:0451cd1ca65e076e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이와 관련하여, 간단한 저희 상품소개서와 가격표 전달 드립니다 (* 가격과 내용은 TBD 에 따라 달라질 수 있음)",
+      "normalized": {
+        "text": "이와 관련하여, 간단한 저희 상품소개서와 가격표 전달 드립니다 (* 가격과 내용은 TBD 에 따라 달라질 수 있음)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "이와 관련하여, 간단한 저희 상품소개서와 가격표 전달 드립니다 (* 가격과 내용은 TBD 에 따라 달라질 수 있음)",
+          "start_char": 415,
+          "end_char": 479
+        }
+      ],
+      "dedupe_key": "collaboration_need:ecceb63c9b2fcc29",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "인핸스에서 기 확보한 브랜드 자산을 활용한 국내-해외 포지셔닝 성과에 부응해볼 만 한 협업 아이템으로 다음과 같은 아이데이션을 해 보았습니다",
+      "normalized": {
+        "text": "인핸스에서 기 확보한 브랜드 자산을 활용한 국내-해외 포지셔닝 성과에 부응해볼 만 한 협업 아이템으로 다음과 같은 아이데이션을 해 보았습니다",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "인핸스에서 기 확보한 브랜드 자산을 활용한 국내-해외 포지셔닝 성과에 부응해볼 만 한 협업 아이템으로 다음과 같은 아이데이션을 해 보았습니다",
+          "start_char": 506,
+          "end_char": 584
+        }
+      ],
+      "dedupe_key": "collaboration_need:8ed091d1c4652d8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(고객 쉐어링을 위한 중장기; 고객 확보 > 육성 > 문제확보 > 전환 에 대한 공감대 형성 및 단기 액션아이템 탐색)",
+      "normalized": {
+        "text": "(고객 쉐어링을 위한 중장기; 고객 확보 > 육성 > 문제확보 > 전환 에 대한 공감대 형성 및 단기 액션아이템 탐색)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "(고객 쉐어링을 위한 중장기; 고객 확보 > 육성 > 문제확보 > 전환 에 대한 공감대 형성 및 단기 액션아이템 탐색)",
+          "start_char": 585,
+          "end_char": 651
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f9020c886585ae2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-- (리캐치 뉴스레터 발행) 2만 엔터프라이즈-중견-중소 B2B기업 DB를 대상으로 한 AIX, AIX 마케팅-세일즈 주제의 연작물 발행 및 관련행사 진행",
+      "normalized": {
+        "text": "-- (리캐치 뉴스레터 발행) 2만 엔터프라이즈-중견-중소 B2B기업 DB를 대상으로 한 AIX, AIX 마케팅-세일즈 주제의 연작물 발행 및 관련행사 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "-- (리캐치 뉴스레터 발행) 2만 엔터프라이즈-중견-중소 B2B기업 DB를 대상으로 한 AIX, AIX 마케팅-세일즈 주제의 연작물 발행 및 관련행사 진행",
+          "start_char": 732,
+          "end_char": 819
+        }
+      ],
+      "dedupe_key": "action_item:09bd17ed4685c045",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(저희 선호는 수요일 오후 3-6시 입니다만, 혹시 다른 시간이 필요하시면 알려주세요!)참고로 수요일 미팅과 지난주 대표님 미팅을 통해 다음을 이해했습니다.",
+      "normalized": {
+        "text": "(저희 선호는 수요일 오후 3-6시 입니다만, 혹시 다른 시간이 필요하시면 알려주세요!)참고로 수요일 미팅과 지난주 대표님 미팅을 통해 다음을 이해했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "(저희 선호는 수요일 오후 3-6시 입니다만, 혹시 다른 시간이 필요하시면 알려주세요!)참고로 수요일 미팅과 지난주 대표님 미팅을 통해 다음을 이해했습니다.",
+          "start_char": 1057,
+          "end_char": 1144
+        }
+      ],
+      "dedupe_key": "action_item:57786f2d62e970dc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다)",
+      "normalized": {
+        "text": "(아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "(아직 부족하지만 앞으로 협업하며 더 열심히 공부하겠습니다)",
+          "start_char": 1145,
+          "end_char": 1178
+        }
+      ],
+      "dedupe_key": "collaboration_need:7e8a371e71d7ea5a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "국내 시장보다 큰 기회를 가져올 해외 시장을 대상으로 성공의 에비던스를 구축하는 일을 진행중이며, 이를 위한 기본적 마케팅 자산들을 구축하기 시작함",
+      "normalized": {
+        "text": "국내 시장보다 큰 기회를 가져올 해외 시장을 대상으로 성공의 에비던스를 구축하는 일을 진행중이며, 이를 위한 기본적 마케팅 자산들을 구축하기 시작함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "국내 시장보다 큰 기회를 가져올 해외 시장을 대상으로 성공의 에비던스를 구축하는 일을 진행중이며, 이를 위한 기본적 마케팅 자산들을 구축하기 시작함",
+          "start_char": 1598,
+          "end_char": 1680
+        }
+      ],
+      "dedupe_key": "action_item:717371c45c1bb9ab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 3",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 3,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "오후 3",
+          "start_char": 1069,
+          "end_char": 1073
+        }
+      ],
+      "dedupe_key": "timeline:3073e3e6b5fb59db",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 933,
+          "end_char": 936
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "뉴스레터",
+          "start_char": 740,
+          "end_char": 744
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 944,
+          "end_char": 947
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 158,
+          "end_char": 161
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 656,
+          "end_char": 659
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 667,
+          "end_char": 670
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 736,
+          "end_char": 739
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1552,
+          "end_char": 1555
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1737,
+          "end_char": 1740
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "구체적으로 다음 협업 아이디어가 오갔습니다.",
+      "normalized": {
+        "text": "구체적으로 다음 협업 아이디어가 오갔습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "구체적으로 다음 협업 아이디어가 오갔습니다.",
+          "start_char": 1682,
+          "end_char": 1706
+        }
+      ],
+      "dedupe_key": "collaboration_need:f800628be1372d2b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "-- (b. '마케팅 이벤트' 등 협업) a.를 돕는 방법으로 이벤트 등의 활용 가능성과, b. 새로운 산업x고객x프랙티스를 찾는 일과 관련 협업 아이디어 논의",
+      "normalized": {
+        "text": "-- (b. '마케팅 이벤트' 등 협업) a.를 돕는 방법으로 이벤트 등의 활용 가능성과, b. 새로운 산업x고객x프랙티스를 찾는 일과 관련 협업 아이디어 논의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "-- (b. '마케팅 이벤트' 등 협업) a.를 돕는 방법으로 이벤트 등의 활용 가능성과, b. 새로운 산업x고객x프랙티스를 찾는 일과 관련 협업 아이디어 논의",
+          "start_char": 1822,
+          "end_char": 1911
+        }
+      ],
+      "dedupe_key": "collaboration_need:a923ed01d52c327d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "-- (c. '리드 공동 너처링/ 쉐어링' 등 협업) 중장기적 관점에서 공동의 고객 확보 > 육성 > 문제확보 > 전환 방안에 대한 접근 논의",
+      "normalized": {
+        "text": "-- (c. '리드 공동 너처링/ 쉐어링' 등 협업) 중장기적 관점에서 공동의 고객 확보 > 육성 > 문제확보 > 전환 방안에 대한 접근 논의",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "-- (c. '리드 공동 너처링/ 쉐어링' 등 협업) 중장기적 관점에서 공동의 고객 확보 > 육성 > 문제확보 > 전환 방안에 대한 접근 논의",
+          "start_char": 1912,
+          "end_char": 1991
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1d68bb0cb947a284",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

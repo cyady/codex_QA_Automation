@@ -1,0 +1,199 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W243",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[Tier1 동국씨엠(럭스틸) 잠재 매출 미정] 251218_2차 미팅 내용 퀵공유 @sales @김가은(Grace)1/ Timeline: 26년 6월 중",
+      "normalized": {
+        "text": "[Tier1 동국씨엠(럭스틸) 잠재 매출 미정] 251218_2차 미팅 내용 퀵공유 @sales @김가은(Grace)1/ Timeline: 26년 6월 중",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier1 동국씨엠(럭스틸) 잠재 매출 미정] 251218_2차 미팅 내용 퀵공유 @sales @김가은(Grace)1/ Timeline: 26년 6월 중",
+          "start_char": 0,
+          "end_char": 86
+        }
+      ],
+      "dedupe_key": "collaboration_need:ac00aafd4dfbf167",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "2/ Budget: 전체 예산 대략 1억정도는 크게 문제 없을 것.",
+      "normalized": {
+        "text": "2/ Budget: 전체 예산 대략 1억정도는 크게 문제 없을 것.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2/ Budget: 전체 예산 대략 1억정도는 크게 문제 없을 것.",
+          "start_char": 87,
+          "end_char": 124
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b66e4a301ec03949",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 47,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 54,
+          "end_char": 58
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 134,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "오늘 GEO에 대한 내용 설명, 웹사이트 진단, 개선 필요 사항들에 대해 알려준 내용 너무나 좋았다. 알쏭달쏭한 내용들이었고 가설로만 세웠던 것들을 정확하게 진단해줘서 이제 그림이 섰다.",
+      "normalized": {
+        "text": "오늘 GEO에 대한 내용 설명, 웹사이트 진단, 개선 필요 사항들에 대해 알려준 내용 너무나 좋았다. 알쏭달쏭한 내용들이었고 가설로만 세웠던 것들을 정확하게 진단해줘서 이제 그림이 섰다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "장지훈 부장님"
+          ],
+          "exact_quote": "오늘 GEO에 대한 내용 설명, 웹사이트 진단, 개선 필요 사항들에 대해 알려준 내용 너무나 좋았다. 알쏭달쏭한 내용들이었고 가설로만 세웠던 것들을 정확하게 진단해줘서 이제 그림이 섰다.",
+          "start_char": 291,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "action_item:8d3eabb6bbfc5572",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "장지훈 부장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 493,
+          "end_char": 496
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "장지훈 부장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 600,
+          "end_char": 603
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "장지훈 부장님"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 800,
+          "end_char": 803
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

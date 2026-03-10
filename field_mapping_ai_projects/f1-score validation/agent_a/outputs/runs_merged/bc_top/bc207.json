@@ -1,0 +1,209 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W207",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 13,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 215,
+          "end_char": 218
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 574,
+          "end_char": 577
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 806,
+          "end_char": 809
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1046,
+          "end_char": 1049
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 276,
+          "end_char": 279
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 330,
+          "end_char": 334
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 405,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "산업 특수성: 기술 개발/트렌드 기업이 아니라 백서/화이트 페이퍼 발행이 어렵고, 쿠폰 사용 고객이 매우 적어(거의 없음) 리드 마그넷 및 이벤트에 어려움이 있음.",
+      "normalized": {
+        "text": "산업 특수성: 기술 개발/트렌드 기업이 아니라 백서/화이트 페이퍼 발행이 어렵고, 쿠폰 사용 고객이 매우 적어(거의 없음) 리드 마그넷 및 이벤트에 어려움이 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "산업 특수성: 기술 개발/트렌드 기업이 아니라 백서/화이트 페이퍼 발행이 어렵고, 쿠폰 사용 고객이 매우 적어(거의 없음) 리드 마그넷 및 이벤트에 어려움이 있음.",
+          "start_char": 631,
+          "end_char": 722
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b979c5f53abcfbf7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 1098,
+          "end_char": 1102
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1070,
+          "end_char": 1073
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

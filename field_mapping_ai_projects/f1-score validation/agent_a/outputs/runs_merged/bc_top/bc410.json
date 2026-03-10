@@ -1,0 +1,130 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W410",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "논티어, 잠재 매출 800만원] 노무법인 와이즈 임윤희 팀장 미팅 퀵 공유 @sales",
+      "normalized": {
+        "text": "논티어, 잠재 매출 800만원] 노무법인 와이즈 임윤희 팀장 미팅 퀵 공유 @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "논티어, 잠재 매출 800만원] 노무법인 와이즈 임윤희 팀장 미팅 퀵 공유 @sales",
+          "start_char": 0,
+          "end_char": 48
+        }
+      ],
+      "dedupe_key": "collaboration_need:82615890030d3daa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 42,
+          "end_char": 48
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 11,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 402,
+          "end_char": 407
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2천만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2천만원",
+          "start_char": 392,
+          "end_char": 396
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 398,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

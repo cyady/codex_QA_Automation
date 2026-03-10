@@ -1,0 +1,167 @@
+{
+  "memo_id": "M-W25",
+  "updated_at": "2026-02-26T10:00:22.246648+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "VAT 별도가 고려되지 않는건 아쉽지만 pass"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "contract_amount",
+      "field_label": "contract_amount",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "1608",
+      "field_label": "Seat 수",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5372",
+      "field_label": "예상 마감 일자",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+      "normalized": {
+        "text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+      "start_char": 1526,
+      "end_char": 1735,
+      "line_no": 6,
+      "line_text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5657",
+          "label": "결제 상품 (제품)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+      "normalized": {
+        "text": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+      "start_char": 1736,
+      "end_char": 1876,
+      "line_no": 7,
+      "line_text": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "오후 1시",
+      "start_char": 1618,
+      "end_char": 1623,
+      "line_no": 6,
+      "line_text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

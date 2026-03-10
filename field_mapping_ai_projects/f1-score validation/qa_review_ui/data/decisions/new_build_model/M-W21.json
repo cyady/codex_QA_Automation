@@ -1,0 +1,385 @@
+{
+  "memo_id": "M-W21",
+  "updated_at": "2026-02-27T05:03:34.231528+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "contract_amount",
+      "field_label": "contract_amount",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.80) - HITL 권장"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "1593",
+      "field_label": "✅ MRR",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "1608",
+      "field_label": "Seat 수",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.76) - HITL 권장"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5368",
+      "field_label": "✅ 견적 개월 수",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.69) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.68) - HITL 권장"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 11,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "normalized": {
+        "text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "start_char": 928,
+      "end_char": 1070,
+      "line_no": 11,
+      "line_text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "FN",
+      "assigned_field_id": "5373",
+      "assigned_field_label": "담당자 페르소나",
+      "note": "confidence=7/10 | 기존 FN 유지, 새 output 커버 근거 약함(cov=0.49)"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "normalized": {
+        "text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "start_char": 1156,
+      "end_char": 1238,
+      "line_no": 13,
+      "line_text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@여인찬",
+      "start_char": 52,
+      "end_char": 56,
+      "line_no": 2,
+      "line_text": "cc @여인찬 (Oliver)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.03)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10/21",
+      "normalized": {
+        "month": 10,
+        "day": 21,
+        "kind": "month_day"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "10/21",
+      "start_char": 1080,
+      "end_char": 1085,
+      "line_no": 12,
+      "line_text": "혹 차주 화요일(10/21) 오후 중 편한 일정이 있으실까요?이번 온보딩 세션에는 KT알파의 전담 컨설턴트였던 여인찬 컨설턴트만 방문드릴 예정이었으나,",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.44)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 26일",
+      "normalized": {
+        "month": 9,
+        "day": 26
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "9월 26일",
+      "start_char": 130,
+      "end_char": 136,
+      "line_no": 5,
+      "line_text": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.38)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "500만원",
+      "start_char": 22,
+      "end_char": 27,
+      "line_no": 1,
+      "line_text": "[Tier3 에스앤엘컴 - 잠재매출 1,500만원] 251014_최종 견적서 파일 송부",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.50)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "317만원",
+      "normalized": {
+        "value": 3170000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "317만원",
+      "start_char": 631,
+      "end_char": 636,
+      "line_no": 9,
+      "line_text": "*참고로, 기존 가격 정책대로 마케팅CRM을 사용하실 시 부가세 포함 317만원의 추가 비용이 발생하게 됩니다.아울러 오프라인에서 획득하는 명함이 다수 있다 말씀 주시어, 세일즈 CRM의 효용을 극대화할 수 있도록 리멤버 팀 명함첩 연동 옵션을 추가해두었습니다. 혹 해당 옵션 선택을 원하지 않으실 시 수정된 견적서로 재발송 가능하오니 편히 말씀 부탁드립니다.앞으로도 에스앤엘컴의 실제 사용 환경에 꼭 맞는 솔루션으로, 합리적인 선택을 하실 수 있도록 최선을 다해 돕겠습니다.후속으로 진행될 사항은 다음과 같습니다.1/ 견적 내용 컨펌 후, 계약서 초안 발송",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "26일",
+      "normalized": {
+        "value": 26.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "26일",
+      "start_char": 133,
+      "end_char": 136,
+      "line_no": 5,
+      "line_text": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.31)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "000개",
+      "start_char": 337,
+      "end_char": 341,
+      "line_no": 6,
+      "line_text": "세일즈 CRM 중심으로 활용하시는 방향이 가장 합리적인 것으로 판단됩니다.다만 현재 리캐치 가격 정책은 리드 수(고객 DB 수)가 1,000개를 넘어설 경우 자동으로 마케팅 CRM 구간으로 전환되는 구조입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.55)"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "뉴스레터",
+      "start_char": 226,
+      "end_char": 230,
+      "line_no": 5,
+      "line_text": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.22)"
+    }
+  ]
+}

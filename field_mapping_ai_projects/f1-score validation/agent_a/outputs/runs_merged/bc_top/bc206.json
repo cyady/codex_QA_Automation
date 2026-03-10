@@ -1,0 +1,94 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W206",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "어린이집/유치원 대상: 냠냠키즈"
+          ],
+          "exact_quote": "3개",
+          "start_char": 175,
+          "end_char": 177
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "글로벌 서비스 제외 냠냠키즈, 코코넛"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 392,
+          "end_char": 395
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 670,
+          "end_char": 673
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "미팅엔 이유정 매니저님과 협업하는 프로덕트 디자이너 동석 예정(이 디자이너가 웹사이트를 만든건 아님)",
+      "normalized": {
+        "text": "미팅엔 이유정 매니저님과 협업하는 프로덕트 디자이너 동석 예정(이 디자이너가 웹사이트를 만든건 아님)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "미팅엔 이유정 매니저님과 협업하는 프로덕트 디자이너 동석 예정(이 디자이너가 웹사이트를 만든건 아님)",
+          "start_char": 765,
+          "end_char": 821
+        }
+      ],
+      "dedupe_key": "collaboration_need:70d57fec1eae3fed",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

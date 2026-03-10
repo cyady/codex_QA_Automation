@@ -1,0 +1,189 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W208",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "부장님~~ 이렇게 친절히 회신 주셔서 너무나 감사드립니다.",
+      "normalized": {
+        "text": "부장님~~ 이렇게 친절히 회신 주셔서 너무나 감사드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "부장님~~ 이렇게 친절히 회신 주셔서 너무나 감사드립니다.",
+          "start_char": 161,
+          "end_char": 193
+        }
+      ],
+      "dedupe_key": "action_item:f178e206e06835ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 144,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1000만원",
+          "start_char": 83,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "덕분에 여기까지 함께 협의할 수 있었는걸요..!",
+      "normalized": {
+        "text": "덕분에 여기까지 함께 협의할 수 있었는걸요..!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "덕분에 여기까지 함께 협의할 수 있었는걸요..!",
+          "start_char": 195,
+          "end_char": 221
+        }
+      ],
+      "dedupe_key": "collaboration_need:9597394938906601",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다름이 아니라, 오늘 팀 회의 진행중인데 저희 CRM 가격이 내년도에 추가 인상 가능성이 매우 높습니다.",
+      "normalized": {
+        "text": "다름이 아니라, 오늘 팀 회의 진행중인데 저희 CRM 가격이 내년도에 추가 인상 가능성이 매우 높습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "다름이 아니라, 오늘 팀 회의 진행중인데 저희 CRM 가격이 내년도에 추가 인상 가능성이 매우 높습니다.",
+          "start_char": 223,
+          "end_char": 281
+        }
+      ],
+      "dedupe_key": "action_item:70a8a7e8fb54caac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 초",
+      "normalized": {
+        "month": 12,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "12월 초",
+          "start_char": 377,
+          "end_char": 382
+        }
+      ],
+      "dedupe_key": "timeline:908dc1ae25d3dff0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "어렵다면 내년도에 새로운 가격과 인력으로 제안드려야할 것 같아요ㅠㅠ",
+      "normalized": {
+        "text": "어렵다면 내년도에 새로운 가격과 인력으로 제안드려야할 것 같아요ㅠㅠ",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "어렵다면 내년도에 새로운 가격과 인력으로 제안드려야할 것 같아요ㅠㅠ",
+          "start_char": 411,
+          "end_char": 448
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d47925fa1696c44d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "혹시 용욱 대리님 전화번호 한 번 주실 수 있을까요-? 진행 중 어떤 애로사항이 있으신지 여쭙고 저희가 지원드릴 수 있는 내용이 있다면 꼭 드리겠습니다",
+      "normalized": {
+        "text": "혹시 용욱 대리님 전화번호 한 번 주실 수 있을까요-? 진행 중 어떤 애로사항이 있으신지 여쭙고 저희가 지원드릴 수 있는 내용이 있다면 꼭 드리겠습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "혹시 용욱 대리님 전화번호 한 번 주실 수 있을까요-? 진행 중 어떤 애로사항이 있으신지 여쭙고 저희가 지원드릴 수 있는 내용이 있다면 꼭 드리겠습니다",
+          "start_char": 450,
+          "end_char": 534
+        }
+      ],
+      "dedupe_key": "action_item:5a3034ed01f04602",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

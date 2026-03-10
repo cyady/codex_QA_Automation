@@ -1,0 +1,499 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W407",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김병권",
+          "start_char": 34,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 0,
+          "end_char": 3
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 92,
+          "end_char": 95
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리드 분류 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 571,
+          "end_char": 574
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "창업·지원 사업비로 유연하게 편성 가능"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1732,
+          "end_char": 1735
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "한 줄 비유 설명"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2100,
+          "end_char": 2103
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "큐빅(데이터 플랫폼)의 해외 진출(GTM 구축) 상황을 진단하고, 리캐치 CRM 및 그로스패키지(마케팅 컨설팅/운영 지원) 도입을 제안한 세일즈 미팅.큐빅은 런던 법인 설립 후 유럽 중심으로 확장 중이며, 현재 영업/마케팅을 엑셀로 관리하고 있어 체계적 시스템 전환이 필요한 상황.",
+      "normalized": {
+        "text": "큐빅(데이터 플랫폼)의 해외 진출(GTM 구축) 상황을 진단하고, 리캐치 CRM 및 그로스패키지(마케팅 컨설팅/운영 지원) 도입을 제안한 세일즈 미팅.큐빅은 런던 법인 설립 후 유럽 중심으로 확장 중이며, 현재 영업/마케팅을 엑셀로 관리하고 있어 체계적 시스템 전환이 필요한 상황.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "큐빅(데이터 플랫폼)의 해외 진출(GTM 구축) 상황을 진단하고, 리캐치 CRM 및 그로스패키지(마케팅 컨설팅/운영 지원) 도입을 제안한 세일즈 미팅.큐빅은 런던 법인 설립 후 유럽 중심으로 확장 중이며, 현재 영업/마케팅을 엑셀로 관리하고 있어 체계적 시스템 전환이 필요한 상황.",
+          "start_char": 55,
+          "end_char": 212
+        }
+      ],
+      "dedupe_key": "action_item:651ac9622133ea09",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영업/마케팅 활동을 엑셀로 개별 관리 → 확장 불가 구조",
+      "normalized": {
+        "text": "영업/마케팅 활동을 엑셀로 개별 관리 → 확장 불가 구조",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 파이프라인 시스템 부재"
+          ],
+          "exact_quote": "영업/마케팅 활동을 엑셀로 개별 관리 → 확장 불가 구조",
+          "start_char": 342,
+          "end_char": 373
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bd3b6a3bd4717690",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "constraint",
+      "value_type": "text",
+      "raw_text": "컴플라이언스",
+      "normalized": {
+        "keyword": "컴플라이언스"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "규제 준수"
+          ],
+          "exact_quote": "컴플라이언스",
+          "start_char": 466,
+          "end_char": 472
+        }
+      ],
+      "dedupe_key": "constraint:321f79601fc5457d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "국문/영문 페이지 분리 없음 → 모든 문의가 단일 영문 페이지로 유입",
+      "normalized": {
+        "text": "국문/영문 페이지 분리 없음 → 모든 문의가 단일 영문 페이지로 유입",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 분류 니즈"
+          ],
+          "exact_quote": "국문/영문 페이지 분리 없음 → 모든 문의가 단일 영문 페이지로 유입",
+          "start_char": 496,
+          "end_char": 534
+        }
+      ],
+      "dedupe_key": "collaboration_need:5afb8a99fc94d59e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+      "normalized": {
+        "text": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리드 분류 니즈"
+          ],
+          "exact_quote": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+          "start_char": 538,
+          "end_char": 568
+        }
+      ],
+      "dedupe_key": "collaboration_need:c366b375cf59792d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+      "normalized": {
+        "text": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리드 분류 니즈"
+          ],
+          "exact_quote": "국내/해외 기업 리드를 구분해 담당자 배정할 기능 필요",
+          "start_char": 538,
+          "end_char": 568
+        }
+      ],
+      "dedupe_key": "action_item:39d16b1d3ca07c67",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 CRM & 그로스패키지 (핵심 장점) CRM 차별점 (vs HubSpot)",
+      "normalized": {
+        "text": "리캐치 CRM & 그로스패키지 (핵심 장점) CRM 차별점 (vs HubSpot)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리드 분류 니즈"
+          ],
+          "exact_quote": "리캐치 CRM & 그로스패키지 (핵심 장점) CRM 차별점 (vs HubSpot)",
+          "start_char": 571,
+          "end_char": 616
+        }
+      ],
+      "dedupe_key": "collaboration_need:07b859da9e14ab64",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "세일즈 시그널 알림"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 979,
+          "end_char": 982
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "데이터 + AI 활용"
+          ],
+          "exact_quote": "3개",
+          "start_char": 1059,
+          "end_char": 1061
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "DocSend 수준의 문서 열람 분석 기능 연내/상반기 추가 검토",
+      "normalized": {
+        "text": "DocSend 수준의 문서 열람 분석 기능 연내/상반기 추가 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "향후 로드맵"
+          ],
+          "exact_quote": "DocSend 수준의 문서 열람 분석 기능 연내/상반기 추가 검토",
+          "start_char": 1252,
+          "end_char": 1288
+        }
+      ],
+      "dedupe_key": "action_item:aada04216bf7a037",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "그로스패키지 & 운영 지원"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1376,
+          "end_char": 1379
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "가격 경쟁력"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1924,
+          "end_char": 1927
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "한 줄 비유 설명"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 2161,
+          "end_char": 2164
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 100만 원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "그로스패키지 & 운영 지원"
+          ],
+          "exact_quote": "약 100만 원",
+          "start_char": 1407,
+          "end_char": 1415
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "55만 원",
+      "normalized": {
+        "value": 550000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "HubSpot 대비 매우 합리적"
+          ],
+          "exact_quote": "55만 원",
+          "start_char": 1637,
+          "end_char": 1642
+        }
+      ],
+      "dedupe_key": "budget:6ee77ef55c9031f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "44만 원",
+      "normalized": {
+        "value": 440000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "HubSpot 대비 매우 합리적"
+          ],
+          "exact_quote": "44만 원",
+          "start_char": 1647,
+          "end_char": 1652
+        }
+      ],
+      "dedupe_key": "budget:1802191a885dde26",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "정부 지원 사업 활용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1680,
+          "end_char": 1683
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "정부 사업비 연계 제안"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2035,
+          "end_char": 2038
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "워터마크 제거"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 1805,
+          "end_char": 1812
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

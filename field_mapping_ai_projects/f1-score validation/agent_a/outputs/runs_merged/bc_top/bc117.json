@@ -1,0 +1,433 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W117",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 22,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 29,
+          "end_char": 33
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 306,
+          "end_char": 310
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "2 개의 그로스패키지 제안서 전달 예정",
+      "normalized": {
+        "text": "2 개의 그로스패키지 제안서 전달 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2 개의 그로스패키지 제안서 전달 예정",
+          "start_char": 50,
+          "end_char": 71
+        }
+      ],
+      "dedupe_key": "collaboration_need:5a34b0b50c964f7b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2 개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2 개",
+          "start_char": 50,
+          "end_char": 53
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 92,
+          "end_char": 94
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 591,
+          "end_char": 593
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 분리해서 각각 CMS 구축하여 블로그 적용할 건지 논의 필요",
+      "normalized": {
+        "text": "2/ 분리해서 각각 CMS 구축하여 블로그 적용할 건지 논의 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2/ 분리해서 각각 CMS 구축하여 블로그 적용할 건지 논의 필요",
+          "start_char": 219,
+          "end_char": 255
+        }
+      ],
+      "dedupe_key": "action_item:c6d01509efa3c009",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예산 파악이 필요",
+      "normalized": {
+        "text": "예산 파악이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "예산 파악이 필요",
+          "start_char": 256,
+          "end_char": 265
+        }
+      ],
+      "dedupe_key": "action_item:475dd46e33a9594c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(무상제공이었나요? )[논의 필요]",
+      "normalized": {
+        "text": "(무상제공이었나요? )[논의 필요]",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "(무상제공이었나요? )[논의 필요]",
+          "start_char": 503,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "action_item:1fd4814adadec15e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2개의 사업 각각으로 들어갈지 논의 필요",
+      "normalized": {
+        "text": "2개의 사업 각각으로 들어갈지 논의 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2개의 사업 각각으로 들어갈지 논의 필요",
+          "start_char": 591,
+          "end_char": 613
+        }
+      ],
+      "dedupe_key": "action_item:6ca13e5616b77acd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 392,
+          "end_char": 395
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 441,
+          "end_char": 444
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1323,
+          "end_char": 1326
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 208,
+          "end_char": 211
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 239,
+          "end_char": 242
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 400,
+          "end_char": 403
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 451,
+          "end_char": 454
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 459,
+          "end_char": 462
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1223,
+          "end_char": 1226
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1328,
+          "end_char": 1331
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1451,
+          "end_char": 1454
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 631,
+          "end_char": 634
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1264,
+          "end_char": 1267
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1276,
+          "end_char": 1279
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치의 제안 영역: 리캐치는 CRM 솔루션 외에도 B2B 마케팅 및 세일즈 강화를 위해 노출/유입 강화(SEO, 블로그, 웹사이트 제작)를 돕는 그로스 프로젝트를 진행하고 있습니다후속. 미팅 잡거나",
+      "normalized": {
+        "text": "리캐치의 제안 영역: 리캐치는 CRM 솔루션 외에도 B2B 마케팅 및 세일즈 강화를 위해 노출/유입 강화(SEO, 블로그, 웹사이트 제작)를 돕는 그로스 프로젝트를 진행하고 있습니다후속. 미팅 잡거나",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "리캐치의 제안 영역: 리캐치는 CRM 솔루션 외에도 B2B 마케팅 및 세일즈 강화를 위해 노출/유입 강화(SEO, 블로그, 웹사이트 제작)를 돕는 그로스 프로젝트를 진행하고 있습니다후속. 미팅 잡거나",
+          "start_char": 1264,
+          "end_char": 1375
+        }
+      ],
+      "dedupe_key": "action_item:bea83fab40cf839d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영업팀(영업주) 일부에서 마케팅 CRM 도입에 대한 반감이 있으며, 돈을 들여서 블로그나 프로젝트를 진행했을 때 실질적인 유입 및 성과가 없을 경우에 대한 우려",
+      "normalized": {
+        "text": "영업팀(영업주) 일부에서 마케팅 CRM 도입에 대한 반감이 있으며, 돈을 들여서 블로그나 프로젝트를 진행했을 때 실질적인 유입 및 성과가 없을 경우에 대한 우려",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "영업팀(영업주) 일부에서 마케팅 CRM 도입에 대한 반감이 있으며, 돈을 들여서 블로그나 프로젝트를 진행했을 때 실질적인 유입 및 성과가 없을 경우에 대한 우려",
+          "start_char": 1406,
+          "end_char": 1495
+        }
+      ],
+      "dedupe_key": "risk_or_concern:05773fdab6f96302",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "프로젝트 종료 후 성과 공유회(트래픽, 리드, MQ 수치 기반)를 통해 객관적인 성과를 보고하여 의사 결정자를 설득",
+      "normalized": {
+        "text": "프로젝트 종료 후 성과 공유회(트래픽, 리드, MQ 수치 기반)를 통해 객관적인 성과를 보고하여 의사 결정자를 설득",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 월 방문자 수는 약 1,500명 내외로 추정됩니다마."
+          ],
+          "exact_quote": "프로젝트 종료 후 성과 공유회(트래픽, 리드, MQ 수치 기반)를 통해 객관적인 성과를 보고하여 의사 결정자를 설득",
+          "start_char": 1496,
+          "end_char": 1560
+        }
+      ],
+      "dedupe_key": "collaboration_need:79042d1f77edb73c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

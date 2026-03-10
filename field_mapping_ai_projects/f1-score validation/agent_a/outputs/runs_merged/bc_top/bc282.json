@@ -1,0 +1,278 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W282",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 45,
+          "end_char": 51
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 56,
+          "end_char": 62
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "의사결정 포인트: 경영진은 보수적인 성향으로, 투자 대비 성과(전환율 증가 등)에 대한 명확한 근거 필요",
+      "normalized": {
+        "text": "의사결정 포인트: 경영진은 보수적인 성향으로, 투자 대비 성과(전환율 증가 등)에 대한 명확한 근거 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Authority (결정권 및 조직 현황)"
+          ],
+          "exact_quote": "의사결정 포인트: 경영진은 보수적인 성향으로, 투자 대비 성과(전환율 증가 등)에 대한 명확한 근거 필요",
+          "start_char": 366,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "action_item:2ab11362684a3688",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 수동적 외주: 기존 외주사는 기획을 전달하면 그대로 구현만 하는 형태라 UI/UX 및 성과가 저조함",
+      "normalized": {
+        "text": "(2) 수동적 외주: 기존 외주사는 기획을 전달하면 그대로 구현만 하는 형태라 UI/UX 및 성과가 저조함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "핵심 문제 (Pain Point)"
+          ],
+          "exact_quote": "(2) 수동적 외주: 기존 외주사는 기획을 전달하면 그대로 구현만 하는 형태라 UI/UX 및 성과가 저조함",
+          "start_char": 513,
+          "end_char": 572
+        }
+      ],
+      "dedupe_key": "collaboration_need:9910ba4402952a1e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(1) 단순 구현이 아닌, 기획과 전략(SEO, CTA 배치)을 주도적으로 제안해 주는 파트너 필요",
+      "normalized": {
+        "text": "(1) 단순 구현이 아닌, 기획과 전략(SEO, CTA 배치)을 주도적으로 제안해 주는 파트너 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "요구 사항 (Requirement)"
+          ],
+          "exact_quote": "(1) 단순 구현이 아닌, 기획과 전략(SEO, CTA 배치)을 주도적으로 제안해 주는 파트너 필요",
+          "start_char": 648,
+          "end_char": 703
+        }
+      ],
+      "dedupe_key": "action_item:a439768075cf342d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "요구 사항 (Requirement)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 670,
+          "end_char": 673
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "요구 사항 (Requirement)"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 675,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 내부 자료가 평이하므로 이를 보완할 전문적인 기획 리딩 희망",
+      "normalized": {
+        "text": "(2) 내부 자료가 평이하므로 이를 보완할 전문적인 기획 리딩 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "요구 사항 (Requirement)"
+          ],
+          "exact_quote": "(2) 내부 자료가 평이하므로 이를 보완할 전문적인 기획 리딩 희망",
+          "start_char": 707,
+          "end_char": 744
+        }
+      ],
+      "dedupe_key": "collaboration_need:6ca55ea99993b79f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "목표 런칭: 2026년 상반기 내 런칭 희망",
+      "normalized": {
+        "text": "목표 런칭: 2026년 상반기 내 런칭 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Time (일정)"
+          ],
+          "exact_quote": "목표 런칭: 2026년 상반기 내 런칭 희망",
+          "start_char": 798,
+          "end_char": 822
+        }
+      ],
+      "dedupe_key": "collaboration_need:9b7d8fe03d496d39",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(1) 12월 중: 제안서 전달 및 내부 의사결정",
+      "normalized": {
+        "text": "(1) 12월 중: 제안서 전달 및 내부 의사결정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "예상 스케줄"
+          ],
+          "exact_quote": "(1) 12월 중: 제안서 전달 및 내부 의사결정",
+          "start_char": 837,
+          "end_char": 864
+        }
+      ],
+      "dedupe_key": "collaboration_need:2d9ce7104525af11",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "예상 스케줄"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 917,
+          "end_char": 922
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

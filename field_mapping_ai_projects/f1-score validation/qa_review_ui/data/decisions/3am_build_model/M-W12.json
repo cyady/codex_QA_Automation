@@ -1,0 +1,526 @@
+{
+  "memo_id": "M-W12",
+  "updated_at": "2026-02-26T08:12:57.807932+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "헤드에 1차 미팅이라고 명시되어 있는데 이게 reasoning으로 나오면 좋았을 것 같기는 함. 일단 판정 자체는 맞음"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 11,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "normalized": {
+        "text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "start_char": 205,
+      "end_char": 239,
+      "line_no": 10,
+      "line_text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5075",
+          "label": "세일즈 팀 규모",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "normalized": {
+        "text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "start_char": 269,
+      "end_char": 306,
+      "line_no": 12,
+      "line_text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6118",
+          "label": "도입 의사",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "normalized": {
+        "text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "start_char": 392,
+      "end_char": 433,
+      "line_no": 16,
+      "line_text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "상황 및 문제점",
+      "normalized": {
+        "text": "상황 및 문제점",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "상황 및 문제점",
+      "start_char": 540,
+      "end_char": 548,
+      "line_no": 22,
+      "line_text": "상황 및 문제점",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "인턴이 기고객에 오발송하는 사례 발생",
+      "normalized": {
+        "text": "인턴이 기고객에 오발송하는 사례 발생",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "인턴이 기고객에 오발송하는 사례 발생",
+      "start_char": 631,
+      "end_char": 651,
+      "line_no": 26,
+      "line_text": "인턴이 기고객에 오발송하는 사례 발생",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "normalized": {
+        "text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "start_char": 688,
+      "end_char": 736,
+      "line_no": 29,
+      "line_text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "히트맵 적용 불가 등 분석 불가 문제",
+      "normalized": {
+        "text": "히트맵 적용 불가 등 분석 불가 문제",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "히트맵 적용 불가 등 분석 불가 문제",
+      "start_char": 769,
+      "end_char": 789,
+      "line_no": 31,
+      "line_text": "히트맵 적용 불가 등 분석 불가 문제",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "normalized": {
+        "text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "start_char": 835,
+      "end_char": 867,
+      "line_no": 34,
+      "line_text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "normalized": {
+        "text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "start_char": 941,
+      "end_char": 968,
+      "line_no": 38,
+      "line_text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "normalized": {
+        "text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "start_char": 969,
+      "end_char": 999,
+      "line_no": 39,
+      "line_text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@sales",
+      "start_char": 31,
+      "end_char": 37,
+      "line_no": 1,
+      "line_text": "[티어3, 377억] 250904 스마일샤크 1차 미팅 @sales",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "47건",
+      "normalized": {
+        "value": 47,
+        "unit": "cases",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "47건",
+      "start_char": 830,
+      "end_char": 833,
+      "line_no": 33,
+      "line_text": "오가닉 유입 트래픽은 많으나 전환률 낮음 (유효 리드 47건)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "CTA",
+      "start_char": 440,
+      "end_char": 443,
+      "line_no": 17,
+      "line_text": "랜딩페이지/CTA 최적화, CMS 교체 니즈 매우 강함",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0015",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치",
+      "start_char": 269,
+      "end_char": 272,
+      "line_no": 12,
+      "line_text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0016",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "05.45",
+      "normalized": {
+        "year": 2005,
+        "month": 45,
+        "kind": "short_year_month"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "05.45",
+      "start_char": 1097,
+      "end_char": 1102,
+      "line_no": 41,
+      "line_text": "https://team-business-canvas.slack.com/archives/C03C1J61A13/p1758033858736029?thread_ts=1756879405.453999&cid=C03C1J61A13",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "close_date",
+          "label": "close_date",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

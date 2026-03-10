@@ -1,0 +1,366 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W68",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[논티어 씨포라인 - 잠재매출 1,000만원 희망] 260220_온라인미팅내용 정리",
+      "normalized": {
+        "text": "[논티어 씨포라인 - 잠재매출 1,000만원 희망] 260220_온라인미팅내용 정리",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[논티어 씨포라인 - 잠재매출 1,000만원 희망] 260220_온라인미팅내용 정리",
+          "start_char": 0,
+          "end_char": 46
+        }
+      ],
+      "dedupe_key": "collaboration_need:f046a0958b12ce2c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 19,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 52,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 65,
+          "end_char": 69
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "4~5개",
+      "normalized": {
+        "min": 4.0,
+        "max": 5.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "4~5개",
+          "start_char": 484,
+          "end_char": 488
+        }
+      ],
+      "dedupe_key": "case_metric:a7843c2fbc3791c0",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ReCatch",
+          "start_char": 451,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 447,
+          "end_char": 450
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 468,
+          "end_char": 471
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 989,
+          "end_char": 992
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1190,
+          "end_char": 1193
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 758,
+          "end_char": 761
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만 원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "800만 원",
+          "start_char": 1021,
+          "end_char": 1027
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 1034,
+          "end_char": 1040
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 1028,
+          "end_char": 1031
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "하지만 씨포라인 측은 연 매출 규모(약 10억 원)상 초기부터 큰 투자는 부담스러우며, 월 200만~300만 원 수준으로 작게 시작하여 ROI(투자 수익률)가 입증되면 점진적으로 예산을 늘려가는 방식을 희망했습니다.",
+      "normalized": {
+        "text": "하지만 씨포라인 측은 연 매출 규모(약 10억 원)상 초기부터 큰 투자는 부담스러우며, 월 200만~300만 원 수준으로 작게 시작하여 ROI(투자 수익률)가 입증되면 점진적으로 예산을 늘려가는 방식을 희망했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "하지만 씨포라인 측은 연 매출 규모(약 10억 원)상 초기부터 큰 투자는 부담스러우며, 월 200만~300만 원 수준으로 작게 시작하여 ROI(투자 수익률)가 입증되면 점진적으로 예산을 늘려가는 방식을 희망했습니다.",
+          "start_char": 1063,
+          "end_char": 1183
+        }
+      ],
+      "dedupe_key": "collaboration_need:05e2b42009055e77",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 10억 원",
+      "normalized": {
+        "value": 1000000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "약 10억 원",
+          "start_char": 1083,
+          "end_char": 1090
+        }
+      ],
+      "dedupe_key": "budget:e3cdc7ad30dd6291",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "300만 원",
+          "start_char": 1119,
+          "end_char": 1125
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 이후 이메일로 후속 논의를 진행하기로 했습니다.",
+      "normalized": {
+        "text": "미팅 이후 이메일로 후속 논의를 진행하기로 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "미팅 이후 이메일로 후속 논의를 진행하기로 했습니다.",
+          "start_char": 1297,
+          "end_char": 1326
+        }
+      ],
+      "dedupe_key": "action_item:1d08d0e446967057",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

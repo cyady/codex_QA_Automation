@@ -1,0 +1,196 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W99",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Non-tier 다리메이커 나수연 마케터님지원금으로 연간플랜 진행이 가능한지 확인 후 안내할 예정 cc @sales",
+      "normalized": {
+        "text": "Non-tier 다리메이커 나수연 마케터님지원금으로 연간플랜 진행이 가능한지 확인 후 안내할 예정 cc @sales",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Non-tier 다리메이커 나수연 마케터님지원금으로 연간플랜 진행이 가능한지 확인 후 안내할 예정 cc @sales",
+          "start_char": 0,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "action_item:551fdac1a69429cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전화옴 / 리캐치 사용을 확정함",
+      "normalized": {
+        "text": "전화옴 / 리캐치 사용을 확정함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "전화옴 / 리캐치 사용을 확정함",
+          "start_char": 128,
+          "end_char": 145
+        }
+      ],
+      "dedupe_key": "action_item:ad5a8ec8fafc52b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "계약서를 두개를 동시에 써도 괜찮은가요? (확인요청 @이수민 (Sumin) )",
+      "normalized": {
+        "text": "계약서를 두개를 동시에 써도 괜찮은가요? (확인요청 @이수민 (Sumin) )",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "계약서를 두개를 동시에 써도 괜찮은가요? (확인요청 @이수민 (Sumin) )",
+          "start_char": 173,
+          "end_char": 216
+        }
+      ],
+      "dedupe_key": "action_item:2bbc5f37ed892047",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 58,
+          "end_char": 64
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@이수민",
+      "normalized": {
+        "name": "이수민"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@이수민",
+          "start_char": 202,
+          "end_char": 206
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8064248a005216d5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 271,
+          "end_char": 274
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 288,
+          "end_char": 291
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 134,
+          "end_char": 137
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정부 제출을 위해서 다른 제품의 비교견적이 필요하다고 함",
+      "normalized": {
+        "text": "정부 제출을 위해서 다른 제품의 비교견적이 필요하다고 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "이런 방식으로 하면 될까요?"
+          ],
+          "exact_quote": "정부 제출을 위해서 다른 제품의 비교견적이 필요하다고 함",
+          "start_char": 368,
+          "end_char": 399
+        }
+      ],
+      "dedupe_key": "action_item:a441b6ffed7be92c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

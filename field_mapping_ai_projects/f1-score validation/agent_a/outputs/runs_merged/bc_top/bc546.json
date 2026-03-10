@@ -1,0 +1,697 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W546",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "ReCatch",
+          "start_char": 45,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 41,
+          "end_char": 44
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 124,
+          "end_char": 127
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 224,
+          "end_char": 227
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 437,
+          "end_char": 440
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 641,
+          "end_char": 644
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 883,
+          "end_char": 886
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 940,
+          "end_char": 943
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1000,
+          "end_char": 1003
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1139,
+          "end_char": 1142
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1158,
+          "end_char": 1161
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1191,
+          "end_char": 1194
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1594,
+          "end_char": 1597
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1666,
+          "end_char": 1669
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1752,
+          "end_char": 1755
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- **미팅 목적**: 현재 사용 중인 영업 CRM(파이프드라이브)의 문제점 진단 및 리캐치 도입을 통한 마케팅 CRM 강화 방안 논의",
+      "normalized": {
+        "text": "- **미팅 목적**: 현재 사용 중인 영업 CRM(파이프드라이브)의 문제점 진단 및 리캐치 도입을 통한 마케팅 CRM 강화 방안 논의",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "- **미팅 목적**: 현재 사용 중인 영업 CRM(파이프드라이브)의 문제점 진단 및 리캐치 도입을 통한 마케팅 CRM 강화 방안 논의",
+          "start_char": 76,
+          "end_char": 151
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bcf07e0b9f330934",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **대화 흐름**: 파이프드라이브 및 총판 업체의 기술 지원 한계 공유 -> 마케팅 팀의 개별 솔루션 도입 필요성 강조 -> 리캐치의 과거 연동 경험 및 단계적 도입 전략 제안 -> 향후 계획 논의",
+      "normalized": {
+        "text": "- **대화 흐름**: 파이프드라이브 및 총판 업체의 기술 지원 한계 공유 -> 마케팅 팀의 개별 솔루션 도입 필요성 강조 -> 리캐치의 과거 연동 경험 및 단계적 도입 전략 제안 -> 향후 계획 논의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "- **대화 흐름**: 파이프드라이브 및 총판 업체의 기술 지원 한계 공유 -> 마케팅 팀의 개별 솔루션 도입 필요성 강조 -> 리캐치의 과거 연동 경험 및 단계적 도입 전략 제안 -> 향후 계획 논의",
+          "start_char": 152,
+          "end_char": 264
+        }
+      ],
+      "dedupe_key": "action_item:0fb93561c020a4fa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 고객은 \"총판 담당자들이 기능에 대한 이해도가 100%가 아니다. 본인들도 해보고 있는 상황이라며 기술적 지원이 필요하면 본사와 연락해야 한다고 한다\"며 불만을 토로함.",
+      "normalized": {
+        "text": "- 고객은 \"총판 담당자들이 기능에 대한 이해도가 100%가 아니다. 본인들도 해보고 있는 상황이라며 기술적 지원이 필요하면 본사와 연락해야 한다고 한다\"며 불만을 토로함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 고객은 \"총판 담당자들이 기능에 대한 이해도가 100%가 아니다. 본인들도 해보고 있는 상황이라며 기술적 지원이 필요하면 본사와 연락해야 한다고 한다\"며 불만을 토로함.",
+          "start_char": 320,
+          "end_char": 416
+        }
+      ],
+      "dedupe_key": "action_item:d4d8f6d688d23c71",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 539,
+          "end_char": 542
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음.",
+      "normalized": {
+        "text": "**기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음.",
+          "start_char": 692,
+          "end_char": 765
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1e614deb7a5dd88e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음.",
+      "normalized": {
+        "text": "- **기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "- **기술 지원 및 전문성 부족**: 기존 CRM 총판 업체의 낮은 이해도와 느린 피드백으로 인해 프로젝트 진행에 차질을 겪고 있음.",
+          "start_char": 690,
+          "end_char": 765
+        }
+      ],
+      "dedupe_key": "action_item:0094c0053051add3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함.",
+      "normalized": {
+        "text": "**영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함.",
+          "start_char": 768,
+          "end_char": 912
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9101d612dd9e729b",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함.",
+      "normalized": {
+        "text": "- **영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "- **영업팀과 마케팅팀의 입장 차이**: 영업팀은 기존 도구 유지를 원하나, 마케팅팀은 성과 창출을 위해 더 유연하고 강력한 마케팅 기능이 필요함. \"영업팀이 파이프드라이브를 고집한다면, 마케팅팀이라도 따로 리캐치를 붙여서 목적을 달성해야겠다\"는 의지가 강함.",
+          "start_char": 766,
+          "end_char": 912
+        }
+      ],
+      "dedupe_key": "action_item:bd934a7d5ea1bd7f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음.",
+      "normalized": {
+        "text": "**업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음.",
+          "start_char": 915,
+          "end_char": 1018
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1a96456e956fd3a9",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- **업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음.",
+      "normalized": {
+        "text": "- **업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "- **업체 안정성에 대한 우려**: 대표이사가 리캐치 같은 규모가 작은 업체가 사라질 경우의 리스크를 걱정하고 있음. \"파이프드라이브는 망하지 않겠지만, 리캐치는 어떠냐\"는 우려가 있음.",
+          "start_char": 913,
+          "end_char": 1018
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6b8afab7c2a71e3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**기능 구현의 복잡성**: 구글 미팅, 캘린더 예약 연동 등을 파이프드라이브 내에서 구현하려니 작업이 너무 많고 유연하지 못함.",
+      "normalized": {
+        "text": "**기능 구현의 복잡성**: 구글 미팅, 캘린더 예약 연동 등을 파이프드라이브 내에서 구현하려니 작업이 너무 많고 유연하지 못함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**기능 구현의 복잡성**: 구글 미팅, 캘린더 예약 연동 등을 파이프드라이브 내에서 구현하려니 작업이 너무 많고 유연하지 못함.",
+          "start_char": 1021,
+          "end_char": 1093
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bd0d917d8df1d42c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- **하이브리드 운영 제안**: 리캐치 담당자는 과거 세일즈포스와 리캐치를 연동해 사용했던 경험을 공유하며, 파이프드라이브와 리캐치를 병행 사용하는 것이 기술적으로 가능함을 확인(웹훅 활용).",
+      "normalized": {
+        "text": "- **하이브리드 운영 제안**: 리캐치 담당자는 과거 세일즈포스와 리캐치를 연동해 사용했던 경험을 공유하며, 파이프드라이브와 리캐치를 병행 사용하는 것이 기술적으로 가능함을 확인(웹훅 활용).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "- **하이브리드 운영 제안**: 리캐치 담당자는 과거 세일즈포스와 리캐치를 연동해 사용했던 경험을 공유하며, 파이프드라이브와 리캐치를 병행 사용하는 것이 기술적으로 가능함을 확인(웹훅 활용).",
+          "start_char": 1120,
+          "end_char": 1228
+        }
+      ],
+      "dedupe_key": "collaboration_need:83322eeecae69bba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "20명",
+          "start_char": 1277,
+          "end_char": 1280
+        }
+      ],
+      "dedupe_key": "team_size:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "5명",
+          "start_char": 1348,
+          "end_char": 1350
+        }
+      ],
+      "dedupe_key": "people_count:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임.",
+      "normalized": {
+        "text": "**파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임.",
+          "start_char": 1502,
+          "end_char": 1568
+        }
+      ],
+      "dedupe_key": "action_item:d7ac2832df76a646",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임.",
+      "normalized": {
+        "text": "- **파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "- **파이프드라이브 미팅 결과 보고**: 고객은 금일 진행된 파이프드라이브와의 미팅 결과를 내부(VP)에 보고할 예정임.",
+          "start_char": 1500,
+          "end_char": 1568
+        }
+      ],
+      "dedupe_key": "action_item:c48a0bb8a0d728e6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함.",
+      "normalized": {
+        "text": "**VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함.",
+          "start_char": 1571,
+          "end_char": 1649
+        }
+      ],
+      "dedupe_key": "action_item:17bf894a2ecdeedc",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함.",
+      "normalized": {
+        "text": "- **VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "- **VP와의 직접 소통 검토**: 고객은 리캐치 담당자에게 \"VP(성수 님)와 직접 통화나 미팅을 통해 설득해 보는 것도 좋겠다\"고 제안함.",
+          "start_char": 1569,
+          "end_char": 1649
+        }
+      ],
+      "dedupe_key": "action_item:9f906c1c0756a697",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함.",
+      "normalized": {
+        "text": "**추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함.",
+          "start_char": 1652,
+          "end_char": 1722
+        }
+      ],
+      "dedupe_key": "action_item:4ef035dfe21bf3f8",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- **추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함.",
+      "normalized": {
+        "text": "- **추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "- **추가 자료 정리**: 리캐치 측은 현재의 난관을 헤쳐 나갈 수 있는 구체적인 방안과 전략을 정리하여 메일로 발송하기로 함.",
+          "start_char": 1650,
+          "end_char": 1722
+        }
+      ],
+      "dedupe_key": "action_item:a346e1ccb6debbf6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정.",
+      "normalized": {
+        "text": "**지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정.",
+          "start_char": 1725,
+          "end_char": 1822
+        }
+      ],
+      "dedupe_key": "action_item:d9402ed59ee9887e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- **지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정.",
+      "normalized": {
+        "text": "- **지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "- **지속적인 내부 설득**: 고객 마케팅 팀장은 리캐치의 견적과 기능에 만족하고 있으므로, 내부적인 반대(대표이사 우려, 영업팀 거부감)를 해소하기 위한 논리를 보강할 예정.",
+          "start_char": 1723,
+          "end_char": 1822
+        }
+      ],
+      "dedupe_key": "risk_or_concern:32dfe91e66608233",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

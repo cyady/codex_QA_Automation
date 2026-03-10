@@ -1,0 +1,584 @@
+{
+  "memo_id": "M-W3",
+  "updated_at": "2026-02-27T05:11:42.315802+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=8/10 | 기존 대비 값 유사도 높음(0.92), 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.50) - HITL 권장"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.47) - HITL 권장"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.00) - HITL 권장"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "normalized": {
+        "text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "미팅 내용 요약"
+      ],
+      "evidence_quote": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "start_char": 30,
+      "end_char": 199,
+      "line_no": 5,
+      "line_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.21)"
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 30일",
+      "normalized": {
+        "month": 9,
+        "day": 30
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "미팅 내용 요약"
+      ],
+      "evidence_quote": "9월 30일",
+      "start_char": 36,
+      "end_char": 42,
+      "line_no": 5,
+      "line_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1591",
+          "label": "첫 세일즈 미팅 일자",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.38)"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30일",
+      "normalized": {
+        "value": 30.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "미팅 내용 요약"
+      ],
+      "evidence_quote": "30일",
+      "start_char": 39,
+      "end_char": 42,
+      "line_no": 5,
+      "line_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.31)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "미팅 내용 요약"
+      ],
+      "evidence_quote": "Recatch",
+      "start_char": 69,
+      "end_char": 76,
+      "line_no": 5,
+      "line_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.14)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "미팅 내용 요약"
+      ],
+      "evidence_quote": "리캐치",
+      "start_char": 65,
+      "end_char": 68,
+      "line_no": 5,
+      "line_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+      "normalized": {
+        "text": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [
+        "리캐치(Recatch) 솔루션 핵심 요약"
+      ],
+      "evidence_quote": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+      "start_char": 225,
+      "end_char": 373,
+      "line_no": 9,
+      "line_text": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.55)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4일",
+      "normalized": {
+        "value": 4.0,
+        "unit": "days",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0011",
+      "evidence_section_path": [
+        "주요 기능 및 서비스"
+      ],
+      "evidence_quote": "4일",
+      "start_char": 1026,
+      "end_char": 1028,
+      "line_no": 45,
+      "line_text": "리드-미팅 전환율 극대화: 고객이 웹사이트에서 문의를 남기면, 설정된 조건(예: 예상 사용 인원 수)에 따라 담당자가 즉시 자동 배정되고 고객이 직접 담당자의 캘린더에서 미팅 시간을 선택할 수 있습니다. 이를 통해 평균 3~4일 걸리는 미팅 조율 시간을 1분 미만으로 단축하여 잠재 고객 이탈을 방지합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.04)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만 원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0016",
+      "evidence_section_path": [
+        "주요 기능 및 서비스"
+      ],
+      "evidence_quote": "3천만 원",
+      "start_char": 1508,
+      "end_char": 1513,
+      "line_no": 65,
+      "line_text": "데이터 기반 의사결정: \"박람회에 5억을 썼는데 계약 전환율이 5%이고, 블로그에 3천만 원을 썼는데 전환율이 25%라면 내년 예산을 블로그에 더 투자하자\"와 같은 데이터 기반의 효율적인 의사결정을 지원합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=7/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.13), NOT_FN 변경 전 HITL | 수동 확인 반영"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "evidence_segment_id": "S-0016",
+      "evidence_section_path": [
+        "주요 기능 및 서비스"
+      ],
+      "evidence_quote": "블로그",
+      "start_char": 1503,
+      "end_char": 1506,
+      "line_no": 65,
+      "line_text": "데이터 기반 의사결정: \"박람회에 5억을 썼는데 계약 전환율이 5%이고, 블로그에 3천만 원을 썼는데 전환율이 25%라면 내년 예산을 블로그에 더 투자하자\"와 같은 데이터 기반의 효율적인 의사결정을 지원합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "evidence_segment_id": "S-0019",
+      "evidence_section_path": [
+        "주요 기능 및 서비스"
+      ],
+      "evidence_quote": "뉴스레터",
+      "start_char": 1729,
+      "end_char": 1733,
+      "line_no": 77,
+      "line_text": "콘텐츠 제작 대행: 전문가 인터뷰 등을 통해 뉴스레터, 블로그 콘텐츠 등 고객사의 도메인에 맞는 전문 콘텐츠 제작을 대행합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.03)"
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+      "normalized": {
+        "text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0021",
+      "evidence_section_path": [
+        "주요 성공 사례"
+      ],
+      "evidence_quote": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+      "start_char": 1868,
+      "end_char": 1980,
+      "line_no": 89,
+      "line_text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.19)"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0021",
+      "evidence_section_path": [
+        "주요 성공 사례"
+      ],
+      "evidence_quote": "5개",
+      "start_char": 1920,
+      "end_char": 1922,
+      "line_no": 89,
+      "line_text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.17)"
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+      "normalized": {
+        "text": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0023",
+      "evidence_section_path": [
+        "주요 성공 사례"
+      ],
+      "evidence_quote": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+      "start_char": 2088,
+      "end_char": 2215,
+      "line_no": 97,
+      "line_text": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5378",
+          "label": "[T] 타임라인",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.23)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+      "normalized": {
+        "text": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0026",
+      "evidence_section_path": [
+        "질의응답 및 리캐치의 한계점"
+      ],
+      "evidence_quote": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+      "start_char": 2498,
+      "end_char": 2567,
+      "line_no": 113,
+      "line_text": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5657",
+          "label": "결제 상품 (제품)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0015",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+      "normalized": {
+        "text": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0027",
+      "evidence_section_path": [
+        "질의응답 및 리캐치의 한계점"
+      ],
+      "evidence_quote": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+      "start_char": 2571,
+      "end_char": 2629,
+      "line_no": 117,
+      "line_text": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.16)"
+    },
+    {
+      "candidate_id": "C-0016",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+      "normalized": {
+        "text": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0028",
+      "evidence_section_path": [
+        "결론 및 제안"
+      ],
+      "evidence_quote": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+      "start_char": 2640,
+      "end_char": 2727,
+      "line_no": 121,
+      "line_text": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.26)"
+    },
+    {
+      "candidate_id": "C-0017",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+      "normalized": {
+        "text": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0029",
+      "evidence_section_path": [
+        "결론 및 제안"
+      ],
+      "evidence_quote": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+      "start_char": 2729,
+      "end_char": 2891,
+      "line_no": 123,
+      "line_text": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=8/10 | 기존 NOT_FN 유지(cov=0.75)"
+    }
+  ]
+}

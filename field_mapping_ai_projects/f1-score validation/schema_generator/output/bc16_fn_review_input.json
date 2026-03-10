@@ -1,0 +1,361 @@
+[
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0001",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "0829 제안검토 1차작업: 상황인식 - 제안관점 정리 v1",
+    "normalized": {
+      "text": "0829 제안검토 1차작업: 상황인식 - 제안관점 정리 v1",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "0829 제안검토 1차작업: 상황인식 - 제안관점 정리 v1",
+      "start_char": 0,
+      "end_char": 33
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5074",
+        "label": "마케팅 팀 규모",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0002",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "일단 빠른 속도감을 위해 대표님에 보내서 '열시미 하고 이써여' 하는 느낌으로 전달 예정",
+    "normalized": {
+      "text": "일단 빠른 속도감을 위해 대표님에 보내서 '열시미 하고 이써여' 하는 느낌으로 전달 예정",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "일단 빠른 속도감을 위해 대표님에 보내서 '열시미 하고 이써여' 하는 느낌으로 전달 예정",
+      "start_char": 76,
+      "end_char": 125
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5370",
+        "label": "고객상황",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0003",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@박성준",
+    "normalized": {
+      "name": "박성준"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "@박성준",
+      "start_char": 131,
+      "end_char": 135
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0004",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김우진",
+    "normalized": {
+      "name": "김우진"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "@김우진",
+      "start_char": 143,
+      "end_char": 147
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0005",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "- 1-1/ a. 는 종합적인 재편 작업으로 @growth 랩의 역량이 필요합니다",
+    "normalized": {
+      "text": "- 1-1/ a. 는 종합적인 재편 작업으로 @growth 랩의 역량이 필요합니다",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0003",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "- 1-1/ a. 는 종합적인 재편 작업으로 @growth 랩의 역량이 필요합니다",
+      "start_char": 218,
+      "end_char": 263
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5074",
+        "label": "마케팅 팀 규모",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0006",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@growth",
+    "normalized": {
+      "name": "growth"
+    },
+    "evidence": {
+      "segment_id": "S-0003",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "@growth",
+      "start_char": 243,
+      "end_char": 250
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0007",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "- 1-2/ b. ~ f. 는 하이퍼타기팅으로 또한 리멤버와 함께 @growth 랩의 역량이 필요합니다",
+    "normalized": {
+      "text": "- 1-2/ b. ~ f. 는 하이퍼타기팅으로 또한 리멤버와 함께 @growth 랩의 역량이 필요합니다",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "- 1-2/ b. ~ f. 는 하이퍼타기팅으로 또한 리멤버와 함께 @growth 랩의 역량이 필요합니다",
+      "start_char": 264,
+      "end_char": 321
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0008",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@bd",
+    "normalized": {
+      "name": "bd"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "@bd",
+      "start_char": 371,
+      "end_char": 374
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0009",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "2/ 이런 작업을 진행중 입니다.",
+    "normalized": {
+      "text": "2/ 이런 작업을 진행중 입니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "2/ 이런 작업을 진행중 입니다.",
+      "start_char": 376,
+      "end_char": 394
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0010",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "진행 60% - Executive Summary @강대웅(Dario)",
+    "normalized": {
+      "text": "진행 60% - Executive Summary @강대웅(Dario)",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "진행 60% - Executive Summary @강대웅(Dario)",
+      "start_char": 395,
+      "end_char": 433
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4835",
+        "label": "MQL-Drop 사유",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0011",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "대기 00% - 제안서 (일부 커스텀 필요할 수 있음) @박성준(Scott)",
+    "normalized": {
+      "text": "대기 00% - 제안서 (일부 커스텀 필요할 수 있음) @박성준(Scott)",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "대기 00% - 제안서 (일부 커스텀 필요할 수 있음) @박성준(Scott)",
+      "start_char": 459,
+      "end_char": 501
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5657",
+        "label": "결제 상품 (제품)",
+        "type": "multi-select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W16",
+    "candidate_id": "C-0012",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@강대웅",
+    "normalized": {
+      "name": "강대웅"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "고객의 상황인식에 따르면 우리는 a. ~ i. 의 제안 기회를 가집니다"
+      ],
+      "exact_quote": "@강대웅",
+      "start_char": 422,
+      "end_char": 426
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

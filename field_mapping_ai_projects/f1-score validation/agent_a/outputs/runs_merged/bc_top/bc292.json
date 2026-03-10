@@ -1,0 +1,405 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W292",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "주요 문제 (1) - SEO"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 125,
+          "end_char": 128
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 297,
+          "end_char": 300
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 456,
+          "end_char": 459
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 870,
+          "end_char": 873
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "시스템 부재로 리드 응대가 지연되어 계약 전환율이 현저히 낮음.",
+      "normalized": {
+        "text": "시스템 부재로 리드 응대가 지연되어 계약 전환율이 현저히 낮음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "주요 문제 (2) - 비효율적 시스템"
+          ],
+          "exact_quote": "시스템 부재로 리드 응대가 지연되어 계약 전환율이 현저히 낮음.",
+          "start_char": 242,
+          "end_char": 277
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ed075f5b4e858551",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 324,
+          "end_char": 327
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 451,
+          "end_char": 454
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 482,
+          "end_char": 485
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 375,
+          "end_char": 378
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "솔루션 3: 리캐치 CRM 도입",
+      "normalized": {
+        "text": "솔루션 3: 리캐치 CRM 도입",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "솔루션 3: 리캐치 CRM 도입",
+          "start_char": 522,
+          "end_char": 539
+        }
+      ],
+      "dedupe_key": "collaboration_need:4a55098cd46070dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 529,
+          "end_char": 532
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "향후 계획 및 견적"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 748,
+          "end_char": 751
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 865,
+          "end_char": 868
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 899,
+          "end_char": 902
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자동화: 고객 업종에 맞는 사례 이메일 자동 발송.",
+      "normalized": {
+        "text": "자동화: 고객 업종에 맞는 사례 이메일 자동 발송.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "리캐치 제안 내용"
+          ],
+          "exact_quote": "자동화: 고객 업종에 맞는 사례 이메일 자동 발송.",
+          "start_char": 589,
+          "end_char": 617
+        }
+      ],
+      "dedupe_key": "action_item:af05cf2837128e81",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치: '웹사이트 + 콘텐츠 제작' 패키지 제안서 다음 주 수요일(11/5) 전까지 전달.",
+      "normalized": {
+        "text": "리캐치: '웹사이트 + 콘텐츠 제작' 패키지 제안서 다음 주 수요일(11/5) 전까지 전달.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "향후 계획 및 견적"
+          ],
+          "exact_quote": "리캐치: '웹사이트 + 콘텐츠 제작' 패키지 제안서 다음 주 수요일(11/5) 전까지 전달.",
+          "start_char": 748,
+          "end_char": 799
+        }
+      ],
+      "dedupe_key": "collaboration_need:f296e8708780f323",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11/5",
+      "normalized": {
+        "month": 11,
+        "day": 5,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "향후 계획 및 견적"
+          ],
+          "exact_quote": "11/5",
+          "start_char": 786,
+          "end_char": 790
+        }
+      ],
+      "dedupe_key": "timeline:c11d96dcae539716",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사: 제안서 수령 후 1주일 반 정도 검토 소요.",
+      "normalized": {
+        "text": "고객사: 제안서 수령 후 1주일 반 정도 검토 소요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "향후 계획 및 견적"
+          ],
+          "exact_quote": "고객사: 제안서 수령 후 1주일 반 정도 검토 소요.",
+          "start_char": 801,
+          "end_char": 830
+        }
+      ],
+      "dedupe_key": "action_item:db01aec472aefdaf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1주",
+      "normalized": {
+        "value": 1.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "향후 계획 및 견적"
+          ],
+          "exact_quote": "1주",
+          "start_char": 815,
+          "end_char": 817
+        }
+      ],
+      "dedupe_key": "duration:f0c05592aec994f2",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 853,
+          "end_char": 859
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 881,
+          "end_char": 887
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치: SEO 포함 시 1,000만 원은 어렵다고 전달.",
+      "normalized": {
+        "text": "리캐치: SEO 포함 시 1,000만 원은 어렵다고 전달.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "리캐치: SEO 포함 시 1,000만 원은 어렵다고 전달.",
+          "start_char": 865,
+          "end_char": 897
+        }
+      ],
+      "dedupe_key": "risk_or_concern:856632519b747840",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

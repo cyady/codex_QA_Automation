@@ -1,0 +1,239 @@
+[
+  {
+    "extracted_value": 50,
+    "field_definition": {
+      "id": "1608",
+      "label": "Seat 수",
+      "type": "number",
+      "category": "custom",
+      "display_order": 40,
+      "required": false,
+      "archive": false,
+      "caption": "예상치일 경우 보수적으로 기입해주세요. ",
+      "description": "프로 플랜이나 커스텀 플랜일 경우 예상되는 시트 수를 입력해주세요. ",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "노트 하단에 한국영업 40명, 마케팅팀 3명, 영업기획 인원 등을 포함하여 토탈 50명 정도라고 명시되어 있습니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+      }
+    ],
+    "field_definition": {
+      "id": "5178",
+      "label": "Tier",
+      "type": "select",
+      "category": "custom",
+      "display_order": 120,
+      "required": false,
+      "archive": false,
+      "caption": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요\n티어1 - 매출 1조 이상\n티어2 - 매출 1000억 이상\n티어3 - 매출 100억 이상 \n티어4 (캐시카우 티어) - 매출 50억 이상",
+      "description": "매출 규모를 기준으로 페르소나 티어를 구분해 주세요",
+      "default_value": [
+        {
+          "label": "Non-tier (new) - 10억 미만",
+          "order": 8,
+          "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+        }
+      ],
+      "attributes": {
+        "options": [
+          {
+            "label": "Tier1 - 매출 1조 이상",
+            "order": 1,
+            "value": "dd5ba692-5a94-49cb-8ac2-30184e854e6c"
+          },
+          {
+            "label": "Tier2 - 매출 1000억 이상",
+            "order": 2,
+            "value": "b73574dd-3563-446b-aecc-4bdd75592c55"
+          },
+          {
+            "label": "Tier3 - 매출 100억 이상",
+            "order": 3,
+            "value": "1a042556-ac0f-4c6f-83d7-24739b5a462f"
+          },
+          {
+            "label": "Tier 4 (캐시카우 티어) - 매출 50억 이상",
+            "order": 4,
+            "value": "69e2e217-b1c3-4d37-8a16-9db5c46c3f0a"
+          },
+          {
+            "label": "Tier 4 (old) - 투자유치 100억 이상",
+            "order": 5,
+            "value": "a5120d6f-b2ea-4071-87b3-92497ba4c4b2"
+          },
+          {
+            "label": "Tier 5 - 10억 이상 ~ 50억 미만",
+            "order": 6,
+            "value": "786693b9-d37a-4f6b-a494-4d8432171052"
+          },
+          {
+            "label": "❌ Non-tier (old) - 50억 미만",
+            "order": 7,
+            "value": "05331e01-2212-4014-a98c-372145ffe10e"
+          },
+          {
+            "label": "Non-tier (new) - 10억 미만",
+            "order": 8,
+            "value": "2bc68aa6-bfed-4b51-bf8b-6ab1dfce050b"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "미팅 대상인 한화비전은 한화그룹 계열사로, 매출 규모가 1조 원 이상인 기업군에 해당하여 Tier 1으로 분류했습니다."
+  },
+  {
+    "extracted_value": "- 마케팅 오토메이션 요구사항 상세 파악 (이소희 대리)\\n- STEP 시스템 연동 요구사항(항목, 범위, 주기 등) 및 제약 요건 확인\\n- 타 솔루션 대비 5년 사용 비용 Projection 작성 및 어필\\n- Phase 1(마케팅), Phase 2(세일즈) 단계별 접근 전략 수립",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "노트 내 '생각해 볼 문제들' 및 '비용 관련' 섹션에서 언급된 향후 과업들을 종합하여 작성했습니다."
+  },
+  {
+    "extracted_value": "- 이소희 대리: 마케팅 실무 담당자로 기능 시연 시 적극적으로 필기하며 관심을 보임\\n- 조만근 담당: 시스템 연동 및 비용 효율성 등 구체적인 도입 요건을 질의함\\n- 우동철 파트장: 세일즈 파트 의사결정에 관여하나 현재 예산 상황에 대해서는 유보적인 입장임",
+    "field_definition": {
+      "id": "5373",
+      "label": "담당자 페르소나",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 142,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "노트에서 언급된 각 담당자의 역할과 미팅 중 태도를 기반으로 페르소나를 구성했습니다."
+  },
+  {
+    "extracted_value": "현재 구체적인 예산은 정해지지 않았으나, 타 솔루션(세일즈포스 등) 대비 5년 장기 사용 시의 비용 경쟁력을 바탕으로 경영진을 설득할 계획입니다.",
+    "field_definition": {
+      "id": "5374",
+      "label": "[B] 예산",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 143,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "'아직 정하지 않은 상태'라는 언급과 함께 타사 대비 비용 비교가 필요하다는 요청 내용을 반영했습니다."
+  },
+  {
+    "extracted_value": "- 세일즈포스를 사용 중이나 실제 영업 현장에서 데이터 입력이 제대로 이루어지지 않음\\n- 메일침프를 사용 중인 마케팅 기능을 통합하고 자동화하려는 니즈 있음\\n- 파트너 시스템인 'STEP' 및 글로벌 시스템과의 데이터 연동 및 마이그레이션 필요성 대두",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "현재 고객사가 겪고 있는 도구 사용의 한계와 시스템 연동 필요성을 구체적으로 추출했습니다."
+  },
+  {
+    "extracted_value": "단계별 도입 희망 (Phase 1: 마케팅 오토메이션 우선 진행, Phase 2: 세일즈 CRM 검토)",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "마케팅 오토메이션을 먼저 하고 그 다음 세일즈 CRM을 하겠다는 단계별 접근 계획이 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "- 글로벌 표준(세일즈포스, 슈거CRM) 사용 원칙\\n- 기존 파트너 시스템(STEP)과의 연동 및 보안 제약 요건\\n- 기존 데이터의 마이그레이션 부담\\n- 개인 구글드라이브 사용 등 내부 보안 이슈",
+    "field_definition": {
+      "id": "5379",
+      "label": "블로커",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 148,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "도입 과정에서 장애물이 될 수 있는 글로벌 시스템 정책 및 기술적 연동 이슈를 정리했습니다."
+  },
+  {
+    "extracted_value": "한화비전",
+    "field_definition": {
+      "id": "5577",
+      "label": "법인명",
+      "type": "text",
+      "category": "custom",
+      "display_order": 164,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 제목에 고객사 법인명이 명시되어 있습니다."
+  },
+  {
+    "extracted_value": 3,
+    "field_definition": {
+      "id": "5773",
+      "label": "Commit Level",
+      "type": "number",
+      "category": "custom",
+      "display_order": 178,
+      "required": false,
+      "archive": false,
+      "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+      "description": "0,1,2,3,4로 써주세요",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "실무자와 의사결정 관여자의 니즈를 파악했고, 현재 시스템의 구체적인 문제점(SFDC 입력 누락 등)이 정의되었습니다. 또한 담당자별 우호적 관계가 형성되었으나 아직 예산과 타임라인이 확정되지 않았으므로 레벨 3으로 판단됩니다."
+  },
+  {
+    "extracted_value": "2025-08-05",
+    "field_definition": {
+      "id": "1591",
+      "label": "첫 세일즈 미팅 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 23,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "노트 제목의 '0805'와 현재 기준일(2026-02-26)을 고려할 때, 작년 8월 5일에 진행된 첫 세일즈 미팅으로 판단됩니다."
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W66",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "카페가 많이 생기고 있는데 바리스타 구하기가 어렵다. 저임금 반복노동이라서 청년들이 기피",
+      "normalized": {
+        "text": "카페가 많이 생기고 있는데 바리스타 구하기가 어렵다. 저임금 반복노동이라서 청년들이 기피",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "사업 현황"
+          ],
+          "exact_quote": "카페가 많이 생기고 있는데 바리스타 구하기가 어렵다. 저임금 반복노동이라서 청년들이 기피",
+          "start_char": 153,
+          "end_char": 202
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b82c0ddd90cc8cb7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월말",
+      "normalized": {
+        "month": 9,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "사업 현황"
+          ],
+          "exact_quote": "9월말",
+          "start_char": 141,
+          "end_char": 144
+        }
+      ],
+      "dedupe_key": "timeline:5f3bb1d646beb6e0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "16시간",
+      "normalized": {
+        "value": 16.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "사업 현황"
+          ],
+          "exact_quote": "16시간",
+          "start_char": 215,
+          "end_char": 219
+        }
+      ],
+      "dedupe_key": "duration:64764f2fdb057c89",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "타겟하는 메인 카페 프랜차이즈(메가커피, 스타벅스, 투썸 등)는 우리와 체급이 맞지 않아서, 좀 더 작은 프랜차이즈와 성공사례를 잘 만들어서 성공사례 들고 가고싶음. 이런 적합한 작은 프랜차이즈를 어떻게 만나고 어떻게 성공사례를 만들지가 고민\n영업팀 5명 정도 있는데, 리더 역할을 할 만한 인원은 없음. 대부분 인바운드에 응대하는 세일즈를 할 수 있는 수준이고, 사업개발성 업무를 할 수 있는 리더급이 없다. 어떻게 해결해야 할지",
+      "normalized": {
+        "text": "타겟하는 메인 카페 프랜차이즈(메가커피, 스타벅스, 투썸 등)는 우리와 체급이 맞지 않아서, 좀 더 작은 프랜차이즈와 성공사례를 잘 만들어서 성공사례 들고 가고싶음. 이런 적합한 작은 프랜차이즈를 어떻게 만나고 어떻게 성공사례를 만들지가 고민\n영업팀 5명 정도 있는데, 리더 역할을 할 만한 인원은 없음. 대부분 인바운드에 응대하는 세일즈를 할 수 있는 수준이고, 사업개발성 업무를 할 수 있는 리더급이 없다. 어떻게 해결해야 할지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "고민"
+          ],
+          "exact_quote": "타겟하는 메인 카페 프랜차이즈(메가커피, 스타벅스, 투썸 등)는 우리와 체급이 맞지 않아서, 좀 더 작은 프랜차이즈와 성공사례를 잘 만들어서 성공사례 들고 가고싶음. 이런 적합한 작은 프랜차이즈를 어떻게 만나고 어떻게 성공사례를 만들지가 고민\n영업팀 5명 정도 있는데, 리더 역할을 할 만한 인원은 없음. 대부분 인바운드에 응대하는 세일즈를 할 수 있는 수준이고, 사업개발성 업무를 할 수 있는 리더급이 없다. 어떻게 해결해야 할지",
+          "start_char": 363,
+          "end_char": 604
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c46c50e126ce3175",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "고민"
+          ],
+          "exact_quote": "5명",
+          "start_char": 503,
+          "end_char": 505
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "신사업(어웨어) 세일즈 전략 및 타겟 고객\n레퍼런스 확보 우선: 빅클라이언트 접근 전 중소 프랜차이즈 성공사례 축적\n고객 타겟 분류 (REX 그룹)\n \tR (Reference): 투썸플레이스 등 전국 인지도 높은 전략적 고객사\n    E (Emerging): 백억커피 등 빠르게 성장하는 신규 프랜차이즈 (메인 타겟)\n    X (Expansion): 원할머니보쌈, 본죽 등 커피 브랜드 확장 기업 (메인 타겟)\nE, X 카테고리가 메인 타겟, 특히 이머징 브랜드는 성장 잠재력과 초기 표준화 중요성\n세일즈 구조: SDR(전화 영업) → AE(대면 미팅) → 디렉터(고난이도 딜 클로징)",
+      "normalized": {
+        "text": "신사업(어웨어) 세일즈 전략 및 타겟 고객\n레퍼런스 확보 우선: 빅클라이언트 접근 전 중소 프랜차이즈 성공사례 축적\n고객 타겟 분류 (REX 그룹)\n \tR (Reference): 투썸플레이스 등 전국 인지도 높은 전략적 고객사\n    E (Emerging): 백억커피 등 빠르게 성장하는 신규 프랜차이즈 (메인 타겟)\n    X (Expansion): 원할머니보쌈, 본죽 등 커피 브랜드 확장 기업 (메인 타겟)\nE, X 카테고리가 메인 타겟, 특히 이머징 브랜드는 성장 잠재력과 초기 표준화 중요성\n세일즈 구조: SDR(전화 영업) → AE(대면 미팅) → 디렉터(고난이도 딜 클로징)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "고민"
+          ],
+          "exact_quote": "신사업(어웨어) 세일즈 전략 및 타겟 고객\n레퍼런스 확보 우선: 빅클라이언트 접근 전 중소 프랜차이즈 성공사례 축적\n고객 타겟 분류 (REX 그룹)\n \tR (Reference): 투썸플레이스 등 전국 인지도 높은 전략적 고객사\n    E (Emerging): 백억커피 등 빠르게 성장하는 신규 프랜차이즈 (메인 타겟)\n    X (Expansion): 원할머니보쌈, 본죽 등 커피 브랜드 확장 기업 (메인 타겟)\nE, X 카테고리가 메인 타겟, 특히 이머징 브랜드는 성장 잠재력과 초기 표준화 중요성\n세일즈 구조: SDR(전화 영업) → AE(대면 미팅) → 디렉터(고난이도 딜 클로징)",
+          "start_char": 606,
+          "end_char": 934
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3837640747218f9b",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "고민"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 894,
+          "end_char": 897
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "협력 제안 및 Next Action"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1041,
+          "end_char": 1044
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

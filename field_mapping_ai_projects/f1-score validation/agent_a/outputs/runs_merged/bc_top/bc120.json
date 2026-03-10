@@ -1,0 +1,214 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W120",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[ ] 랩업 메일 발송, 상품소개서 퀵전달 @강대웅(Dario)",
+      "normalized": {
+        "text": "[ ] 랩업 메일 발송, 상품소개서 퀵전달 @강대웅(Dario)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[ ] 랩업 메일 발송, 상품소개서 퀵전달 @강대웅(Dario)",
+          "start_char": 17,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "action_item:4f83d749b9c866e5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[ ] 상품제안 준비 > 발송 > 후속미팅 (차주) @강대웅(Dario)",
+      "normalized": {
+        "text": "[ ] 상품제안 준비 > 발송 > 후속미팅 (차주) @강대웅(Dario)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[ ] 상품제안 준비 > 발송 > 후속미팅 (차주) @강대웅(Dario)",
+          "start_char": 53,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "action_item:698a6fc36853e38a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Task 구체화 필요",
+      "normalized": {
+        "text": "Task 구체화 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Task 구체화 필요",
+          "start_char": 312,
+          "end_char": 323
+        }
+      ],
+      "dedupe_key": "action_item:1dafa41dcba320cd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 마케팅 이벤트 진행",
+      "normalized": {
+        "text": "2/ 마케팅 이벤트 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2/ 마케팅 이벤트 진행",
+          "start_char": 324,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "action_item:3879d4ab8a52bc69",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@bd",
+      "normalized": {
+        "name": "bd"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@bd",
+          "start_char": 13,
+          "end_char": 16
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:5f45a8effae04c78",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 41,
+          "end_char": 45
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 82,
+          "end_char": 86
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 122,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업 포인트 구체화/ 작은 것 부터 껴넣어가기",
+      "normalized": {
+        "text": "협업 포인트 구체화/ 작은 것 부터 껴넣어가기",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "협업 포인트 구체화/ 작은 것 부터 껴넣어가기",
+          "start_char": 349,
+          "end_char": 374
+        }
+      ],
+      "dedupe_key": "collaboration_need:51dae4e3f63fc4d4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 394,
+          "end_char": 397
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

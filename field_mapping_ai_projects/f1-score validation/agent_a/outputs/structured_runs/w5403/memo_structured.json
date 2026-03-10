@@ -1,0 +1,68 @@
+{
+  "memo_id": "M-W5403",
+  "text": "[250108-목]\n\n의제\n\n\n\n\n\nPOLARIS3D AMR(M2/M3) 제품 및 기술 구조 이해\n\n\n\nSMT 공정 적용 가능성 및 도킹·정밀 이송 검토\n\n\n\nLG 관점 주요 기술 질의(Q&A) 확인\n\n미팅 내용\n\n회사 및 제품 개요\n\n\n\n\n\nPOLARIS3D는 AMR 전문 기업으로, 서빙 로봇 약 3,400대 운영 경험을 기반으로 제조 물류 AMR 사업 확장\n\n\n\n주요 제품:\n\n\n\n\n\nM2: 컨베이어 타입, 중소형 물류 이송\n\n\n\nM3: SMT 대응 고정밀·다기능 AMR (컨베이어/포크/그리퍼)\n\n2. 질의응답\n\n\n\n\n\nM3\n\n\n\n\n\nSMT 설비 간 컨베이어 상단 높이(TOB)가 200mm인 경우가 많음\n\n\n\nM3는 200mm까지 대응 가능 → SMT 라인 호환성 확보\n\n\n\n\n\n바퀴 : QD\n\n\n\n가격 미정 (추후 확정)\n\n\n\n도킹 정밀도 실패 원인\n\n\n\n\n\n설비 각도, 바닥 상태, 적재물 흔들림 등 환경 변수 영향 큼\n\n\n\n실제 공정과 동일한 Twin 환경에서 반복 검증 수행\n\n\n\n공정 환경 관리가 도킹 성공률의 핵심 요소\n\n\n\n다품종 물류 관리 가능 여부\n\n\n\n\n\nQR 코드 및 RFID 기반 자재 식별\n\n\n\nFMS/MCS 관제 시스템으로 자재 위치·이력 추적 가능\n\n\n\nSMT 다품종·혼류 환경 대응 가능\n\n\n\n도킹 방식\n\n\n\n\n\n2D 카메라 기반 + 라이다 등 추가 센서 융합\n\n\n\n고속 주행 중에도 정밀 도킹 가능\n\n\n\n속도와 정밀도 동시 확보 목적\n\n\n\n센서 다수 적용 이유\n\n\n\n\n\n시야각 확장(기존 60° → 현재 120°)\n\n\n\n사각지대 최소화 및 충돌 방지 목적\n\n\n\n정면 도킹 \n\n\n\n\n\n기본은 안정적인 측면 도킹\n\n\n\n충전 및 특정 공정에서는 정면 정밀 도킹 적용\n\n\n\n공정 요구에 따라 커스터마이징 가능\n\n\n\nR&D 및 소프트웨어 역량\n\n\n\n\n\nSW 인력 약 18명\n\n\n\n로봇 제어·관제 중심의 소프트웨어 내재화 (ROS2 아님) \n\n\n\nROS1/ROS2 약점 \n\n\n\n\n\nPub/Sub 기반 → 메시지 도착 시점 보장 불가\n\n\n\nTime Sync 불안정 (특히 멀티 센서 + 고속 주행)\n\n\n\nROS2는 DDS 기반 → 안정성↑, 무겁고 지연↑\n\n\n\n현재는 Linux 기반 자체 OS/미들웨어 사용\n\n\n\nARM 보드 + REST API / WebSocket 구조로 경량·고속 제어 지향\n\n\n\n품질 및 안전 설계\n\n\n\n\n\n입고(IQC)–출하(OQC) 품질 관리 체계를 갖춤 \n\n\n\n인증 Safety Relay와 STO를 통해 S/W 오류와 무관한 H/W 안전 정지를 구현\n\n향후 일정\n\n\n\n\n\n추가 미팅 진행 예정 \n\n\n\n실무진 단위에서 박준석 책임과 긴밀히 소통 \n\n\n\nAction Item : 당사 M3 컨셉사진 잠정 중단",
+  "sections": [
+    {
+      "title": "의제",
+      "body": "POLARIS3D AMR(M2/M3) 제품 및 기술 구조 이해\n\n\n\nSMT 공정 적용 가능성 및 도킹·정밀 이송 검토\n\n\n\nLG 관점 주요 기술 질의(Q&A) 확인",
+      "bullet_items": []
+    },
+    {
+      "title": "회사 및 제품 개요",
+      "body": "POLARIS3D는 AMR 전문 기업으로, 서빙 로봇 약 3,400대 운영 경험을 기반으로 제조 물류 AMR 사업 확장",
+      "bullet_items": []
+    },
+    {
+      "title": "주요 제품:",
+      "body": "M2: 컨베이어 타입, 중소형 물류 이송\n\n\n\nM3: SMT 대응 고정밀·다기능 AMR (컨베이어/포크/그리퍼)",
+      "bullet_items": [
+        "질의응답"
+      ]
+    },
+    {
+      "title": "M3",
+      "body": "SMT 설비 간 컨베이어 상단 높이(TOB)가 200mm인 경우가 많음\n\n\n\nM3는 200mm까지 대응 가능 → SMT 라인 호환성 확보",
+      "bullet_items": []
+    },
+    {
+      "title": "도킹 정밀도 실패 원인",
+      "body": "설비 각도, 바닥 상태, 적재물 흔들림 등 환경 변수 영향 큼\n\n\n\n실제 공정과 동일한 Twin 환경에서 반복 검증 수행\n\n\n\n공정 환경 관리가 도킹 성공률의 핵심 요소\n\n\n\n다품종 물류 관리 가능 여부\n\n\n\n\n\nQR 코드 및 RFID 기반 자재 식별\n\n\n\nFMS/MCS 관제 시스템으로 자재 위치·이력 추적 가능\n\n\n\nSMT 다품종·혼류 환경 대응 가능",
+      "bullet_items": []
+    },
+    {
+      "title": "도킹 방식",
+      "body": "2D 카메라 기반 + 라이다 등 추가 센서 융합\n\n\n\n고속 주행 중에도 정밀 도킹 가능\n\n\n\n속도와 정밀도 동시 확보 목적",
+      "bullet_items": []
+    },
+    {
+      "title": "센서 다수 적용 이유",
+      "body": "시야각 확장(기존 60° → 현재 120°)\n\n\n\n사각지대 최소화 및 충돌 방지 목적",
+      "bullet_items": []
+    },
+    {
+      "title": "기본은 안정적인 측면 도킹",
+      "body": "충전 및 특정 공정에서는 정면 정밀 도킹 적용\n\n\n\n공정 요구에 따라 커스터마이징 가능",
+      "bullet_items": []
+    },
+    {
+      "title": "SW 인력 약 18명",
+      "body": "로봇 제어·관제 중심의 소프트웨어 내재화 (ROS2 아님)",
+      "bullet_items": []
+    },
+    {
+      "title": "ROS1/ROS2 약점",
+      "body": "Pub/Sub 기반 → 메시지 도착 시점 보장 불가\n\n\n\nTime Sync 불안정 (특히 멀티 센서 + 고속 주행)\n\n\n\nROS2는 DDS 기반 → 안정성↑, 무겁고 지연↑\n\n\n\n현재는 Linux 기반 자체 OS/미들웨어 사용\n\n\n\nARM 보드 + REST API / WebSocket 구조로 경량·고속 제어 지향",
+      "bullet_items": []
+    },
+    {
+      "title": "품질 및 안전 설계",
+      "body": "입고(IQC)–출하(OQC) 품질 관리 체계를 갖춤 \n\n\n\n인증 Safety Relay와 STO를 통해 S/W 오류와 무관한 H/W 안전 정지를 구현",
+      "bullet_items": []
+    },
+    {
+      "title": "추가 미팅 진행 예정",
+      "body": "실무진 단위에서 박준석 책임과 긴밀히 소통 \n\n\n\nAction Item : 당사 M3 컨셉사진 잠정 중단",
+      "bullet_items": []
+    }
+  ]
+}

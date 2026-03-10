@@ -1,0 +1,59 @@
+[
+  {
+    "memo_id": "M-W5",
+    "candidate_id": "C-0001",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+    "normalized": {
+      "text": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+      "start_char": 160,
+      "end_char": 233
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1606",
+        "label": "팀 슬러그",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W5",
+    "candidate_id": "C-0002",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@sales",
+    "normalized": {
+      "name": "sales"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@sales",
+      "start_char": 234,
+      "end_char": 240
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

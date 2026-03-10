@@ -1,0 +1,192 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W127",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "86.46",
+      "normalized": {
+        "year": 2086,
+        "month": 46,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "86.46",
+          "start_char": 104,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "timeline:a3f56a6c490df383",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이미 본부장님은 연간결제를 희망하고 있습니다!",
+      "normalized": {
+        "text": "이미 본부장님은 연간결제를 희망하고 있습니다!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "이미 본부장님은 연간결제를 희망하고 있습니다!",
+          "start_char": 214,
+          "end_char": 239
+        }
+      ],
+      "dedupe_key": "collaboration_need:051e8e9a23ee71e5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "월/연간 버전의 견적을 요청하신 것은 재무팀에 보고하기 위함이거 든요.1/ 따라서, 특별 10% 추가할인 카드는 아직 꺼내지 않아도 됩니다!",
+      "normalized": {
+        "text": "월/연간 버전의 견적을 요청하신 것은 재무팀에 보고하기 위함이거 든요.1/ 따라서, 특별 10% 추가할인 카드는 아직 꺼내지 않아도 됩니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "월/연간 버전의 견적을 요청하신 것은 재무팀에 보고하기 위함이거 든요.1/ 따라서, 특별 10% 추가할인 카드는 아직 꺼내지 않아도 됩니다!",
+          "start_char": 240,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "action_item:e32fc78159de276f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "혹여나 '연간을 희망했으나, 일시불 비용이 커 월간 or 일단 써보고 연간결정 하겠다'라고 하시길 경우 꺼내보겠습니다.",
+      "normalized": {
+        "text": "혹여나 '연간을 희망했으나, 일시불 비용이 커 월간 or 일단 써보고 연간결정 하겠다'라고 하시길 경우 꺼내보겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "혹여나 '연간을 희망했으나, 일시불 비용이 커 월간 or 일단 써보고 연간결정 하겠다'라고 하시길 경우 꺼내보겠습니다.",
+          "start_char": 319,
+          "end_char": 385
+        }
+      ],
+      "dedupe_key": "collaboration_need:c28f06fda6bc5c5c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "50만원",
+          "start_char": 399,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "25만원",
+          "start_char": 434,
+          "end_char": 438
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "25만원",
+          "start_char": 455,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "12개월",
+      "normalized": {
+        "value": 12.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "/"
+          ],
+          "exact_quote": "12개월",
+          "start_char": 406,
+          "end_char": 410
+        }
+      ],
+      "dedupe_key": "duration:597cd387204522ee",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

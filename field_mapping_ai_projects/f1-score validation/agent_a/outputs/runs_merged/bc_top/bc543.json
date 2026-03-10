@@ -1,0 +1,273 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W543",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 14,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 76,
+          "end_char": 81
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 301,
+          "end_char": 306
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 22,
+          "end_char": 27
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 86,
+          "end_char": 91
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 311,
+          "end_char": 316
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치(박성준): 고객 사례 콘텐츠 3건 제작에 대한 견적서 준비 및 전달",
+      "normalized": {
+        "text": "리캐치(박성준): 고객 사례 콘텐츠 3건 제작에 대한 견적서 준비 및 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치(박성준): 고객 사례 콘텐츠 3건 제작에 대한 견적서 준비 및 전달",
+          "start_char": 107,
+          "end_char": 148
+        }
+      ],
+      "dedupe_key": "collaboration_need:d87653f856028f10",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3건",
+      "normalized": {
+        "value": 3,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "3건",
+          "start_char": 127,
+          "end_char": 129
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "3건",
+          "start_char": 339,
+          "end_char": 341
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "3건",
+          "start_char": 531,
+          "end_char": 533
+        }
+      ],
+      "dedupe_key": "case_metric:b1bcbf4dcddea3fe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 107,
+          "end_char": 110
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 582,
+          "end_char": 585
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 704,
+          "end_char": 707
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 356,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 491,
+          "end_char": 494
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 373,
+          "end_char": 376
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Driver: 김무종 CEO"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 495,
+          "end_char": 498
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

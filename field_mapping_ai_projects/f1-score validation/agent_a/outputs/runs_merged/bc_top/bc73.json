@@ -1,0 +1,377 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W73",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CJ프레시웨이 김연미 책임은 투자 금액 산정에 도움을 요청했으며, 사업비와 성과 산출 근거를 요약하여 작성하고, 구체적인 상세 내용은 별첨(어펜딕스)으로 제출하기로 합의했습니다.",
+      "normalized": {
+        "text": "CJ프레시웨이 김연미 책임은 투자 금액 산정에 도움을 요청했으며, 사업비와 성과 산출 근거를 요약하여 작성하고, 구체적인 상세 내용은 별첨(어펜딕스)으로 제출하기로 합의했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "주요 논의 사항"
+          ],
+          "exact_quote": "CJ프레시웨이 김연미 책임은 투자 금액 산정에 도움을 요청했으며, 사업비와 성과 산출 근거를 요약하여 작성하고, 구체적인 상세 내용은 별첨(어펜딕스)으로 제출하기로 합의했습니다.",
+          "start_char": 176,
+          "end_char": 275
+        }
+      ],
+      "dedupe_key": "action_item:5d7fa7887e348019",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "50개",
+      "normalized": {
+        "value": 50,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "주요 논의 사항"
+          ],
+          "exact_quote": "50개",
+          "start_char": 552,
+          "end_char": 555
+        }
+      ],
+      "dedupe_key": "case_metric:311b25a3629a76e1",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "60개",
+      "normalized": {
+        "value": 60,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "주요 논의 사항"
+          ],
+          "exact_quote": "60개",
+          "start_char": 564,
+          "end_char": 567
+        }
+      ],
+      "dedupe_key": "case_metric:8c1ed7e824511540",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "비용 효율성 및 기대 효과"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 657,
+          "end_char": 663
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "비용 효율성 및 기대 효과"
+          ],
+          "exact_quote": "000원",
+          "start_char": 694,
+          "end_char": 698
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "비용 효율성 및 기대 효과"
+          ],
+          "exact_quote": "000원",
+          "start_char": 702,
+          "end_char": 706
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "비용 효율성 및 기대 효과"
+          ],
+          "exact_quote": "3개",
+          "start_char": 731,
+          "end_char": 733
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "개편 범위 및 디자인 방향"
+          ],
+          "exact_quote": "3개",
+          "start_char": 900,
+          "end_char": 902
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "개편 범위 및 디자인 방향"
+          ],
+          "exact_quote": "5개",
+          "start_char": 1047,
+          "end_char": 1049
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "개편 범위 및 디자인 방향"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1036,
+          "end_char": 1039
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "투자 심의 자료 초안 작성 및 전달: IT 투자 심의위원회 양식에 근거하여 초안을 작성하고, 상세 내용은 별첨으로 구성하여 늦어도 10월 14일 오전까지 PPT 파일 형태로 전달할 예정입니다.",
+      "normalized": {
+        "text": "투자 심의 자료 초안 작성 및 전달: IT 투자 심의위원회 양식에 근거하여 초안을 작성하고, 상세 내용은 별첨으로 구성하여 늦어도 10월 14일 오전까지 PPT 파일 형태로 전달할 예정입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "투자 심의 자료 초안 작성 및 전달: IT 투자 심의위원회 양식에 근거하여 초안을 작성하고, 상세 내용은 별첨으로 구성하여 늦어도 10월 14일 오전까지 PPT 파일 형태로 전달할 예정입니다.",
+          "start_char": 1122,
+          "end_char": 1229
+        }
+      ],
+      "dedupe_key": "collaboration_need:fe36b361dddc09f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 14일",
+      "normalized": {
+        "month": 10,
+        "day": 14
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "10월 14일",
+          "start_char": 1195,
+          "end_char": 1202
+        }
+      ],
+      "dedupe_key": "timeline:1228bb6afb0a39d9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "14일",
+      "normalized": {
+        "value": 14.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "14일",
+          "start_char": 1199,
+          "end_char": 1202
+        }
+      ],
+      "dedupe_key": "duration:f8b076e35002e801",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "견적 산출: 바람직한 페이지 구성(스코프)에 근거하여 견적을 산출하고, 초반 5페이지는 픽스 단가로, 이후 추가 페이지는 할인된 가격을 적용하여 진행합니다.",
+      "normalized": {
+        "text": "견적 산출: 바람직한 페이지 구성(스코프)에 근거하여 견적을 산출하고, 초반 5페이지는 픽스 단가로, 이후 추가 페이지는 할인된 가격을 적용하여 진행합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "견적 산출: 바람직한 페이지 구성(스코프)에 근거하여 견적을 산출하고, 초반 5페이지는 픽스 단가로, 이후 추가 페이지는 할인된 가격을 적용하여 진행합니다.",
+          "start_char": 1233,
+          "end_char": 1320
+        }
+      ],
+      "dedupe_key": "action_item:9961a0cfbfc9b718",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1335,
+          "end_char": 1338
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "초안 검토 및 피드백: 제작사 측이 전달한 초안을 검토 후, 내부 협의를 거쳐 피드백을 전달해야 합니다.",
+      "normalized": {
+        "text": "초안 검토 및 피드백: 제작사 측이 전달한 초안을 검토 후, 내부 협의를 거쳐 피드백을 전달해야 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "CJ프레시웨이 (김연미 책임)"
+          ],
+          "exact_quote": "초안 검토 및 피드백: 제작사 측이 전달한 초안을 검토 후, 내부 협의를 거쳐 피드백을 전달해야 합니다.",
+          "start_char": 1496,
+          "end_char": 1554
+        }
+      ],
+      "dedupe_key": "action_item:cc00b5f5fdafa710",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

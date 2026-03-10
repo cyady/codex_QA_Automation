@@ -1,0 +1,178 @@
+[
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0001",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "오후 1시",
+    "normalized": {
+      "time_period": "오후",
+      "hour": 1,
+      "minute": 0,
+      "kind": "time_expression"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "오후 1시",
+      "start_char": 1427,
+      "end_char": 1432
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0002",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "9월 18일",
+    "normalized": {
+      "month": 9,
+      "day": 18
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "9월 18일",
+      "start_char": 1415,
+      "end_char": 1421
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0003",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "18일",
+    "normalized": {
+      "value": 18.0,
+      "unit": "days",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "18일",
+      "start_char": 1418,
+      "end_char": 1421
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0004",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "5명",
+    "normalized": {
+      "value": 5,
+      "unit": "people",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "5명",
+      "start_char": 1155,
+      "end_char": 1157
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0006",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "SEO",
+    "normalized": {
+      "keyword": "SEO"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "SEO",
+      "start_char": 421,
+      "end_char": 424
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W26",
+    "candidate_id": "C-0007",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "블로그",
+    "normalized": {
+      "keyword": "블로그"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "블로그",
+      "start_char": 1692,
+      "end_char": 1695
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

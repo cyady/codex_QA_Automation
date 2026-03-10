@@ -1,0 +1,196 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W95",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지금까지 대표의 인맥과 소개를 통한 수임이 대부분이었으나, 한계를 느끼고 콜드메일 발송 등 새로운 리드 확보 방안 모색 중",
+      "normalized": {
+        "text": "지금까지 대표의 인맥과 소개를 통한 수임이 대부분이었으나, 한계를 느끼고 콜드메일 발송 등 새로운 리드 확보 방안 모색 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "지금까지 대표의 인맥과 소개를 통한 수임이 대부분이었으나, 한계를 느끼고 콜드메일 발송 등 새로운 리드 확보 방안 모색 중",
+          "start_char": 18,
+          "end_char": 86
+        }
+      ],
+      "dedupe_key": "action_item:1964b76764d6ad97",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 운영 중인 홈페이지는 임시로 만들어진 수준이라 문의가 거의 없어 전면적인 리뉴얼이 필요한 상태",
+      "normalized": {
+        "text": "현재 운영 중인 홈페이지는 임시로 만들어진 수준이라 문의가 거의 없어 전면적인 리뉴얼이 필요한 상태",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 운영 중인 홈페이지는 임시로 만들어진 수준이라 문의가 거의 없어 전면적인 리뉴얼이 필요한 상태",
+          "start_char": 87,
+          "end_char": 142
+        }
+      ],
+      "dedupe_key": "action_item:3c54a2994d4cc4ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "‘법무법인 대륜’을 벤치마킹하여, 검색 시 자사 홈페이지가 상위에 노출되기를 희망함",
+      "normalized": {
+        "text": "‘법무법인 대륜’을 벤치마킹하여, 검색 시 자사 홈페이지가 상위에 노출되기를 희망함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "‘법무법인 대륜’을 벤치마킹하여, 검색 시 자사 홈페이지가 상위에 노출되기를 희망함",
+          "start_char": 143,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "collaboration_need:ca46f68941854912",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "처음엔 콜드메일 발송 후 리드 관리를 위한 CRM 도입을 고려해 문의 주셨는데, CRM을 잘 활용하기 위해선 리드젠 퍼널 먼저 구축하셔야 한다고 말씀드렸고, 그로스 + ABM 모두 설명 드림",
+      "normalized": {
+        "text": "처음엔 콜드메일 발송 후 리드 관리를 위한 CRM 도입을 고려해 문의 주셨는데, CRM을 잘 활용하기 위해선 리드젠 퍼널 먼저 구축하셔야 한다고 말씀드렸고, 그로스 + ABM 모두 설명 드림",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "처음엔 콜드메일 발송 후 리드 관리를 위한 CRM 도입을 고려해 문의 주셨는데, CRM을 잘 활용하기 위해선 리드젠 퍼널 먼저 구축하셔야 한다고 말씀드렸고, 그로스 + ABM 모두 설명 드림",
+          "start_char": 190,
+          "end_char": 296
+        }
+      ],
+      "dedupe_key": "action_item:f1fb5bf4356b17f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "입사한지 1주일 되심 -> 내부설득이 필요한 경우 챔피언 역할 못 하실 수 있음",
+      "normalized": {
+        "text": "입사한지 1주일 되심 -> 내부설득이 필요한 경우 챔피언 역할 못 하실 수 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "입사한지 1주일 되심 -> 내부설득이 필요한 경우 챔피언 역할 못 하실 수 있음",
+          "start_char": 488,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "action_item:d9952a70f3d56964",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가 파악 필요",
+      "normalized": {
+        "text": "추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "추가 파악 필요",
+          "start_char": 536,
+          "end_char": 544
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "추가 파악 필요",
+          "start_char": 548,
+          "end_char": 556
+        }
+      ],
+      "dedupe_key": "action_item:8e454a5edaff6077",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1주",
+      "normalized": {
+        "value": 1.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1주",
+          "start_char": 493,
+          "end_char": 495
+        }
+      ],
+      "dedupe_key": "duration:f0c05592aec994f2",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 284,
+          "end_char": 287
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

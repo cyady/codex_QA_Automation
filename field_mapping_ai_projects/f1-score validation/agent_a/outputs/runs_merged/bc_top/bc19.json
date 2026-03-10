@@ -1,0 +1,271 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W19",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+      "normalized": {
+        "text": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025년 8월 19일, 워트인텔리전스의 신예림 파트장과 시니어 매니저가 비즈니스캔버스의 박성준과 만남을 가졌습니다. 워트인텔리전스는 현재 5개의 CRM 솔루션(세일즈포스, 허브스팟, 파이프라이브, 리캐치, 세일즈맵)을 비교 검토 중이며, 가격과 원하는 기능 구현 여부를 중요하게 고려하고 있습니다.",
+          "start_char": 0,
+          "end_char": 167
+        }
+      ],
+      "dedupe_key": "action_item:3346da5ad3f3d8c0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "8월 19일",
+      "normalized": {
+        "month": 8,
+        "day": 19
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "8월 19일",
+          "start_char": 6,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "timeline:f092c768d9bd06ef",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "19일",
+      "normalized": {
+        "value": 19.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "19일",
+          "start_char": 9,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "duration:a75ee669dcd44649",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5개",
+          "start_char": 78,
+          "end_char": 80
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 111,
+          "end_char": 114
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "리캐치의 주요 기능 및 한계"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 840,
+          "end_char": 843
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리캐치의 주요 기능 및 한계"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1041,
+          "end_char": 1044
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "리캐치의 주요 기능 및 한계"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1547,
+          "end_char": 1550
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "워트인텔리전스는 마케팅과 세일즈 측면에서 반드시 필요한 기능들을 꼽았습니다.",
+      "normalized": {
+        "text": "워트인텔리전스는 마케팅과 세일즈 측면에서 반드시 필요한 기능들을 꼽았습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "워트인텔리전스가 원하는 기능 (딜브레이커)"
+          ],
+          "exact_quote": "워트인텔리전스는 마케팅과 세일즈 측면에서 반드시 필요한 기능들을 꼽았습니다.",
+          "start_char": 194,
+          "end_char": 236
+        }
+      ],
+      "dedupe_key": "action_item:66f1f3f0b85b4789",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+      "normalized": {
+        "text": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "워트인텔리전스가 원하는 기능 (딜브레이커)"
+          ],
+          "exact_quote": "API 연동: 내부 서비스(어드민) 및 외부 서비스(스틱, 슬랙 등)와의 연동을 위해 API 기능이 필요합니다.",
+          "start_char": 425,
+          "end_char": 487
+        }
+      ],
+      "dedupe_key": "action_item:ebd72395f26dc992",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+      "normalized": {
+        "text": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "워트인텔리전스가 원하는 기능 (딜브레이커)"
+          ],
+          "exact_quote": "워크플로우 설정: 리드 스코어링이나 다운로드 이후에 자동으로 메일 시퀀스를 보낼 수 있는 기능이 필요합니다.",
+          "start_char": 488,
+          "end_char": 548
+        }
+      ],
+      "dedupe_key": "action_item:687e7ed5182c5814",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "박성준은 워트인텔리전스가 요청한 기능들을 모두 제공하지는 못할 것 같다고 솔직하게 말하며, 리캐치의 주요 기능들을 시연했습니다.",
+      "normalized": {
+        "text": "박성준은 워트인텔리전스가 요청한 기능들을 모두 제공하지는 못할 것 같다고 솔직하게 말하며, 리캐치의 주요 기능들을 시연했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "리캐치의 주요 기능 및 한계"
+          ],
+          "exact_quote": "박성준은 워트인텔리전스가 요청한 기능들을 모두 제공하지는 못할 것 같다고 솔직하게 말하며, 리캐치의 주요 기능들을 시연했습니다.",
+          "start_char": 789,
+          "end_char": 860
+        }
+      ],
+      "dedupe_key": "action_item:168ed7f8f300b0ce",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+      "normalized": {
+        "text": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "리캐치의 주요 기능 및 한계"
+          ],
+          "exact_quote": "현재 리캐치는 리드 스코어링, 이메일 송수신 기록 기능은 제공하지 않지만, 마케팅 수신 동의 여부에 따라 이메일을 발송하는 기능은 개발 중이라고 밝혔습니다.",
+          "start_char": 1544,
+          "end_char": 1631
+        }
+      ],
+      "dedupe_key": "action_item:616d9a2c65faa4a9",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

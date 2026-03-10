@@ -1,0 +1,318 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W171",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "과거 도입 주체는 마케팅 본부장 오늘 만난 분들은 그 아래 실무자분들",
+      "normalized": {
+        "text": "과거 도입 주체는 마케팅 본부장 오늘 만난 분들은 그 아래 실무자분들",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "[이전 내용 참고하기]"
+          ],
+          "exact_quote": "과거 도입 주체는 마케팅 본부장 오늘 만난 분들은 그 아래 실무자분들",
+          "start_char": 180,
+          "end_char": 218
+        }
+      ],
+      "dedupe_key": "collaboration_need:a87773a7f0d1a376",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 마케팅&세일즈 협업 구조",
+      "normalized": {
+        "text": "4. 마케팅&세일즈 협업 구조",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "4. 마케팅&세일즈 협업 구조",
+          "start_char": 264,
+          "end_char": 280
+        }
+      ],
+      "dedupe_key": "collaboration_need:6d8d5f753718bfe9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈에서는 그 리스트에서 그들만의 퀄리파이를 거쳐서 세일즈를 진행",
+      "normalized": {
+        "text": "세일즈에서는 그 리스트에서 그들만의 퀄리파이를 거쳐서 세일즈를 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "세일즈에서는 그 리스트에서 그들만의 퀄리파이를 거쳐서 세일즈를 진행",
+          "start_char": 324,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "action_item:581cf95b1e2719d1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드를 넘긴 후에는 마케팅팀 가시성 0 -> 정보 공유와 세일즈 진행 현황 등 마케팅단에서 목마름이 아주 큰 상황",
+      "normalized": {
+        "text": "리드를 넘긴 후에는 마케팅팀 가시성 0 -> 정보 공유와 세일즈 진행 현황 등 마케팅단에서 목마름이 아주 큰 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "리드를 넘긴 후에는 마케팅팀 가시성 0 -> 정보 공유와 세일즈 진행 현황 등 마케팅단에서 목마름이 아주 큰 상황",
+          "start_char": 362,
+          "end_char": 425
+        }
+      ],
+      "dedupe_key": "action_item:7b90f2dada6e3ad8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 429,
+          "end_char": 432
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 440,
+          "end_char": 443
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캡하자면"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 949,
+          "end_char": 952
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치는 세일즈에서 세팅했었고 마케팅에서는 공유를 받지 못함",
+      "normalized": {
+        "text": "리캐치는 세일즈에서 세팅했었고 마케팅에서는 공유를 받지 못함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "세일즈만 20명 규모 (전체 70명)"
+          ],
+          "exact_quote": "리캐치는 세일즈에서 세팅했었고 마케팅에서는 공유를 받지 못함",
+          "start_char": 440,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "collaboration_need:2576e279ad230cdd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기업 세미나 사례 소개하고 @김한규(Lucky) 님 링띤 레버리지 하니, 세미나 진행을 원함ㅎㅎㅎㅎ",
+      "normalized": {
+        "text": "기업 세미나 사례 소개하고 @김한규(Lucky) 님 링띤 레버리지 하니, 세미나 진행을 원함ㅎㅎㅎㅎ",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "(실제 사용자 리스트를 살펴보면 모두 영업팀만 들어와 있음)"
+          ],
+          "exact_quote": "기업 세미나 사례 소개하고 @김한규(Lucky) 님 링띤 레버리지 하니, 세미나 진행을 원함ㅎㅎㅎㅎ",
+          "start_char": 518,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "action_item:01649a89373aba85",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "위와 동시에 성준이 미팅 팔로업으로 담당자분들께 메일보내면, 담당 과장님이 본부장님 CC 걸어서 회신 거기에 대한 회신으로 기업 세미나 사례 등 소개하면서 자연스레 노출시키고, 마케팅과 세일즈가 왜 함께 협업하고 공유해야 회사의 성과가 올라가는지에 대한 중요성 언급",
+      "normalized": {
+        "text": "위와 동시에 성준이 미팅 팔로업으로 담당자분들께 메일보내면, 담당 과장님이 본부장님 CC 걸어서 회신 거기에 대한 회신으로 기업 세미나 사례 등 소개하면서 자연스레 노출시키고, 마케팅과 세일즈가 왜 함께 협업하고 공유해야 회사의 성과가 올라가는지에 대한 중요성 언급",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "(실제 사용자 리스트를 살펴보면 모두 영업팀만 들어와 있음)"
+          ],
+          "exact_quote": "위와 동시에 성준이 미팅 팔로업으로 담당자분들께 메일보내면, 담당 과장님이 본부장님 CC 걸어서 회신 거기에 대한 회신으로 기업 세미나 사례 등 소개하면서 자연스레 노출시키고, 마케팅과 세일즈가 왜 함께 협업하고 공유해야 회사의 성과가 올라가는지에 대한 중요성 언급",
+          "start_char": 608,
+          "end_char": 756
+        }
+      ],
+      "dedupe_key": "action_item:b82d6354b8c739f1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "(실제 사용자 리스트를 살펴보면 모두 영업팀만 들어와 있음)"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 533,
+          "end_char": 537
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이유는 비용문제, 세일즈맨이 계속 늘어나는데 인당 비용이 부담스러웠음 (참고로 핑거세일즈 비용은 인당 3~4만원 수준…)",
+      "normalized": {
+        "text": "이유는 비용문제, 세일즈맨이 계속 늘어나는데 인당 비용이 부담스러웠음 (참고로 핑거세일즈 비용은 인당 3~4만원 수준…)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "(실제 사용자 리스트를 살펴보면 모두 영업팀만 들어와 있음)"
+          ],
+          "exact_quote": "이유는 비용문제, 세일즈맨이 계속 늘어나는데 인당 비용이 부담스러웠음 (참고로 핑거세일즈 비용은 인당 3~4만원 수준…)",
+          "start_char": 844,
+          "end_char": 911
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cc10a1f3e0ed0f67",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4만원",
+      "normalized": {
+        "value": 40000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "(실제 사용자 리스트를 살펴보면 모두 영업팀만 들어와 있음)"
+          ],
+          "exact_quote": "4만원",
+          "start_char": 903,
+          "end_char": 906
+        }
+      ],
+      "dedupe_key": "budget:1d7b482fb0695733",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 리캐치 재계약, 나아가 업셀을 위해서는 세일즈팀에 대한 설득 과정이 꼭 필요한 상황 (생각보다 굉장히 경직된 조직 구조로 보이지만, 최근 사원, 대리, 과장 직급 체계를 리더쉽 급의 본부장과 프로로 간소화하는 등 조직문화 개선 니즈는 있음",
+      "normalized": {
+        "text": "다만, 리캐치 재계약, 나아가 업셀을 위해서는 세일즈팀에 대한 설득 과정이 꼭 필요한 상황 (생각보다 굉장히 경직된 조직 구조로 보이지만, 최근 사원, 대리, 과장 직급 체계를 리더쉽 급의 본부장과 프로로 간소화하는 등 조직문화 개선 니즈는 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캡하자면"
+          ],
+          "exact_quote": "다만, 리캐치 재계약, 나아가 업셀을 위해서는 세일즈팀에 대한 설득 과정이 꼭 필요한 상황 (생각보다 굉장히 경직된 조직 구조로 보이지만, 최근 사원, 대리, 과장 직급 체계를 리더쉽 급의 본부장과 프로로 간소화하는 등 조직문화 개선 니즈는 있음",
+          "start_char": 945,
+          "end_char": 1082
+        }
+      ],
+      "dedupe_key": "action_item:30919e37c678a30d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

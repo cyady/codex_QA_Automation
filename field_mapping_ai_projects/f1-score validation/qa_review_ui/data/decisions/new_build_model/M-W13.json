@@ -1,0 +1,608 @@
+{
+  "memo_id": "M-W13",
+  "updated_at": "2026-02-27T05:11:42.322601+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "FP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 \" 내용에 대놓고 2차미팅이라고 적혀있음\" | 수동 확인 반영"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.62) - HITL 권장"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.30) - HITL 권장"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.73) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.40) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.88) - HITL 권장"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.82) - HITL 권장"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@sales",
+      "start_char": 40,
+      "end_char": 46,
+      "line_no": 1,
+      "line_text": "250916 이파피루스(모터센스) 윤일근 부서장님 2차미팅 위닝시나리오 @sales",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.20)"
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고객사례 역시 너무 기술 중심으로 어렵고 딱딱하게 적혀있음",
+      "normalized": {
+        "text": "고객사례 역시 너무 기술 중심으로 어렵고 딱딱하게 적혀있음",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "왜 그동안 마케팅에 돈을 써도 잘 안됐는가?"
+      ],
+      "evidence_quote": "고객사례 역시 너무 기술 중심으로 어렵고 딱딱하게 적혀있음",
+      "start_char": 240,
+      "end_char": 272,
+      "line_no": 11,
+      "line_text": "고객사례 역시 너무 기술 중심으로 어렵고 딱딱하게 적혀있음",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=7/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.18), NOT_FN 변경 전 HITL | 수동 확인 반영"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(요청) @김한규(Lucky) 지금 하지 않으면 안된다 를 밀만한 좋은 내러티브가 뭐가 있을지 조언 부탁드립니다! 대기업 타겟이라고 하기엔 좀 늦은 상황이라서요",
+      "normalized": {
+        "text": "(요청) @김한규(Lucky) 지금 하지 않으면 안된다 를 밀만한 좋은 내러티브가 뭐가 있을지 조언 부탁드립니다! 대기업 타겟이라고 하기엔 좀 늦은 상황이라서요",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "왜 그동안 마케팅에 돈을 써도 잘 안됐는가?"
+      ],
+      "evidence_quote": "(요청) @김한규(Lucky) 지금 하지 않으면 안된다 를 밀만한 좋은 내러티브가 뭐가 있을지 조언 부탁드립니다! 대기업 타겟이라고 하기엔 좀 늦은 상황이라서요",
+      "start_char": 391,
+      "end_char": 480,
+      "line_no": 16,
+      "line_text": "(요청) @김한규(Lucky) 지금 하지 않으면 안된다 를 밀만한 좋은 내러티브가 뭐가 있을지 조언 부탁드립니다! 대기업 타겟이라고 하기엔 좀 늦은 상황이라서요",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.20)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "왜 그동안 마케팅에 돈을 써도 잘 안됐는가?"
+      ],
+      "evidence_quote": "@김한규",
+      "start_char": 396,
+      "end_char": 400,
+      "line_no": 16,
+      "line_text": "(요청) @김한규(Lucky) 지금 하지 않으면 안된다 를 밀만한 좋은 내러티브가 뭐가 있을지 조언 부탁드립니다! 대기업 타겟이라고 하기엔 좀 늦은 상황이라서요",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "6개",
+      "normalized": {
+        "value": 6,
+        "unit": "count",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [
+        "왜 그동안 마케팅에 돈을 써도 잘 안됐는가?"
+      ],
+      "evidence_quote": "6개",
+      "start_char": 145,
+      "end_char": 147,
+      "line_no": 8,
+      "line_text": "오가닉 키워드 6개로 현저히 부족, 백링크는 천개정도 되는데 전부 이파피루스 홈페이지",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.17)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 6:50\n",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 6,
+        "minute": 50,
+        "kind": "time_expression"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [
+        "왜 그동안 마케팅에 돈을 써도 잘 안됐는가?"
+      ],
+      "evidence_quote": "오전 6:50\n",
+      "start_char": 649,
+      "end_char": 657,
+      "line_no": 25,
+      "line_text": "강대웅(Dario)  오늘 오전 6:50",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "close_date",
+          "label": "close_date",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=7/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.12), NOT_FN 변경 전 HITL | 수동 확인 반영"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드 마그넷, 랜딩페이지, DB 활용, 블로그 등 다양한 제안안 정리 및 장표 보강 후 전달 / 다음주까지",
+      "normalized": {
+        "text": "리드 마그넷, 랜딩페이지, DB 활용, 블로그 등 다양한 제안안 정리 및 장표 보강 후 전달 / 다음주까지",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "리드 마그넷, 랜딩페이지, DB 활용, 블로그 등 다양한 제안안 정리 및 장표 보강 후 전달 / 다음주까지",
+      "start_char": 984,
+      "end_char": 1043,
+      "line_no": 40,
+      "line_text": "리드 마그넷, 랜딩페이지, DB 활용, 블로그 등 다양한 제안안 정리 및 장표 보강 후 전달 / 다음주까지",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=8/10 | 기존 NOT_FN 유지(cov=0.77)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버 DB 부서명, 타겟팅 가능 범위 등 추가 정보 리멤버 측에 확인 후 공유 / 다음주까지",
+      "normalized": {
+        "text": "리멤버 DB 부서명, 타겟팅 가능 범위 등 추가 정보 리멤버 측에 확인 후 공유 / 다음주까지",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "리멤버 DB 부서명, 타겟팅 가능 범위 등 추가 정보 리멤버 측에 확인 후 공유 / 다음주까지",
+      "start_char": 1081,
+      "end_char": 1133,
+      "line_no": 42,
+      "line_text": "리멤버 DB 부서명, 타겟팅 가능 범위 등 추가 정보 리멤버 측에 확인 후 공유 / 다음주까지",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=8/10 | 기존 NOT_FN 유지(cov=0.83)"
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "모터센스 전담 마케터는 1명, 콘텐츠 마케팅 위주 업무만 수행 중이며, 전략 수립 및 KPI 관리가 어려움",
+      "normalized": {
+        "text": "모터센스 전담 마케터는 1명, 콘텐츠 마케팅 위주 업무만 수행 중이며, 전략 수립 및 KPI 관리가 어려움",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "모터센스 전담 마케터는 1명, 콘텐츠 마케팅 위주 업무만 수행 중이며, 전략 수립 및 KPI 관리가 어려움",
+      "start_char": 1158,
+      "end_char": 1217,
+      "line_no": 45,
+      "line_text": "모터센스 전담 마케터는 1명, 콘텐츠 마케팅 위주 업무만 수행 중이며, 전략 수립 및 KPI 관리가 어려움",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.30)"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "컨설팅을 통한 마케팅 전략 수립 및 실행의 필요성 인지",
+      "normalized": {
+        "text": "컨설팅을 통한 마케팅 전략 수립 및 실행의 필요성 인지",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "컨설팅을 통한 마케팅 전략 수립 및 실행의 필요성 인지",
+      "start_char": 1218,
+      "end_char": 1248,
+      "line_no": 46,
+      "line_text": "컨설팅을 통한 마케팅 전략 수립 및 실행의 필요성 인지",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.23)"
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제품 소개서 다운로드 시 연락처 입력 등 리드 마그넷 도입 필요성을 강조함.",
+      "normalized": {
+        "text": "제품 소개서 다운로드 시 연락처 입력 등 리드 마그넷 도입 필요성을 강조함.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "제품 소개서 다운로드 시 연락처 입력 등 리드 마그넷 도입 필요성을 강조함.",
+      "start_char": 1422,
+      "end_char": 1464,
+      "line_no": 50,
+      "line_text": "제품 소개서 다운로드 시 연락처 입력 등 리드 마그넷 도입 필요성을 강조함.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.20)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "폴라리스쓰리디 사례를 들어, 블로그 및 CTA 개선 후 노출이 급증한 사례 공유",
+      "normalized": {
+        "text": "폴라리스쓰리디 사례를 들어, 블로그 및 CTA 개선 후 노출이 급증한 사례 공유",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "폴라리스쓰리디 사례를 들어, 블로그 및 CTA 개선 후 노출이 급증한 사례 공유",
+      "start_char": 1536,
+      "end_char": 1580,
+      "line_no": 52,
+      "line_text": "폴라리스쓰리디 사례를 들어, 블로그 및 CTA 개선 후 노출이 급증한 사례 공유",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5173",
+          "label": "솔루션 니즈",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.27)"
+    },
+    {
+      "candidate_id": "C-0015",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "A) 기존 리멤버 세일즈 리서치의 한계(의결권자 타겟 시 전환 저조)와 리드 마그넷 활용 시 전환율 50% 이상, 의사결정권자 비율 61% 이상 등 리포트북 사례 공유",
+      "normalized": {
+        "text": "A) 기존 리멤버 세일즈 리서치의 한계(의결권자 타겟 시 전환 저조)와 리드 마그넷 활용 시 전환율 50% 이상, 의사결정권자 비율 61% 이상 등 리포트북 사례 공유",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "A) 기존 리멤버 세일즈 리서치의 한계(의결권자 타겟 시 전환 저조)와 리드 마그넷 활용 시 전환율 50% 이상, 의사결정권자 비율 61% 이상 등 리포트북 사례 공유",
+      "start_char": 1702,
+      "end_char": 1795,
+      "line_no": 56,
+      "line_text": "A) 기존 리멤버 세일즈 리서치의 한계(의결권자 타겟 시 전환 저조)와 리드 마그넷 활용 시 전환율 50% 이상, 의사결정권자 비율 61% 이상 등 리포트북 사례 공유",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5075",
+          "label": "세일즈 팀 규모",
+          "type": "select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0017",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "김민재(Jay)  바로 지금"
+      ],
+      "evidence_quote": "CTA",
+      "start_char": 1558,
+      "end_char": 1561,
+      "line_no": 52,
+      "line_text": "폴라리스쓰리디 사례를 들어, 블로그 및 CTA 개선 후 노출이 급증한 사례 공유",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0018",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "확인 필요. 문자는 불가능할 것으로 보여짐.",
+      "normalized": {
+        "text": "확인 필요. 문자는 불가능할 것으로 보여짐.",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "Q) 각 리드별로 열람 여부 확인 가능한지?"
+      ],
+      "evidence_quote": "확인 필요. 문자는 불가능할 것으로 보여짐.",
+      "start_char": 1944,
+      "end_char": 1968,
+      "line_no": 60,
+      "line_text": "확인 필요. 문자는 불가능할 것으로 보여짐.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=7/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.17), NOT_FN 변경 전 HITL | 수동 확인 반영"
+    },
+    {
+      "candidate_id": "C-0019",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "Q) 각 리드별로 열람 여부 확인 가능한지?"
+      ],
+      "evidence_quote": "@growth",
+      "start_char": 2026,
+      "end_char": 2033,
+      "line_no": 61,
+      "line_text": "Q) 리멤버 DB 빼고 리캐치의 리드마그넷+상세페이지만 계약도 가능한지? 사실 본질은 이거라고 생각함 @growth",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.18)"
+    },
+    {
+      "candidate_id": "C-0021",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "Q) 각 리드별로 열람 여부 확인 가능한지?"
+      ],
+      "evidence_quote": "리캐치",
+      "start_char": 1982,
+      "end_char": 1985,
+      "line_no": 61,
+      "line_text": "Q) 리멤버 DB 빼고 리캐치의 리드마그넷+상세페이지만 계약도 가능한지? 사실 본질은 이거라고 생각함 @growth",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    }
+  ]
+}

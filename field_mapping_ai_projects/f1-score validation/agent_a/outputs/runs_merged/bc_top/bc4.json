@@ -1,0 +1,87 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W4",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+      "normalized": {
+        "text": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "저희 해커톤 행사가 내일 종료되는데 곧 사업부 PI가 시작되어 CRM 영역과 연계하려고 구상중입니다!그래서 곧 As-Is 분석 단계 때 이러한 문제점들을 넣고 To-Be 해결안으로 CRM도입을 하려고 합니다 ㅎ",
+          "start_char": 41,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "risk_or_concern:124e0f29e47b5281",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9/8",
+      "normalized": {
+        "month": 9,
+        "day": 8,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9/8",
+          "start_char": 0,
+          "end_char": 3
+        }
+      ],
+      "dedupe_key": "timeline:c6b0ef204a658011",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 중순",
+      "normalized": {
+        "month": 9,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9월 중순",
+          "start_char": 16,
+          "end_char": 21
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "9월 중순",
+          "start_char": 167,
+          "end_char": 172
+        }
+      ],
+      "dedupe_key": "timeline:ba1f4e484bab6980",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

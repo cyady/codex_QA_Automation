@@ -1,0 +1,295 @@
+[
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0002",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+    "normalized": {
+      "text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "start_char": 928,
+      "end_char": 1070
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0003",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+    "normalized": {
+      "text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "start_char": 1156,
+      "end_char": 1238
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0004",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@여인찬",
+    "normalized": {
+      "name": "여인찬"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@여인찬",
+      "start_char": 52,
+      "end_char": 56
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0005",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "10/21",
+    "normalized": {
+      "month": 10,
+      "day": 21,
+      "kind": "month_day"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "10/21",
+      "start_char": 1080,
+      "end_char": 1085
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0006",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "9월 26일",
+    "normalized": {
+      "month": 9,
+      "day": 26
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "9월 26일",
+      "start_char": 130,
+      "end_char": 136
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0007",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "500만원",
+    "normalized": {
+      "value": 5000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "500만원",
+      "start_char": 22,
+      "end_char": 27
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0008",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "317만원",
+    "normalized": {
+      "value": 3170000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "317만원",
+      "start_char": 631,
+      "end_char": 636
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0009",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "26일",
+    "normalized": {
+      "value": 26.0,
+      "unit": "days",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "26일",
+      "start_char": 133,
+      "end_char": 136
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0010",
+    "semantic_type": "case_metric",
+    "value_type": "number",
+    "raw_text": "000개",
+    "normalized": {
+      "value": 0,
+      "unit": "count",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "000개",
+      "start_char": 337,
+      "end_char": 341
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W21",
+    "candidate_id": "C-0012",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "뉴스레터",
+    "normalized": {
+      "keyword": "뉴스레터"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "뉴스레터",
+      "start_char": 226,
+      "end_char": 230
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

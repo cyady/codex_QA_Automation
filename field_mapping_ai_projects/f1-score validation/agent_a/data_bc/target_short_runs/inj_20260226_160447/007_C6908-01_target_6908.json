@@ -1,0 +1,16 @@
+{
+  "case": {
+    "case_id": "C6908-01",
+    "technique": "target_6908",
+    "prompt": "추가 회사/담당자 연락처: 김태훈(010-9012-4477, taehoon@mbrownkorea.co.kr)."
+  },
+  "payload": {
+    "summary": "추가 회사/담당자 연락처: 김태훈(010-9012-4477, taehoon@mbrownkorea.co.kr).",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:09:21.600Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": []
+}

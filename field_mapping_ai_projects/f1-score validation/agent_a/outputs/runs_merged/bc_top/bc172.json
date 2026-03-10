@@ -1,0 +1,272 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W172",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[티어4, 잠재매출 1500만원] 키이스케이프 견적 관련 검토 공유",
+      "normalized": {
+        "text": "[티어4, 잠재매출 1500만원] 키이스케이프 견적 관련 검토 공유",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어4, 잠재매출 1500만원] 키이스케이프 견적 관련 검토 공유",
+          "start_char": 0,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "action_item:213e436f0d433568",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1500만원",
+      "normalized": {
+        "value": 15000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1500만원",
+          "start_char": 11,
+          "end_char": 17
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "1500만원",
+          "start_char": 1180,
+          "end_char": 1186
+        }
+      ],
+      "dedupe_key": "budget:f69e056c04e65b47",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 64,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "통화상으로 쉽게 결정하시지 못하는 것 같은데, 네고될지 요청 주셨습니다.",
+      "normalized": {
+        "text": "통화상으로 쉽게 결정하시지 못하는 것 같은데, 네고될지 요청 주셨습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "통화상으로 쉽게 결정하시지 못하는 것 같은데, 네고될지 요청 주셨습니다.",
+          "start_char": 91,
+          "end_char": 131
+        }
+      ],
+      "dedupe_key": "action_item:760d2d2cd2f5e5c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "조금 고민이 필요하시다고 하니, 다만 우진님과의 관계도 생각하시는 듯 하여 줄다리기 해보겠습니다.",
+      "normalized": {
+        "text": "조금 고민이 필요하시다고 하니, 다만 우진님과의 관계도 생각하시는 듯 하여 줄다리기 해보겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "조금 고민이 필요하시다고 하니, 다만 우진님과의 관계도 생각하시는 듯 하여 줄다리기 해보겠습니다.",
+          "start_char": 173,
+          "end_char": 227
+        }
+      ],
+      "dedupe_key": "action_item:d810e20f8cedc929",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "대표님질의)"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 382,
+          "end_char": 386
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 507,
+          "end_char": 511
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1235,
+          "end_char": 1239
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "대표님질의)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 388,
+          "end_char": 391
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 514,
+          "end_char": 517
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 571,
+          "end_char": 574
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1242,
+          "end_char": 1245
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "1000만원",
+          "start_char": 989,
+          "end_char": 995
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"결론만 말씀 드리면 저도 이야기는 드리겠지만, 가능하지 않습니다.\" 미리 대표님께 솔직하게 전달 드리는 것이 좋다고 생각합니다. 1500만원 밑으로는 진행이 어려울 것 같습니다.",
+      "normalized": {
+        "text": "\"결론만 말씀 드리면 저도 이야기는 드리겠지만, 가능하지 않습니다.\" 미리 대표님께 솔직하게 전달 드리는 것이 좋다고 생각합니다. 1500만원 밑으로는 진행이 어려울 것 같습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "병권 답변)"
+          ],
+          "exact_quote": "\"결론만 말씀 드리면 저도 이야기는 드리겠지만, 가능하지 않습니다.\" 미리 대표님께 솔직하게 전달 드리는 것이 좋다고 생각합니다. 1500만원 밑으로는 진행이 어려울 것 같습니다.",
+          "start_char": 1107,
+          "end_char": 1207
+        }
+      ],
+      "dedupe_key": "action_item:c009deafc5389c6b",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

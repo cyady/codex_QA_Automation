@@ -1,0 +1,362 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W489",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 38,
+          "end_char": 42
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 845,
+          "end_char": 849
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입 검토 중인 조직은 HB 사업부(전기차 충전 사업) 소속",
+      "normalized": {
+        "text": "CRM 도입 검토 중인 조직은 HB 사업부(전기차 충전 사업) 소속",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM 도입 검토 중인 조직은 HB 사업부(전기차 충전 사업) 소속",
+          "start_char": 64,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "action_item:3bf90730b6e6da6f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "도입 문의 주신 김민수 사원님은 IT/보안 담당자고 HB 사업부 실무자로부터 리캐치와의 미팅 주선을 요청 받으신 상황임",
+      "normalized": {
+        "text": "도입 문의 주신 김민수 사원님은 IT/보안 담당자고 HB 사업부 실무자로부터 리캐치와의 미팅 주선을 요청 받으신 상황임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "도입 문의 주신 김민수 사원님은 IT/보안 담당자고 HB 사업부 실무자로부터 리캐치와의 미팅 주선을 요청 받으신 상황임",
+          "start_char": 107,
+          "end_char": 173
+        }
+      ],
+      "dedupe_key": "action_item:f4c7872c430cb3e3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 150,
+          "end_char": 153
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "현재 관리 방식"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 388,
+          "end_char": 391
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 HB 사업부에서 왜 CRM을 검토하려 하는지 등에 대한 내용 파악 위해 담당자 컨택 포인트 확보 후 2차 디커콜 필요",
+      "normalized": {
+        "text": "따라서 HB 사업부에서 왜 CRM을 검토하려 하는지 등에 대한 내용 파악 위해 담당자 컨택 포인트 확보 후 2차 디커콜 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "따라서 HB 사업부에서 왜 CRM을 검토하려 하는지 등에 대한 내용 파악 위해 담당자 컨택 포인트 확보 후 2차 디커콜 필요",
+          "start_char": 177,
+          "end_char": 246
+        }
+      ],
+      "dedupe_key": "action_item:428065abda8046a6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "과거 이카운트 ERP를 검토했으나 영업 진행 현황을 파악할 수 있는 대시보드 기능이 부재하여 현재 엑셀로 관리 중",
+      "normalized": {
+        "text": "과거 이카운트 ERP를 검토했으나 영업 진행 현황을 파악할 수 있는 대시보드 기능이 부재하여 현재 엑셀로 관리 중",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 관리 방식"
+          ],
+          "exact_quote": "과거 이카운트 ERP를 검토했으나 영업 진행 현황을 파악할 수 있는 대시보드 기능이 부재하여 현재 엑셀로 관리 중",
+          "start_char": 264,
+          "end_char": 327
+        }
+      ],
+      "dedupe_key": "risk_or_concern:95dda8f4950064aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "ERP를 검토했던걸 보면 구매 이력에 대한 트래킹도 필요할지도...",
+      "normalized": {
+        "text": "ERP를 검토했던걸 보면 구매 이력에 대한 트래킹도 필요할지도...",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "현재 관리 방식"
+          ],
+          "exact_quote": "ERP를 검토했던걸 보면 구매 이력에 대한 트래킹도 필요할지도...",
+          "start_char": 333,
+          "end_char": 370
+        }
+      ],
+      "dedupe_key": "action_item:61c0ff4a75945a47",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러던 중 현업 담당자가 리캐치를 인지하고 민수님께 미팅 주선을 요청",
+      "normalized": {
+        "text": "그러던 중 현업 담당자가 리캐치를 인지하고 민수님께 미팅 주선을 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "현재 관리 방식"
+          ],
+          "exact_quote": "그러던 중 현업 담당자가 리캐치를 인지하고 민수님께 미팅 주선을 요청",
+          "start_char": 374,
+          "end_char": 412
+        }
+      ],
+      "dedupe_key": "action_item:f2b41833dce4a30f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "민수님의 주요 관심사"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 514,
+          "end_char": 518
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이메일로 확인하고픈 부분들 미리 공유해주시기로 함",
+      "normalized": {
+        "text": "이메일로 확인하고픈 부분들 미리 공유해주시기로 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "민수님의 주요 관심사"
+          ],
+          "exact_quote": "이메일로 확인하고픈 부분들 미리 공유해주시기로 함",
+          "start_char": 535,
+          "end_char": 562
+        }
+      ],
+      "dedupe_key": "collaboration_need:b8521b427799bfdc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "엑셀 관리에서 벗어나 영업 진행 상황 및 데이터 가시화를 위한 대시보드 구축",
+      "normalized": {
+        "text": "엑셀 관리에서 벗어나 영업 진행 상황 및 데이터 가시화를 위한 대시보드 구축",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "엑셀 관리에서 벗어나 영업 진행 상황 및 데이터 가시화를 위한 대시보드 구축",
+          "start_char": 630,
+          "end_char": 672
+        }
+      ],
+      "dedupe_key": "action_item:4451b0af338e2a13",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "IT 및 정보 보안 담당 사원 (현업의 요청을 받아 솔루션 도입을 추진 및 검토하는 역할)",
+      "normalized": {
+        "text": "IT 및 정보 보안 담당 사원 (현업의 요청을 받아 솔루션 도입을 추진 및 검토하는 역할)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "IT 및 정보 보안 담당 사원 (현업의 요청을 받아 솔루션 도입을 추진 및 검토하는 역할)",
+          "start_char": 727,
+          "end_char": 777
+        }
+      ],
+      "dedupe_key": "action_item:440818512ed9c79a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일 팔로업(보안체크리스트 및 HB 담당자 컨택 포인트 공유 요청)",
+      "normalized": {
+        "text": "이메일 팔로업(보안체크리스트 및 HB 담당자 컨택 포인트 공유 요청)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "이메일 팔로업(보안체크리스트 및 HB 담당자 컨택 포인트 공유 요청)",
+          "start_char": 799,
+          "end_char": 837
+        }
+      ],
+      "dedupe_key": "action_item:8f70f9e8d458bddf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "@김한규(Lucky)님, 여기 추가 컨텍스트 파악해봐야 하긴 하지만 커스텀 가능성 있어보이고 팀장급 참여 가능성도 있다고 하는데 대면 미팅으로 돌릴까요? 위치는 마포구인 듯 합니다(정확한 위치는 대면미팅 ok하시면 이메일 통해 파악 필요)",
+      "normalized": {
+        "text": "@김한규(Lucky)님, 여기 추가 컨텍스트 파악해봐야 하긴 하지만 커스텀 가능성 있어보이고 팀장급 참여 가능성도 있다고 하는데 대면 미팅으로 돌릴까요? 위치는 마포구인 듯 합니다(정확한 위치는 대면미팅 ok하시면 이메일 통해 파악 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@김한규(Lucky)님, 여기 추가 컨텍스트 파악해봐야 하긴 하지만 커스텀 가능성 있어보이고 팀장급 참여 가능성도 있다고 하는데 대면 미팅으로 돌릴까요? 위치는 마포구인 듯 합니다(정확한 위치는 대면미팅 ok하시면 이메일 통해 파악 필요)",
+          "start_char": 845,
+          "end_char": 978
+        }
+      ],
+      "dedupe_key": "action_item:3f29a92531acb7e2",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

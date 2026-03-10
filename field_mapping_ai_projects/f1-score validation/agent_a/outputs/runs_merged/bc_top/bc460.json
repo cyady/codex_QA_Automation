@@ -1,0 +1,764 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W460",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 20,
+          "end_char": 25
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "400만원",
+          "start_char": 476,
+          "end_char": 481
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 911,
+          "end_char": 917
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 1035,
+          "end_char": 1041
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "안된다고 말씀 드림. 보고 목적이라고 하시면, 차라리 한규를 불러달라 요청 (납득하심)",
+      "normalized": {
+        "text": "안된다고 말씀 드림. 보고 목적이라고 하시면, 차라리 한규를 불러달라 요청 (납득하심)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "안된다고 말씀 드림. 보고 목적이라고 하시면, 차라리 한규를 불러달라 요청 (납득하심)",
+          "start_char": 153,
+          "end_char": 201
+        }
+      ],
+      "dedupe_key": "action_item:e631ee8f9df1ff59",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 말",
+      "normalized": {
+        "month": 2,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "2월 말",
+          "start_char": 264,
+          "end_char": 268
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "2월 말",
+          "start_char": 1210,
+          "end_char": 1214
+        }
+      ],
+      "dedupe_key": "timeline:a30ee9b7dc179b81",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 초",
+      "normalized": {
+        "month": 3,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "3월 초",
+          "start_char": 269,
+          "end_char": 273
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "3월 초",
+          "start_char": 1218,
+          "end_char": 1222
+        }
+      ],
+      "dedupe_key": "timeline:8acaada2ba9fafca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "후지필름에서 CRM 도입 결정권 없음. 그냥 (주)신기사에서 결정하면 됨. 대리점영업을 하긴 하지만, 독점 대리점은 아님.",
+      "normalized": {
+        "text": "후지필름에서 CRM 도입 결정권 없음. 그냥 (주)신기사에서 결정하면 됨. 대리점영업을 하긴 하지만, 독점 대리점은 아님.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "후지필름에서 CRM 도입 결정권 없음. 그냥 (주)신기사에서 결정하면 됨. 대리점영업을 하긴 하지만, 독점 대리점은 아님.",
+          "start_char": 327,
+          "end_char": 395
+        }
+      ],
+      "dedupe_key": "collaboration_need:b74173a8d4799800",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 팀 명함첩(12시트 약 200만원) + 컨시어지 온보딩(400만원) + 세일즈 CRM 12시트(마케팅 기능 필요 없음) -> 1,500만원 언더로 버젯 마련하시면 된다고 안내 완료.",
+      "normalized": {
+        "text": "리멤버 팀 명함첩(12시트 약 200만원) + 컨시어지 온보딩(400만원) + 세일즈 CRM 12시트(마케팅 기능 필요 없음) -> 1,500만원 언더로 버젯 마련하시면 된다고 안내 완료.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "리멤버 팀 명함첩(12시트 약 200만원) + 컨시어지 온보딩(400만원) + 세일즈 CRM 12시트(마케팅 기능 필요 없음) -> 1,500만원 언더로 버젯 마련하시면 된다고 안내 완료.",
+          "start_char": 441,
+          "end_char": 546
+        }
+      ],
+      "dedupe_key": "action_item:0a3532b12990beb5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "약 200만원",
+          "start_char": 456,
+          "end_char": 463
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "약 200만 원",
+          "start_char": 980,
+          "end_char": 988
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "콜라보 녹화본 링크 공유하기"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 517,
+          "end_char": 522
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 788,
+          "end_char": 794
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 1057,
+          "end_char": 1063
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객(팀장)은 입사 3개월 차로 영업 조직 쇄신과 데이터 기반 영업 관리 도입에 대한 의지가 매우 강하며, 리캐치(Re:catch) 솔루션에 대해 높은 만족도를 보이고 있습니다. 다만, 현재 예산이 책정되어 있지 않아 '특별 예산'으로 진행해야 하며, 대표이사에게 보고하고 승인받는 내부 품의 과정이 남아있습니다.",
+      "normalized": {
+        "text": "고객(팀장)은 입사 3개월 차로 영업 조직 쇄신과 데이터 기반 영업 관리 도입에 대한 의지가 매우 강하며, 리캐치(Re:catch) 솔루션에 대해 높은 만족도를 보이고 있습니다. 다만, 현재 예산이 책정되어 있지 않아 '특별 예산'으로 진행해야 하며, 대표이사에게 보고하고 승인받는 내부 품의 과정이 남아있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "고객(팀장)은 입사 3개월 차로 영업 조직 쇄신과 데이터 기반 영업 관리 도입에 대한 의지가 매우 강하며, 리캐치(Re:catch) 솔루션에 대해 높은 만족도를 보이고 있습니다. 다만, 현재 예산이 책정되어 있지 않아 '특별 예산'으로 진행해야 하며, 대표이사에게 보고하고 승인받는 내부 품의 과정이 남아있습니다.",
+          "start_char": 595,
+          "end_char": 770
+        }
+      ],
+      "dedupe_key": "action_item:ce311be280863d8c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 606,
+          "end_char": 609
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 922,
+          "end_char": 925
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Driver (추진자)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1499,
+          "end_char": 1502
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 655,
+          "end_char": 658
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "영업 사원 12명 기준, 연간 도입 예상 견적은 아래와 같습니다.",
+      "normalized": {
+        "text": "영업 사원 12명 기준, 연간 도입 예상 견적은 아래와 같습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "영업 사원 12명 기준, 연간 도입 예상 견적은 아래와 같습니다.",
+          "start_char": 814,
+          "end_char": 850
+        }
+      ],
+      "dedupe_key": "collaboration_need:ae7a22bd3e8b5f6c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "12명",
+      "normalized": {
+        "value": 12,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "12명",
+          "start_char": 820,
+          "end_char": 823
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "12명",
+          "start_char": 874,
+          "end_char": 877
+        }
+      ],
+      "dedupe_key": "people_count:a13ebdeaa13eca5a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 670만 원",
+      "normalized": {
+        "value": 6700000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "약 670만 원",
+          "start_char": 864,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "budget:d3680b8a805bc3b6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "56만 원",
+      "normalized": {
+        "value": 560000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "56만 원",
+          "start_char": 884,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "budget:c6bd18b5f9990dac",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "000원",
+          "start_char": 999,
+          "end_char": 1003
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최용호 팀장(신기사): 전달받은 자료를 바탕으로 2월 중 내부 검토 및 대표이사 보고 진행.",
+      "normalized": {
+        "text": "최용호 팀장(신기사): 전달받은 자료를 바탕으로 2월 중 내부 검토 및 대표이사 보고 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "최용호 팀장(신기사): 전달받은 자료를 바탕으로 2월 중 내부 검토 및 대표이사 보고 진행.",
+          "start_char": 1151,
+          "end_char": 1202
+        }
+      ],
+      "dedupe_key": "action_item:d1339031696daaf6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "공통: 2월 말 또는 3월 초중순경, 고객사(양재)에 방문하여 대표이사 및 관련자 대상 대면 데모 시연 진행.",
+      "normalized": {
+        "text": "공통: 2월 말 또는 3월 초중순경, 고객사(양재)에 방문하여 대표이사 및 관련자 대상 대면 데모 시연 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "미팅록 양식에 따른 정리"
+          ],
+          "exact_quote": "공통: 2월 말 또는 3월 초중순경, 고객사(양재)에 방문하여 대표이사 및 관련자 대상 대면 데모 시연 진행.",
+          "start_char": 1206,
+          "end_char": 1267
+        }
+      ],
+      "dedupe_key": "action_item:3b6a28cd3383787d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 12명",
+      "normalized": {
+        "value": 12,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "User (실사용자)"
+          ],
+          "exact_quote": "약 12명",
+          "start_char": 1363,
+          "end_char": 1368
+        }
+      ],
+      "dedupe_key": "team_size:b43ce2ba70e7752c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Budget (예산):현재 CRM 도입을 위해 책정된 예산은 없음.",
+      "normalized": {
+        "text": "Budget (예산):현재 CRM 도입을 위해 책정된 예산은 없음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Driver (추진자)"
+          ],
+          "exact_quote": "Budget (예산):현재 CRM 도입을 위해 책정된 예산은 없음.",
+          "start_char": 1583,
+          "end_char": 1620
+        }
+      ],
+      "dedupe_key": "collaboration_need:a2eaa6ba5c494e24",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상반기 내 도입을 목표로 특별 예산 편성을 시도할 예정.",
+      "normalized": {
+        "text": "상반기 내 도입을 목표로 특별 예산 편성을 시도할 예정.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "Driver (추진자)"
+          ],
+          "exact_quote": "상반기 내 도입을 목표로 특별 예산 편성을 시도할 예정.",
+          "start_char": 1626,
+          "end_char": 1657
+        }
+      ],
+      "dedupe_key": "collaboration_need:b3137b393821d6c5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+      "normalized": {
+        "text": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "Need (니즈):가시성 확보"
+          ],
+          "exact_quote": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+          "start_char": 1764,
+          "end_char": 1839
+        }
+      ],
+      "dedupe_key": "collaboration_need:3db5b403a8474af8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+      "normalized": {
+        "text": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "Need (니즈):가시성 확보"
+          ],
+          "exact_quote": "감에 의존한 영업에서 벗어나 객관적인 데이터(파이프라인, 달성률, 전환율 등) 기반의 대시보드 필요.(최용호 팀장이 직접 언급한 부분)",
+          "start_char": 1764,
+          "end_char": 1839
+        }
+      ],
+      "dedupe_key": "action_item:8d70b72d38adf4aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+      "normalized": {
+        "text": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "Need (니즈):가시성 확보"
+          ],
+          "exact_quote": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+          "start_char": 1843,
+          "end_char": 1918
+        }
+      ],
+      "dedupe_key": "collaboration_need:c3c59545001f65b4",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+      "normalized": {
+        "text": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "Need (니즈):가시성 확보"
+          ],
+          "exact_quote": "입력 자동화: 영업 사원들의 데이터 입력 부담을 줄이고 데이터 누락을 방지하기 위한 명함 앱 연동 및 AI 자동 기록/요약 기능 필요.",
+          "start_char": 1843,
+          "end_char": 1918
+        }
+      ],
+      "dedupe_key": "action_item:d7c6fe77739dbbb8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "성과 관리: 영업 담당자별 퍼포먼스 측정 및 피드백 근거 마련.",
+      "normalized": {
+        "text": "성과 관리: 영업 담당자별 퍼포먼스 측정 및 피드백 근거 마련.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "Need (니즈):가시성 확보"
+          ],
+          "exact_quote": "성과 관리: 영업 담당자별 퍼포먼스 측정 및 피드백 근거 마련.",
+          "start_char": 1922,
+          "end_char": 1957
+        }
+      ],
+      "dedupe_key": "collaboration_need:3d6251d0d71e516d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상반기 내 도입을 목표로 하고 있으며, 2월 중 내부 검토를 거칠 예정.",
+      "normalized": {
+        "text": "상반기 내 도입을 목표로 하고 있으며, 2월 중 내부 검토를 거칠 예정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "Timing (시기)"
+          ],
+          "exact_quote": "상반기 내 도입을 목표로 하고 있으며, 2월 중 내부 검토를 거칠 예정.",
+          "start_char": 1978,
+          "end_char": 2018
+        }
+      ],
+      "dedupe_key": "action_item:cd046b133ee7dea6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

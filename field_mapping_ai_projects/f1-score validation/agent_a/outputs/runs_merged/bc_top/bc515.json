@@ -1,0 +1,220 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W515",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[티어2 이투마스 - 잠재매출 미정] 260204_미팅 후 2차 미팅 요청 F/U 메일",
+      "normalized": {
+        "text": "[티어2 이투마스 - 잠재매출 미정] 260204_미팅 후 2차 미팅 요청 F/U 메일",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어2 이투마스 - 잠재매출 미정] 260204_미팅 후 2차 미팅 요청 F/U 메일",
+          "start_char": 0,
+          "end_char": 48
+        }
+      ],
+      "dedupe_key": "action_item:a6a03dab6b57b5ef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 54,
+          "end_char": 57
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 104,
+          "end_char": 107
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 210,
+          "end_char": 213
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "말씀 나누었던 내용에 대한 팔로업 자료와 주요 요청 사항을 아래와 같이 정리해 드립니다.",
+      "normalized": {
+        "text": "말씀 나누었던 내용에 대한 팔로업 자료와 주요 요청 사항을 아래와 같이 정리해 드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "말씀 나누었던 내용에 대한 팔로업 자료와 주요 요청 사항을 아래와 같이 정리해 드립니다.",
+          "start_char": 151,
+          "end_char": 200
+        }
+      ],
+      "dedupe_key": "action_item:d95d0b3ed0f3ce2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청 주신 웹사이트 구축 및 콘텐츠 컨설팅 관련 소개서를 첨부드립니다.",
+      "normalized": {
+        "text": "요청 주신 웹사이트 구축 및 콘텐츠 컨설팅 관련 소개서를 첨부드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "요청 주신 웹사이트 구축 및 콘텐츠 컨설팅 관련 소개서를 첨부드립니다.",
+          "start_char": 243,
+          "end_char": 282
+        }
+      ],
+      "dedupe_key": "action_item:4bb1ae0d6efd5efd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2. [요청] 영업팀 총괄(본부장님) 미팅 일정 조율",
+      "normalized": {
+        "text": "2. [요청] 영업팀 총괄(본부장님) 미팅 일정 조율",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "2. [요청] 영업팀 총괄(본부장님) 미팅 일정 조율",
+          "start_char": 351,
+          "end_char": 380
+        }
+      ],
+      "dedupe_key": "action_item:7e2fb71c92a8fe11",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입은 단순한 툴 적용을 넘어, 영업 조직의 문화와 프로세스로 정착시키는 것이 핵심이라고 생각합니다.",
+      "normalized": {
+        "text": "CRM 도입은 단순한 툴 적용을 넘어, 영업 조직의 문화와 프로세스로 정착시키는 것이 핵심이라고 생각합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "CRM 도입은 단순한 툴 적용을 넘어, 영업 조직의 문화와 프로세스로 정착시키는 것이 핵심이라고 생각합니다.",
+          "start_char": 382,
+          "end_char": 442
+        }
+      ],
+      "dedupe_key": "collaboration_need:598032ea75098047",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 취지와 대시보드 기반 관리의 효용성을 함께 공유드리는 것이",
+      "normalized": {
+        "text": "도입 취지와 대시보드 기반 관리의 효용성을 함께 공유드리는 것이",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "도입 취지와 대시보드 기반 관리의 효용성을 함께 공유드리는 것이",
+          "start_char": 512,
+          "end_char": 547
+        }
+      ],
+      "dedupe_key": "collaboration_need:526827bfae96365a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "일정 확인되시는 대로 편하게 회신 부탁드립니다.",
+      "normalized": {
+        "text": "일정 확인되시는 대로 편하게 회신 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "일정 확인되시는 대로 편하게 회신 부탁드립니다.",
+          "start_char": 685,
+          "end_char": 711
+        }
+      ],
+      "dedupe_key": "action_item:d4bc971f91021436",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

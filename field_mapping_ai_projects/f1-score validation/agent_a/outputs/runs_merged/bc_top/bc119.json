@@ -1,0 +1,603 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W119",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고객사의 상황 및 문제",
+      "normalized": {
+        "text": "고객사의 상황 및 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "고객사의 상황 및 문제",
+          "start_char": 201,
+          "end_char": 213
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2943234b96e92bd1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 리드는 유선 연락, 니즈 파악, 팔로업 이메일 발송 등의 방식으로 관리되고 있음",
+      "normalized": {
+        "text": "현재 리드는 유선 연락, 니즈 파악, 팔로업 이메일 발송 등의 방식으로 관리되고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 리드는 유선 연락, 니즈 파악, 팔로업 이메일 발송 등의 방식으로 관리되고 있음",
+          "start_char": 257,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "action_item:bb48e1439e78c84d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등) 관리가 길고 중요, 특히 SaaS 제품의 특성상 긴 온보딩 기간과 이후 전환까지의 과정 관리가 필요",
+      "normalized": {
+        "text": "딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등) 관리가 길고 중요, 특히 SaaS 제품의 특성상 긴 온보딩 기간과 이후 전환까지의 과정 관리가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등) 관리가 길고 중요, 특히 SaaS 제품의 특성상 긴 온보딩 기간과 이후 전환까지의 과정 관리가 필요",
+          "start_char": 363,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "action_item:35c6efb67c7c0363",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요",
+      "normalized": {
+        "text": "온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요",
+          "start_char": 460,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "action_item:021130f78a28648a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 예상 타임라인",
+      "normalized": {
+        "text": "도입 예상 타임라인",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "도입 예상 타임라인",
+          "start_char": 507,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "collaboration_need:7186165ca6f33dd4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "올해 중 도입 희망",
+      "normalized": {
+        "text": "올해 중 도입 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "올해 중 도입 희망",
+          "start_char": 518,
+          "end_char": 528
+        }
+      ],
+      "dedupe_key": "collaboration_need:da3efcc46efbd851",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "비용 문제(마케팅+세일즈 모두 썼을 때 부담)",
+      "normalized": {
+        "text": "비용 문제(마케팅+세일즈 모두 썼을 때 부담)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "비용 문제(마케팅+세일즈 모두 썼을 때 부담)",
+          "start_char": 587,
+          "end_char": 612
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8084171df2919072",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 25,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9/18",
+      "normalized": {
+        "month": 9,
+        "day": 18,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9/18",
+          "start_char": 89,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "timeline:9d4e089ba49c6b5a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "8명",
+          "start_char": 227,
+          "end_char": 229
+        }
+      ],
+      "dedupe_key": "people_count:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 322,
+          "end_char": 324
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "외부 시스템 연동"
+          ],
+          "exact_quote": "2개",
+          "start_char": 2580,
+          "end_char": 2582
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 579,
+          "end_char": 582
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 622,
+          "end_char": 629
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 661,
+          "end_char": 668
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 670,
+          "end_char": 677
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 2649,
+          "end_char": 2656
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 2714,
+          "end_char": 2721
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 3010,
+          "end_char": 3017
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정보 설정: 폼에서 필요한 정보들을 자유롭게 설정할 수 있음.",
+      "normalized": {
+        "text": "정보 설정: 폼에서 필요한 정보들을 자유롭게 설정할 수 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "정보 설정: 폼에서 필요한 정보들을 자유롭게 설정할 수 있음.",
+          "start_char": 849,
+          "end_char": 883
+        }
+      ],
+      "dedupe_key": "action_item:03ed8a03670ca3f1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일 자동 발송: 서비스 소개서 신청 등 폼 제출 후 관련 이메일이 자동으로 발송됨.",
+      "normalized": {
+        "text": "이메일 자동 발송: 서비스 소개서 신청 등 폼 제출 후 관련 이메일이 자동으로 발송됨.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "이메일 자동 발송: 서비스 소개서 신청 등 폼 제출 후 관련 이메일이 자동으로 발송됨.",
+          "start_char": 963,
+          "end_char": 1011
+        }
+      ],
+      "dedupe_key": "action_item:1c9e0bbdbd0dfd52",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일 캠페인: 수집된 리드를 대상으로 이메일 캠페인 발송 가능하며, 스티비와 유사하게 텍스트/버튼 추가 가능. 수신자 그룹을 필터링하여 특정 대상에게 메일을 보낼 수 있음.",
+      "normalized": {
+        "text": "이메일 캠페인: 수집된 리드를 대상으로 이메일 캠페인 발송 가능하며, 스티비와 유사하게 텍스트/버튼 추가 가능. 수신자 그룹을 필터링하여 특정 대상에게 메일을 보낼 수 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "이메일 캠페인: 수집된 리드를 대상으로 이메일 캠페인 발송 가능하며, 스티비와 유사하게 텍스트/버튼 추가 가능. 수신자 그룹을 필터링하여 특정 대상에게 메일을 보낼 수 있음.",
+          "start_char": 1216,
+          "end_char": 1313
+        }
+      ],
+      "dedupe_key": "action_item:34103902de77ce6c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대시보드: 마케팅적으로 수집한 리드 데이터를 대시보드에서 조회 가능. 전환율, 유입 경로별 성과(UTM 활용), 세일즈 미팅 경로, 기업 규모별 효율 등의 통계를 확인할 수 있음. 개인별 대시보드 설정은 권한으로 분리되지는 않으나, 이름을 붙여 관리하고 리포트 뷰를 저장하여 공유할 수 있음.",
+      "normalized": {
+        "text": "대시보드: 마케팅적으로 수집한 리드 데이터를 대시보드에서 조회 가능. 전환율, 유입 경로별 성과(UTM 활용), 세일즈 미팅 경로, 기업 규모별 효율 등의 통계를 확인할 수 있음. 개인별 대시보드 설정은 권한으로 분리되지는 않으나, 이름을 붙여 관리하고 리포트 뷰를 저장하여 공유할 수 있음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "대시보드: 마케팅적으로 수집한 리드 데이터를 대시보드에서 조회 가능. 전환율, 유입 경로별 성과(UTM 활용), 세일즈 미팅 경로, 기업 규모별 효율 등의 통계를 확인할 수 있음. 개인별 대시보드 설정은 권한으로 분리되지는 않으나, 이름을 붙여 관리하고 리포트 뷰를 저장하여 공유할 수 있음.",
+          "start_char": 1314,
+          "end_char": 1477
+        }
+      ],
+      "dedupe_key": "collaboration_need:67d06a0c8cbc8952",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "3개",
+          "start_char": 1764,
+          "end_char": 1766
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1175,
+          "end_char": 1178
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상세 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1740,
+          "end_char": 1743
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 리드 관리 프로세스: 리드가 유입되면 1차 유선 연락을 취해 니즈를 파악하고 안내하며, 팔로업 이메일을 발송한 후 구체적인 정보를 바탕으로 대응하고 있음.",
+      "normalized": {
+        "text": "현재 리드 관리 프로세스: 리드가 유입되면 1차 유선 연락을 취해 니즈를 파악하고 안내하며, 팔로업 이메일을 발송한 후 구체적인 정보를 바탕으로 대응하고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "외부 시스템 연동"
+          ],
+          "exact_quote": "현재 리드 관리 프로세스: 리드가 유입되면 1차 유선 연락을 취해 니즈를 파악하고 안내하며, 팔로업 이메일을 발송한 후 구체적인 정보를 바탕으로 대응하고 있음.",
+          "start_char": 2424,
+          "end_char": 2513
+        }
+      ],
+      "dedupe_key": "action_item:3115c79616c2fbf7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "데이터 연동: Recatch에 쌓인 데이터를 어딩의 자체 시스템으로 연동하는 방안에 대한 관심.\n딜(Deal) 이후의 여정 관리: Recatch의 CRM이 리드 유입부터 딜 성사 및 매출 발생까지를 주요 골로 삼는 반면, 어딩은 딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등)이 더 길고 중요하다고 강조함. 특히 SaaS 제품의 특성상 온보딩에 긴 교육 기간이 필요하며, 긴 시간 후 전환이 이루어져야 진정한 온보딩으로 인식되는 점을 설명함. 이 온보딩 및 이후 고객 여정 관리의 중요성을 피력함.\n매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item\nRecatch 발표자는 어딩의 '딜 이후 여정 관리' 니즈에 대해, 파이프라인을 세일즈 외에도 '고객사 관리(CX팀)', '세미나 신청 관리' 등 다양한 목적으로 커스터마이징하여 활용할 수 있음을 제안함. 이를 통해 온보딩 준비, 계정 발급, 가이드 제공, 리터치 단계 등을 관리하고, 특정 회사 조회 시 해당 회사의 모든 딜 카드 및 온보딩 히스토리를 확인할 수 있을 것이라고 설명함.\n어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함.",
+      "normalized": {
+        "text": "데이터 연동: Recatch에 쌓인 데이터를 어딩의 자체 시스템으로 연동하는 방안에 대한 관심.\n딜(Deal) 이후의 여정 관리: Recatch의 CRM이 리드 유입부터 딜 성사 및 매출 발생까지를 주요 골로 삼는 반면, 어딩은 딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등)이 더 길고 중요하다고 강조함. 특히 SaaS 제품의 특성상 온보딩에 긴 교육 기간이 필요하며, 긴 시간 후 전환이 이루어져야 진정한 온보딩으로 인식되는 점을 설명함. 이 온보딩 및 이후 고객 여정 관리의 중요성을 피력함.\n매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item\nRecatch 발표자는 어딩의 '딜 이후 여정 관리' 니즈에 대해, 파이프라인을 세일즈 외에도 '고객사 관리(CX팀)', '세미나 신청 관리' 등 다양한 목적으로 커스터마이징하여 활용할 수 있음을 제안함. 이를 통해 온보딩 준비, 계정 발급, 가이드 제공, 리터치 단계 등을 관리하고, 특정 회사 조회 시 해당 회사의 모든 딜 카드 및 온보딩 히스토리를 확인할 수 있을 것이라고 설명함.\n어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "데이터 연동: Recatch에 쌓인 데이터를 어딩의 자체 시스템으로 연동하는 방안에 대한 관심.\n딜(Deal) 이후의 여정 관리: Recatch의 CRM이 리드 유입부터 딜 성사 및 매출 발생까지를 주요 골로 삼는 반면, 어딩은 딜 성사 이후의 여정(제품 온보딩, 지속적인 리터치, 재계약, 업셀 등)이 더 길고 중요하다고 강조함. 특히 SaaS 제품의 특성상 온보딩에 긴 교육 기간이 필요하며, 긴 시간 후 전환이 이루어져야 진정한 온보딩으로 인식되는 점을 설명함. 이 온보딩 및 이후 고객 여정 관리의 중요성을 피력함.\n매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item\nRecatch 발표자는 어딩의 '딜 이후 여정 관리' 니즈에 대해, 파이프라인을 세일즈 외에도 '고객사 관리(CX팀)', '세미나 신청 관리' 등 다양한 목적으로 커스터마이징하여 활용할 수 있음을 제안함. 이를 통해 온보딩 준비, 계정 발급, 가이드 제공, 리터치 단계 등을 관리하고, 특정 회사 조회 시 해당 회사의 모든 딜 카드 및 온보딩 히스토리를 확인할 수 있을 것이라고 설명함.\n어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함.",
+          "start_char": 2641,
+          "end_char": 3319
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e2b92601fb553eed",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item",
+      "normalized": {
+        "text": "매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "매출액 데이터 연동: 온보딩 완료 후 홈페이지에서 발생되는 매출액 데이터도 수집하여 연동하는 기능이 필요함. 3. Action Item",
+          "start_char": 2934,
+          "end_char": 3009
+        }
+      ],
+      "dedupe_key": "action_item:524ca98f8cf39879",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함.",
+      "normalized": {
+        "text": "어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 고민 사항 및 니즈"
+          ],
+          "exact_quote": "어딩에서 필요한 홈페이지 기준 발생 매출액 데이터 연동에 대해서는 재피어(Zapier) 연동을 권장하며, 필요 시 커스텀 플랜을 통한 추가 제안도 가능하다고 언급함.",
+          "start_char": 3227,
+          "end_char": 3319
+        }
+      ],
+      "dedupe_key": "action_item:a58407417cb14e40",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

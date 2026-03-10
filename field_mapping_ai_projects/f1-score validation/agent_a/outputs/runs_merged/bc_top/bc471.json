@@ -1,0 +1,285 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W471",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "251229_코오롱베니트 미팅 결과 퀵 공유  cc @sales @김범래0/ Next action",
+      "normalized": {
+        "text": "251229_코오롱베니트 미팅 결과 퀵 공유  cc @sales @김범래0/ Next action",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "251229_코오롱베니트 미팅 결과 퀵 공유  cc @sales @김범래0/ Next action",
+          "start_char": 81,
+          "end_char": 135
+        }
+      ],
+      "dedupe_key": "collaboration_need:4b20bbea82d407c0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 110,
+          "end_char": 116
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김범래0",
+      "normalized": {
+        "name": "김범래0"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김범래0",
+          "start_char": 117,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:b7148852f5b443d3",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1월 중순 전, 내부 보고 때까지 타 ABM 프로젝트 성과 추가 공유 (내부 설득용)",
+      "normalized": {
+        "text": "1월 중순 전, 내부 보고 때까지 타 ABM 프로젝트 성과 추가 공유 (내부 설득용)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1월 중순 전, 내부 보고 때까지 타 ABM 프로젝트 성과 추가 공유 (내부 설득용)",
+          "start_char": 141,
+          "end_char": 188
+        }
+      ],
+      "dedupe_key": "collaboration_need:629c04d0f0147797",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 중순",
+      "normalized": {
+        "month": 1,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1월 중순",
+          "start_char": 141,
+          "end_char": 146
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1월 중순",
+          "start_char": 192,
+          "end_char": 197
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "1월 중순",
+          "start_char": 1145,
+          "end_char": 1150
+        }
+      ],
+      "dedupe_key": "timeline:ffbfdc2e92accc41",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 162,
+          "end_char": 165
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1월 중순 전후로 내부 보고 미팅에 한번 더 리멤버-리캐치팀 초대 요청.",
+      "normalized": {
+        "text": "1월 중순 전후로 내부 보고 미팅에 한번 더 리멤버-리캐치팀 초대 요청.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1월 중순 전후로 내부 보고 미팅에 한번 더 리멤버-리캐치팀 초대 요청.",
+          "start_char": 192,
+          "end_char": 232
+        }
+      ],
+      "dedupe_key": "action_item:44fc66bd1af8b8ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 221,
+          "end_char": 224
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 253,
+          "end_char": 258
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 261,
+          "end_char": 266
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 293,
+          "end_char": 298
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 305,
+          "end_char": 310
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "줌",
+          "start_char": 1076,
+          "end_char": 1077
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김현래",
+      "normalized": {
+        "name": "김현래"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "@김현래",
+          "start_char": 1192,
+          "end_char": 1196
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:af399a12d3e61cdb",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

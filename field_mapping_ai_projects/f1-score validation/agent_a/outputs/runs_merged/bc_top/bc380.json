@@ -1,0 +1,319 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W380",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 37,
+          "end_char": 41
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 29,
+          "end_char": 32
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 38,
+          "end_char": 41
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사용중인 CRM 없고 규모가 작아서 개인이 각자 관리하는 형식으로 진행해옴",
+      "normalized": {
+        "text": "사용중인 CRM 없고 규모가 작아서 개인이 각자 관리하는 형식으로 진행해옴",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "사용중인 CRM 없고 규모가 작아서 개인이 각자 관리하는 형식으로 진행해옴",
+          "start_char": 52,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "action_item:7623253ab73b499f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "pain: 그러다보니 누락되는 리드도 있고 서로 정보 공유도 어려움",
+      "normalized": {
+        "text": "pain: 그러다보니 누락되는 리드도 있고 서로 정보 공유도 어려움",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "pain: 그러다보니 누락되는 리드도 있고 서로 정보 공유도 어려움",
+          "start_char": 99,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "collaboration_need:e138f3f0317c578c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이를 해결하기 위해 지라, 노션도 알아봤으나, 그들과 리캐치를 비교했을 때 \"리캐치로만 구현할 수 있는 기능들\"이 몇 가지 있어서 일단 리캐치도 함께 검토하고자 함",
+      "normalized": {
+        "text": "이를 해결하기 위해 지라, 노션도 알아봤으나, 그들과 리캐치를 비교했을 때 \"리캐치로만 구현할 수 있는 기능들\"이 몇 가지 있어서 일단 리캐치도 함께 검토하고자 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "이를 해결하기 위해 지라, 노션도 알아봤으나, 그들과 리캐치를 비교했을 때 \"리캐치로만 구현할 수 있는 기능들\"이 몇 가지 있어서 일단 리캐치도 함께 검토하고자 함",
+          "start_char": 140,
+          "end_char": 231
+        }
+      ],
+      "dedupe_key": "action_item:de6cf880780a05bd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 170,
+          "end_char": 173
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 183,
+          "end_char": 186
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 216,
+          "end_char": 219
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 237,
+          "end_char": 240
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 537,
+          "end_char": 540
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치로만 구현할 수 있는 기능들: 자동 미팅 수립, 자동 팔로업 메일 등",
+      "normalized": {
+        "text": "리캐치로만 구현할 수 있는 기능들: 자동 미팅 수립, 자동 팔로업 메일 등",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치로만 구현할 수 있는 기능들: 자동 미팅 수립, 자동 팔로업 메일 등",
+          "start_char": 237,
+          "end_char": 278
+        }
+      ],
+      "dedupe_key": "action_item:b15d165edded13e1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "crm으로 피봇하고 잘 되나보다~ 싶었는데 T가 맞아서 검토 중",
+      "normalized": {
+        "text": "crm으로 피봇하고 잘 되나보다~ 싶었는데 T가 맞아서 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리캐치 알게 된 경위"
+          ],
+          "exact_quote": "crm으로 피봇하고 잘 되나보다~ 싶었는데 T가 맞아서 검토 중",
+          "start_char": 327,
+          "end_char": 362
+        }
+      ],
+      "dedupe_key": "action_item:216e15e8e1d1eba4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "리드가 누락되지 않고 관리되도록"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 622,
+          "end_char": 625
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B&T) 추가 파악 필요[Next Action]",
+      "normalized": {
+        "text": "B&T) 추가 파악 필요[Next Action]",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "CRM 도입 담당자는 따로 있음"
+          ],
+          "exact_quote": "B&T) 추가 파악 필요[Next Action]",
+          "start_char": 695,
+          "end_char": 721
+        }
+      ],
+      "dedupe_key": "action_item:d8247a2fe3da27ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 담당자는 따로 있어서, 미팅 가능한 일정 이메일로 팔로업 드리기로 함",
+      "normalized": {
+        "text": "CRM 도입 담당자는 따로 있어서, 미팅 가능한 일정 이메일로 팔로업 드리기로 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "CRM 도입 담당자는 따로 있음"
+          ],
+          "exact_quote": "CRM 도입 담당자는 따로 있어서, 미팅 가능한 일정 이메일로 팔로업 드리기로 함",
+          "start_char": 727,
+          "end_char": 772
+        }
+      ],
+      "dedupe_key": "collaboration_need:cfb77b1867ffa385",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "CRM 도입 담당자는 따로 있음"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 779,
+          "end_char": 783
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

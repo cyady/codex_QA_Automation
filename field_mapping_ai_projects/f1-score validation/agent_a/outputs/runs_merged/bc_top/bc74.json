@@ -1,0 +1,259 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W74",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.09",
+      "normalized": {
+        "year": 2025,
+        "month": 9,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.09",
+          "start_char": 12,
+          "end_char": 17
+        }
+      ],
+      "dedupe_key": "timeline:f8ab960d07128cfe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 21,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "홍솔의 대리님은 지금까진 리캐치가 제일 맘에 들고, 마침 리캐치에서 데모 시연 요청 주었다며 팀에 보고 후 미팅 일정 잡을 예정",
+      "normalized": {
+        "text": "홍솔의 대리님은 지금까진 리캐치가 제일 맘에 들고, 마침 리캐치에서 데모 시연 요청 주었다며 팀에 보고 후 미팅 일정 잡을 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "SAL 전환 예정"
+          ],
+          "exact_quote": "홍솔의 대리님은 지금까진 리캐치가 제일 맘에 들고, 마침 리캐치에서 데모 시연 요청 주었다며 팀에 보고 후 미팅 일정 잡을 예정",
+          "start_char": 37,
+          "end_char": 108
+        }
+      ],
+      "dedupe_key": "action_item:ad919486b3fadf2c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "SAL 전환 예정"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 51,
+          "end_char": 54
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "SAL 전환 예정"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 69,
+          "end_char": 72
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 348,
+          "end_char": 351
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 503,
+          "end_char": 506
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "‘오피스 넥스트’ 홈페이지 개편에 맞춰 마케팅 리드를 효율적으로 관리하고 유료 고객으로 전환시키기 위해 B2B CRM 도입 검토 중",
+      "normalized": {
+        "text": "‘오피스 넥스트’ 홈페이지 개편에 맞춰 마케팅 리드를 효율적으로 관리하고 유료 고객으로 전환시키기 위해 B2B CRM 도입 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "‘오피스 넥스트’ 홈페이지 개편에 맞춰 마케팅 리드를 효율적으로 관리하고 유료 고객으로 전환시키기 위해 B2B CRM 도입 검토 중",
+          "start_char": 116,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "action_item:a24f8ace7b43cdce",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "홈페이지의 제품 소개서나 도입 문의 폼을 통해 들어온 정보를 리드로 활용해 MQL 등 체계적 리드 관리를 하고 싶음",
+      "normalized": {
+        "text": "홈페이지의 제품 소개서나 도입 문의 폼을 통해 들어온 정보를 리드로 활용해 MQL 등 체계적 리드 관리를 하고 싶음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "홈페이지의 제품 소개서나 도입 문의 폼을 통해 들어온 정보를 리드로 활용해 MQL 등 체계적 리드 관리를 하고 싶음",
+          "start_char": 376,
+          "end_char": 440
+        }
+      ],
+      "dedupe_key": "collaboration_need:b9ae3830a38fac58",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가 확인 필요",
+      "normalized": {
+        "text": "추가 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "추가 확인 필요",
+          "start_char": 672,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "action_item:eaf007e4b90d9f45",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아직 내부 아젠다로 올라간 상황은 아니고, 대리님이 주체적으로 국산 CRM 비교검토 후 아젠다 올릴 예정",
+      "normalized": {
+        "text": "아직 내부 아젠다로 올라간 상황은 아니고, 대리님이 주체적으로 국산 CRM 비교검토 후 아젠다 올릴 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "아직 내부 아젠다로 올라간 상황은 아니고, 대리님이 주체적으로 국산 CRM 비교검토 후 아젠다 올릴 예정",
+          "start_char": 684,
+          "end_char": 742
+        }
+      ],
+      "dedupe_key": "action_item:27aa2641f42a766b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 418,
+          "end_char": 421
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 603,
+          "end_char": 606
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

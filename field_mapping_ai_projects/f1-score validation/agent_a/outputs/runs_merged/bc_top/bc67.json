@@ -1,0 +1,257 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W67",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "25년 예산은 아예 없음. 26년에 예산 쓰기 위해 10월-11월에 견적 논의 필요함.",
+      "normalized": {
+        "text": "25년 예산은 아예 없음. 26년에 예산 쓰기 위해 10월-11월에 견적 논의 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25년 예산은 아예 없음. 26년에 예산 쓰기 위해 10월-11월에 견적 논의 필요함.",
+          "start_char": 203,
+          "end_char": 251
+        }
+      ],
+      "dedupe_key": "action_item:5cbeb72665b7674a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러나 실제 프로젝트 진행하게 되면 또 바뀔 수 있으니 주의해야 함.",
+      "normalized": {
+        "text": "그러나 실제 프로젝트 진행하게 되면 또 바뀔 수 있으니 주의해야 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "그러나 실제 프로젝트 진행하게 되면 또 바뀔 수 있으니 주의해야 함.",
+          "start_char": 1048,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "action_item:6c3ffc760ef7656f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 41,
+          "end_char": 45
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales팀",
+      "normalized": {
+        "name": "sales팀"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales팀",
+          "start_char": 401,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:46bdedce03b905e0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9/1",
+      "normalized": {
+        "month": 9,
+        "day": 1,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9/1",
+          "start_char": 418,
+          "end_char": 421
+        }
+      ],
+      "dedupe_key": "timeline:b952227a72376ee1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "8월 25일",
+      "normalized": {
+        "month": 8,
+        "day": 25
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "8월 25일",
+          "start_char": 672,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "timeline:366aff54d5874149",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 15,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25일",
+          "start_char": 675,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "duration:698d4f9a6eb2d4a7",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "20명",
+          "start_char": 467,
+          "end_char": 470
+        }
+      ],
+      "dedupe_key": "team_size:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "30명",
+      "normalized": {
+        "value": 30,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "30명",
+          "start_char": 472,
+          "end_char": 475
+        }
+      ],
+      "dedupe_key": "people_count:bc81a7966f4ba1a4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 130,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

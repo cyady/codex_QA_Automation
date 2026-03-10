@@ -1,0 +1,378 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W12",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 제안서 및 데모 공유(10월 중)",
+      "normalized": {
+        "text": "CRM 도입 제안서 및 데모 공유(10월 중)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CRM 도입 제안서 및 데모 공유(10월 중)",
+          "start_char": 50,
+          "end_char": 75
+        }
+      ],
+      "dedupe_key": "collaboration_need:cff9f86601a63c9b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+      "normalized": {
+        "text": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현행 세일즈 활동의 한계와 히스토리 단절에 대한 문제의식 강함",
+          "start_char": 205,
+          "end_char": 239
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2b96b11c1413c520",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+      "normalized": {
+        "text": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 도입 필요성 인식 중이나, 내부 설득을 위한 자료/사례 요구",
+          "start_char": 269,
+          "end_char": 306
+        }
+      ],
+      "dedupe_key": "action_item:53d77c3e5ddf6907",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+      "normalized": {
+        "text": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Wix의 한계 (디자인 자유도, 히트맵 불가, 퍼널 단절 등)에 깊이 공감",
+          "start_char": 392,
+          "end_char": 433
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ec5c4330ea03916f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "상황 및 문제점",
+      "normalized": {
+        "text": "상황 및 문제점",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "상황 및 문제점",
+          "start_char": 540,
+          "end_char": 548
+        }
+      ],
+      "dedupe_key": "risk_or_concern:17707f1561b1c448",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "인턴이 기고객에 오발송하는 사례 발생",
+      "normalized": {
+        "text": "인턴이 기고객에 오발송하는 사례 발생",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "인턴이 기고객에 오발송하는 사례 발생",
+          "start_char": 631,
+          "end_char": 651
+        }
+      ],
+      "dedupe_key": "action_item:d414af0d517826ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+      "normalized": {
+        "text": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Wix 기반 웹 UX 한계 (로딩 느림, 모바일 최적화 안 됨, 클릭 불가 메뉴 존재)",
+          "start_char": 688,
+          "end_char": 736
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8d676dd04290e12d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "히트맵 적용 불가 등 분석 불가 문제",
+      "normalized": {
+        "text": "히트맵 적용 불가 등 분석 불가 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "히트맵 적용 불가 등 분석 불가 문제",
+          "start_char": 769,
+          "end_char": 789
+        }
+      ],
+      "dedupe_key": "risk_or_concern:47222f53c2a6c2ab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+      "normalized": {
+        "text": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리드 스코어링 부재, CTA 약함, 고객 후기 난이도 높음",
+          "start_char": 835,
+          "end_char": 867
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6fa8f3a4e5e49f4a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+      "normalized": {
+        "text": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "플랫폼 이관에 따른 리소스 소요 우려 (시간+품)",
+          "start_char": 941,
+          "end_char": 968
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b25494dbc3589430",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+      "normalized": {
+        "text": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "도입 효과에 대한 내부 확신 부족 (POC 경험 없음)",
+          "start_char": 969,
+          "end_char": 999
+        }
+      ],
+      "dedupe_key": "collaboration_need:6043fadf84e661f4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 31,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "47건",
+      "normalized": {
+        "value": 47,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "47건",
+          "start_char": 830,
+          "end_char": 833
+        }
+      ],
+      "dedupe_key": "lead_volume:832c1060436acade",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 440,
+          "end_char": 443
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 737,
+          "end_char": 740
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 847,
+          "end_char": 850
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 269,
+          "end_char": 272
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "05.45",
+      "normalized": {
+        "year": 2005,
+        "month": 45,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "05.45",
+          "start_char": 1097,
+          "end_char": 1102
+        }
+      ],
+      "dedupe_key": "timeline:fb3767de75748f51",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

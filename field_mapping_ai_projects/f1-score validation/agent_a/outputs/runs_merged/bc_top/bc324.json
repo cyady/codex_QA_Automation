@@ -1,0 +1,204 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W324",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 30여 개",
+      "normalized": {
+        "value": 30,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "케이에이치(KH) 상업 시설 테넌트 유치 프로젝트"
+          ],
+          "exact_quote": "약 30여 개",
+          "start_char": 126,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "case_metric:c301606e7b70f2af",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "케이에이치(KH) 상업 시설 테넌트 유치 프로젝트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 307,
+          "end_char": 310
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "네트워크 영업의 한계 - 기존 거래처나 소개를 통한 방식은 곧 고갈될 우려가 있어 다른 방안을 모색하려는 중",
+      "normalized": {
+        "text": "네트워크 영업의 한계 - 기존 거래처나 소개를 통한 방식은 곧 고갈될 우려가 있어 다른 방안을 모색하려는 중",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "케이에이치(KH) 상업 시설 테넌트 유치 프로젝트"
+          ],
+          "exact_quote": "네트워크 영업의 한계 - 기존 거래처나 소개를 통한 방식은 곧 고갈될 우려가 있어 다른 방안을 모색하려는 중",
+          "start_char": 330,
+          "end_char": 390
+        }
+      ],
+      "dedupe_key": "risk_or_concern:eb1e233e7ef2b38d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프랜차이즈 본사 및 가맹점주 동시 공략이 필요",
+      "normalized": {
+        "text": "프랜차이즈 본사 및 가맹점주 동시 공략이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "케이에이치(KH) 상업 시설 테넌트 유치 프로젝트"
+          ],
+          "exact_quote": "프랜차이즈 본사 및 가맹점주 동시 공략이 필요",
+          "start_char": 428,
+          "end_char": 453
+        }
+      ],
+      "dedupe_key": "action_item:af71b0cde0eeb6c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1순위: 대형 프랜차이즈 본사(직영) 설득 및 입점 확정",
+      "normalized": {
+        "text": "1순위: 대형 프랜차이즈 본사(직영) 설득 및 입점 확정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "케이에이치(KH) 상업 시설 테넌트 유치 프로젝트"
+          ],
+          "exact_quote": "1순위: 대형 프랜차이즈 본사(직영) 설득 및 입점 확정",
+          "start_char": 459,
+          "end_char": 490
+        }
+      ],
+      "dedupe_key": "action_item:dcf7b15fef51d24c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "F&B뿐만 아니라 의류, 소품샵 등 다양한 리테일 업종의 의사결정권자를 찾고 미팅으로 연결하는 프로세스가 필요함.",
+      "normalized": {
+        "text": "F&B뿐만 아니라 의류, 소품샵 등 다양한 리테일 업종의 의사결정권자를 찾고 미팅으로 연결하는 프로세스가 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "효율적인 타겟팅"
+          ],
+          "exact_quote": "F&B뿐만 아니라 의류, 소품샵 등 다양한 리테일 업종의 의사결정권자를 찾고 미팅으로 연결하는 프로세스가 필요함.",
+          "start_char": 556,
+          "end_char": 619
+        }
+      ],
+      "dedupe_key": "action_item:d92440a8d7f05301",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1회성 프로젝트로 그로스 패키지 솔루션과 맞지 않아 보이고, 리멤버 리드젠 및 ABM 패키지로도 가치를 줄 수 있을지 애매모호함",
+      "normalized": {
+        "text": "1회성 프로젝트로 그로스 패키지 솔루션과 맞지 않아 보이고, 리멤버 리드젠 및 ABM 패키지로도 가치를 줄 수 있을지 애매모호함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "니즈-솔루션 적합도를 판단했을 때 하"
+          ],
+          "exact_quote": "1회성 프로젝트로 그로스 패키지 솔루션과 맞지 않아 보이고, 리멤버 리드젠 및 ABM 패키지로도 가치를 줄 수 있을지 애매모호함",
+          "start_char": 647,
+          "end_char": 718
+        }
+      ],
+      "dedupe_key": "collaboration_need:a3634e16bf0b4e55",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "니즈-솔루션 적합도를 판단했을 때 하"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 691,
+          "end_char": 694
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

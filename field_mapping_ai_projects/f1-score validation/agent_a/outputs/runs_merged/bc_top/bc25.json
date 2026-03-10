@@ -1,0 +1,242 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W25",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+      "normalized": {
+        "text": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "그러면 확인차 여쭤보는데 혹시 이번 워크숍이 유료로 진행되는 점은 인지하고 계실까요? 아 네네네 알고 있습니다. 아 그러면 저희 AIX 세션은 9월 18일 목요일에 오후 1시부터 4시 반까지 스파크 플러스 코엑스점에서 오프라인으로 진행되는데 참석이 가능하실까요? 네네네 알고 있습니다. 그러면 두 명까지 참여 가능하다고 적혀있는데 혹시 맞을까요? 네, 맞아요. 아, 네네네.",
+          "start_char": 1526,
+          "end_char": 1735
+        }
+      ],
+      "dedupe_key": "action_item:6a4f81b0831289fd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+      "normalized": {
+        "text": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "그럼 뭐 인당 60인가요? 아니면 두 명이 60인가요? 이제 최대 두 분까지 참여가 가능하시고, 두 분이 모두 포함해서 이제 60만 원인 거고, 네, 근데 BAT는 별도입니다. 아, 네네. 알겠습니다. 그러면 혹시 두 분이 오실 예정이실까요? 네네네.",
+          "start_char": 1736,
+          "end_char": 1876
+        }
+      ],
+      "dedupe_key": "collaboration_need:6237b3b3fb6caf05",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 1시",
+          "start_char": 1618,
+          "end_char": 1623
+        }
+      ],
+      "dedupe_key": "timeline:01785350c93fba4e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 18일",
+      "normalized": {
+        "month": 9,
+        "day": 18
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9월 18일",
+          "start_char": 1606,
+          "end_char": 1612
+        }
+      ],
+      "dedupe_key": "timeline:46259edec4628701",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만 원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "60만 원",
+          "start_char": 1806,
+          "end_char": 1811
+        }
+      ],
+      "dedupe_key": "budget:56f8121aedea73d8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "4개월",
+          "start_char": 1027,
+          "end_char": 1030
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "18일",
+          "start_char": 1609,
+          "end_char": 1612
+        }
+      ],
+      "dedupe_key": "duration:37571e0d7b3d26c5",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 221,
+          "end_char": 224
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 416,
+          "end_char": 419
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 608,
+          "end_char": 611
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 645,
+          "end_char": 648
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 766,
+          "end_char": 769
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 808,
+          "end_char": 811
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1108,
+          "end_char": 1111
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1143,
+          "end_char": 1146
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

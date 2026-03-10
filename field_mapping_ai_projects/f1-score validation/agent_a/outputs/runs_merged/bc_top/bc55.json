@@ -1,0 +1,479 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W55",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "하이퍼 타겟팅 리드 마그넷 상품 관련 자료 검토",
+      "normalized": {
+        "text": "하이퍼 타겟팅 리드 마그넷 상품 관련 자료 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "하이퍼 타겟팅 리드 마그넷 상품 관련 자료 검토",
+          "start_char": 268,
+          "end_char": 294
+        }
+      ],
+      "dedupe_key": "action_item:24c4c6a1bab61a61",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고객이 처한 상황, 문제",
+      "normalized": {
+        "text": "고객이 처한 상황, 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "고객이 처한 상황, 문제",
+          "start_char": 339,
+          "end_char": 352
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d68b30629f76c898",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "박람회 참관 의존도 높음 (온도감 저하 문제)",
+      "normalized": {
+        "text": "박람회 참관 의존도 높음 (온도감 저하 문제)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "박람회 참관 의존도 높음 (온도감 저하 문제)",
+          "start_char": 478,
+          "end_char": 503
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4855303307d99cd2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1명 충원 예정이지만 체계화된 프로세스 부재",
+      "normalized": {
+        "text": "1명 충원 예정이지만 체계화된 프로세스 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1명 충원 예정이지만 체계화된 프로세스 부재",
+          "start_char": 554,
+          "end_char": 578
+        }
+      ],
+      "dedupe_key": "risk_or_concern:74c5a85c70bde26d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 미도입 (엑셀 관리)",
+      "normalized": {
+        "text": "CRM 미도입 (엑셀 관리)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CRM 미도입 (엑셀 관리)",
+          "start_char": 579,
+          "end_char": 594
+        }
+      ],
+      "dedupe_key": "collaboration_need:740f36a17657bee2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "마케팅팀 부재로 인한 리드 생성 한계",
+      "normalized": {
+        "text": "마케팅팀 부재로 인한 리드 생성 한계",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "마케팅팀 부재로 인한 리드 생성 한계",
+          "start_char": 595,
+          "end_char": 615
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ccfd097402f49613",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "통년: 월평균 미팅 200개+ 달성 필요",
+      "normalized": {
+        "text": "통년: 월평균 미팅 200개+ 달성 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "통년: 월평균 미팅 200개+ 달성 필요",
+          "start_char": 704,
+          "end_char": 726
+        }
+      ],
+      "dedupe_key": "action_item:1e88c17f00557720",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 필요: 5천만-1억원 수준의 B2B 마케팅 투자 검토",
+      "normalized": {
+        "text": "검토 필요: 5천만-1억원 수준의 B2B 마케팅 투자 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "검토 필요: 5천만-1억원 수준의 B2B 마케팅 투자 검토",
+          "start_char": 976,
+          "end_char": 1008
+        }
+      ],
+      "dedupe_key": "action_item:3255fafaff868bc3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "특이사항: 마케팅팀 부재",
+      "normalized": {
+        "text": "특이사항: 마케팅팀 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "특이사항: 마케팅팀 부재",
+          "start_char": 1073,
+          "end_char": 1086
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9858ea6496b0a3a5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "블로커: 마케팅팀 부재, B2B 마케팅 경험 부족",
+      "normalized": {
+        "text": "블로커: 마케팅팀 부재, B2B 마케팅 경험 부족",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로커: 마케팅팀 부재, B2B 마케팅 경험 부족",
+          "start_char": 1181,
+          "end_char": 1208
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f73a1677af31f94a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "8월 28일",
+      "normalized": {
+        "month": 8,
+        "day": 28
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "8월 28일",
+          "start_char": 197,
+          "end_char": 203
+        }
+      ],
+      "dedupe_key": "timeline:a011be0f9e9d9ea9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 450,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1억원",
+          "start_char": 987,
+          "end_char": 990
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "28일",
+      "normalized": {
+        "value": 28.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "28일",
+          "start_char": 200,
+          "end_char": 203
+        }
+      ],
+      "dedupe_key": "duration:f900001f6050e1d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 363,
+          "end_char": 365
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "3건",
+      "normalized": {
+        "value": 3,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3건",
+          "start_char": 533,
+          "end_char": 535
+        }
+      ],
+      "dedupe_key": "sales_activity:b1bcbf4dcddea3fe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1명",
+          "start_char": 554,
+          "end_char": 556
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200개",
+      "normalized": {
+        "value": 200,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "200개",
+          "start_char": 715,
+          "end_char": 719
+        }
+      ],
+      "dedupe_key": "case_metric:4b5bc16117ca9cfe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1318,
+          "end_char": 1321
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1314,
+          "end_char": 1317
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 126,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

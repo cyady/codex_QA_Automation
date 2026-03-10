@@ -1,0 +1,395 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W51",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 5:08 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 5,
+        "minute": 8,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 5:08 ",
+          "start_char": 24,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "timeline:66f497822cc0e98b",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.15",
+      "normalized": {
+        "expression": "2025.09.15"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.15",
+          "start_char": 11,
+          "end_char": 21
+        }
+      ],
+      "dedupe_key": "timeline:572c313eb9fb2653",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "블로그를 발행하시는 거죠?"
+          ],
+          "exact_quote": "2개",
+          "start_char": 898,
+          "end_char": 900
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "인스타",
+      "normalized": {
+        "keyword": "인스타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "블로그를 발행하시는 거죠?"
+          ],
+          "exact_quote": "인스타",
+          "start_char": 925,
+          "end_char": 928
+        }
+      ],
+      "dedupe_key": "tool_or_channel:7bf909e682384b15",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "블로그를 발행하시는 거죠?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 802,
+          "end_char": 805
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "블로그를 발행하시는 거죠?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 879,
+          "end_char": 882
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "블로그를 발행하시는 거죠?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 894,
+          "end_char": 897
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "거의 스마트 스토어 중심이에요. 저희가 웹사이트는 일부러 만들어놓고 지금 쓰지를 못하고 있어가지고 카페 24%에서 본격 잘 써보려고 아까 CRM 마케팅 기능이 강화됐으니까 그래서 이제 계속 이전을 또 하는 거고 지금 공식 홈페이지는 아직 손을 안 보고 있거든요.",
+      "normalized": {
+        "text": "거의 스마트 스토어 중심이에요. 저희가 웹사이트는 일부러 만들어놓고 지금 쓰지를 못하고 있어가지고 카페 24%에서 본격 잘 써보려고 아까 CRM 마케팅 기능이 강화됐으니까 그래서 이제 계속 이전을 또 하는 거고 지금 공식 홈페이지는 아직 손을 안 보고 있거든요.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "거의 스마트 스토어 중심이에요. 저희가 웹사이트는 일부러 만들어놓고 지금 쓰지를 못하고 있어가지고 카페 24%에서 본격 잘 써보려고 아까 CRM 마케팅 기능이 강화됐으니까 그래서 이제 계속 이전을 또 하는 거고 지금 공식 홈페이지는 아직 손을 안 보고 있거든요.",
+          "start_char": 1404,
+          "end_char": 1550
+        }
+      ],
+      "dedupe_key": "other:3f95fcb782025c53",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "근데 물론 공식 홈페이지 자체가 AO라든가 이런 데에 속한 중요한 부분이라는 걸 알고 있긴 한데 그래서 그때부터 본격적으로 하려고 하고 있고 지금 사실은 그런 문의가 들어오면 스마트 스토어 네이버 톡톡이나 이런 쪽으로 많이 들어오고 있어요.",
+      "normalized": {
+        "text": "근데 물론 공식 홈페이지 자체가 AO라든가 이런 데에 속한 중요한 부분이라는 걸 알고 있긴 한데 그래서 그때부터 본격적으로 하려고 하고 있고 지금 사실은 그런 문의가 들어오면 스마트 스토어 네이버 톡톡이나 이런 쪽으로 많이 들어오고 있어요.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "근데 물론 공식 홈페이지 자체가 AO라든가 이런 데에 속한 중요한 부분이라는 걸 알고 있긴 한데 그래서 그때부터 본격적으로 하려고 하고 있고 지금 사실은 그런 문의가 들어오면 스마트 스토어 네이버 톡톡이나 이런 쪽으로 많이 들어오고 있어요.",
+          "start_char": 1551,
+          "end_char": 1685
+        }
+      ],
+      "dedupe_key": "other:dc457569d518ccea",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "네 그래서 제가 전 회사에서는 이제 세일즈 포스를 써보긴 했는데 이제 비투비나 파이프라인 그런 것들을 이제 봤을 때 이제 리캐치가 좀 더 좀 직관적이기도 하고 해서 맞아요.",
+      "normalized": {
+        "text": "네 그래서 제가 전 회사에서는 이제 세일즈 포스를 써보긴 했는데 이제 비투비나 파이프라인 그런 것들을 이제 봤을 때 이제 리캐치가 좀 더 좀 직관적이기도 하고 해서 맞아요.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "네 그래서 제가 전 회사에서는 이제 세일즈 포스를 써보긴 했는데 이제 비투비나 파이프라인 그런 것들을 이제 봤을 때 이제 리캐치가 좀 더 좀 직관적이기도 하고 해서 맞아요.",
+          "start_char": 1686,
+          "end_char": 1782
+        }
+      ],
+      "dedupe_key": "other:c23bf782f9aa19fe",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "저희는 비투비 고객 수가 조금 늘고 있어서 예 그걸 좀 효과적으로 관리할 수 있는 사스 솔루션을 좀 그것도 이제 좀 관심이 있어서 리캐치는 좀 잘 보고 있었거든요.",
+      "normalized": {
+        "text": "저희는 비투비 고객 수가 조금 늘고 있어서 예 그걸 좀 효과적으로 관리할 수 있는 사스 솔루션을 좀 그것도 이제 좀 관심이 있어서 리캐치는 좀 잘 보고 있었거든요.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "저희는 비투비 고객 수가 조금 늘고 있어서 예 그걸 좀 효과적으로 관리할 수 있는 사스 솔루션을 좀 그것도 이제 좀 관심이 있어서 리캐치는 좀 잘 보고 있었거든요.",
+          "start_char": 1783,
+          "end_char": 1874
+        }
+      ],
+      "dedupe_key": "other:91a73e75a48749fd",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1754,
+          "end_char": 1757
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "그럼 혹시 이 웹사이트 통해서는 고객 문의나 상담 신청 같은 것들이 잘 들어왔었나요?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1856,
+          "end_char": 1859
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "원래 알고 계셨구나"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 1994,
+          "end_char": 1997
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그래서 이게 좀 더 많아지게 되면 아무래도 좀 더 이제 사업이 좀 많아지게 됐을 때 그때 이제 좀 도입을 할까도 생각을 하고 있거든요.",
+      "normalized": {
+        "text": "그래서 이게 좀 더 많아지게 되면 아무래도 좀 더 이제 사업이 좀 많아지게 됐을 때 그때 이제 좀 도입을 할까도 생각을 하고 있거든요.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "그래서 이게 좀 더 많아지게 되면 아무래도 좀 더 이제 사업이 좀 많아지게 됐을 때 그때 이제 좀 도입을 할까도 생각을 하고 있거든요.",
+          "start_char": 2163,
+          "end_char": 2238
+        }
+      ],
+      "dedupe_key": "collaboration_need:736cbc2336b5f1b0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "18일 목요일이랑 25일 목요일 이번 주랑 다음 주인데 이 일정도 참석 가능하실까요?"
+          ],
+          "exact_quote": "2명",
+          "start_char": 2510,
+          "end_char": 2512
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이거 제가 이 통화 끝나고 메일로 관련 내용 전달드릴 테니까",
+      "normalized": {
+        "text": "이거 제가 이 통화 끝나고 메일로 관련 내용 전달드릴 테니까",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "이거 제가 이 통화 끝나고 메일로 관련 내용 전달드릴 테니까",
+          "start_char": 2529,
+          "end_char": 2562
+        }
+      ],
+      "dedupe_key": "collaboration_need:c4f26aae15561b00",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그거 보시고 회신 주시면 될 것 같아요.",
+      "normalized": {
+        "text": "그거 보시고 회신 주시면 될 것 같아요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "네네"
+          ],
+          "exact_quote": "그거 보시고 회신 주시면 될 것 같아요.",
+          "start_char": 2568,
+          "end_char": 2590
+        }
+      ],
+      "dedupe_key": "action_item:4cc9ae06f8af853e",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

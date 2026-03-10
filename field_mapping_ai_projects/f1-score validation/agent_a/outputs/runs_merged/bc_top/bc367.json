@@ -1,0 +1,210 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W367",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 72,
+          "end_char": 76
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 57,
+          "end_char": 60
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 73,
+          "end_char": 76
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 300개",
+      "normalized": {
+        "value": 300,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "상황 설명"
+          ],
+          "exact_quote": "약 300개",
+          "start_char": 123,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "case_metric:4655e862b43585c0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2천 개",
+      "normalized": {
+        "value": 2000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "상황 설명"
+          ],
+          "exact_quote": "2천 개",
+          "start_char": 136,
+          "end_char": 140
+        }
+      ],
+      "dedupe_key": "case_metric:230177bf420f83aa",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Pain Point 2: 영업 사원 채용이 어렵고, 퇴사 시 영업 정보가 휘발(유실)되는 문제 발생",
+      "normalized": {
+        "text": "Pain Point 2: 영업 사원 채용이 어렵고, 퇴사 시 영업 정보가 휘발(유실)되는 문제 발생",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "상황 설명"
+          ],
+          "exact_quote": "Pain Point 2: 영업 사원 채용이 어렵고, 퇴사 시 영업 정보가 휘발(유실)되는 문제 발생",
+          "start_char": 294,
+          "end_char": 349
+        }
+      ],
+      "dedupe_key": "risk_or_concern:870f9fa5b84bbf99",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "100명",
+      "normalized": {
+        "value": 100,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "영업 전환율('적중률'이라 표현하심) 향상"
+          ],
+          "exact_quote": "100명",
+          "start_char": 457,
+          "end_char": 461
+        }
+      ],
+      "dedupe_key": "people_count:869998daef8cbea5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "영업 전환율('적중률'이라 표현하심) 향상"
+          ],
+          "exact_quote": "10명",
+          "start_char": 481,
+          "end_char": 484
+        }
+      ],
+      "dedupe_key": "people_count:650538adf940c376",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "명함 전달드렸고, 대표님께서 차주 중 가능한 시간대 추려서 전달주신다고 합니다.",
+      "normalized": {
+        "text": "명함 전달드렸고, 대표님께서 차주 중 가능한 시간대 추려서 전달주신다고 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "조금 멀긴 하지만 @박성준(Scott) 님 동작구시니...?"
+          ],
+          "exact_quote": "명함 전달드렸고, 대표님께서 차주 중 가능한 시간대 추려서 전달주신다고 합니다.",
+          "start_char": 743,
+          "end_char": 787
+        }
+      ],
+      "dedupe_key": "collaboration_need:6449820da2c2757d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W443",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "260114_SK텔레콤 - 잠재매출 1,300만원] 미팅록 공유 cc @김우진(Woojin Andy Kim) @강대웅(Dario) @정민지(jasminji)1/ Commit level: 22/ 예상 금액: 초기 도입 비용 약 1,300만원",
+      "normalized": {
+        "text": "260114_SK텔레콤 - 잠재매출 1,300만원] 미팅록 공유 cc @김우진(Woojin Andy Kim) @강대웅(Dario) @정민지(jasminji)1/ Commit level: 22/ 예상 금액: 초기 도입 비용 약 1,300만원",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "260114_SK텔레콤 - 잠재매출 1,300만원] 미팅록 공유 cc @김우진(Woojin Andy Kim) @강대웅(Dario) @정민지(jasminji)1/ Commit level: 22/ 예상 금액: 초기 도입 비용 약 1,300만원",
+          "start_char": 0,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "collaboration_need:11d5b4ec3dd37dec",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 39,
+          "end_char": 43
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@강대웅",
+          "start_char": 61,
+          "end_char": 65
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:dfe1dfe06e89913a",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정민지",
+      "normalized": {
+        "name": "정민지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@정민지",
+          "start_char": 73,
+          "end_char": 77
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:bd3a46d30f5d8f67",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 22,
+          "end_char": 27
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 128,
+          "end_char": 133
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 인당 구독 모델: 별도의 구축 비용 없이 홈페이지에 명시된 인원당 구독 모델로 진행될 예정입니다.",
+      "normalized": {
+        "text": "• 인당 구독 모델: 별도의 구축 비용 없이 홈페이지에 명시된 인원당 구독 모델로 진행될 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "• 인당 구독 모델: 별도의 구축 비용 없이 홈페이지에 명시된 인원당 구독 모델로 진행될 예정입니다.",
+          "start_char": 134,
+          "end_char": 190
+        }
+      ],
+      "dedupe_key": "action_item:7fac5beea0877782",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 초기 도입 인원: 세일즈팀 8명을 포함하여 초기에는 약 20명 규모로 시작할 계획입니다.",
+      "normalized": {
+        "text": "• 초기 도입 인원: 세일즈팀 8명을 포함하여 초기에는 약 20명 규모로 시작할 계획입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "• 초기 도입 인원: 세일즈팀 8명을 포함하여 초기에는 약 20명 규모로 시작할 계획입니다.",
+          "start_char": 191,
+          "end_char": 242
+        }
+      ],
+      "dedupe_key": "collaboration_need:d940fba8b72a7edb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "8명",
+          "start_char": 208,
+          "end_char": 210
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "8명",
+          "start_char": 711,
+          "end_char": 713
+        }
+      ],
+      "dedupe_key": "team_size:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "약 20명",
+          "start_char": 222,
+          "end_char": 227
+        }
+      ],
+      "dedupe_key": "team_size:73d24e98202736d7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "50명",
+      "normalized": {
+        "value": 50,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "50명",
+          "start_char": 281,
+          "end_char": 284
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "50명",
+          "start_char": 763,
+          "end_char": 766
+        }
+      ],
+      "dedupe_key": "team_size:b09bc45d315cd8a7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 보고 자료 준비: 안상화 매니저가 연간 마케팅 계획 보고를 위해 제품 소개서를 검토하고 리캐치팀(한규 님)에게 필요한 정보를 추가로 문의할 예정입니다.",
+      "normalized": {
+        "text": "• 보고 자료 준비: 안상화 매니저가 연간 마케팅 계획 보고를 위해 제품 소개서를 검토하고 리캐치팀(한규 님)에게 필요한 정보를 추가로 문의할 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "• 보고 자료 준비: 안상화 매니저가 연간 마케팅 계획 보고를 위해 제품 소개서를 검토하고 리캐치팀(한규 님)에게 필요한 정보를 추가로 문의할 예정입니다.",
+          "start_char": 317,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "action_item:f66ff009d939948e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 368,
+          "end_char": 371
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 512,
+          "end_char": 515
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 내부 분위기 조성 및 설명회: 안상화 매니저가 영업자들에게 도입의 긍정적인 면을 설득한 후, 의사결정자들을 포함한 설명회(온라인 또는 대면) 자리를 마련하기로 했습니다.",
+      "normalized": {
+        "text": "• 내부 분위기 조성 및 설명회: 안상화 매니저가 영업자들에게 도입의 긍정적인 면을 설득한 후, 의사결정자들을 포함한 설명회(온라인 또는 대면) 자리를 마련하기로 했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "• 내부 분위기 조성 및 설명회: 안상화 매니저가 영업자들에게 도입의 긍정적인 면을 설득한 후, 의사결정자들을 포함한 설명회(온라인 또는 대면) 자리를 마련하기로 했습니다.",
+          "start_char": 404,
+          "end_char": 500
+        }
+      ],
+      "dedupe_key": "collaboration_need:a4b08e2d7556e1af",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 네트워크 활용: 리캐치 김우진 대표는 안상화 매니저의 옆 팀장이자 지인인 김태형 팀장에게 연락하여 프로젝트 관련 교류를 진행할 예정입니다.4/ BUILD Framework",
+      "normalized": {
+        "text": "• 네트워크 활용: 리캐치 김우진 대표는 안상화 매니저의 옆 팀장이자 지인인 김태형 팀장에게 연락하여 프로젝트 관련 교류를 진행할 예정입니다.4/ BUILD Framework",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "• 네트워크 활용: 리캐치 김우진 대표는 안상화 매니저의 옆 팀장이자 지인인 김태형 팀장에게 연락하여 프로젝트 관련 교류를 진행할 예정입니다.4/ BUILD Framework",
+          "start_char": 501,
+          "end_char": 598
+        }
+      ],
+      "dedupe_key": "action_item:143be8bc5f4fae38",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• Blocker: 현장 영업 사원들의 입력 부담입니다. 기존에 CRM 사용 시 미팅 로그를 일일이 남겨야 했던 경험 때문에 도입을 기꺼이 반기지 않을 가능성이 언급되었습니다.",
+      "normalized": {
+        "text": "• Blocker: 현장 영업 사원들의 입력 부담입니다. 기존에 CRM 사용 시 미팅 로그를 일일이 남겨야 했던 경험 때문에 도입을 기꺼이 반기지 않을 가능성이 언급되었습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "• Blocker: 현장 영업 사원들의 입력 부담입니다. 기존에 CRM 사용 시 미팅 로그를 일일이 남겨야 했던 경험 때문에 도입을 기꺼이 반기지 않을 가능성이 언급되었습니다.",
+          "start_char": 599,
+          "end_char": 697
+        }
+      ],
+      "dedupe_key": "collaboration_need:dc35706b867506d8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• User: 세일즈팀(8명) 및 상품개발팀을 포함한 사업본부 인원 약 40~50명입니다.(첫 시작 20명 - 최종 50명까지 도입 목표)",
+      "normalized": {
+        "text": "• User: 세일즈팀(8명) 및 상품개발팀을 포함한 사업본부 인원 약 40~50명입니다.(첫 시작 20명 - 최종 50명까지 도입 목표)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "• User: 세일즈팀(8명) 및 상품개발팀을 포함한 사업본부 인원 약 40~50명입니다.(첫 시작 20명 - 최종 50명까지 도입 목표)",
+          "start_char": 698,
+          "end_char": 775
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e4227003015040a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number_range",
+      "raw_text": "40~50명",
+      "normalized": {
+        "min": 40.0,
+        "max": 50.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "40~50명",
+          "start_char": 738,
+          "end_char": 744
+        }
+      ],
+      "dedupe_key": "team_size:87281bcf05e8a732",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "20명",
+          "start_char": 754,
+          "end_char": 757
+        }
+      ],
+      "dedupe_key": "team_size:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• Leader:  추가 식별 필요.",
+      "normalized": {
+        "text": "• Leader:  추가 식별 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "• Leader:  추가 식별 필요.",
+          "start_char": 850,
+          "end_char": 870
+        }
+      ],
+      "dedupe_key": "action_item:1816e2e1c109a7b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• Driver: 실무 차원에서 도입 필요성을 느끼고 마케팅 플랜에 포함해 보고를 추진하는 안상화 매니저입니다.5/ BANT Framework",
+      "normalized": {
+        "text": "• Driver: 실무 차원에서 도입 필요성을 느끼고 마케팅 플랜에 포함해 보고를 추진하는 안상화 매니저입니다.5/ BANT Framework",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "• Driver: 실무 차원에서 도입 필요성을 느끼고 마케팅 플랜에 포함해 보고를 추진하는 안상화 매니저입니다.5/ BANT Framework",
+          "start_char": 871,
+          "end_char": 950
+        }
+      ],
+      "dedupe_key": "action_item:036c411da3e6eeb9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• Authority: 안상화 매니저가 챔피언으로서 실무를 추진하며, 내부 의사결정자들의 승인이 필요합니다.",
+      "normalized": {
+        "text": "• Authority: 안상화 매니저가 챔피언으로서 실무를 추진하며, 내부 의사결정자들의 승인이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "• Authority: 안상화 매니저가 챔피언으로서 실무를 추진하며, 내부 의사결정자들의 승인이 필요합니다.",
+          "start_char": 1002,
+          "end_char": 1062
+        }
+      ],
+      "dedupe_key": "action_item:b7d553a9fdd6468b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• Need: 기존에 텔레그램이나 이메일로 공유되어 휘발되는 영업 미팅 히스토리를 체계적으로 축적하고 파이프라인을 관리할 필요가 있습니다. 또한, 외산 솔루션(마케토 등) 대비 가볍고 사용성이 좋은 국산 CRM을 원하고 있습니다.",
+      "normalized": {
+        "text": "• Need: 기존에 텔레그램이나 이메일로 공유되어 휘발되는 영업 미팅 히스토리를 체계적으로 축적하고 파이프라인을 관리할 필요가 있습니다. 또한, 외산 솔루션(마케토 등) 대비 가볍고 사용성이 좋은 국산 CRM을 원하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "• Need: 기존에 텔레그램이나 이메일로 공유되어 휘발되는 영업 미팅 히스토리를 체계적으로 축적하고 파이프라인을 관리할 필요가 있습니다. 또한, 외산 솔루션(마케토 등) 대비 가볍고 사용성이 좋은 국산 CRM을 원하고 있습니다.",
+          "start_char": 1063,
+          "end_char": 1191
+        }
+      ],
+      "dedupe_key": "action_item:4cf697f5ce490e14",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "29.29",
+      "normalized": {
+        "year": 2029,
+        "month": 29,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "29.29",
+          "start_char": 1338,
+          "end_char": 1343
+        }
+      ],
+      "dedupe_key": "timeline:e7ad7c32a3b4980b",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W87",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "어제 혜움 미팅 공유드립니다. @sales",
+      "normalized": {
+        "text": "어제 혜움 미팅 공유드립니다. @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "어제 혜움 미팅 공유드립니다. @sales",
+          "start_char": 0,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "collaboration_need:6f380d992262d009",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 17,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 73,
+          "end_char": 76
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 629,
+          "end_char": 632
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1. 혜움 현황 및 CRM 전환 검토 배경",
+      "normalized": {
+        "text": "1. 혜움 현황 및 CRM 전환 검토 배경",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "1. 혜움 현황 및 CRM 전환 검토 배경",
+          "start_char": 147,
+          "end_char": 170
+        }
+      ],
+      "dedupe_key": "action_item:9d6930101f9c608c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-> 본사에서 지점으로 리드 할당이 필요한데, 리캐치에서 폼 질문을 기반으로 라우팅하듯 UTM기반으로 지점으로 라우팅을 하고 있고, 유료 광고를 하는 지점에는 더 많이 할당함, 이게 모두 자동화되어 있음 (아래 상세 기술함)",
+      "normalized": {
+        "text": "-> 본사에서 지점으로 리드 할당이 필요한데, 리캐치에서 폼 질문을 기반으로 라우팅하듯 UTM기반으로 지점으로 라우팅을 하고 있고, 유료 광고를 하는 지점에는 더 많이 할당함, 이게 모두 자동화되어 있음 (아래 상세 기술함)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "-> 본사에서 지점으로 리드 할당이 필요한데, 리캐치에서 폼 질문을 기반으로 라우팅하듯 UTM기반으로 지점으로 라우팅을 하고 있고, 유료 광고를 하는 지점에는 더 많이 할당함, 이게 모두 자동화되어 있음 (아래 상세 기술함)",
+          "start_char": 263,
+          "end_char": 388
+        }
+      ],
+      "dedupe_key": "action_item:b7c181000abc4a8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 289,
+          "end_char": 292
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 671,
+          "end_char": 674
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1197,
+          "end_char": 1200
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1481,
+          "end_char": 1484
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1736,
+          "end_char": 1739
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1971,
+          "end_char": 1974
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2078,
+          "end_char": 2081
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2313,
+          "end_char": 2316
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2352,
+          "end_char": 2355
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2408,
+          "end_char": 2411
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 문제점: 마케팅에서 세일즈 파이프라인으로 리드를 넘기는 도구나 고민이 부족하며, 파이프드라이브는 기능을 추가하려면 애드온(Add-on)이 필요한 초기 단계의 기능들이 많음",
+      "normalized": {
+        "text": "• 문제점: 마케팅에서 세일즈 파이프라인으로 리드를 넘기는 도구나 고민이 부족하며, 파이프드라이브는 기능을 추가하려면 애드온(Add-on)이 필요한 초기 단계의 기능들이 많음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "• 문제점: 마케팅에서 세일즈 파이프라인으로 리드를 넘기는 도구나 고민이 부족하며, 파이프드라이브는 기능을 추가하려면 애드온(Add-on)이 필요한 초기 단계의 기능들이 많음",
+          "start_char": 389,
+          "end_char": 486
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e42daf527cb0dd55",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "ABM의 경우 관심을 보였으며, 장기적으로 널처링해야할 딜로 판담됨"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 563,
+          "end_char": 567
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 폼 기능: 웹사이트 내 폼 삽입(모달/인베디드) 또는 링크 공유 형태로 활용 가능하며, 기존 폼에 연동하여 리드 인입도 가능",
+      "normalized": {
+        "text": "• 폼 기능: 웹사이트 내 폼 삽입(모달/인베디드) 또는 링크 공유 형태로 활용 가능하며, 기존 폼에 연동하여 리드 인입도 가능",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리드 수집 및 데이터 연동"
+          ],
+          "exact_quote": "• 폼 기능: 웹사이트 내 폼 삽입(모달/인베디드) 또는 링크 공유 형태로 활용 가능하며, 기존 폼에 연동하여 리드 인입도 가능",
+          "start_char": 705,
+          "end_char": 776
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e93ba21ada45c5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "특정 UTM 파라미터나 쿼리 파라미터를 기반으로 라우팅이 필요하며",
+      "normalized": {
+        "text": "특정 UTM 파라미터나 쿼리 파라미터를 기반으로 라우팅이 필요하며",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-> 만약 도입 된다면 '엘피지오'사례 처럼 소상공인 DB 연동 필요함"
+          ],
+          "exact_quote": "특정 UTM 파라미터나 쿼리 파라미터를 기반으로 라우팅이 필요하며",
+          "start_char": 1117,
+          "end_char": 1153
+        }
+      ],
+      "dedupe_key": "action_item:d414c6ddf0c8c29d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "30개",
+      "normalized": {
+        "value": 30,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-> 만약 도입 된다면 '엘피지오'사례 처럼 소상공인 DB 연동 필요함"
+          ],
+          "exact_quote": "30개",
+          "start_char": 1095,
+          "end_char": 1098
+        }
+      ],
+      "dedupe_key": "case_metric:a06f0b3d1bf117d7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 리캐치 답변: UTM 구분자는 폼 내에서는 어려울 수 있으며, 비율에 따른 자동 배정 기능은 현재 구현이 어렵다고 예상됨. 내부 논의 후 피드백 예정 맞춤형 AI 세일즈 가이드 (코칭 봇)",
+      "normalized": {
+        "text": "• 리캐치 답변: UTM 구분자는 폼 내에서는 어려울 수 있으며, 비율에 따른 자동 배정 기능은 현재 구현이 어렵다고 예상됨. 내부 논의 후 피드백 예정 맞춤형 AI 세일즈 가이드 (코칭 봇)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "• 리캐치 답변: UTM 구분자는 폼 내에서는 어려울 수 있으며, 비율에 따른 자동 배정 기능은 현재 구현이 어렵다고 예상됨. 내부 논의 후 피드백 예정 맞춤형 AI 세일즈 가이드 (코칭 봇)",
+          "start_char": 1195,
+          "end_char": 1302
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ca99d67b01e5c536",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 요구사항: 혜움은 언론 노출이 적은 소규모 회사 리드가 많아 기사 요약 기능은 불필요함",
+      "normalized": {
+        "text": "• 요구사항: 혜움은 언론 노출이 적은 소규모 회사 리드가 많아 기사 요약 기능은 불필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "• 요구사항: 혜움은 언론 노출이 적은 소규모 회사 리드가 많아 기사 요약 기능은 불필요함",
+          "start_char": 1303,
+          "end_char": 1353
+        }
+      ],
+      "dedupe_key": "action_item:f7a096435cdb4af8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대신, 종업원 수, 매출 추이 등 정량 정보를 바탕으로 세무 특성을 고려한 세일즈 가이드/코칭 (예: 원천세 고민 언급)을 제공하는 AI 기능이 필요함 -> 세일즈코치 럭키 형태가 리서치 AI에서 제공되는 형태를 상상하신듯",
+      "normalized": {
+        "text": "대신, 종업원 수, 매출 추이 등 정량 정보를 바탕으로 세무 특성을 고려한 세일즈 가이드/코칭 (예: 원천세 고민 언급)을 제공하는 AI 기능이 필요함 -> 세일즈코치 럭키 형태가 리서치 AI에서 제공되는 형태를 상상하신듯",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "대신, 종업원 수, 매출 추이 등 정량 정보를 바탕으로 세무 특성을 고려한 세일즈 가이드/코칭 (예: 원천세 고민 언급)을 제공하는 AI 기능이 필요함 -> 세일즈코치 럭키 형태가 리서치 AI에서 제공되는 형태를 상상하신듯",
+          "start_char": 1354,
+          "end_char": 1478
+        }
+      ],
+      "dedupe_key": "action_item:c3d503581f62e176",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 리캐치 답변: 사내 해커톤에서 유사 개념의 **'세일즈 코치 럭키 봇'**을 만든 경험이 있으며, 해당 요청을 제품에 반영할 수 있을지 내부 논의 예정 -> 적용 계획이나 가능한가요?? 물론 도입한다는 전재하에 @pm 지점별 권한 및 가격 유연성",
+      "normalized": {
+        "text": "• 리캐치 답변: 사내 해커톤에서 유사 개념의 **'세일즈 코치 럭키 봇'**을 만든 경험이 있으며, 해당 요청을 제품에 반영할 수 있을지 내부 논의 예정 -> 적용 계획이나 가능한가요?? 물론 도입한다는 전재하에 @pm 지점별 권한 및 가격 유연성",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "• 리캐치 답변: 사내 해커톤에서 유사 개념의 **'세일즈 코치 럭키 봇'**을 만든 경험이 있으며, 해당 요청을 제품에 반영할 수 있을지 내부 논의 예정 -> 적용 계획이나 가능한가요?? 물론 도입한다는 전재하에 @pm 지점별 권한 및 가격 유연성",
+          "start_char": 1479,
+          "end_char": 1618
+        }
+      ],
+      "dedupe_key": "action_item:ef278c320e6f17be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "@pm",
+          "start_char": 1599,
+          "end_char": 1602
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 요구사항: 파이프드라이브는 단순 세일즈 콜/사무 직원 등 뷰(View) 기능만 필요한 직원에게도 동일한 비용을 부과하는 문제점이 있음",
+      "normalized": {
+        "text": "• 요구사항: 파이프드라이브는 단순 세일즈 콜/사무 직원 등 뷰(View) 기능만 필요한 직원에게도 동일한 비용을 부과하는 문제점이 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "특히 지점별 광고비 신청 예산 비중에 따라 리드를 분배하는 기능이 필요함"
+          ],
+          "exact_quote": "• 요구사항: 파이프드라이브는 단순 세일즈 콜/사무 직원 등 뷰(View) 기능만 필요한 직원에게도 동일한 비용을 부과하는 문제점이 있음",
+          "start_char": 1619,
+          "end_char": 1695
+        }
+      ],
+      "dedupe_key": "risk_or_concern:56bff13d05690a67",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "◦ 권한 관리: 현재 권한 관리는 약한 편 (관리자: 데이터 내보내기 가능; 멤버: 불가)",
+      "normalized": {
+        "text": "◦ 권한 관리: 현재 권한 관리는 약한 편 (관리자: 데이터 내보내기 가능; 멤버: 불가)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "◦ 권한 관리: 현재 권한 관리는 약한 편 (관리자: 데이터 내보내기 가능; 멤버: 불가)",
+          "start_char": 1747,
+          "end_char": 1797
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fb5370baaaadc301",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 이메일 캠페인: 리캐치 내에서 스티비(Stibee)와 유사한 이메일 캠페인 기능을 구축하여 특정 필드값 기준(예: 지난해 문의했으나 전환되지 않은 리드)으로 타겟팅된 캠페인 진행 가능",
+      "normalized": {
+        "text": "• 이메일 캠페인: 리캐치 내에서 스티비(Stibee)와 유사한 이메일 캠페인 기능을 구축하여 특정 필드값 기준(예: 지난해 문의했으나 전환되지 않은 리드)으로 타겟팅된 캠페인 진행 가능",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "• 이메일 캠페인: 리캐치 내에서 스티비(Stibee)와 유사한 이메일 캠페인 기능을 구축하여 특정 필드값 기준(예: 지난해 문의했으나 전환되지 않은 리드)으로 타겟팅된 캠페인 진행 가능",
+          "start_char": 1960,
+          "end_char": 2064
+        }
+      ],
+      "dedupe_key": "action_item:761a3f90c9be132d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 리멤버 협업 사례: 리캐치는 리멤버와 협력하여 타겟 그룹(예: 특정 지역, 직책의 대표자)에게 정보성 푸시 알림/문자를 보내 맞춤형 랜딩 페이지로 유도하는 전략을 사용 중. 이는 콜드 리드를 웜 리드로 전환하는 데 효과적이며, B2B 특성상 주기적인 인지(presence)가 중요함5. 후속 조치 (Action Items)",
+      "normalized": {
+        "text": "• 리멤버 협업 사례: 리캐치는 리멤버와 협력하여 타겟 그룹(예: 특정 지역, 직책의 대표자)에게 정보성 푸시 알림/문자를 보내 맞춤형 랜딩 페이지로 유도하는 전략을 사용 중. 이는 콜드 리드를 웜 리드로 전환하는 데 효과적이며, B2B 특성상 주기적인 인지(presence)가 중요함5. 후속 조치 (Action Items)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "• 리멤버 협업 사례: 리캐치는 리멤버와 협력하여 타겟 그룹(예: 특정 지역, 직책의 대표자)에게 정보성 푸시 알림/문자를 보내 맞춤형 랜딩 페이지로 유도하는 전략을 사용 중. 이는 콜드 리드를 웜 리드로 전환하는 데 효과적이며, B2B 특성상 주기적인 인지(presence)가 중요함5. 후속 조치 (Action Items)",
+          "start_char": 2065,
+          "end_char": 2247
+        }
+      ],
+      "dedupe_key": "collaboration_need:8d7f360fbdd5aaaa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1. 커스텀 요구사항 논의: 혜움이 요청한 복잡한 리드 라우팅 규칙(비율 분배 포함) 및 AI 세일즈 가이드에 대해 리캐치 엔지니어 팀 내부 논의 후 피드백 전달 예정",
+      "normalized": {
+        "text": "1. 커스텀 요구사항 논의: 혜움이 요청한 복잡한 리드 라우팅 규칙(비율 분배 포함) 및 AI 세일즈 가이드에 대해 리캐치 엔지니어 팀 내부 논의 후 피드백 전달 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "1. 커스텀 요구사항 논의: 혜움이 요청한 복잡한 리드 라우팅 규칙(비율 분배 포함) 및 AI 세일즈 가이드에 대해 리캐치 엔지니어 팀 내부 논의 후 피드백 전달 예정",
+          "start_char": 2248,
+          "end_char": 2341
+        }
+      ],
+      "dedupe_key": "action_item:9c642d3c75759d6e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "2. 자료 전달: 리캐치 회사 소개서(소개 자료)를 혜움 측에 메일로 전달 예정",
+      "normalized": {
+        "text": "2. 자료 전달: 리캐치 회사 소개서(소개 자료)를 혜움 측에 메일로 전달 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "2. 자료 전달: 리캐치 회사 소개서(소개 자료)를 혜움 측에 메일로 전달 예정",
+          "start_char": 2342,
+          "end_char": 2386
+        }
+      ],
+      "dedupe_key": "collaboration_need:c949dd0ed91a2b0e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3. 마케팅 리더 미팅: 혜움 측에서 리캐치 마케팅 리더와의 커피 미팅을 요청함",
+      "normalized": {
+        "text": "3. 마케팅 리더 미팅: 혜움 측에서 리캐치 마케팅 리더와의 커피 미팅을 요청함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "다른 지점의 딜/고객을 보지 못하게 하는 복잡한 권한 관리가 필요함"
+          ],
+          "exact_quote": "3. 마케팅 리더 미팅: 혜움 측에서 리캐치 마케팅 리더와의 커피 미팅을 요청함",
+          "start_char": 2387,
+          "end_char": 2431
+        }
+      ],
+      "dedupe_key": "action_item:45d24e0c704ea9ab",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

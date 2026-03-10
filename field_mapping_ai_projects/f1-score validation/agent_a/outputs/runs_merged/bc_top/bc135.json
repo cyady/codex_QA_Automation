@@ -1,0 +1,482 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W135",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리멤버·리캐치 제안서 검토 과정에서 초기 진입비용(2천만 원 이상)에 대한 내부 우려 제기",
+      "normalized": {
+        "text": "리멤버·리캐치 제안서 검토 과정에서 초기 진입비용(2천만 원 이상)에 대한 내부 우려 제기",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리멤버·리캐치 제안서 검토 과정에서 초기 진입비용(2천만 원 이상)에 대한 내부 우려 제기",
+          "start_char": 6,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ddd30d3c2ddecd3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이에 따라 파일럿 형태의 소규모 테스트 필요성 제기",
+      "normalized": {
+        "text": "이에 따라 파일럿 형태의 소규모 테스트 필요성 제기",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이에 따라 파일럿 형태의 소규모 테스트 필요성 제기",
+          "start_char": 118,
+          "end_char": 146
+        }
+      ],
+      "dedupe_key": "action_item:4f9d45d4c610f0bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2천만 원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2천만 원",
+          "start_char": 34,
+          "end_char": 39
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "2천만 원",
+          "start_char": 449,
+          "end_char": 454
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "2천만 원",
+          "start_char": 750,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "300만 원",
+          "start_char": 62,
+          "end_char": 68
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "300만 원",
+          "start_char": 88,
+          "end_char": 94
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 528,
+          "end_char": 534
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 554,
+          "end_char": 560
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "10건",
+      "normalized": {
+        "value": 10,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10건",
+          "start_char": 82,
+          "end_char": 85
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "10건",
+          "start_char": 548,
+          "end_char": 551
+        }
+      ],
+      "dedupe_key": "lead_volume:958aee4213f2d148",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 10,
+          "end_char": 13
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 191,
+          "end_char": 194
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 432,
+          "end_char": 435
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 176,
+          "end_char": 182
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 720,
+          "end_char": 726
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "주요 결론"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 875,
+          "end_char": 881
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 리캐치 측에서도 손해를 감수하고 진행할 의지가 있음",
+      "normalized": {
+        "text": "- 리캐치 측에서도 손해를 감수하고 진행할 의지가 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "- 리캐치 측에서도 손해를 감수하고 진행할 의지가 있음",
+          "start_char": 189,
+          "end_char": 219
+        }
+      ],
+      "dedupe_key": "action_item:aa6aa3200d5319cd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 단, 무료 파일럿은 불가능 → 최소 단가 제시 필요",
+      "normalized": {
+        "text": "- 단, 무료 파일럿은 불가능 → 최소 단가 제시 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "- 단, 무료 파일럿은 불가능 → 최소 단가 제시 필요",
+          "start_char": 220,
+          "end_char": 250
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a4b546055d48ce3a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 리멤버와 매주 미팅 중, 승인 설득 필요 (오늘 리멤버 미팅 진행 중)",
+      "normalized": {
+        "text": "- 리멤버와 매주 미팅 중, 승인 설득 필요 (오늘 리멤버 미팅 진행 중)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "- 리멤버와 매주 미팅 중, 승인 설득 필요 (오늘 리멤버 미팅 진행 중)",
+          "start_char": 299,
+          "end_char": 340
+        }
+      ],
+      "dedupe_key": "action_item:290ce785f73d24ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 실제 제공 가치(컨설팅, CRM, 너처링 등)가 단순 ‘리드 구매’로 보이지 않도록 제안서 수정 필요",
+      "normalized": {
+        "text": "- 실제 제공 가치(컨설팅, CRM, 너처링 등)가 단순 ‘리드 구매’로 보이지 않도록 제안서 수정 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "- 실제 제공 가치(컨설팅, CRM, 너처링 등)가 단순 ‘리드 구매’로 보이지 않도록 제안서 수정 필요",
+          "start_char": 574,
+          "end_char": 632
+        }
+      ],
+      "dedupe_key": "action_item:e61e1a51ff2a4838",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 성공 사례 3개 → 1개만 추려서 파일럿 진행 제안",
+      "normalized": {
+        "text": "- 성공 사례 3개 → 1개만 추려서 파일럿 진행 제안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "- 성공 사례 3개 → 1개만 추려서 파일럿 진행 제안",
+          "start_char": 648,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "action_item:d62c0a471c43a3ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "3개",
+          "start_char": 656,
+          "end_char": 658
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1개",
+      "normalized": {
+        "value": 1,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "1개",
+          "start_char": 661,
+          "end_char": 663
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "1개",
+          "start_char": 696,
+          "end_char": 698
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "1개",
+          "start_char": 711,
+          "end_char": 713
+        }
+      ],
+      "dedupe_key": "case_metric:f7506e9ed9e8e729",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 단가: 500만 원 내외 수준으로 설정 요청",
+      "normalized": {
+        "text": "- 단가: 500만 원 내외 수준으로 설정 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "- 단가: 500만 원 내외 수준으로 설정 요청",
+          "start_char": 714,
+          "end_char": 740
+        }
+      ],
+      "dedupe_key": "action_item:dea60872dccf426b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 검증 후 → 2천만 원 이상 본격 패키지 진행 여지 확보",
+      "normalized": {
+        "text": "- 검증 후 → 2천만 원 이상 본격 패키지 진행 여지 확보",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "**단 성과 파일럿 테스트 후 성과를 보고 진행여부 결정 필요"
+          ],
+          "exact_quote": "- 검증 후 → 2천만 원 이상 본격 패키지 진행 여지 확보",
+          "start_char": 741,
+          "end_char": 774
+        }
+      ],
+      "dedupe_key": "action_item:ef29940dbe002370",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

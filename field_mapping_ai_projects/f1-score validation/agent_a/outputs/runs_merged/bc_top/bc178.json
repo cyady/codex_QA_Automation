@@ -1,0 +1,255 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W178",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "에임인텔리전스 재계약 태핑 및 업셀 시도 미팅 공유",
+      "normalized": {
+        "text": "에임인텔리전스 재계약 태핑 및 업셀 시도 미팅 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "에임인텔리전스 재계약 태핑 및 업셀 시도 미팅 공유",
+          "start_char": 0,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "collaboration_need:0db80c993d62ea2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "핵심 KPI = ARR"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 89,
+          "end_char": 93
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만 원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "핵심 KPI = ARR"
+          ],
+          "exact_quote": "1천만 원",
+          "start_char": 109,
+          "end_char": 114
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재: 셀프 서빙 불가 제품 (기업 맞춤 납품 위주)",
+      "normalized": {
+        "text": "현재: 셀프 서빙 불가 제품 (기업 맞춤 납품 위주)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "핵심 KPI = ARR"
+          ],
+          "exact_quote": "현재: 셀프 서빙 불가 제품 (기업 맞춤 납품 위주)",
+          "start_char": 174,
+          "end_char": 203
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b641471b13f47482",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "GPT 구독형처럼 고객이 직접 구매·도입 가능하게 준비",
+      "normalized": {
+        "text": "GPT 구독형처럼 고객이 직접 구매·도입 가능하게 준비",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "핵심 KPI = ARR"
+          ],
+          "exact_quote": "GPT 구독형처럼 고객이 직접 구매·도입 가능하게 준비",
+          "start_char": 237,
+          "end_char": 267
+        }
+      ],
+      "dedupe_key": "collaboration_need:c6c7187961a2f80c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "핵심 KPI = ARR"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 315,
+          "end_char": 321
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "100명",
+      "normalized": {
+        "value": 100,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "GPT 엔터프라이즈 도입 기업"
+          ],
+          "exact_quote": "100명",
+          "start_char": 363,
+          "end_char": 367
+        }
+      ],
+      "dedupe_key": "people_count:869998daef8cbea5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "보안·AI 관련 콘텐츠(레포트, 체크리스트, 사례) 제작 후 푸시·문자 발송 → 랜딩페이지 → 리드 확보",
+      "normalized": {
+        "text": "보안·AI 관련 콘텐츠(레포트, 체크리스트, 사례) 제작 후 푸시·문자 발송 → 랜딩페이지 → 리드 확보",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "리멤버 DB 활용"
+          ],
+          "exact_quote": "보안·AI 관련 콘텐츠(레포트, 체크리스트, 사례) 제작 후 푸시·문자 발송 → 랜딩페이지 → 리드 확보",
+          "start_char": 598,
+          "end_char": 656
+        }
+      ],
+      "dedupe_key": "action_item:8871b82a64bb3f3e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확보된 리드 대상으로 이메일 시퀀스 발송",
+      "normalized": {
+        "text": "확보된 리드 대상으로 이메일 시퀀스 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "리드 넛쳐링"
+          ],
+          "exact_quote": "확보된 리드 대상으로 이메일 시퀀스 발송",
+          "start_char": 666,
+          "end_char": 688
+        }
+      ],
+      "dedupe_key": "action_item:d571a3859cfbae59",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "GPT 엔터프라이즈와 함께 제공하는 방식으로 진입 → 기업 도입 장벽 완화",
+      "normalized": {
+        "text": "GPT 엔터프라이즈와 함께 제공하는 방식으로 진입 → 기업 도입 장벽 완화",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "번들링 전략"
+          ],
+          "exact_quote": "GPT 엔터프라이즈와 함께 제공하는 방식으로 진입 → 기업 도입 장벽 완화",
+          "start_char": 724,
+          "end_char": 765
+        }
+      ],
+      "dedupe_key": "collaboration_need:abb56a369a845a73",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W440",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 29,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "서비스 소개서 및 그로스 패키지 상세 소개서 이메일 발송",
+      "normalized": {
+        "text": "서비스 소개서 및 그로스 패키지 상세 소개서 이메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "서비스 소개서 및 그로스 패키지 상세 소개서 이메일 발송",
+          "start_char": 53,
+          "end_char": 84
+        }
+      ],
+      "dedupe_key": "action_item:29d58ee475d93793",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버 연동 타겟팅 패키지 관련 별도 자료 공유",
+      "normalized": {
+        "text": "리멤버 연동 타겟팅 패키지 관련 별도 자료 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "리멤버 연동 타겟팅 패키지 관련 별도 자료 공유",
+          "start_char": 88,
+          "end_char": 114
+        }
+      ],
+      "dedupe_key": "collaboration_need:61bdab29c412db3a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "슈케치 서비스 확산을 위해 향후 그로스 마케터 채용을 검토하고 있음",
+      "normalized": {
+        "text": "슈케치 서비스 확산을 위해 향후 그로스 마케터 채용을 검토하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "슈케치 서비스 확산을 위해 향후 그로스 마케터 채용을 검토하고 있음",
+          "start_char": 292,
+          "end_char": 329
+        }
+      ],
+      "dedupe_key": "action_item:f2144dfbb9eb43db",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "인바운드 문의 접수 시 견적 및 생산 협의를 직접 진행하는 코디네이터가 6~7명 존재함",
+      "normalized": {
+        "text": "인바운드 문의 접수 시 견적 및 생산 협의를 직접 진행하는 코디네이터가 6~7명 존재함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "인바운드 문의 접수 시 견적 및 생산 협의를 직접 진행하는 코디네이터가 6~7명 존재함",
+          "start_char": 333,
+          "end_char": 381
+        }
+      ],
+      "dedupe_key": "action_item:075128d01ed9ba43",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number_range",
+      "raw_text": "6~7명",
+      "normalized": {
+        "min": 6.0,
+        "max": 7.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "6~7명",
+          "start_char": 373,
+          "end_char": 377
+        }
+      ],
+      "dedupe_key": "people_count:2c804de742e64dad",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B2B 마케팅 전략 수립 및 운영 노하우 부족으로 인한 실행력 한계",
+      "normalized": {
+        "text": "B2B 마케팅 전략 수립 및 운영 노하우 부족으로 인한 실행력 한계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "B2B 마케팅 전략 수립 및 운영 노하우 부족으로 인한 실행력 한계",
+          "start_char": 419,
+          "end_char": 456
+        }
+      ],
+      "dedupe_key": "action_item:d79cae216c4433ef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "슈케치(B2C 타겟) 서비스의 인지도 확산 및 유입량 증대 필요",
+      "normalized": {
+        "text": "슈케치(B2C 타겟) 서비스의 인지도 확산 및 유입량 증대 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "슈케치(B2C 타겟) 서비스의 인지도 확산 및 유입량 증대 필요",
+          "start_char": 460,
+          "end_char": 495
+        }
+      ],
+      "dedupe_key": "action_item:77b0cdf7d764f442",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 677,
+          "end_char": 682
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "도입 타임라인"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 696,
+          "end_char": 699
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 752,
+          "end_char": 755
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 871,
+          "end_char": 874
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치 팀의 프로젝트 리소스 포화로 인한 즉시 착수 불가 상황",
+      "normalized": {
+        "text": "리캐치 팀의 프로젝트 리소스 포화로 인한 즉시 착수 불가 상황",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "리캐치 팀의 프로젝트 리소스 포화로 인한 즉시 착수 불가 상황",
+          "start_char": 752,
+          "end_char": 786
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b3d236627669c1bb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "크리스틴컴퍼니 내부의 마케팅 전담 인력 부재로 인해 컨설팅 내용의 실행 및 피드백 리소스 확보 필요",
+      "normalized": {
+        "text": "크리스틴컴퍼니 내부의 마케팅 전담 인력 부재로 인해 컨설팅 내용의 실행 및 피드백 리소스 확보 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "크리스틴컴퍼니 내부의 마케팅 전담 인력 부재로 인해 컨설팅 내용의 실행 및 피드백 리소스 확보 필요",
+          "start_char": 790,
+          "end_char": 845
+        }
+      ],
+      "dedupe_key": "risk_or_concern:abfd34e9a6263480",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 사용 중인 협업 툴(네이버웍스)과 리캐치 알림 자동화 기능(현재 슬랙 위주 지원) 간의 연동 제한",
+      "normalized": {
+        "text": "현재 사용 중인 협업 툴(네이버웍스)과 리캐치 알림 자동화 기능(현재 슬랙 위주 지원) 간의 연동 제한",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "현재 사용 중인 협업 툴(네이버웍스)과 리캐치 알림 자동화 기능(현재 슬랙 위주 지원) 간의 연동 제한",
+          "start_char": 849,
+          "end_char": 906
+        }
+      ],
+      "dedupe_key": "collaboration_need:0bb1ff6dcd57339f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기존에 사용 중인 별도의 채팅 및 상담 사스(SaaS) 솔루션과의 기능 중복 및 역할 분담 결정 필요",
+      "normalized": {
+        "text": "기존에 사용 중인 별도의 채팅 및 상담 사스(SaaS) 솔루션과의 기능 중복 및 역할 분담 결정 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "기존에 사용 중인 별도의 채팅 및 상담 사스(SaaS) 솔루션과의 기능 중복 및 역할 분담 결정 필요",
+          "start_char": 910,
+          "end_char": 966
+        }
+      ],
+      "dedupe_key": "action_item:f207dd476b6a5d8a",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

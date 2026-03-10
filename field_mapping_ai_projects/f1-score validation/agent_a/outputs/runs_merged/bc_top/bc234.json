@@ -1,0 +1,190 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W234",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "신청하지 않았던 이유: 어쨌든 세미나 여는 이유는 툴 도입과 미팅이 목적일텐데, 그게 부담스럽다고 하심 cc @채주리(Juri) @이은지(Eunji)",
+      "normalized": {
+        "text": "신청하지 않았던 이유: 어쨌든 세미나 여는 이유는 툴 도입과 미팅이 목적일텐데, 그게 부담스럽다고 하심 cc @채주리(Juri) @이은지(Eunji)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "신청하지 않았던 이유: 어쨌든 세미나 여는 이유는 툴 도입과 미팅이 목적일텐데, 그게 부담스럽다고 하심 cc @채주리(Juri) @이은지(Eunji)",
+          "start_char": 182,
+          "end_char": 265
+        }
+      ],
+      "dedupe_key": "collaboration_need:136fc32115189401",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@채주리",
+      "normalized": {
+        "name": "채주리"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@채주리",
+          "start_char": 243,
+          "end_char": 247
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d349465a825e0770",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@이은지",
+      "normalized": {
+        "name": "이은지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@이은지",
+          "start_char": 254,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:c07a64888ad5606c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "-> 솔직히 그 목적이 아예 없진 않지만, 이전부터 리캐치 세미나는 인사이트 80:제품 20 정도로 정말 도움 드리려고 개최하는 경우가 많았다. 부담 없이 오셔도 된다고 했고, 블로그 링크 다시 전달드림",
+      "normalized": {
+        "text": "-> 솔직히 그 목적이 아예 없진 않지만, 이전부터 리캐치 세미나는 인사이트 80:제품 20 정도로 정말 도움 드리려고 개최하는 경우가 많았다. 부담 없이 오셔도 된다고 했고, 블로그 링크 다시 전달드림",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "-> 솔직히 그 목적이 아예 없진 않지만, 이전부터 리캐치 세미나는 인사이트 80:제품 20 정도로 정말 도움 드리려고 개최하는 경우가 많았다. 부담 없이 오셔도 된다고 했고, 블로그 링크 다시 전달드림",
+          "start_char": 269,
+          "end_char": 382
+        }
+      ],
+      "dedupe_key": "collaboration_need:01681fd40f1f5161",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 368,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 298,
+          "end_char": 301
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

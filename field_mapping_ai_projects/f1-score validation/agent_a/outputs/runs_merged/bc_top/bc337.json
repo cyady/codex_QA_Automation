@@ -1,0 +1,292 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W337",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "98.83",
+      "normalized": {
+        "year": 2098,
+        "month": 83,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "98.83",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:6e26e1a66e37aa36",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.03",
+      "normalized": {
+        "year": 2011,
+        "month": 3,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "11.03",
+          "start_char": 125,
+          "end_char": 130
+        }
+      ],
+      "dedupe_key": "timeline:657ba20b56c5c65e",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "20명",
+      "normalized": {
+        "value": 20,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "세일즈맵은 이미 미팅함"
+          ],
+          "exact_quote": "20명",
+          "start_char": 315,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "people_count:6571a4f9c8873fb9",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자동 메일 발송 및 대량 이메일 캠페인(뉴스레터) 발송 가능함",
+      "normalized": {
+        "text": "자동 메일 발송 및 대량 이메일 캠페인(뉴스레터) 발송 가능함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "아웃룩 연동"
+          ],
+          "exact_quote": "자동 메일 발송 및 대량 이메일 캠페인(뉴스레터) 발송 가능함",
+          "start_char": 589,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "action_item:53a86858d15f83e9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "아웃룩 연동"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 611,
+          "end_char": 615
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "PDF 템플릿 생성 및 자동 발송 기능은 현재 미지원",
+      "normalized": {
+        "text": "PDF 템플릿 생성 및 자동 발송 기능은 현재 미지원",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "견적서 기능"
+          ],
+          "exact_quote": "PDF 템플릿 생성 및 자동 발송 기능은 현재 미지원",
+          "start_char": 778,
+          "end_char": 807
+        }
+      ],
+      "dedupe_key": "action_item:ecd9ef67353c40ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "기술 지원 내역 관리 (현재 외부 게시판 사용 중)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 872,
+          "end_char": 875
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "향후 계획"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1307,
+          "end_char": 1310
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "리캐치 강점"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1026,
+          "end_char": 1029
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버(Remember) 협업: '리멤버'의 DB를 활용한 타겟 마케팅 정보 서비스 제공",
+      "normalized": {
+        "text": "리멤버(Remember) 협업: '리멤버'의 DB를 활용한 타겟 마케팅 정보 서비스 제공",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "리캐치 강점"
+          ],
+          "exact_quote": "리멤버(Remember) 협업: '리멤버'의 DB를 활용한 타겟 마케팅 정보 서비스 제공",
+          "start_char": 1056,
+          "end_char": 1105
+        }
+      ],
+      "dedupe_key": "collaboration_need:f9698fd9288e5120",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "공식 무료 트라이얼 없음"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 1181,
+          "end_char": 1184
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "공식 무료 트라이얼 없음"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 1228,
+          "end_char": 1231
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1개월 내 정식 도입(연간 결제 or 계속 결제) 결정 시, 테스트 비용 차감 (사실상 무료)",
+      "normalized": {
+        "text": "1개월 내 정식 도입(연간 결제 or 계속 결제) 결정 시, 테스트 비용 차감 (사실상 무료)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "공식 무료 트라이얼 없음"
+          ],
+          "exact_quote": "1개월 내 정식 도입(연간 결제 or 계속 결제) 결정 시, 테스트 비용 차감 (사실상 무료)",
+          "start_char": 1228,
+          "end_char": 1280
+        }
+      ],
+      "dedupe_key": "collaboration_need:5998c2abd91f3194",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

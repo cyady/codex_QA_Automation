@@ -1,0 +1,526 @@
+[
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0001",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "[Tier4 - 고감도인테리어, 잠재매출 2,000만원] 251013 미팅내용 공유 by notebooklm1/  리캐치 솔루션 및 서비스 (Recatch Solution & Service)",
+    "normalized": {
+      "text": "[Tier4 - 고감도인테리어, 잠재매출 2,000만원] 251013 미팅내용 공유 by notebooklm1/  리캐치 솔루션 및 서비스 (Recatch Solution & Service)",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "[Tier4 - 고감도인테리어, 잠재매출 2,000만원] 251013 미팅내용 공유 by notebooklm1/  리캐치 솔루션 및 서비스 (Recatch Solution & Service)",
+      "start_char": 0,
+      "end_char": 106
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0002",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "000만원",
+    "normalized": {
+      "value": 0,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "000만원",
+      "start_char": 25,
+      "end_char": 30
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0003",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "Recatch",
+    "normalized": {
+      "keyword": "ReCatch"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "Recatch",
+      "start_char": 79,
+      "end_char": 86
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0005",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "블로그",
+    "normalized": {
+      "keyword": "블로그"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [
+        "리캐치는 토탈 솔루션 제공"
+      ],
+      "exact_quote": "블로그",
+      "start_char": 184,
+      "end_char": 187
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0006",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "내재화 강조: 2차 목적은 고객 내부 조직의 내재화이며, 웹사이트 제작 시 이 일을 배울 담당자를 반드시 모시고 진행합니다.",
+    "normalized": {
+      "text": "내재화 강조: 2차 목적은 고객 내부 조직의 내재화이며, 웹사이트 제작 시 이 일을 배울 담당자를 반드시 모시고 진행합니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "웹사이트 구축 목표"
+      ],
+      "exact_quote": "내재화 강조: 2차 목적은 고객 내부 조직의 내재화이며, 웹사이트 제작 시 이 일을 배울 담당자를 반드시 모시고 진행합니다.",
+      "start_char": 416,
+      "end_char": 485
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5575",
+        "label": "라이센스 특이사항",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0007",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "CRM 도입 시, 세일즈 파이프라인의 단계를 구분하고 맞춤형 설계를 할 수 있도록 어카운트 매니저가 온보딩 및 교육을 지원합니다.",
+    "normalized": {
+      "text": "CRM 도입 시, 세일즈 파이프라인의 단계를 구분하고 맞춤형 설계를 할 수 있도록 어카운트 매니저가 온보딩 및 교육을 지원합니다.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "온보딩 지원"
+      ],
+      "exact_quote": "CRM 도입 시, 세일즈 파이프라인의 단계를 구분하고 맞춤형 설계를 할 수 있도록 어카운트 매니저가 온보딩 및 교육을 지원합니다.",
+      "start_char": 689,
+      "end_char": 761
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0008",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "6월 24일",
+    "normalized": {
+      "month": 6,
+      "day": 24
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [
+        "회사 연혁"
+      ],
+      "exact_quote": "6월 24일",
+      "start_char": 815,
+      "end_char": 821
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0009",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "24일",
+    "normalized": {
+      "value": 24.0,
+      "unit": "days",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [
+        "회사 연혁"
+      ],
+      "exact_quote": "24일",
+      "start_char": 818,
+      "end_char": 821
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0010",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "조직 현황: 현재 직원 수는 약 13명 정도입니다. 디자이너들의 이직이 잦고 인테리어 팀에서 가장 오래된 직원이 3~4년이 채 안 되어 조직 세팅에 어려움을 겪고 있습니다.",
+    "normalized": {
+      "text": "조직 현황: 현재 직원 수는 약 13명 정도입니다. 디자이너들의 이직이 잦고 인테리어 팀에서 가장 오래된 직원이 3~4년이 채 안 되어 조직 세팅에 어려움을 겪고 있습니다.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0012",
+      "section_path": [
+        "대표 합류 및 회생"
+      ],
+      "exact_quote": "조직 현황: 현재 직원 수는 약 13명 정도입니다. 디자이너들의 이직이 잦고 인테리어 팀에서 가장 오래된 직원이 3~4년이 채 안 되어 조직 세팅에 어려움을 겪고 있습니다.",
+      "start_char": 941,
+      "end_char": 1037
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0012",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "3. 주요 상황과 문제 (Key Situations & Problems)",
+    "normalized": {
+      "text": "3. 주요 상황과 문제 (Key Situations & Problems)",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0014",
+      "section_path": [
+        "오피스 엑스(Office X) 개발"
+      ],
+      "exact_quote": "3. 주요 상황과 문제 (Key Situations & Problems)",
+      "start_char": 1174,
+      "end_char": 1214
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0014",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "모듈러 벽체 개발 및 테스트에 지속적인 자본 투입이 필요하며, 현재 6개월 운영비는 확보했으나 막힐 경우 크리티컬할 수 있는 자본 부족 상황이 있습니다. 또한, 현장 인력들이 새로운 자재나 변화를 선호하지 않아 현장 적용에 제한이 따릅니다.",
+    "normalized": {
+      "text": "모듈러 벽체 개발 및 테스트에 지속적인 자본 투입이 필요하며, 현재 6개월 운영비는 확보했으나 막힐 경우 크리티컬할 수 있는 자본 부족 상황이 있습니다. 또한, 현장 인력들이 새로운 자재나 변화를 선호하지 않아 현장 적용에 제한이 따릅니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0018",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "모듈러 벽체 개발 및 테스트에 지속적인 자본 투입이 필요하며, 현재 6개월 운영비는 확보했으나 막힐 경우 크리티컬할 수 있는 자본 부족 상황이 있습니다. 또한, 현장 인력들이 새로운 자재나 변화를 선호하지 않아 현장 적용에 제한이 따릅니다.",
+      "start_char": 1556,
+      "end_char": 1690
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0015",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "6개월",
+    "normalized": {
+      "value": 6.0,
+      "unit": "months",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0018",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "6개월",
+      "start_char": 1594,
+      "end_char": 1597
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0016",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "Q: 웹사이트 구축 시점?A: 지금 바로 필요하다고 판단하고 있습니다.",
+    "normalized": {
+      "text": "Q: 웹사이트 구축 시점?A: 지금 바로 필요하다고 판단하고 있습니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0020",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "Q: 웹사이트 구축 시점?A: 지금 바로 필요하다고 판단하고 있습니다.",
+      "start_char": 1715,
+      "end_char": 1754
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5378",
+        "label": "[T] 타임라인",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0017",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "500만 원",
+    "normalized": {
+      "value": 5000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0021",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "500만 원",
+      "start_char": 1787,
+      "end_char": 1793
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0019",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "약 240만 원",
+    "normalized": {
+      "value": 2400000,
+      "currency": "KRW",
+      "approx": true
+    },
+    "evidence": {
+      "segment_id": "S-0023",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "약 240만 원",
+      "start_char": 1885,
+      "end_char": 1893
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0021",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "후속 미팅 주선: 리캐치 그로스팀 담당자(실제 프로젝트 수행팀)를 모시고 와서 모플, 블루핀 등 웹사이트 프로젝트 수행 과정과 아웃풋을 상세히 공유하기로 했습니다.",
+    "normalized": {
+      "text": "후속 미팅 주선: 리캐치 그로스팀 담당자(실제 프로젝트 수행팀)를 모시고 와서 모플, 블루핀 등 웹사이트 프로젝트 수행 과정과 아웃풋을 상세히 공유하기로 했습니다.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0027",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "후속 미팅 주선: 리캐치 그로스팀 담당자(실제 프로젝트 수행팀)를 모시고 와서 모플, 블루핀 등 웹사이트 프로젝트 수행 과정과 아웃풋을 상세히 공유하기로 했습니다.",
+      "start_char": 2140,
+      "end_char": 2231
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W27",
+    "candidate_id": "C-0023",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "프로젝트 착수 시점: 만약 프로젝트 진행이 결정되면, 리캐치의 인력이 집중도 있게 투입될 수 있는 11월에 빠르게 착수 가능합니다 (기존 웹사이트 프로젝트들이 모두 종료됨).",
+    "normalized": {
+      "text": "프로젝트 착수 시점: 만약 프로젝트 진행이 결정되면, 리캐치의 인력이 집중도 있게 투입될 수 있는 11월에 빠르게 착수 가능합니다 (기존 웹사이트 프로젝트들이 모두 종료됨).",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0030",
+      "section_path": [
+        "위기 요소 (Blocker)"
+      ],
+      "exact_quote": "프로젝트 착수 시점: 만약 프로젝트 진행이 결정되면, 리캐치의 인력이 집중도 있게 투입될 수 있는 11월에 빠르게 착수 가능합니다 (기존 웹사이트 프로젝트들이 모두 종료됨).",
+      "start_char": 2353,
+      "end_char": 2450
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

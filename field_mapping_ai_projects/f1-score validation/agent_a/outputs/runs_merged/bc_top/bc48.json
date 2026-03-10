@@ -1,0 +1,779 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W48",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "추가 팔로업 이어나가기에는 우선순위가 매우 떨어집니다.",
+      "normalized": {
+        "text": "추가 팔로업 이어나가기에는 우선순위가 매우 떨어집니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Drop 사유: Need 부적합"
+          ],
+          "exact_quote": "추가 팔로업 이어나가기에는 우선순위가 매우 떨어집니다.",
+          "start_char": 64,
+          "end_char": 94
+        }
+      ],
+      "dedupe_key": "collaboration_need:285b67ffe2fbec5f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+      "normalized": {
+        "text": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Drop 사유: Need 부적합"
+          ],
+          "exact_quote": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+          "start_char": 96,
+          "end_char": 187
+        }
+      ],
+      "dedupe_key": "collaboration_need:76c3aa64ef07ca97",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+      "normalized": {
+        "text": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Drop 사유: Need 부적합"
+          ],
+          "exact_quote": "SaaS형태보다는 SI형태의 구축을 강하게 원하고 계시며, 보안/권한분리/로그 추적 측면에서 도입을 확정하는 \"26년 1월\"까지 우리 팀이 지원해드리기 어렵습니다.",
+          "start_char": 96,
+          "end_char": 187
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4425a72e79333746",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+      "normalized": {
+        "text": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Drop 사유: Need 부적합"
+          ],
+          "exact_quote": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+          "start_char": 189,
+          "end_char": 278
+        }
+      ],
+      "dedupe_key": "collaboration_need:3c4d53dc17457cd3",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+      "normalized": {
+        "text": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Drop 사유: Need 부적합"
+          ],
+          "exact_quote": "무엇보다 도입에 있어서는 \"금융권 레퍼런스\"가 매우 중요하게 여겨졌으며, 당장 레퍼런스가 있는 것은 아니기에 딜 팔로업에 따른 클로징 가능성은 더욱 떨어집니다.",
+          "start_char": 189,
+          "end_char": 278
+        }
+      ],
+      "dedupe_key": "collaboration_need:7bad676f0290267a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추후 수 십억 단위의 딜을 만들기 위해서는 반드시 커스텀에 대한 이해도가 필요하며, 이는 @김한규(Lucky) 가 추가로 스터디하며 도메인 지식을 쌓아야 함.",
+      "normalized": {
+        "text": "추후 수 십억 단위의 딜을 만들기 위해서는 반드시 커스텀에 대한 이해도가 필요하며, 이는 @김한규(Lucky) 가 추가로 스터디하며 도메인 지식을 쌓아야 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Drop과 별개로, 회고"
+          ],
+          "exact_quote": "추후 수 십억 단위의 딜을 만들기 위해서는 반드시 커스텀에 대한 이해도가 필요하며, 이는 @김한규(Lucky) 가 추가로 스터디하며 도메인 지식을 쌓아야 함.",
+          "start_char": 295,
+          "end_char": 383
+        }
+      ],
+      "dedupe_key": "action_item:8a606b95c5d5c4f8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Drop과 별개로, 회고"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 345,
+          "end_char": 349
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "I. 미팅 개요 및 CRM 도입 배경",
+      "normalized": {
+        "text": "I. 미팅 개요 및 CRM 도입 배경",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "미팅 내용 세부 정리"
+          ],
+          "exact_quote": "I. 미팅 개요 및 CRM 도입 배경",
+          "start_char": 398,
+          "end_char": 418
+        }
+      ],
+      "dedupe_key": "collaboration_need:3c72459503d59480",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이지스자산운용은 현재 CRM 솔루션 도입을 검토 중이며, 다른 솔루션 제공 업체들도 만나고 있는 상황입니다. 현재는 자료를 엑셀로 수기 작성하고 있습니다. CRM 솔루션을 도입하는 주요 목적은 숫자를 활용하고 대시보드를 구축하는 것입니다.",
+      "normalized": {
+        "text": "이지스자산운용은 현재 CRM 솔루션 도입을 검토 중이며, 다른 솔루션 제공 업체들도 만나고 있는 상황입니다. 현재는 자료를 엑셀로 수기 작성하고 있습니다. CRM 솔루션을 도입하는 주요 목적은 숫자를 활용하고 대시보드를 구축하는 것입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "미팅 내용 세부 정리"
+          ],
+          "exact_quote": "이지스자산운용은 현재 CRM 솔루션 도입을 검토 중이며, 다른 솔루션 제공 업체들도 만나고 있는 상황입니다. 현재는 자료를 엑셀로 수기 작성하고 있습니다. CRM 솔루션을 도입하는 주요 목적은 숫자를 활용하고 대시보드를 구축하는 것입니다.",
+          "start_char": 420,
+          "end_char": 553
+        }
+      ],
+      "dedupe_key": "action_item:f3838177d40b212f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "리캐치 연혁"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 564,
+          "end_char": 567
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1524,
+          "end_char": 1527
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1657,
+          "end_char": 1660
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1820,
+          "end_char": 1823
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2310,
+          "end_char": 2313
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2355,
+          "end_char": 2358
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2415,
+          "end_char": 2418
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2456,
+          "end_char": 2459
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2535,
+          "end_char": 2538
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2637,
+          "end_char": 2640
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2667,
+          "end_char": 2670
+        },
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2925,
+          "end_char": 2928
+        },
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3029,
+          "end_char": 3032
+        },
+        {
+          "segment_id": "S-0045",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3231,
+          "end_char": 3234
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 140억 원",
+      "normalized": {
+        "value": 14000000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "리캐치 연혁"
+          ],
+          "exact_quote": "약 140억 원",
+          "start_char": 609,
+          "end_char": 617
+        }
+      ],
+      "dedupe_key": "budget:3a349b0d4e9c7a61",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "II. 현재 시스템의 불편함 (Pain Points) 및 문제 인식",
+      "normalized": {
+        "text": "II. 현재 시스템의 불편함 (Pain Points) 및 문제 인식",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치 연혁"
+          ],
+          "exact_quote": "II. 현재 시스템의 불편함 (Pain Points) 및 문제 인식",
+          "start_char": 653,
+          "end_char": 690
+        }
+      ],
+      "dedupe_key": "risk_or_concern:21401ac1788eb760",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이지스자산운용은 내부 시스템을 사용하여 펀드 설정부터 청산까지는 진행이 가능합니다. 그러나 소싱부터 펀드 설정까지의 단계에서는 각 부서의 필요에 따라 자료 정리가 진행되므로 통일된 양식이 없는 상태입니다.",
+      "normalized": {
+        "text": "이지스자산운용은 내부 시스템을 사용하여 펀드 설정부터 청산까지는 진행이 가능합니다. 그러나 소싱부터 펀드 설정까지의 단계에서는 각 부서의 필요에 따라 자료 정리가 진행되므로 통일된 양식이 없는 상태입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "리캐치 연혁"
+          ],
+          "exact_quote": "이지스자산운용은 내부 시스템을 사용하여 펀드 설정부터 청산까지는 진행이 가능합니다. 그러나 소싱부터 펀드 설정까지의 단계에서는 각 부서의 필요에 따라 자료 정리가 진행되므로 통일된 양식이 없는 상태입니다.",
+          "start_char": 692,
+          "end_char": 806
+        }
+      ],
+      "dedupe_key": "action_item:b335028090ff791a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "데이터 취합 지연: 전사 취합이 필요할 경우, 별도 연락 및 취합에 최대 2주까지 소요되어 일정이 지연되는 것이 가장 큰 페인포인트입니다.",
+      "normalized": {
+        "text": "데이터 취합 지연: 전사 취합이 필요할 경우, 별도 연락 및 취합에 최대 2주까지 소요되어 일정이 지연되는 것이 가장 큰 페인포인트입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "데이터 취합 지연: 전사 취합이 필요할 경우, 별도 연락 및 취합에 최대 2주까지 소요되어 일정이 지연되는 것이 가장 큰 페인포인트입니다.",
+          "start_char": 819,
+          "end_char": 896
+        }
+      ],
+      "dedupe_key": "action_item:cc8cb31b0f4d27b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "2주",
+          "start_char": 860,
+          "end_char": 862
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "커스터마이징 필요성: 미팅에서 상당한 커스터마이징이 필요할 것으로 예상되었습니다.",
+      "normalized": {
+        "text": "커스터마이징 필요성: 미팅에서 상당한 커스터마이징이 필요할 것으로 예상되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "커스터마이징 필요성: 미팅에서 상당한 커스터마이징이 필요할 것으로 예상되었습니다.",
+          "start_char": 1032,
+          "end_char": 1077
+        }
+      ],
+      "dedupe_key": "action_item:191b70ebd5a3a7a7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "III. 핵심 기능 요구사항 및 필요성",
+      "normalized": {
+        "text": "III. 핵심 기능 요구사항 및 필요성",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "III. 핵심 기능 요구사항 및 필요성",
+          "start_char": 1079,
+          "end_char": 1100
+        }
+      ],
+      "dedupe_key": "action_item:ec2baf3f599fcf1b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "배경: 같은 부문 내에서도 경쟁을 하며, 비밀협약 유지 등이 필요하기 때문에 서로의 프로젝트가 보이면 안 되는 상황이 있습니다.",
+      "normalized": {
+        "text": "배경: 같은 부문 내에서도 경쟁을 하며, 비밀협약 유지 등이 필요하기 때문에 서로의 프로젝트가 보이면 안 되는 상황이 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "배경: 같은 부문 내에서도 경쟁을 하며, 비밀협약 유지 등이 필요하기 때문에 서로의 프로젝트가 보이면 안 되는 상황이 있습니다.",
+          "start_char": 1169,
+          "end_char": 1240
+        }
+      ],
+      "dedupe_key": "action_item:49d539938095cba7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "필드 숨기기: 특정 필드만 숨기는 기능도 필요합니다.",
+      "normalized": {
+        "text": "필드 숨기기: 특정 필드만 숨기는 기능도 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "필드 숨기기: 특정 필드만 숨기는 기능도 필요합니다.",
+          "start_char": 1394,
+          "end_char": 1423
+        }
+      ],
+      "dedupe_key": "action_item:56f3ca40e8e46e37",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "특정 직책자 단계 변경 제한: 딜 단계를 잘못 옮겼을 때의 문제를 관리하고 싶어, 특정 직책자만 단계 변경이 가능하도록 제한하고 싶습니다. (리캐치에서는 현재 불가하다고 논의됨).",
+      "normalized": {
+        "text": "특정 직책자 단계 변경 제한: 딜 단계를 잘못 옮겼을 때의 문제를 관리하고 싶어, 특정 직책자만 단계 변경이 가능하도록 제한하고 싶습니다. (리캐치에서는 현재 불가하다고 논의됨).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "특정 직책자 단계 변경 제한: 딜 단계를 잘못 옮겼을 때의 문제를 관리하고 싶어, 특정 직책자만 단계 변경이 가능하도록 제한하고 싶습니다. (리캐치에서는 현재 불가하다고 논의됨).",
+          "start_char": 1445,
+          "end_char": 1545
+        }
+      ],
+      "dedupe_key": "risk_or_concern:21f2fd1334b20073",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "라이프사이클 그래프: 딜 소싱부터 청산까지 단계 변경 시점을 보여주는 그래프를 원합니다. 이는 특정 딜들에 대한 회고용으로 단계 변경 시점이나 call 시점 등을 확인하고 싶은 니즈 때문입니다. (리캐치에는 현재 이 기능이 없으며, 기획이 필요함).",
+      "normalized": {
+        "text": "라이프사이클 그래프: 딜 소싱부터 청산까지 단계 변경 시점을 보여주는 그래프를 원합니다. 이는 특정 딜들에 대한 회고용으로 단계 변경 시점이나 call 시점 등을 확인하고 싶은 니즈 때문입니다. (리캐치에는 현재 이 기능이 없으며, 기획이 필요함).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "라이프사이클 그래프: 딜 소싱부터 청산까지 단계 변경 시점을 보여주는 그래프를 원합니다. 이는 특정 딜들에 대한 회고용으로 단계 변경 시점이나 call 시점 등을 확인하고 싶은 니즈 때문입니다. (리캐치에는 현재 이 기능이 없으며, 기획이 필요함).",
+          "start_char": 1547,
+          "end_char": 1686
+        }
+      ],
+      "dedupe_key": "action_item:7df671193da1af8c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지식 관리 및 대시보드 연동: 현재 진행 중인 프로젝트에 대한 지식 관리를 원합니다. 단계별로 들어갈 수 있는 그림을 구상하고 있으며, 대시보드 클릭 $\\rightarrow$ 딜 체크 $\\rightarrow$ 담당자 학력 체크 $\\rightarrow$ 투자자 클릭 시 재무제표 및 최근 동향 리뷰가 가능한 구조를 원합니다.",
+      "normalized": {
+        "text": "지식 관리 및 대시보드 연동: 현재 진행 중인 프로젝트에 대한 지식 관리를 원합니다. 단계별로 들어갈 수 있는 그림을 구상하고 있으며, 대시보드 클릭 $\\rightarrow$ 딜 체크 $\\rightarrow$ 담당자 학력 체크 $\\rightarrow$ 투자자 클릭 시 재무제표 및 최근 동향 리뷰가 가능한 구조를 원합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "지식 관리 및 대시보드 연동: 현재 진행 중인 프로젝트에 대한 지식 관리를 원합니다. 단계별로 들어갈 수 있는 그림을 구상하고 있으며, 대시보드 클릭 $\\rightarrow$ 딜 체크 $\\rightarrow$ 담당자 학력 체크 $\\rightarrow$ 투자자 클릭 시 재무제표 및 최근 동향 리뷰가 가능한 구조를 원합니다.",
+          "start_char": 1886,
+          "end_char": 2066
+        }
+      ],
+      "dedupe_key": "action_item:d9d491bec62b845c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기업 코드 다운로드: 이지스자산운용은 NICE에서 제공받는 기업 코드를 기반으로 데이터를 관리하고 있으며, 데이터 보유 및 관리용으로 해당 코드의 다운로드가 필요합니다.",
+      "normalized": {
+        "text": "기업 코드 다운로드: 이지스자산운용은 NICE에서 제공받는 기업 코드를 기반으로 데이터를 관리하고 있으며, 데이터 보유 및 관리용으로 해당 코드의 다운로드가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "기업 코드 다운로드: 이지스자산운용은 NICE에서 제공받는 기업 코드를 기반으로 데이터를 관리하고 있으며, 데이터 보유 및 관리용으로 해당 코드의 다운로드가 필요합니다.",
+          "start_char": 2210,
+          "end_char": 2304
+        }
+      ],
+      "dedupe_key": "action_item:4db0a0a4d02cfbc3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "AI 및 보안: 리캐치는 Email draft 작성 등 AI 기능을 준비 중입니다. AI 영역이 런칭되면 추가 비용이 발생할 가능성이 있습니다. 이지스 측은 개인정보 및 금융 정보 때문에 GCP 사용에 대해 우려를 표했습니다.",
+      "normalized": {
+        "text": "AI 및 보안: 리캐치는 Email draft 작성 등 AI 기능을 준비 중입니다. AI 영역이 런칭되면 추가 비용이 발생할 가능성이 있습니다. 이지스 측은 개인정보 및 금융 정보 때문에 GCP 사용에 대해 우려를 표했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "AI 및 보안: 리캐치는 Email draft 작성 등 AI 기능을 준비 중입니다. AI 영역이 런칭되면 추가 비용이 발생할 가능성이 있습니다. 이지스 측은 개인정보 및 금융 정보 때문에 GCP 사용에 대해 우려를 표했습니다.",
+          "start_char": 3020,
+          "end_char": 3146
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e5ded0d0ceca31aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기업 코드 다운로드: NICE의 기업 코드를 직접 드리기는 어렵다고 언급되었습니다.",
+      "normalized": {
+        "text": "기업 코드 다운로드: NICE의 기업 코드를 직접 드리기는 어렵다고 언급되었습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "기업 코드 다운로드: NICE의 기업 코드를 직접 드리기는 어렵다고 언급되었습니다.",
+          "start_char": 3148,
+          "end_char": 3194
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8ddee3607600e075",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이지스자산운용 측에서 2차 미팅이 필요할 시 리캐치 측에 연락하기로 결정되었습니다.",
+      "normalized": {
+        "text": "이지스자산운용 측에서 2차 미팅이 필요할 시 리캐치 측에 연락하기로 결정되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0045",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "이지스자산운용 측에서 2차 미팅이 필요할 시 리캐치 측에 연락하기로 결정되었습니다.",
+          "start_char": 3206,
+          "end_char": 3252
+        }
+      ],
+      "dedupe_key": "action_item:4f0b1cce3cc87c79",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "41.24",
+      "normalized": {
+        "year": 2041,
+        "month": 24,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0046",
+          "section_path": [
+            "주요 불편 사항"
+          ],
+          "exact_quote": "41.24",
+          "start_char": 3350,
+          "end_char": 3355
+        }
+      ],
+      "dedupe_key": "timeline:4a50024f21652348",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

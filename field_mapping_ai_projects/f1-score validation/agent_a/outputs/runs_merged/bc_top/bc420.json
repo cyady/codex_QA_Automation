@@ -1,0 +1,1335 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W420",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 회의 개요"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 58,
+          "end_char": 61
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 회의 개요"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 87,
+          "end_char": 90
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 634,
+          "end_char": 637
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 775,
+          "end_char": 778
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1046,
+          "end_char": 1049
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1093,
+          "end_char": 1096
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1179,
+          "end_char": 1182
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1654,
+          "end_char": 1657
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2096,
+          "end_char": 2099
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2208,
+          "end_char": 2211
+        },
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 2359,
+          "end_char": 2362
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 현재 네이버 키워드 광고를 중심으로 마케팅 중이나 구글 및 AI검색엔진을 통한 자연 유입(SU)과 고도화된 AI검색엔진(GU) 대응 필요성 제기",
+      "normalized": {
+        "text": "- 현재 네이버 키워드 광고를 중심으로 마케팅 중이나 구글 및 AI검색엔진을 통한 자연 유입(SU)과 고도화된 AI검색엔진(GU) 대응 필요성 제기",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 현재 네이버 키워드 광고를 중심으로 마케팅 중이나 구글 및 AI검색엔진을 통한 자연 유입(SU)과 고도화된 AI검색엔진(GU) 대응 필요성 제기",
+          "start_char": 154,
+          "end_char": 236
+        }
+      ],
+      "dedupe_key": "action_item:9f923a69e8ea2e48",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "22개",
+      "normalized": {
+        "value": 22,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "22개",
+          "start_char": 270,
+          "end_char": 273
+        }
+      ],
+      "dedupe_key": "case_metric:a0afc2a11bc1018f",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "500건",
+      "normalized": {
+        "value": 500,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "500건",
+          "start_char": 280,
+          "end_char": 284
+        }
+      ],
+      "dedupe_key": "case_metric:ca6d23789c333b10",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "216개",
+      "normalized": {
+        "value": 216,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "216개",
+          "start_char": 300,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "case_metric:675905018cb9979d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "400건",
+      "normalized": {
+        "value": 400,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "400건",
+          "start_char": 314,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "case_metric:2a8dbf83726619a4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "160개",
+      "normalized": {
+        "value": 160,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "160개",
+          "start_char": 332,
+          "end_char": 336
+        }
+      ],
+      "dedupe_key": "case_metric:f6c4f2a97655ea3e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "100개",
+          "start_char": 345,
+          "end_char": 349
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000건",
+      "normalized": {
+        "value": 0,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "000건",
+          "start_char": 359,
+          "end_char": 363
+        }
+      ],
+      "dedupe_key": "case_metric:58cc13dea0bf4165",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "377건",
+      "normalized": {
+        "value": 377,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "377건",
+          "start_char": 403,
+          "end_char": 407
+        }
+      ],
+      "dedupe_key": "case_metric:2aea4b801f1b4929",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 구글 플라워 웹사이트는 상세페이지가 이미지 중심으로 텍스트 부재, AI 및 검색엔진에 불리한 점 지적",
+      "normalized": {
+        "text": "- 구글 플라워 웹사이트는 상세페이지가 이미지 중심으로 텍스트 부재, AI 및 검색엔진에 불리한 점 지적",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 구글 플라워 웹사이트는 상세페이지가 이미지 중심으로 텍스트 부재, AI 및 검색엔진에 불리한 점 지적",
+          "start_char": 507,
+          "end_char": 565
+        }
+      ],
+      "dedupe_key": "risk_or_concern:32d766d81afe14c1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 664,
+          "end_char": 667
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 827,
+          "end_char": 830
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1297,
+          "end_char": 1300
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1330,
+          "end_char": 1333
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1346,
+          "end_char": 1349
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1603,
+          "end_char": 1606
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1714,
+          "end_char": 1717
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- AI 검색엔진 대비는 점진적 진행 권고, 현재는 전통적 구글 검색 최적화(SU) 우선 필요",
+      "normalized": {
+        "text": "- AI 검색엔진 대비는 점진적 진행 권고, 현재는 전통적 구글 검색 최적화(SU) 우선 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- AI 검색엔진 대비는 점진적 진행 권고, 현재는 전통적 구글 검색 최적화(SU) 우선 필요",
+          "start_char": 698,
+          "end_char": 750
+        }
+      ],
+      "dedupe_key": "action_item:412e6585647ac770",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 후기 및 리뷰 콘텐츠가 AI검색 및 SEO에 큰 영향, 외부 티스토리, 브런치 등에서의 후기 확보 방안 검토",
+      "normalized": {
+        "text": "- 후기 및 리뷰 콘텐츠가 AI검색 및 SEO에 큰 영향, 외부 티스토리, 브런치 등에서의 후기 확보 방안 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 후기 및 리뷰 콘텐츠가 AI검색 및 SEO에 큰 영향, 외부 티스토리, 브런치 등에서의 후기 확보 방안 검토",
+          "start_char": 753,
+          "end_char": 815
+        }
+      ],
+      "dedupe_key": "action_item:c1f073184e50232a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 웹사이트 내 블로그 탭 설치와 CMS 연동(워드프레스, 인블록, 프레이머 등) 필요성",
+      "normalized": {
+        "text": "- 웹사이트 내 블로그 탭 설치와 CMS 연동(워드프레스, 인블록, 프레이머 등) 필요성",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 웹사이트 내 블로그 탭 설치와 CMS 연동(워드프레스, 인블록, 프레이머 등) 필요성",
+          "start_char": 818,
+          "end_char": 867
+        }
+      ],
+      "dedupe_key": "action_item:41571d21280efb44",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 사례: 나이스 크레딧 SEO 최적화 프로젝트 경험 공유",
+      "normalized": {
+        "text": "- 사례: 나이스 크레딧 SEO 최적화 프로젝트 경험 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 주요 논의 사항"
+          ],
+          "exact_quote": "- 사례: 나이스 크레딧 SEO 최적화 프로젝트 경험 공유",
+          "start_char": 1032,
+          "end_char": 1064
+        }
+      ],
+      "dedupe_key": "collaboration_need:13ee14fe7fa21a15",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+      "normalized": {
+        "text": "Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+          "start_char": 1090,
+          "end_char": 1132
+        }
+      ],
+      "dedupe_key": "other:8e23489d2c906946",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+      "normalized": {
+        "text": "- Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "- Q: SEO 및 GEO에 대한 고객사 내 이해도 여부와 적용 사례 공유 요청",
+          "start_char": 1088,
+          "end_char": 1132
+        }
+      ],
+      "dedupe_key": "action_item:d1520a4cc8b5724c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "A: 고객사 관계자께서 꾸까, 배치스플라워 등의 경쟁사 사례를 인지 중이며 SEO 중요성 공감",
+      "normalized": {
+        "text": "A: 고객사 관계자께서 꾸까, 배치스플라워 등의 경쟁사 사례를 인지 중이며 SEO 중요성 공감",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 고객사 관계자께서 꾸까, 배치스플라워 등의 경쟁사 사례를 인지 중이며 SEO 중요성 공감",
+          "start_char": 1137,
+          "end_char": 1189
+        }
+      ],
+      "dedupe_key": "other:45500da2285b0910",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Q: 웹사이트 개편 필요성과 절차 문의",
+      "normalized": {
+        "text": "Q: 웹사이트 개편 필요성과 절차 문의",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "Q: 웹사이트 개편 필요성과 절차 문의",
+          "start_char": 1194,
+          "end_char": 1215
+        }
+      ],
+      "dedupe_key": "other:6263b0a3f8325070",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- Q: 웹사이트 개편 필요성과 절차 문의",
+      "normalized": {
+        "text": "- Q: 웹사이트 개편 필요성과 절차 문의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "- Q: 웹사이트 개편 필요성과 절차 문의",
+          "start_char": 1192,
+          "end_char": 1215
+        }
+      ],
+      "dedupe_key": "action_item:e5fd53193e692224",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+      "normalized": {
+        "text": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+          "start_char": 1220,
+          "end_char": 1270
+        }
+      ],
+      "dedupe_key": "other:32c2a39c187736d5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+      "normalized": {
+        "text": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 웹사이트 개편은 대규모 리소스 소요로 SU·GU 최적화 성과 확인 후 점진 진행 권고",
+          "start_char": 1220,
+          "end_char": 1270
+        }
+      ],
+      "dedupe_key": "action_item:2521b29fb38979b8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Q: 콘텐츠 작성 및 운영 방식, 외부 블로그 운영 시 장단점 문의",
+      "normalized": {
+        "text": "Q: 콘텐츠 작성 및 운영 방식, 외부 블로그 운영 시 장단점 문의",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "Q: 콘텐츠 작성 및 운영 방식, 외부 블로그 운영 시 장단점 문의",
+          "start_char": 1275,
+          "end_char": 1312
+        }
+      ],
+      "dedupe_key": "other:a0b532d57136c5df",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "A: 자체 웹사이트 내 블로그 운영 우선권장, 외부 블로그는 AI검색엔진 인용 및 브랜드 인지도 강화용 보조수단으로 활용",
+      "normalized": {
+        "text": "A: 자체 웹사이트 내 블로그 운영 우선권장, 외부 블로그는 AI검색엔진 인용 및 브랜드 인지도 강화용 보조수단으로 활용",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 자체 웹사이트 내 블로그 운영 우선권장, 외부 블로그는 AI검색엔진 인용 및 브랜드 인지도 강화용 보조수단으로 활용",
+          "start_char": 1317,
+          "end_char": 1384
+        }
+      ],
+      "dedupe_key": "other:f35ce409d0abc70b",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Q: 구글 색인 생성 및 크롤링 관련 절차 문의",
+      "normalized": {
+        "text": "Q: 구글 색인 생성 및 크롤링 관련 절차 문의",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "Q: 구글 색인 생성 및 크롤링 관련 절차 문의",
+          "start_char": 1389,
+          "end_char": 1415
+        }
+      ],
+      "dedupe_key": "other:bc0b5b65f7329961",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+      "normalized": {
+        "text": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+          "start_char": 1420,
+          "end_char": 1478
+        }
+      ],
+      "dedupe_key": "other:375e0d33b45f2c41",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+      "normalized": {
+        "text": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 구글 서치 콘솔을 통한 색인 생성 요청 가능하며, 크롤링 허용 설정(robots.txt) 점검 필수",
+          "start_char": 1420,
+          "end_char": 1478
+        }
+      ],
+      "dedupe_key": "action_item:9d3c7434d8bb4829",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Q: AI 검색엔진 대비 시급성 및 전략 우선순위 문의",
+      "normalized": {
+        "text": "Q: AI 검색엔진 대비 시급성 및 전략 우선순위 문의",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "Q: AI 검색엔진 대비 시급성 및 전략 우선순위 문의",
+          "start_char": 1483,
+          "end_char": 1513
+        }
+      ],
+      "dedupe_key": "other:5c0a1ea058ec7c2b",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "A: 현재는 구글 최적화가 우선이며, AI 검색엔진 대응은 중장기 전략으로 서서히 준비 권고",
+      "normalized": {
+        "text": "A: 현재는 구글 최적화가 우선이며, AI 검색엔진 대응은 중장기 전략으로 서서히 준비 권고",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 3. 고객 질문 및 답변"
+          ],
+          "exact_quote": "A: 현재는 구글 최적화가 우선이며, AI 검색엔진 대응은 중장기 전략으로 서서히 준비 권고",
+          "start_char": 1518,
+          "end_char": 1569
+        }
+      ],
+      "dedupe_key": "other:f7f3cebfe692de66",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)",
+      "normalized": {
+        "text": "고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)",
+          "start_char": 1593,
+          "end_char": 1644
+        }
+      ],
+      "dedupe_key": "action_item:22bab63665434494",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)",
+      "normalized": {
+        "text": "- 고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "- 고객사 내부적으로 블로그 탭 개설 및 CMS 도입 추진 (책임: 고객사, 기한: 협의 필요)",
+          "start_char": 1591,
+          "end_char": 1644
+        }
+      ],
+      "dedupe_key": "action_item:385a466fec08a4b8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당사에서 SEO·GEO 최적화 가이드라인 제공 및 키워드 분석 보고서 작성 (책임: 당사, 기한: 2주 내)",
+      "normalized": {
+        "text": "당사에서 SEO·GEO 최적화 가이드라인 제공 및 키워드 분석 보고서 작성 (책임: 당사, 기한: 2주 내)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "당사에서 SEO·GEO 최적화 가이드라인 제공 및 키워드 분석 보고서 작성 (책임: 당사, 기한: 2주 내)",
+          "start_char": 1649,
+          "end_char": 1709
+        }
+      ],
+      "dedupe_key": "action_item:6c04dddd3314f94c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "2주",
+          "start_char": 1704,
+          "end_char": 1706
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)",
+      "normalized": {
+        "text": "블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)",
+          "start_char": 1714,
+          "end_char": 1781
+        }
+      ],
+      "dedupe_key": "action_item:d7b086ed658c4ba0",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)",
+      "normalized": {
+        "text": "- 블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "- 블로그 콘텐츠 작성 전략 수립 및 필요 시 콘텐츠 대행 서비스 제안 (책임: 당사/고객사, 기한: 고객사 요청 시 진행)",
+          "start_char": 1712,
+          "end_char": 1781
+        }
+      ],
+      "dedupe_key": "action_item:0da25816c0affbd4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상세페이지 및 상품페이지 내 이미지 대체 텍스트 삽입 가이드 및 기획 지원 (책임: 당사, 기한: 1개월 내)",
+      "normalized": {
+        "text": "상세페이지 및 상품페이지 내 이미지 대체 텍스트 삽입 가이드 및 기획 지원 (책임: 당사, 기한: 1개월 내)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "상세페이지 및 상품페이지 내 이미지 대체 텍스트 삽입 가이드 및 기획 지원 (책임: 당사, 기한: 1개월 내)",
+          "start_char": 1786,
+          "end_char": 1847
+        }
+      ],
+      "dedupe_key": "action_item:a4e1adfb781c49c1",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 1841,
+          "end_char": 1844
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0039",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)",
+      "normalized": {
+        "text": "후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)",
+          "start_char": 1852,
+          "end_char": 1940
+        }
+      ],
+      "dedupe_key": "action_item:e1a220967ac945bd",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0040",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)",
+      "normalized": {
+        "text": "- 후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "- 후기 및 리뷰 콘텐츠 확대 방안 논의 및 브랜드 관련 외부 채널(티스토리, 브런치 등) 연계 방안 검토 (책임: 고객사 및 당사 협의, 기한: 다음 미팅 전)",
+          "start_char": 1850,
+          "end_char": 1940
+        }
+      ],
+      "dedupe_key": "action_item:5e9e9667adb386e2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0041",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)",
+      "normalized": {
+        "text": "구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)",
+          "start_char": 1945,
+          "end_char": 2010
+        }
+      ],
+      "dedupe_key": "action_item:b7e35c84676ecb1d",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0042",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)",
+      "normalized": {
+        "text": "- 구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "- 구글 서치 콘솔 색인 생성 요청 및 robots.txt 설정 점검 지원 (책임: 당사 및 고객사 협조, 기한: 즉시)",
+          "start_char": 1943,
+          "end_char": 2010
+        }
+      ],
+      "dedupe_key": "action_item:b67257cb8a58652b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0043",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)",
+      "normalized": {
+        "text": "SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)",
+          "start_char": 2015,
+          "end_char": 2073
+        }
+      ],
+      "dedupe_key": "action_item:ab4905c3040c0812",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0044",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)",
+      "normalized": {
+        "text": "- SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "- SU 최적화 진행 상황 모니터링 및 GU 최적화 전략 추가 논의 준비 (책임: 당사, 기한: 3개월 내)",
+          "start_char": 2013,
+          "end_char": 2073
+        }
+      ],
+      "dedupe_key": "action_item:2d8efb3f34a9a7f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0045",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 4. 다음 액션 플랜"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 2067,
+          "end_char": 2070
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0046",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 고객사는 SEO 및 AI 검색엔진 최적화 필요성에 대해 높은 관심과 긍정적 인식을 보임",
+      "normalized": {
+        "text": "- 고객사는 SEO 및 AI 검색엔진 최적화 필요성에 대해 높은 관심과 긍정적 인식을 보임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "- 고객사는 SEO 및 AI 검색엔진 최적화 필요성에 대해 높은 관심과 긍정적 인식을 보임",
+          "start_char": 2089,
+          "end_char": 2139
+        }
+      ],
+      "dedupe_key": "action_item:a08e0590e4f855c7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0047",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 웹사이트 개편에 신중하며, 사업 리스크 최소화를 위해 점진적 접근 선호",
+      "normalized": {
+        "text": "- 웹사이트 개편에 신중하며, 사업 리스크 최소화를 위해 점진적 접근 선호",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "- 웹사이트 개편에 신중하며, 사업 리스크 최소화를 위해 점진적 접근 선호",
+          "start_char": 2142,
+          "end_char": 2183
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cb3afb67ef7cc395",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0048",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 후기 콘텐츠 부족이 AI 검색엔진과 SEO 양쪽에서 약점으로 인식, 이에 따른 내부 동기 부여 및 인센티브 제공 검토 필요",
+      "normalized": {
+        "text": "- 후기 콘텐츠 부족이 AI 검색엔진과 SEO 양쪽에서 약점으로 인식, 이에 따른 내부 동기 부여 및 인센티브 제공 검토 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "- 후기 콘텐츠 부족이 AI 검색엔진과 SEO 양쪽에서 약점으로 인식, 이에 따른 내부 동기 부여 및 인센티브 제공 검토 필요",
+          "start_char": 2186,
+          "end_char": 2256
+        }
+      ],
+      "dedupe_key": "action_item:153970b49cd6010b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0049",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 고객사 내부 외주 개발사 부재로 기술적 지원 및 가이드 제공 지원 중요",
+      "normalized": {
+        "text": "- 고객사 내부 외주 개발사 부재로 기술적 지원 및 가이드 제공 지원 중요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            " 5. 비고"
+          ],
+          "exact_quote": "- 고객사 내부 외주 개발사 부재로 기술적 지원 및 가이드 제공 지원 중요",
+          "start_char": 2310,
+          "end_char": 2351
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ef93372be86b0e15",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

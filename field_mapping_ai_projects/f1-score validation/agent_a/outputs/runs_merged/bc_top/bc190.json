@@ -1,0 +1,129 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W190",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "국내: 신규 영업보다 기존 고객 관리에 더 큰 목적을 두고 CRM 도입을 검토 중",
+      "normalized": {
+        "text": "국내: 신규 영업보다 기존 고객 관리에 더 큰 목적을 두고 CRM 도입을 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "국내: 신규 영업보다 기존 고객 관리에 더 큰 목적을 두고 CRM 도입을 검토 중",
+          "start_char": 138,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "action_item:bbefd95b5efecd3f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀의 잦은 출장 등으로 다른 부서와 계약 진행 상황, 수금 일정 등을 공유하기 위한 관리적 측면의 니즈가 강함",
+      "normalized": {
+        "text": "영업팀의 잦은 출장 등으로 다른 부서와 계약 진행 상황, 수금 일정 등을 공유하기 위한 관리적 측면의 니즈가 강함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "영업팀의 잦은 출장 등으로 다른 부서와 계약 진행 상황, 수금 일정 등을 공유하기 위한 관리적 측면의 니즈가 강함",
+          "start_char": 187,
+          "end_char": 250
+        }
+      ],
+      "dedupe_key": "action_item:8a7d25ccee187a76",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "타 부서(관리 부서 등)와 고객사 계약 및 수금 현황 공유",
+      "normalized": {
+        "text": "타 부서(관리 부서 등)와 고객사 계약 및 수금 현황 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "타 부서(관리 부서 등)와 고객사 계약 및 수금 현황 공유",
+          "start_char": 361,
+          "end_char": 393
+        }
+      ],
+      "dedupe_key": "collaboration_need:5559a5a18b1ba9e8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 434,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

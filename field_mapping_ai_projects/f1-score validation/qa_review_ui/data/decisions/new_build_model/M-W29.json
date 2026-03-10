@@ -1,0 +1,667 @@
+{
+  "memo_id": "M-W29",
+  "updated_at": "2026-02-27T05:48:54.865058+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5557",
+      "field_label": "✅ 총 계약 금액",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1593",
+      "field_label": "✅ MRR",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5368",
+      "field_label": "✅ 견적 개월 수",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "SKIP",
+      "note": ""
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 11,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "TP",
+      "note": ""
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@growth",
+      "start_char": 73,
+      "end_char": 80,
+      "line_no": 1,
+      "line_text": "[Tier1 동국씨엠 - 잠재 매출 미정(1,500~3,000만원 수준 예상) ] 251216_미팅 이후 골든타임 메일 팔로업cc @growth @sales",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@sales",
+      "start_char": 81,
+      "end_char": 87,
+      "line_no": 1,
+      "line_text": "[Tier1 동국씨엠 - 잠재 매출 미정(1,500~3,000만원 수준 예상) ] 251216_미팅 이후 골든타임 메일 팔로업cc @growth @sales",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "000만원",
+      "start_char": 31,
+      "end_char": 36,
+      "line_no": 1,
+      "line_text": "[Tier1 동국씨엠 - 잠재 매출 미정(1,500~3,000만원 수준 예상) ] 251216_미팅 이후 골든타임 메일 팔로업cc @growth @sales",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "@김가은",
+      "start_char": 93,
+      "end_char": 97,
+      "line_no": 7,
+      "line_text": "@김가은(Bona) @안민혁 (minhyuk)님, 각 견적 정가 일부 견적들 소폭 상승시켜두었습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "@안민혁",
+      "start_char": 104,
+      "end_char": 108,
+      "line_no": 7,
+      "line_text": "@김가은(Bona) @안민혁 (minhyuk)님, 각 견적 정가 일부 견적들 소폭 상승시켜두었습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "normalized": {
+        "text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [],
+      "evidence_quote": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "start_char": 155,
+      "end_char": 283,
+      "line_no": 13,
+      "line_text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0003",
+      "evidence_section_path": [],
+      "evidence_quote": "500만원",
+      "start_char": 193,
+      "end_char": 198,
+      "line_no": 13,
+      "line_text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+      "normalized": {
+        "text": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+      "start_char": 427,
+      "end_char": 640,
+      "line_no": 18,
+      "line_text": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5368",
+          "label": "✅ 견적 개월 수",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "400만 원",
+      "start_char": 717,
+      "end_char": 723,
+      "line_no": 19,
+      "line_text": "*세부 서비스 내역은 실제 견적 산출 단계에서 업무 스콥에 따라 유연하게 조정될 수 있음을 미리 안내드립니다.1/ 블로그 패키지 (₩2,400만 원, 최소 3개월)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "150만 원",
+      "normalized": {
+        "value": 1500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "150만 원",
+      "start_char": 866,
+      "end_char": 872,
+      "line_no": 22,
+      "line_text": "  ◦ B2B 맞춤형 블로그 12편 작성 대행 (1편 추가 시 150만 원 추가)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "300만 원",
+      "start_char": 1133,
+      "end_char": 1139,
+      "line_no": 27,
+      "line_text": "  ◦ 마케팅 퍼널 및 LIMBIC에 근거한 웹사이트 문구 기획 (페이지 1개 추가 시 300만 원 추가) 등",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1593",
+          "label": "✅ MRR",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1개",
+      "normalized": {
+        "value": 1,
+        "unit": "count",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "1개",
+      "start_char": 1125,
+      "end_char": 1127,
+      "line_no": 27,
+      "line_text": "  ◦ 마케팅 퍼널 및 LIMBIC에 근거한 웹사이트 문구 기획 (페이지 1개 추가 시 300만 원 추가) 등",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1608",
+          "label": "Seat 수",
+          "type": "number",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0015",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "메타",
+      "start_char": 1017,
+      "end_char": 1019,
+      "line_no": 25,
+      "line_text": "  ◦ 웹사이트 Technical SEO 셋팅 및 SEO 태그 작업 (H태그, 메타디스크립션 태그, 대체텍스트, 스키마 마크업)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0016",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "블로그",
+      "start_char": 705,
+      "end_char": 708,
+      "line_no": 19,
+      "line_text": "*세부 서비스 내역은 실제 견적 산출 단계에서 업무 스콥에 따라 유연하게 조정될 수 있음을 미리 안내드립니다.1/ 블로그 패키지 (₩2,400만 원, 최소 3개월)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0018",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+      "normalized": {
+        "text": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+      "start_char": 1146,
+      "end_char": 1230,
+      "line_no": 28,
+      "line_text": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0020",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+      "normalized": {
+        "text": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+      "start_char": 1355,
+      "end_char": 1385,
+      "line_no": 33,
+      "line_text": "  ◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5178",
+          "label": "Tier",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0021",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+      "normalized": {
+        "text": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+      "start_char": 1388,
+      "end_char": 1429,
+      "line_no": 34,
+      "line_text": "  ◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0022",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+      "normalized": {
+        "text": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+      "start_char": 1432,
+      "end_char": 1492,
+      "line_no": 35,
+      "line_text": "  ◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0023",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+      "normalized": {
+        "text": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "--"
+      ],
+      "evidence_quote": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+      "start_char": 1598,
+      "end_char": 1754,
+      "line_no": 38,
+      "line_text": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5376",
+          "label": "[N] 상황 및 문제",
+          "type": "textarea",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

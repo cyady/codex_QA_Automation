@@ -1,0 +1,1089 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W501",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 40,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "7명",
+      "normalized": {
+        "value": 7,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "7명",
+          "start_char": 50,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "team_size:a76d7227557191e4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 111,
+          "end_char": 116
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현대오토에버 마케팅팀은 유럽 사이버복원력법(CRA) 규제 대응 컨설팅의 대외 리드 발굴을 위해 4월 말 웨비나 전까지 가망 고객을 확보해야 합니다. (3월 말까지는 리드 확보 필요)",
+      "normalized": {
+        "text": "현대오토에버 마케팅팀은 유럽 사이버복원력법(CRA) 규제 대응 컨설팅의 대외 리드 발굴을 위해 4월 말 웨비나 전까지 가망 고객을 확보해야 합니다. (3월 말까지는 리드 확보 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "현대오토에버 마케팅팀은 유럽 사이버복원력법(CRA) 규제 대응 컨설팅의 대외 리드 발굴을 위해 4월 말 웨비나 전까지 가망 고객을 확보해야 합니다. (3월 말까지는 리드 확보 필요)",
+          "start_char": 186,
+          "end_char": 287
+        }
+      ],
+      "dedupe_key": "action_item:a614f1b410fe6208",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "4월 말",
+      "normalized": {
+        "month": 4,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "4월 말",
+          "start_char": 239,
+          "end_char": 243
+        }
+      ],
+      "dedupe_key": "timeline:479fd5710510bb84",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 말까지",
+      "normalized": {
+        "month": 3,
+        "part": "late",
+        "until": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "3월 말까지",
+          "start_char": 270,
+          "end_char": 276
+        }
+      ],
+      "dedupe_key": "timeline:e094f1522b448d25",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "단, 객단가가 큰 컨설팅 상품(7억원+-)이라 ABM 의 취지에 맞게 많은 수보다는 적더라도 핵심 의결권자 리드를 희망합니다.",
+      "normalized": {
+        "text": "단, 객단가가 큰 컨설팅 상품(7억원+-)이라 ABM 의 취지에 맞게 많은 수보다는 적더라도 핵심 의결권자 리드를 희망합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "단, 객단가가 큰 컨설팅 상품(7억원+-)이라 ABM 의 취지에 맞게 많은 수보다는 적더라도 핵심 의결권자 리드를 희망합니다.",
+          "start_char": 291,
+          "end_char": 361
+        }
+      ],
+      "dedupe_key": "collaboration_need:c3af74153c2dda89",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "7억원",
+      "normalized": {
+        "value": 700000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "7억원",
+          "start_char": 308,
+          "end_char": 311
+        }
+      ],
+      "dedupe_key": "budget:023136fa891ccf74",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 317,
+          "end_char": 320
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 397,
+          "end_char": 400
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 471,
+          "end_char": 474
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 658,
+          "end_char": 661
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 704,
+          "end_char": 707
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2005,
+          "end_char": 2008
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2081,
+          "end_char": 2084
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 예산이 약 1,300만 원 수준으로 한정적이라 기존 ABM 패키지 도입은 어렵지만, 리캐치 측에서 '리드젠 서베이' 또는 '이미 인하우스 마케팅팀이 최근 제작한 백서를 활용한 라이트한 ABM' 방식을 제안했습니다.",
+      "normalized": {
+        "text": "현재 예산이 약 1,300만 원 수준으로 한정적이라 기존 ABM 패키지 도입은 어렵지만, 리캐치 측에서 '리드젠 서베이' 또는 '이미 인하우스 마케팅팀이 최근 제작한 백서를 활용한 라이트한 ABM' 방식을 제안했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "현재 예산이 약 1,300만 원 수준으로 한정적이라 기존 ABM 패키지 도입은 어렵지만, 리캐치 측에서 '리드젠 서베이' 또는 '이미 인하우스 마케팅팀이 최근 제작한 백서를 활용한 라이트한 ABM' 방식을 제안했습니다.",
+          "start_char": 365,
+          "end_char": 487
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fa0016c88499768e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "300만 원",
+          "start_char": 376,
+          "end_char": 382
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 1639,
+          "end_char": 1645
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 415,
+          "end_char": 418
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 526,
+          "end_char": 529
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 623,
+          "end_char": 626
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 752,
+          "end_char": 755
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1067,
+          "end_char": 1070
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2049,
+          "end_char": 2052
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2125,
+          "end_char": 2128
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "클라이언트는 내부 입증이 시급한 챔피언으로서 매우 우호적이며, 리캐치 팀이 리멤버 팀에 요청하여 타겟 업종(로보틱스, 스마트팩토리)의 모수 조회와 비용 효율성을 확인한 후 빠르게 의사결정을 내리기로 했습니다.",
+      "normalized": {
+        "text": "클라이언트는 내부 입증이 시급한 챔피언으로서 매우 우호적이며, 리캐치 팀이 리멤버 팀에 요청하여 타겟 업종(로보틱스, 스마트팩토리)의 모수 조회와 비용 효율성을 확인한 후 빠르게 의사결정을 내리기로 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "클라이언트는 내부 입증이 시급한 챔피언으로서 매우 우호적이며, 리캐치 팀이 리멤버 팀에 요청하여 타겟 업종(로보틱스, 스마트팩토리)의 모수 조회와 비용 효율성을 확인한 후 빠르게 의사결정을 내리기로 했습니다.",
+          "start_char": 491,
+          "end_char": 607
+        }
+      ],
+      "dedupe_key": "action_item:acdd61d9520fb2fe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달",
+      "normalized": {
+        "text": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달",
+          "start_char": 622,
+          "end_char": 694
+        }
+      ],
+      "dedupe_key": "action_item:d35f73e1ca4cb248",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달",
+      "normalized": {
+        "text": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[리캐치] 미팅 요약 및 두 가지 안(리드젠 서베이 vs 소규모 ABM)에 대한 실행 가능성(Feasibility) 및 견적 전달",
+          "start_char": 622,
+          "end_char": 694
+        }
+      ],
+      "dedupe_key": "collaboration_need:ee1c655d4640099e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "효재님 ABM (랜딩페이지만) 기획/PM 2월 중 가능여부 확인 @박성준(Scott)",
+      "normalized": {
+        "text": "효재님 ABM (랜딩페이지만) 기획/PM 2월 중 가능여부 확인 @박성준(Scott)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "효재님 ABM (랜딩페이지만) 기획/PM 2월 중 가능여부 확인 @박성준(Scott)",
+          "start_char": 700,
+          "end_char": 747
+        }
+      ],
+      "dedupe_key": "action_item:f234a680dd7b189b",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 736,
+          "end_char": 740
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 806,
+          "end_char": 810
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)",
+      "normalized": {
+        "text": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)",
+          "start_char": 751,
+          "end_char": 817
+        }
+      ],
+      "dedupe_key": "action_item:5d93e21275863b07",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)",
+      "normalized": {
+        "text": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[리캐치/리멤버] 타겟 산업군(로보틱스, 스마트팩토리 등)에 대한 리멤버 DB 모수 조회 및 공유 @박성준(Scott)",
+          "start_char": 751,
+          "end_char": 817
+        }
+      ],
+      "dedupe_key": "collaboration_need:efc3aef4678f96a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토",
+      "normalized": {
+        "text": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토",
+          "start_char": 821,
+          "end_char": 871
+        }
+      ],
+      "dedupe_key": "action_item:805397a70ed2c528",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토",
+      "normalized": {
+        "text": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "[현대오토에버] 전달받은 제안 내용을 바탕으로 내부 의사결정 및 예산 활용 가능 여부 검토",
+          "start_char": 821,
+          "end_char": 871
+        }
+      ],
+      "dedupe_key": "action_item:d9ad2fbc92548436",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "커밋 레벨: 레벨 2 (문제가 뚜렷하고 챔피언 확보)",
+      "normalized": {
+        "text": "커밋 레벨: 레벨 2 (문제가 뚜렷하고 챔피언 확보)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "커밋 레벨: 레벨 2 (문제가 뚜렷하고 챔피언 확보)",
+          "start_char": 890,
+          "end_char": 919
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1a171282d142a267",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제 정의 (요소 3 충족): '유럽 CRA 규제 대응을 위한 대외 리드(DB)를 4월 웨비나 전까지 확보해야 한다'는 문제가 명확하며 타임라인도 구체적입니다.",
+      "normalized": {
+        "text": "문제 정의 (요소 3 충족): '유럽 CRA 규제 대응을 위한 대외 리드(DB)를 4월 웨비나 전까지 확보해야 한다'는 문제가 명확하며 타임라인도 구체적입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "문제 정의 (요소 3 충족): '유럽 CRA 규제 대응을 위한 대외 리드(DB)를 4월 웨비나 전까지 확보해야 한다'는 문제가 명확하며 타임라인도 구체적입니다.",
+          "start_char": 925,
+          "end_char": 1014
+        }
+      ],
+      "dedupe_key": "risk_or_concern:e674405113147bb4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "챔피언 확보 (요소 4 충족): 미팅에 참여한 마케팅 담당자들은 사내 입지 강화를 위해 리캐치의 성공 사례를 간절히 원하고 있으며, 예산 및 경쟁사 상황 등 내부 정보를 투명하게 공유하며 도입을 위해 적극 협력하고 있습니다.",
+      "normalized": {
+        "text": "챔피언 확보 (요소 4 충족): 미팅에 참여한 마케팅 담당자들은 사내 입지 강화를 위해 리캐치의 성공 사례를 간절히 원하고 있으며, 예산 및 경쟁사 상황 등 내부 정보를 투명하게 공유하며 도입을 위해 적극 협력하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "챔피언 확보 (요소 4 충족): 미팅에 참여한 마케팅 담당자들은 사내 입지 강화를 위해 리캐치의 성공 사례를 간절히 원하고 있으며, 예산 및 경쟁사 상황 등 내부 정보를 투명하게 공유하며 도입을 위해 적극 협력하고 있습니다.",
+          "start_char": 1018,
+          "end_char": 1143
+        }
+      ],
+      "dedupe_key": "collaboration_need:49b25b4978e95040",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "배경: 유럽의 사이버복원력법(CRA)이 발효(2027년 의무화)됨에 따라, 유럽에 제품을 수출하는 하드웨어/소프트웨어 기업은 보안 인증이 필수적인 상황입니다.",
+      "normalized": {
+        "text": "배경: 유럽의 사이버복원력법(CRA)이 발효(2027년 의무화)됨에 따라, 유럽에 제품을 수출하는 하드웨어/소프트웨어 기업은 보안 인증이 필수적인 상황입니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "배경: 유럽의 사이버복원력법(CRA)이 발효(2027년 의무화)됨에 따라, 유럽에 제품을 수출하는 하드웨어/소프트웨어 기업은 보안 인증이 필수적인 상황입니다.",
+          "start_char": 1345,
+          "end_char": 1433
+        }
+      ],
+      "dedupe_key": "collaboration_need:3ecf58642b94a913",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "목표: 23월 동안 CRA 컨설팅 잠재 고객을 확보하고, 4월 웨비나 → 710월 오프라인 미팅을 거쳐 실제 세일즈(SQL)까지 연결하는 프로세스 구축이 목표입니다.",
+      "normalized": {
+        "text": "목표: 23월 동안 CRA 컨설팅 잠재 고객을 확보하고, 4월 웨비나 → 710월 오프라인 미팅을 거쳐 실제 세일즈(SQL)까지 연결하는 프로세스 구축이 목표입니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "목표: 23월 동안 CRA 컨설팅 잠재 고객을 확보하고, 4월 웨비나 → 710월 오프라인 미팅을 거쳐 실제 세일즈(SQL)까지 연결하는 프로세스 구축이 목표입니다.",
+          "start_char": 1436,
+          "end_char": 1528
+        }
+      ],
+      "dedupe_key": "collaboration_need:05b326f28bdd5e3a",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "SQL",
+      "normalized": {
+        "keyword": "SQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "SQL",
+          "start_char": 1501,
+          "end_char": 1504
+        }
+      ],
+      "dedupe_key": "kpi_definition:5851e96d79a2bc41",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "타겟: 로보틱스(두산, 한화 등), 스마트팩토리, 농기계 등 유럽 수출 제조사. 실무자(과장급) 및 팀장급 이상 의사결정권자.2. 주요 제약 사항 (예산 및 내부 상황)",
+      "normalized": {
+        "text": "타겟: 로보틱스(두산, 한화 등), 스마트팩토리, 농기계 등 유럽 수출 제조사. 실무자(과장급) 및 팀장급 이상 의사결정권자.2. 주요 제약 사항 (예산 및 내부 상황)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "타겟: 로보틱스(두산, 한화 등), 스마트팩토리, 농기계 등 유럽 수출 제조사. 실무자(과장급) 및 팀장급 이상 의사결정권자.2. 주요 제약 사항 (예산 및 내부 상황)",
+          "start_char": 1531,
+          "end_char": 1625
+        }
+      ],
+      "dedupe_key": "collaboration_need:5664ac50e5dc5693",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "예산: 약 1,300만 원 수준. 전사 마케팅 조직이 신설되어 예산 집행 경험이 없고 보수적입니다.",
+      "normalized": {
+        "text": "예산: 약 1,300만 원 수준. 전사 마케팅 조직이 신설되어 예산 집행 경험이 없고 보수적입니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "예산: 약 1,300만 원 수준. 전사 마케팅 조직이 신설되어 예산 집행 경험이 없고 보수적입니다.",
+          "start_char": 1631,
+          "end_char": 1686
+        }
+      ],
+      "dedupe_key": "collaboration_need:ce6268f6e0a05510",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+      "normalized": {
+        "text": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+          "start_char": 1690,
+          "end_char": 1767
+        }
+      ],
+      "dedupe_key": "collaboration_need:c9ea8a030818dd8e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+      "normalized": {
+        "text": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "경쟁 상황: 경쟁사(아우토크립트, 페스카로)에 시장 점유율을 뺏겨 사업부가 매우 예민하며, 확실한 성과(KPI) 입증이 필요한 상황입니다.",
+          "start_char": 1690,
+          "end_char": 1767
+        }
+      ],
+      "dedupe_key": "action_item:6b4a31cd4e1bf331",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3. 논의된 솔루션 및 전략",
+      "normalized": {
+        "text": "3. 논의된 솔루션 및 전략",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "3. 논의된 솔루션 및 전략",
+          "start_char": 1769,
+          "end_char": 1784
+        }
+      ],
+      "dedupe_key": "collaboration_need:50b6f1f3504dd0e7",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전략 방향: CRA 컨설팅으로 시작하여 향후 공장 보안 관제인 NIS2(네트워크 및 정보 시스템 보안 지침)로 확장하는 'Land & Expand' 전략에 동의했습니다.",
+      "normalized": {
+        "text": "전략 방향: CRA 컨설팅으로 시작하여 향후 공장 보안 관제인 NIS2(네트워크 및 정보 시스템 보안 지침)로 확장하는 'Land & Expand' 전략에 동의했습니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "전략 방향: CRA 컨설팅으로 시작하여 향후 공장 보안 관제인 NIS2(네트워크 및 정보 시스템 보안 지침)로 확장하는 'Land & Expand' 전략에 동의했습니다.",
+          "start_char": 1790,
+          "end_char": 1884
+        }
+      ],
+      "dedupe_key": "collaboration_need:ece4e23764d52801",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+      "normalized": {
+        "text": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+          "start_char": 1890,
+          "end_char": 1987
+        }
+      ],
+      "dedupe_key": "collaboration_need:e5ac8576b72e2184",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+      "normalized": {
+        "text": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "대안 1 (리드젠 서베이): 리멤버 DB를 활용해 서베이를 발송, 예산 내에서 빠르고 확실하게 다량의 리드를 확보하는 방안. (리멤버 DB 내 충분한 모수 있는지 확인 필요)",
+          "start_char": 1890,
+          "end_char": 1987
+        }
+      ],
+      "dedupe_key": "action_item:bbd82a738ca95102",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+      "normalized": {
+        "text": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+          "start_char": 1991,
+          "end_char": 2120
+        }
+      ],
+      "dedupe_key": "collaboration_need:6048492c7aad7141",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+      "normalized": {
+        "text": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "대안 2 (맞춤형 소규모 ABM): 클라이언트가 내부 제작 중인 CRA 백서(체크리스트 포함)를 활용. 리캐치가 랜딩페이지 기획 등을 지원하여 예산 범위 내에서 ABM 형태로 진행 가능한지 타진하기로 함. (리멤버 팀과 노의 필요)",
+          "start_char": 1991,
+          "end_char": 2120
+        }
+      ],
+      "dedupe_key": "action_item:7acf50b9a5688821",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 리캐치 제안 포인트",
+      "normalized": {
+        "text": "4. 리캐치 제안 포인트",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "4. 리캐치 제안 포인트",
+          "start_char": 2122,
+          "end_char": 2135
+        }
+      ],
+      "dedupe_key": "collaboration_need:06963c16c5e7480c",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0039",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "성과 및 파트너십: NHN클라우드 등 유사 B2B 성공 사례를 제시하며, 단순 대행이 아닌 사내 마케팅 팀의 성과를 함께 만드는 파트너임을 강조했습니다.",
+      "normalized": {
+        "text": "성과 및 파트너십: NHN클라우드 등 유사 B2B 성공 사례를 제시하며, 단순 대행이 아닌 사내 마케팅 팀의 성과를 함께 만드는 파트너임을 강조했습니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "성과 및 파트너십: NHN클라우드 등 유사 B2B 성공 사례를 제시하며, 단순 대행이 아닌 사내 마케팅 팀의 성과를 함께 만드는 파트너임을 강조했습니다.",
+          "start_char": 2141,
+          "end_char": 2226
+        }
+      ],
+      "dedupe_key": "collaboration_need:cfb23b340bddf3b8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0040",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "퍼널 설계: 단순 리드 수집을 넘어 웨비나 및 오프라인 행사까지 이어지는 전체적인 마케팅/세일즈 퍼널 설계를 지원합니다.",
+      "normalized": {
+        "text": "퍼널 설계: 단순 리드 수집을 넘어 웨비나 및 오프라인 행사까지 이어지는 전체적인 마케팅/세일즈 퍼널 설계를 지원합니다.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "퍼널 설계: 단순 리드 수집을 넘어 웨비나 및 오프라인 행사까지 이어지는 전체적인 마케팅/세일즈 퍼널 설계를 지원합니다.",
+          "start_char": 2230,
+          "end_char": 2297
+        }
+      ],
+      "dedupe_key": "collaboration_need:33a5e0dbfceb6ce5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0041",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버의 MICE, 온/오프라인 이벤트 기획/운영에 관심이 매우 클 확률이 있음 (6~8월 중에 의결권자 대상 이벤트 개최하여 9월부터 기획되는 내년 예산을 노리고자 하심)",
+      "normalized": {
+        "text": "리멤버의 MICE, 온/오프라인 이벤트 기획/운영에 관심이 매우 클 확률이 있음 (6~8월 중에 의결권자 대상 이벤트 개최하여 9월부터 기획되는 내년 예산을 노리고자 하심)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "미팅 내용 핵심 요약1. 프로젝트 배경 및 니즈"
+          ],
+          "exact_quote": "리멤버의 MICE, 온/오프라인 이벤트 기획/운영에 관심이 매우 클 확률이 있음 (6~8월 중에 의결권자 대상 이벤트 개최하여 9월부터 기획되는 내년 예산을 노리고자 하심)",
+          "start_char": 2303,
+          "end_char": 2399
+        }
+      ],
+      "dedupe_key": "collaboration_need:d012abcc6bb05aa8",
+      "confidence": 0.82
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W369",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최근 리브랜딩 및 SEO 작업으로 홈페이지를 통한 인바운드 리드(신규 고객사 문의)가 급증했는데 팔로업이 어려워 CRM 도입을 검토하는 상황",
+      "normalized": {
+        "text": "최근 리브랜딩 및 SEO 작업으로 홈페이지를 통한 인바운드 리드(신규 고객사 문의)가 급증했는데 팔로업이 어려워 CRM 도입을 검토하는 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "최근 리브랜딩 및 SEO 작업으로 홈페이지를 통한 인바운드 리드(신규 고객사 문의)가 급증했는데 팔로업이 어려워 CRM 도입을 검토하는 상황",
+          "start_char": 113,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "action_item:228938e15ab30d16",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 123,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "데이터 관리: 인보이스는 공유 폴더, 고객사별 주문량 변화 등 히토리 파악은 수동으로 진행",
+      "normalized": {
+        "text": "데이터 관리: 인보이스는 공유 폴더, 고객사별 주문량 변화 등 히토리 파악은 수동으로 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "데이터 관리: 인보이스는 공유 폴더, 고객사별 주문량 변화 등 히토리 파악은 수동으로 진행",
+          "start_char": 313,
+          "end_char": 363
+        }
+      ],
+      "dedupe_key": "action_item:6d4ca16a51b10e04",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 퀄리파잉 (단순 문의와 잠재적 대형 바이어 구분 필요) - 폼/리드라우터",
+      "normalized": {
+        "text": "리드 퀄리파잉 (단순 문의와 잠재적 대형 바이어 구분 필요) - 폼/리드라우터",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리드 퀄리파잉 (단순 문의와 잠재적 대형 바이어 구분 필요) - 폼/리드라우터",
+          "start_char": 625,
+          "end_char": 668
+        }
+      ],
+      "dedupe_key": "action_item:2cf34cf2f7f80c01",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "신규 입사자 온보딩 및 표준화된 영업 프로세스 부재 문제 해결 - 파이프라인",
+      "normalized": {
+        "text": "신규 입사자 온보딩 및 표준화된 영업 프로세스 부재 문제 해결 - 파이프라인",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "신규 입사자 온보딩 및 표준화된 영업 프로세스 부재 문제 해결 - 파이프라인",
+          "start_char": 672,
+          "end_char": 714
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5451451a4ce59bf4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 888,
+          "end_char": 890
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

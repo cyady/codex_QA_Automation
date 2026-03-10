@@ -1,0 +1,106 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W474",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 32,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입을 '제대로'하기 위해서 내부 정리가 더 필요하다는 판단",
+      "normalized": {
+        "text": "CRM 도입을 '제대로'하기 위해서 내부 정리가 더 필요하다는 판단",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "오늘 영업팀과 미팅함 (대표님 포함)"
+          ],
+          "exact_quote": "CRM 도입을 '제대로'하기 위해서 내부 정리가 더 필요하다는 판단",
+          "start_char": 68,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "action_item:d0c0755e8efe395b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "오늘 영업팀과 미팅함 (대표님 포함)"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 206,
+          "end_char": 210
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.85",
+      "normalized": {
+        "year": 2011,
+        "month": 85,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "오늘 영업팀과 미팅함 (대표님 포함)"
+          ],
+          "exact_quote": "11.85",
+          "start_char": 412,
+          "end_char": 417
+        }
+      ],
+      "dedupe_key": "timeline:734fe7f31acdb30c",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

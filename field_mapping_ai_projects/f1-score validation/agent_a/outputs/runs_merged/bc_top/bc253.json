@@ -1,0 +1,114 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W253",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 251022 키맨 황인영 대표님 카톡팀장님 선에서 자꾸 막혀서 게이트키퍼인 것 같아, 키맨인 대표님 바로 찌르고 들어갈게요 @여인찬 (Oliver)후킹 메시지는 스위트스팟과 1년 간 협업하며 얻었던 사업적 인사이트들도 함께 이야기해보실 수 있을 것이다- !--",
+      "normalized": {
+        "text": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 251022 키맨 황인영 대표님 카톡팀장님 선에서 자꾸 막혀서 게이트키퍼인 것 같아, 키맨인 대표님 바로 찌르고 들어갈게요 @여인찬 (Oliver)후킹 메시지는 스위트스팟과 1년 간 협업하며 얻었던 사업적 인사이트들도 함께 이야기해보실 수 있을 것이다- !--",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 251022 키맨 황인영 대표님 카톡팀장님 선에서 자꾸 막혀서 게이트키퍼인 것 같아, 키맨인 대표님 바로 찌르고 들어갈게요 @여인찬 (Oliver)후킹 메시지는 스위트스팟과 1년 간 협업하며 얻었던 사업적 인사이트들도 함께 이야기해보실 수 있을 것이다- !--",
+          "start_char": 0,
+          "end_char": 177
+        }
+      ],
+      "dedupe_key": "collaboration_need:5a51f7f104551d8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 101,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "약 1000만원",
+          "start_char": 22,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 203,
+          "end_char": 206
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 236,
+          "end_char": 239
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 326,
+          "end_char": 329
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

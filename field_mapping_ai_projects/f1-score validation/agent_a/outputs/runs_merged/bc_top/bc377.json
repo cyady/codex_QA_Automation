@@ -1,0 +1,124 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W377",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@cx",
+      "normalized": {
+        "name": "cx"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@cx",
+          "start_char": 21,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:48a69daaa74b7fa1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 내부적인 운영 계획이 변경되었습니다. 현재 저희는 리캐치를 주로 로켓그로스 연동 예약 시에만 이용하고 있습니다.내부 검토 결과, 추후 라이센스 연장보다는 해당 기능을 자체 개발로 약소화하여 예약을 진행하는 것으로 최종 결정되었습니다.",
+      "normalized": {
+        "text": "다만, 내부적인 운영 계획이 변경되었습니다. 현재 저희는 리캐치를 주로 로켓그로스 연동 예약 시에만 이용하고 있습니다.내부 검토 결과, 추후 라이센스 연장보다는 해당 기능을 자체 개발로 약소화하여 예약을 진행하는 것으로 최종 결정되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "다만, 내부적인 운영 계획이 변경되었습니다. 현재 저희는 리캐치를 주로 로켓그로스 연동 예약 시에만 이용하고 있습니다.내부 검토 결과, 추후 라이센스 연장보다는 해당 기능을 자체 개발로 약소화하여 예약을 진행하는 것으로 최종 결정되었습니다.",
+          "start_char": 182,
+          "end_char": 316
+        }
+      ],
+      "dedupe_key": "action_item:43fbb6127344c32d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 137,
+          "end_char": 140
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 214,
+          "end_char": 217
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 327,
+          "end_char": 330
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "86.69",
+      "normalized": {
+        "year": 2086,
+        "month": 69,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "86.69",
+          "start_char": 564,
+          "end_char": 569
+        }
+      ],
+      "dedupe_key": "timeline:d0eeb78f4a5647af",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

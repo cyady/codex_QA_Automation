@@ -1,0 +1,286 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W481",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 여러 B2B CRM을 비교 검토하고 있는 단계",
+      "normalized": {
+        "text": "현재 여러 B2B CRM을 비교 검토하고 있는 단계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 여러 B2B CRM을 비교 검토하고 있는 단계",
+          "start_char": 108,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "action_item:816685ee5b672d51",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "온라인 미팅 시 끊김 현상 우려하여 방문 미팅을 선호함 (메일로 일정 조율 예정)",
+      "normalized": {
+        "text": "온라인 미팅 시 끊김 현상 우려하여 방문 미팅을 선호함 (메일로 일정 조율 예정)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "온라인 미팅 시 끊김 현상 우려하여 방문 미팅을 선호함 (메일로 일정 조율 예정)",
+          "start_char": 140,
+          "end_char": 185
+        }
+      ],
+      "dedupe_key": "risk_or_concern:307874a1ae050d3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 364,
+          "end_char": 368
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 11시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 11,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "오전 11시",
+          "start_char": 456,
+          "end_char": 462
+        }
+      ],
+      "dedupe_key": "timeline:a7ee552fe5251acf",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "26일",
+      "normalized": {
+        "value": 26.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "26일",
+          "start_char": 451,
+          "end_char": 454
+        }
+      ],
+      "dedupe_key": "duration:89b2b7b0d4104c51",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 10시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 10,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "오전 10시",
+          "start_char": 509,
+          "end_char": 515
+        }
+      ],
+      "dedupe_key": "timeline:b7d255d013598718",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "28일",
+      "normalized": {
+        "value": 28.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "28일",
+          "start_char": 504,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "duration:f900001f6050e1d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 2시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 2,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "오후 2시",
+          "start_char": 533,
+          "end_char": 538
+        }
+      ],
+      "dedupe_key": "timeline:9875493659f641dd",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30일",
+      "normalized": {
+        "value": 30.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "내부 그룹웨어 연동"
+          ],
+          "exact_quote": "30일",
+          "start_char": 528,
+          "end_char": 531
+        }
+      ],
+      "dedupe_key": "duration:df942c429831a159",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

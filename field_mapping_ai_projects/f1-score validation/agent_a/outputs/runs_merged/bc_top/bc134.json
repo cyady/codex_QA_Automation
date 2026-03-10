@@ -1,0 +1,843 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W134",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어4, 잠재매출 규모 528만원 ~ 3000만원] 그립클라우드 세일즈 미팅 공유",
+      "normalized": {
+        "text": "[티어4, 잠재매출 규모 528만원 ~ 3000만원] 그립클라우드 세일즈 미팅 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어4, 잠재매출 규모 528만원 ~ 3000만원] 그립클라우드 세일즈 미팅 공유",
+          "start_char": 0,
+          "end_char": 46
+        }
+      ],
+      "dedupe_key": "collaboration_need:73e9af1bdbfa1e7d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "528만원",
+      "normalized": {
+        "value": 5280000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "528만원",
+          "start_char": 14,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "528만원",
+          "start_char": 2407,
+          "end_char": 2412
+        }
+      ],
+      "dedupe_key": "budget:c121548e0aba5073",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 22,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본부장님, 배보경 매니저님을 추가 쿠킹하는 것이 필요",
+      "normalized": {
+        "text": "본부장님, 배보경 매니저님을 추가 쿠킹하는 것이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "본부장님, 배보경 매니저님을 추가 쿠킹하는 것이 필요",
+          "start_char": 82,
+          "end_char": 111
+        }
+      ],
+      "dedupe_key": "action_item:fe09c7733f20606b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*그로스패키지에 큰 관심을 주셨는데, 이번 건은 그로스랩의 리소스 보호차원으로 제안 미팅에 지원요청 없이 클로징해 보겠습니다.관심 패키지",
+      "normalized": {
+        "text": "*그로스패키지에 큰 관심을 주셨는데, 이번 건은 그로스랩의 리소스 보호차원으로 제안 미팅에 지원요청 없이 클로징해 보겠습니다.관심 패키지",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "*그로스패키지에 큰 관심을 주셨는데, 이번 건은 그로스랩의 리소스 보호차원으로 제안 미팅에 지원요청 없이 클로징해 보겠습니다.관심 패키지",
+          "start_char": 195,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "action_item:b4db263b9eb0ceb3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "가격 민감성 존재"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 414,
+          "end_char": 417
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1615,
+          "end_char": 1618
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1673,
+          "end_char": 1676
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1690,
+          "end_char": 1693
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1805,
+          "end_char": 1808
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1858,
+          "end_char": 1861
+        },
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2540,
+          "end_char": 2543
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 초",
+      "normalized": {
+        "month": 12,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "12월 초",
+          "start_char": 454,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "timeline:908dc1ae25d3dff0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "허브스팟에 적재된 리드는 수동으로 파이프드라이브에 등록해야 하는 연동 문제가 있습니다.",
+      "normalized": {
+        "text": "허브스팟에 적재된 리드는 수동으로 파이프드라이브에 등록해야 하는 연동 문제가 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "허브스팟에 적재된 리드는 수동으로 파이프드라이브에 등록해야 하는 연동 문제가 있습니다.",
+          "start_char": 747,
+          "end_char": 795
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2ae81b222e882d37",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "고관여 리드의 기준은 도입 문의, 소개서 다운로드, 또는 트렌드 자료 다운로드 시 도입 의사를 남긴 경우입니다영업 환경 및 리소스 문제",
+      "normalized": {
+        "text": "고관여 리드의 기준은 도입 문의, 소개서 다운로드, 또는 트렌드 자료 다운로드 시 도입 의사를 남긴 경우입니다영업 환경 및 리소스 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "고관여 리드의 기준은 도입 문의, 소개서 다운로드, 또는 트렌드 자료 다운로드 시 도입 의사를 남긴 경우입니다영업 환경 및 리소스 문제",
+          "start_char": 796,
+          "end_char": 871
+        }
+      ],
+      "dedupe_key": "risk_or_concern:08dc35f3c87422a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "클로징까지의 리드 타임은 고객사의 사정이나 경쟁사 검토 등으로 인해 들쭉날쭉하여 평균을 내기 어렵다고 합니다",
+      "normalized": {
+        "text": "클로징까지의 리드 타임은 고객사의 사정이나 경쟁사 검토 등으로 인해 들쭉날쭉하여 평균을 내기 어렵다고 합니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "클로징까지의 리드 타임은 고객사의 사정이나 경쟁사 검토 등으로 인해 들쭉날쭉하여 평균을 내기 어렵다고 합니다",
+          "start_char": 877,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d7ac38eaced2036e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "슬랙 연동 시 알림 문제(사소한)가 있습니다",
+      "normalized": {
+        "text": "슬랙 연동 시 알림 문제(사소한)가 있습니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "슬랙 연동 시 알림 문제(사소한)가 있습니다",
+          "start_char": 1024,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a4c15d0f42856f2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1281,
+          "end_char": 1284
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1434,
+          "end_char": 1437
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "ISMS 보안 심사를 위해 개인 정보(예: 연락처)에 대한 마스킹 처리 기능이 필요합니다",
+      "normalized": {
+        "text": "ISMS 보안 심사를 위해 개인 정보(예: 연락처)에 대한 마스킹 처리 기능이 필요합니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "ISMS 보안 심사를 위해 개인 정보(예: 연락처)에 대한 마스킹 처리 기능이 필요합니다",
+          "start_char": 1319,
+          "end_char": 1368
+        }
+      ],
+      "dedupe_key": "action_item:f0b79574a89c1997",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 2026년 사업 계획을 수립 중이며, 신사업 확장 여부에 따라 홈페이지 전면 개편이, 기존 사업 집중 시 블로그 마케팅에 집중할지 결정될 예정입니다",
+      "normalized": {
+        "text": "현재 2026년 사업 계획을 수립 중이며, 신사업 확장 여부에 따라 홈페이지 전면 개편이, 기존 사업 집중 시 블로그 마케팅에 집중할지 결정될 예정입니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "현재 2026년 사업 계획을 수립 중이며, 신사업 확장 여부에 따라 홈페이지 전면 개편이, 기존 사업 집중 시 블로그 마케팅에 집중할지 결정될 예정입니다",
+          "start_char": 1372,
+          "end_char": 1457
+        }
+      ],
+      "dedupe_key": "action_item:de3fc38c73cdf763",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "배보경 담당자는 CRM 도입과 관련하여 내부 보고를 진행할 주체이며, 이 담당자는 비용적인 부분과 기존 서비스 대비 리캐치로 바꿔야 하는 설득 논리를 필요로 하고 있습니다.",
+      "normalized": {
+        "text": "배보경 담당자는 CRM 도입과 관련하여 내부 보고를 진행할 주체이며, 이 담당자는 비용적인 부분과 기존 서비스 대비 리캐치로 바꿔야 하는 설득 논리를 필요로 하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "배보경 담당자는 CRM 도입과 관련하여 내부 보고를 진행할 주체이며, 이 담당자는 비용적인 부분과 기존 서비스 대비 리캐치로 바꿔야 하는 설득 논리를 필요로 하고 있습니다.",
+          "start_char": 1550,
+          "end_char": 1646
+        }
+      ],
+      "dedupe_key": "action_item:86dc774b6d515465",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "하물며 리캐치는 허브스팟 에서 제공하는 CMS 기능을 제공하고 있지 않은데, 내부 보고하는데 설득 논리가 필요할 것 같다.",
+      "normalized": {
+        "text": "하물며 리캐치는 허브스팟 에서 제공하는 CMS 기능을 제공하고 있지 않은데, 내부 보고하는데 설득 논리가 필요할 것 같다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "신규 리드 증대 필요"
+          ],
+          "exact_quote": "하물며 리캐치는 허브스팟 에서 제공하는 CMS 기능을 제공하고 있지 않은데, 내부 보고하는데 설득 논리가 필요할 것 같다.",
+          "start_char": 1686,
+          "end_char": 1754
+        }
+      ],
+      "dedupe_key": "action_item:9001cdef704087da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ 당면한 문제 즉각 해결 어필 - 귀사에서 고민하셨던 리캐치는 통합관리를 지원하고 있습니다.",
+      "normalized": {
+        "text": "1/ 당면한 문제 즉각 해결 어필 - 귀사에서 고민하셨던 리캐치는 통합관리를 지원하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "1/ 당면한 문제 즉각 해결 어필 - 귀사에서 고민하셨던 리캐치는 통합관리를 지원하고 있습니다.",
+          "start_char": 1773,
+          "end_char": 1826
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f6b2f946de562729",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1863,
+          "end_char": 1866
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "80만원",
+      "normalized": {
+        "value": 800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "80만원",
+          "start_char": 2269,
+          "end_char": 2273
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "80만원",
+          "start_char": 2312,
+          "end_char": 2316
+        }
+      ],
+      "dedupe_key": "budget:66def1f6fd0bc205",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 2376,
+          "end_char": 2380
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 2390,
+          "end_char": 2394
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 2487,
+          "end_char": 2492
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 2701,
+          "end_char": 2706
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그로스 패키지 비용 전달 (세부 파악 필요)",
+      "normalized": {
+        "text": "그로스 패키지 비용 전달 (세부 파악 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "그로스 패키지 비용 전달 (세부 파악 필요)",
+          "start_char": 2583,
+          "end_char": 2607
+        }
+      ],
+      "dedupe_key": "action_item:0609550c5fec6def",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 2648,
+          "end_char": 2654
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1600만원",
+      "normalized": {
+        "value": 16000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "설득 논리 대응 답변"
+          ],
+          "exact_quote": "1600만원",
+          "start_char": 2676,
+          "end_char": 2682
+        }
+      ],
+      "dedupe_key": "budget:525459196ab88e5f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"넵 진행여부에 따라 긍정적으로 내부 검토하겠다\" 전달",
+      "normalized": {
+        "text": "\"넵 진행여부에 따라 긍정적으로 내부 검토하겠다\" 전달",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0046",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "\"넵 진행여부에 따라 긍정적으로 내부 검토하겠다\" 전달",
+          "start_char": 2805,
+          "end_char": 2835
+        }
+      ],
+      "dedupe_key": "action_item:22b89c8a7938ad5e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입 상세 검토 일정은 12월 중 ~ 1월 초",
+      "normalized": {
+        "text": "CRM 도입 상세 검토 일정은 12월 중 ~ 1월 초",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0049",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "CRM 도입 상세 검토 일정은 12월 중 ~ 1월 초",
+          "start_char": 2923,
+          "end_char": 2952
+        }
+      ],
+      "dedupe_key": "action_item:1b6cc5dffb7d3c73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 초",
+      "normalized": {
+        "month": 1,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0049",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "1월 초",
+          "start_char": 2948,
+          "end_char": 2952
+        }
+      ],
+      "dedupe_key": "timeline:a6ac4146640de15b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "\"허브스팟 만료 시점(내년 3월)을 고려할 때, 도입 및 마이그레이션 세팅 기간을 한 달이 소요되고",
+      "normalized": {
+        "text": "\"허브스팟 만료 시점(내년 3월)을 고려할 때, 도입 및 마이그레이션 세팅 기간을 한 달이 소요되고",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0050",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "\"허브스팟 만료 시점(내년 3월)을 고려할 때, 도입 및 마이그레이션 세팅 기간을 한 달이 소요되고",
+          "start_char": 2958,
+          "end_char": 3013
+        }
+      ],
+      "dedupe_key": "collaboration_need:b132737935f77455",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그전에 솔루션 검토에도 평균 1달 정도 걸리시니, 12월 안으로 결정하시는 것이 좋아보입니다.",
+      "normalized": {
+        "text": "그전에 솔루션 검토에도 평균 1달 정도 걸리시니, 12월 안으로 결정하시는 것이 좋아보입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0051",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "그전에 솔루션 검토에도 평균 1달 정도 걸리시니, 12월 안으로 결정하시는 것이 좋아보입니다.",
+          "start_char": 3017,
+          "end_char": 3069
+        }
+      ],
+      "dedupe_key": "action_item:6f3566b4a4bfe618",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0053",
+          "section_path": [
+            "비용협의 추가 언급"
+          ],
+          "exact_quote": "@김숙영",
+          "start_char": 3165,
+          "end_char": 3169
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8e7ddd7d7129c976",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

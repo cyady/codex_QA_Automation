@@ -1,0 +1,329 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W436",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 회사 소개서, SEO 진단 리포트, 구축 레퍼런스(바운드포 등 IT/AI 사례) 정리하여 메일 발송",
+      "normalized": {
+        "text": "• 회사 소개서, SEO 진단 리포트, 구축 레퍼런스(바운드포 등 IT/AI 사례) 정리하여 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "• 회사 소개서, SEO 진단 리포트, 구축 레퍼런스(바운드포 등 IT/AI 사례) 정리하여 메일 발송",
+          "start_char": 35,
+          "end_char": 92
+        }
+      ],
+      "dedupe_key": "action_item:72071ff01a46983a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 45,
+          "end_char": 48
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 353,
+          "end_char": 356
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 고객이 자료 검토 후 진행 의사를 밝힐 경우, 전담 PM을 배정하여 구체적인 프로젝트 수행 계획(방향성, 기간, 페이지 수 등)을 논의하는 후속 미팅 제안",
+      "normalized": {
+        "text": "• 고객이 자료 검토 후 진행 의사를 밝힐 경우, 전담 PM을 배정하여 구체적인 프로젝트 수행 계획(방향성, 기간, 페이지 수 등)을 논의하는 후속 미팅 제안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "• 고객이 자료 검토 후 진행 의사를 밝힐 경우, 전담 PM을 배정하여 구체적인 프로젝트 수행 계획(방향성, 기간, 페이지 수 등)을 논의하는 후속 미팅 제안",
+          "start_char": 94,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "action_item:7d8e1234413cdd65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "담당자 페르소나"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 214,
+          "end_char": 217
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 434,
+          "end_char": 437
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 850,
+          "end_char": 853
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 452,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만 원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "예산"
+          ],
+          "exact_quote": "200만 원",
+          "start_char": 470,
+          "end_char": 476
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 신제품(예: 에이전트 스피어)이 출시되어도 상세 내용을 업데이트하기 어렵고, 기존 에이전시 의존도가 높아 기민한 대응이 불가능함",
+      "normalized": {
+        "text": "• 신제품(예: 에이전트 스피어)이 출시되어도 상세 내용을 업데이트하기 어렵고, 기존 에이전시 의존도가 높아 기민한 대응이 불가능함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "• 신제품(예: 에이전트 스피어)이 출시되어도 상세 내용을 업데이트하기 어렵고, 기존 에이전시 의존도가 높아 기민한 대응이 불가능함",
+          "start_char": 538,
+          "end_char": 611
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8ac26baa08306569",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "50~60건",
+      "normalized": {
+        "min": 50.0,
+        "max": 60.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "50~60건",
+          "start_char": 633,
+          "end_char": 639
+        }
+      ],
+      "dedupe_key": "case_metric:f0db7f62d873cc45",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100건",
+      "normalized": {
+        "value": 100,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "100건",
+          "start_char": 619,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "case_metric:6f2d5517fd8133e6",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 677,
+          "end_char": 680
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 현재 보유한 자료(회사소개서 등)를 바탕으로 기획부터 시스템 구성도 이미지 제작, 퍼블리싱까지 턴키로 진행해 주기를 희망함",
+      "normalized": {
+        "text": "• 현재 보유한 자료(회사소개서 등)를 바탕으로 기획부터 시스템 구성도 이미지 제작, 퍼블리싱까지 턴키로 진행해 주기를 희망함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "상황 및 문제"
+          ],
+          "exact_quote": "• 현재 보유한 자료(회사소개서 등)를 바탕으로 기획부터 시스템 구성도 이미지 제작, 퍼블리싱까지 턴키로 진행해 주기를 희망함",
+          "start_char": 709,
+          "end_char": 779
+        }
+      ],
+      "dedupe_key": "action_item:f659aaae331bf619",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 고객이 시스템 구성도 등 전문적인 이미지 제작까지 요청하고 있어, 자료 전달 및 인터뷰 과정에서 리소스 산정 및 범위 확정이 중요할 것으로 보임",
+      "normalized": {
+        "text": "• 고객이 시스템 구성도 등 전문적인 이미지 제작까지 요청하고 있어, 자료 전달 및 인터뷰 과정에서 리소스 산정 및 범위 확정이 중요할 것으로 보임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "예상 블로커"
+          ],
+          "exact_quote": "• 고객이 시스템 구성도 등 전문적인 이미지 제작까지 요청하고 있어, 자료 전달 및 인터뷰 과정에서 리소스 산정 및 범위 확정이 중요할 것으로 보임",
+          "start_char": 915,
+          "end_char": 997
+        }
+      ],
+      "dedupe_key": "action_item:3a314a63a7d3061f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

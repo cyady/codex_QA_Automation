@@ -1,0 +1,26 @@
+{
+  "memo_id": "M-W5083",
+  "text": "[기존 작성되어있던 진행현황]\n9/10 당사 미팅\n\n9/19 NDA 날인본 및 지원자료 전달\n\n9/22 NDA 체결\n\n11/5 당사 방문: 파트너십 및 BM 논의\n\n11/17 Test Case 수령\n\n11/21 Test Case 자료 설명 및 수행 일정 협의\n\n11/27 Global 대표, Korea대표 당사 방문 예정\n\n12/12 MoA 체결\n\n12/18 Korea대표 당사 방문, PoC범위 논의",
+  "sections": [
+    {
+      "title": "9/10 당사 미팅",
+      "body": "9/19 NDA 날인본 및 지원자료 전달",
+      "bullet_items": []
+    },
+    {
+      "title": "9/22 NDA 체결",
+      "body": "11/5 당사 방문: 파트너십 및 BM 논의",
+      "bullet_items": []
+    },
+    {
+      "title": "11/17 Test Case 수령",
+      "body": "11/21 Test Case 자료 설명 및 수행 일정 협의\n\n11/27 Global 대표, Korea대표 당사 방문 예정",
+      "bullet_items": []
+    },
+    {
+      "title": "12/12 MoA 체결",
+      "body": "12/18 Korea대표 당사 방문, PoC범위 논의",
+      "bullet_items": []
+    }
+  ]
+}

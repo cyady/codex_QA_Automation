@@ -1,0 +1,12 @@
+memo_id,type,decision_key,decision,confidence,note
+M-W1,model,M-W1:model:item_idx=6:field_id=5368,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요 ""45개월 이라는 문장을 4~5개월로 쪼갬 -> 논의결과 참으로 판정"""
+M-W1,fn,M-W1:fn:candidate_id=C-0006,SKIP,4,"confidence=4/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.17), NOT_FN 변경 전 HITL"
+M-W1,fn,M-W1:fn:candidate_id=C-0014,SKIP,4,"confidence=4/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.22), NOT_FN 변경 전 HITL"
+M-W1,fn,M-W1:fn:candidate_id=C-0019,SKIP,4,"confidence=4/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.16), NOT_FN 변경 전 HITL"
+M-W1,fn,M-W1:fn:candidate_id=C-0020,SKIP,4,"confidence=4/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.16), NOT_FN 변경 전 HITL"
+M-W2,fn,M-W2:fn:candidate_id=C-0011,SKIP,3,"confidence=3/10 | 신규 candidate, 커버 불명확(cov=0.04)으로 HITL"
+M-W25,model,M-W25:model:item_idx=1:field_id=1591,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요"
+M-W25,model,M-W25:model:item_idx=5:field_id=5374,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요"
+M-W25,model,M-W25:model:item_idx=6:field_id=5375,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요"
+M-W25,model,M-W25:model:item_idx=11:field_id=5657,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요"
+M-W25,model,M-W25:model:item_idx=12:field_id=5656,SKIP,3,"confidence=3/10 | 이전 결정에 없는 신규 field_id, HITL 필요"

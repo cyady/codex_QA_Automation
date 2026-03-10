@@ -1,0 +1,386 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W101",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 93,
+          "end_char": 96
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 588,
+          "end_char": 591
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 614,
+          "end_char": 617
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1246,
+          "end_char": 1249
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1680,
+          "end_char": 1683
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1736,
+          "end_char": 1739
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1745,
+          "end_char": 1748
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2051,
+          "end_char": 2054
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주요 사업 영역: 국방 및 연구소를 주 고객으로 하는 B2G(기업-정부 간 거래) 사업을 진행하고 있어, 조직 문화가 다소 보수적인 편입니다.",
+      "normalized": {
+        "text": "주요 사업 영역: 국방 및 연구소를 주 고객으로 하는 B2G(기업-정부 간 거래) 사업을 진행하고 있어, 조직 문화가 다소 보수적인 편입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "주요 사업 영역: 국방 및 연구소를 주 고객으로 하는 B2G(기업-정부 간 거래) 사업을 진행하고 있어, 조직 문화가 다소 보수적인 편입니다.",
+          "start_char": 175,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "action_item:6983460167df90bf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "디지털 전환(DX) 성공 경험: 담당자(장원근 책임)는 과거 엑셀로 고객을 관리하던 방식에서 벗어나 디지털 마케팅 시스템을 도입하는 DX를 주도했으며, 이를 통해 회사 매출을 90억에서 300억으로 성장시키는 데 기여했습니다.",
+      "normalized": {
+        "text": "디지털 전환(DX) 성공 경험: 담당자(장원근 책임)는 과거 엑셀로 고객을 관리하던 방식에서 벗어나 디지털 마케팅 시스템을 도입하는 DX를 주도했으며, 이를 통해 회사 매출을 90억에서 300억으로 성장시키는 데 기여했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "디지털 전환(DX) 성공 경험: 담당자(장원근 책임)는 과거 엑셀로 고객을 관리하던 방식에서 벗어나 디지털 마케팅 시스템을 도입하는 DX를 주도했으며, 이를 통해 회사 매출을 90억에서 300억으로 성장시키는 데 기여했습니다.",
+          "start_char": 255,
+          "end_char": 381
+        }
+      ],
+      "dedupe_key": "collaboration_need:60c3a07d60937775",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "AI 전환(AX) 추진: 현재는 DX의 성공을 바탕으로 AI 전환(AX)을 추진하는 TF를 이끌고 있습니다. 보수적인 조직을 설득하기 위해 마케팅팀에서 먼저 시범적으로 AX 시스템을 도입하고, 성과를 증명해 전사로 확대할 계획입니다.",
+      "normalized": {
+        "text": "AI 전환(AX) 추진: 현재는 DX의 성공을 바탕으로 AI 전환(AX)을 추진하는 TF를 이끌고 있습니다. 보수적인 조직을 설득하기 위해 마케팅팀에서 먼저 시범적으로 AX 시스템을 도입하고, 성과를 증명해 전사로 확대할 계획입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "AI 전환(AX) 추진: 현재는 DX의 성공을 바탕으로 AI 전환(AX)을 추진하는 TF를 이끌고 있습니다. 보수적인 조직을 설득하기 위해 마케팅팀에서 먼저 시범적으로 AX 시스템을 도입하고, 성과를 증명해 전사로 확대할 계획입니다.",
+          "start_char": 382,
+          "end_char": 512
+        }
+      ],
+      "dedupe_key": "collaboration_need:4aa5ac9314c40052",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 CRM(HubSpot)의 문제점: 현재 허브스팟(HubSpot)을 사용하고 있으나, 많은 기능을 거의 못 쓰고 이ㅛ는 상태",
+      "normalized": {
+        "text": "현재 CRM(HubSpot)의 문제점: 현재 허브스팟(HubSpot)을 사용하고 있으나, 많은 기능을 거의 못 쓰고 이ㅛ는 상태",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "현재 CRM(HubSpot)의 문제점: 현재 허브스팟(HubSpot)을 사용하고 있으나, 많은 기능을 거의 못 쓰고 이ㅛ는 상태",
+          "start_char": 513,
+          "end_char": 584
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ca397cff9ac9555c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "미팅 전환율 극대화: 고객이 웹사이트에서 '도입 문의' 폼을 제출하면, 단순히 '연락드리겠다'는 메시지 대신 담당자의 구글/MS 캘린더와 연동된 미팅 예약 화면이 즉시 제공됩니다. 이를 통해 미팅 조율에 걸리는 시간을 1분 내외로 단축시켜 잠재 고객의 이탈을 방지하고 미팅 수를 늘릴 수 있습니다.",
+      "normalized": {
+        "text": "미팅 전환율 극대화: 고객이 웹사이트에서 '도입 문의' 폼을 제출하면, 단순히 '연락드리겠다'는 메시지 대신 담당자의 구글/MS 캘린더와 연동된 미팅 예약 화면이 즉시 제공됩니다. 이를 통해 미팅 조율에 걸리는 시간을 1분 내외로 단축시켜 잠재 고객의 이탈을 방지하고 미팅 수를 늘릴 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "미팅 전환율 극대화: 고객이 웹사이트에서 '도입 문의' 폼을 제출하면, 단순히 '연락드리겠다'는 메시지 대신 담당자의 구글/MS 캘린더와 연동된 미팅 예약 화면이 즉시 제공됩니다. 이를 통해 미팅 조율에 걸리는 시간을 1분 내외로 단축시켜 잠재 고객의 이탈을 방지하고 미팅 수를 늘릴 수 있습니다.",
+          "start_char": 674,
+          "end_char": 840
+        }
+      ],
+      "dedupe_key": "collaboration_need:cc901eef59ff2a67",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀, 프로젝트, 사업부 등 필요에 따라 파이프라인을 분리하여 관리할 수 있어 조직별 성과 추적이 용이합니다.",
+      "normalized": {
+        "text": "영업팀, 프로젝트, 사업부 등 필요에 따라 파이프라인을 분리하여 관리할 수 있어 조직별 성과 추적이 용이합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "영업팀, 프로젝트, 사업부 등 필요에 따라 파이프라인을 분리하여 관리할 수 있어 조직별 성과 추적이 용이합니다.",
+          "start_char": 1284,
+          "end_char": 1346
+        }
+      ],
+      "dedupe_key": "action_item:5ac0e4e72d5d4d85",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 자동화: 이메일 캠페인, 리드 마그넷(자료 다운로드)용 폼 제작 기능 등을 제공하며, 고객이 특정 행동을 했을 때 자동으로 후속 이메일을 발송하는 등의 워크플로우 설정이 가능합니다.",
+      "normalized": {
+        "text": "마케팅 자동화: 이메일 캠페인, 리드 마그넷(자료 다운로드)용 폼 제작 기능 등을 제공하며, 고객이 특정 행동을 했을 때 자동으로 후속 이메일을 발송하는 등의 워크플로우 설정이 가능합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "마케팅 자동화: 이메일 캠페인, 리드 마그넷(자료 다운로드)용 폼 제작 기능 등을 제공하며, 고객이 특정 행동을 했을 때 자동으로 후속 이메일을 발송하는 등의 워크플로우 설정이 가능합니다.",
+          "start_char": 1347,
+          "end_char": 1452
+        }
+      ],
+      "dedupe_key": "action_item:56e9f6aa4d23c873",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현재 제한 사항: 권한 분리 기능이 아직 미비하여 관리자와 멤버, 두 가지 권한만 존재합니다. 팀별 데이터 접근을 통제하는 세분화된 권한 설정은 내년 상반기 도입을 목표로 하고 있습니다.",
+      "normalized": {
+        "text": "현재 제한 사항: 권한 분리 기능이 아직 미비하여 관리자와 멤버, 두 가지 권한만 존재합니다. 팀별 데이터 접근을 통제하는 세분화된 권한 설정은 내년 상반기 도입을 목표로 하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "현재 제한 사항: 권한 분리 기능이 아직 미비하여 관리자와 멤버, 두 가지 권한만 존재합니다. 팀별 데이터 접근을 통제하는 세분화된 권한 설정은 내년 상반기 도입을 목표로 하고 있습니다.",
+          "start_char": 1453,
+          "end_char": 1557
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5aea906767ad5ee3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치의 입장: 리캐치 역시 직접 판매(Direct Sales) 외에 채널 파트너십 모델을 긍정적으로 검토하며 실험하고 있습니다. 최근 한 컨설팅 펌과 추천 후 계약 성사 시 수수료(10%)를 지급하는 모델을 시작했으며, 파트너십에 대해 열린 자세를 가지고 있습니다.",
+      "normalized": {
+        "text": "리캐치의 입장: 리캐치 역시 직접 판매(Direct Sales) 외에 채널 파트너십 모델을 긍정적으로 검토하며 실험하고 있습니다. 최근 한 컨설팅 펌과 추천 후 계약 성사 시 수수료(10%)를 지급하는 모델을 시작했으며, 파트너십에 대해 열린 자세를 가지고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치의 입장: 리캐치 역시 직접 판매(Direct Sales) 외에 채널 파트너십 모델을 긍정적으로 검토하며 실험하고 있습니다. 최근 한 컨설팅 펌과 추천 후 계약 성사 시 수수료(10%)를 지급하는 모델을 시작했으며, 파트너십에 대해 열린 자세를 가지고 있습니다.",
+          "start_char": 1736,
+          "end_char": 1885
+        }
+      ],
+      "dedupe_key": "action_item:d39022fd6af510b6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "향후 계획: 모아소프트 담당자가 현재 허브스팟의 정확한 사용 인원과 비용을 확인하여 공유하면, 이를 바탕으로 구체적인 도입 비용을 논의하기로 했습니다. 비용 문제가 해결된 후 사업 제휴에 대해서도 추가로 논의할 예정입니다.",
+      "normalized": {
+        "text": "향후 계획: 모아소프트 담당자가 현재 허브스팟의 정확한 사용 인원과 비용을 확인하여 공유하면, 이를 바탕으로 구체적인 도입 비용을 논의하기로 했습니다. 비용 문제가 해결된 후 사업 제휴에 대해서도 추가로 논의할 예정입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "향후 계획: 모아소프트 담당자가 현재 허브스팟의 정확한 사용 인원과 비용을 확인하여 공유하면, 이를 바탕으로 구체적인 도입 비용을 논의하기로 했습니다. 비용 문제가 해결된 후 사업 제휴에 대해서도 추가로 논의할 예정입니다.",
+          "start_char": 2110,
+          "end_char": 2234
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cfcb819711908728",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 1941,
+          "end_char": 1947
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 2024,
+          "end_char": 2030
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만 원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "200만 원",
+          "start_char": 1968,
+          "end_char": 1974
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "200만 원",
+          "start_char": 1984,
+          "end_char": 1990
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 50명",
+      "normalized": {
+        "value": 50,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "약 50명",
+          "start_char": 1915,
+          "end_char": 1920
+        }
+      ],
+      "dedupe_key": "team_size:7a7e9605d984122a",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

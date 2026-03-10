@@ -1,0 +1,378 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W204",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "251015_에스앤아이코퍼레이션 외근 미팅 w/ 리멤버 주대웅님, 여예진님1/ 마켓 리서치는 진행하지 않고, ABM 패키지를 그대로 진행한다.",
+      "normalized": {
+        "text": "251015_에스앤아이코퍼레이션 외근 미팅 w/ 리멤버 주대웅님, 여예진님1/ 마켓 리서치는 진행하지 않고, ABM 패키지를 그대로 진행한다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "251015_에스앤아이코퍼레이션 외근 미팅 w/ 리멤버 주대웅님, 여예진님1/ 마켓 리서치는 진행하지 않고, ABM 패키지를 그대로 진행한다.",
+          "start_char": 0,
+          "end_char": 79
+        }
+      ],
+      "dedupe_key": "action_item:6ba00124aac2bf58",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 61,
+          "end_char": 64
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 203,
+          "end_char": 206
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "100만원",
+          "start_char": 115,
+          "end_char": 120
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "2/ TM(Telemarketing) = SDR call이 미팅 전환에 있어 핵심인데, 이걸 디멘드젠에서 가져가면 결국 ABM 패키지의 \"미팅 전환\" 목표 달성이 많이 어려울 것. 따라서, 이걸 우리가 문제 해결을 도움 드리는 그림으로 그려보게 되었고, 자체적으로 하기보다는 아웃컴에 대행을 맡기는 쪽으로 진행",
+      "normalized": {
+        "text": "2/ TM(Telemarketing) = SDR call이 미팅 전환에 있어 핵심인데, 이걸 디멘드젠에서 가져가면 결국 ABM 패키지의 \"미팅 전환\" 목표 달성이 많이 어려울 것. 따라서, 이걸 우리가 문제 해결을 도움 드리는 그림으로 그려보게 되었고, 자체적으로 하기보다는 아웃컴에 대행을 맡기는 쪽으로 진행",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "2/ TM(Telemarketing) = SDR call이 미팅 전환에 있어 핵심인데, 이걸 디멘드젠에서 가져가면 결국 ABM 패키지의 \"미팅 전환\" 목표 달성이 많이 어려울 것. 따라서, 이걸 우리가 문제 해결을 도움 드리는 그림으로 그려보게 되었고, 자체적으로 하기보다는 아웃컴에 대행을 맡기는 쪽으로 진행",
+          "start_char": 136,
+          "end_char": 309
+        }
+      ],
+      "dedupe_key": "risk_or_concern:04d525e71e5c5dbe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 159,
+          "end_char": 162
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 405,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 315,
+          "end_char": 319
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 404,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "200만원",
+          "start_char": 365,
+          "end_char": 370
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "200개",
+      "normalized": {
+        "value": 200,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "200개",
+          "start_char": 345,
+          "end_char": 349
+        }
+      ],
+      "dedupe_key": "case_metric:4b5bc16117ca9cfe",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 420,
+          "end_char": 425
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 522,
+          "end_char": 526
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "2개",
+          "start_char": 603,
+          "end_char": 605
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 624,
+          "end_char": 627
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "커스텀플랜으로 안내했고, 커스텀일 시 수천만원 발생할 것이라고 안내하였음. cc @pm 추후 기술미팅 진행 시에 인게이지 요청 드리겠습니다.",
+      "normalized": {
+        "text": "커스텀플랜으로 안내했고, 커스텀일 시 수천만원 발생할 것이라고 안내하였음. cc @pm 추후 기술미팅 진행 시에 인게이지 요청 드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "커스텀플랜으로 안내했고, 커스텀일 시 수천만원 발생할 것이라고 안내하였음. cc @pm 추후 기술미팅 진행 시에 인게이지 요청 드리겠습니다.",
+          "start_char": 684,
+          "end_char": 762
+        }
+      ],
+      "dedupe_key": "action_item:4a6685b7738466d6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "@pm",
+          "start_char": 729,
+          "end_char": 732
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "51.46",
+      "normalized": {
+        "year": 2051,
+        "month": 46,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "51.46",
+          "start_char": 1045,
+          "end_char": 1050
+        }
+      ],
+      "dedupe_key": "timeline:df7792a6aae2aa51",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W413",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 27,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "255억원",
+      "normalized": {
+        "value": 25500000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "255억원",
+          "start_char": 131,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "budget:c4e62e47ccf86492",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 250,
+          "end_char": 253
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 455,
+          "end_char": 458
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 538,
+          "end_char": 541
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 618,
+          "end_char": 621
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 372,
+          "end_char": 376
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 951,
+          "end_char": 955
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 1134,
+          "end_char": 1138
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 385,
+          "end_char": 389
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 794,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 396,
+          "end_char": 400
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 473,
+          "end_char": 477
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 697,
+          "end_char": 701
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 897,
+          "end_char": 901
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 466,
+          "end_char": 472
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 787,
+          "end_char": 793
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@ai",
+      "normalized": {
+        "name": "ai"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@ai",
+          "start_char": 548,
+          "end_char": 551
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:66d231863e73a4db",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@pm",
+          "start_char": 770,
+          "end_char": 773
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@ops",
+      "normalized": {
+        "name": "ops"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@ops",
+          "start_char": 946,
+          "end_char": 950
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@ops",
+          "start_char": 985,
+          "end_char": 989
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6b9c7db4277b25f5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김태영",
+      "normalized": {
+        "name": "김태영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김태영",
+          "start_char": 1116,
+          "end_char": 1120
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9c45b32a2b503224",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@윤영현",
+      "normalized": {
+        "name": "윤영현"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@윤영현",
+          "start_char": 1129,
+          "end_char": 1133
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:276ce81a4ee0c0f8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 1147,
+          "end_char": 1151
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@bd",
+      "normalized": {
+        "name": "bd"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@bd",
+          "start_char": 1282,
+          "end_char": 1285
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:5f45a8effae04c78",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@cross_tf",
+      "normalized": {
+        "name": "cross_tf"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@cross_tf",
+          "start_char": 1312,
+          "end_char": 1321
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:60d38ae1027b7350",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@이유진",
+      "normalized": {
+        "name": "이유진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@이유진",
+          "start_char": 1455,
+          "end_char": 1459
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a80618dee6cd3ef8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "5천만원",
+          "start_char": 729,
+          "end_char": 733
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "40명",
+      "normalized": {
+        "value": 40,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "40명",
+          "start_char": 970,
+          "end_char": 973
+        }
+      ],
+      "dedupe_key": "people_count:1be41b8dd4997b1c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "55.95",
+      "normalized": {
+        "year": 2055,
+        "month": 95,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "55.95",
+          "start_char": 1615,
+          "end_char": 1620
+        }
+      ],
+      "dedupe_key": "timeline:927ab5f9da850938",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

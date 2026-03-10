@@ -1,0 +1,704 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W330",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "아래와 같은 부분에서 내부적으로 우려가 있는 상황입니다.",
+      "normalized": {
+        "text": "아래와 같은 부분에서 내부적으로 우려가 있는 상황입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "아래와 같은 부분에서 내부적으로 우려가 있는 상황입니다.",
+          "start_char": 73,
+          "end_char": 104
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ebdff98da485e451",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 266,
+          "end_char": 269
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 826,
+          "end_char": 829
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 900,
+          "end_char": 903
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            ". 삼성SDS Brity Works 서비스에 대한 소개와 상담 의사가 있는지?"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2332,
+          "end_char": 2335
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            ". 삼성SDS Brity Works 서비스에 대한 소개와 상담 의사가 있는지?"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2370,
+          "end_char": 2373
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            ". 삼성SDS Brity Works 서비스에 대한 소개와 상담 의사가 있는지?"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2497,
+          "end_char": 2500
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "→ 단, 미팅 성사 및 유효한 사업으로서의 컨택포인트 여부를 개런티하지 않는 부분에 대한 우려 존재",
+      "normalized": {
+        "text": "→ 단, 미팅 성사 및 유효한 사업으로서의 컨택포인트 여부를 개런티하지 않는 부분에 대한 우려 존재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "→ 단, 미팅 성사 및 유효한 사업으로서의 컨택포인트 여부를 개런티하지 않는 부분에 대한 우려 존재",
+          "start_char": 354,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "risk_or_concern:402c3fb68c0b6be9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(전문 컨텐츠를 다운받은 것만으로 당사와 미팅을 진행하거나 당사 솔루션에 관심이 있다라고 판단하기는 어려움)",
+      "normalized": {
+        "text": "(전문 컨텐츠를 다운받은 것만으로 당사와 미팅을 진행하거나 당사 솔루션에 관심이 있다라고 판단하기는 어려움)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "(전문 컨텐츠를 다운받은 것만으로 당사와 미팅을 진행하거나 당사 솔루션에 관심이 있다라고 판단하기는 어려움)",
+          "start_char": 416,
+          "end_char": 476
+        }
+      ],
+      "dedupe_key": "action_item:e63e31d322fd83df",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "두가지 모두 어쨌든 비용 투자에 대해 불확실성이 너무 크다는 부분이 우려로 작용하고 있습니다.",
+      "normalized": {
+        "text": "두가지 모두 어쨌든 비용 투자에 대해 불확실성이 너무 크다는 부분이 우려로 작용하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "두가지 모두 어쨌든 비용 투자에 대해 불확실성이 너무 크다는 부분이 우려로 작용하고 있습니다.",
+          "start_char": 482,
+          "end_char": 534
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fbb7a72cb015c64b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "저희는 가급적 의사결정이 가능한 의미있는 컨택포인트를 가능한 많은 회사들로 수집하는 것이 어느정도 보장되는 목적으로 봤 때 우려스러운 부분이 있는 것 같습니다.",
+      "normalized": {
+        "text": "저희는 가급적 의사결정이 가능한 의미있는 컨택포인트를 가능한 많은 회사들로 수집하는 것이 어느정도 보장되는 목적으로 봤 때 우려스러운 부분이 있는 것 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "저희는 가급적 의사결정이 가능한 의미있는 컨택포인트를 가능한 많은 회사들로 수집하는 것이 어느정도 보장되는 목적으로 봤 때 우려스러운 부분이 있는 것 같습니다.",
+          "start_char": 606,
+          "end_char": 695
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8c2267ae75c1e80f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "5~6개",
+      "normalized": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "5~6개",
+          "start_char": 778,
+          "end_char": 782
+        }
+      ],
+      "dedupe_key": "case_metric:cdab8838fedcd5e6",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "1~2개",
+      "normalized": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "1~2개",
+          "start_char": 796,
+          "end_char": 800
+        }
+      ],
+      "dedupe_key": "case_metric:12a78e1f2579875f",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "저희 그룹웨어/협업솔루션 사업은 아주 큰 사업기회가 5~6억 규모 정도로서 ABM 투자대비 ROI 가 나오려면 더 많은 사업리드 모수가 나올 수 있어야 합니다.",
+      "normalized": {
+        "text": "저희 그룹웨어/협업솔루션 사업은 아주 큰 사업기회가 5~6억 규모 정도로서 ABM 투자대비 ROI 가 나오려면 더 많은 사업리드 모수가 나올 수 있어야 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "저희 그룹웨어/협업솔루션 사업은 아주 큰 사업기회가 5~6억 규모 정도로서 ABM 투자대비 ROI 가 나오려면 더 많은 사업리드 모수가 나올 수 있어야 합니다.",
+          "start_char": 858,
+          "end_char": 947
+        }
+      ],
+      "dedupe_key": "collaboration_need:821d0d81b1ebb156",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 아래와 같이 의견을 한번 드리니, 검토 후 피드백을 부탁드리겠습니다.",
+      "normalized": {
+        "text": "따라서 아래와 같이 의견을 한번 드리니, 검토 후 피드백을 부탁드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "따라서 아래와 같이 의견을 한번 드리니, 검토 후 피드백을 부탁드리겠습니다.",
+          "start_char": 954,
+          "end_char": 996
+        }
+      ],
+      "dedupe_key": "action_item:f1a71df623b24df2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "A. 대상 기업: 전달 주신 그룹사 (49개사) 및 IT 관계사 (11개사)",
+      "normalized": {
+        "text": "A. 대상 기업: 전달 주신 그룹사 (49개사) 및 IT 관계사 (11개사)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "A. 대상 기업: 전달 주신 그룹사 (49개사) 및 IT 관계사 (11개사)",
+          "start_char": 1073,
+          "end_char": 1115
+        }
+      ],
+      "dedupe_key": "collaboration_need:32e4a678228c83f0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "49개",
+      "normalized": {
+        "value": 49,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "49개",
+          "start_char": 1094,
+          "end_char": 1097
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "49개",
+          "start_char": 1436,
+          "end_char": 1439
+        }
+      ],
+      "dedupe_key": "case_metric:84dd5bbede9c5fab",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "11개",
+      "normalized": {
+        "value": 11,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "11개",
+          "start_char": 1110,
+          "end_char": 1113
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "11개",
+          "start_char": 1457,
+          "end_char": 1460
+        }
+      ],
+      "dedupe_key": "case_metric:5fe6fc85c818cc7c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "649명",
+      "normalized": {
+        "value": 649,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "649명",
+          "start_char": 1330,
+          "end_char": 1334
+        }
+      ],
+      "dedupe_key": "target_population:9ee48c71603fbb49",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "27개",
+      "normalized": {
+        "value": 27,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "27개",
+          "start_char": 1349,
+          "end_char": 1352
+        }
+      ],
+      "dedupe_key": "case_metric:c93ef9590366833e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "925명",
+      "normalized": {
+        "value": 925,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "925명",
+          "start_char": 1443,
+          "end_char": 1447
+        }
+      ],
+      "dedupe_key": "people_count:1a7ee69462338272",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "724명",
+      "normalized": {
+        "value": 724,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "724명",
+          "start_char": 1464,
+          "end_char": 1468
+        }
+      ],
+      "dedupe_key": "people_count:789a9caa737bd496",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 금액 규모는 500~1000만원 사이로 진행",
+      "normalized": {
+        "text": "- 금액 규모는 500~1000만원 사이로 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "- 금액 규모는 500~1000만원 사이로 진행",
+          "start_char": 1525,
+          "end_char": 1551
+        }
+      ],
+      "dedupe_key": "action_item:6829b97d4808776b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "1000만원",
+          "start_char": 1538,
+          "end_char": 1544
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 서베이를 통해 확인 필요 사항 (예시입니다.)",
+      "normalized": {
+        "text": "- 서베이를 통해 확인 필요 사항 (예시입니다.)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": "- 서베이를 통해 확인 필요 사항 (예시입니다.)",
+          "start_char": 1556,
+          "end_char": 1583
+        }
+      ],
+      "dedupe_key": "action_item:63aaa3080a7e9cfe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": ". 현재 그룹웨어 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+      "normalized": {
+        "text": ". 현재 그룹웨어 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": ". 현재 그룹웨어 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+          "start_char": 1771,
+          "end_char": 1826
+        }
+      ],
+      "dedupe_key": "collaboration_need:0bca5deb29f350be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": ". 현재 사용중인 메신저/미팅 서비스 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+      "normalized": {
+        "text": ". 현재 사용중인 메신저/미팅 서비스 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": ". 현재 사용중인 메신저/미팅 서비스 도입시점 : ① 2020년 이전, ② 2021 ~ 2023년, ③ 2023년 이후",
+          "start_char": 1836,
+          "end_char": 1902
+        }
+      ],
+      "dedupe_key": "collaboration_need:d9feaa10a6519d56",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": ". 현재 사용중인 시스템의 불만사항 : ① 시스템 불안정 ② 기능 노후화 ③ 사용성 불편 ④ 최신 기능 고도화 부재",
+      "normalized": {
+        "text": ". 현재 사용중인 시스템의 불만사항 : ① 시스템 불안정 ② 기능 노후화 ③ 사용성 불편 ④ 최신 기능 고도화 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "수집 측면으로는 적합할 것으로 판단"
+          ],
+          "exact_quote": ". 현재 사용중인 시스템의 불만사항 : ① 시스템 불안정 ② 기능 노후화 ③ 사용성 불편 ④ 최신 기능 고도화 부재",
+          "start_char": 1912,
+          "end_char": 1976
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bbacf7a6d13fde6d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": ". 교체를 검토하고 있다면 어떤 부분을 검토 중인지 ? : ① 그룹웨어 ② 메신저/미팅 등 협업솔루션 ③ 그룹웨어 + 협업솔루션",
+      "normalized": {
+        "text": ". 교체를 검토하고 있다면 어떤 부분을 검토 중인지 ? : ① 그룹웨어 ② 메신저/미팅 등 협업솔루션 ③ 그룹웨어 + 협업솔루션",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            ". 현재 그룹웨어/협업 솔루션 교체를 검토하고 있는지?"
+          ],
+          "exact_quote": ". 교체를 검토하고 있다면 어떤 부분을 검토 중인지 ? : ① 그룹웨어 ② 메신저/미팅 등 협업솔루션 ③ 그룹웨어 + 협업솔루션",
+          "start_char": 2162,
+          "end_char": 2233
+        }
+      ],
+      "dedupe_key": "action_item:5cef218d4261fbb8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당사 솔루션과 사업의 성격 상 어느정도 규모의 사업리드들이 확보될 수 있음을 보장이 되어야 본 건을 진행하는데 수월할 것 같습니다.",
+      "normalized": {
+        "text": "당사 솔루션과 사업의 성격 상 어느정도 규모의 사업리드들이 확보될 수 있음을 보장이 되어야 본 건을 진행하는데 수월할 것 같습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            ". 삼성SDS Brity Works 서비스에 대한 소개와 상담 의사가 있는지?"
+          ],
+          "exact_quote": "당사 솔루션과 사업의 성격 상 어느정도 규모의 사업리드들이 확보될 수 있음을 보장이 되어야 본 건을 진행하는데 수월할 것 같습니다.",
+          "start_char": 2414,
+          "end_char": 2487
+        }
+      ],
+      "dedupe_key": "action_item:107f32a285dd7a42",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "관련해서 ABM 진행 방식을 조금 보완하여 제안이 가능하실지도 함께 검토해주시면 좋겠습니다.",
+      "normalized": {
+        "text": "관련해서 ABM 진행 방식을 조금 보완하여 제안이 가능하실지도 함께 검토해주시면 좋겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            ". 삼성SDS Brity Works 서비스에 대한 소개와 상담 의사가 있는지?"
+          ],
+          "exact_quote": "관련해서 ABM 진행 방식을 조금 보완하여 제안이 가능하실지도 함께 검토해주시면 좋겠습니다.",
+          "start_char": 2492,
+          "end_char": 2543
+        }
+      ],
+      "dedupe_key": "action_item:6898ce319ced3c57",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

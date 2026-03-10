@@ -1,0 +1,56 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W183",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "모아소프트 바로 전화옴1/ 허브스팟 이 리드 수 구간 별로 가격차이가 너무 나서 한 통에 못 담 고 퀄리파이리드만 넣어서 데이터가 많이 분절되었었다.2/ 견적 잘 받았고, 영업 본부장님께 바로 보고했다. 연휴 끝나고 한번 자리 마련해보자고.3/ 도입의 키는 장원근 책임이 아닌 영업본부장님께 있는듯.일단 귀추가 주목되는 딜이내요 @sales",
+      "normalized": {
+        "text": "모아소프트 바로 전화옴1/ 허브스팟 이 리드 수 구간 별로 가격차이가 너무 나서 한 통에 못 담 고 퀄리파이리드만 넣어서 데이터가 많이 분절되었었다.2/ 견적 잘 받았고, 영업 본부장님께 바로 보고했다. 연휴 끝나고 한번 자리 마련해보자고.3/ 도입의 키는 장원근 책임이 아닌 영업본부장님께 있는듯.일단 귀추가 주목되는 딜이내요 @sales",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "모아소프트 바로 전화옴1/ 허브스팟 이 리드 수 구간 별로 가격차이가 너무 나서 한 통에 못 담 고 퀄리파이리드만 넣어서 데이터가 많이 분절되었었다.2/ 견적 잘 받았고, 영업 본부장님께 바로 보고했다. 연휴 끝나고 한번 자리 마련해보자고.3/ 도입의 키는 장원근 책임이 아닌 영업본부장님께 있는듯.일단 귀추가 주목되는 딜이내요 @sales",
+          "start_char": 0,
+          "end_char": 190
+        }
+      ],
+      "dedupe_key": "collaboration_need:e0571771a267e3cc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 184,
+          "end_char": 190
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

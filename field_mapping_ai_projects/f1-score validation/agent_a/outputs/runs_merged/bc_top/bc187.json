@@ -1,0 +1,202 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W187",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.10",
+      "normalized": {
+        "year": 2025,
+        "month": 10,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.10",
+          "start_char": 13,
+          "end_char": 18
+        }
+      ],
+      "dedupe_key": "timeline:e07d0b42dc39a5d4",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 22,
+          "end_char": 25
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "‘로봇' 관련 신사업을 준비 중이며, 이와 관련하여 B2B CRM 도입에 관심을 가짐",
+      "normalized": {
+        "text": "‘로봇' 관련 신사업을 준비 중이며, 이와 관련하여 B2B CRM 도입에 관심을 가짐",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "‘로봇' 관련 신사업을 준비 중이며, 이와 관련하여 B2B CRM 도입에 관심을 가짐",
+          "start_char": 102,
+          "end_char": 149
+        }
+      ],
+      "dedupe_key": "collaboration_need:094805dc8183b6b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "마케팅팀도 없고 홈페이지도 없음"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 200,
+          "end_char": 203
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 586,
+          "end_char": 589
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 616,
+          "end_char": 619
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 604,
+          "end_char": 607
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 684,
+          "end_char": 687
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "'도입 문의 남겨주신 것 보고 연락드린다'고 하니 '문의 남긴건 아니고 궁금한 정도다'라며 선 그으며 아직까진 단순한 정보 탐색 단계에 있는 듯함.",
+      "normalized": {
+        "text": "'도입 문의 남겨주신 것 보고 연락드린다'고 하니 '문의 남긴건 아니고 궁금한 정도다'라며 선 그으며 아직까진 단순한 정보 탐색 단계에 있는 듯함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "팀장"
+          ],
+          "exact_quote": "'도입 문의 남겨주신 것 보고 연락드린다'고 하니 '문의 남긴건 아니고 궁금한 정도다'라며 선 그으며 아직까진 단순한 정보 탐색 단계에 있는 듯함.",
+          "start_char": 711,
+          "end_char": 793
+        }
+      ],
+      "dedupe_key": "collaboration_need:d02276808560e9f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 및 그로스 패키지 소개 이메일 발송",
+      "normalized": {
+        "text": "CRM 및 그로스 패키지 소개 이메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "[Next Action]"
+          ],
+          "exact_quote": "CRM 및 그로스 패키지 소개 이메일 발송",
+          "start_char": 814,
+          "end_char": 837
+        }
+      ],
+      "dedupe_key": "action_item:696cb02b0032944b",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

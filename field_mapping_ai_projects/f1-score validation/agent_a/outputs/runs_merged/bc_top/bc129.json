@@ -1,0 +1,652 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W129",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아이마켓코리아 예유미 프로님 콜진행 cc @sdr결론",
+      "normalized": {
+        "text": "아이마켓코리아 예유미 프로님 콜진행 cc @sdr결론",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "아이마켓코리아 예유미 프로님 콜진행 cc @sdr결론",
+          "start_char": 0,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "action_item:f4b8138c89686e0b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 보고 이후 화상미팅 진행의사 전달 예정",
+      "normalized": {
+        "text": "내부 보고 이후 화상미팅 진행의사 전달 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "내부 보고 이후 화상미팅 진행의사 전달 예정",
+          "start_char": 30,
+          "end_char": 54
+        }
+      ],
+      "dedupe_key": "action_item:2e52a7d9b34b38f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이전에 리멤버 세일즈 리서치 이용한 적이 있었지만, 효과가 미비했었음.",
+      "normalized": {
+        "text": "이전에 리멤버 세일즈 리서치 이용한 적이 있었지만, 효과가 미비했었음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이전에 리멤버 세일즈 리서치 이용한 적이 있었지만, 효과가 미비했었음.",
+          "start_char": 88,
+          "end_char": 127
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c6511b190b1ae040",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 하기까지 내부 팀장님께도 보고 과정이 필요하니, 중간에 검토할 수 있는 자료가 있다면 요청드리겠다.",
+      "normalized": {
+        "text": "미팅 하기까지 내부 팀장님께도 보고 과정이 필요하니, 중간에 검토할 수 있는 자료가 있다면 요청드리겠다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "미팅 하기까지 내부 팀장님께도 보고 과정이 필요하니, 중간에 검토할 수 있는 자료가 있다면 요청드리겠다.",
+          "start_char": 181,
+          "end_char": 239
+        }
+      ],
+      "dedupe_key": "action_item:d54c19fe490b1979",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr결론",
+      "normalized": {
+        "name": "sdr결론"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr결론",
+          "start_char": 23,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d8f7c03b37b99f73",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "sdr",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 24,
+          "end_char": 27
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 158,
+          "end_char": 161
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1335,
+          "end_char": 1338
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "-------1. 미팅 배경 및 프로님 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 401,
+          "end_char": 404
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-------1. 미팅 배경 및 프로님 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 562,
+          "end_char": 565
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 828,
+          "end_char": 831
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 971,
+          "end_char": 974
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1331,
+          "end_char": 1334
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1380,
+          "end_char": 1383
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1432,
+          "end_char": 1435
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1976,
+          "end_char": 1979
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2212,
+          "end_char": 2215
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2226,
+          "end_char": 2229
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B2B 영업의 경우, SMB는 5~10회, 중견 이상은 평균 10~18회 터치가 계약 수주까지 필요하며, 영업 기회 확보에 많은 리소스와 시행착오가 발생할 수 있음",
+      "normalized": {
+        "text": "B2B 영업의 경우, SMB는 5~10회, 중견 이상은 평균 10~18회 터치가 계약 수주까지 필요하며, 영업 기회 확보에 많은 리소스와 시행착오가 발생할 수 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-------1. 미팅 배경 및 프로님 현황"
+          ],
+          "exact_quote": "B2B 영업의 경우, SMB는 5~10회, 중견 이상은 평균 10~18회 터치가 계약 수주까지 필요하며, 영업 기회 확보에 많은 리소스와 시행착오가 발생할 수 있음",
+          "start_char": 470,
+          "end_char": 561
+        }
+      ],
+      "dedupe_key": "action_item:9734ccfbb7557654",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "5~10회",
+      "normalized": {
+        "min": 5.0,
+        "max": 10.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-------1. 미팅 배경 및 프로님 현황"
+          ],
+          "exact_quote": "5~10회",
+          "start_char": 487,
+          "end_char": 492
+        }
+      ],
+      "dedupe_key": "sales_activity:ac98a53ab0b79a56",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "10~18회",
+      "normalized": {
+        "min": 10.0,
+        "max": 18.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "-------1. 미팅 배경 및 프로님 현황"
+          ],
+          "exact_quote": "10~18회",
+          "start_char": 504,
+          "end_char": 510
+        }
+      ],
+      "dedupe_key": "sales_activity:645bb186160e9339",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 이미 니즈와 의도를 가진 고객이 유입되므로 진행이 원활함",
+      "normalized": {
+        "text": "◦ 이미 니즈와 의도를 가진 고객이 유입되므로 진행이 원활함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "◦ 이미 니즈와 의도를 가진 고객이 유입되므로 진행이 원활함",
+          "start_char": 635,
+          "end_char": 668
+        }
+      ],
+      "dedupe_key": "action_item:247941cd8031a04c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "◦ 특히 중견 이상 기업은 실무자 단계에서 의사결정권자까지 탑다운으로 문의가 내려오는 경우가 많아, 의사결정권자 확보가 다음 단계의 과제임2.3. 리멤버(Remember) 협업 프로젝트 상세•",
+      "normalized": {
+        "text": "◦ 특히 중견 이상 기업은 실무자 단계에서 의사결정권자까지 탑다운으로 문의가 내려오는 경우가 많아, 의사결정권자 확보가 다음 단계의 과제임2.3. 리멤버(Remember) 협업 프로젝트 상세•",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "◦ 특히 중견 이상 기업은 실무자 단계에서 의사결정권자까지 탑다운으로 문의가 내려오는 경우가 많아, 의사결정권자 확보가 다음 단계의 과제임2.3. 리멤버(Remember) 협업 프로젝트 상세•",
+          "start_char": 716,
+          "end_char": 823
+        }
+      ],
+      "dedupe_key": "collaboration_need:17c67952f59c4b5d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "500만 개",
+      "normalized": {
+        "value": 5000000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "500만 개",
+          "start_char": 894,
+          "end_char": 900
+        }
+      ],
+      "dedupe_key": "case_metric:5e33234c4e9321c5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업 목적: 리멤버의 정밀 타겟팅 강점과 리캐치의 리드 육성(너처링) 전문성을 결합하여, 타겟 고객을 미팅까지 이끌어내는 솔루션 제공•",
+      "normalized": {
+        "text": "협업 목적: 리멤버의 정밀 타겟팅 강점과 리캐치의 리드 육성(너처링) 전문성을 결합하여, 타겟 고객을 미팅까지 이끌어내는 솔루션 제공•",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "인바운드"
+          ],
+          "exact_quote": "협업 목적: 리멤버의 정밀 타겟팅 강점과 리캐치의 리드 육성(너처링) 전문성을 결합하여, 타겟 고객을 미팅까지 이끌어내는 솔루션 제공•",
+          "start_char": 948,
+          "end_char": 1023
+        }
+      ],
+      "dedupe_key": "collaboration_need:e2d2c36c86b73f68",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1. 타겟 선정: 고객사가 원하는 카테고리 및 직급(예: CEO, CFO)을 리멤버 DB 내에서 물색    2. 푸시 메시지 발송: 선정된 타겟에게 문자 푸시를 진행 (200회 이상 발송 사례 있음)    3.",
+      "normalized": {
+        "text": "1. 타겟 선정: 고객사가 원하는 카테고리 및 직급(예: CEO, CFO)을 리멤버 DB 내에서 물색    2. 푸시 메시지 발송: 선정된 타겟에게 문자 푸시를 진행 (200회 이상 발송 사례 있음)    3.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "진행 방식"
+          ],
+          "exact_quote": "1. 타겟 선정: 고객사가 원하는 카테고리 및 직급(예: CEO, CFO)을 리멤버 DB 내에서 물색    2. 푸시 메시지 발송: 선정된 타겟에게 문자 푸시를 진행 (200회 이상 발송 사례 있음)    3.",
+          "start_char": 1035,
+          "end_char": 1152
+        }
+      ],
+      "dedupe_key": "action_item:96dedb11d3d87cac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 세금 플랫폼 고객사: CEO/CFO를 타겟으로 프로젝트 진행, 미팅 20개 발굴 (중견 기업)    ◦",
+      "normalized": {
+        "text": "◦ 세금 플랫폼 고객사: CEO/CFO를 타겟으로 프로젝트 진행, 미팅 20개 발굴 (중견 기업)    ◦",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "◦ 세금 플랫폼 고객사: CEO/CFO를 타겟으로 프로젝트 진행, 미팅 20개 발굴 (중견 기업)    ◦",
+          "start_char": 1508,
+          "end_char": 1567
+        }
+      ],
+      "dedupe_key": "action_item:f2b311bba36e96d3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": ". 삼성 SDS 의사결정권자 사례: 백서 다운로드 후 미팅 성사 및 실제 프로젝트로 연결• 협업 시작 시점: 작년부터 리멤버와 세미나를 시작, 최근에는 패키지 상품 결합 형태로 진행 중",
+      "normalized": {
+        "text": ". 삼성 SDS 의사결정권자 사례: 백서 다운로드 후 미팅 성사 및 실제 프로젝트로 연결• 협업 시작 시점: 작년부터 리멤버와 세미나를 시작, 최근에는 패키지 상품 결합 형태로 진행 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": ". 삼성 SDS 의사결정권자 사례: 백서 다운로드 후 미팅 성사 및 실제 프로젝트로 연결• 협업 시작 시점: 작년부터 리멤버와 세미나를 시작, 최근에는 패키지 상품 결합 형태로 진행 중",
+          "start_char": 1743,
+          "end_char": 1846
+        }
+      ],
+      "dedupe_key": "action_item:3a4473f390b393a5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "10~20%",
+      "normalized": {
+        "min": 0.1,
+        "max": 0.2,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "10~20%",
+          "start_char": 1714,
+          "end_char": 1720
+        }
+      ],
+      "dedupe_key": "match_rate:15c33ad6069a49a2",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "20개",
+      "normalized": {
+        "value": 20,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "미팅 확보 및 육성 (Nurturing)"
+          ],
+          "exact_quote": "20개",
+          "start_char": 1548,
+          "end_char": 1551
+        }
+      ],
+      "dedupe_key": "case_metric:fad70b48f27da24c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 가격: 리드당 가격이 아닌 프로젝트당 가격으로 책정되며, 직접 콜 진행 여부가 옵션으로 제공됨",
+      "normalized": {
+        "text": "• 가격: 리드당 가격이 아닌 프로젝트당 가격으로 책정되며, 직접 콜 진행 여부가 옵션으로 제공됨",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "• 가격: 리드당 가격이 아닌 프로젝트당 가격으로 책정되며, 직접 콜 진행 여부가 옵션으로 제공됨",
+          "start_char": 1849,
+          "end_char": 1903
+        }
+      ],
+      "dedupe_key": "action_item:238c6f772bc314be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 다음 주 중으로 논의 결과에 대해 메일로 회신 예정",
+      "normalized": {
+        "text": "◦ 다음 주 중으로 논의 결과에 대해 메일로 회신 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "◦ 다음 주 중으로 논의 결과에 대해 메일로 회신 예정",
+          "start_char": 2145,
+          "end_char": 2175
+        }
+      ],
+      "dedupe_key": "action_item:4df5995e02c384f8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 필요한 자료나 정보가 있다면 리캐치에 요청할 것이며, 리캐치는 적극 지원하겠다고 함",
+      "normalized": {
+        "text": "◦ 필요한 자료나 정보가 있다면 리캐치에 요청할 것이며, 리캐치는 적극 지원하겠다고 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "◦ 필요한 자료나 정보가 있다면 리캐치에 요청할 것이며, 리캐치는 적극 지원하겠다고 함",
+          "start_char": 2194,
+          "end_char": 2242
+        }
+      ],
+      "dedupe_key": "action_item:6b13bc7153cebdb8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "◦ 현재 주요 업무는 아니나 전략적 관점에서 검토할 것임4. 향후 의사• 프로님의 내부 논의 과정에서 필요한 자료 및 정보 요청 시 즉시 제공 예정",
+      "normalized": {
+        "text": "◦ 현재 주요 업무는 아니나 전략적 관점에서 검토할 것임4. 향후 의사• 프로님의 내부 논의 과정에서 필요한 자료 및 정보 요청 시 즉시 제공 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "."
+          ],
+          "exact_quote": "◦ 현재 주요 업무는 아니나 전략적 관점에서 검토할 것임4. 향후 의사• 프로님의 내부 논의 과정에서 필요한 자료 및 정보 요청 시 즉시 제공 예정",
+          "start_char": 2247,
+          "end_char": 2329
+        }
+      ],
+      "dedupe_key": "action_item:5831b1ba396955bc",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

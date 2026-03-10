@@ -1,0 +1,145 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W516",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 31,
+          "end_char": 35
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 397,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 168,
+          "end_char": 172
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 156,
+          "end_char": 159
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "LIPS 정부지원금"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 499,
+          "end_char": 502
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 276,
+          "end_char": 279
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정확한 액수는 추가 파악 필요, 빠르게 예산 털고 싶어 하심",
+      "normalized": {
+        "text": "정확한 액수는 추가 파악 필요, 빠르게 예산 털고 싶어 하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "LIPS 정부지원금"
+          ],
+          "exact_quote": "정확한 액수는 추가 파악 필요, 빠르게 예산 털고 싶어 하심",
+          "start_char": 446,
+          "end_char": 479
+        }
+      ],
+      "dedupe_key": "action_item:651b421c509149d6",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

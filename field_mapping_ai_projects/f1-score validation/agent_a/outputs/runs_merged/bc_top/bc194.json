@@ -1,0 +1,391 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W194",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.12",
+      "normalized": {
+        "year": 2025,
+        "month": 12,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.12",
+          "start_char": 18,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "timeline:3441f926da5daccf",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 27,
+          "end_char": 30
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 33,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정통 아웃바운드 영업'만' 하던 조직이 인바운드 경험하니 신기해함 -> '제대로 된 마케팅이 필요하겠다, 근데 우리 실력으론 안되니 전문가 도움을 구하자'는 니즈로 들어오심",
+      "normalized": {
+        "text": "정통 아웃바운드 영업'만' 하던 조직이 인바운드 경험하니 신기해함 -> '제대로 된 마케팅이 필요하겠다, 근데 우리 실력으론 안되니 전문가 도움을 구하자'는 니즈로 들어오심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "정통 아웃바운드 영업'만' 하던 조직이 인바운드 경험하니 신기해함 -> '제대로 된 마케팅이 필요하겠다, 근데 우리 실력으론 안되니 전문가 도움을 구하자'는 니즈로 들어오심",
+          "start_char": 189,
+          "end_char": 285
+        }
+      ],
+      "dedupe_key": "action_item:272098e23c93badf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "조직 구조"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 309,
+          "end_char": 312
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "지금 웹사이트는 PHP 코딩 기반"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 478,
+          "end_char": 481
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "조직 구조"
+          ],
+          "exact_quote": "2명",
+          "start_char": 316,
+          "end_char": 318
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "박종일 매니저님(개발팀이지만 기술영업 겸엄)"
+          ],
+          "exact_quote": "2명",
+          "start_char": 1068,
+          "end_char": 1070
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "지금 웹사이트는 PHP 코딩 기반"
+          ],
+          "exact_quote": "@growth",
+          "start_char": 587,
+          "end_char": 594
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "지금 웹사이트는 PHP 코딩 기반"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 595,
+          "end_char": 599
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "인바운드 마케팅 퍼널 구축"
+          ],
+          "exact_quote": "@김민재",
+          "start_char": 762,
+          "end_char": 766
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "인바운드 마케팅 퍼널 구축"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 705,
+          "end_char": 708
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 3천 개",
+      "normalized": {
+        "value": 3000,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "CRM"
+          ],
+          "exact_quote": "약 3천 개",
+          "start_char": 799,
+          "end_char": 805
+        }
+      ],
+      "dedupe_key": "case_metric:0df0ef33fb65a647",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "CRM"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 828,
+          "end_char": 831
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사내 CRM 도입 및 마케팅 변화를 주도적으로 이끄는 인물",
+      "normalized": {
+        "text": "사내 CRM 도입 및 마케팅 변화를 주도적으로 이끄는 인물",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "박종일 매니저님(개발팀이지만 기술영업 겸엄)"
+          ],
+          "exact_quote": "사내 CRM 도입 및 마케팅 변화를 주도적으로 이끄는 인물",
+          "start_char": 951,
+          "end_char": 983
+        }
+      ],
+      "dedupe_key": "collaboration_need:15e69f7fae467bdc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "박종일 매니저님(개발팀이지만 기술영업 겸엄)"
+          ],
+          "exact_quote": "1명",
+          "start_char": 1083,
+          "end_char": 1085
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "4명",
+      "normalized": {
+        "value": 4,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "박종일 매니저님(개발팀이지만 기술영업 겸엄)"
+          ],
+          "exact_quote": "4명",
+          "start_char": 1088,
+          "end_char": 1090
+        }
+      ],
+      "dedupe_key": "team_size:be10403e5a840b94",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "run_dir": "f1-score validation/agent_a/data_bc/target_short_runs/target_20260226_160245",
+  "rows": [
+    {
+      "case_id": "G5656-01",
+      "target": "5656",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "G5656-02",
+      "target": "5656",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "G5656-03",
+      "target": "5656",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "P5657-01",
+      "target": "5657",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "P5657-02",
+      "target": "5657",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "P5657-03",
+      "target": "5657",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "C6908-01",
+      "target": "6908",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    },
+    {
+      "case_id": "C6908-02",
+      "target": "6908",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": [
+        "5361",
+        "5373"
+      ]
+    },
+    {
+      "case_id": "C6908-03",
+      "target": "6908",
+      "status": 201,
+      "hit_target": false,
+      "field_ids": []
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W505",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 고성호 매니저 소개로 공동 미팅 진행.",
+      "normalized": {
+        "text": "리멤버 고성호 매니저 소개로 공동 미팅 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리멤버 고성호 매니저 소개로 공동 미팅 진행.",
+          "start_char": 0,
+          "end_char": 25
+        }
+      ],
+      "dedupe_key": "action_item:5d21534b01741064",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2개월",
+          "start_char": 58,
+          "end_char": 61
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 54,
+          "end_char": 57
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 203,
+          "end_char": 206
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 300,
+          "end_char": 303
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "홈페이지 자연인입 연 300건 이상 유효리드 300건 수준 현재 WMS 툴 사용하여 뉴스레터 발송 CRM 도입에 대해 후속(도입) 진행 시에는 리캐치 추가 협조 요청홈페이지 개발에 니즈가 있음 소개서 요청현재 이투마스 홈페이지는 워드프레스로 제작CRM 자체 개발 고민 중 자체 개발 진행 시 26년 11월 완료 예정 리캐치 CRM 임시 도입 후 자체 개발 또는 CRM 지속 유지 결정",
+      "normalized": {
+        "text": "홈페이지 자연인입 연 300건 이상 유효리드 300건 수준 현재 WMS 툴 사용하여 뉴스레터 발송 CRM 도입에 대해 후속(도입) 진행 시에는 리캐치 추가 협조 요청홈페이지 개발에 니즈가 있음 소개서 요청현재 이투마스 홈페이지는 워드프레스로 제작CRM 자체 개발 고민 중 자체 개발 진행 시 26년 11월 완료 예정 리캐치 CRM 임시 도입 후 자체 개발 또는 CRM 지속 유지 결정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "홈페이지 자연인입 연 300건 이상 유효리드 300건 수준 현재 WMS 툴 사용하여 뉴스레터 발송 CRM 도입에 대해 후속(도입) 진행 시에는 리캐치 추가 협조 요청홈페이지 개발에 니즈가 있음 소개서 요청현재 이투마스 홈페이지는 워드프레스로 제작CRM 자체 개발 고민 중 자체 개발 진행 시 26년 11월 완료 예정 리캐치 CRM 임시 도입 후 자체 개발 또는 CRM 지속 유지 결정",
+          "start_char": 123,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "action_item:fc929d15427b12ef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "lead_volume",
+      "value_type": "number",
+      "raw_text": "300건",
+      "normalized": {
+        "value": 300,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "300건",
+          "start_char": 135,
+          "end_char": 139
+        }
+      ],
+      "dedupe_key": "lead_volume:0e2c0e5e4012dff3",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "300건",
+      "normalized": {
+        "value": 300,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "300건",
+          "start_char": 148,
+          "end_char": 152
+        }
+      ],
+      "dedupe_key": "sales_activity:0e2c0e5e4012dff3",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "뉴스레터",
+          "start_char": 170,
+          "end_char": 174
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "67.58",
+      "normalized": {
+        "year": 2067,
+        "month": 58,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "67.58",
+          "start_char": 435,
+          "end_char": 440
+        }
+      ],
+      "dedupe_key": "timeline:4cbe009d603700d0",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

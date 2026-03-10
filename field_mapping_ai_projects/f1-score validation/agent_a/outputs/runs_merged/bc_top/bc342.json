@@ -1,0 +1,557 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W342",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.11",
+      "normalized": {
+        "year": 2011,
+        "month": 11,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "11.11",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:848c0a5744d52cfe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 401,
+          "end_char": 405
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.11.12",
+      "normalized": {
+        "expression": "2025.11.12"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "2025.11.12",
+          "start_char": 491,
+          "end_char": 501
+        }
+      ],
+      "dedupe_key": "timeline:6b13156aedebe71b",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "65억 원",
+      "normalized": {
+        "value": 6500000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "65억 원",
+          "start_char": 547,
+          "end_char": 552
+        }
+      ],
+      "dedupe_key": "budget:9089bbc65fed9a7f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25억 원",
+      "normalized": {
+        "value": 2500000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "25억 원",
+          "start_char": 564,
+          "end_char": 569
+        }
+      ],
+      "dedupe_key": "budget:098e17a18d840a62",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "사업 혁신성: 방탈출 시장에서 K-팝, K-브랜드, 엔터테인먼트 등과 연계하여 공간 기획 및 마케팅 혁신 가능성이 큼",
+      "normalized": {
+        "text": "사업 혁신성: 방탈출 시장에서 K-팝, K-브랜드, 엔터테인먼트 등과 연계하여 공간 기획 및 마케팅 혁신 가능성이 큼",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "사업 혁신성: 방탈출 시장에서 K-팝, K-브랜드, 엔터테인먼트 등과 연계하여 공간 기획 및 마케팅 혁신 가능성이 큼",
+          "start_char": 585,
+          "end_char": 650
+        }
+      ],
+      "dedupe_key": "collaboration_need:7a873c1635a4edf9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500억 원",
+      "normalized": {
+        "value": 50000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "500억 원",
+          "start_char": 667,
+          "end_char": 673
+        }
+      ],
+      "dedupe_key": "budget:10ad63e4842981c3",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "7개",
+      "normalized": {
+        "value": 7,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "당면 과제 (내부)"
+          ],
+          "exact_quote": "7개",
+          "start_char": 806,
+          "end_char": 808
+        }
+      ],
+      "dedupe_key": "case_metric:98085cfa4781e2fc",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "우진 대표는 김 대표님의 자금 조달 의지를 이해하고, 창업 경험 기반의 현실적 조언을 전달함.",
+      "normalized": {
+        "text": "우진 대표는 김 대표님의 자금 조달 의지를 이해하고, 창업 경험 기반의 현실적 조언을 전달함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "당면 과제 (내부)"
+          ],
+          "exact_quote": "우진 대표는 김 대표님의 자금 조달 의지를 이해하고, 창업 경험 기반의 현실적 조언을 전달함.",
+          "start_char": 909,
+          "end_char": 961
+        }
+      ],
+      "dedupe_key": "collaboration_need:daf02cef1cce685d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300억 원",
+      "normalized": {
+        "value": 30000000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "투자 밸류에이션"
+          ],
+          "exact_quote": "300억 원",
+          "start_char": 1014,
+          "end_char": 1020
+        }
+      ],
+      "dedupe_key": "budget:84158d5c70600740",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "TIPS 활용 전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1349,
+          "end_char": 1352
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "TIPS 활용 전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1376,
+          "end_char": 1379
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "TIPS 활용 전략"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1330,
+          "end_char": 1333
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "TIPS 활용 전략"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1390,
+          "end_char": 1393
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "개발 방식"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1739,
+          "end_char": 1742
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1990,
+          "end_char": 1993
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2094,
+          "end_char": 2097
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "B2C 디자인에 치중, B2B 페이지 부재",
+      "normalized": {
+        "text": "B2C 디자인에 치중, B2B 페이지 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "문제점"
+          ],
+          "exact_quote": "B2C 디자인에 치중, B2B 페이지 부재",
+          "start_char": 1451,
+          "end_char": 1474
+        }
+      ],
+      "dedupe_key": "risk_or_concern:914fc8228885aa8b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2C 페이지는 일부 페이지만 기획/다자인 개선하여 해당 시안을 키이스케이프 외주개발사에게 전달하여 퍼블리싱",
+      "normalized": {
+        "text": "B2C 페이지는 일부 페이지만 기획/다자인 개선하여 해당 시안을 키이스케이프 외주개발사에게 전달하여 퍼블리싱",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "B2C 페이지는 일부 페이지만 기획/다자인 개선하여 해당 시안을 키이스케이프 외주개발사에게 전달하여 퍼블리싱",
+          "start_char": 1569,
+          "end_char": 1629
+        }
+      ],
+      "dedupe_key": "collaboration_need:e2b171395765bc1f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "개발 방식"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1836,
+          "end_char": 1839
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1961,
+          "end_char": 1964
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제점: 팀원이 돌아가며 운영, 비효율적이며 팬 중심 유입",
+      "normalized": {
+        "text": "문제점: 팀원이 돌아가며 운영, 비효율적이며 팬 중심 유입",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "블로그 개편 및 마케팅 내재화"
+          ],
+          "exact_quote": "문제점: 팀원이 돌아가며 운영, 비효율적이며 팬 중심 유입",
+          "start_char": 1905,
+          "end_char": 1937
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ee359d234769b1a7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 1997,
+          "end_char": 2000
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(참고: 김 대표님은 사무실 공간 제약으로 인해 마케터 채용이 당장은 어려워 웹사이트 개편을 우선 진행을 희망함 — 리캐치 측 동의)",
+      "normalized": {
+        "text": "(참고: 김 대표님은 사무실 공간 제약으로 인해 마케터 채용이 당장은 어려워 웹사이트 개편을 우선 진행을 희망함 — 리캐치 측 동의)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "(참고: 김 대표님은 사무실 공간 제약으로 인해 마케터 채용이 당장은 어려워 웹사이트 개편을 우선 진행을 희망함 — 리캐치 측 동의)",
+          "start_char": 2029,
+          "end_char": 2103
+        }
+      ],
+      "dedupe_key": "action_item:769bd178ec4490f0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "웹사이트 제안서: 웹사이트 패키지 구체안 전달 → 담당: @김병권 (Aaron)",
+      "normalized": {
+        "text": "웹사이트 제안서: 웹사이트 패키지 구체안 전달 → 담당: @김병권 (Aaron)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "웹사이트 제안서: 웹사이트 패키지 구체안 전달 → 담당: @김병권 (Aaron)",
+          "start_char": 2128,
+          "end_char": 2172
+        }
+      ],
+      "dedupe_key": "collaboration_need:0c32d11b22fd3e1f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "@김병권",
+          "start_char": 2160,
+          "end_char": 2164
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "제안 내용"
+          ],
+          "exact_quote": "@김우진",
+          "start_char": 2200,
+          "end_char": 2204
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

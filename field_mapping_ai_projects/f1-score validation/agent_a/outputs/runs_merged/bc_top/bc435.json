@@ -1,0 +1,130 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W435",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전국 단위 영업 조직이며, 지사별(예: 대전, 부산) 데이터 열람 권한 분리 기능이 필수적으로 필요함",
+      "normalized": {
+        "text": "전국 단위 영업 조직이며, 지사별(예: 대전, 부산) 데이터 열람 권한 분리 기능이 필수적으로 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "주요 영업 활동"
+          ],
+          "exact_quote": "전국 단위 영업 조직이며, 지사별(예: 대전, 부산) 데이터 열람 권한 분리 기능이 필수적으로 필요함",
+          "start_char": 377,
+          "end_char": 433
+        }
+      ],
+      "dedupe_key": "action_item:ab203fc90bc27357",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "계약서, 진행했던 이벤트, 광고 데이터(사진 포함) 등 영업 사원의 모든 업무 활동을 트래킹하여 출퇴근 기록 대용으로도 활용",
+      "normalized": {
+        "text": "계약서, 진행했던 이벤트, 광고 데이터(사진 포함) 등 영업 사원의 모든 업무 활동을 트래킹하여 출퇴근 기록 대용으로도 활용",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "데이터 관리 범위"
+          ],
+          "exact_quote": "계약서, 진행했던 이벤트, 광고 데이터(사진 포함) 등 영업 사원의 모든 업무 활동을 트래킹하여 출퇴근 기록 대용으로도 활용",
+          "start_char": 452,
+          "end_char": 521
+        }
+      ],
+      "dedupe_key": "action_item:a9856b7bfd200ff6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1차 미팅엔 매니저님만 참석. 팀장님께 보고 후 원할 경우 2차 미팅 진행 예정",
+      "normalized": {
+        "text": "1차 미팅엔 매니저님만 참석. 팀장님께 보고 후 원할 경우 2차 미팅 진행 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "실무 매니저"
+          ],
+          "exact_quote": "1차 미팅엔 매니저님만 참석. 팀장님께 보고 후 원할 경우 2차 미팅 진행 예정",
+          "start_char": 710,
+          "end_char": 754
+        }
+      ],
+      "dedupe_key": "action_item:8b2d15ecfedd3917",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세포 올해 중 계약 만료 예정(정확히는 모르심). 신규 툴 검토 및 데이터 이관 시간을 고려하면 타임라인이 아주 여유롭지는 않음",
+      "normalized": {
+        "text": "세포 올해 중 계약 만료 예정(정확히는 모르심). 신규 툴 검토 및 데이터 이관 시간을 고려하면 타임라인이 아주 여유롭지는 않음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "세포 올해 중 계약 만료 예정(정확히는 모르심). 신규 툴 검토 및 데이터 이관 시간을 고려하면 타임라인이 아주 여유롭지는 않음",
+          "start_char": 764,
+          "end_char": 835
+        }
+      ],
+      "dedupe_key": "action_item:245a36027ee2813a",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

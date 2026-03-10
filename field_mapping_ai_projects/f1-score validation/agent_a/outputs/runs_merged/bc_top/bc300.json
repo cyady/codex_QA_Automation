@@ -1,0 +1,492 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W300",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2500만원",
+      "normalized": {
+        "value": 25000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2500만원",
+          "start_char": 14,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "2500만원",
+          "start_char": 891,
+          "end_char": 897
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "2500만원",
+          "start_char": 1017,
+          "end_char": 1023
+        }
+      ],
+      "dedupe_key": "budget:9aa84ab8bc70a5a4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 23,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "지난주 금요일 프로젝트 스콥 및 견적(간략) 전달 드렸고, 금일 중 연락이 와 소통 나눴습니다.",
+      "normalized": {
+        "text": "지난주 금요일 프로젝트 스콥 및 견적(간략) 전달 드렸고, 금일 중 연락이 와 소통 나눴습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "지난주 금요일 프로젝트 스콥 및 견적(간략) 전달 드렸고, 금일 중 연락이 와 소통 나눴습니다.",
+          "start_char": 55,
+          "end_char": 108
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf7d3c2d6641899a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "병권답변)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 281,
+          "end_char": 284
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "병권답변)"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 287,
+          "end_char": 290
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 말",
+      "normalized": {
+        "month": 12,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "병권답변)"
+          ],
+          "exact_quote": "12월 말",
+          "start_char": 339,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "timeline:bdf1d0b8a845547e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+      "normalized": {
+        "text": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "2/ 병권질문) 견적은 5page 기준으로 전달 드렸는데, 검토에 필요하신 내용은?"
+          ],
+          "exact_quote": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+          "start_char": 416,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "other:0b6dddda9d5a5333",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+      "normalized": {
+        "text": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "2/ 병권질문) 견적은 5page 기준으로 전달 드렸는데, 검토에 필요하신 내용은?"
+          ],
+          "exact_quote": "견적서 파일이 필요하고, 당사가 필요한 체크리스트가 있다면 전달해달라.",
+          "start_char": 416,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "action_item:d599ecffcd4640f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5000만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "3/ [예산파악] 해당 웹사이트 구축하시는데 비용은 어느정도 발생했는지?"
+          ],
+          "exact_quote": "5000만원",
+          "start_char": 510,
+          "end_char": 516
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1주",
+      "normalized": {
+        "value": 1.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "4/ [타임라인 파악] 검토하시는 프로세스 및 기간은 어떻게 되실까요?"
+          ],
+          "exact_quote": "1주",
+          "start_char": 599,
+          "end_char": 601
+        }
+      ],
+      "dedupe_key": "duration:f0c05592aec994f2",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "------[공유]"
+          ],
+          "exact_quote": "@sdr",
+          "start_char": 704,
+          "end_char": 708
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "------[공유]"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 663,
+          "end_char": 666
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "------[공유]"
+          ],
+          "exact_quote": "sdr",
+          "start_char": 705,
+          "end_char": 708
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "늘 그렇듯, 12월 안으로 클로징되지 않을 가능성이 있어 차주 월요일까지 회신 없으면 @박성준(Scott)님으로 AE 배정드리겠습니다.",
+      "normalized": {
+        "text": "늘 그렇듯, 12월 안으로 클로징되지 않을 가능성이 있어 차주 월요일까지 회신 없으면 @박성준(Scott)님으로 AE 배정드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "------[공유]"
+          ],
+          "exact_quote": "늘 그렇듯, 12월 안으로 클로징되지 않을 가능성이 있어 차주 월요일까지 회신 없으면 @박성준(Scott)님으로 AE 배정드리겠습니다.",
+          "start_char": 796,
+          "end_char": 871
+        }
+      ],
+      "dedupe_key": "action_item:5728b73cadc0db47",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "------[공유]"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 844,
+          "end_char": 848
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상세 견적서가 필요한데 2500만원에서 진행이 가능할지 문의 드립니다! cc @안민혁 (minhyuk) @growth",
+      "normalized": {
+        "text": "상세 견적서가 필요한데 2500만원에서 진행이 가능할지 문의 드립니다! cc @안민혁 (minhyuk) @growth",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "상세 견적서가 필요한데 2500만원에서 진행이 가능할지 문의 드립니다! cc @안민혁 (minhyuk) @growth",
+          "start_char": 878,
+          "end_char": 943
+        }
+      ],
+      "dedupe_key": "action_item:c964b525e41a872f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 921,
+          "end_char": 925
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "@growth",
+          "start_char": 936,
+          "end_char": 943
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "5개",
+          "start_char": 958,
+          "end_char": 960
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2500만원 으로 안내드리면 될지 크로스체크 요청합니다!",
+      "normalized": {
+        "text": "2500만원 으로 안내드리면 될지 크로스체크 요청합니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "[요청]"
+          ],
+          "exact_quote": "2500만원 으로 안내드리면 될지 크로스체크 요청합니다!",
+          "start_char": 1017,
+          "end_char": 1048
+        }
+      ],
+      "dedupe_key": "action_item:d75a64777464d06e",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

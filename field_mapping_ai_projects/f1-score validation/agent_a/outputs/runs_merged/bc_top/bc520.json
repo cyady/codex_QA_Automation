@@ -1,0 +1,132 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W520",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이스트시큐리티 이유담입니다.커스텀 개발 견적서와 상세한 제안 자료 공유해 주셔서 감사합니다.",
+      "normalized": {
+        "text": "이스트시큐리티 이유담입니다.커스텀 개발 견적서와 상세한 제안 자료 공유해 주셔서 감사합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "안녕하세요, 김한규 리더님!"
+          ],
+          "exact_quote": "이스트시큐리티 이유담입니다.커스텀 개발 견적서와 상세한 제안 자료 공유해 주셔서 감사합니다.",
+          "start_char": 17,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "collaboration_need:79fef1a7833a27eb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 검토에 많은 도움이 되었습니다.현재 저희가 운영 방향과 우선순위를 재정리하는 과정에 있어,",
+      "normalized": {
+        "text": "내부 검토에 많은 도움이 되었습니다.현재 저희가 운영 방향과 우선순위를 재정리하는 과정에 있어,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "안녕하세요, 김한규 리더님!"
+          ],
+          "exact_quote": "내부 검토에 많은 도움이 되었습니다.현재 저희가 운영 방향과 우선순위를 재정리하는 과정에 있어,",
+          "start_char": 69,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "action_item:d196a2b3e65a8707",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당장 도입 및 개발을 진행하기는 어려운 상황입니다.다만 제안 주신 내용과 리캐치 CRM의 방향성은 긍정적으로 검토하였으며,",
+      "normalized": {
+        "text": "당장 도입 및 개발을 진행하기는 어려운 상황입니다.다만 제안 주신 내용과 리캐치 CRM의 방향성은 긍정적으로 검토하였으며,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "안녕하세요, 김한규 리더님!"
+          ],
+          "exact_quote": "당장 도입 및 개발을 진행하기는 어려운 상황입니다.다만 제안 주신 내용과 리캐치 CRM의 방향성은 긍정적으로 검토하였으며,",
+          "start_char": 123,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "action_item:161b655c6efb8d91",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "향후 운영 체계개선이 필요한 시점에 다시 한번 논의드릴 수 있을 것 같습니다.그때 다시 연락드릴 수 있도록 하겠습니다.",
+      "normalized": {
+        "text": "향후 운영 체계개선이 필요한 시점에 다시 한번 논의드릴 수 있을 것 같습니다.그때 다시 연락드릴 수 있도록 하겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "안녕하세요, 김한규 리더님!"
+          ],
+          "exact_quote": "향후 운영 체계개선이 필요한 시점에 다시 한번 논의드릴 수 있을 것 같습니다.그때 다시 연락드릴 수 있도록 하겠습니다.",
+          "start_char": 192,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "action_item:788447250e46959c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "안녕하세요, 김한규 리더님!"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 164,
+          "end_char": 167
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W470",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "95.93",
+      "normalized": {
+        "year": 2095,
+        "month": 93,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "95.93",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:b9c88fad8299306d",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어3 모아소프트 - 잠재매출 3,500만원] 260206_부사장님 보고용 메일 내용 공유",
+      "normalized": {
+        "text": "[티어3 모아소프트 - 잠재매출 3,500만원] 260206_부사장님 보고용 메일 내용 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "[티어3 모아소프트 - 잠재매출 3,500만원] 260206_부사장님 보고용 메일 내용 공유",
+          "start_char": 125,
+          "end_char": 176
+        }
+      ],
+      "dedupe_key": "collaboration_need:cff974cb231eb05a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 145,
+          "end_char": 150
+        },
+        {
+          "segment_id": "S-0032",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 1934,
+          "end_char": 1940
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 183,
+          "end_char": 186
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 247,
+          "end_char": 250
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 360,
+          "end_char": 363
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1252,
+          "end_char": 1255
+        },
+        {
+          "segment_id": "S-0051",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3661,
+          "end_char": 3664
+        },
+        {
+          "segment_id": "S-0052",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3714,
+          "end_char": 3717
+        },
+        {
+          "segment_id": "S-0058",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 4237,
+          "end_char": 4240
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "부사장님께 보고드리실 때, 이번 프로젝트가 단순한 디자인 리뉴얼이 아니라 \"검색엔진(SEO)과 AI(GEO)가 신규 고객 창출에 기여할 수 있는 '세일즈 엔진'에 투자하는 것\"임이 명확히 전달될 수 있도록 아래 내용을 참고해 주시기 바랍니다.",
+      "normalized": {
+        "text": "부사장님께 보고드리실 때, 이번 프로젝트가 단순한 디자인 리뉴얼이 아니라 \"검색엔진(SEO)과 AI(GEO)가 신규 고객 창출에 기여할 수 있는 '세일즈 엔진'에 투자하는 것\"임이 명확히 전달될 수 있도록 아래 내용을 참고해 주시기 바랍니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "부사장님께 보고드리실 때, 이번 프로젝트가 단순한 디자인 리뉴얼이 아니라 \"검색엔진(SEO)과 AI(GEO)가 신규 고객 창출에 기여할 수 있는 '세일즈 엔진'에 투자하는 것\"임이 명확히 전달될 수 있도록 아래 내용을 참고해 주시기 바랍니다.",
+          "start_char": 387,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "collaboration_need:1432444977339ce8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 434,
+          "end_char": 437
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 638,
+          "end_char": 641
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1341,
+          "end_char": 1344
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1617,
+          "end_char": 1620
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 2090,
+          "end_char": 2093
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 2108,
+          "end_char": 2111
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 2473,
+          "end_char": 2476
+        },
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 3177,
+          "end_char": 3180
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현황: 훌륭한 블로그 콘텐츠를 보유하고 계시나, 기술적 구조(H태그, 스키마 마크업 등)의 부재로 검색 엔진과 AI가 정보를 100% 이해하지 못하고 있습니다.",
+      "normalized": {
+        "text": "현황: 훌륭한 블로그 콘텐츠를 보유하고 계시나, 기술적 구조(H태그, 스키마 마크업 등)의 부재로 검색 엔진과 AI가 정보를 100% 이해하지 못하고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "현황: 훌륭한 블로그 콘텐츠를 보유하고 계시나, 기술적 구조(H태그, 스키마 마크업 등)의 부재로 검색 엔진과 AI가 정보를 100% 이해하지 못하고 있습니다.",
+          "start_char": 661,
+          "end_char": 750
+        }
+      ],
+      "dedupe_key": "risk_or_concern:815d936dea7a8dd0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 669,
+          "end_char": 672
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 2413,
+          "end_char": 2416
+        },
+        {
+          "segment_id": "S-0035",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 2553,
+          "end_char": 2556
+        },
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2619,
+          "end_char": 2622
+        },
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2694,
+          "end_char": 2697
+        },
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2783,
+          "end_char": 2786
+        },
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3135,
+          "end_char": 3138
+        },
+        {
+          "segment_id": "S-0049",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 3516,
+          "end_char": 3519
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현황: 간단한 텍스트나 이미지 수정도 개발 리소스가 필요하거나 수정이 어려움.",
+      "normalized": {
+        "text": "현황: 간단한 텍스트나 이미지 수정도 개발 리소스가 필요하거나 수정이 어려움.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "현황: 간단한 텍스트나 이미지 수정도 개발 리소스가 필요하거나 수정이 어려움.",
+          "start_char": 920,
+          "end_char": 963
+        }
+      ],
+      "dedupe_key": "action_item:ae8bb425c2a856e2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "개선: 프레이머(Framer) + 워드프레스(CMS) 구조를 도입하여, 마케팅팀이 PPT를 수정하듯 쉽고 즉각적으로 웹사이트를 관리할 수 있습니다.",
+      "normalized": {
+        "text": "개선: 프레이머(Framer) + 워드프레스(CMS) 구조를 도입하여, 마케팅팀이 PPT를 수정하듯 쉽고 즉각적으로 웹사이트를 관리할 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "개선: 프레이머(Framer) + 워드프레스(CMS) 구조를 도입하여, 마케팅팀이 PPT를 수정하듯 쉽고 즉각적으로 웹사이트를 관리할 수 있습니다.",
+          "start_char": 967,
+          "end_char": 1049
+        }
+      ],
+      "dedupe_key": "collaboration_need:a006642d9e654640",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "전략: 우리의 기술 및 솔루션만 소구하지 않고, '고객의 문제 해결' 중심의 메시지 구조로 개편하여 이탈률을 줄이고 문의 전환율을 극대화합니다.",
+      "normalized": {
+        "text": "전략: 우리의 기술 및 솔루션만 소구하지 않고, '고객의 문제 해결' 중심의 메시지 구조로 개편하여 이탈률을 줄이고 문의 전환율을 극대화합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "전략: 우리의 기술 및 솔루션만 소구하지 않고, '고객의 문제 해결' 중심의 메시지 구조로 개편하여 이탈률을 줄이고 문의 전환율을 극대화합니다.",
+          "start_char": 1138,
+          "end_char": 1218
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b6736d2466f1fb3b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4일",
+      "normalized": {
+        "value": 4.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "4일",
+          "start_char": 1349,
+          "end_char": 1351
+        }
+      ],
+      "dedupe_key": "duration:9cc4b5ea3f40ae03",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "성과: 어렵고 복잡한 기술 용어를 '고객 성공 사례' 중심의 스토리텔링으로 개편.",
+      "normalized": {
+        "text": "성과: 어렵고 복잡한 기술 용어를 '고객 성공 사례' 중심의 스토리텔링으로 개편.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [],
+          "exact_quote": "성과: 어렵고 복잡한 기술 용어를 '고객 성공 사례' 중심의 스토리텔링으로 개편.",
+          "start_char": 1538,
+          "end_char": 1583
+        }
+      ],
+      "dedupe_key": "risk_or_concern:222f7f253963afbc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "성과: 문제(Pain Point) → 해결(Solution) → 증명(Social Proof)의 설득 논리 구조로 웹사이트 전면 개편.",
+      "normalized": {
+        "text": "성과: 문제(Pain Point) → 해결(Solution) → 증명(Social Proof)의 설득 논리 구조로 웹사이트 전면 개편.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "성과: 문제(Pain Point) → 해결(Solution) → 증명(Social Proof)의 설득 논리 구조로 웹사이트 전면 개편.",
+          "start_char": 1754,
+          "end_char": 1829
+        }
+      ],
+      "dedupe_key": "risk_or_concern:920f363fb115e1a0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "결과: 단순 정보 전달 페이지에서 '영업 사원 역할을 하는 웹사이트'로 변모하여 리드(DB) 획득량 증가.",
+      "normalized": {
+        "text": "결과: 단순 정보 전달 페이지에서 '영업 사원 역할을 하는 웹사이트'로 변모하여 리드(DB) 획득량 증가.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [],
+          "exact_quote": "결과: 단순 정보 전달 페이지에서 '영업 사원 역할을 하는 웹사이트'로 변모하여 리드(DB) 획득량 증가.",
+          "start_char": 1833,
+          "end_char": 1892
+        }
+      ],
+      "dedupe_key": "collaboration_need:a676d740e94b375e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 2127,
+          "end_char": 2129
+        },
+        {
+          "segment_id": "S-0041",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "메타",
+          "start_char": 2950,
+          "end_char": 2952
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "아울러, 기존에 쌓아오신 방대한 콘텐츠 자산(SEO)을 고려하여, 리스크 관리와 운영 편의성 사이에서 최적의 선택을 하실 수 있도록 두 가지 방안을 제안해 드립니다.",
+      "normalized": {
+        "text": "아울러, 기존에 쌓아오신 방대한 콘텐츠 자산(SEO)을 고려하여, 리스크 관리와 운영 편의성 사이에서 최적의 선택을 하실 수 있도록 두 가지 방안을 제안해 드립니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [],
+          "exact_quote": "아울러, 기존에 쌓아오신 방대한 콘텐츠 자산(SEO)을 고려하여, 리스크 관리와 운영 편의성 사이에서 최적의 선택을 하실 수 있도록 두 가지 방안을 제안해 드립니다.",
+          "start_char": 2448,
+          "end_char": 2540
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a7d8976b5a8c5011",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "일관된 경험: 웹사이트와 블로그가 완전히 동일한 디자인 시스템을 공유하여 사용자 경험(UX)의 끊김이 없습니다.",
+      "normalized": {
+        "text": "일관된 경험: 웹사이트와 블로그가 완전히 동일한 디자인 시스템을 공유하여 사용자 경험(UX)의 끊김이 없습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "일관된 경험: 웹사이트와 블로그가 완전히 동일한 디자인 시스템을 공유하여 사용자 경험(UX)의 끊김이 없습니다.",
+          "start_char": 2605,
+          "end_char": 2667
+        }
+      ],
+      "dedupe_key": "collaboration_need:ba5b888671069b66",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "단점 및 리스크 (Cons & Risks)",
+      "normalized": {
+        "text": "단점 및 리스크 (Cons & Risks)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "단점 및 리스크 (Cons & Risks)",
+          "start_char": 2808,
+          "end_char": 2831
+        },
+        {
+          "segment_id": "S-0047",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "단점 및 리스크 (Cons & Risks)",
+          "start_char": 3363,
+          "end_char": 3386
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3a5f7f3b16fcd1c4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이관 공수: 워드프레스처럼 수만 개의 글을 한 번에 가져오는 자동 도구가 부족하여, 콘텐츠가 많을 경우 수동 복사/붙여넣기 작업이 필요합니다.",
+      "normalized": {
+        "text": "이관 공수: 워드프레스처럼 수만 개의 글을 한 번에 가져오는 자동 도구가 부족하여, 콘텐츠가 많을 경우 수동 복사/붙여넣기 작업이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "이관 공수: 워드프레스처럼 수만 개의 글을 한 번에 가져오는 자동 도구가 부족하여, 콘텐츠가 많을 경우 수동 복사/붙여넣기 작업이 필요합니다.",
+          "start_char": 2837,
+          "end_char": 2916
+        }
+      ],
+      "dedupe_key": "action_item:d43c78ce9e4d71d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기능 제약: 워드프레스의 강력한 플러그인(고급 검색, 복잡한 필터링 등) 기능을 프레이머 CMS에서 100% 동일하게 구현하기는 어렵습니다.",
+      "normalized": {
+        "text": "기능 제약: 워드프레스의 강력한 플러그인(고급 검색, 복잡한 필터링 등) 기능을 프레이머 CMS에서 100% 동일하게 구현하기는 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "기능 제약: 워드프레스의 강력한 플러그인(고급 검색, 복잡한 필터링 등) 기능을 프레이머 CMS에서 100% 동일하게 구현하기는 어렵습니다.",
+          "start_char": 3030,
+          "end_char": 3108
+        }
+      ],
+      "dedupe_key": "risk_or_concern:66de397816703816",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "SEO 리스크 제로: 이미 검색 상위에 노출된 글들의 DB와 URL 구조를 그대로 유지하므로 순위 하락 리스크가 거의 없습니다.",
+      "normalized": {
+        "text": "SEO 리스크 제로: 이미 검색 상위에 노출된 글들의 DB와 URL 구조를 그대로 유지하므로 순위 하락 리스크가 거의 없습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "SEO 리스크 제로: 이미 검색 상위에 노출된 글들의 DB와 URL 구조를 그대로 유지하므로 순위 하락 리스크가 거의 없습니다.",
+          "start_char": 3177,
+          "end_char": 3248
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1cd8dda9e0ccaa1e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기술적 난이도: 동일한 루트 도메인을 쓰려면 리버스 프록시(Reverse Proxy) 설정이나 서브도메인 연결 작업이 필요하며, 엔지니어링 공수가 발생합니다.",
+      "normalized": {
+        "text": "기술적 난이도: 동일한 루트 도메인을 쓰려면 리버스 프록시(Reverse Proxy) 설정이나 서브도메인 연결 작업이 필요하며, 엔지니어링 공수가 발생합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0048",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "기술적 난이도: 동일한 루트 도메인을 쓰려면 리버스 프록시(Reverse Proxy) 설정이나 서브도메인 연결 작업이 필요하며, 엔지니어링 공수가 발생합니다.",
+          "start_char": 3392,
+          "end_char": 3480
+        }
+      ],
+      "dedupe_key": "action_item:7371803a51d8c94f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "모아소프트가 보유한 우수한 기술력이 온라인상에서 100%의 가치로 전달될 수 있도록, 리캐치가 최고의 파트너가 되겠습니다.",
+      "normalized": {
+        "text": "모아소프트가 보유한 우수한 기술력이 온라인상에서 100%의 가치로 전달될 수 있도록, 리캐치가 최고의 파트너가 되겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0058",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "모아소프트가 보유한 우수한 기술력이 온라인상에서 100%의 가치로 전달될 수 있도록, 리캐치가 최고의 파트너가 되겠습니다.",
+          "start_char": 4189,
+          "end_char": 4257
+        }
+      ],
+      "dedupe_key": "collaboration_need:df50ecdefd9e3983",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부 보고 시 추가로 필요한 데이터나 자료가 있으시면 언제든 편하게 말씀해 주십시오.",
+      "normalized": {
+        "text": "내부 보고 시 추가로 필요한 데이터나 자료가 있으시면 언제든 편하게 말씀해 주십시오.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0058",
+          "section_path": [
+            "장점 (Pros)"
+          ],
+          "exact_quote": "내부 보고 시 추가로 필요한 데이터나 자료가 있으시면 언제든 편하게 말씀해 주십시오.",
+          "start_char": 4258,
+          "end_char": 4305
+        }
+      ],
+      "dedupe_key": "action_item:542870b3a289e8e7",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

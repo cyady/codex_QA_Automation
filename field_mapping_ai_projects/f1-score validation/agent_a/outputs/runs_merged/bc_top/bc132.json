@@ -1,0 +1,141 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W132",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입은 마케팅팀에서 추진. 의사결정권자는 마케팅&세일즈 총괄 디렉터인데, 원석님 왈, 당신에게도 도움 되니 반대하지 않으실거라고.",
+      "normalized": {
+        "text": "CRM 도입은 마케팅팀에서 추진. 의사결정권자는 마케팅&세일즈 총괄 디렉터인데, 원석님 왈, 당신에게도 도움 되니 반대하지 않으실거라고.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM 도입은 마케팅팀에서 추진. 의사결정권자는 마케팅&세일즈 총괄 디렉터인데, 원석님 왈, 당신에게도 도움 되니 반대하지 않으실거라고.",
+          "start_char": 91,
+          "end_char": 167
+        }
+      ],
+      "dedupe_key": "collaboration_need:37e75e66abde6de8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가 확인 필요",
+      "normalized": {
+        "text": "추가 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "추가 확인 필요",
+          "start_char": 834,
+          "end_char": 842
+        }
+      ],
+      "dedupe_key": "action_item:eaf007e4b90d9f45",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number_range",
+      "raw_text": "3~5명",
+      "normalized": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "3~5명",
+          "start_char": 817,
+          "end_char": 821
+        }
+      ],
+      "dedupe_key": "team_size:8f6c46fc5c3b1893",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 685,
+          "end_char": 688
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 555,
+          "end_char": 558
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 637,
+          "end_char": 640
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

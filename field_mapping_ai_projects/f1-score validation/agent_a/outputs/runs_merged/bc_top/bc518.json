@@ -1,0 +1,662 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W518",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- ABM 상품 관련 타겟 모수와 리드 수집 현황을 공유하였고, 대기업 C레벨 및 ESG팀 제외 시 모수가 약 1만 7천명으로 감소함을 확인했습니다.",
+      "normalized": {
+        "text": "- ABM 상품 관련 타겟 모수와 리드 수집 현황을 공유하였고, 대기업 C레벨 및 ESG팀 제외 시 모수가 약 1만 7천명으로 감소함을 확인했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "- ABM 상품 관련 타겟 모수와 리드 수집 현황을 공유하였고, 대기업 C레벨 및 ESG팀 제외 시 모수가 약 1만 7천명으로 감소함을 확인했습니다.",
+          "start_char": 15,
+          "end_char": 98
+        }
+      ],
+      "dedupe_key": "collaboration_need:500cd382f767566c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 1만 7천명",
+      "normalized": {
+        "value": 17000,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "약 1만 7천명",
+          "start_char": 75,
+          "end_char": 83
+        }
+      ],
+      "dedupe_key": "target_population:e757ea86faaee42b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 17,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 504,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 103,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 136,
+          "end_char": 139
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 콘텐츠 제작은 고객 딥 인터뷰를 기반으로 하여 3월 중순부터 시작 예정이며, 뉴스레터와 홈페이지 블로그 탭 개편도 동시에 진행하여 SEO 개선을 목표로 하고 있습니다.",
+      "normalized": {
+        "text": "- 콘텐츠 제작은 고객 딥 인터뷰를 기반으로 하여 3월 중순부터 시작 예정이며, 뉴스레터와 홈페이지 블로그 탭 개편도 동시에 진행하여 SEO 개선을 목표로 하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "- 콘텐츠 제작은 고객 딥 인터뷰를 기반으로 하여 3월 중순부터 시작 예정이며, 뉴스레터와 홈페이지 블로그 탭 개편도 동시에 진행하여 SEO 개선을 목표로 하고 있습니다.",
+          "start_char": 198,
+          "end_char": 293
+        }
+      ],
+      "dedupe_key": "action_item:d2dc416037edafdb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 중순",
+      "normalized": {
+        "month": 3,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "3월 중순",
+          "start_char": 226,
+          "end_char": 231
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "3월 중순",
+          "start_char": 527,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "timeline:5d6f657c19bb1b0c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 273,
+          "end_char": 276
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 649,
+          "end_char": 652
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 243,
+          "end_char": 247
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 621,
+          "end_char": 625
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 254,
+          "end_char": 257
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 홈페이지 리뉴얼과 백엔드 개발에 대한 예산(1억원 내외) 및 일정 조율이 필요하며, 내부 컴플라이언스 준수를 고려한 협업 방안을 모색 중입니다.",
+      "normalized": {
+        "text": "- 홈페이지 리뉴얼과 백엔드 개발에 대한 예산(1억원 내외) 및 일정 조율이 필요하며, 내부 컴플라이언스 준수를 고려한 협업 방안을 모색 중입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "- 홈페이지 리뉴얼과 백엔드 개발에 대한 예산(1억원 내외) 및 일정 조율이 필요하며, 내부 컴플라이언스 준수를 고려한 협업 방안을 모색 중입니다.",
+          "start_char": 296,
+          "end_char": 378
+        }
+      ],
+      "dedupe_key": "action_item:fd2b909a5f9f4388",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "1억원",
+          "start_char": 322,
+          "end_char": 325
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "constraint",
+      "value_type": "text",
+      "raw_text": "컴플라이언스",
+      "normalized": {
+        "keyword": "컴플라이언스"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "컴플라이언스",
+          "start_char": 348,
+          "end_char": 354
+        }
+      ],
+      "dedupe_key": "constraint:321f79601fc5457d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 전사적 영업팀과의 사전 협의 및 KPI 설정이 필수이며, 단계별 리드 관리를 통한 고퀄리티 영업기회 창출에 집중할 계획입니다.",
+      "normalized": {
+        "text": "- 전사적 영업팀과의 사전 협의 및 KPI 설정이 필수이며, 단계별 리드 관리를 통한 고퀄리티 영업기회 창출에 집중할 계획입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 주요 내용"
+          ],
+          "exact_quote": "- 전사적 영업팀과의 사전 협의 및 KPI 설정이 필수이며, 단계별 리드 관리를 통한 고퀄리티 영업기회 창출에 집중할 계획입니다.",
+          "start_char": 381,
+          "end_char": 453
+        }
+      ],
+      "dedupe_key": "collaboration_need:26c4a21355aa5557",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정.",
+      "normalized": {
+        "text": "2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정.",
+          "start_char": 474,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "action_item:2f54f623c0e3cbef",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정.",
+      "normalized": {
+        "text": "- 2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "- 2월 내 혹은 3월 초 RFP 발행 및 내부 논의 후 ABM 프로젝트 진행 일정 확정.",
+          "start_char": 472,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "action_item:f09e1ec9f8a797f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 초",
+      "normalized": {
+        "month": 3,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "3월 초",
+          "start_char": 482,
+          "end_char": 486
+        }
+      ],
+      "dedupe_key": "timeline:8acaada2ba9fafca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율.",
+      "normalized": {
+        "text": "3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율.",
+          "start_char": 527,
+          "end_char": 572
+        }
+      ],
+      "dedupe_key": "action_item:71644c588be1b846",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율.",
+      "normalized": {
+        "text": "- 3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "- 3월 중순 딥 인터뷰 및 콘텐츠 제작 착수 가능 여부 내부 리소스 검토 및 조율.",
+          "start_char": 525,
+          "end_char": 572
+        }
+      ],
+      "dedupe_key": "action_item:931e5f89af75361a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행.",
+      "normalized": {
+        "text": "홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행.",
+          "start_char": 577,
+          "end_char": 616
+        }
+      ],
+      "dedupe_key": "action_item:9ac51bb4b1c77d00",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행.",
+      "normalized": {
+        "text": "- 홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "- 홈페이지 개편 관련 백엔드 업체와 기술 요건 검토 및 예산 조정 진행.",
+          "start_char": 575,
+          "end_char": 616
+        }
+      ],
+      "dedupe_key": "action_item:61fd00eb5ddf5346",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "뉴스레터 콘텐츠 제작 및 월별 발행 계획 구체화, SEO 대응 전략 마련.",
+      "normalized": {
+        "text": "뉴스레터 콘텐츠 제작 및 월별 발행 계획 구체화, SEO 대응 전략 마련."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "뉴스레터 콘텐츠 제작 및 월별 발행 계획 구체화, SEO 대응 전략 마련.",
+          "start_char": 621,
+          "end_char": 662
+        }
+      ],
+      "dedupe_key": "action_item:2a33ba66dccd8a61",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화.",
+      "normalized": {
+        "text": "영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화.",
+          "start_char": 667,
+          "end_char": 713
+        }
+      ],
+      "dedupe_key": "action_item:b2eb5ce26990aa51",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화.",
+      "normalized": {
+        "text": "- 영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "- 영업팀과 KPI, 리드 관리 프로세스 등에 대한 협업 체계 구축 및 의사소통 강화.",
+          "start_char": 665,
+          "end_char": 713
+        }
+      ],
+      "dedupe_key": "collaboration_need:e51be377b7d12649",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)",
+      "normalized": {
+        "text": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)",
+          "start_char": 717,
+          "end_char": 790
+        }
+      ],
+      "dedupe_key": "action_item:013f3f8bfc6bef4d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)",
+      "normalized": {
+        "text": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 다음 액션"
+          ],
+          "exact_quote": "(본 미팅 내용은 전체적으로 전문적인 비즈니스 용어와 협의 사항 위주로 편집하였으며, 일부 구어체 및 농담 표현은 제외하였습니다.)",
+          "start_char": 717,
+          "end_char": 790
+        }
+      ],
+      "dedupe_key": "collaboration_need:0fd28756292e4aca",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

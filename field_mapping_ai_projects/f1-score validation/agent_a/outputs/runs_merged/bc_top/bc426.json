@@ -1,0 +1,129 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W426",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0113) 후속 메일 발송",
+      "normalized": {
+        "text": "0113) 후속 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "0113) 후속 메일 발송",
+          "start_char": 0,
+          "end_char": 14
+        }
+      ],
+      "dedupe_key": "action_item:c6d05d0bb678163c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 41,
+          "end_char": 44
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 159,
+          "end_char": 162
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치와 로보틱스 기업들과 진행했던 B2B 유입 채널 최적화 사례와",
+      "normalized": {
+        "text": "리캐치와 로보틱스 기업들과 진행했던 B2B 유입 채널 최적화 사례와",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치와 로보틱스 기업들과 진행했던 B2B 유입 채널 최적화 사례와",
+          "start_char": 159,
+          "end_char": 196
+        }
+      ],
+      "dedupe_key": "action_item:6c78f3817427ae49",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "삼성 SDS 및 한화비전 신사업부와 신규 영업기회 확장 논의 등 실질적인 방안에 도움될 방안들을 전달 드리고자 합니다.",
+      "normalized": {
+        "text": "삼성 SDS 및 한화비전 신사업부와 신규 영업기회 확장 논의 등 실질적인 방안에 도움될 방안들을 전달 드리고자 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "삼성 SDS 및 한화비전 신사업부와 신규 영업기회 확장 논의 등 실질적인 방안에 도움될 방안들을 전달 드리고자 합니다.",
+          "start_char": 197,
+          "end_char": 263
+        }
+      ],
+      "dedupe_key": "collaboration_need:2b653cce4d67c188",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 검토 중이신 방향이 맞다면 15분 정도 전화/화상 등으로 의견을 나눌 수 있을까요?",
+      "normalized": {
+        "text": "현재 검토 중이신 방향이 맞다면 15분 정도 전화/화상 등으로 의견을 나눌 수 있을까요?",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "현재 검토 중이신 방향이 맞다면 15분 정도 전화/화상 등으로 의견을 나눌 수 있을까요?",
+          "start_char": 265,
+          "end_char": 314
+        }
+      ],
+      "dedupe_key": "action_item:1682ff765fb6a99a",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W370",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+      "normalized": {
+        "text": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "고객사 니즈"
+          ],
+          "exact_quote": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+          "start_char": 110,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "collaboration_need:d9e61f6093fbdf8e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+      "normalized": {
+        "text": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "고객사 니즈"
+          ],
+          "exact_quote": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+          "start_char": 195,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "collaboration_need:14beb19e610ea9c4",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+      "normalized": {
+        "text": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "고객사 니즈"
+          ],
+          "exact_quote": "단순 제품 판매(B2C) 관점에서 벗어나, '산업 관점'의 '턴키(Turnkey)' 솔루션 제공(B2B) 역량을 강조하는 방향으로 웹사이트 개편 희망.",
+          "start_char": 110,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "collaboration_need:f840ca3f3d9413b2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+      "normalized": {
+        "text": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "고객사 니즈"
+          ],
+          "exact_quote": "고객의 시간을 줄여주는 기술 솔루션 제공 역량을 어필하고, 고도화된 매출 증대 기회 발굴 필요.",
+          "start_char": 195,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "action_item:41c6f9f6c16114a5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "두 사이트(다우밸브, 밸브파크)의 역할을 명확히 재정립하는 '투 트랙(Two-Track)' 전략 수립.",
+      "normalized": {
+        "text": "두 사이트(다우밸브, 밸브파크)의 역할을 명확히 재정립하는 '투 트랙(Two-Track)' 전략 수립.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "프로젝트 목표"
+          ],
+          "exact_quote": "두 사이트(다우밸브, 밸브파크)의 역할을 명확히 재정립하는 '투 트랙(Two-Track)' 전략 수립.",
+          "start_char": 258,
+          "end_char": 315
+        }
+      ],
+      "dedupe_key": "action_item:7c9fd3cec2a31c9d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "산재된 콘텐츠(블로그, 납품 실적, 카탈로그)를 활용한 SEO 및 리드 생성 전략 수립.핵심 제안 전략: '투 트랙' 사이트 운영",
+      "normalized": {
+        "text": "산재된 콘텐츠(블로그, 납품 실적, 카탈로그)를 활용한 SEO 및 리드 생성 전략 수립.핵심 제안 전략: '투 트랙' 사이트 운영",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "프로젝트 목표"
+          ],
+          "exact_quote": "산재된 콘텐츠(블로그, 납품 실적, 카탈로그)를 활용한 SEO 및 리드 생성 전략 수립.핵심 제안 전략: '투 트랙' 사이트 운영",
+          "start_char": 351,
+          "end_char": 423
+        }
+      ],
+      "dedupe_key": "action_item:85a5712c1c64befd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "역할: 대규모 프로젝트, 턴키 솔루션, 기술 컨설팅이 필요한 B2B 고객 대상.",
+      "normalized": {
+        "text": "역할: 대규모 프로젝트, 턴키 솔루션, 기술 컨설팅이 필요한 B2B 고객 대상.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "프로젝트 목표"
+          ],
+          "exact_quote": "역할: 대규모 프로젝트, 턴키 솔루션, 기술 컨설팅이 필요한 B2B 고객 대상.",
+          "start_char": 504,
+          "end_char": 548
+        }
+      ],
+      "dedupe_key": "action_item:e0744e2b00ce0d7b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "프로젝트 목표"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 382,
+          "end_char": 385
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "다우밸브 메인"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 616,
+          "end_char": 619
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "해결"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1073,
+          "end_char": 1076
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1230,
+          "end_char": 1233
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1244,
+          "end_char": 1247
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1307,
+          "end_char": 1310
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "프로젝트 목표"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 359,
+          "end_char": 362
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "다우밸브 메인"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 631,
+          "end_char": 634
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "해결"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1086,
+          "end_char": 1089
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1143,
+          "end_char": 1146
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1162,
+          "end_char": 1165
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1198,
+          "end_char": 1201
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1212,
+          "end_char": 1215
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "역할: 소규모 구매, 단품 구매가 필요한 B2C 고객 대상.",
+      "normalized": {
+        "text": "역할: 소규모 구매, 단품 구매가 필요한 B2C 고객 대상.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "다우밸브 메인"
+          ],
+          "exact_quote": "역할: 소규모 구매, 단품 구매가 필요한 B2C 고객 대상.",
+          "start_char": 718,
+          "end_char": 751
+        }
+      ],
+      "dedupe_key": "action_item:e729ea5af6deac72",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제: 현재 다우밸브 사이트의 방대한 제품 소개 페이지는 개편 시 높은 비용 발생 요인.",
+      "normalized": {
+        "text": "문제: 현재 다우밸브 사이트의 방대한 제품 소개 페이지는 개편 시 높은 비용 발생 요인.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "세부 실행 방안"
+          ],
+          "exact_quote": "문제: 현재 다우밸브 사이트의 방대한 제품 소개 페이지는 개편 시 높은 비용 발생 요인.",
+          "start_char": 855,
+          "end_char": 904
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c1eb3f4b047387da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제: 현재 카탈로그, 기술 자료 등 핵심 자료가 연락처 정보 없이 즉시 다운로드되어 잠재고객 정보 획득 불가.",
+      "normalized": {
+        "text": "문제: 현재 카탈로그, 기술 자료 등 핵심 자료가 연락처 정보 없이 즉시 다운로드되어 잠재고객 정보 획득 불가.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략"
+          ],
+          "exact_quote": "문제: 현재 카탈로그, 기술 자료 등 핵심 자료가 연락처 정보 없이 즉시 다운로드되어 잠재고객 정보 획득 불가.",
+          "start_char": 1365,
+          "end_char": 1427
+        }
+      ],
+      "dedupe_key": "risk_or_concern:137b2b645d22cf6c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "'자료실', '카탈로그' 등 주요 콘텐츠 다운로드 시, 간단한 고객 정보(이름, 회사, 이메일 등)를 입력해야 다운로드할 수 있도록 '리드 마그넷' 장치 도입.",
+      "normalized": {
+        "text": "'자료실', '카탈로그' 등 주요 콘텐츠 다운로드 시, 간단한 고객 정보(이름, 회사, 이메일 등)를 입력해야 다운로드할 수 있도록 '리드 마그넷' 장치 도입.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "'자료실', '카탈로그' 등 주요 콘텐츠 다운로드 시, 간단한 고객 정보(이름, 회사, 이메일 등)를 입력해야 다운로드할 수 있도록 '리드 마그넷' 장치 도입.",
+          "start_char": 1432,
+          "end_char": 1521
+        }
+      ],
+      "dedupe_key": "collaboration_need:748ce7115abd33c7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "수집된 DB는 향후 뉴스레터, 프로모션 발송 등 B2B 마케팅에 활용.",
+      "normalized": {
+        "text": "수집된 DB는 향후 뉴스레터, 프로모션 발송 등 B2B 마케팅에 활용.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "수집된 DB는 향후 뉴스레터, 프로모션 발송 등 B2B 마케팅에 활용.",
+          "start_char": 1522,
+          "end_char": 1561
+        }
+      ],
+      "dedupe_key": "action_item:cea4f338240e716c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(V to D): 밸브파크(B2C)에서 대규모 프로젝트나 전문가 상담이 필요한 고객을 위해 -> '전문가와 상담하기', '컨설팅 받기' 등 CTA(Call to Action)를 배치하여 다우밸브(B2B)로 연결.",
+      "normalized": {
+        "text": "(V to D): 밸브파크(B2C)에서 대규모 프로젝트나 전문가 상담이 필요한 고객을 위해 -> '전문가와 상담하기', '컨설팅 받기' 등 CTA(Call to Action)를 배치하여 다우밸브(B2B)로 연결.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "(V to D): 밸브파크(B2C)에서 대규모 프로젝트나 전문가 상담이 필요한 고객을 위해 -> '전문가와 상담하기', '컨설팅 받기' 등 CTA(Call to Action)를 배치하여 다우밸브(B2B)로 연결.",
+          "start_char": 1633,
+          "end_char": 1751
+        }
+      ],
+      "dedupe_key": "action_item:b5a7e2ae57385031",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상기 내용을 바탕으로 상세 제안서를 작성하여 금주 말 또는 차주 초까지 공유.",
+      "normalized": {
+        "text": "상기 내용을 바탕으로 상세 제안서를 작성하여 금주 말 또는 차주 초까지 공유.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "상기 내용을 바탕으로 상세 제안서를 작성하여 금주 말 또는 차주 초까지 공유.",
+          "start_char": 1758,
+          "end_char": 1801
+        }
+      ],
+      "dedupe_key": "collaboration_need:f6dc17d2bb510c72",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제안서 공유 후, 금천 가산으로 방문하여 상세 설명 및 점심 미팅 진행.",
+      "normalized": {
+        "text": "제안서 공유 후, 금천 가산으로 방문하여 상세 설명 및 점심 미팅 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "제안서 공유 후, 금천 가산으로 방문하여 상세 설명 및 점심 미팅 진행.",
+          "start_char": 1802,
+          "end_char": 1842
+        }
+      ],
+      "dedupe_key": "action_item:e42cc882e0a48eb0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 진행 시 정기 미팅(주 1회 또는 2주 1회)을 통해 기획, 카피라이팅, 디자인 등 피드백 반영.",
+      "normalized": {
+        "text": "프로젝트 진행 시 정기 미팅(주 1회 또는 2주 1회)을 통해 기획, 카피라이팅, 디자인 등 피드백 반영.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "프로젝트 진행 시 정기 미팅(주 1회 또는 2주 1회)을 통해 기획, 카피라이팅, 디자인 등 피드백 반영.",
+          "start_char": 1843,
+          "end_char": 1902
+        }
+      ],
+      "dedupe_key": "action_item:78c67ad11c6baba6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정부 지원 바우처 사업 활용 가능 여부 검토 및 지원.",
+      "normalized": {
+        "text": "정부 지원 바우처 사업 활용 가능 여부 검토 및 지원.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "정부 지원 바우처 사업 활용 가능 여부 검토 및 지원.",
+          "start_char": 1903,
+          "end_char": 1933
+        }
+      ],
+      "dedupe_key": "action_item:3e7e450cd07eb614",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "2주",
+          "start_char": 1867,
+          "end_char": 1869
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1533,
+          "end_char": 1537
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "개선"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 1711,
+          "end_char": 1714
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

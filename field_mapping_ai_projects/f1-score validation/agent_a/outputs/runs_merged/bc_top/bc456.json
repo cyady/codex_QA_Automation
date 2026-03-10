@@ -1,0 +1,154 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W456",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "패스트트랙_바바더닷컴 GEO 프로젝트 검토 현황",
+      "normalized": {
+        "text": "패스트트랙_바바더닷컴 GEO 프로젝트 검토 현황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "패스트트랙_바바더닷컴 GEO 프로젝트 검토 현황",
+          "start_char": 9,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "action_item:bfdd844e16ac6800",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "클로징은 거의 확정이며, 프로젝트 착수될 것으로 보입니다.",
+      "normalized": {
+        "text": "클로징은 거의 확정이며, 프로젝트 착수될 것으로 보입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "클로징은 거의 확정이며, 프로젝트 착수될 것으로 보입니다.",
+          "start_char": 36,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "action_item:fe9ae5f08110902e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "WBS는 사전에 전달 드리는 것으로 알고 있는데, 혹시 받아 보지 못했다면 패스트측에 요청 드려도 좋을것 같아요",
+      "normalized": {
+        "text": "WBS는 사전에 전달 드리는 것으로 알고 있는데, 혹시 받아 보지 못했다면 패스트측에 요청 드려도 좋을것 같아요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "1/ 계약 관련하여 비용은 사전에 상호 확인한 내용인데, 추가 검토할 내용 있을까요?"
+          ],
+          "exact_quote": "WBS는 사전에 전달 드리는 것으로 알고 있는데, 혹시 받아 보지 못했다면 패스트측에 요청 드려도 좋을것 같아요",
+          "start_char": 127,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "action_item:1bf78cf26a43ca41",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "02.03(화) 킥오프 희망 일정 전달 주셨는데, 후보일정 말씀 주시면 전달 드려볼게요!",
+      "normalized": {
+        "text": "02.03(화) 킥오프 희망 일정 전달 주셨는데, 후보일정 말씀 주시면 전달 드려볼게요!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "1/ 계약 관련하여 비용은 사전에 상호 확인한 내용인데, 추가 검토할 내용 있을까요?"
+          ],
+          "exact_quote": "02.03(화) 킥오프 희망 일정 전달 주셨는데, 후보일정 말씀 주시면 전달 드려볼게요!",
+          "start_char": 193,
+          "end_char": 242
+        }
+      ],
+      "dedupe_key": "collaboration_need:7986dec7553f7050",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "02.03",
+      "normalized": {
+        "year": 2002,
+        "month": 3,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "1/ 계약 관련하여 비용은 사전에 상호 확인한 내용인데, 추가 검토할 내용 있을까요?"
+          ],
+          "exact_quote": "02.03",
+          "start_char": 193,
+          "end_char": 198
+        }
+      ],
+      "dedupe_key": "timeline:88ebc7e97fa0d206",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "혹은 다현님이 직접 전달 주셔도 좋습니다!!",
+      "normalized": {
+        "text": "혹은 다현님이 직접 전달 주셔도 좋습니다!!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "1/ 계약 관련하여 비용은 사전에 상호 확인한 내용인데, 추가 검토할 내용 있을까요?"
+          ],
+          "exact_quote": "혹은 다현님이 직접 전달 주셔도 좋습니다!!",
+          "start_char": 248,
+          "end_char": 272
+        }
+      ],
+      "dedupe_key": "collaboration_need:36c98ba74cab56ac",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W149",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 26,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "29일",
+      "normalized": {
+        "value": 29.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "29일",
+          "start_char": 133,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "duration:7c0f4cd99f3a8be8",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM에 대한 니즈도 약하게 있고 SEO 최적화 필요성도 느끼며 한컴 사례에도 공감 하지만, 내부 상황을 말할 정도의 온도는 아님. '우리 상황도 잘 알고, 나도 리캐치 관심은 좀 있는데, 뭔가 부담스럽다'고 생각하시는 듯",
+      "normalized": {
+        "text": "CRM에 대한 니즈도 약하게 있고 SEO 최적화 필요성도 느끼며 한컴 사례에도 공감 하지만, 내부 상황을 말할 정도의 온도는 아님. '우리 상황도 잘 알고, 나도 리캐치 관심은 좀 있는데, 뭔가 부담스럽다'고 생각하시는 듯",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "CRM에 대한 니즈도 약하게 있고 SEO 최적화 필요성도 느끼며 한컴 사례에도 공감 하지만, 내부 상황을 말할 정도의 온도는 아님. '우리 상황도 잘 알고, 나도 리캐치 관심은 좀 있는데, 뭔가 부담스럽다'고 생각하시는 듯",
+          "start_char": 343,
+          "end_char": 467
+        }
+      ],
+      "dedupe_key": "action_item:e4dd326318474d00",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 279,
+          "end_char": 282
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 362,
+          "end_char": 365
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ex) 그럼 SEO 최적화는 매니저님이 담당하시나요? 어떤 점이 어려우신가요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 670,
+          "end_char": 673
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[BANT]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 434,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "first give 및 가치사다리 위해 SEO 진단 보고서 전달하면서 cta는 아래처럼",
+      "normalized": {
+        "text": "first give 및 가치사다리 위해 SEO 진단 보고서 전달하면서 cta는 아래처럼",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ex) 그럼 SEO 최적화는 매니저님이 담당하시나요? 어떤 점이 어려우신가요?"
+          ],
+          "exact_quote": "first give 및 가치사다리 위해 SEO 진단 보고서 전달하면서 cta는 아래처럼",
+          "start_char": 648,
+          "end_char": 696
+        }
+      ],
+      "dedupe_key": "collaboration_need:3f070f63f5a9761f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "cta",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ex) 그럼 SEO 최적화는 매니저님이 담당하시나요? 어떤 점이 어려우신가요?"
+          ],
+          "exact_quote": "cta",
+          "start_char": 687,
+          "end_char": 690
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

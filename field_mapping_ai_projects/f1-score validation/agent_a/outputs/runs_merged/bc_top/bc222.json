@@ -1,0 +1,129 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W222",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "65.79",
+      "normalized": {
+        "year": 2065,
+        "month": 79,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "65.79",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:2da2066c38480d56",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정민지",
+      "normalized": {
+        "name": "정민지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@정민지",
+          "start_char": 125,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:bd3a46d30f5d8f67",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희가 일단 내부적으로 확인을 했을때 커스텀에서 꼭 필요한건 6번 API 연동 부분인데, 계약금 외에 1,200만원을 더 사용해서 개발하는 부분은 내부 설득이 쉽지않을 것 같다는 판단이 나왔습니다. 그 이유는 현재 사용하고 있는 CRM에서 안되는 기능이 아니다보니, 지금 사용을 하고 있는 상황이여서 리캐치를 사용하기위해 별도 지불을 해야하는 거라면 그건 어려울 것 같다고 말씀해주셨습니다.",
+      "normalized": {
+        "text": "저희가 일단 내부적으로 확인을 했을때 커스텀에서 꼭 필요한건 6번 API 연동 부분인데, 계약금 외에 1,200만원을 더 사용해서 개발하는 부분은 내부 설득이 쉽지않을 것 같다는 판단이 나왔습니다. 그 이유는 현재 사용하고 있는 CRM에서 안되는 기능이 아니다보니, 지금 사용을 하고 있는 상황이여서 리캐치를 사용하기위해 별도 지불을 해야하는 거라면 그건 어려울 것 같다고 말씀해주셨습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요 대표님"
+          ],
+          "exact_quote": "저희가 일단 내부적으로 확인을 했을때 커스텀에서 꼭 필요한건 6번 API 연동 부분인데, 계약금 외에 1,200만원을 더 사용해서 개발하는 부분은 내부 설득이 쉽지않을 것 같다는 판단이 나왔습니다. 그 이유는 현재 사용하고 있는 CRM에서 안되는 기능이 아니다보니, 지금 사용을 하고 있는 상황이여서 리캐치를 사용하기위해 별도 지불을 해야하는 거라면 그건 어려울 것 같다고 말씀해주셨습니다.",
+          "start_char": 183,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "action_item:bb704ec706bda680",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요 대표님"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 242,
+          "end_char": 247
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요 대표님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 351,
+          "end_char": 354
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

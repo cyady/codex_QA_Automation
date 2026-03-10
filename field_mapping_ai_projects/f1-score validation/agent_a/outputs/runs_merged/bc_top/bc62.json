@@ -1,0 +1,234 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W62",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 99,
+          "end_char": 103
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 829,
+          "end_char": 833
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 114,
+          "end_char": 118
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@서연주",
+      "normalized": {
+        "name": "서연주"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@서연주",
+          "start_char": 125,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:da2b9d485e0e81e1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1시간",
+      "normalized": {
+        "value": 1.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1시간",
+          "start_char": 171,
+          "end_char": 174
+        }
+      ],
+      "dedupe_key": "duration:df792b64e2093972",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1명",
+          "start_char": 50,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가 파악 필요",
+      "normalized": {
+        "text": "추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "추가 파악 필요",
+          "start_char": 707,
+          "end_char": 715
+        }
+      ],
+      "dedupe_key": "action_item:8e454a5edaff6077",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "애초에 전화 미팅 예약 주셨고 내일 미팅도 리캐치의 전반적인 기능 확인하면서 fit할지 확인하는 느낌이라 조심스레 한 말씀 드리자면 @여인찬 (Oliver) 님 내일 미팅에 너무 힘빼실 필요는 없을 것 같습니다",
+      "normalized": {
+        "text": "애초에 전화 미팅 예약 주셨고 내일 미팅도 리캐치의 전반적인 기능 확인하면서 fit할지 확인하는 느낌이라 조심스레 한 말씀 드리자면 @여인찬 (Oliver) 님 내일 미팅에 너무 힘빼실 필요는 없을 것 같습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "애초에 전화 미팅 예약 주셨고 내일 미팅도 리캐치의 전반적인 기능 확인하면서 fit할지 확인하는 느낌이라 조심스레 한 말씀 드리자면 @여인찬 (Oliver) 님 내일 미팅에 너무 힘빼실 필요는 없을 것 같습니다",
+          "start_char": 755,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "action_item:d4bd772558ce5450",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 355,
+          "end_char": 359
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 503,
+          "end_char": 506
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 779,
+          "end_char": 782
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

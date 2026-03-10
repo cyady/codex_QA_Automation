@@ -1,0 +1,293 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W305",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "지난번 CRM 도입과 관련하여 논의드릴 기회가 있어 감사했습니다.",
+      "normalized": {
+        "text": "지난번 CRM 도입과 관련하여 논의드릴 기회가 있어 감사했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "지난번 CRM 도입과 관련하여 논의드릴 기회가 있어 감사했습니다.",
+          "start_char": 0,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "collaboration_need:f4208aa42012bb39",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 건과는 별개로, '올해 50개 유료 고객사 확보'라는 귀사의 핵심 KPI 달성에 실질적인 도움을 드릴 수 있는 방안에 대해 더 깊이 고민한 내용을 공유드리고자 다시 연락드렸습니다.",
+      "normalized": {
+        "text": "CRM 도입 건과는 별개로, '올해 50개 유료 고객사 확보'라는 귀사의 핵심 KPI 달성에 실질적인 도움을 드릴 수 있는 방안에 대해 더 깊이 고민한 내용을 공유드리고자 다시 연락드렸습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "CRM 도입 건과는 별개로, '올해 50개 유료 고객사 확보'라는 귀사의 핵심 KPI 달성에 실질적인 도움을 드릴 수 있는 방안에 대해 더 깊이 고민한 내용을 공유드리고자 다시 연락드렸습니다.",
+          "start_char": 38,
+          "end_char": 145
+        }
+      ],
+      "dedupe_key": "collaboration_need:1192ba851e49ec1a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "50개",
+      "normalized": {
+        "value": 50,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "50개",
+          "start_char": 58,
+          "end_char": 61
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "50개",
+          "start_char": 228,
+          "end_char": 231
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "50개",
+          "start_char": 401,
+          "end_char": 404
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "50개",
+          "start_char": 828,
+          "end_char": 831
+        }
+      ],
+      "dedupe_key": "case_metric:311b25a3629a76e1",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "KPI 달성을 위해 가장 시급하고 중요한 것은 '어떻게 신규 유료 고객을 확보할 것인가'하는 문제라고 생각합니다.",
+      "normalized": {
+        "text": "KPI 달성을 위해 가장 시급하고 중요한 것은 '어떻게 신규 유료 고객을 확보할 것인가'하는 문제라고 생각합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "KPI 달성을 위해 가장 시급하고 중요한 것은 '어떻게 신규 유료 고객을 확보할 것인가'하는 문제라고 생각합니다.",
+          "start_char": 147,
+          "end_char": 210
+        }
+      ],
+      "dedupe_key": "risk_or_concern:04ca31eeb64a5622",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이전에도 잠시 말씀드렸지만, 50개의 유료 고객사를 확보하기 위해서는(전환율 15% 가정 시) 약 333명의 무료 체험과 33,000명의 타겟 방문자가 필요합니다.",
+      "normalized": {
+        "text": "이전에도 잠시 말씀드렸지만, 50개의 유료 고객사를 확보하기 위해서는(전환율 15% 가정 시) 약 333명의 무료 체험과 33,000명의 타겟 방문자가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "이전에도 잠시 말씀드렸지만, 50개의 유료 고객사를 확보하기 위해서는(전환율 15% 가정 시) 약 333명의 무료 체험과 33,000명의 타겟 방문자가 필요합니다.",
+          "start_char": 212,
+          "end_char": 303
+        }
+      ],
+      "dedupe_key": "action_item:a3bba6c62d80022f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 333명",
+      "normalized": {
+        "value": 333,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "약 333명",
+          "start_char": 265,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "target_population:260bfcc4fc2ef434",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "000명",
+      "normalized": {
+        "value": 0,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000명",
+          "start_char": 283,
+          "end_char": 287
+        }
+      ],
+      "dedupe_key": "target_population:ef1bc41d6ca71f1b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 342,
+          "end_char": 345
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 416,
+          "end_char": 419
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 749,
+          "end_char": 752
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이 프로젝트는 리멤버의 명함 정보를 활용하여 귀사의 솔루션이 꼭 필요한 잠재 고객(예: 그룹웨어 도입 담당자)에게 정밀하게 도달하는 실행 전략입니다.",
+      "normalized": {
+        "text": "이 프로젝트는 리멤버의 명함 정보를 활용하여 귀사의 솔루션이 꼭 필요한 잠재 고객(예: 그룹웨어 도입 담당자)에게 정밀하게 도달하는 실행 전략입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "이 프로젝트는 리멤버의 명함 정보를 활용하여 귀사의 솔루션이 꼭 필요한 잠재 고객(예: 그룹웨어 도입 담당자)에게 정밀하게 도달하는 실행 전략입니다.",
+          "start_char": 429,
+          "end_char": 512
+        }
+      ],
+      "dedupe_key": "action_item:d8b289fa4fc218ea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM이 확보된 리드를 '관리'하는 도구라면, 이 ABM 프로젝트는 귀사의 KPI 달성에 필요한 신규 리드를 적극적으로 '확보'하고 '전환'하는 데 초점을 맞춘 공격적인 실행 전략입니다.",
+      "normalized": {
+        "text": "CRM이 확보된 리드를 '관리'하는 도구라면, 이 ABM 프로젝트는 귀사의 KPI 달성에 필요한 신규 리드를 적극적으로 '확보'하고 '전환'하는 데 초점을 맞춘 공격적인 실행 전략입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "CRM이 확보된 리드를 '관리'하는 도구라면, 이 ABM 프로젝트는 귀사의 KPI 달성에 필요한 신규 리드를 적극적으로 '확보'하고 '전환'하는 데 초점을 맞춘 공격적인 실행 전략입니다.",
+          "start_char": 721,
+          "end_char": 825
+        }
+      ],
+      "dedupe_key": "action_item:500c612d9de5023f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "30명",
+      "normalized": {
+        "value": 30,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "30명",
+          "start_char": 598,
+          "end_char": 601
+        }
+      ],
+      "dedupe_key": "target_population:bc81a7966f4ba1a4",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

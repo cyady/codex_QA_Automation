@@ -1,0 +1,245 @@
+[
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0001",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "오전 9:42 ",
+    "normalized": {
+      "time_period": "오전",
+      "hour": 9,
+      "minute": 42,
+      "kind": "time_expression"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "오전 9:42 ",
+      "start_char": 24,
+      "end_char": 32
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0002",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "2025.09.15",
+    "normalized": {
+      "expression": "2025.09.15"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "2025.09.15",
+      "start_char": 11,
+      "end_char": 21
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0003",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "네네 천천"
+      ],
+      "exact_quote": "리캐치",
+      "start_char": 294,
+      "end_char": 297
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0004",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "블로그",
+    "normalized": {
+      "keyword": "블로그"
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [
+        "네네 천천"
+      ],
+      "exact_quote": "블로그",
+      "start_char": 743,
+      "end_char": 746
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0005",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+    "normalized": {
+      "text": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0011",
+      "section_path": [
+        "네네 천천"
+      ],
+      "exact_quote": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+      "start_char": 844,
+      "end_char": 989
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "6091",
+        "label": "이벤트 참가비 결제 수단",
+        "type": "select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0006",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "네. 사후에 한 다섯",
+    "normalized": {
+      "text": "네. 사후에 한 다섯",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0017",
+      "section_path": [
+        "혹시 지금 고객 문의나 인바운드 신청 같은 건 많이 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "네. 사후에 한 다섯",
+      "start_char": 1616,
+      "end_char": 1627
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0007",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+    "normalized": {
+      "text": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0021",
+      "section_path": [
+        "혹시 확인차 여쭤보는데 유료로 진행되는 점은 알고 계실까요?"
+      ],
+      "exact_quote": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+      "start_char": 2050,
+      "end_char": 2150
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W15",
+    "candidate_id": "C-0008",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+    "normalized": {
+      "text": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0022",
+      "section_path": [
+        "혹시 확인차 여쭤보는데 유료로 진행되는 점은 알고 계실까요?"
+      ],
+      "exact_quote": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+      "start_char": 2270,
+      "end_char": 2333
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

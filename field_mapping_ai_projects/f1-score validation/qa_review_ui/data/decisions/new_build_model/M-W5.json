@@ -1,0 +1,128 @@
+{
+  "memo_id": "M-W5",
+  "updated_at": "2026-02-27T05:11:42.317641+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.74) - HITL 권장"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "confidence=8/10 | 기존 대비 값 유사도 높음(0.90), 이전 판정 이관"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5178",
+      "field_label": "Tier",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.82) - HITL 권장"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.44) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.78) - HITL 권장"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+      "normalized": {
+        "text": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+      "start_char": 160,
+      "end_char": 233,
+      "line_no": 5,
+      "line_text": "ABM 컨셉은 좋고, 차주 수요일에 팀 회의 하는데 이야기 한 번 해보겠음. 예산 조정에 대해서도 좀 열어놓고 이야기나누길 희망함.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1606",
+          "label": "팀 슬러그",
+          "type": "text",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.43)"
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@sales",
+      "start_char": 234,
+      "end_char": 240,
+      "line_no": 6,
+      "line_text": "@sales 온도가 아주 높진 않습니다. 일단 태핑해나가보겠습니다.",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1589",
+          "label": "최초 유입 경로",
+          "type": "text",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.11)"
+    }
+  ]
+}

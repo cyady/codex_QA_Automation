@@ -1,0 +1,286 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W335",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "11.10 진행상황",
+      "normalized": {
+        "text": "11.10 진행상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "11.10 진행상황",
+          "start_char": 0,
+          "end_char": 10
+        }
+      ],
+      "dedupe_key": "action_item:423cba2c9b70083a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11.10",
+      "normalized": {
+        "year": 2011,
+        "month": 10,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "11.10",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:2fc2e6117588fb36",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "60.38",
+      "normalized": {
+        "year": 2060,
+        "month": 38,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "60.38",
+          "start_char": 108,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "timeline:2f8586e323065635",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[잠재매출 규모 200 ~ 300만원] 코이노 리드젠서베이 미팅 이후 진행상황 공유 cc @sales",
+      "normalized": {
+        "text": "[잠재매출 규모 200 ~ 300만원] 코이노 리드젠서베이 미팅 이후 진행상황 공유 cc @sales",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "[잠재매출 규모 200 ~ 300만원] 코이노 리드젠서베이 미팅 이후 진행상황 공유 cc @sales",
+          "start_char": 135,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "action_item:02b001e2d152db65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 185,
+          "end_char": 191
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "300만원",
+          "start_char": 150,
+          "end_char": 155
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1차 미팅 이후, 긍정적으로 검토하고 있음",
+      "normalized": {
+        "text": "1차 미팅 이후, 긍정적으로 검토하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1차 미팅 이후, 긍정적으로 검토하고 있음",
+          "start_char": 197,
+          "end_char": 220
+        }
+      ],
+      "dedupe_key": "action_item:9697e4b7a1bf9da3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "1천만원",
+          "start_char": 349,
+          "end_char": 353
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 365,
+          "end_char": 370
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 399,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 495,
+          "end_char": 498
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 541,
+          "end_char": 544
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 리멤버측에서도 리드젠 서베이 요청이 들어왔는데, 리캐치와 먼저 미팅하는 거 알고 공동미팅 제안",
+      "normalized": {
+        "text": "2/ 리멤버측에서도 리드젠 서베이 요청이 들어왔는데, 리캐치와 먼저 미팅하는 거 알고 공동미팅 제안",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "2/ 리멤버측에서도 리드젠 서베이 요청이 들어왔는데, 리캐치와 먼저 미팅하는 거 알고 공동미팅 제안",
+          "start_char": 511,
+          "end_char": 566
+        }
+      ],
+      "dedupe_key": "action_item:b217af4d2e81ab15",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

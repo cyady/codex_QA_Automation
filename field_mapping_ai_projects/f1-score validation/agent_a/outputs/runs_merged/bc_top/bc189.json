@@ -1,0 +1,79 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W189",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- BM: 유통사임. B2B만 하고. 거래처가 많아 새로운 제품이 자주 나오고 웹사이트에 주기적 업로드 필요.",
+      "normalized": {
+        "text": "- BM: 유통사임. B2B만 하고. 거래처가 많아 새로운 제품이 자주 나오고 웹사이트에 주기적 업로드 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "- BM: 유통사임. B2B만 하고. 거래처가 많아 새로운 제품이 자주 나오고 웹사이트에 주기적 업로드 필요.",
+          "start_char": 17,
+          "end_char": 78
+        }
+      ],
+      "dedupe_key": "action_item:eba9ab71f4d22d16",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- crm은 세일즈인사이트 오래 쓰고 있음. 세일즈포스도 검토했는데 기능도 비용도 헤비하더라",
+      "normalized": {
+        "text": "- crm은 세일즈인사이트 오래 쓰고 있음. 세일즈포스도 검토했는데 기능도 비용도 헤비하더라",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "- crm은 세일즈인사이트 오래 쓰고 있음. 세일즈포스도 검토했는데 기능도 비용도 헤비하더라",
+          "start_char": 258,
+          "end_char": 309
+        }
+      ],
+      "dedupe_key": "action_item:9bcc2b97c93fe95a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 세일즈인사이트 유저 경험: 그쪽에 온보딩 담당 인원이 많지 않고 바빠서 요청을 해도 피드백이 바로 안 오고 처음 1회 온보딩 이후엔 질의응답만 해서 썩 만족스럽진 않다",
+      "normalized": {
+        "text": "- 세일즈인사이트 유저 경험: 그쪽에 온보딩 담당 인원이 많지 않고 바빠서 요청을 해도 피드백이 바로 안 오고 처음 1회 온보딩 이후엔 질의응답만 해서 썩 만족스럽진 않다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "- 세일즈인사이트 유저 경험: 그쪽에 온보딩 담당 인원이 많지 않고 바빠서 요청을 해도 피드백이 바로 안 오고 처음 1회 온보딩 이후엔 질의응답만 해서 썩 만족스럽진 않다",
+          "start_char": 310,
+          "end_char": 405
+        }
+      ],
+      "dedupe_key": "action_item:a0b4c1ab1671a0f2",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

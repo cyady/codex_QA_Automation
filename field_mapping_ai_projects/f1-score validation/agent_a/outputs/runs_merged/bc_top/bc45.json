@@ -1,0 +1,1040 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W45",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 250917 미팅 상세 내용1/ 커밋레벨 레벨 2 (문제 정의 완료, 챔피언 확보)",
+      "normalized": {
+        "text": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 250917 미팅 상세 내용1/ 커밋레벨 레벨 2 (문제 정의 완료, 챔피언 확보)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier4 이너스커뮤니티 - 잠재매출 약 1000만원] 250917 미팅 상세 내용1/ 커밋레벨 레벨 2 (문제 정의 완료, 챔피언 확보)",
+          "start_char": 0,
+          "end_char": 78
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5ef0c4ff07cdf1c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제가 뚜렷하게 정의됨: B2B 아웃바운드 영업 근육 부재, 인바운드 처리 비효율",
+      "normalized": {
+        "text": "문제가 뚜렷하게 정의됨: B2B 아웃바운드 영업 근육 부재, 인바운드 처리 비효율",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "문제가 뚜렷하게 정의됨: B2B 아웃바운드 영업 근육 부재, 인바운드 처리 비효율",
+          "start_char": 79,
+          "end_char": 124
+        }
+      ],
+      "dedupe_key": "risk_or_concern:98363ac0291b8da1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치: 견적서 및 제안서 발송 (9월 중)",
+      "normalized": {
+        "text": "리캐치: 견적서 및 제안서 발송 (9월 중)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치: 견적서 및 제안서 발송 (9월 중)",
+          "start_char": 216,
+          "end_char": 240
+        }
+      ],
+      "dedupe_key": "action_item:29f123fa11284f00",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이너스커뮤니티: 내부 검토 및 의사결정 (9월 말~10월 초)",
+      "normalized": {
+        "text": "이너스커뮤니티: 내부 검토 및 의사결정 (9월 말~10월 초)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이너스커뮤니티: 내부 검토 및 의사결정 (9월 말~10월 초)",
+          "start_char": 241,
+          "end_char": 275
+        }
+      ],
+      "dedupe_key": "action_item:6759595ac4ee6540",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "양측: 파트너십 조건 협의 (이너스 고객 대상 리캐치 영업)",
+      "normalized": {
+        "text": "양측: 파트너십 조건 협의 (이너스 고객 대상 리캐치 영업)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "양측: 파트너십 조건 협의 (이너스 고객 대상 리캐치 영업)",
+          "start_char": 276,
+          "end_char": 309
+        }
+      ],
+      "dedupe_key": "collaboration_need:81adf941c433b350",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "3/ 고객이 처한 상황, 문제",
+      "normalized": {
+        "text": "3/ 고객이 처한 상황, 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3/ 고객이 처한 상황, 문제",
+          "start_char": 310,
+          "end_char": 326
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c4875a4ba01d433b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 말",
+      "normalized": {
+        "month": 9,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9월 말",
+          "start_char": 264,
+          "end_char": 268
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "9월 말",
+          "start_char": 3424,
+          "end_char": 3428
+        }
+      ],
+      "dedupe_key": "timeline:5f3bb1d646beb6e0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 초",
+      "normalized": {
+        "month": 10,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10월 초",
+          "start_char": 269,
+          "end_char": 274
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "10월 초",
+          "start_char": 3431,
+          "end_char": 3436
+        }
+      ],
+      "dedupe_key": "timeline:677ae3f7ff00eaca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "약 1000만원",
+          "start_char": 22,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 216,
+          "end_char": 219
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 302,
+          "end_char": 305
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1718,
+          "end_char": 1721
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1742,
+          "end_char": 1745
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2679,
+          "end_char": 2682
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2805,
+          "end_char": 2808
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2922,
+          "end_char": 2925
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3373,
+          "end_char": 3376
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3476,
+          "end_char": 3479
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "아웃바운드 영업 근육 부재",
+      "normalized": {
+        "text": "아웃바운드 영업 근육 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "아웃바운드 영업 근육 부재",
+          "start_char": 370,
+          "end_char": 384
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7f84a2e35abec501",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문의 유형별 담당팀 자동 배분 시스템 부재",
+      "normalized": {
+        "text": "문의 유형별 담당팀 자동 배분 시스템 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "문의 유형별 담당팀 자동 배분 시스템 부재",
+          "start_char": 422,
+          "end_char": 445
+        }
+      ],
+      "dedupe_key": "risk_or_concern:685bc95cd0e3ec1f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "기술본부장 (황순영): 자체 개발 vs 외부 솔루션 도입 검토 담당",
+      "normalized": {
+        "text": "기술본부장 (황순영): 자체 개발 vs 외부 솔루션 도입 검토 담당",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "기술본부장 (황순영): 자체 개발 vs 외부 솔루션 도입 검토 담당",
+          "start_char": 742,
+          "end_char": 779
+        }
+      ],
+      "dedupe_key": "action_item:dd426bff566ff492",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "자체 개발 vs 외부 도입: 기술력 보유로 인한 고민",
+      "normalized": {
+        "text": "자체 개발 vs 외부 도입: 기술력 보유로 인한 고민",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "자체 개발 vs 외부 도입: 기술력 보유로 인한 고민",
+          "start_char": 988,
+          "end_char": 1017
+        }
+      ],
+      "dedupe_key": "collaboration_need:5386d4c1339cded6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "컨설팅 포함한 도입: 컨설팅 포함한 온보딩으로 조직 적응 지원",
+      "normalized": {
+        "text": "컨설팅 포함한 도입: 컨설팅 포함한 온보딩으로 조직 적응 지원",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "컨설팅 포함한 도입: 컨설팅 포함한 온보딩으로 조직 적응 지원",
+          "start_char": 1091,
+          "end_char": 1125
+        }
+      ],
+      "dedupe_key": "collaboration_need:955a8d09c9e5e4aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "CRM 부재: 현재 사용 중인 CRM은 없으며, 과거 지라(Jira)를 활용했으나 제대로 사용하지 못했습니다.",
+      "normalized": {
+        "text": "CRM 부재: 현재 사용 중인 CRM은 없으며, 과거 지라(Jira)를 활용했으나 제대로 사용하지 못했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "CRM 부재: 현재 사용 중인 CRM은 없으며, 과거 지라(Jira)를 활용했으나 제대로 사용하지 못했습니다.",
+          "start_char": 1347,
+          "end_char": 1408
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7088b6b2763cb1ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 개발과 외부 솔루션 도입 고민: 기술력을 보유하고 있어 자체적인 시스템 개발도 고려했으나, 더 빠른 성장을 위해 전문 업체의 솔루션을 도입하는 것이 효율적이라고 판단하고 있습니다.",
+      "normalized": {
+        "text": "내부 개발과 외부 솔루션 도입 고민: 기술력을 보유하고 있어 자체적인 시스템 개발도 고려했으나, 더 빠른 성장을 위해 전문 업체의 솔루션을 도입하는 것이 효율적이라고 판단하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "내부 개발과 외부 솔루션 도입 고민: 기술력을 보유하고 있어 자체적인 시스템 개발도 고려했으나, 더 빠른 성장을 위해 전문 업체의 솔루션을 도입하는 것이 효율적이라고 판단하고 있습니다.",
+          "start_char": 1611,
+          "end_char": 1714
+        }
+      ],
+      "dedupe_key": "collaboration_need:8484074123c7f855",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 중순",
+      "normalized": {
+        "month": 10,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "10월 중순",
+          "start_char": 521,
+          "end_char": 527
+        }
+      ],
+      "dedupe_key": "timeline:30c0238d023f3066",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "528만원",
+      "normalized": {
+        "value": 5280000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "528만원",
+          "start_char": 856,
+          "end_char": 861
+        }
+      ],
+      "dedupe_key": "budget:c121548e0aba5073",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "44만원",
+      "normalized": {
+        "value": 440000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "44만원",
+          "start_char": 865,
+          "end_char": 869
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "44만 원",
+          "start_char": 3223,
+          "end_char": 3228
+        }
+      ],
+      "dedupe_key": "budget:1802191a885dde26",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2만원",
+      "normalized": {
+        "value": 20000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "2만원",
+          "start_char": 891,
+          "end_char": 894
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "2만 원",
+          "start_char": 3287,
+          "end_char": 3291
+        }
+      ],
+      "dedupe_key": "budget:19daf3b223e28ae2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "300만원",
+          "start_char": 915,
+          "end_char": 920
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 3341,
+          "end_char": 3347
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "800만원",
+          "start_char": 932,
+          "end_char": 937
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 940,
+          "end_char": 945
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "12개월",
+      "normalized": {
+        "value": 12.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "12개월",
+          "start_char": 872,
+          "end_char": 876
+        }
+      ],
+      "dedupe_key": "duration:597cd387204522ee",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 911,
+          "end_char": 914
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 3336,
+          "end_char": 3339
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "핵심 문제"
+          ],
+          "exact_quote": "1명",
+          "start_char": 405,
+          "end_char": 407
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고품질 리드의 경우, 문의 제출 직후 담당자의 구글 캘린더와 연동된 페이지를 통해 고객이 직접 미팅 일정을 30초 만에 확정할 수 있습니다. 이를 통해 미팅 전환율을 80%까지 끌어올릴 수 있습니다.",
+      "normalized": {
+        "text": "고품질 리드의 경우, 문의 제출 직후 담당자의 구글 캘린더와 연동된 페이지를 통해 고객이 직접 미팅 일정을 30초 만에 확정할 수 있습니다. 이를 통해 미팅 전환율을 80%까지 끌어올릴 수 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "저품질 리드 필터링 및 미팅 예약 자동화"
+          ],
+          "exact_quote": "고품질 리드의 경우, 문의 제출 직후 담당자의 구글 캘린더와 연동된 페이지를 통해 고객이 직접 미팅 일정을 30초 만에 확정할 수 있습니다. 이를 통해 미팅 전환율을 80%까지 끌어올릴 수 있습니다.",
+          "start_char": 2280,
+          "end_char": 2391
+        }
+      ],
+      "dedupe_key": "action_item:74df1e43f202831c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치는 리멤버와의 협업을 통해 타겟 기업의 핵심 의사결정권자에게 직접 접근하여 미팅까지 만들어내는 아웃바운드 영업 패키지를 제안했습니다.",
+      "normalized": {
+        "text": "리캐치는 리멤버와의 협업을 통해 타겟 기업의 핵심 의사결정권자에게 직접 접근하여 미팅까지 만들어내는 아웃바운드 영업 패키지를 제안했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "리캐치는 리멤버와의 협업을 통해 타겟 기업의 핵심 의사결정권자에게 직접 접근하여 미팅까지 만들어내는 아웃바운드 영업 패키지를 제안했습니다.",
+          "start_char": 2805,
+          "end_char": 2882
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf23c92af2aba725",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "컨설팅 비용:초기 도입을 돕는 온보딩 컨설팅은 약 2~3개월간 300만 원의 추가 비용으로 진행 가능합니다.",
+      "normalized": {
+        "text": "컨설팅 비용:초기 도입을 돕는 온보딩 컨설팅은 약 2~3개월간 300만 원의 추가 비용으로 진행 가능합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "컨설팅 비용:초기 도입을 돕는 온보딩 컨설팅은 약 2~3개월간 300만 원의 추가 비용으로 진행 가능합니다.",
+          "start_char": 3306,
+          "end_char": 3366
+        }
+      ],
+      "dedupe_key": "action_item:777ff503e299f66e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "향후 계획:리캐치는 미팅 내용을 바탕으로 견적서를 전달할 예정입니다.",
+      "normalized": {
+        "text": "향후 계획:리캐치는 미팅 내용을 바탕으로 견적서를 전달할 예정입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "향후 계획:리캐치는 미팅 내용을 바탕으로 견적서를 전달할 예정입니다.",
+          "start_char": 3367,
+          "end_char": 3405
+        }
+      ],
+      "dedupe_key": "collaboration_need:1792c8cbb330b459",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이너스커뮤니티는 내부 검토 후, 9월 말에서 10월 초 사이에 도입 여부를 결정할 계획입니다.",
+      "normalized": {
+        "text": "이너스커뮤니티는 내부 검토 후, 9월 말에서 10월 초 사이에 도입 여부를 결정할 계획입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "이너스커뮤니티는 내부 검토 후, 9월 말에서 10월 초 사이에 도입 여부를 결정할 계획입니다.",
+          "start_char": 3406,
+          "end_char": 3458
+        }
+      ],
+      "dedupe_key": "action_item:67ef38598f5e37c8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "5천만 원",
+          "start_char": 3098,
+          "end_char": 3103
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 3106,
+          "end_char": 3110
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1만 개",
+      "normalized": {
+        "value": 10000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "1만 개",
+          "start_char": 3200,
+          "end_char": 3204
+        }
+      ],
+      "dedupe_key": "case_metric:ea4b999f34482c9b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "3명",
+          "start_char": 3235,
+          "end_char": 3237
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 2772,
+          "end_char": 2775
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "리멤버(Remember) 연동"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2975,
+          "end_char": 2978
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

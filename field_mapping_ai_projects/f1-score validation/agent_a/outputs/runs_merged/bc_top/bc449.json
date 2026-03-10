@@ -1,0 +1,483 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W449",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "MQL",
+          "start_char": 88,
+          "end_char": 91
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현황: 문제가 두루뭉술함, VIP행사 이후 리캐치팀에 대한 호감은 있음.",
+      "normalized": {
+        "text": "현황: 문제가 두루뭉술함, VIP행사 이후 리캐치팀에 대한 호감은 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "현황: 문제가 두루뭉술함, VIP행사 이후 리캐치팀에 대한 호감은 있음.",
+          "start_char": 100,
+          "end_char": 140
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0d510ad10fbb4273",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 124,
+          "end_char": 127
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제 정의: B2B 마케팅 효과성 증명의 어려움, 대기업 특성상 마케팅 ROI 가시성 부족",
+      "normalized": {
+        "text": "문제 정의: B2B 마케팅 효과성 증명의 어려움, 대기업 특성상 마케팅 ROI 가시성 부족",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "문제 정의: B2B 마케팅 효과성 증명의 어려움, 대기업 특성상 마케팅 ROI 가시성 부족",
+          "start_char": 144,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "risk_or_concern:91dc3228c6c31225",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "블로그 링크 전달 (GEO 관련 콘텐츠)",
+      "normalized": {
+        "text": "블로그 링크 전달 (GEO 관련 콘텐츠)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "블로그 링크 전달 (GEO 관련 콘텐츠)",
+          "start_char": 226,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "collaboration_need:16288737f80da00a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 226,
+          "end_char": 229
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "3/ 고객이 처한 상황 및 문제",
+      "normalized": {
+        "text": "3/ 고객이 처한 상황 및 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "LG전자"
+          ],
+          "exact_quote": "3/ 고객이 처한 상황 및 문제",
+          "start_char": 320,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "risk_or_concern:23b9d5c01c10f5e3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "핵심 페인포인트"
+          ],
+          "exact_quote": "줌",
+          "start_char": 537,
+          "end_char": 538
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대기업 의사결정 구조: 신속한 의사결정 및 도입의 어려움",
+      "normalized": {
+        "text": "대기업 의사결정 구조: 신속한 의사결정 및 도입의 어려움",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "핵심 페인포인트"
+          ],
+          "exact_quote": "대기업 의사결정 구조: 신속한 의사결정 및 도입의 어려움",
+          "start_char": 543,
+          "end_char": 574
+        }
+      ],
+      "dedupe_key": "collaboration_need:68cb7278687a9138",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "현재 운영 현황"
+          ],
+          "exact_quote": "5명",
+          "start_char": 598,
+          "end_char": 600
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "예산 및 시스템: Salesforce 도입했으나 5% 미만 활용도",
+      "normalized": {
+        "text": "예산 및 시스템: Salesforce 도입했으나 5% 미만 활용도",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "현재 운영 현황"
+          ],
+          "exact_quote": "예산 및 시스템: Salesforce 도입했으나 5% 미만 활용도",
+          "start_char": 648,
+          "end_char": 684
+        }
+      ],
+      "dedupe_key": "collaboration_need:3323b9d62779dc0d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "김도연 팀장님은 CRM 도입에 대한 의사결정권한도 없음. 그로스패키지 진행에 대한 의사결정권한도 크게 없음",
+      "normalized": {
+        "text": "김도연 팀장님은 CRM 도입에 대한 의사결정권한도 없음. 그로스패키지 진행에 대한 의사결정권한도 크게 없음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "명확한 일정 없음 (탐색 단계)"
+          ],
+          "exact_quote": "김도연 팀장님은 CRM 도입에 대한 의사결정권한도 없음. 그로스패키지 진행에 대한 의사결정권한도 크게 없음",
+          "start_char": 767,
+          "end_char": 826
+        }
+      ],
+      "dedupe_key": "action_item:e928d480cf902069",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "특징: 4년간 B2B 마케팅 경험, 솔루션 도입에 의지는 있으나 의사결정권한이 없음.",
+      "normalized": {
+        "text": "특징: 4년간 B2B 마케팅 경험, 솔루션 도입에 의지는 있으나 의사결정권한이 없음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "김도연 팀장 (챔피언)"
+          ],
+          "exact_quote": "특징: 4년간 B2B 마케팅 경험, 솔루션 도입에 의지는 있으나 의사결정권한이 없음.",
+          "start_char": 934,
+          "end_char": 981
+        }
+      ],
+      "dedupe_key": "collaboration_need:a2362ba5698a8876",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "역할: 실무 담당자, 4년간 팀장과 협업",
+      "normalized": {
+        "text": "역할: 실무 담당자, 4년간 팀장과 협업",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "김민지 선임 (사용자)"
+          ],
+          "exact_quote": "역할: 실무 담당자, 4년간 팀장과 협업",
+          "start_char": 1003,
+          "end_char": 1025
+        }
+      ],
+      "dedupe_key": "collaboration_need:75527d7262fe6238",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "필요사항: 레퍼런스 및 ROI 증명 필요",
+      "normalized": {
+        "text": "필요사항: 레퍼런스 및 ROI 증명 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "역할: 상위 경영진 (전무급 추정)"
+          ],
+          "exact_quote": "필요사항: 레퍼런스 및 ROI 증명 필요",
+          "start_char": 1160,
+          "end_char": 1182
+        }
+      ],
+      "dedupe_key": "action_item:59201cdb9f25020e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 투자: Salesforce 등 고액 솔루션 이미 도입",
+      "normalized": {
+        "text": "기존 투자: Salesforce 등 고액 솔루션 이미 도입",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "기존 투자: Salesforce 등 고액 솔루션 이미 도입",
+          "start_char": 1251,
+          "end_char": 1283
+        }
+      ],
+      "dedupe_key": "collaboration_need:ef211aefe5f51eab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "특이사항: 급하지 않음, 장기적 관점 필요",
+      "normalized": {
+        "text": "특이사항: 급하지 않음, 장기적 관점 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            "Timeline (타임라인)"
+          ],
+          "exact_quote": "특이사항: 급하지 않음, 장기적 관점 필요",
+          "start_char": 1473,
+          "end_char": 1496
+        }
+      ],
+      "dedupe_key": "action_item:3e8c9fc41abc1fae",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 시스템 투자: Salesforce 등 고비용 솔루션 이미 도입",
+      "normalized": {
+        "text": "기존 시스템 투자: Salesforce 등 고비용 솔루션 이미 도입",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "주요 블로커"
+          ],
+          "exact_quote": "기존 시스템 투자: Salesforce 등 고비용 솔루션 이미 도입",
+          "start_char": 1561,
+          "end_char": 1598
+        }
+      ],
+      "dedupe_key": "collaboration_need:f2690759e65afdd7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "점진적 도입: 전사 도입보다 특정 부문 파일럿 제안",
+      "normalized": {
+        "text": "점진적 도입: 전사 도입보다 특정 부문 파일럿 제안",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0046",
+          "section_path": [
+            "극복 방안"
+          ],
+          "exact_quote": "점진적 도입: 전사 도입보다 특정 부문 파일럿 제안",
+          "start_char": 1782,
+          "end_char": 1810
+        }
+      ],
+      "dedupe_key": "collaboration_need:0fdc3e37a9bb37fd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "24.78",
+      "normalized": {
+        "year": 2024,
+        "month": 78,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0047",
+          "section_path": [
+            "극복 방안"
+          ],
+          "exact_quote": "24.78",
+          "start_char": 1908,
+          "end_char": 1913
+        }
+      ],
+      "dedupe_key": "timeline:3866b4a42b6c204f",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

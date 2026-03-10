@@ -1,0 +1,107 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W506",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이투마스 팀장님이 추가로 오프라인 미팅 초대 요청주실 예정(영업팀 총괄과 미팅)",
+      "normalized": {
+        "text": "이투마스 팀장님이 추가로 오프라인 미팅 초대 요청주실 예정(영업팀 총괄과 미팅)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "그로스패키지 소개서 송부"
+          ],
+          "exact_quote": "이투마스 팀장님이 추가로 오프라인 미팅 초대 요청주실 예정(영업팀 총괄과 미팅)",
+          "start_char": 145,
+          "end_char": 189
+        }
+      ],
+      "dedupe_key": "action_item:60691ae9580900e3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-Need: CRM + 그로스패키지 모두 필요한 상황, 콘텐츠: 내부 역량 부족으로 인해 블로그 및 SEO 콘텐츠 작성을 대행해 줄 파트너 필요",
+      "normalized": {
+        "text": "-Need: CRM + 그로스패키지 모두 필요한 상황, 콘텐츠: 내부 역량 부족으로 인해 블로그 및 SEO 콘텐츠 작성을 대행해 줄 파트너 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-Authority: 파악 필요"
+          ],
+          "exact_quote": "-Need: CRM + 그로스패키지 모두 필요한 상황, 콘텐츠: 내부 역량 부족으로 인해 블로그 및 SEO 콘텐츠 작성을 대행해 줄 파트너 필요",
+          "start_char": 385,
+          "end_char": 465
+        }
+      ],
+      "dedupe_key": "action_item:08765d95283c7b24",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-Authority: 파악 필요"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 441,
+          "end_char": 444
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "-Authority: 파악 필요"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 435,
+          "end_char": 438
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

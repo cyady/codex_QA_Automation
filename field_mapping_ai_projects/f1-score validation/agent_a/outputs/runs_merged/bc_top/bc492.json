@@ -1,0 +1,260 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W492",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1.2억원",
+      "normalized": {
+        "value": 120000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1.2억원",
+          "start_char": 28,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "budget:99b9e9f178ea1d03",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 90,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "보안성 검토 심의 통과를 위한 기술 사양서 보완 (2/15까지)",
+      "normalized": {
+        "text": "보안성 검토 심의 통과를 위한 기술 사양서 보완 (2/15까지)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "보안성 검토 심의 통과를 위한 기술 사양서 보완 (2/15까지)",
+          "start_char": 138,
+          "end_char": 173
+        }
+      ],
+      "dedupe_key": "action_item:e759525c2e45a305",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2/15",
+      "normalized": {
+        "month": 2,
+        "day": 15,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2/15",
+          "start_char": 166,
+          "end_char": 170
+        }
+      ],
+      "dedupe_key": "timeline:4f76f074cc2749c0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "글로벌 지사(미국, 독일) 유저 권한 분리 시나리오 확정",
+      "normalized": {
+        "text": "글로벌 지사(미국, 독일) 유저 권한 분리 시나리오 확정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "글로벌 지사(미국, 독일) 유저 권한 분리 시나리오 확정",
+          "start_char": 177,
+          "end_char": 208
+        }
+      ],
+      "dedupe_key": "action_item:f78318275e2583ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "최종 견적서 및 도입 일정표(Roadmap) 발송",
+      "normalized": {
+        "text": "최종 견적서 및 도입 일정표(Roadmap) 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "최종 견적서 및 도입 일정표(Roadmap) 발송",
+          "start_char": 212,
+          "end_char": 239
+        }
+      ],
+      "dedupe_key": "action_item:294d3ce5f771e12d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "50여 명",
+      "normalized": {
+        "value": 50,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "50여 명",
+          "start_char": 375,
+          "end_char": 380
+        }
+      ],
+      "dedupe_key": "people_count:7a7e9605d984122a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Timing: 3월 말 PoC 종료 후 4월 정식 롤아웃(Roll-out) 희망.",
+      "normalized": {
+        "text": "Timing: 3월 말 PoC 종료 후 4월 정식 롤아웃(Roll-out) 희망.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "Timing: 3월 말 PoC 종료 후 4월 정식 롤아웃(Roll-out) 희망.",
+          "start_char": 743,
+          "end_char": 788
+        }
+      ],
+      "dedupe_key": "collaboration_need:e8245f41930f3e56",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 말",
+      "normalized": {
+        "month": 3,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "3월 말",
+          "start_char": 751,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "timeline:ee8be28c4ccb24a3",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "KPI: 도입 후 3개월 내 '리드 응대 시간(Response Time)' 50% 단축.",
+      "normalized": {
+        "text": "KPI: 도입 후 3개월 내 '리드 응대 시간(Response Time)' 50% 단축.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "KPI: 도입 후 3개월 내 '리드 응대 시간(Response Time)' 50% 단축.",
+          "start_char": 809,
+          "end_char": 858
+        }
+      ],
+      "dedupe_key": "collaboration_need:66ab5f6250247b9f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 819,
+          "end_char": 822
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W349",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales1",
+      "normalized": {
+        "name": "sales1"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales1",
+          "start_char": 22,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a2aa5d974094b999",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 60,
+          "end_char": 65
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "480만원",
+      "normalized": {
+        "value": 4800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "480만원",
+          "start_char": 68,
+          "end_char": 73
+        }
+      ],
+      "dedupe_key": "budget:717baf7fc40473f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1080만원",
+      "normalized": {
+        "value": 10800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1080만원",
+          "start_char": 76,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "budget:99e6dbf5f251f61b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1000만원",
+          "start_char": 119,
+          "end_char": 125
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "200만원",
+          "start_char": 160,
+          "end_char": 165
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "100만원",
+          "start_char": 187,
+          "end_char": 192
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 179,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "190만원",
+      "normalized": {
+        "value": 1900000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "190만원",
+          "start_char": 290,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "budget:cff223ee765edf01",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "40만원",
+      "normalized": {
+        "value": 400000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "40만원",
+          "start_char": 318,
+          "end_char": 322
+        }
+      ],
+      "dedupe_key": "budget:6a02e102a5be5600",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "19만원",
+      "normalized": {
+        "value": 190000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "19만원",
+          "start_char": 331,
+          "end_char": 335
+        }
+      ],
+      "dedupe_key": "budget:a50fdb2960e67df0",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "59만원",
+      "normalized": {
+        "value": 590000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "59만원",
+          "start_char": 343,
+          "end_char": 347
+        }
+      ],
+      "dedupe_key": "budget:dc38dd40c8a74cf2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "131만원",
+      "normalized": {
+        "value": 1310000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "131만원",
+          "start_char": 377,
+          "end_char": 382
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "131만원",
+          "start_char": 404,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "budget:c6fa0b1539610b7f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가로 내야하는 비용은 1080 - 131만원 = 949만원 ( vat 별도 )*어익후 @여인찬 (Oliver) 비용 집행 강의 감사합니다! 역시 든든가이3/ 비용 집행 관련하여 대표님과 추가 소통이 필요제안방향 - 계약서 2번 쓰자",
+      "normalized": {
+        "text": "추가로 내야하는 비용은 1080 - 131만원 = 949만원 ( vat 별도 )*어익후 @여인찬 (Oliver) 비용 집행 강의 감사합니다! 역시 든든가이3/ 비용 집행 관련하여 대표님과 추가 소통이 필요제안방향 - 계약서 2번 쓰자",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "추가로 내야하는 비용은 1080 - 131만원 = 949만원 ( vat 별도 )*어익후 @여인찬 (Oliver) 비용 집행 강의 감사합니다! 역시 든든가이3/ 비용 집행 관련하여 대표님과 추가 소통이 필요제안방향 - 계약서 2번 쓰자",
+          "start_char": 384,
+          "end_char": 514
+        }
+      ],
+      "dedupe_key": "action_item:23284290cb3973f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 433,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "949만원",
+      "normalized": {
+        "value": 9490000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "949만원",
+          "start_char": 412,
+          "end_char": 417
+        }
+      ],
+      "dedupe_key": "budget:bcbbc3a961254f4d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "차액은 별도 계약서로 한번 쓰는 것이 필요",
+      "normalized": {
+        "text": "차액은 별도 계약서로 한번 쓰는 것이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "클라우드 바우처 결제 방식 전달"
+          ],
+          "exact_quote": "차액은 별도 계약서로 한번 쓰는 것이 필요",
+          "start_char": 541,
+          "end_char": 564
+        }
+      ],
+      "dedupe_key": "action_item:dc6ae67de72341e2",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

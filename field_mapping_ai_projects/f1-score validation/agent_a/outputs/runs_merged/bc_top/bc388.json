@@ -1,0 +1,260 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W388",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "251204_유한킴벌리 팔로업이메일 발송 완료[리캐치] 유한킴벌리 웹사이트를 '24시간 일하는 영업사원'으로 만들기 위한 전략 제안김충일 팀장님, 김현빈 매니저님 안녕하세요.",
+      "normalized": {
+        "text": "251204_유한킴벌리 팔로업이메일 발송 완료[리캐치] 유한킴벌리 웹사이트를 '24시간 일하는 영업사원'으로 만들기 위한 전략 제안김충일 팀장님, 김현빈 매니저님 안녕하세요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "251204_유한킴벌리 팔로업이메일 발송 완료[리캐치] 유한킴벌리 웹사이트를 '24시간 일하는 영업사원'으로 만들기 위한 전략 제안김충일 팀장님, 김현빈 매니저님 안녕하세요.",
+          "start_char": 0,
+          "end_char": 97
+        }
+      ],
+      "dedupe_key": "action_item:cbd9fc57ba09e4cd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "오늘 유한킴벌리의 B2B 비즈니스 현황과 고민을 깊이 있게 나눌 수 있어 진심으로 감사했습니다.특히 단순한 웹사이트 개편을 넘어, '실질적인 영업 기회 창출'에 대해 두 분과 뜻깊은 공감대를 형성할 수 있어 매우 유익한 시간이었습니다.미팅 중 논의되었던 향후 실행 계획과 내부 보고 및 설득을 위해 요청하신 분석 자료를 정리하여 공유드립니다.1/ [첨부] 웹사이트 SEO 진단 보고서",
+      "normalized": {
+        "text": "오늘 유한킴벌리의 B2B 비즈니스 현황과 고민을 깊이 있게 나눌 수 있어 진심으로 감사했습니다.특히 단순한 웹사이트 개편을 넘어, '실질적인 영업 기회 창출'에 대해 두 분과 뜻깊은 공감대를 형성할 수 있어 매우 유익한 시간이었습니다.미팅 중 논의되었던 향후 실행 계획과 내부 보고 및 설득을 위해 요청하신 분석 자료를 정리하여 공유드립니다.1/ [첨부] 웹사이트 SEO 진단 보고서",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오늘 유한킴벌리의 B2B 비즈니스 현황과 고민을 깊이 있게 나눌 수 있어 진심으로 감사했습니다.특히 단순한 웹사이트 개편을 넘어, '실질적인 영업 기회 창출'에 대해 두 분과 뜻깊은 공감대를 형성할 수 있어 매우 유익한 시간이었습니다.미팅 중 논의되었던 향후 실행 계획과 내부 보고 및 설득을 위해 요청하신 분석 자료를 정리하여 공유드립니다.1/ [첨부] 웹사이트 SEO 진단 보고서",
+          "start_char": 98,
+          "end_char": 312
+        }
+      ],
+      "dedupe_key": "action_item:f481b909f7fa6ca7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "24시간",
+      "normalized": {
+        "value": 24.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "24시간",
+          "start_char": 44,
+          "end_char": 48
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "24시간",
+          "start_char": 912,
+          "end_char": 916
+        }
+      ],
+      "dedupe_key": "duration:370393945fedda2f",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 302,
+          "end_char": 305
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 26,
+          "end_char": 29
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1262,
+          "end_char": 1265
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "2/ [이미지] 현재 웹사이트의 평균 체류 시간이 약 18초로, 고객 이탈이 높게 발생하고 있다는 점 공유",
+      "normalized": {
+        "text": "2/ [이미지] 현재 웹사이트의 평균 체류 시간이 약 18초로, 고객 이탈이 높게 발생하고 있다는 점 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "2/ [이미지] 현재 웹사이트의 평균 체류 시간이 약 18초로, 고객 이탈이 높게 발생하고 있다는 점 공유",
+          "start_char": 821,
+          "end_char": 880
+        }
+      ],
+      "dedupe_key": "collaboration_need:5fa5b0fd20189fee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "활용 방안: 웹사이트가 단순 카탈로그를 넘어 '24시간 일하는 영업사원'으로 기능하기 위해, 왜 지금 변화가 필요한지를 증명하는 근거 자료로 활용해 주십시오.",
+      "normalized": {
+        "text": "활용 방안: 웹사이트가 단순 카탈로그를 넘어 '24시간 일하는 영업사원'으로 기능하기 위해, 왜 지금 변화가 필요한지를 증명하는 근거 자료로 활용해 주십시오.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "활용 방안: 웹사이트가 단순 카탈로그를 넘어 '24시간 일하는 영업사원'으로 기능하기 위해, 왜 지금 변화가 필요한지를 증명하는 근거 자료로 활용해 주십시오.",
+          "start_char": 886,
+          "end_char": 974
+        }
+      ],
+      "dedupe_key": "action_item:d7f052120327f5bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ 전사 B2B 마케팅 및 웹사이트 전략 초청 강연 진행 팀장님께서 제안 주신 대로, 커스터머 마케팅팀뿐만 아니라 카테고리 마케팅, 유한에스앤아이, 헬스케어 등 사내 타 부서의 이해도를 높이기 위한 출장 강연(세미나)을 적극 지원하겠습니다.",
+      "normalized": {
+        "text": "3/ 전사 B2B 마케팅 및 웹사이트 전략 초청 강연 진행 팀장님께서 제안 주신 대로, 커스터머 마케팅팀뿐만 아니라 카테고리 마케팅, 유한에스앤아이, 헬스케어 등 사내 타 부서의 이해도를 높이기 위한 출장 강연(세미나)을 적극 지원하겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "3/ 전사 B2B 마케팅 및 웹사이트 전략 초청 강연 진행 팀장님께서 제안 주신 대로, 커스터머 마케팅팀뿐만 아니라 카테고리 마케팅, 유한에스앤아이, 헬스케어 등 사내 타 부서의 이해도를 높이기 위한 출장 강연(세미나)을 적극 지원하겠습니다.",
+          "start_char": 976,
+          "end_char": 1111
+        }
+      ],
+      "dedupe_key": "action_item:3c15aa52756d35f3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "진행: 팀장님께서 적절한 자리를 마련해 주시면, 저희가 방문하여 인사이트를 공유하고 힘을 실어드리겠습니다,.",
+      "normalized": {
+        "text": "진행: 팀장님께서 적절한 자리를 마련해 주시면, 저희가 방문하여 인사이트를 공유하고 힘을 실어드리겠습니다,.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "진행: 팀장님께서 적절한 자리를 마련해 주시면, 저희가 방문하여 인사이트를 공유하고 힘을 실어드리겠습니다,.",
+          "start_char": 1178,
+          "end_char": 1238
+        }
+      ],
+      "dedupe_key": "action_item:2d05e2347a4b29af",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희 또한 현빈님의 실행력과 팀장님의 전략이 구체적인 성과로 이어질 수 있도록 최선을 다해 돕겠습니다.자료 검토 후 강연 일정이나 추가로 필요한 사항이 있으시면 언제든 편하게 말씀 부탁드립니다.감사합니다.",
+      "normalized": {
+        "text": "저희 또한 현빈님의 실행력과 팀장님의 전략이 구체적인 성과로 이어질 수 있도록 최선을 다해 돕겠습니다.자료 검토 후 강연 일정이나 추가로 필요한 사항이 있으시면 언제든 편하게 말씀 부탁드립니다.감사합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "도메인 점수 (Domain Rating)"
+          ],
+          "exact_quote": "저희 또한 현빈님의 실행력과 팀장님의 전략이 구체적인 성과로 이어질 수 있도록 최선을 다해 돕겠습니다.자료 검토 후 강연 일정이나 추가로 필요한 사항이 있으시면 언제든 편하게 말씀 부탁드립니다.감사합니다.",
+          "start_char": 1310,
+          "end_char": 1424
+        }
+      ],
+      "dedupe_key": "action_item:e79a3b4f824f404f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

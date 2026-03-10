@@ -1,0 +1,250 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W463",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버가 직접 영업한 ABM 패키지 \"법무법인대륙아주\"(티어2, 1000억 이상) 수주 임박 @sales @growth*토탈 패키지 가격 7,000만원(리캐치 몫 3,500만원)일단 리멤버 영업 단계에서 수주는 거의 확실시 되었고, 최종적으로 프로젝트 진행방식 + 타임라인 조율하는 미팅이 남았습니다.",
+      "normalized": {
+        "text": "리멤버가 직접 영업한 ABM 패키지 \"법무법인대륙아주\"(티어2, 1000억 이상) 수주 임박 @sales @growth*토탈 패키지 가격 7,000만원(리캐치 몫 3,500만원)일단 리멤버 영업 단계에서 수주는 거의 확실시 되었고, 최종적으로 프로젝트 진행방식 + 타임라인 조율하는 미팅이 남았습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리멤버가 직접 영업한 ABM 패키지 \"법무법인대륙아주\"(티어2, 1000억 이상) 수주 임박 @sales @growth*토탈 패키지 가격 7,000만원(리캐치 몫 3,500만원)일단 리멤버 영업 단계에서 수주는 거의 확실시 되었고, 최종적으로 프로젝트 진행방식 + 타임라인 조율하는 미팅이 남았습니다.",
+          "start_char": 81,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "action_item:4ae22478705bcf54",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "우리가 착수 가능한 일정에 대해 솔직하게 리멤버팀에게 소통하는 게 필요합니다.다행히 대륙아주는 \"지금 당장\" 착수해야한다는 분위기는 아닌가봅니다. cc @김우진(Woojin Andy Kim)*참고: 아직 리멤버팀에게 <공식적으로> 우리 프로젝트 리소스가 매우 부족하다고 메시지가 나간 적 없습니다.",
+      "normalized": {
+        "text": "우리가 착수 가능한 일정에 대해 솔직하게 리멤버팀에게 소통하는 게 필요합니다.다행히 대륙아주는 \"지금 당장\" 착수해야한다는 분위기는 아닌가봅니다. cc @김우진(Woojin Andy Kim)*참고: 아직 리멤버팀에게 <공식적으로> 우리 프로젝트 리소스가 매우 부족하다고 메시지가 나간 적 없습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "우리가 착수 가능한 일정에 대해 솔직하게 리멤버팀에게 소통하는 게 필요합니다.다행히 대륙아주는 \"지금 당장\" 착수해야한다는 분위기는 아닌가봅니다. cc @김우진(Woojin Andy Kim)*참고: 아직 리멤버팀에게 <공식적으로> 우리 프로젝트 리소스가 매우 부족하다고 메시지가 나간 적 없습니다.",
+          "start_char": 314,
+          "end_char": 480
+        }
+      ],
+      "dedupe_key": "action_item:6eb07b464d89c5ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 133,
+          "end_char": 139
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@growth",
+          "start_char": 140,
+          "end_char": 147
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 254,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 265,
+          "end_char": 269
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 399,
+          "end_char": 403
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 160,
+          "end_char": 165
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 174,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 93,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 166,
+          "end_char": 169
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

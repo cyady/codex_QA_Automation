@@ -1,0 +1,216 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W7",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 회신 옴!뭔가 가능성이 높아진 느낌을 주는 메일입니다. @sales @안민혁 (minhyuk)",
+      "normalized": {
+        "text": "Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 회신 옴!뭔가 가능성이 높아진 느낌을 주는 메일입니다. @sales @안민혁 (minhyuk)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier2-잠재 매출 약 5,000만원] CJ 대한통운 전아련 팀장님 회신 옴!뭔가 가능성이 높아진 느낌을 주는 메일입니다. @sales @안민혁 (minhyuk)",
+          "start_char": 0,
+          "end_char": 91
+        }
+      ],
+      "dedupe_key": "action_item:cf73aa93ed685b64",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+      "normalized": {
+        "text": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "지난 금요일에 보낸 메일에 좋은 반응을 보여주신 셈인데요,MDP를 구축하는 일이 결국은 \"영업사원에게 무기를 쥐어주기 위함\"이라는 것에 설득력을 더해줄 사례가 더 필요해보이네요.--",
+          "start_char": 92,
+          "end_char": 193
+        }
+      ],
+      "dedupe_key": "action_item:fc19029be3b6a974",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+      "normalized": {
+        "text": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "빠른 진행을 예상했던지라 내부 리소스도 안배에도 고려해주고 계셨을텐데요, 양해해주셔서 감사합니다.지난주 금요일 그룹 내 협의체를 만들어 첫 미팅을 가졌고, 금주엔 그룹장님 보고가 예정되어 있습니다.",
+          "start_char": 234,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "action_item:22c81ec5dc22dd20",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+      "normalized": {
+        "text": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "프로젝트에 대한 기대와 목표가 확대되었으나, 리캐치 협업 롤이나 방향성은 크게 달라지지 않을 것 입니다.한가지 우려 사항은, 더 운반의 성공사례가 한번도 콘텐츠/자산화 작업이 진행되지 않았다는 점 입니다.",
+          "start_char": 345,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cc07504208e7e312",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+      "normalized": {
+        "text": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "하여 9월은 마케팅에서 영업/유관부서와 밀접하게 협업하며 정보 수집 및 DB화에 집중할 예정입니다.영업사원/유관부서에서 '우리에게 도움이 되겠구나'를 체감할 수 있는 사례를 더 보내주셔도 감사하겠습니다.",
+          "start_char": 460,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "collaboration_need:00674e5851929134",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 70,
+          "end_char": 76
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 77,
+          "end_char": 81
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 16,
+          "end_char": 21
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 370,
+          "end_char": 373
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 576,
+          "end_char": 579
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W464",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 64,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "핀란드계 기업"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 168,
+          "end_char": 172
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "핀란드계 기업"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 153,
+          "end_char": 156
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "핀란드계 기업"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 221,
+          "end_char": 224
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "멀티스레딩 참고사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 301,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "DB 확보 관련해 리멤버 제안서 검토했으나 비용 문제로 보류하고, 제안서에서 리캐치 알게 되어 문의함",
+      "normalized": {
+        "text": "DB 확보 관련해 리멤버 제안서 검토했으나 비용 문제로 보류하고, 제안서에서 리캐치 알게 되어 문의함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "핀란드계 기업"
+          ],
+          "exact_quote": "DB 확보 관련해 리멤버 제안서 검토했으나 비용 문제로 보류하고, 제안서에서 리캐치 알게 되어 문의함",
+          "start_char": 178,
+          "end_char": 234
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c6caee4b72925567",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1~2주 뒤 아시아 마케팅 대표와의 미팅이 예정되어 있으며, 이야기가 잘 되면 이때 리캐치와의 협업을 승인을 받을 수도 있다고 함",
+      "normalized": {
+        "text": "1~2주 뒤 아시아 마케팅 대표와의 미팅이 예정되어 있으며, 이야기가 잘 되면 이때 리캐치와의 협업을 승인을 받을 수도 있다고 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "멀티스레딩 참고사항"
+          ],
+          "exact_quote": "1~2주 뒤 아시아 마케팅 대표와의 미팅이 예정되어 있으며, 이야기가 잘 되면 이때 리캐치와의 협업을 승인을 받을 수도 있다고 함",
+          "start_char": 254,
+          "end_char": 326
+        }
+      ],
+      "dedupe_key": "collaboration_need:432b77353cdcc337",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "멀티스레딩 참고사항"
+          ],
+          "exact_quote": "2주",
+          "start_char": 256,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 수립, 클로징은 영업팀 담당 -> 미팅 수립까지의 니즈가 마케팅팀 단에선 없음",
+      "normalized": {
+        "text": "미팅 수립, 클로징은 영업팀 담당 -> 미팅 수립까지의 니즈가 마케팅팀 단에선 없음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "미팅 수립, 클로징은 영업팀 담당 -> 미팅 수립까지의 니즈가 마케팅팀 단에선 없음",
+          "start_char": 524,
+          "end_char": 570
+        }
+      ],
+      "dedupe_key": "action_item:8af09702dcaf2d13",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실무 담당자로 1차 검토 후 상위 결정권자(아시아 마케팅 대표)에게 승인 요청 예정",
+      "normalized": {
+        "text": "실무 담당자로 1차 검토 후 상위 결정권자(아시아 마케팅 대표)에게 승인 요청 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "실무 담당자로 1차 검토 후 상위 결정권자(아시아 마케팅 대표)에게 승인 요청 예정",
+          "start_char": 605,
+          "end_char": 651
+        }
+      ],
+      "dedupe_key": "action_item:1c0e88b7b96a3a5d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

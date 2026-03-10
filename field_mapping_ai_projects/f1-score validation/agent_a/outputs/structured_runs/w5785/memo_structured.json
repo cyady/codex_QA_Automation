@@ -1,0 +1,36 @@
+{
+  "memo_id": "M-W5785",
+  "text": "[251021-화]\n\n의제\n\n\n\n\n\n후프코리아 현장의 자동화 도입 배경 및 방향성 공유\n\n\n\n적합한 AMR 논의\n\n\n\n향후 도입 일정 및 검토 절차\n\n미팅내용\n\n\n\n\n\n생산방식 : 작업자 수작업 중심, 일부 구간 협동로봇 사용\n\n\n\n도입 배경 : 본사 측, One-Piece Flow 방식 전환 요구에 따라 EOL 공정 내 병목현상 예방 및 생산성 증대\n\n\n\n구상 장비 :\n\n\n\n\n\n주요 장비 : 1단 동력형 간이 버퍼\n\n\n\n보조 장비 : 리프트형 AMR\n\n\n\n관제 장비 : Nepler (Cloud)\n\n\n\n도입 구간 :\n\n\n\n\n\nKey 라인 (전체 Layout : 10m x 08m) : 간이버퍼 7대 + M2-L (동력형) 2대 + 무선충전스테이션 1대\n\n\n\nSSB라인 (전체 Layout : 05m x 04m) : 간이버퍼 2대 + M2-L (동력형) 1대 + 무선충전스테이션 1대\n\n\n\n견적서 발급 요청 라인 당 1부의 견적서 요청\n\n\n\n\n\n(당사 내부 판단) : 라인 투어 결과, Nepler 불필요\n\n향후일정\n\n\n\n\n\n명일까지 가견적(Key라인 및 SSB라인) 2부 전달 요청",
+  "sections": [
+    {
+      "title": "의제",
+      "body": "후프코리아 현장의 자동화 도입 배경 및 방향성 공유",
+      "bullet_items": []
+    },
+    {
+      "title": "적합한 AMR 논의",
+      "body": "향후 도입 일정 및 검토 절차",
+      "bullet_items": []
+    },
+    {
+      "title": "미팅내용",
+      "body": "생산방식 : 작업자 수작업 중심, 일부 구간 협동로봇 사용\n\n\n\n도입 배경 : 본사 측, One-Piece Flow 방식 전환 요구에 따라 EOL 공정 내 병목현상 예방 및 생산성 증대",
+      "bullet_items": []
+    },
+    {
+      "title": "구상 장비 :",
+      "body": "주요 장비 : 1단 동력형 간이 버퍼\n\n\n\n보조 장비 : 리프트형 AMR\n\n\n\n관제 장비 : Nepler (Cloud)",
+      "bullet_items": []
+    },
+    {
+      "title": "도입 구간 :",
+      "body": "Key 라인 (전체 Layout : 10m x 08m) : 간이버퍼 7대 + M2-L (동력형) 2대 + 무선충전스테이션 1대\n\n\n\nSSB라인 (전체 Layout : 05m x 04m) : 간이버퍼 2대 + M2-L (동력형) 1대 + 무선충전스테이션 1대\n\n\n\n견적서 발급 요청 라인 당 1부의 견적서 요청\n\n\n\n\n\n(당사 내부 판단) : 라인 투어 결과, Nepler 불필요",
+      "bullet_items": []
+    },
+    {
+      "title": "향후일정",
+      "body": "명일까지 가견적(Key라인 및 SSB라인) 2부 전달 요청",
+      "bullet_items": []
+    }
+  ]
+}

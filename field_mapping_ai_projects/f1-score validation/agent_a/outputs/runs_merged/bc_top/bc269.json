@@ -1,0 +1,439 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W269",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.1. BANT 기반 미팅 요약Budget (예산)",
+      "normalized": {
+        "text": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.1. BANT 기반 미팅 요약Budget (예산)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.1. BANT 기반 미팅 요약Budget (예산)",
+          "start_char": 56,
+          "end_char": 158
+        }
+      ],
+      "dedupe_key": "action_item:0df72f1ea802fa83",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "25만 원",
+          "start_char": 173,
+          "end_char": 178
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "25만 원",
+          "start_char": 249,
+          "end_char": 254
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 1249,
+          "end_char": 1254
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 1642,
+          "end_char": 1647
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 30만 원",
+      "normalized": {
+        "value": 300000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "약 30만 원",
+          "start_char": 195,
+          "end_char": 202
+        }
+      ],
+      "dedupe_key": "budget:a65ab2e87b1f2eff",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 239,
+          "end_char": 242
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 1014,
+          "end_char": 1017
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.",
+      "normalized": {
+        "text": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "대표님(참석자 1)은 현재 엑셀 관리의 한계를 명확히 느끼고 있으며, 솔루션 도입 필요성에 대해 긍정적인 신호를 여러 차례 보였습니다.",
+          "start_char": 383,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "action_item:562aae32447d8da4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 상황: 별도의 마케팅 예산이 책정된 상태는 아니지만, 솔루션 도입 비용에 대해서는 거부감이 없는 상태입니다.Authority (결정권)",
+      "normalized": {
+        "text": "• 상황: 별도의 마케팅 예산이 책정된 상태는 아니지만, 솔루션 도입 비용에 대해서는 거부감이 없는 상태입니다.Authority (결정권)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "• 상황: 별도의 마케팅 예산이 책정된 상태는 아니지만, 솔루션 도입 비용에 대해서는 거부감이 없는 상태입니다.Authority (결정권)",
+          "start_char": 459,
+          "end_char": 536
+        }
+      ],
+      "dedupe_key": "collaboration_need:ae9315f27ce9674a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 즉각적 판단 가능: 마케팅 집행(메타 광고 등)이나 시스템 도입에 대해 본인이 직접 판단하고 실행하는 위치에 있습니다.Need (니즈)",
+      "normalized": {
+        "text": "• 즉각적 판단 가능: 마케팅 집행(메타 광고 등)이나 시스템 도입에 대해 본인이 직접 판단하고 실행하는 위치에 있습니다.Need (니즈)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "• 즉각적 판단 가능: 마케팅 집행(메타 광고 등)이나 시스템 도입에 대해 본인이 직접 판단하고 실행하는 위치에 있습니다.Need (니즈)",
+          "start_char": 588,
+          "end_char": 665
+        }
+      ],
+      "dedupe_key": "collaboration_need:027e690456edac8f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 608,
+          "end_char": 610
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 기존 방식의 한계: 엑셀과 메신저로 영업 현황을 관리하고 있으나, 데이터 관리가 어렵고 노션 도입도 실패한 경험이 있어 체계적인 툴을 원하고 있습니다. 6666",
+      "normalized": {
+        "text": "• 기존 방식의 한계: 엑셀과 메신저로 영업 현황을 관리하고 있으나, 데이터 관리가 어렵고 노션 도입도 실패한 경험이 있어 체계적인 툴을 원하고 있습니다. 6666",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "• 기존 방식의 한계: 엑셀과 메신저로 영업 현황을 관리하고 있으나, 데이터 관리가 어렵고 노션 도입도 실패한 경험이 있어 체계적인 툴을 원하고 있습니다. 6666",
+          "start_char": 666,
+          "end_char": 757
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5a5246ee38f8499c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• 영업 프로세스 가시화: 바이어와의 컨택, 제안, 회신 여부 등 영업 단계를 명확히 시각화(파이프라인)하여 관리하고자 하는 니즈가 큽니다.",
+      "normalized": {
+        "text": "• 영업 프로세스 가시화: 바이어와의 컨택, 제안, 회신 여부 등 영업 단계를 명확히 시각화(파이프라인)하여 관리하고자 하는 니즈가 큽니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "• 영업 프로세스 가시화: 바이어와의 컨택, 제안, 회신 여부 등 영업 단계를 명확히 시각화(파이프라인)하여 관리하고자 하는 니즈가 큽니다.",
+          "start_char": 761,
+          "end_char": 839
+        }
+      ],
+      "dedupe_key": "action_item:9f1a9c2b1da09ffb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 수출/영업 데이터 자산화: 담당자별 실적, 국가별 매출 등을 데이터로 확인하고 의사결정의 보조 도구로 활용하고 싶어 합니다.Timing (도입 시기)",
+      "normalized": {
+        "text": "• 수출/영업 데이터 자산화: 담당자별 실적, 국가별 매출 등을 데이터로 확인하고 의사결정의 보조 도구로 활용하고 싶어 합니다.Timing (도입 시기)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "• 수출/영업 데이터 자산화: 담당자별 실적, 국가별 매출 등을 데이터로 확인하고 의사결정의 보조 도구로 활용하고 싶어 합니다.Timing (도입 시기)",
+          "start_char": 840,
+          "end_char": 925
+        }
+      ],
+      "dedupe_key": "collaboration_need:847b7f2caa502f3f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• 빠른 의사결정 예고: \"빠른 시간 안에 의사결정을 하겠다\"라고 명확히 언급했습니다.• 즉시 테스트 희망: 2~3일 정도의 짧은 테스트 기간을 원했으나, '1개월 유료 사용' 제안을 수락하며 바로 시스템을 사용해보고자 하는 의지가 있습니다.2. 클로징 확률 및 판단 근거",
+      "normalized": {
+        "text": "• 빠른 의사결정 예고: \"빠른 시간 안에 의사결정을 하겠다\"라고 명확히 언급했습니다.• 즉시 테스트 희망: 2~3일 정도의 짧은 테스트 기간을 원했으나, '1개월 유료 사용' 제안을 수락하며 바로 시스템을 사용해보고자 하는 의지가 있습니다.2. 클로징 확률 및 판단 근거",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "• 빠른 의사결정 예고: \"빠른 시간 안에 의사결정을 하겠다\"라고 명확히 언급했습니다.• 즉시 테스트 희망: 2~3일 정도의 짧은 테스트 기간을 원했으나, '1개월 유료 사용' 제안을 수락하며 바로 시스템을 사용해보고자 하는 의지가 있습니다.2. 클로징 확률 및 판단 근거",
+          "start_char": 926,
+          "end_char": 1078
+        }
+      ],
+      "dedupe_key": "collaboration_need:4c971f8f52522d18",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3일",
+      "normalized": {
+        "value": 3.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "3일",
+          "start_char": 989,
+          "end_char": 991
+        }
+      ],
+      "dedupe_key": "duration:14f2464143f2dd06",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객은 노션과 엑셀 관리의 실패를 인정했고, 리캐치의 대시보드와 파이프라인 기능을 보고 \"완성되어 있는 툴이다\", \"우리 회사에 필요한 부분이다\"라고 명확히 인정했습니다.",
+      "normalized": {
+        "text": "고객은 노션과 엑셀 관리의 실패를 인정했고, 리캐치의 대시보드와 파이프라인 기능을 보고 \"완성되어 있는 툴이다\", \"우리 회사에 필요한 부분이다\"라고 명확히 인정했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "고객은 노션과 엑셀 관리의 실패를 인정했고, 리캐치의 대시보드와 파이프라인 기능을 보고 \"완성되어 있는 툴이다\", \"우리 회사에 필요한 부분이다\"라고 명확히 인정했습니다.",
+          "start_char": 1352,
+          "end_char": 1447
+        }
+      ],
+      "dedupe_key": "action_item:33285d0a97f7918d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1377,
+          "end_char": 1380
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈 담당자와 고객 모두 '알제리/북아프리카'라는 공통된 경험을 공유하며 대화 분위기가 매우 부드럽게 풀렸습니다. 이는 향후 온보딩이나 추가 커뮤니케이션에서 긍정적인 요소로 작용할 것입니다.",
+      "normalized": {
+        "text": "세일즈 담당자와 고객 모두 '알제리/북아프리카'라는 공통된 경험을 공유하며 대화 분위기가 매우 부드럽게 풀렸습니다. 이는 향후 온보딩이나 추가 커뮤니케이션에서 긍정적인 요소로 작용할 것입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "세일즈 담당자와 고객 모두 '알제리/북아프리카'라는 공통된 경험을 공유하며 대화 분위기가 매우 부드럽게 풀렸습니다. 이는 향후 온보딩이나 추가 커뮤니케이션에서 긍정적인 요소로 작용할 것입니다.",
+          "start_char": 1475,
+          "end_char": 1582
+        }
+      ],
+      "dedupe_key": "collaboration_need:c96347cca20f632c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "무료 체험이 없다는 세일즈 담당자의 말에 거부감을 보이기보다, 25만 원을 내고서라도 한 달 테스트를 해보겠다는 입장을 취했습니다. 이는 도입 의지가 단순 호기심을 넘어섰음을 의미합니다.",
+      "normalized": {
+        "text": "무료 체험이 없다는 세일즈 담당자의 말에 거부감을 보이기보다, 25만 원을 내고서라도 한 달 테스트를 해보겠다는 입장을 취했습니다. 이는 도입 의지가 단순 호기심을 넘어섰음을 의미합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "케팅"
+          ],
+          "exact_quote": "무료 체험이 없다는 세일즈 담당자의 말에 거부감을 보이기보다, 25만 원을 내고서라도 한 달 테스트를 해보겠다는 입장을 취했습니다. 이는 도입 의지가 단순 호기심을 넘어섰음을 의미합니다.",
+          "start_char": 1607,
+          "end_char": 1711
+        }
+      ],
+      "dedupe_key": "collaboration_need:14777f7f955be0a9",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

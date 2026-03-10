@@ -1,0 +1,890 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W340",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "62.73",
+      "normalized": {
+        "year": 2062,
+        "month": 73,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "62.73",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:134eff1db178f5e9",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1016) 휴비츠 신사업_릴리비스 세일즈 미팅 공유 cc @sales미팅 리뷰 및 결론",
+      "normalized": {
+        "text": "1016) 휴비츠 신사업_릴리비스 세일즈 미팅 공유 cc @sales미팅 리뷰 및 결론",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1016) 휴비츠 신사업_릴리비스 세일즈 미팅 공유 cc @sales미팅 리뷰 및 결론",
+          "start_char": 125,
+          "end_char": 173
+        }
+      ],
+      "dedupe_key": "collaboration_need:1200dc0015f32105",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales미팅",
+      "normalized": {
+        "name": "sales미팅"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales미팅",
+          "start_char": 157,
+          "end_char": 165
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d6227daa6b22e460",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "진행한다면, 커스텀 플랜에 속해 후속 미팅이 추가 필요",
+      "normalized": {
+        "text": "진행한다면, 커스텀 플랜에 속해 후속 미팅이 추가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "진행한다면, 커스텀 플랜에 속해 후속 미팅이 추가 필요",
+          "start_char": 226,
+          "end_char": 256
+        }
+      ],
+      "dedupe_key": "action_item:b6f3bf61a4737371",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 수석님과 달리 마케팅팀은 그로스 패키지에 관심을 보여, 해당 플랜으로 딜 메이드 유도 필요",
+      "normalized": {
+        "text": "다만, 수석님과 달리 마케팅팀은 그로스 패키지에 관심을 보여, 해당 플랜으로 딜 메이드 유도 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "다만, 수석님과 달리 마케팅팀은 그로스 패키지에 관심을 보여, 해당 플랜으로 딜 메이드 유도 필요",
+          "start_char": 260,
+          "end_char": 314
+        }
+      ],
+      "dedupe_key": "action_item:fdfa6f01c91e3a05",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 말",
+      "normalized": {
+        "month": 10,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도입 시점: 내년"
+          ],
+          "exact_quote": "10월 말",
+          "start_char": 384,
+          "end_char": 389
+        }
+      ],
+      "dedupe_key": "timeline:ad97181229af6305",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 초",
+      "normalized": {
+        "month": 11,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도입 시점: 내년"
+          ],
+          "exact_quote": "11월 초",
+          "start_char": 392,
+          "end_char": 397
+        }
+      ],
+      "dedupe_key": "timeline:cf585d9297320d31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 내용 정리 메일 및 감사 인사 발송",
+      "normalized": {
+        "text": "미팅 내용 정리 메일 및 감사 인사 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "미팅 내용 정리 메일 및 감사 인사 발송",
+          "start_char": 490,
+          "end_char": 512
+        }
+      ],
+      "dedupe_key": "action_item:4ba6ad7bd90dc985",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "핵심 과제: 신사업 리드 확보가 주요 선행 목표",
+      "normalized": {
+        "text": "핵심 과제: 신사업 리드 확보가 주요 선행 목표",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "핵심 과제: 신사업 리드 확보가 주요 선행 목표",
+          "start_char": 575,
+          "end_char": 601
+        }
+      ],
+      "dedupe_key": "collaboration_need:74107cee842ff88e",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드 제너레이션 채널: 해외 전문지 채널을 통해 이메일만 수집",
+      "normalized": {
+        "text": "리드 제너레이션 채널: 해외 전문지 채널을 통해 이메일만 수집",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "리드 제너레이션 채널: 해외 전문지 채널을 통해 이메일만 수집",
+          "start_char": 607,
+          "end_char": 641
+        }
+      ],
+      "dedupe_key": "collaboration_need:a50429a38b321d9d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "→ 콜드 리드 약 200~300개 수준",
+      "normalized": {
+        "text": "→ 콜드 리드 약 200~300개 수준",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "→ 콜드 리드 약 200~300개 수준",
+          "start_char": 648,
+          "end_char": 669
+        }
+      ],
+      "dedupe_key": "collaboration_need:9bccece17b9becf5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "200~300개",
+      "normalized": {
+        "min": 200.0,
+        "max": 300.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "200~300개",
+          "start_char": 658,
+          "end_char": 666
+        }
+      ],
+      "dedupe_key": "case_metric:ad1c69cabe35c2dc",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+      "normalized": {
+        "text": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+          "start_char": 673,
+          "end_char": 705
+        }
+      ],
+      "dedupe_key": "collaboration_need:8e734c4931faa995",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+      "normalized": {
+        "text": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "기존 DB를 대상으로 한 너처링 전략은 부재한 것으로 추정",
+          "start_char": 673,
+          "end_char": 705
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2dae80444fd210cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "국내는 수요가 있지만 태동기, MS 및 수요 규모는 절대적으로 글로벌이 우위에 있음",
+      "normalized": {
+        "text": "국내는 수요가 있지만 태동기, MS 및 수요 규모는 절대적으로 글로벌이 우위에 있음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "국내는 수요가 있지만 태동기, MS 및 수요 규모는 절대적으로 글로벌이 우위에 있음",
+          "start_char": 709,
+          "end_char": 755
+        }
+      ],
+      "dedupe_key": "collaboration_need:e72d31462cb99d77",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+      "normalized": {
+        "text": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+          "start_char": 759,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "collaboration_need:29b4b89a3f671981",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+      "normalized": {
+        "text": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "마케팅 인력이 최근 신사업에 합류하여 구체적 리드 확보 전략 설계 필요",
+          "start_char": 759,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "action_item:6f0c755f47bf1ebf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+      "normalized": {
+        "text": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+          "start_char": 800,
+          "end_char": 827
+        }
+      ],
+      "dedupe_key": "collaboration_need:5bab42f36018adb0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+      "normalized": {
+        "text": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "Needs"
+          ],
+          "exact_quote": "온도감 있는 신규 리드 확보가 필요제품 관련 문의",
+          "start_char": 800,
+          "end_char": 827
+        }
+      ],
+      "dedupe_key": "action_item:88bd92d3cf456d8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "글로벌은 주로 딜러를 통해 판매하며, VOC 전달이 원활하지 않음.",
+      "normalized": {
+        "text": "글로벌은 주로 딜러를 통해 판매하며, VOC 전달이 원활하지 않음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "그룹웨어(이메일) 연동 가능 여부"
+          ],
+          "exact_quote": "글로벌은 주로 딜러를 통해 판매하며, VOC 전달이 원활하지 않음.",
+          "start_char": 926,
+          "end_char": 963
+        }
+      ],
+      "dedupe_key": "collaboration_need:1a7212386dfd07ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "해당 소프트웨어가 CRM과 연동되어 데이터가 자동 수집되기를 희망함.",
+      "normalized": {
+        "text": "해당 소프트웨어가 CRM과 연동되어 데이터가 자동 수집되기를 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "그룹웨어(이메일) 연동 가능 여부"
+          ],
+          "exact_quote": "해당 소프트웨어가 CRM과 연동되어 데이터가 자동 수집되기를 희망함.",
+          "start_char": 1129,
+          "end_char": 1167
+        }
+      ],
+      "dedupe_key": "collaboration_need:5561d972ea0b2af2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈포스에서 유사한 기능을 확인 했다고 하여 추가 리서치가 필요함",
+      "normalized": {
+        "text": "세일즈포스에서 유사한 기능을 확인 했다고 하여 추가 리서치가 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "그룹웨어(이메일) 연동 가능 여부"
+          ],
+          "exact_quote": "세일즈포스에서 유사한 기능을 확인 했다고 하여 추가 리서치가 필요함",
+          "start_char": 1173,
+          "end_char": 1210
+        }
+      ],
+      "dedupe_key": "action_item:8bb79fbc0c391b42",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+      "normalized": {
+        "text": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+          "start_char": 1223,
+          "end_char": 1254
+        }
+      ],
+      "dedupe_key": "other:7fdd05f75f308bcf",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+      "normalized": {
+        "text": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "CRM은 이용하지 않고 그로스 패키지만 도입할 수 있는지",
+          "start_char": 1223,
+          "end_char": 1254
+        }
+      ],
+      "dedupe_key": "collaboration_need:957f0ec671dd5fcc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "> 가능하다.",
+      "normalized": {
+        "text": "> 가능하다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "> 가능하다.",
+          "start_char": 1260,
+          "end_char": 1267
+        }
+      ],
+      "dedupe_key": "other:1d596baff310e697",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "해외 프로젝트 수행경험이 있는지 cc @김가은(Bona) @안민혁 (minhyuk)",
+      "normalized": {
+        "text": "해외 프로젝트 수행경험이 있는지 cc @김가은(Bona) @안민혁 (minhyuk)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "해외 프로젝트 수행경험이 있는지 cc @김가은(Bona) @안민혁 (minhyuk)",
+          "start_char": 1271,
+          "end_char": 1317
+        }
+      ],
+      "dedupe_key": "other:a39c7f1a89804a6c",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 1292,
+          "end_char": 1296
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 1303,
+          "end_char": 1307
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "병권) 없다 / 솔직하게 안내 드렸습니다.",
+      "normalized": {
+        "text": "병권) 없다 / 솔직하게 안내 드렸습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "병권) 없다 / 솔직하게 안내 드렸습니다.",
+          "start_char": 1323,
+          "end_char": 1346
+        }
+      ],
+      "dedupe_key": "other:c76154b2424de2a8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "담당자) 그럼, 수행 가능한 인력이 있는지  > 있다",
+      "normalized": {
+        "text": "담당자) 그럼, 수행 가능한 인력이 있는지  > 있다",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "담당자) 그럼, 수행 가능한 인력이 있는지  > 있다",
+          "start_char": 1350,
+          "end_char": 1379
+        }
+      ],
+      "dedupe_key": "other:e439ba41d9241770",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "고객여정 데이터 이외에 세일즈맵/세일즈포스 대비 차별성 문의",
+      "normalized": {
+        "text": "고객여정 데이터 이외에 세일즈맵/세일즈포스 대비 차별성 문의",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "고객여정 데이터 이외에 세일즈맵/세일즈포스 대비 차별성 문의",
+          "start_char": 1387,
+          "end_char": 1420
+        }
+      ],
+      "dedupe_key": "other:d1d442e450838349",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "신사업과 같이 빠르게 시장진입을 하며 리드 생성에 직접 돕고 있다.",
+      "normalized": {
+        "text": "신사업과 같이 빠르게 시장진입을 하며 리드 생성에 직접 돕고 있다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "신사업과 같이 빠르게 시장진입을 하며 리드 생성에 직접 돕고 있다.",
+          "start_char": 1426,
+          "end_char": 1463
+        }
+      ],
+      "dedupe_key": "other:7e2f4c63767d2938",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "그로스 전문가를 통해 리드젠, 전환에 기여하고 있다. > 한화비전 사례 레버리지",
+      "normalized": {
+        "text": "그로스 전문가를 통해 리드젠, 전환에 기여하고 있다. > 한화비전 사례 레버리지",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "그로스 전문가를 통해 리드젠, 전환에 기여하고 있다. > 한화비전 사례 레버리지",
+          "start_char": 1467,
+          "end_char": 1511
+        }
+      ],
+      "dedupe_key": "other:2755e9c2c1c7f9d8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "2/ Budget",
+      "normalized": {
+        "text": "2/ Budget",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "2/ Budget",
+          "start_char": 1513,
+          "end_char": 1522
+        }
+      ],
+      "dedupe_key": "other:e42a55dea4c47960",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "26년 사업계획을 보고 하며 예산편성 하는 중",
+      "normalized": {
+        "text": "26년 사업계획을 보고 하며 예산편성 하는 중",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "26년 사업계획을 보고 하며 예산편성 하는 중",
+          "start_char": 1528,
+          "end_char": 1553
+        }
+      ],
+      "dedupe_key": "other:b60b3a19696684a0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "3/ Timeline",
+      "normalized": {
+        "text": "3/ Timeline",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "기타 문의"
+          ],
+          "exact_quote": "3/ Timeline",
+          "start_char": 1555,
+          "end_char": 1566
+        }
+      ],
+      "dedupe_key": "other:70ca42492a2760ec",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "도입 및 계약납임은 내년 1~2월 추정",
+      "normalized": {
+        "text": "도입 및 계약납임은 내년 1~2월 추정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "올해는 예산 편성하는 단계"
+          ],
+          "exact_quote": "도입 및 계약납임은 내년 1~2월 추정",
+          "start_char": 1590,
+          "end_char": 1611
+        }
+      ],
+      "dedupe_key": "collaboration_need:07dabe50ebdc6305",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

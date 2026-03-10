@@ -1,0 +1,301 @@
+{
+  "memo_id": "M-W11",
+  "updated_at": "2026-02-26T08:05:51.283250+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "드디어 첫 세일즈 미팅 일자에 그럴듯한 resoning 두둥탁"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": ""
+    },
+    {
+      "item_idx": 7,
+      "field_id": "6238",
+      "field_label": "월별 키어카운트",
+      "decision": "TP",
+      "note": "중요 딜로 키 어카운트는 맞음 26년 3월 9일을 선택해야 정답이지만 선택지에 26년 8월 까지만 존재함. AI는 정상동작으로 판단"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "normalized": {
+        "text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "start_char": 87,
+      "end_char": 113,
+      "line_no": 4,
+      "line_text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5656",
+          "label": "결제 상품 (그로스패키지)",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "normalized": {
+        "text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "start_char": 114,
+      "end_char": 171,
+      "line_no": 5,
+      "line_text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6091",
+          "label": "이벤트 참가비 결제 수단",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@강대웅",
+      "start_char": 102,
+      "end_char": 106,
+      "line_no": 4,
+      "line_text": "[ ] 상품 소개자료 전달 @강대웅(Dario)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "@황하운",
+      "start_char": 159,
+      "end_char": 163,
+      "line_no": 5,
+      "line_text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "0원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "0원",
+      "start_char": 144,
+      "end_char": 146,
+      "line_no": 5,
+      "line_text": "[ ] 이벤트 전달; 오프라인마케팅 제안 포함 (견적 0원 이런 식으로) cc. @황하운 (Hazel)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "contract_amount",
+          "label": "contract_amount",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+      "normalized": {
+        "text": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "[ ] Powered by 인핸스 모델?"
+      ],
+      "evidence_quote": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+      "start_char": 353,
+      "end_char": 400,
+      "line_no": 13,
+      "line_text": "[ ] 구체적 협업 건이 발생하면 (이름 빌릴게 > API 쓸게 등) 으로 협업 확장",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+      "normalized": {
+        "text": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [
+        "[ ] Powered by 인핸스 모델?"
+      ],
+      "evidence_quote": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+      "start_char": 401,
+      "end_char": 438,
+      "line_no": 14,
+      "line_text": "[ ] 제품개발 관련협업 .. AI 기능 백로그 논의; 긍정적 반응",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+      "normalized": {
+        "text": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+        "label_hint": "line_collaboration"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "중장기적으로 만들어가자"
+      ],
+      "evidence_quote": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+      "start_char": 585,
+      "end_char": 643,
+      "line_no": 22,
+      "line_text": "앞으로 고객 B2B마케팅 쪽 어떤 일들이 있으면 > 우리에게 역으로 마케팅 쪽 이벤트 협업 제안을 주시라",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6091",
+          "label": "이벤트 참가비 결제 수단",
+          "type": "select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": ""
+    }
+  ]
+}

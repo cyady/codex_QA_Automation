@@ -1,0 +1,299 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W32",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1:30 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 30,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 1:30 ",
+          "start_char": 26,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "timeline:1e5dbe5a2c3e9ed8",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.02",
+      "normalized": {
+        "expression": "2025.09.02"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.02",
+          "start_char": 13,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "timeline:7d57392758b44564",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요. 혹시 엠브라운 코리아 이아현 님 맞으실까요?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 115,
+          "end_char": 118
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "혹시 그럼 지금 어떤 콘텐츠 마케팅 하고 계신지 말해 주실 수 있으실까요?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 456,
+          "end_char": 459
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "혹시 그럼 지금 어떤 콘텐츠 마케팅 하고 계신지 말해 주실 수 있으실까요?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 462,
+          "end_char": 465
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "그럼 혹시 지금 마케팅 업무하실 때 AI 도구들을 사용하고 계시나요?"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 966,
+          "end_char": 969
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "인스타",
+      "normalized": {
+        "keyword": "인스타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "그럼 혹시 뉴스레터나 그런 좀 더 확장하고 싶은 활동도 있으실까요?"
+          ],
+          "exact_quote": "인스타",
+          "start_char": 657,
+          "end_char": 660
+        }
+      ],
+      "dedupe_key": "tool_or_channel:7bf909e682384b15",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "그럼 혹시 뉴스레터나 그런 좀 더 확장하고 싶은 활동도 있으실까요?"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 614,
+          "end_char": 618
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "맞아요. aeo geo도 약간 구글에서 검색 엔진에 잘 걸리게 하는 건데 여기 저희 팀에서도 AI 전문가가 한 분 계셔서 이 점에서도 세션 진행할 것 같아요.",
+      "normalized": {
+        "text": "맞아요. aeo geo도 약간 구글에서 검색 엔진에 잘 걸리게 하는 건데 여기 저희 팀에서도 AI 전문가가 한 분 계셔서 이 점에서도 세션 진행할 것 같아요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "SEO는 혹시 아실까요?"
+          ],
+          "exact_quote": "맞아요. aeo geo도 약간 구글에서 검색 엔진에 잘 걸리게 하는 건데 여기 저희 팀에서도 AI 전문가가 한 분 계셔서 이 점에서도 세션 진행할 것 같아요.",
+          "start_char": 1214,
+          "end_char": 1302
+        }
+      ],
+      "dedupe_key": "action_item:d328ae8340e0557f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네 맞아요. vit 별도고 그러면 저희 9월 18일 목요일에 코엑스점에서 진행하는 일정은 참석 가능하실까요?",
+      "normalized": {
+        "text": "네 맞아요. vit 별도고 그러면 저희 9월 18일 목요일에 코엑스점에서 진행하는 일정은 참석 가능하실까요?",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "네 60만 원 맞죠?"
+          ],
+          "exact_quote": "네 맞아요. vit 별도고 그러면 저희 9월 18일 목요일에 코엑스점에서 진행하는 일정은 참석 가능하실까요?",
+          "start_char": 1362,
+          "end_char": 1422
+        }
+      ],
+      "dedupe_key": "action_item:288a978fdeac6337",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 18일",
+      "normalized": {
+        "month": 9,
+        "day": 18
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "네 60만 원 맞죠?"
+          ],
+          "exact_quote": "9월 18일",
+          "start_char": 1384,
+          "end_char": 1390
+        }
+      ],
+      "dedupe_key": "timeline:46259edec4628701",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "18일",
+      "normalized": {
+        "value": 18.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "네 60만 원 맞죠?"
+          ],
+          "exact_quote": "18일",
+          "start_char": 1387,
+          "end_char": 1390
+        }
+      ],
+      "dedupe_key": "duration:37571e0d7b3d26c5",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만 원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "네 60만 원 맞죠?"
+          ],
+          "exact_quote": "60만 원",
+          "start_char": 1429,
+          "end_char": 1434
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "맞아요. 맞아요. 그러면 한 분이시면 혹시 한 분만 참여하시는 걸까요?"
+          ],
+          "exact_quote": "60만 원",
+          "start_char": 1498,
+          "end_char": 1503
+        }
+      ],
+      "dedupe_key": "budget:56f8121aedea73d8",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

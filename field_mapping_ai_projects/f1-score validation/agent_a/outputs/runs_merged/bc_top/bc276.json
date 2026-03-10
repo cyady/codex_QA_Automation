@@ -1,0 +1,133 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W276",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 20,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 8,
+          "end_char": 11
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 21,
+          "end_char": 24
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 34,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "people_count:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "N: AI 활용해서 웹사이트 만드는건 어렵지 않았는데 전환이 안됨. 전환으로 이어지는 마케팅 컨설팅이 필요함",
+      "normalized": {
+        "text": "N: AI 활용해서 웹사이트 만드는건 어렵지 않았는데 전환이 안됨. 전환으로 이어지는 마케팅 컨설팅이 필요함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "이중에서 밸리드에 집중하려 함"
+          ],
+          "exact_quote": "N: AI 활용해서 웹사이트 만드는건 어렵지 않았는데 전환이 안됨. 전환으로 이어지는 마케팅 컨설팅이 필요함",
+          "start_char": 134,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "risk_or_concern:82643ed5fa899bae",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "B: 역시나 예산이 부족함. 작은 회사라 '컨설팅만 해도 최소 1천부터 시작이다' 말씀드렸더니 '그럼 당장 결정하긴 어렵네요 나중에 검토해보고 연락 드리겠습니다'하심",
+      "normalized": {
+        "text": "B: 역시나 예산이 부족함. 작은 회사라 '컨설팅만 해도 최소 1천부터 시작이다' 말씀드렸더니 '그럼 당장 결정하긴 어렵네요 나중에 검토해보고 연락 드리겠습니다'하심",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "이중에서 밸리드에 집중하려 함"
+          ],
+          "exact_quote": "B: 역시나 예산이 부족함. 작은 회사라 '컨설팅만 해도 최소 1천부터 시작이다' 말씀드렸더니 '그럼 당장 결정하긴 어렵네요 나중에 검토해보고 연락 드리겠습니다'하심",
+          "start_char": 198,
+          "end_char": 290
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f39d7a412e98dbdd",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

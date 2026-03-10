@@ -1,0 +1,14 @@
+{
+  "queue_size": 3588,
+  "reason_hist": {
+    "LONG_TEXT_LOW_COVERAGE": 229,
+    "TEXT_ONLY_OUTPUT": 1159,
+    "LOW_CANDIDATE_COUNT": 3171,
+    "NO_SOFT_SEMANTIC_TYPES": 1707,
+    "HIGH_OTHER_RATIO": 27
+  },
+  "range": {
+    "start": 1,
+    "end": 6000
+  }
+}

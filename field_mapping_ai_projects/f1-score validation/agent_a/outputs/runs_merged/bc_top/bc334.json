@@ -1,0 +1,179 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W334",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 29,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 14,
+          "end_char": 17
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 30,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 3천개",
+      "normalized": {
+        "value": 3000,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "약 3천개",
+          "start_char": 72,
+          "end_char": 77
+        }
+      ],
+      "dedupe_key": "case_metric:0df0ef33fb65a647",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "또 하나 큰 문제는 '보안'. 엑셀보다 전문 CRM이 보안 측면에서 안정적이니 도입 검토 중",
+      "normalized": {
+        "text": "또 하나 큰 문제는 '보안'. 엑셀보다 전문 CRM이 보안 측면에서 안정적이니 도입 검토 중",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "CRM 도입 검토 배경"
+          ],
+          "exact_quote": "또 하나 큰 문제는 '보안'. 엑셀보다 전문 CRM이 보안 측면에서 안정적이니 도입 검토 중",
+          "start_char": 167,
+          "end_char": 218
+        }
+      ],
+      "dedupe_key": "risk_or_concern:87725cee7d94ed93",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "CRM 도입 검토 배경"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 273,
+          "end_char": 276
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확실히 온도 괜찮고, 적극 검토 중인 상황이 맞았네요! @hot 짱짱",
+      "normalized": {
+        "text": "확실히 온도 괜찮고, 적극 검토 중인 상황이 맞았네요! @hot 짱짱",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "확실히 온도 괜찮고, 적극 검토 중인 상황이 맞았네요! @hot 짱짱",
+          "start_char": 363,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "action_item:2006d29269eb1fea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@hot",
+      "normalized": {
+        "name": "hot"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@hot",
+          "start_char": 394,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8b858116b0aab01a",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

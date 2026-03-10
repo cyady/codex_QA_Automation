@@ -1,0 +1,59 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W336",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10.27",
+      "normalized": {
+        "year": 2010,
+        "month": 27,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10.27",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:b38081a59503fb11",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "02.42",
+      "normalized": {
+        "year": 2002,
+        "month": 42,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "02.42",
+          "start_char": 103,
+          "end_char": 108
+        }
+      ],
+      "dedupe_key": "timeline:b4c13a4b594dd532",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

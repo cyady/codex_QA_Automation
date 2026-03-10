@@ -1,0 +1,271 @@
+[
+  {
+    "extracted_value": 5,
+    "field_definition": {
+      "id": "1608",
+      "label": "Seat 수",
+      "type": "number",
+      "category": "custom",
+      "display_order": 40,
+      "required": false,
+      "archive": false,
+      "caption": "예상치일 경우 보수적으로 기입해주세요. ",
+      "description": "프로 플랜이나 커스텀 플랜일 경우 예상되는 시트 수를 입력해주세요. ",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "사용자 수 가늠 시 에디터 최대 5석이 필요하다고 명시되어 있습니다. 캡션의 보수적 기입 원칙에 따라 5석을 추출했습니다."
+  },
+  {
+    "extracted_value": "다음 주 말(목/금) 재컨택 및 후속 미팅 조율, 미팅 요약 및 제안 플랜(세일즈/마케팅 베이직)과 상세 견적서 발송 예정입니다.",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 Next Action 섹션에 기재된 팔로업 일정과 발송물 내용을 바탕으로 작성했습니다."
+  },
+  {
+    "extracted_value": "2026-09-30",
+    "field_definition": {
+      "id": "5372",
+      "label": "예상 마감 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 141,
+      "required": false,
+      "archive": false,
+      "caption": "계약 예상 마감 일자",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "도입 목표가 9월 내 검토 완료라고 명시되어 있어, 해당 월의 말일을 예상 마감 일자로 산출했습니다."
+  },
+  {
+    "extracted_value": "잠재고객사의 BD 리드로, 신규 퍼블리셔 발굴 및 제휴 확장을 담당하며 인바운드 대응 및 파이프라인 관리에 관심이 높습니다. 과거 Salesforce 사용 경험이 있어 데이터 기반 의사결정을 지향합니다.",
+    "field_definition": {
+      "id": "5373",
+      "label": "담당자 페르소나",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 142,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "참석자 정보와 페르소나 섹션에 기술된 담당자의 역할, 관심사, 과거 경험을 요약했습니다."
+  },
+  {
+    "extracted_value": true,
+    "field_definition": {
+      "id": "5375",
+      "label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "type": "checkbox",
+      "category": "custom",
+      "display_order": 144,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "참석자인 BD 리드가 1차 실사용 및 도입을 주도하는 챔피언 역할을 수행하고 있다고 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "노션과 구글 스프레드시트를 이용한 수기 관리로 인해 리드 팔로업 누락이 발생하고 있으며, 운영 현황 가시화 및 로스트 사유 체계화가 필요한 상황입니다.",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "현재 도구 사용의 한계점과 미팅에서 언급된 핵심 요구 사항을 정리했습니다."
+  },
+  {
+    "extracted_value": "9월 내 검토 완료 목표.",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 타임라인 섹션에 명시된 도입 목표 시점을 추출했습니다."
+  },
+  {
+    "extracted_value": "이메일 히스토리 내역 연동 기능이 부재할 경우 도입의 방해 요소(Level 2)가 될 가능성이 있습니다.",
+    "field_definition": {
+      "id": "5379",
+      "label": "블로커",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 148,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "예상 블로커 항목에 기재된 제품 니즈 관련 사항을 추출했습니다."
+  },
+  {
+    "extracted_value": "딜라이트룸 (다로사업부)",
+    "field_definition": {
+      "id": "5577",
+      "label": "법인명",
+      "type": "text",
+      "category": "custom",
+      "display_order": 164,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 제목에 명시된 고객사 명칭입니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "338f925d-80eb-4a6a-a910-d77f23fa50c0"
+      },
+      {
+        "value": "c8da2baf-ef3e-476a-8455-af1e0e17fb50"
+      }
+    ],
+    "field_definition": {
+      "id": "5657",
+      "label": "결제 상품 (제품)",
+      "type": "multi-select",
+      "category": "custom",
+      "display_order": 175,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "베이직 (2507) -마케팅 ",
+            "order": 1,
+            "value": "c8da2baf-ef3e-476a-8455-af1e0e17fb50"
+          },
+          {
+            "label": "베이직 (2507) - 세일즈",
+            "order": 2,
+            "value": "338f925d-80eb-4a6a-a910-d77f23fa50c0"
+          },
+          {
+            "label": "스탠다드 (2507) - 마케팅",
+            "order": 3,
+            "value": "4825feeb-bb19-4e1d-8601-bacb1d07175d"
+          },
+          {
+            "label": "스탠다드 (2507) - 세일즈",
+            "order": 4,
+            "value": "40b8e20a-92f8-44b2-9c67-b0b4443152bf"
+          },
+          {
+            "label": "프리미엄 (2507) - 마케팅",
+            "order": 5,
+            "value": "1471d13e-9375-4e74-a12f-2997620d95e5"
+          },
+          {
+            "label": "(미정)",
+            "order": 6,
+            "value": "f31d0bd6-a056-4479-9d2e-688c8e45f9b5"
+          },
+          {
+            "label": "그로스 워크샵 - AIX",
+            "order": 7,
+            "value": "64646366-3a91-407d-ad0b-a588d30f4c51"
+          },
+          {
+            "label": "그로스 워크샵 - 웹사이트",
+            "order": 8,
+            "value": "9764ed03-d39a-4ebd-b5fb-549a988c7e75"
+          },
+          {
+            "label": "프로 플랜 - 워크샵",
+            "order": 9,
+            "value": "d1a4476c-f1cb-48d7-9378-995e5a23e7e8"
+          },
+          {
+            "label": "-------------------------------------------",
+            "order": 10,
+            "value": "7299441c-d036-4db5-a65f-2d0fee6c3ef3"
+          },
+          {
+            "label": "프로 플랜",
+            "order": 11,
+            "value": "892181ee-be97-4fa9-bfca-61f8f6543828"
+          },
+          {
+            "label": "파트너 플랜",
+            "order": 12,
+            "value": "af8b18c8-a751-4fee-8307-f16b1bb5a9d4"
+          },
+          {
+            "label": "커스텀 플랜",
+            "order": 13,
+            "value": "f58df6a2-3a5c-4cc7-bd27-e1a4e8fbed1a"
+          },
+          {
+            "label": "Outdated",
+            "order": 14,
+            "value": "89d33f55-c40d-4bef-90f1-b9682d5a0b09"
+          },
+          {
+            "label": "스타터 플랜",
+            "order": 15,
+            "value": "5805b8c7-3636-4bac-908c-e01b9c610a38"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "세일즈 CRM과 마케팅 CRM의 베이직 플랜 위주로 검토 중이라는 내용을 바탕으로 해당 옵션들을 선택했습니다."
+  },
+  {
+    "extracted_value": 2,
+    "field_definition": {
+      "id": "5773",
+      "label": "Commit Level",
+      "type": "number",
+      "category": "custom",
+      "display_order": 178,
+      "required": false,
+      "archive": false,
+      "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+      "description": "0,1,2,3,4로 써주세요",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "문제가 뚜렷하게 정의되었고 도입을 주도하는 내부 챔피언을 확보한 상태이며, 블로커 분석에서도 레벨 2로 언급된 점을 반영했습니다."
+  }
+]

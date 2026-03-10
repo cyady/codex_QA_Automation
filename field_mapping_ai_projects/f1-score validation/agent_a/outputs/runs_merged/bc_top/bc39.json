@@ -1,0 +1,396 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W39",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "09.04 미팅록 공유",
+      "normalized": {
+        "text": "09.04 미팅록 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "09.04 미팅록 공유",
+          "start_char": 0,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "collaboration_need:185b540cf1f13b34",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "09.04",
+      "normalized": {
+        "year": 2009,
+        "month": 4,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "09.04",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:fbe818a029d5186e",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Pain Point: 국내 기업이 해외 개발자를 채용할 때 검증이 매우 어렵다는 문제를 해결하는 데 집중하고 있습니다. 정보가 부족한 상태에서 채용하는 것을 '국제결혼'에 비유할 정도로 기업들의 검증 니즈가 큽니다.",
+      "normalized": {
+        "text": "Pain Point: 국내 기업이 해외 개발자를 채용할 때 검증이 매우 어렵다는 문제를 해결하는 데 집중하고 있습니다. 정보가 부족한 상태에서 채용하는 것을 '국제결혼'에 비유할 정도로 기업들의 검증 니즈가 큽니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "Pain Point: 국내 기업이 해외 개발자를 채용할 때 검증이 매우 어렵다는 문제를 해결하는 데 집중하고 있습니다. 정보가 부족한 상태에서 채용하는 것을 '국제결혼'에 비유할 정도로 기업들의 검증 니즈가 큽니다.",
+          "start_char": 147,
+          "end_char": 267
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ba0ebccd20981cf1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "베트남 개발자 역량"
+          ],
+          "exact_quote": "2명",
+          "start_char": 826,
+          "end_char": 828
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 리드 발굴 방식"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 990,
+          "end_char": 993
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 리드 발굴 방식"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 1005,
+          "end_char": 1008
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 리드 발굴 방식"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1071,
+          "end_char": 1074
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 리드 발굴 방식"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1059,
+          "end_char": 1062
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1309,
+          "end_char": 1312
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "'역량 평가 솔루션'을 중심으로 포지셔닝하고 있습니다. 개발자 채용을 원하는 모든 기업에게 필요한 솔루션으로 접점을 넓힌 후, 검증된 개발자를 추천하는 '탤런트코' 서비스로 자연스럽게 크로스셀링을 유도하는 전략입니다. 이는 성공적인 '황금 밸류체인'으로 판단됩니다.",
+      "normalized": {
+        "text": "'역량 평가 솔루션'을 중심으로 포지셔닝하고 있습니다. 개발자 채용을 원하는 모든 기업에게 필요한 솔루션으로 접점을 넓힌 후, 검증된 개발자를 추천하는 '탤런트코' 서비스로 자연스럽게 크로스셀링을 유도하는 전략입니다. 이는 성공적인 '황금 밸류체인'으로 판단됩니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "핵심 전략"
+          ],
+          "exact_quote": "'역량 평가 솔루션'을 중심으로 포지셔닝하고 있습니다. 개발자 채용을 원하는 모든 기업에게 필요한 솔루션으로 접점을 넓힌 후, 검증된 개발자를 추천하는 '탤런트코' 서비스로 자연스럽게 크로스셀링을 유도하는 전략입니다. 이는 성공적인 '황금 밸류체인'으로 판단됩니다.",
+          "start_char": 1110,
+          "end_char": 1258
+        }
+      ],
+      "dedupe_key": "action_item:1578c0e7354cbfa9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "핵심 전략"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1262,
+          "end_char": 1265
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1487,
+          "end_char": 1490
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR(Sales Development Representative) 파이프라인 구축"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1926,
+          "end_char": 1929
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "배경: 블로그가 장기적인 관점의 전략이라면, 단기적으로 리드를 대량 확보하기 위한 프로젝트가 필요합니다.",
+      "normalized": {
+        "text": "배경: 블로그가 장기적인 관점의 전략이라면, 단기적으로 리드를 대량 확보하기 위한 프로젝트가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "배경: 블로그가 장기적인 관점의 전략이라면, 단기적으로 리드를 대량 확보하기 위한 프로젝트가 필요합니다.",
+          "start_char": 1305,
+          "end_char": 1363
+        }
+      ],
+      "dedupe_key": "action_item:8e9aa63cb63f9694",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 성공 사례 공유: 해당 방식으로 한 달 만에 5,000개 이상의 유효 리드를 확보하고, 120건 이상의 세일즈 미팅으로 연결한 경험을 공유했습니다.",
+      "normalized": {
+        "text": "리캐치 성공 사례 공유: 해당 방식으로 한 달 만에 5,000개 이상의 유효 리드를 확보하고, 120건 이상의 세일즈 미팅으로 연결한 경험을 공유했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "리캐치 성공 사례 공유: 해당 방식으로 한 달 만에 5,000개 이상의 유효 리드를 확보하고, 120건 이상의 세일즈 미팅으로 연결한 경험을 공유했습니다.",
+          "start_char": 1487,
+          "end_char": 1573
+        }
+      ],
+      "dedupe_key": "collaboration_need:c2b5768e7a60ba6d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "000개",
+          "start_char": 1518,
+          "end_char": 1522
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "120건",
+      "normalized": {
+        "value": 120,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "리드 마그넷 캠페인 제안"
+          ],
+          "exact_quote": "120건",
+          "start_char": 1540,
+          "end_char": 1544
+        }
+      ],
+      "dedupe_key": "sales_activity:db220a3060ce05d0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "SDR(Sales Development Representative) 파이프라인 구축"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1908,
+          "end_char": 1911
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

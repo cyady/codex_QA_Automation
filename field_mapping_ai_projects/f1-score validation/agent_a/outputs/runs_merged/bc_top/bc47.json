@@ -1,0 +1,287 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W47",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "논티어_포티파이_25.09.02_SDR콜 cc @sdr한 줄 요약: 리캐치 콘텐츠 벤치마킹 목적, 서비스 도입 x[현상황]",
+      "normalized": {
+        "text": "논티어_포티파이_25.09.02_SDR콜 cc @sdr한 줄 요약: 리캐치 콘텐츠 벤치마킹 목적, 서비스 도입 x[현상황]",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "논티어_포티파이_25.09.02_SDR콜 cc @sdr한 줄 요약: 리캐치 콘텐츠 벤치마킹 목적, 서비스 도입 x[현상황]",
+          "start_char": 0,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "collaboration_need:e7139b24a91cc6ea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "홈페이지에 여러 번 방문해주셔서 연락 드렸으나, CRM 도입 목적보다는 콘텐츠 벤치마킹을 위해 방문하셨음",
+      "normalized": {
+        "text": "홈페이지에 여러 번 방문해주셔서 연락 드렸으나, CRM 도입 목적보다는 콘텐츠 벤치마킹을 위해 방문하셨음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "홈페이지에 여러 번 방문해주셔서 연락 드렸으나, CRM 도입 목적보다는 콘텐츠 벤치마킹을 위해 방문하셨음",
+          "start_char": 69,
+          "end_char": 127
+        }
+      ],
+      "dedupe_key": "collaboration_need:b9cc54dcfe5709c9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr한",
+      "normalized": {
+        "name": "sdr한"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr한",
+          "start_char": 26,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:612634107e8a2d60",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@growth",
+          "start_char": 305,
+          "end_char": 312
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@mkt",
+          "start_char": 400,
+          "end_char": 404
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 405,
+          "end_char": 409
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "25.09",
+      "normalized": {
+        "year": 2025,
+        "month": 9,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "25.09",
+          "start_char": 9,
+          "end_char": 14
+        }
+      ],
+      "dedupe_key": "timeline:f8ab960d07128cfe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "93.37",
+      "normalized": {
+        "year": 2093,
+        "month": 37,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "93.37",
+          "start_char": 595,
+          "end_char": 600
+        }
+      ],
+      "dedupe_key": "timeline:ac706363ff698cdf",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2건",
+      "normalized": {
+        "value": 2,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2건",
+          "start_char": 447,
+          "end_char": 449
+        }
+      ],
+      "dedupe_key": "case_metric:93a4823f7038ff8d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 38,
+          "end_char": 41
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 156,
+          "end_char": 159
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 188,
+          "end_char": 191
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 284,
+          "end_char": 287
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 621,
+          "end_char": 624
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 18,
+          "end_char": 21
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 27,
+          "end_char": 30
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

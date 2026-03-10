@@ -1,0 +1,85 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W467",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2만 원",
+      "normalized": {
+        "value": 20000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "비용 지출의 어려움"
+          ],
+          "exact_quote": "2만 원",
+          "start_char": 149,
+          "end_char": 153
+        }
+      ],
+      "dedupe_key": "budget:19daf3b223e28ae2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "• 만약 리캐치가 라이센스 기간이 끝난 후 반드시 구독을 이어가야 하는 형태라면, 구독 비용이 만 원이 들든 만 천 원이 들든 상관없이 진행하기 어렵다고 명확히 밝혔습니다. 이는 회사 내규적으로 비용 지출을 요청하기 어렵기 때문입니다.",
+      "normalized": {
+        "text": "• 만약 리캐치가 라이센스 기간이 끝난 후 반드시 구독을 이어가야 하는 형태라면, 구독 비용이 만 원이 들든 만 천 원이 들든 상관없이 진행하기 어렵다고 명확히 밝혔습니다. 이는 회사 내규적으로 비용 지출을 요청하기 어렵기 때문입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "비용 지출의 어려움"
+          ],
+          "exact_quote": "• 만약 리캐치가 라이센스 기간이 끝난 후 반드시 구독을 이어가야 하는 형태라면, 구독 비용이 만 원이 들든 만 천 원이 들든 상관없이 진행하기 어렵다고 명확히 밝혔습니다. 이는 회사 내규적으로 비용 지출을 요청하기 어렵기 때문입니다.",
+          "start_char": 196,
+          "end_char": 327
+        }
+      ],
+      "dedupe_key": "risk_or_concern:42f0a0a2e8723cfd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "비용 지출의 어려움"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 201,
+          "end_char": 204
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

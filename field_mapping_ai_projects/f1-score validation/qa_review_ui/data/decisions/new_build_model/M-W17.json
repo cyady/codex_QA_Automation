@@ -1,0 +1,747 @@
+{
+  "memo_id": "M-W17",
+  "updated_at": "2026-02-27T05:11:42.325592+00:00",
+  "model_decisions": [
+    {
+      "item_idx": 0,
+      "field_id": "1591",
+      "field_label": "첫 세일즈 미팅 일자",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 1,
+      "field_id": "1608",
+      "field_label": "Seat 수",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 2,
+      "field_id": "5361",
+      "field_label": "Next Action",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.32) - HITL 권장"
+    },
+    {
+      "item_idx": 3,
+      "field_id": "5373",
+      "field_label": "담당자 페르소나",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.39) - HITL 권장"
+    },
+    {
+      "item_idx": 4,
+      "field_id": "5374",
+      "field_label": "[B] 예산",
+      "decision": "FP",
+      "note": "confidence=5/10 | 기존 FP 유지(값 변화 있음, 유사도 0.40) - HITL 권장"
+    },
+    {
+      "item_idx": 5,
+      "field_id": "5375",
+      "field_label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 6,
+      "field_id": "5376",
+      "field_label": "[N] 상황 및 문제",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.38) - HITL 권장"
+    },
+    {
+      "item_idx": 7,
+      "field_id": "5378",
+      "field_label": "[T] 타임라인",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.58) - HITL 권장"
+    },
+    {
+      "item_idx": 8,
+      "field_id": "5379",
+      "field_label": "블로커",
+      "decision": "TP",
+      "note": "confidence=5/10 | 기존 TP 유지(값 변화 있음, 유사도 0.36) - HITL 권장"
+    },
+    {
+      "item_idx": 9,
+      "field_id": "5577",
+      "field_label": "법인명",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    },
+    {
+      "item_idx": 10,
+      "field_id": "5657",
+      "field_label": "결제 상품 (제품)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 11,
+      "field_id": "5656",
+      "field_label": "결제 상품 (그로스패키지)",
+      "decision": "TP",
+      "note": "confidence=7/10 | 이전 결정에 없는 신규 field_id, HITL 필요 | 수동 확인 반영"
+    },
+    {
+      "item_idx": 12,
+      "field_id": "5773",
+      "field_label": "Commit Level",
+      "decision": "TP",
+      "note": "confidence=9/10 | 기존 빌드와 extracted_value 동일, 이전 판정 이관"
+    }
+  ],
+  "fn_decisions": [
+    {
+      "candidate_id": "C-0001",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10.25",
+      "normalized": {
+        "year": 2010,
+        "month": 25,
+        "kind": "short_year_month"
+      },
+      "evidence_segment_id": "S-0001",
+      "evidence_section_path": [],
+      "evidence_quote": "10.25",
+      "start_char": 103,
+      "end_char": 108,
+      "line_no": 1,
+      "line_text": "슬랙 링크: https://team-business-canvas.slack.com/archives/C03N56JBAN5/p1754386376084379?thread_ts=1754030810.251299&cid=C03N56JBAN50805  ",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "close_date",
+          "label": "close_date",
+          "type": "date",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.40)"
+    },
+    {
+      "candidate_id": "C-0002",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "normalized": {
+        "text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "start_char": 184,
+      "end_char": 254,
+      "line_no": 5,
+      "line_text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0003",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "normalized": {
+        "text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "start_char": 255,
+      "end_char": 322,
+      "line_no": 6,
+      "line_text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5074",
+          "label": "마케팅 팀 규모",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0004",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+      "normalized": {
+        "text": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+      "start_char": 323,
+      "end_char": 359,
+      "line_no": 7,
+      "line_text": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "7995",
+          "label": "참석 희망 일정",
+          "type": "select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.24)"
+    },
+    {
+      "candidate_id": "C-0005",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "@pm",
+      "start_char": 314,
+      "end_char": 317,
+      "line_no": 6,
+      "line_text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0006",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "뉴스레터",
+      "start_char": 421,
+      "end_char": 425,
+      "line_no": 10,
+      "line_text": "세일즈메일 기능 불완전 함; 마케팅뉴스레터 초기임에도 \"우리는 둘 다 되는 툴\" 이라고 설명한 점",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "6677",
+          "label": "뉴스레터 구독자(드롭다운)",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.04)"
+    },
+    {
+      "candidate_id": "C-0007",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "evidence_segment_id": "S-0002",
+      "evidence_section_path": [],
+      "evidence_quote": "리캐치",
+      "start_char": 205,
+      "end_char": 208,
+      "line_no": 5,
+      "line_text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=8/10 | 기존 NOT_FN 유지(cov=1.00)"
+    },
+    {
+      "candidate_id": "C-0008",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+      "normalized": {
+        "text": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+        "label_hint": "line_risk"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+      "start_char": 873,
+      "end_char": 911,
+      "line_no": 21,
+      "line_text": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=7/10 | 기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.23), NOT_FN 변경 전 HITL | 수동 확인 반영"
+    },
+    {
+      "candidate_id": "C-0009",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+      "normalized": {
+        "text": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+      "start_char": 1062,
+      "end_char": 1147,
+      "line_no": 26,
+      "line_text": " \"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "5370",
+          "label": "고객상황",
+          "type": "multi-select",
+          "score": 3.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.23)"
+    },
+    {
+      "candidate_id": "C-0010",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+      "normalized": {
+        "text": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+      "start_char": 1625,
+      "end_char": 1658,
+      "line_no": 34,
+      "line_text": " \"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4985",
+          "label": "직무",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.27)"
+    },
+    {
+      "candidate_id": "C-0011",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "normalized": {
+        "text": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "start_char": 1660,
+      "end_char": 1746,
+      "line_no": 35,
+      "line_text": " 3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4835",
+          "label": "MQL-Drop 사유",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0012",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "@김숙영",
+      "start_char": 1257,
+      "end_char": 1261,
+      "line_no": 27,
+      "line_text": " 1-1. 연동 대상인 STEP 은 무엇에 기반한 시스템인가? 연동 요구사항(항목, 범위, 주기 등)? 연동 제약요건(환경, 보안 등)은 무엇인가? (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0013",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "@김민재",
+      "start_char": 1271,
+      "end_char": 1275,
+      "line_no": 27,
+      "line_text": " 1-1. 연동 대상인 STEP 은 무엇에 기반한 시스템인가? 연동 요구사항(항목, 범위, 주기 등)? 연동 제약요건(환경, 보안 등)은 무엇인가? (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.00)"
+    },
+    {
+      "candidate_id": "C-0014",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "evidence_segment_id": "S-0004",
+      "evidence_section_path": [],
+      "evidence_quote": "메타",
+      "start_char": 856,
+      "end_char": 858,
+      "line_no": 19,
+      "line_text": "흠.. 이거 잘 되나요 ㅎㅎ 특히 메타에서 픽셀 심을 때!",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.03)"
+    },
+    {
+      "candidate_id": "C-0015",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "1만 건",
+      "normalized": {
+        "value": 10000,
+        "unit": "cases",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0005",
+      "evidence_section_path": [],
+      "evidence_quote": "1만 건",
+      "start_char": 1860,
+      "end_char": 1864,
+      "line_no": 36,
+      "line_text": "- \"아직 정하지 않은상태\" 라고 세일즈 우동철 파트장이 말했지만; 마케팅에서 그간 했던일과 앞으로 하고싶은 일에 대한 이미지가 분명히 있을 것; 확인하는 것이 유리함 (참고로 내부에 쌓인 고객 DB는 1만 건 수준이라 함)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0016",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "evidence_segment_id": "S-0006",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "CTA",
+      "start_char": 1936,
+      "end_char": 1939,
+      "line_no": 38,
+      "line_text": "- \"컨설팅회사 근무하셨다고 하니, 그런거 함께 고민해달라. 어떤 CTA 클릭했을 때 무엇이 나가야 할지 같은거\"",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.29)"
+    },
+    {
+      "candidate_id": "C-0017",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@강대웅",
+      "normalized": {
+        "name": "강대웅"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "@강대웅",
+      "start_char": 2022,
+      "end_char": 2026,
+      "line_no": 39,
+      "line_text": " 3-3. 제안 Tactic - Phase1. 마케팅오토메이션, Phase2 세일즈CRM으로 끊어서 접근 @강대웅(Dario) @김민재(Jay)",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0018",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "evidence_segment_id": "S-0007",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "@김우진",
+      "start_char": 2051,
+      "end_char": 2055,
+      "line_no": 40,
+      "line_text": " 비용 관련 @김우진(Woojin Andy Kim) @강대웅(Dario)\"(우진) 가격 때문에 우리를 놓치지 않도록 하겠음\"",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.02)"
+    },
+    {
+      "candidate_id": "C-0019",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "normalized": {
+        "text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+        "label_hint": "line_action"
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "start_char": 2344,
+      "end_char": 2410,
+      "line_no": 47,
+      "line_text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "4987",
+          "label": "직원 수",
+          "type": "select",
+          "score": 2.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.26)"
+    },
+    {
+      "candidate_id": "C-0020",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "40명",
+      "normalized": {
+        "value": 40,
+        "unit": "people",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "40명",
+      "start_char": 2355,
+      "end_char": 2358,
+      "line_no": 47,
+      "line_text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.40)"
+    },
+    {
+      "candidate_id": "C-0023",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "1만 건",
+      "normalized": {
+        "value": 10000,
+        "unit": "cases",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0008",
+      "evidence_section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "evidence_quote": "1만 건",
+      "start_char": 2403,
+      "end_char": 2407,
+      "line_no": 47,
+      "line_text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "1607",
+          "label": "결제 수단",
+          "type": "select",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.06)"
+    },
+    {
+      "candidate_id": "C-0024",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1.5만 원",
+      "normalized": {
+        "value": 15000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "evidence_segment_id": "S-0009",
+      "evidence_section_path": [
+        "기타"
+      ],
+      "evidence_quote": "1.5만 원",
+      "start_char": 2459,
+      "end_char": 2465,
+      "line_no": 50,
+      "line_text": " 5-1. 리멤버 팀명함첩 관련 \"팀명함첩 사용중. 리캐치와 인원수 x 인당 1.5만 원 인거죠?\" - 세일즈포스에는 붙이려고 하니 과다청구",
+      "suggested_fields_snapshot": [
+        {
+          "field_id": "contract_amount",
+          "label": "contract_amount",
+          "type": "currency",
+          "score": 1.0
+        }
+      ],
+      "decision": "NOT_FN",
+      "assigned_field_id": null,
+      "assigned_field_label": null,
+      "note": "confidence=6/10 | 기존 NOT_FN 유지(cov=0.25)"
+    }
+  ]
+}

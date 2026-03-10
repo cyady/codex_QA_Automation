@@ -1,0 +1,235 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W192",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 15,
+          "end_char": 18
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "우리팀 5명이고 팀 권한 예산은 적다",
+      "normalized": {
+        "text": "우리팀 5명이고 팀 권한 예산은 적다",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "우리팀 5명이고 팀 권한 예산은 적다",
+          "start_char": 90,
+          "end_char": 110
+        }
+      ],
+      "dedupe_key": "collaboration_need:9dc8e2193e9af11a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "5명",
+          "start_char": 94,
+          "end_char": 96
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM과 ABM 각각 얼마냐? -> 대략적으로 말씀드림",
+      "normalized": {
+        "text": "CRM과 ABM 각각 얼마냐? -> 대략적으로 말씀드림",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "CRM과 ABM 각각 얼마냐? -> 대략적으로 말씀드림",
+          "start_char": 114,
+          "end_char": 144
+        }
+      ],
+      "dedupe_key": "collaboration_need:7a9e144e0737fc03",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 119,
+          "end_char": 122
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 150,
+          "end_char": 153
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM은 우리 팀 예산으로 안 될 것 같다",
+      "normalized": {
+        "text": "ABM은 우리 팀 예산으로 안 될 것 같다",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "ABM은 우리 팀 예산으로 안 될 것 같다",
+          "start_char": 150,
+          "end_char": 173
+        }
+      ],
+      "dedupe_key": "collaboration_need:a512c6adc1f22530",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM은 접근 가능한 수준인 것 같은데 리드 확보도 해주냐? -> 아니다 용이하게 해주는 관리 툴이지 직접 DB를 주는건 아니다",
+      "normalized": {
+        "text": "CRM은 접근 가능한 수준인 것 같은데 리드 확보도 해주냐? -> 아니다 용이하게 해주는 관리 툴이지 직접 DB를 주는건 아니다",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "CRM은 접근 가능한 수준인 것 같은데 리드 확보도 해주냐? -> 아니다 용이하게 해주는 관리 툴이지 직접 DB를 주는건 아니다",
+          "start_char": 177,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "collaboration_need:e894cd5cb13a8680",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+      "normalized": {
+        "text": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+          "start_char": 252,
+          "end_char": 279
+        }
+      ],
+      "dedupe_key": "collaboration_need:d0af29565cb1895a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+      "normalized": {
+        "text": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "니즈: 리드 확보"
+          ],
+          "exact_quote": "내부적으로 얘기해보고 나중에 필요하면 연락 주겠다",
+          "start_char": 252,
+          "end_char": 279
+        }
+      ],
+      "dedupe_key": "action_item:069605c9048c95c4",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

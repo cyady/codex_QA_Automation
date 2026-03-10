@@ -1,0 +1,235 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W429",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 40,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 25,
+          "end_char": 28
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 41,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 65,
+          "end_char": 69
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "마케팅 및 세일즈 현황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 257,
+          "end_char": 260
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "콜드 메일 기능"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 603,
+          "end_char": 606
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "소개서 다운로드 시 자동 메일이 발송되고 담당자가 전화로 팔로업 하는 인바운드 리드 너처링 flow 구축 희망(본인이 당하신..)",
+      "normalized": {
+        "text": "소개서 다운로드 시 자동 메일이 발송되고 담당자가 전화로 팔로업 하는 인바운드 리드 너처링 flow 구축 희망(본인이 당하신..)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "소개서 다운로드 시 자동 메일이 발송되고 담당자가 전화로 팔로업 하는 인바운드 리드 너처링 flow 구축 희망(본인이 당하신..)",
+          "start_char": 396,
+          "end_char": 468
+        }
+      ],
+      "dedupe_key": "action_item:bc9b233d54fd20f5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "POC 진행 여부, 실제 결제 여부 등으로 영업 파이프라인(세일즈 퍼널) 구축하여 관리",
+      "normalized": {
+        "text": "POC 진행 여부, 실제 결제 여부 등으로 영업 파이프라인(세일즈 퍼널) 구축하여 관리",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "POC 진행 여부, 실제 결제 여부 등으로 영업 파이프라인(세일즈 퍼널) 구축하여 관리",
+          "start_char": 472,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "action_item:0f0c560c8e302112",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다이퀘스트는 콜드 메일을 발송이 마케팅 업무로 분류됨 -> 관련 자동화 기능에 관심이 높으심",
+      "normalized": {
+        "text": "다이퀘스트는 콜드 메일을 발송이 마케팅 업무로 분류됨 -> 관련 자동화 기능에 관심이 높으심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "콜드 메일 기능"
+          ],
+          "exact_quote": "다이퀘스트는 콜드 메일을 발송이 마케팅 업무로 분류됨 -> 관련 자동화 기능에 관심이 높으심",
+          "start_char": 538,
+          "end_char": 589
+        }
+      ],
+      "dedupe_key": "action_item:7cb84d61d30dd8ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "슬프게도.. 현재 리캐치에서 제공하는 이메일 기능은 마케팅 목적이기에 회신 받고 송수신 스레드 저장하는 등의 콜드메일용 기능이 아직은 없음을 안내드림(voc 올려야겠다)",
+      "normalized": {
+        "text": "슬프게도.. 현재 리캐치에서 제공하는 이메일 기능은 마케팅 목적이기에 회신 받고 송수신 스레드 저장하는 등의 콜드메일용 기능이 아직은 없음을 안내드림(voc 올려야겠다)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "콜드 메일 기능"
+          ],
+          "exact_quote": "슬프게도.. 현재 리캐치에서 제공하는 이메일 기능은 마케팅 목적이기에 회신 받고 송수신 스레드 저장하는 등의 콜드메일용 기능이 아직은 없음을 안내드림(voc 올려야겠다)",
+          "start_char": 593,
+          "end_char": 687
+        }
+      ],
+      "dedupe_key": "action_item:13d3261db7226d7c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대표님끼리의 미팅과는 별개로 실무 차원에서 디테일한 기능을 확인하기 위해 데모 시연을 희망함",
+      "normalized": {
+        "text": "대표님끼리의 미팅과는 별개로 실무 차원에서 디테일한 기능을 확인하기 위해 데모 시연을 희망함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "대표님끼리의 미팅과는 별개로 실무 차원에서 디테일한 기능을 확인하기 위해 데모 시연을 희망함",
+          "start_char": 728,
+          "end_char": 779
+        }
+      ],
+      "dedupe_key": "collaboration_need:815d66b9eefe2d24",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

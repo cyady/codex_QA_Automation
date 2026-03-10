@@ -1,0 +1,127 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W461",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 92,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "우리 팀에 대한 온도가 좋은데 당장 N,T가 부족 -> 꾸준한 너처링 필요",
+      "normalized": {
+        "text": "우리 팀에 대한 온도가 좋은데 당장 N,T가 부족 -> 꾸준한 너처링 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "우리 팀에 대한 온도가 좋은데 당장 N,T가 부족 -> 꾸준한 너처링 필요",
+          "start_char": 176,
+          "end_char": 217
+        }
+      ],
+      "dedupe_key": "action_item:b4f32d1f6c12ba84",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "작년 말에 나온 기사에 의하면 현재 일본에선 성과를 냈고 올해부터 해외 서비스 확장하면서 유럽/미국/중국 진출도 희망한다고 합니다.",
+      "normalized": {
+        "text": "작년 말에 나온 기사에 의하면 현재 일본에선 성과를 냈고 올해부터 해외 서비스 확장하면서 유럽/미국/중국 진출도 희망한다고 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "작년 말에 나온 기사에 의하면 현재 일본에선 성과를 냈고 올해부터 해외 서비스 확장하면서 유럽/미국/중국 진출도 희망한다고 합니다.",
+          "start_char": 377,
+          "end_char": 450
+        }
+      ],
+      "dedupe_key": "collaboration_need:65cc7223df0d0b4b",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

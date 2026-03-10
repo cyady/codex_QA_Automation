@@ -1,0 +1,463 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W46",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "토스증권 파트너십 관리 필드 정보 수집 후 이메일로 전달",
+      "normalized": {
+        "text": "토스증권 파트너십 관리 필드 정보 수집 후 이메일로 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "토스증권 파트너십 관리 필드 정보 수집 후 이메일로 전달",
+          "start_char": 137,
+          "end_char": 168
+        }
+      ],
+      "dedupe_key": "collaboration_need:2c04cb4d10c2f6eb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "슬랙-CRM 연동 기능 기술적 구현 방안 검토 및 개발 일정 산정",
+      "normalized": {
+        "text": "슬랙-CRM 연동 기능 기술적 구현 방안 검토 및 개발 일정 산정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "슬랙-CRM 연동 기능 기술적 구현 방안 검토 및 개발 일정 산정",
+          "start_char": 169,
+          "end_char": 205
+        }
+      ],
+      "dedupe_key": "action_item:b85af8204ba008cb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 관리 중인 파트너십 필드 구조 및 카테고리, 슬랙 메시지 샘플 및 원하는 CRM 매핑 필드 예시 요청",
+      "normalized": {
+        "text": "현재 관리 중인 파트너십 필드 구조 및 카테고리, 슬랙 메시지 샘플 및 원하는 CRM 매핑 필드 예시 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "현재 관리 중인 파트너십 필드 구조 및 카테고리, 슬랙 메시지 샘플 및 원하는 CRM 매핑 필드 예시 요청",
+          "start_char": 206,
+          "end_char": 265
+        }
+      ],
+      "dedupe_key": "action_item:7aa583bc121e450e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "보안 체크리스트 준비 (토스증권 요청시)",
+      "normalized": {
+        "text": "보안 체크리스트 준비 (토스증권 요청시)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "보안 체크리스트 준비 (토스증권 요청시)",
+          "start_char": 266,
+          "end_char": 288
+        }
+      ],
+      "dedupe_key": "action_item:81412f1ec8f6d0e1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "월 35만원 쓰는데는 문제 없음",
+      "normalized": {
+        "text": "월 35만원 쓰는데는 문제 없음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "월 35만원 쓰는데는 문제 없음",
+          "start_char": 515,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "risk_or_concern:914977f53fea1125",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ 핵심 문제",
+      "normalized": {
+        "text": "1/ 핵심 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1/ 핵심 문제",
+          "start_char": 618,
+          "end_char": 626
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8e69ee2ce64950b3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "노션 30+ 파트너 관리의 확장성 및 협업 한계",
+      "normalized": {
+        "text": "노션 30+ 파트너 관리의 확장성 및 협업 한계",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "노션 30+ 파트너 관리의 확장성 및 협업 한계",
+          "start_char": 682,
+          "end_char": 708
+        }
+      ],
+      "dedupe_key": "collaboration_need:644930cdf44bd1ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팀장의 팀원별 파트너십 진행현황 파악 어려움",
+      "normalized": {
+        "text": "팀장의 팀원별 파트너십 진행현황 파악 어려움",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "팀장의 팀원별 파트너십 진행현황 파악 어려움",
+          "start_char": 745,
+          "end_char": 769
+        }
+      ],
+      "dedupe_key": "action_item:89497809e4277077",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트별 대시보드 및 단계별 스테이터스 관리 필요",
+      "normalized": {
+        "text": "프로젝트별 대시보드 및 단계별 스테이터스 관리 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "프로젝트별 대시보드 및 단계별 스테이터스 관리 필요",
+          "start_char": 770,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "action_item:137af16fc0f1aa1d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1-2주 내: 기술적 구현방안 검토 및 필드매핑 설계",
+      "normalized": {
+        "text": "1-2주 내: 기술적 구현방안 검토 및 필드매핑 설계",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1-2주 내: 기술적 구현방안 검토 및 필드매핑 설계",
+          "start_char": 951,
+          "end_char": 980
+        }
+      ],
+      "dedupe_key": "action_item:c8230b68e975585c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "금융사 보안 요구사항 검토 필요 (체크리스트 대응)",
+      "normalized": {
+        "text": "금융사 보안 요구사항 검토 필요 (체크리스트 대응)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "금융사 보안 요구사항 검토 필요 (체크리스트 대응)",
+          "start_char": 1148,
+          "end_char": 1176
+        }
+      ],
+      "dedupe_key": "action_item:fd5c127c1c5088e7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 30,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 127,
+          "end_char": 131
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "35만원",
+      "normalized": {
+        "value": 350000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "35만원",
+          "start_char": 517,
+          "end_char": 521
+        }
+      ],
+      "dedupe_key": "budget:80674d2fc6853379",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2주",
+          "start_char": 953,
+          "end_char": 955
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 983,
+          "end_char": 986
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "6개월",
+          "start_char": 1050,
+          "end_char": 1053
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 347,
+          "end_char": 349
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5명",
+          "start_char": 1017,
+          "end_char": 1019
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "50명",
+      "normalized": {
+        "value": 50,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "50명",
+          "start_char": 456,
+          "end_char": 459
+        }
+      ],
+      "dedupe_key": "people_count:b09bc45d315cd8a7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 98,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

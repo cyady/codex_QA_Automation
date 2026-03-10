@@ -1,0 +1,283 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W439",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 31,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 16,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 32,
+          "end_char": 35
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 145,
+          "end_char": 148
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "sdr",
+          "start_char": 361,
+          "end_char": 364
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 95,
+          "end_char": 98
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 279,
+          "end_char": 282
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 182,
+          "end_char": 186
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 194,
+          "end_char": 198
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 207,
+          "end_char": 211
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대신 리캐치 블로그에도 좋은 글 많다고 소개드리면서 고민 있으면 연락 달라고 말씀 드렸고, 명함 요청 주셔서 문자로 전달 드림",
+      "normalized": {
+        "text": "대신 리캐치 블로그에도 좋은 글 많다고 소개드리면서 고민 있으면 연락 달라고 말씀 드렸고, 명함 요청 주셔서 문자로 전달 드림",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "대신 리캐치 블로그에도 좋은 글 많다고 소개드리면서 고민 있으면 연락 달라고 말씀 드렸고, 명함 요청 주셔서 문자로 전달 드림",
+          "start_char": 276,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "action_item:4128a2dc075dc53d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 283,
+          "end_char": 286
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[참고] 어제 sdr weekly 논의 내용에 따라 티어 구분을 세분화했습니다. 내일 @sales weekly에서 한 번 더 공유드리겠습니다.",
+      "normalized": {
+        "text": "[참고] 어제 sdr weekly 논의 내용에 따라 티어 구분을 세분화했습니다. 내일 @sales weekly에서 한 번 더 공유드리겠습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "[참고] 어제 sdr weekly 논의 내용에 따라 티어 구분을 세분화했습니다. 내일 @sales weekly에서 한 번 더 공유드리겠습니다.",
+          "start_char": 353,
+          "end_char": 432
+        }
+      ],
+      "dedupe_key": "collaboration_need:0864413b983c524c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "----"
+          ],
+          "exact_quote": "@sales",
+          "start_char": 401,
+          "end_char": 407
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "'논티어' 의미 자체가 디스퀄리파잉 대상이라는 의미를 내포하기 때문에 정책 변화를 줄 필요가 있었음",
+      "normalized": {
+        "text": "'논티어' 의미 자체가 디스퀄리파잉 대상이라는 의미를 내포하기 때문에 정책 변화를 줄 필요가 있었음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "as-is"
+          ],
+          "exact_quote": "'논티어' 의미 자체가 디스퀄리파잉 대상이라는 의미를 내포하기 때문에 정책 변화를 줄 필요가 있었음",
+          "start_char": 487,
+          "end_char": 542
+        }
+      ],
+      "dedupe_key": "action_item:c2533d8bfe0df32f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

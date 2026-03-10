@@ -1,0 +1,171 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W199",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "주력 제품: 테이블오더"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 297,
+          "end_char": 301
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "주력 제품: 테이블오더"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 274,
+          "end_char": 277
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "주력 제품: 테이블오더"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 365,
+          "end_char": 368
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "문자/카톡 발송 기능 필요"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 692,
+          "end_char": 695
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입이라는 명확한 목적이 있는 경우 리캐치 팀에 대한 온도가 높지 않아도 인바운드 문의로 이어짐",
+      "normalized": {
+        "text": "CRM 도입이라는 명확한 목적이 있는 경우 리캐치 팀에 대한 온도가 높지 않아도 인바운드 문의로 이어짐",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "주력 제품: 테이블오더"
+          ],
+          "exact_quote": "CRM 도입이라는 명확한 목적이 있는 경우 리캐치 팀에 대한 온도가 높지 않아도 인바운드 문의로 이어짐",
+          "start_char": 341,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "collaboration_need:ae75f1db5149e615",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "문의했지만 계약 안 된 고객 DB 관리(지속적으로 먼키 관련 소식을 문자나 카톡으로 발송)",
+      "normalized": {
+        "text": "문의했지만 계약 안 된 고객 DB 관리(지속적으로 먼키 관련 소식을 문자나 카톡으로 발송)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "마케팅팀"
+          ],
+          "exact_quote": "문의했지만 계약 안 된 고객 DB 관리(지속적으로 먼키 관련 소식을 문자나 카톡으로 발송)",
+          "start_char": 472,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "action_item:989e47ca0b1d9d9f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "5명",
+          "start_char": 825,
+          "end_char": 827
+        }
+      ],
+      "dedupe_key": "team_size:832832b84c062af7",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

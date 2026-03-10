@@ -1,0 +1,108 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W175",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "251001_휴레이포지티브 회신 내용",
+      "normalized": {
+        "text": "251001_휴레이포지티브 회신 내용",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "251001_휴레이포지티브 회신 내용",
+          "start_char": 0,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "action_item:40259ada1d20a3d4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당시 첫 미팅 때만 하더라도, 재밌고 치열하게 프로젝트를 진행할 수 있을 거라 기대했는데, 연결하지 못해서 너무 아쉽게 되었습니다. 이런저런 내부적인 상황들이 있었는데, 추후에 만나 뵙게 되면 1년 동안에 좌충우돌 경험한 내용들 공유드리겠습니다.",
+      "normalized": {
+        "text": "당시 첫 미팅 때만 하더라도, 재밌고 치열하게 프로젝트를 진행할 수 있을 거라 기대했는데, 연결하지 못해서 너무 아쉽게 되었습니다. 이런저런 내부적인 상황들이 있었는데, 추후에 만나 뵙게 되면 1년 동안에 좌충우돌 경험한 내용들 공유드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요. 대표님. 잘 지내시죠?"
+          ],
+          "exact_quote": "당시 첫 미팅 때만 하더라도, 재밌고 치열하게 프로젝트를 진행할 수 있을 거라 기대했는데, 연결하지 못해서 너무 아쉽게 되었습니다. 이런저런 내부적인 상황들이 있었는데, 추후에 만나 뵙게 되면 1년 동안에 좌충우돌 경험한 내용들 공유드리겠습니다.",
+          "start_char": 116,
+          "end_char": 253
+        }
+      ],
+      "dedupe_key": "action_item:726031b0d1c63370",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 30일",
+      "normalized": {
+        "month": 9,
+        "day": 30
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요. 대표님. 잘 지내시죠?"
+          ],
+          "exact_quote": "9월 30일",
+          "start_char": 89,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "timeline:4764b402a8732834",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30일",
+      "normalized": {
+        "value": 30.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요. 대표님. 잘 지내시죠?"
+          ],
+          "exact_quote": "30일",
+          "start_char": 92,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "duration:df942c429831a159",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

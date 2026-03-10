@@ -1,0 +1,490 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W416",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[티어3 이스트시큐리티 - 잠재매출 미정] 260209_팔로업 메일 발송",
+      "normalized": {
+        "text": "[티어3 이스트시큐리티 - 잠재매출 미정] 260209_팔로업 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어3 이스트시큐리티 - 잠재매출 미정] 260209_팔로업 메일 발송",
+          "start_char": 0,
+          "end_char": 40
+        }
+      ],
+      "dedupe_key": "action_item:4985ebd065d8f991",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "700만원",
+      "normalized": {
+        "value": 7000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "700만원",
+          "start_char": 64,
+          "end_char": 69
+        }
+      ],
+      "dedupe_key": "budget:221afdfdc0dd7bd5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "@여인찬",
+          "start_char": 236,
+          "end_char": 240
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@서연주",
+      "normalized": {
+        "name": "서연주"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "@서연주",
+          "start_char": 250,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:da2b9d485e0e81e1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "TL;DR"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 99,
+          "end_char": 102
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 356,
+          "end_char": 359
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 464,
+          "end_char": 467
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 611,
+          "end_char": 614
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 747,
+          "end_char": 750
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1298,
+          "end_char": 1301
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "지난 미팅을 통해 공유해 주신 엑셀 관리의 한계, 가마감 시 발생하는 데이터 오차, 그리고 입력 지연으로 인한 업무 비효율 등 현재 겪고 계신 페인포인트를 해결하기 위한 리캐치 CRM 도입 방안을 정리하여 제안 드립니다.",
+      "normalized": {
+        "text": "지난 미팅을 통해 공유해 주신 엑셀 관리의 한계, 가마감 시 발생하는 데이터 오차, 그리고 입력 지연으로 인한 업무 비효율 등 현재 겪고 계신 페인포인트를 해결하기 위한 리캐치 CRM 도입 방안을 정리하여 제안 드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "지난 미팅을 통해 공유해 주신 엑셀 관리의 한계, 가마감 시 발생하는 데이터 오차, 그리고 입력 지연으로 인한 업무 비효율 등 현재 겪고 계신 페인포인트를 해결하기 위한 리캐치 CRM 도입 방안을 정리하여 제안 드립니다.",
+          "start_char": 369,
+          "end_char": 492
+        }
+      ],
+      "dedupe_key": "collaboration_need:09775aadf03e6b55",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청하신 \"사칙연산\" 기능 개발을 포함한 커스텀 견적과 더불어, 가장 효율적이고 부담 없이 시작하실 수 있는 도입 시나리오를 안내해 드립니다.",
+      "normalized": {
+        "text": "요청하신 \"사칙연산\" 기능 개발을 포함한 커스텀 견적과 더불어, 가장 효율적이고 부담 없이 시작하실 수 있는 도입 시나리오를 안내해 드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "요청하신 \"사칙연산\" 기능 개발을 포함한 커스텀 견적과 더불어, 가장 효율적이고 부담 없이 시작하실 수 있는 도입 시나리오를 안내해 드립니다.",
+          "start_char": 494,
+          "end_char": 573
+        }
+      ],
+      "dedupe_key": "action_item:3ddad13d4c9f5c02",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "또한, CRM의 효용을 체감하지 못한 상태에서 처음부터 연간 계약과 더불어 전담 어카운트가 배정되는 컨시어지 온보딩(3개월, 400만 원)을 진행하시기보다는, 월간 구독을 통해 리캐치 CRM의 효용성을 먼저 검증해 보시는 것을 추천해 드립니다. 제안드리는 안은 아래와 같습니다.",
+      "normalized": {
+        "text": "또한, CRM의 효용을 체감하지 못한 상태에서 처음부터 연간 계약과 더불어 전담 어카운트가 배정되는 컨시어지 온보딩(3개월, 400만 원)을 진행하시기보다는, 월간 구독을 통해 리캐치 CRM의 효용성을 먼저 검증해 보시는 것을 추천해 드립니다. 제안드리는 안은 아래와 같습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "또한, CRM의 효용을 체감하지 못한 상태에서 처음부터 연간 계약과 더불어 전담 어카운트가 배정되는 컨시어지 온보딩(3개월, 400만 원)을 진행하시기보다는, 월간 구독을 통해 리캐치 CRM의 효용성을 먼저 검증해 보시는 것을 추천해 드립니다. 제안드리는 안은 아래와 같습니다.",
+          "start_char": 648,
+          "end_char": 803
+        }
+      ],
+      "dedupe_key": "action_item:a2dd98e23eab42c5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 718,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 713,
+          "end_char": 716
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000원",
+          "start_char": 861,
+          "end_char": 865
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "공유해 주신 주요 페인포인트인 '데이터 자동 계산 및 정합성 확보'를 위해 요청하신 사칙연산 기능에 대한 개발 견적을 산출하였습니다.",
+      "normalized": {
+        "text": "공유해 주신 주요 페인포인트인 '데이터 자동 계산 및 정합성 확보'를 위해 요청하신 사칙연산 기능에 대한 개발 견적을 산출하였습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "공유해 주신 주요 페인포인트인 '데이터 자동 계산 및 정합성 확보'를 위해 요청하신 사칙연산 기능에 대한 개발 견적을 산출하였습니다.",
+          "start_char": 1092,
+          "end_char": 1166
+        }
+      ],
+      "dedupe_key": "action_item:5b3b862f8debfdc9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제안 프로세스: 앞서 제안 드린 '1/월간 구독'을 통해 리캐치 CRM의 기본적인 사용 경험과 만족도가 검증된 후, 해당 커스텀 개발을 진행하여 시스템을 고도화하는 단계를 추천해 드립니다.",
+      "normalized": {
+        "text": "제안 프로세스: 앞서 제안 드린 '1/월간 구독'을 통해 리캐치 CRM의 기본적인 사용 경험과 만족도가 검증된 후, 해당 커스텀 개발을 진행하여 시스템을 고도화하는 단계를 추천해 드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "제안 프로세스: 앞서 제안 드린 '1/월간 구독'을 통해 리캐치 CRM의 기본적인 사용 경험과 만족도가 검증된 후, 해당 커스텀 개발을 진행하여 시스템을 고도화하는 단계를 추천해 드립니다.",
+          "start_char": 1266,
+          "end_char": 1371
+        }
+      ],
+      "dedupe_key": "action_item:6ce1c879f5760291",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "결론적으로 이스트시큐리티의 성공적인 도입을 위해 다음의 2단계 접근을 제안드립니다.",
+      "normalized": {
+        "text": "결론적으로 이스트시큐리티의 성공적인 도입을 위해 다음의 2단계 접근을 제안드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "결론적으로 이스트시큐리티의 성공적인 도입을 위해 다음의 2단계 접근을 제안드립니다.",
+          "start_char": 1431,
+          "end_char": 1477
+        }
+      ],
+      "dedupe_key": "collaboration_need:7b91db6af8b42633",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "가볍게 시작: 무거운 연간 계약 및 컨시어지 온보딩 대신, 월 25만 원의 월간 구독으로 시작하여 부담 없이 도입. (1회 온라인 온보딩 및 CS 채널 무상 지원 포함)",
+      "normalized": {
+        "text": "가볍게 시작: 무거운 연간 계약 및 컨시어지 온보딩 대신, 월 25만 원의 월간 구독으로 시작하여 부담 없이 도입. (1회 온라인 온보딩 및 CS 채널 무상 지원 포함)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "가볍게 시작: 무거운 연간 계약 및 컨시어지 온보딩 대신, 월 25만 원의 월간 구독으로 시작하여 부담 없이 도입. (1회 온라인 온보딩 및 CS 채널 무상 지원 포함)",
+          "start_char": 1483,
+          "end_char": 1577
+        }
+      ],
+      "dedupe_key": "collaboration_need:9625572d6bfb47c4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 1518,
+          "end_char": 1523
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "맞춤형 고도화: 1단계 사용 경험이 긍정적일 경우, 사칙연산 커스텀 개발을 진행하여 주요 페인포인트 해결.",
+      "normalized": {
+        "text": "맞춤형 고도화: 1단계 사용 경험이 긍정적일 경우, 사칙연산 커스텀 개발을 진행하여 주요 페인포인트 해결.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "맞춤형 고도화: 1단계 사용 경험이 긍정적일 경우, 사칙연산 커스텀 개발을 진행하여 주요 페인포인트 해결.",
+          "start_char": 1581,
+          "end_char": 1640
+        }
+      ],
+      "dedupe_key": "action_item:6378eca184b0ac7f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "위 안을 검토해 보시고 궁금하신 점이 있다면 언제든 편하게 문의해 주시기 바랍니다.",
+      "normalized": {
+        "text": "위 안을 검토해 보시고 궁금하신 점이 있다면 언제든 편하게 문의해 주시기 바랍니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "(참고: 리캐치 세일즈 CRM 가격표)"
+          ],
+          "exact_quote": "위 안을 검토해 보시고 궁금하신 점이 있다면 언제든 편하게 문의해 주시기 바랍니다.",
+          "start_char": 1644,
+          "end_char": 1690
+        }
+      ],
+      "dedupe_key": "action_item:f417f51bff87e864",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

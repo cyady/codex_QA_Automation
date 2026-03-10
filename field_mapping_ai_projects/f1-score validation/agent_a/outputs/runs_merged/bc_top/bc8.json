@@ -1,0 +1,253 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W8",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+      "normalized": {
+        "text": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "발송물: 본 미팅 요약 + 제안 플랜(세일즈 CRM/마케팅 CRM 베이직) + 가격안(월 과금 기준, 상세 견적서)",
+          "start_char": 71,
+          "end_char": 135
+        }
+      ],
+      "dedupe_key": "action_item:851d8b7ea344ec04",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+      "normalized": {
+        "text": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "역할/관심: 신규 퍼블리셔 발굴, 제휴/코셀즈 확장, 인바운드 증가 대응 및 파이프라인/대시보드 필요",
+          "start_char": 207,
+          "end_char": 263
+        }
+      ],
+      "dedupe_key": "action_item:d0be584ce1403cec",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+      "normalized": {
+        "text": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "팀/조직: 약 15명(BD 2, 운영 3, 개발 10 내외), 전담 CSM/SC 부재",
+          "start_char": 401,
+          "end_char": 448
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f606beb24b754d7d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 15명",
+      "normalized": {
+        "value": 15,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "Next Action"
+          ],
+          "exact_quote": "약 15명",
+          "start_char": 407,
+          "end_char": 412
+        }
+      ],
+      "dedupe_key": "team_size:dec18b388bf3686c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+      "normalized": {
+        "text": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "세일즈 CRM + 마케팅 CRM 베이직 플랜 위주 검토. 월 과금(부가세 별도) 단위로 안내. 정확 금액·좌석 조합은 견적서로 확정 예정.",
+          "start_char": 546,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "action_item:c40f9f5d7658bc9c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+      "normalized": {
+        "text": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "1차 실사용·도입 주도: 참석자 1(BD). 내부 팀 논의 후 최종 확정.",
+          "start_char": 660,
+          "end_char": 701
+        }
+      ],
+      "dedupe_key": "action_item:66691ee17a7159f6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+      "normalized": {
+        "text": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "협업/연동: 슬랙 알림(폼 제출 즉시), 노션 데이터 마이그레이션, 이메일 히스토리 뷰는 우선순위 중간(있으면 좋음).",
+          "start_char": 1071,
+          "end_char": 1137
+        }
+      ],
+      "dedupe_key": "collaboration_need:8d15ce04b880e559",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+      "normalized": {
+        "text": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "SDK 연동 후 단게 관리: 도입 결정→연동 진행 추적(서포트팀 관여)도 CRM에서 가시화 희망.",
+          "start_char": 1138,
+          "end_char": 1192
+        }
+      ],
+      "dedupe_key": "action_item:5a1ee572bbd19807",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "도입 목표: 9월 내 검토 완료 가닥.",
+      "normalized": {
+        "text": "도입 목표: 9월 내 검토 완료 가닥.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "도입 목표: 9월 내 검토 완료 가닥.",
+          "start_char": 1290,
+          "end_char": 1311
+        }
+      ],
+      "dedupe_key": "action_item:a17dddb5095c44ef",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "제안한 솔루션"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 508,
+          "end_char": 511
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

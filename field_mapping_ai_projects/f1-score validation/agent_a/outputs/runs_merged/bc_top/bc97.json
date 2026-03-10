@@ -1,0 +1,415 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W97",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1년 프로젝트로 진행시 남은 8개월에 대해서는 24편/편당 100만원으로 제공가능 (장기고객 할인)",
+      "normalized": {
+        "text": "1년 프로젝트로 진행시 남은 8개월에 대해서는 24편/편당 100만원으로 제공가능 (장기고객 할인)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "1년 프로젝트로 진행시 남은 8개월에 대해서는 24편/편당 100만원으로 제공가능 (장기고객 할인)",
+          "start_char": 122,
+          "end_char": 177
+        }
+      ],
+      "dedupe_key": "action_item:d4525ce22a76caa1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "즉 1년 프로젝트 진행시 블로그 36편에 총 4800만원 제시 (편당 133만원 수준)",
+      "normalized": {
+        "text": "즉 1년 프로젝트 진행시 블로그 36편에 총 4800만원 제시 (편당 133만원 수준)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "즉 1년 프로젝트 진행시 블로그 36편에 총 4800만원 제시 (편당 133만원 수준)",
+          "start_char": 178,
+          "end_char": 226
+        }
+      ],
+      "dedupe_key": "action_item:700f4609c2f4d387",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실제 프로젝트 수행 시 캠페인 기획에 대한 오너십을 누가(그로스랩? 리멤버?) 가져갈 것인가에 대한 논의필요",
+      "normalized": {
+        "text": "실제 프로젝트 수행 시 캠페인 기획에 대한 오너십을 누가(그로스랩? 리멤버?) 가져갈 것인가에 대한 논의필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "실제 프로젝트 수행 시 캠페인 기획에 대한 오너십을 누가(그로스랩? 리멤버?) 가져갈 것인가에 대한 논의필요",
+          "start_char": 338,
+          "end_char": 398
+        }
+      ],
+      "dedupe_key": "action_item:599a73f340a55b09",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이외 SDR 콜, 스크립트 작성 등과 같은 영역들에 대한 논의도 필요",
+      "normalized": {
+        "text": "이외 SDR 콜, 스크립트 작성 등과 같은 영역들에 대한 논의도 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "이외 SDR 콜, 스크립트 작성 등과 같은 영역들에 대한 논의도 필요",
+          "start_char": 399,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "action_item:ffb7490ae71d0b3b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전체 캠페인 기획에 대한 오너십 주체에 대한 고민 필요",
+      "normalized": {
+        "text": "전체 캠페인 기획에 대한 오너십 주체에 대한 고민 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "전체 캠페인 기획에 대한 오너십 주체에 대한 고민 필요",
+          "start_char": 438,
+          "end_char": 468
+        }
+      ],
+      "dedupe_key": "action_item:363ec695fa8ba45a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 101,
+          "end_char": 106
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 234,
+          "end_char": 239
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2400만원",
+      "normalized": {
+        "value": 24000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "2400만원",
+          "start_char": 110,
+          "end_char": 116
+        }
+      ],
+      "dedupe_key": "budget:605e09b73933897c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "100만원",
+          "start_char": 155,
+          "end_char": 160
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4800만원",
+      "normalized": {
+        "value": 48000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "4800만원",
+          "start_char": 203,
+          "end_char": 209
+        }
+      ],
+      "dedupe_key": "budget:3e24b906a7370ef6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "133만원",
+      "normalized": {
+        "value": 1330000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "133만원",
+          "start_char": 217,
+          "end_char": 222
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "133만원",
+          "start_char": 290,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "budget:af7154af24371c5a",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 90,
+          "end_char": 93
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 243,
+          "end_char": 246
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "8개월",
+      "normalized": {
+        "value": 8.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "8개월",
+          "start_char": 138,
+          "end_char": 141
+        }
+      ],
+      "dedupe_key": "duration:ddaf109aefc17c2b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 77,
+          "end_char": 80
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 192,
+          "end_char": 195
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 402,
+          "end_char": 405
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3500만원",
+      "normalized": {
+        "value": 35000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "하이퍼타기팅 소개서 (첨)"
+          ],
+          "exact_quote": "3500만원",
+          "start_char": 501,
+          "end_char": 507
+        }
+      ],
+      "dedupe_key": "budget:9b5967a2bee93160",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

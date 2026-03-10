@@ -1,0 +1,135 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W295",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 논의 이후, 미팅 여부 전달해 주실 예정",
+      "normalized": {
+        "text": "내부 논의 이후, 미팅 여부 전달해 주실 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "내부 논의 이후, 미팅 여부 전달해 주실 예정",
+          "start_char": 14,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "collaboration_need:39e0c3b0b2e5d4f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11/30",
+      "normalized": {
+        "month": 11,
+        "day": 30,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "11/30",
+          "start_char": 175,
+          "end_char": 180
+        }
+      ],
+      "dedupe_key": "timeline:b791784d8de0a971",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30일",
+      "normalized": {
+        "value": 30.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "30일",
+          "start_char": 178,
+          "end_char": 181
+        }
+      ],
+      "dedupe_key": "duration:df942c429831a159",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "미팅 이후에 전달 하지만, 이번에는 예산범주에 속하는지 파악하고 싶어 미리 오픈했습니다.",
+      "normalized": {
+        "text": "미팅 이후에 전달 하지만, 이번에는 예산범주에 속하는지 파악하고 싶어 미리 오픈했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "미팅 이후에 전달 하지만, 이번에는 예산범주에 속하는지 파악하고 싶어 미리 오픈했습니다.",
+          "start_char": 211,
+          "end_char": 260
+        }
+      ],
+      "dedupe_key": "collaboration_need:d17352c94c7e92f4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "천만원 언더를 고려하고 있고, 빠른 집행이 필요한 상황으로 플라스틱백 동준님 소개드리기로 결정",
+      "normalized": {
+        "text": "천만원 언더를 고려하고 있고, 빠른 집행이 필요한 상황으로 플라스틱백 동준님 소개드리기로 결정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "후속 마무리)"
+          ],
+          "exact_quote": "천만원 언더를 고려하고 있고, 빠른 집행이 필요한 상황으로 플라스틱백 동준님 소개드리기로 결정",
+          "start_char": 355,
+          "end_char": 407
+        }
+      ],
+      "dedupe_key": "action_item:2d3e7a1dcdf6995e",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

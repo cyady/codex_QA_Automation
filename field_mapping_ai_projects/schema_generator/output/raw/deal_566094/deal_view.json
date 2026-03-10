@@ -1,0 +1,489 @@
+{
+  "deal": {
+    "id": 566094,
+    "visitor_id": null,
+    "first_name": "aa",
+    "deal_name": "aa",
+    "last_name": null,
+    "email": "amodm@gmail.com",
+    "company": null,
+    "timezone": "Asia/Seoul",
+    "phone": {
+      "dial_code": "+82",
+      "value": null
+    },
+    "assignee": "KmGTAiqP0pQan7cg6gE65GAXHP22",
+    "contract_amount": 250000,
+    "close_date": null,
+    "incoming_source": "민우테",
+    "utm_source": null,
+    "utm_medium": null,
+    "utm_campaign": null,
+    "utm_content": null,
+    "utm_term": null,
+    "custom_field": {
+      "1591": "2026-02-25",
+      "1593": 250000,
+      "1607": null,
+      "1608": 20,
+      "1614": null,
+      "4835": null,
+      "4985": null,
+      "4986": null,
+      "4987": null,
+      "5074": null,
+      "5075": null,
+      "5173": null,
+      "5178": null,
+      "5361": "계약 논의",
+      "5362": null,
+      "5370": null,
+      "5374": "예산 50000000원, 1차 파일럿은 500만 원으로 시작 요청.",
+      "5375": true,
+      "5376": "결제 확정은 아니고 내부 검토만 진행 중.",
+      "5378": "다음 주",
+      "5379": "pricing is still too high",
+      "5557": 50000000,
+      "5574": null,
+      "5575": "1차 파일럿은 500만 원으로 시작 요청.",
+      "5577": "엠브라운코리아",
+      "5579": null,
+      "5580": null,
+      "5582": null,
+      "5586": null,
+      "5656": [
+        {
+          "label": "ABM",
+          "value": "903cacc1-9e37-4d0b-8d6c-2acd90ce686e",
+          "order": 3
+        }
+      ],
+      "5657": null,
+      "5773": 4,
+      "5886": null,
+      "5895": null,
+      "6004": null,
+      "6091": null,
+      "6118": null,
+      "6129": null,
+      "6207": null,
+      "6237": null,
+      "6238": null,
+      "6583": null,
+      "6677": null,
+      "6695": null,
+      "6896": null,
+      "6900": null,
+      "6901": null,
+      "7011": null,
+      "7188": null,
+      "7189": null,
+      "7190": null,
+      "7506": null,
+      "7903": null,
+      "7973": null,
+      "7995": null,
+      "8001": null,
+      "8075": null,
+      "8372": null
+    },
+    "record_type": {
+      "id": 2035,
+      "name": "민우QA용딜"
+    },
+    "created_at": "2026-01-06T07:49:46.033Z",
+    "updated_at": "2026-02-26T05:41:06.428Z",
+    "created_by": null,
+    "updated_by": "iYUstaihNXN57melhMLNr3XmEou2",
+    "contact": {
+      "id": 483034
+    },
+    "stage_id": 11834,
+    "deal_converted_at": "2026-01-06T07:49:46.033Z",
+    "pipeline": {
+      "id": 3033,
+      "statuses": [
+        {
+          "status": "BEFORE_SALES",
+          "stages": [
+            {
+              "id": 11834,
+              "label": "진행 전",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "IN_SALES",
+          "stages": [
+            {
+              "id": 11835,
+              "label": "진행 중",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "SALES_SUCCESS",
+          "stages": [
+            {
+              "id": 11836,
+              "label": "성공",
+              "order": 999
+            }
+          ]
+        },
+        {
+          "status": "SALES_FAILURE",
+          "stages": [
+            {
+              "id": 11837,
+              "label": "실패",
+              "order": 999
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "conversations": [
+    {
+      "id": 47477,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\"> 테스트 시도 예정</div>",
+      "text": " 테스트 시도 예정",
+      "created_at": "2026-02-26T02:28:05.838Z"
+    },
+    {
+      "id": 47487,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">첫세일즈미팅일자어제라고기록</div>",
+      "text": "첫세일즈미팅일자어제라고기록",
+      "created_at": "2026-02-26T03:21:18.559Z"
+    },
+    {
+      "id": 47488,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">내일 김철@(잘못된 메일)에게 제안서 전달 후 미팅 진행.</div>",
+      "text": "내일 김철@(잘못된 메일)에게 제안서 전달 후 미팅 진행.",
+      "created_at": "2026-02-26T03:21:48.942Z"
+    },
+    {
+      "id": 47489,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">담당자 메일은 cs@@<a href=\"http://email.com\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"text-decoration: none;\">email.com</a>으로 받았는데 확인 필요.</div>",
+      "text": "담당자 메일은 cs@@email.com으로 받았는데 확인 필요.",
+      "created_at": "2026-02-26T03:22:49.542Z"
+    },
+    {
+      "id": 47490,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">연락처: <a href=\"mailto:sales.team+kr@company.co.kr\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"text-decoration: none;\">sales.team+kr@company.co.kr</a>, 계약 논의는 다음 주.</div>",
+      "text": "연락처: sales.team+kr@company.co.kr, 계약 논의는 다음 주.",
+      "created_at": "2026-02-26T03:23:30.530Z"
+    },
+    {
+      "id": 47491,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">이메일 없음, 카톡으로만 커뮤니케이션 중.</div>",
+      "text": "이메일 없음, 카톡으로만 커뮤니케이션 중.",
+      "created_at": "2026-02-26T03:25:03.863Z"
+    },
+    {
+      "id": 47492,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">참석자: <a href=\"mailto:jane_doe@corp.ai\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"text-decoration: none;\">jane_doe@corp.ai</a>, 김대리, 오과장</div>",
+      "text": "참석자: jane_doe@corp.ai, 김대리, 오과장",
+      "created_at": "2026-02-26T03:26:44.622Z"
+    },
+    {
+      "id": 47493,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">예산 50000000원, 1차 파일럿은 500만 원으로 시작 요청.</div>",
+      "text": "예산 50000000원, 1차 파일럿은 500만 원으로 시작 요청.",
+      "created_at": "2026-02-26T03:29:03.083Z"
+    },
+    {
+      "id": 47498,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">계약 희망가: KRW 70,000,000 / 결제 조건: 선불 50%.</div>",
+      "text": "계약 희망가: KRW 70,000,000 / 결제 조건: 선불 50%.",
+      "created_at": "2026-02-26T04:20:29.680Z"
+    },
+    {
+      "id": 47499,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">월 250,000원 플랜으로 20명 도입 문의.</div>",
+      "text": "월 250,000원 플랜으로 20명 도입 문의.",
+      "created_at": "2026-02-26T04:25:25.752Z"
+    },
+    {
+      "id": 47500,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">총액 0원 PoC 제안, 성과 나면 유료 전환.</div>",
+      "text": "총액 0원 PoC 제안, 성과 나면 유료 전환.",
+      "created_at": "2026-02-26T04:29:47.423Z"
+    },
+    {
+      "id": 47501,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">예산 미정(대략 오천~육천만 원 사이).</div>",
+      "text": "예산 미정(대략 오천~육천만 원 사이).",
+      "created_at": "2026-02-26T04:30:50.516Z"
+    },
+    {
+      "id": 47502,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">미팅 일시: 2026-03-01T09:30:00+09:00, 장소는 온라인.</div>",
+      "text": "미팅 일시: 2026-03-01T09:30:00+09:00, 장소는 온라인.",
+      "created_at": "2026-02-26T04:31:28.718Z"
+    },
+    {
+      "id": 47503,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">3/7(목) 오전 9시 반 재미팅, 참석자 3명.</div>",
+      "text": "3/7(목) 오전 9시 반 재미팅, 참석자 3명.",
+      "created_at": "2026-02-26T04:32:26.573Z"
+    },
+    {
+      "id": 47504,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">어제 미팅했고 내일 다시 보기로 함.</div>",
+      "text": "어제 미팅했고 내일 다시 보기로 함.",
+      "created_at": "2026-02-26T04:32:42.555Z"
+    },
+    {
+      "id": 47505,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">25.03.04 14:00 첫 콜, 25.03.11 후속 예정.</div>",
+      "text": "25.03.04 14:00 첫 콜, 25.03.11 후속 예정.",
+      "created_at": "2026-02-26T04:32:50.583Z"
+    },
+    {
+      "id": 47506,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">다음 분기 초에 의사결정 예정(정확한 날짜 미정).</div>",
+      "text": "다음 분기 초에 의사결정 예정(정확한 날짜 미정).",
+      "created_at": "2026-02-26T04:33:06.488Z"
+    },
+    {
+      "id": 47508,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">ABM package는 긍정적, but pricing is still too high.</div>",
+      "text": "ABM package는 긍정적, but pricing is still too high.",
+      "created_at": "2026-02-26T04:40:25.681Z"
+    },
+    {
+      "id": 47509,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">Customer said 'looks good', 내부 승인만 남음.</div>",
+      "text": "Customer said 'looks good', 내부 승인만 남음.",
+      "created_at": "2026-02-26T04:40:29.013Z"
+    },
+    {
+      "id": 47510,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">SEO 리드 증가했지만 conversion rate는 낮다고 함.</div>",
+      "text": "SEO 리드 증가했지만 conversion rate는 낮다고 함.",
+      "created_at": "2026-02-26T04:40:35.164Z"
+    },
+    {
+      "id": 47511,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">Kick-off 전에 legal review 필요, 계약서는 draft 상태.</div>",
+      "text": "Kick-off 전에 legal review 필요, 계약서는 draft 상태.",
+      "created_at": "2026-02-26T04:40:39.720Z"
+    },
+    {
+      "id": 47512,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">Pipeline stage는 Proposal, close target은 Q2.</div>",
+      "text": "Pipeline stage는 Proposal, close target은 Q2.",
+      "created_at": "2026-02-26T04:45:40.217Z"
+    },
+    {
+      "id": 47513,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">도입 의사는 아직 없고, 정보만 받아보겠다고 함.</div>",
+      "text": "도입 의사는 아직 없고, 정보만 받아보겠다고 함.",
+      "created_at": "2026-02-26T04:46:50.608Z"
+    },
+    {
+      "id": 47514,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">결제 확정은 아니고 내부 검토만 진행 중.</div>",
+      "text": "결제 확정은 아니고 내부 검토만 진행 중.",
+      "created_at": "2026-02-26T04:46:54.423Z"
+    },
+    {
+      "id": 47515,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">예산 있다고 했지만 올해 집행은 어렵다고 함.</div>",
+      "text": "예산 있다고 했지만 올해 집행은 어렵다고 함.",
+      "created_at": "2026-02-26T04:46:59.390Z"
+    },
+    {
+      "id": 47516,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">미팅 참여자는 확정되지 않았고 후보만 있음.</div>",
+      "text": "미팅 참여자는 확정되지 않았고 후보만 있음.",
+      "created_at": "2026-02-26T04:47:04.793Z"
+    },
+    {
+      "id": 47517,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">고객사 확정 아님(엠브라운코리아로 추정만).</div>",
+      "text": "고객사 확정 아님(엠브라운코리아로 추정만).",
+      "created_at": "2026-02-26T04:47:09.424Z"
+    },
+    {
+      "id": 47518,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">김철수/박민지/이재훈 3명과 미팅, 법인은 알파와 베타 동시 검토.</div>",
+      "text": "김철수/박민지/이재훈 3명과 미팅, 법인은 알파와 베타 동시 검토.",
+      "created_at": "2026-02-26T04:50:55.439Z"
+    },
+    {
+      "id": 47519,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">A사 3천만 원, B사 7천만 원 제안서 동시 발송.</div>",
+      "text": "A사 3천만 원, B사 7천만 원 제안서 동시 발송.",
+      "created_at": "2026-02-26T04:50:59.832Z"
+    },
+    {
+      "id": 47520,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">리캐치+SEO 컨설팅 패키지와 CRM 단품을 함께 비교 중.</div>",
+      "text": "리캐치+SEO 컨설팅 패키지와 CRM 단품을 함께 비교 중.",
+      "created_at": "2026-02-26T04:51:04.116Z"
+    },
+    {
+      "id": 47521,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">담당자 2명(마케팅팀/영업팀) 의견이 서로 상충함.</div>",
+      "text": "담당자 2명(마케팅팀/영업팀) 의견이 서로 상충함.",
+      "created_at": "2026-02-26T04:51:08.747Z"
+    },
+    {
+      "id": 47522,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">의사결정권자는 본사, 실무 협의는 한국지사에서 진행.</div>",
+      "text": "의사결정권자는 본사, 실무 협의는 한국지사에서 진행.",
+      "created_at": "2026-02-26T04:51:12.376Z"
+    },
+    {
+      "id": 47525,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">의사결정권자는 본사, 실무 협의는 한국지사에서 진행.</div>",
+      "text": "의사결정권자는 본사, 실무 협의는 한국지사에서 진행.",
+      "created_at": "2026-02-26T05:03:13.583Z"
+    },
+    {
+      "id": 47526,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">고객 요청: \"가격표 다시\" / 내부 코멘트: '할인 불가'</div>",
+      "text": "고객 요청: \"가격표 다시\" / 내부 코멘트: '할인 불가'",
+      "created_at": "2026-02-26T05:03:19.239Z"
+    },
+    {
+      "id": 47527,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">메모 끝에 제어문자 테스트 포함</div>",
+      "text": "메모 끝에 제어문자 테스트 포함",
+      "created_at": "2026-02-26T05:03:23.663Z"
+    },
+    {
+      "id": 47528,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">메모 끝에 제어문자 테스트 포함 \\n cd ..</div>",
+      "text": "메모 끝에 제어문자 테스트 포함 \\n cd ..",
+      "created_at": "2026-02-26T05:03:56.948Z"
+    },
+    {
+      "id": 47529,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">[긴급] #재논의 필요 @안민혁: 견적 재산정 요청</div>",
+      "text": "[긴급] #재논의 필요 @안민혁: 견적 재산정 요청",
+      "created_at": "2026-02-26T05:05:56.812Z"
+    },
+    {
+      "id": 47531,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">리드 소스: 네이버&gt;블로그&gt;랜딩페이지(UTM:abc_123)</div>",
+      "text": "리드 소스: 네이버>블로그>랜딩페이지(UTM:abc_123)",
+      "created_at": "2026-02-26T05:06:59.375Z"
+    },
+    {
+      "id": 47532,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">전화번호 010-1234-5678, 법인번호 123-45-67890 확인 요청</div>",
+      "text": "전화번호 010-1234-5678, 법인번호 123-45-67890 확인 요청",
+      "created_at": "2026-02-26T05:07:04.444Z"
+    },
+    {
+      "id": 47534,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">1명 도입 문의, 최소 플랜 가능한지 질문.</div>",
+      "text": "1명 도입 문의, 최소 플랜 가능한지 질문.",
+      "created_at": "2026-02-26T05:08:01.519Z"
+    },
+    {
+      "id": 47535,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">사용 인원 999명 예상, 엔터프라이즈 견적 요청.</div>",
+      "text": "사용 인원 999명 예상, 엔터프라이즈 견적 요청.",
+      "created_at": "2026-02-26T05:08:05.164Z"
+    },
+    {
+      "id": 47536,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">미팅 5분 만에 종료, 니즈 파악 거의 못함.</div>",
+      "text": "미팅 5분 만에 종료, 니즈 파악 거의 못함.",
+      "created_at": "2026-02-26T05:08:09.006Z"
+    },
+    {
+      "id": 47537,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">ㅍ</div>",
+      "text": "ㅍ",
+      "created_at": "2026-02-26T05:08:14.265Z"
+    },
+    {
+      "id": 47538,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">도입 검토 중. 도입 검토 중. 도입 검토 중.</div>",
+      "text": "도입 검토 중. 도입 검토 중. 도입 검토 중.",
+      "created_at": "2026-02-26T05:08:23.126Z"
+    },
+    {
+      "id": 47539,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">네</div>",
+      "text": "네",
+      "created_at": "2026-02-26T05:12:35.390Z"
+    },
+    {
+      "id": 47540,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 </div>",
+      "text": "MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 MRR200만 ",
+      "created_at": "2026-02-26T05:13:19.767Z"
+    },
+    {
+      "id": 47551,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<pre><code class=\"language-json\">[\n  {\n    \"extracted_value\": \"어드밴텍\",\n    \"field_definition\": {\n      \"id\": \"5577\",\n      \"label\": \"법인명\",\n      \"type\": \"text\",\n      \"category\": \"custom\",\n      \"display_order\": 164,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"attributes\": null\n    },\n    \"reasoning\": \"미팅 노트 제목 및 본문에서 고객사 법인명이 '어드밴텍'임을 명시하고 있습니다.\"\n  },\n  {\n    \"extracted_value\": \"2026-02-24\",\n    \"field_definition\": {\n      \"id\": \"1591\",\n      \"label\": \"첫 세일즈 미팅 일자\",\n      \"type\": \"date\",\n      \"category\": \"custom\",\n      \"display_order\": 23,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"attributes\": null\n    },\n    \"reasoning\": \"현재 날짜(2026-02-24)를 기준으로 공유된 미팅 기록이므로 첫 세일즈 미팅 일자를 오늘로 추출합니다.\"\n  },\n  {\n    \"extracted_value\": 10,\n    \"field_definition\": {\n      \"id\": \"5363\",\n      \"label\": \"마케팅 팀 수\",\n      \"type\": \"number\",\n      \"category\": \"custom\",\n      \"display_order\": 132,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": \"모르면 -1\",\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"precision\": 0\n      }\n    },\n    \"reasoning\": \"본문에 '한국 지사에만 순수 마케팅 인력이 10명이나 됩니다'라고 명시되어 있습니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"ae753957-0f58-4580-baf2-228a1fa8ccba\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5074\",\n      \"label\": \"마케팅 팀 규모\",\n      \"type\": \"select\",\n      \"category\": \"custom\",\n      \"display_order\": 109,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"51명 이상\",\n            \"order\": 1,\n            \"value\": \"8d48a97e-5647-42f4-aa77-cc28624f6b4a\"\n          },\n          {\n            \"label\": \"11~50명\",\n            \"order\": 2,\n            \"value\": \"b53ea9a8-1896-4a3a-a6b8-2a8b33367a20\"\n          },\n          {\n            \"label\": \"6~10명\",\n            \"order\": 3,\n            \"value\": \"ae753957-0f58-4580-baf2-228a1fa8ccba\"\n          },\n          {\n            \"label\": \"3~5명\",\n            \"order\": 4,\n            \"value\": \"05e8007b-dccb-4c8c-8182-17e8ca94d4a3\"\n          },\n          {\n            \"label\": \"1~2명\",\n            \"order\": 5,\n            \"value\": \"48cada62-a7ca-4177-9c86-fca16d3e6eff\"\n          },\n          {\n            \"label\": \"0명 - 별도 마케팅 부서 없음\",\n            \"order\": 6,\n            \"value\": \"1cc7150f-05ad-4b5f-9401-b9e7f30b1ca7\"\n          }\n        ],\n        \"allow_empty\": true\n      }\n    },\n    \"reasoning\": \"마케팅 인력이 10명이므로, '6~10명' 옵션의 value인 'ae753957-0f58-4580-baf2-228a1fa8ccba'를 선택합니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"efd4809f-bbe1-4ff6-a608-e456507b192e\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5580\",\n      \"label\": \"택한 경쟁사 \",\n      \"type\": \"select\",\n      \"category\": \"custom\",\n      \"display_order\": 167,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"세일즈포스\",\n            \"order\": 1,\n            \"value\": \"efd4809f-bbe1-4ff6-a608-e456507b192e\"\n          },\n          {\n            \"label\": \"릴레잇\",\n            \"order\": 2,\n            \"value\": \"2a033caa-6c36-4d81-87ae-c489b7a0ed2c\"\n          },\n          {\n            \"label\": \"세일즈맵\",\n            \"order\": 3,\n            \"value\": \"0347fd75-56dd-4d44-aaad-9b352e8f2d5a\"\n          },\n          {\n            \"label\": \"핑거세일즈\",\n            \"order\": 4,\n            \"value\": \"ae084165-205d-4a00-b319-0379b3259621\"\n          },\n          {\n            \"label\": \"허브스팟\",\n            \"order\": 5,\n            \"value\": \"5d1bb159-b426-4573-811f-6187549f5d70\"\n          },\n          {\n            \"label\": \"파이프드라이브\",\n            \"order\": 6,\n            \"value\": \"3babb7fa-37b4-4e45-95e8-1fd9ffd4533a\"\n          },\n          {\n            \"label\": \"노션\",\n            \"order\": 7,\n            \"value\": \"735671cd-4b2f-4d74-9bc8-8b6d36538877\"\n          },\n          {\n            \"label\": \"구글 시트\",\n            \"order\": 8,\n            \"value\": \"4f6fc536-86a4-4010-9471-d35288cefb49\"\n          },\n          {\n            \"label\": \"그 외\",\n            \"order\": 9,\n            \"value\": \"43d1a559-5f04-4fa5-99fe-9b548f2c3d7b\"\n          }\n        ],\n        \"allow_empty\": true\n      }\n    },\n    \"reasoning\": \"현재 Salesforce CRM을 사용 중이라고 명시되어 있으므로 경쟁사 옵션 중 '세일즈포스'를 선택합니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"a0e711d5-da0f-4e32-a20f-238ba63c142f\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5173\",\n      \"label\": \"솔루션 니즈\",\n      \"type\": \"multi-select\",\n      \"category\": \"custom\",\n      \"display_order\": 119,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": \"'어떤 고민을 갖고 계신가요?' 질문에 대한 응답입니다.\\n\",\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"CRM(신규 검</code></pre>",
+      "text": "[\n  {\n    \"extracted_value\": \"어드밴텍\",\n    \"field_definition\": {\n      \"id\": \"5577\",\n      \"label\": \"법인명\",\n      \"type\": \"text\",\n      \"category\": \"custom\",\n      \"display_order\": 164,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"attributes\": null\n    },\n    \"reasoning\": \"미팅 노트 제목 및 본문에서 고객사 법인명이 '어드밴텍'임을 명시하고 있습니다.\"\n  },\n  {\n    \"extracted_value\": \"2026-02-24\",\n    \"field_definition\": {\n      \"id\": \"1591\",\n      \"label\": \"첫 세일즈 미팅 일자\",\n      \"type\": \"date\",\n      \"category\": \"custom\",\n      \"display_order\": 23,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"attributes\": null\n    },\n    \"reasoning\": \"현재 날짜(2026-02-24)를 기준으로 공유된 미팅 기록이므로 첫 세일즈 미팅 일자를 오늘로 추출합니다.\"\n  },\n  {\n    \"extracted_value\": 10,\n    \"field_definition\": {\n      \"id\": \"5363\",\n      \"label\": \"마케팅 팀 수\",\n      \"type\": \"number\",\n      \"category\": \"custom\",\n      \"display_order\": 132,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": \"모르면 -1\",\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"precision\": 0\n      }\n    },\n    \"reasoning\": \"본문에 '한국 지사에만 순수 마케팅 인력이 10명이나 됩니다'라고 명시되어 있습니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"ae753957-0f58-4580-baf2-228a1fa8ccba\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5074\",\n      \"label\": \"마케팅 팀 규모\",\n      \"type\": \"select\",\n      \"category\": \"custom\",\n      \"display_order\": 109,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"51명 이상\",\n            \"order\": 1,\n            \"value\": \"8d48a97e-5647-42f4-aa77-cc28624f6b4a\"\n          },\n          {\n            \"label\": \"11~50명\",\n            \"order\": 2,\n            \"value\": \"b53ea9a8-1896-4a3a-a6b8-2a8b33367a20\"\n          },\n          {\n            \"label\": \"6~10명\",\n            \"order\": 3,\n            \"value\": \"ae753957-0f58-4580-baf2-228a1fa8ccba\"\n          },\n          {\n            \"label\": \"3~5명\",\n            \"order\": 4,\n            \"value\": \"05e8007b-dccb-4c8c-8182-17e8ca94d4a3\"\n          },\n          {\n            \"label\": \"1~2명\",\n            \"order\": 5,\n            \"value\": \"48cada62-a7ca-4177-9c86-fca16d3e6eff\"\n          },\n          {\n            \"label\": \"0명 - 별도 마케팅 부서 없음\",\n            \"order\": 6,\n            \"value\": \"1cc7150f-05ad-4b5f-9401-b9e7f30b1ca7\"\n          }\n        ],\n        \"allow_empty\": true\n      }\n    },\n    \"reasoning\": \"마케팅 인력이 10명이므로, '6~10명' 옵션의 value인 'ae753957-0f58-4580-baf2-228a1fa8ccba'를 선택합니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"efd4809f-bbe1-4ff6-a608-e456507b192e\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5580\",\n      \"label\": \"택한 경쟁사 \",\n      \"type\": \"select\",\n      \"category\": \"custom\",\n      \"display_order\": 167,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": null,\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"세일즈포스\",\n            \"order\": 1,\n            \"value\": \"efd4809f-bbe1-4ff6-a608-e456507b192e\"\n          },\n          {\n            \"label\": \"릴레잇\",\n            \"order\": 2,\n            \"value\": \"2a033caa-6c36-4d81-87ae-c489b7a0ed2c\"\n          },\n          {\n            \"label\": \"세일즈맵\",\n            \"order\": 3,\n            \"value\": \"0347fd75-56dd-4d44-aaad-9b352e8f2d5a\"\n          },\n          {\n            \"label\": \"핑거세일즈\",\n            \"order\": 4,\n            \"value\": \"ae084165-205d-4a00-b319-0379b3259621\"\n          },\n          {\n            \"label\": \"허브스팟\",\n            \"order\": 5,\n            \"value\": \"5d1bb159-b426-4573-811f-6187549f5d70\"\n          },\n          {\n            \"label\": \"파이프드라이브\",\n            \"order\": 6,\n            \"value\": \"3babb7fa-37b4-4e45-95e8-1fd9ffd4533a\"\n          },\n          {\n            \"label\": \"노션\",\n            \"order\": 7,\n            \"value\": \"735671cd-4b2f-4d74-9bc8-8b6d36538877\"\n          },\n          {\n            \"label\": \"구글 시트\",\n            \"order\": 8,\n            \"value\": \"4f6fc536-86a4-4010-9471-d35288cefb49\"\n          },\n          {\n            \"label\": \"그 외\",\n            \"order\": 9,\n            \"value\": \"43d1a559-5f04-4fa5-99fe-9b548f2c3d7b\"\n          }\n        ],\n        \"allow_empty\": true\n      }\n    },\n    \"reasoning\": \"현재 Salesforce CRM을 사용 중이라고 명시되어 있으므로 경쟁사 옵션 중 '세일즈포스'를 선택합니다.\"\n  },\n  {\n    \"extracted_value\": [\n      {\n        \"value\": \"a0e711d5-da0f-4e32-a20f-238ba63c142f\"\n      }\n    ],\n    \"field_definition\": {\n      \"id\": \"5173\",\n      \"label\": \"솔루션 니즈\",\n      \"type\": \"multi-select\",\n      \"category\": \"custom\",\n      \"display_order\": 119,\n      \"required\": false,\n      \"archive\": false,\n      \"caption\": \"'어떤 고민을 갖고 계신가요?' 질문에 대한 응답입니다.\\n\",\n      \"description\": null,\n      \"default_value\": null,\n      \"attributes\": {\n        \"options\": [\n          {\n            \"label\": \"CRM(신규 검",
+      "created_at": "2026-02-26T05:34:20.650Z"
+    },
+    {
+      "id": 47552,
+      "author_id": "iYUstaihNXN57melhMLNr3XmEou2",
+      "html": "<div style=\"line-height: 1.5em\">[테스트용 통합 미팅 메모 - deal_id 561187]</div><div style=\"line-height: 1.5em\">created_at: 2026-02-26T09:10:00+09:00</div><div style=\"line-height: 1.5em\">created_by: 김한규</div><div style=\"line-height: 1.5em\">updated_at: 2026-02-26T11:45:00+09:00</div><div style=\"line-height: 1.5em\">updated_by: 김숙영</div><div style=\"line-height: 1.5em\">utm_source: organic</div><div style=\"line-height: 1.5em\">utm_medium: webinar</div><div style=\"line-height: 1.5em\">utm_campaign: 2026_q1_growth_pipeline</div><div style=\"line-height: 1.5em\">utm_content: landing_a_variant</div><div style=\"line-height: 1.5em\">utm_term: b2b crm 도입</div><div style=\"line-height: 1.5em\">deal_converted_at: 2026-02-26T11:40:00+09:00</div><div style=\"line-height: 1.5em\">name: 엠브라운코리아 CRM+그로스 통합 딜</div><div style=\"line-height: 1.5em\">deal_name: 엠브라운코리아_통합도입_2026Q1</div><div style=\"line-height: 1.5em\">incoming_source: private external event</div><div style=\"line-height: 1.5em\">company: 엠브라운코리아</div><div style=\"line-height: 1.5em\">phone_number: 010-2345-6789</div><div style=\"line-height: 1.5em\">email: <a href=\"mailto:cs.team@mbrownkorea.co.kr\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"text-decoration: none;\">cs.team@mbrownkorea.co.kr</a></div><div style=\"line-height: 1.5em\">close_date: 2026-03-31</div><div style=\"line-height: 1.5em\">contract_amount: 120000000</div><div style=\"line-height: 1.5em\">assignee: 김한규</div><div style=\"line-height: 1.5em\">오늘 오전 엠브라운코리아 본사/한국지사 합동 미팅을 진행했다. 참석자는 김철수 본부장, 박민지 과장, 오현우 팀장이었고, 당사 측에서는 김한규/김숙영/조민우가 참여했다. 고객은 “기존 리드 유입은 있는데 전환 구간(Bofu)에서 누수가 크다”는 점을 가장 큰 문제로 제기했다. 특히 실무자는 웹사이트 문의 후 세일즈 전환까지의 리드 핸드오프가 끊기는 문제가 반복된다고 말했다.</div><div style=\"line-height: 1.5em\">직무: 마케팅</div><div style=\"line-height: 1.5em\">직책: 팀장급 이상</div><div style=\"line-height: 1.5em\">직원 수: 201-500명</div><div style=\"line-height: 1.5em\">마케팅 팀 규모: 11~50명</div><div style=\"line-height: 1.5em\">세일즈 팀 규모: 6~10명</div><div style=\"line-height: 1.5em\">Tier: Tier3 - 매출 100억 이상</div><div style=\"line-height: 1.5em\">솔루션 니즈:</div><div style=\"line-height: 1.5em\">- CRM(신규 검토)</div><div style=\"line-height: 1.5em\">- 웹사이트 구축</div><div style=\"line-height: 1.5em\">- 블로그 대행</div><div style=\"line-height: 1.5em\">- 전략 및 컨설팅</div><div style=\"line-height: 1.5em\">고객상황:</div><div style=\"line-height: 1.5em\">- ToFu에 대한 니즈 - 기존 툴을 대체하고자 하는 니즈 (Tally, Goole폼 등)</div><div style=\"line-height: 1.5em\">- Bofu에 대한 니즈 - 타 CRM을 대체하고자 하는 니즈 (Salesforce, Salesmap 등)</div><div style=\"line-height: 1.5em\">- 그로스패키지 (웹사이트)에 대한 니즈</div><div style=\"line-height: 1.5em\">- 그로스패키지 (블로그)에 대한 니즈</div><div style=\"line-height: 1.5em\">- 성장전략에 대한 니즈</div><div style=\"line-height: 1.5em\">- 리스트빌딩에 대한 니즈</div><div style=\"line-height: 1.5em\">미팅 참여자:</div><div style=\"line-height: 1.5em\">- 김한규</div><div style=\"line-height: 1.5em\">- 김숙영</div><div style=\"line-height: 1.5em\">- 조민우</div><div style=\"line-height: 1.5em\">도입 의사: 테스트 중</div><div style=\"line-height: 1.5em\">✔️ 제품 사용 의지: 반드시 사용</div><div style=\"line-height: 1.5em\">✔️ 이메일캠페인기능: O - 라이센스</div><div style=\"line-height: 1.5em\">결제 상품 (그로스패키지):</div><div style=\"line-height: 1.5em\">- 웹사이트</div><div style=\"line-height: 1.5em\">- 블로그</div><div style=\"line-height: 1.5em\">- ABM</div><div style=\"line-height: 1.5em\">- GTM 패키지</div><div style=\"line-height: 1.5em\">결제 상품 (제품):</div><div style=\"line-height: 1.5em\">- 스탠다드 (2507) - 세일즈</div><div style=\"line-height: 1.5em\">- 프리미엄 (2507) - 마케팅</div><div style=\"line-height: 1.5em\">결제 수단: 세금계산서</div><div style=\"line-height: 1.5em\">이벤트 참가비 결제 수단: Steppay</div><div style=\"line-height: 1.5em\">[최초 유입 경로] 대분류: organic</div><div style=\"line-height: 1.5em\">[직전 유입 경로] 대분류: mql signal</div><div style=\"line-height: 1.5em\">소속 조직의 성격: 조직 내 혁신 또는 신사업 전담 조직 (CVC, TF 등 포함)</div><div style=\"line-height: 1.5em\">광고성 정보 수신 동의 여부: 동의</div><div style=\"line-height: 1.5em\">뉴스레터 구독자(드롭다운): 구독 중</div><div style=\"line-height: 1.5em\">[cx] 릴리즈메일 수신거부: 구독 중</div><div style=\"line-height: 1.5em\">[cx] 추가 경로: 구독자</div><div style=\"line-height: 1.5em\">문의카테고리: 소프트웨어</div><div style=\"line-height: 1.5em\">L&amp;E: G-&gt;P</div><div style=\"line-height: 1.5em\">개편 시기: 6개월 이내</div><div style=\"line-height: 1.5em\">개편 예산: 5천만 원 이상</div><div style=\"line-height: 1.5em\">웹사이트 미팅: 예</div><div style=\"line-height: 1.5em\">웹사이트 개편 희망 시기:</div><div style=\"line-height: 1.5em\">- 1~3개월</div><div style=\"line-height: 1.5em\">- 4~6개월</div><div style=\"line-height: 1.5em\">웹사이트 개편 예산: 3,000~5,000만원</div><div style=\"line-height: 1.5em\">참석 희망 일정: 2차 - 2/10(화)</div><div style=\"line-height: 1.5em\">월별 키어카운트: 26년 2월</div><div style=\"line-height: 1.5em\">N군: 1군</div><div style=\"line-height: 1.5em\">성장 전략:</div><div style=\"line-height: 1.5em\">- 신규 수주</div><div style=\"line-height: 1.5em\">- 운영 효율화</div><div style=\"line-height: 1.5em\">크로스보더 팔로업 담당자:</div><div style=\"line-height: 1.5em\">- 조민우</div><div style=\"line-height: 1.5em\">- 그 외</div><div style=\"line-height: 1.5em\">list 종류_test: sdaf</div><div style=\"line-height: 1.5em\">multi:</div><div style=\"line-height: 1.5em\">- a</div><div style=\"line-height: 1.5em\">- v</div><div style=\"line-height: 1.5em\">test: 1</div><div style=\"line-height: 1.5em\">🆕 온보딩 단계: 온보딩 준비중</div><div style=\"line-height: 1.5em\">다만 리스크도 명확하다. 현재 고객은 세일즈포스와 구글 시트를 병행 사용 중이며, 허브스팟도 검토했다. 경쟁 솔루션 비교 시 “리드 히스토리 가시성은 세일즈포스가 낫지만, 실무 운영 속도는 리캐치가 낫다”는 피드백을 줬다.</div><div style=\"line-height: 1.5em\">택한 경쟁사: 세일즈포스</div><div style=\"line-height: 1.5em\">Drop 사유: Competitor</div><div style=\"line-height: 1.5em\">MQL-Drop 사유: 온도 낮음</div><div style=\"line-height: 1.5em\">Expired/재계약 사유: Change</div><div style=\"line-height: 1.5em\">Churn 사유(1순위): 제품-제품비용</div><div style=\"line-height: 1.5em\">✔️ 이탈 가능성: 미지수</div><div style=\"line-height: 1.5em\">내부 정리 기준으로 본 건은 “지금 당장 종료될 딜”은 아니고, 가격/내부 승인/기술 연동 3개 축을 동시에 설득해야 한다. 고객은 다음 액션으로 3주 안에 파일럿 범위 확정, 4주차에 결제 라우팅(세금계산서) 검토, 5주차에 정식 계약 문서 협상을 제안했다. 또한 ABM 실행 전 웹사이트 개편 선행 여부를 의사결정하겠다고 밝혔다.</div><div style=\"line-height: 1.5em\">부가 코멘트:</div><div style=\"line-height: 1.5em\">- 계약 금액은 1억 2천만 원(연간) 기준으로 1차 제안</div><div style=\"line-height: 1.5em\">- 파일럿은 4주, 정식 전환 시 12개월 계약 선호</div><div style=\"line-height: 1.5em\">- 리드 품질 KPI: SQL 전환율 +12% 목표</div><div style=\"line-height: 1.5em\">- 운영 효율 KPI: 영업 담당자별 후속 리드 응답시간 30% 단축 목표</div><div style=\"line-height: 1.5em\">- 내부 승인 체계상 최종 결재권자는 본사 COO이며, 한국지사는 실무 검토/벤더 평가를 담당</div><div style=\"line-height: 1.5em\">결론:</div><div style=\"line-height: 1.5em\">고객은 신규 수주 확대와 운영 효율화를 동시에 원하고 있어, 제품+그로스패키지 결합 제안이 적합하다. 단, 경쟁사 비교 우위 포인트(실행 속도/운영 단순화)를 수치로 제시해야 하며, 가격·연동·승인 리스크를 병렬로 관리해야 한다.</div><div style=\"line-height: 1.5em\"></div>",
+      "text": "[테스트용 통합 미팅 메모 - deal_id 561187]\n\ncreated_at: 2026-02-26T09:10:00+09:00\n\ncreated_by: 김한규\n\nupdated_at: 2026-02-26T11:45:00+09:00\n\nupdated_by: 김숙영\n\nutm_source: organic\n\nutm_medium: webinar\n\nutm_campaign: 2026_q1_growth_pipeline\n\nutm_content: landing_a_variant\n\nutm_term: b2b crm 도입\n\ndeal_converted_at: 2026-02-26T11:40:00+09:00\n\nname: 엠브라운코리아 CRM+그로스 통합 딜\n\ndeal_name: 엠브라운코리아_통합도입_2026Q1\n\nincoming_source: private external event\n\ncompany: 엠브라운코리아\n\nphone_number: 010-2345-6789\n\nemail: cs.team@mbrownkorea.co.kr\n\nclose_date: 2026-03-31\n\ncontract_amount: 120000000\n\nassignee: 김한규\n\n오늘 오전 엠브라운코리아 본사/한국지사 합동 미팅을 진행했다. 참석자는 김철수 본부장, 박민지 과장, 오현우 팀장이었고, 당사 측에서는 김한규/김숙영/조민우가 참여했다. 고객은 “기존 리드 유입은 있는데 전환 구간(Bofu)에서 누수가 크다”는 점을 가장 큰 문제로 제기했다. 특히 실무자는 웹사이트 문의 후 세일즈 전환까지의 리드 핸드오프가 끊기는 문제가 반복된다고 말했다.\n\n직무: 마케팅\n\n직책: 팀장급 이상\n\n직원 수: 201-500명\n\n마케팅 팀 규모: 11~50명\n\n세일즈 팀 규모: 6~10명\n\nTier: Tier3 - 매출 100억 이상\n\n솔루션 니즈:\n\n- CRM(신규 검토)\n\n- 웹사이트 구축\n\n- 블로그 대행\n\n- 전략 및 컨설팅\n\n고객상황:\n\n- ToFu에 대한 니즈 - 기존 툴을 대체하고자 하는 니즈 (Tally, Goole폼 등)\n\n- Bofu에 대한 니즈 - 타 CRM을 대체하고자 하는 니즈 (Salesforce, Salesmap 등)\n\n- 그로스패키지 (웹사이트)에 대한 니즈\n\n- 그로스패키지 (블로그)에 대한 니즈\n\n- 성장전략에 대한 니즈\n\n- 리스트빌딩에 대한 니즈\n\n미팅 참여자:\n\n- 김한규\n\n- 김숙영\n\n- 조민우\n\n도입 의사: 테스트 중\n\n✔️ 제품 사용 의지: 반드시 사용\n\n✔️ 이메일캠페인기능: O - 라이센스\n\n결제 상품 (그로스패키지):\n\n- 웹사이트\n\n- 블로그\n\n- ABM\n\n- GTM 패키지\n\n결제 상품 (제품):\n\n- 스탠다드 (2507) - 세일즈\n\n- 프리미엄 (2507) - 마케팅\n\n결제 수단: 세금계산서\n\n이벤트 참가비 결제 수단: Steppay\n\n[최초 유입 경로] 대분류: organic\n\n[직전 유입 경로] 대분류: mql signal\n\n소속 조직의 성격: 조직 내 혁신 또는 신사업 전담 조직 (CVC, TF 등 포함)\n\n광고성 정보 수신 동의 여부: 동의\n\n뉴스레터 구독자(드롭다운): 구독 중\n\n[cx] 릴리즈메일 수신거부: 구독 중\n\n[cx] 추가 경로: 구독자\n\n문의카테고리: 소프트웨어\n\nL&E: G->P\n\n개편 시기: 6개월 이내\n\n개편 예산: 5천만 원 이상\n\n웹사이트 미팅: 예\n\n웹사이트 개편 희망 시기:\n\n- 1~3개월\n\n- 4~6개월\n\n웹사이트 개편 예산: 3,000~5,000만원\n\n참석 희망 일정: 2차 - 2/10(화)\n\n월별 키어카운트: 26년 2월\n\nN군: 1군\n\n성장 전략:\n\n- 신규 수주\n\n- 운영 효율화\n\n크로스보더 팔로업 담당자:\n\n- 조민우\n\n- 그 외\n\nlist 종류_test: sdaf\n\nmulti:\n\n- a\n\n- v\n\ntest: 1\n\n🆕 온보딩 단계: 온보딩 준비중\n\n다만 리스크도 명확하다. 현재 고객은 세일즈포스와 구글 시트를 병행 사용 중이며, 허브스팟도 검토했다. 경쟁 솔루션 비교 시 “리드 히스토리 가시성은 세일즈포스가 낫지만, 실무 운영 속도는 리캐치가 낫다”는 피드백을 줬다.\n\n택한 경쟁사: 세일즈포스\n\nDrop 사유: Competitor\n\nMQL-Drop 사유: 온도 낮음\n\nExpired/재계약 사유: Change\n\nChurn 사유(1순위): 제품-제품비용\n\n✔️ 이탈 가능성: 미지수\n\n내부 정리 기준으로 본 건은 “지금 당장 종료될 딜”은 아니고, 가격/내부 승인/기술 연동 3개 축을 동시에 설득해야 한다. 고객은 다음 액션으로 3주 안에 파일럿 범위 확정, 4주차에 결제 라우팅(세금계산서) 검토, 5주차에 정식 계약 문서 협상을 제안했다. 또한 ABM 실행 전 웹사이트 개편 선행 여부를 의사결정하겠다고 밝혔다.\n\n부가 코멘트:\n\n- 계약 금액은 1억 2천만 원(연간) 기준으로 1차 제안\n\n- 파일럿은 4주, 정식 전환 시 12개월 계약 선호\n\n- 리드 품질 KPI: SQL 전환율 +12% 목표\n\n- 운영 효율 KPI: 영업 담당자별 후속 리드 응답시간 30% 단축 목표\n\n- 내부 승인 체계상 최종 결재권자는 본사 COO이며, 한국지사는 실무 검토/벤더 평가를 담당\n\n결론:\n\n고객은 신규 수주 확대와 운영 효율화를 동시에 원하고 있어, 제품+그로스패키지 결합 제안이 적합하다. 단, 경쟁사 비교 우위 포인트(실행 속도/운영 단순화)를 수치로 제시해야 하며, 가격·연동·승인 리스크를 병렬로 관리해야 한다.\n\n",
+      "created_at": "2026-02-26T05:41:06.423Z"
+    }
+  ],
+  "relations": {},
+  "files": []
+}

@@ -1,0 +1,759 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W173",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "2주",
+          "start_char": 76,
+          "end_char": 78
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2시간",
+      "normalized": {
+        "value": 2.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "2시간",
+          "start_char": 160,
+          "end_char": 163
+        }
+      ],
+      "dedupe_key": "duration:8d5f5904f3e854a3",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 135,
+          "end_char": 138
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "커밋레벨"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 193,
+          "end_char": 196
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "한규 코멘트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 501,
+          "end_char": 504
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "한규 코멘트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 658,
+          "end_char": 661
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "한규 코멘트"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 746,
+          "end_char": 749
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1012,
+          "end_char": 1015
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1846,
+          "end_char": 1849
+        },
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "이메일 캠페인 및 너처링"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2609,
+          "end_char": 2612
+        },
+        {
+          "segment_id": "S-0039",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2971,
+          "end_char": 2974
+        },
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3090,
+          "end_char": 3093
+        },
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3210,
+          "end_char": 3213
+        },
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 3281,
+          "end_char": 3284
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "커밋레벨"
+          ],
+          "exact_quote": "800만원",
+          "start_char": 274,
+          "end_char": 279
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "한규 코멘트"
+          ],
+          "exact_quote": "800만원",
+          "start_char": 775,
+          "end_char": 780
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "55만원",
+      "normalized": {
+        "value": 550000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커밋레벨"
+          ],
+          "exact_quote": "55만원",
+          "start_char": 291,
+          "end_char": 295
+        }
+      ],
+      "dedupe_key": "budget:6ee77ef55c9031f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커밋레벨"
+          ],
+          "exact_quote": "약 500만원",
+          "start_char": 301,
+          "end_char": 308
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "커밋레벨"
+          ],
+          "exact_quote": "300만원",
+          "start_char": 341,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "700만원",
+      "normalized": {
+        "value": 7000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "700만원",
+          "start_char": 419,
+          "end_char": 424
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "한규 코멘트"
+          ],
+          "exact_quote": "700만원",
+          "start_char": 734,
+          "end_char": 739
+        }
+      ],
+      "dedupe_key": "budget:221afdfdc0dd7bd5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "6명",
+      "normalized": {
+        "value": 6,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "6명",
+          "start_char": 394,
+          "end_char": 396
+        }
+      ],
+      "dedupe_key": "people_count:263ae329b9d81ffd",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "목적: 두핸즈의 현재 리드 관리 및 마케팅 프로세스의 문제점을 파악하고, 리캐치(Recatch) 솔루션을 통해 이를 개선할 수 있는 방안을 논의.",
+      "normalized": {
+        "text": "목적: 두핸즈의 현재 리드 관리 및 마케팅 프로세스의 문제점을 파악하고, 리캐치(Recatch) 솔루션을 통해 이를 개선할 수 있는 방안을 논의.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "목적: 두핸즈의 현재 리드 관리 및 마케팅 프로세스의 문제점을 파악하고, 리캐치(Recatch) 솔루션을 통해 이를 개선할 수 있는 방안을 논의.",
+          "start_char": 971,
+          "end_char": 1052
+        }
+      ],
+      "dedupe_key": "risk_or_concern:52518eea72c0ffdd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "---"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 1016,
+          "end_char": 1023
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ 두핸즈의 현황 및 문제점",
+      "normalized": {
+        "text": "1/ 두핸즈의 현황 및 문제점",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "1/ 두핸즈의 현황 및 문제점",
+          "start_char": 1173,
+          "end_char": 1189
+        }
+      ],
+      "dedupe_key": "risk_or_concern:3fd997dc197c349b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "낮은 리드 데이터 품질: 네이버를 통해 유입되는 리드는 정보가 제한적이어서 추가 설문을 요청해야 하는 번거로움이 있습니다. 또한, 유효하지 않거나 중복되는 리드가 많아 실제 유효 리드를 선별(Qualifying)하는 데 많은 에너지를 소모하고 있습니다 (마치 '사금을 캐는' 작업과 같다고 비유).",
+      "normalized": {
+        "text": "낮은 리드 데이터 품질: 네이버를 통해 유입되는 리드는 정보가 제한적이어서 추가 설문을 요청해야 하는 번거로움이 있습니다. 또한, 유효하지 않거나 중복되는 리드가 많아 실제 유효 리드를 선별(Qualifying)하는 데 많은 에너지를 소모하고 있습니다 (마치 '사금을 캐는' 작업과 같다고 비유).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "낮은 리드 데이터 품질: 네이버를 통해 유입되는 리드는 정보가 제한적이어서 추가 설문을 요청해야 하는 번거로움이 있습니다. 또한, 유효하지 않거나 중복되는 리드가 많아 실제 유효 리드를 선별(Qualifying)하는 데 많은 에너지를 소모하고 있습니다 (마치 '사금을 캐는' 작업과 같다고 비유).",
+          "start_char": 1319,
+          "end_char": 1485
+        }
+      ],
+      "dedupe_key": "action_item:62514a0109b34f67",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "수동적인 너처링 프로세스: 마케팅 활동으로 수집된 리드는 구글 폼으로 받아 아카이빙만 해두고, 체계적인 너처링(육성) 과정 없이 개별적으로 연락하는 수준에 머물러 있습니다. 리드 스코어링 체계가 부재하여 미팅을 진행한 후에야 리드의 가능성을 판단할 수 있습니다.",
+      "normalized": {
+        "text": "수동적인 너처링 프로세스: 마케팅 활동으로 수집된 리드는 구글 폼으로 받아 아카이빙만 해두고, 체계적인 너처링(육성) 과정 없이 개별적으로 연락하는 수준에 머물러 있습니다. 리드 스코어링 체계가 부재하여 미팅을 진행한 후에야 리드의 가능성을 판단할 수 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "수동적인 너처링 프로세스: 마케팅 활동으로 수집된 리드는 구글 폼으로 받아 아카이빙만 해두고, 체계적인 너처링(육성) 과정 없이 개별적으로 연락하는 수준에 머물러 있습니다. 리드 스코어링 체계가 부재하여 미팅을 진행한 후에야 리드의 가능성을 판단할 수 있습니다.",
+          "start_char": 1489,
+          "end_char": 1635
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9171b327815f454a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "개발 리소스 의존성: 웹사이트의 문의 폼 항목을 하나 추가하거나 수정하는 데에도 개발팀의 지원이 필요하여, 신속한 대응이 어렵습니다. 이는 마치 오탈자 하나를 수정하는 데 한 달이 걸리는 상황과 유사합니다.",
+      "normalized": {
+        "text": "개발 리소스 의존성: 웹사이트의 문의 폼 항목을 하나 추가하거나 수정하는 데에도 개발팀의 지원이 필요하여, 신속한 대응이 어렵습니다. 이는 마치 오탈자 하나를 수정하는 데 한 달이 걸리는 상황과 유사합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "개발 리소스 의존성: 웹사이트의 문의 폼 항목을 하나 추가하거나 수정하는 데에도 개발팀의 지원이 필요하여, 신속한 대응이 어렵습니다. 이는 마치 오탈자 하나를 수정하는 데 한 달이 걸리는 상황과 유사합니다.",
+          "start_char": 1639,
+          "end_char": 1754
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ec592d51e0757678",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "데이터 파편화: 리드 데이터가 구글 폼, Pipedrive, Stibee 등 여러 툴에 흩어져 있어 데이터를 통합적으로 분석하고 활용하기 어렵습니다.",
+      "normalized": {
+        "text": "데이터 파편화: 리드 데이터가 구글 폼, Pipedrive, Stibee 등 여러 툴에 흩어져 있어 데이터를 통합적으로 분석하고 활용하기 어렵습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "주요 논의 내용"
+          ],
+          "exact_quote": "데이터 파편화: 리드 데이터가 구글 폼, Pipedrive, Stibee 등 여러 툴에 흩어져 있어 데이터를 통합적으로 분석하고 활용하기 어렵습니다.",
+          "start_char": 1758,
+          "end_char": 1841
+        }
+      ],
+      "dedupe_key": "risk_or_concern:63f58d2cadcc8c04",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 중순",
+      "normalized": {
+        "month": 11,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "사업자 정보 연동 및 AI 리서치"
+          ],
+          "exact_quote": "11월 중순",
+          "start_char": 2070,
+          "end_char": 2076
+        }
+      ],
+      "dedupe_key": "timeline:d2d4d98d832d2f59",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "사업자 정보 연동 및 AI 리서치"
+          ],
+          "exact_quote": "3개",
+          "start_char": 2015,
+          "end_char": 2017
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            "고객 여정 데이터 추적"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2455,
+          "end_char": 2458
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "스티비(Stibee)와 같은 뉴스레터 툴을 대체할 수 있는 이메일 대량 발송 및 캠페인 기능이 베타 버전으로 출시되었습니다.",
+      "normalized": {
+        "text": "스티비(Stibee)와 같은 뉴스레터 툴을 대체할 수 있는 이메일 대량 발송 및 캠페인 기능이 베타 버전으로 출시되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "이메일 캠페인 및 너처링"
+          ],
+          "exact_quote": "스티비(Stibee)와 같은 뉴스레터 툴을 대체할 수 있는 이메일 대량 발송 및 캠페인 기능이 베타 버전으로 출시되었습니다.",
+          "start_char": 2536,
+          "end_char": 2605
+        }
+      ],
+      "dedupe_key": "action_item:abe1e44c1c2e997a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "이메일 캠페인 및 너처링"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 2552,
+          "end_char": 2556
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            "이메일 캠페인 및 너처링"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 2653,
+          "end_char": 2656
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "따라서 제안된 활용 방안은, 리캐치를 마케팅 CRM으로 도입하여 리드 수집 및 너처링 단계를 자동화하고, 이후 유효해진 리드를 기존의 세일즈 CRM인 파이프드라이브로 연동하여 관리하는 것입니다.",
+      "normalized": {
+        "text": "따라서 제안된 활용 방안은, 리캐치를 마케팅 CRM으로 도입하여 리드 수집 및 너처링 단계를 자동화하고, 이후 유효해진 리드를 기존의 세일즈 CRM인 파이프드라이브로 연동하여 관리하는 것입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0040",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "따라서 제안된 활용 방안은, 리캐치를 마케팅 CRM으로 도입하여 리드 수집 및 너처링 단계를 자동화하고, 이후 유효해진 리드를 기존의 세일즈 CRM인 파이프드라이브로 연동하여 관리하는 것입니다.",
+          "start_char": 3074,
+          "end_char": 3182
+        }
+      ],
+      "dedupe_key": "collaboration_need:8439ae0bbb3636ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "특별 제안: 리캐치 측은 두핸즈의 CRM 활용 성숙도가 높다는 점을 고려하여, 파이프드라이브 활용 방식 등 세일즈 CRM에 대한 인사이트를 리캐치 PM과 공유하는 조건으로 데모 계정을 제공하겠다고 제안했습니다.",
+      "normalized": {
+        "text": "특별 제안: 리캐치 측은 두핸즈의 CRM 활용 성숙도가 높다는 점을 고려하여, 파이프드라이브 활용 방식 등 세일즈 CRM에 대한 인사이트를 리캐치 PM과 공유하는 조건으로 데모 계정을 제공하겠다고 제안했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0042",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "특별 제안: 리캐치 측은 두핸즈의 CRM 활용 성숙도가 높다는 점을 고려하여, 파이프드라이브 활용 방식 등 세일즈 CRM에 대한 인사이트를 리캐치 PM과 공유하는 조건으로 데모 계정을 제공하겠다고 제안했습니다.",
+          "start_char": 3203,
+          "end_char": 3320
+        }
+      ],
+      "dedupe_key": "collaboration_need:318dca53dac8c771",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Next Step: 두핸즈는 이 제안을 내부적으로 검토한 후(특히 마케팅 리더와 논의), 수락 여부를 결정하기로 했습니다. 제안이 수락되면 데모 계정을 통해 실제 사용성을 검토하며 협업 방안을 구체화할 예정입니다.",
+      "normalized": {
+        "text": "Next Step: 두핸즈는 이 제안을 내부적으로 검토한 후(특히 마케팅 리더와 논의), 수락 여부를 결정하기로 했습니다. 제안이 수락되면 데모 계정을 통해 실제 사용성을 검토하며 협업 방안을 구체화할 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0043",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "Next Step: 두핸즈는 이 제안을 내부적으로 검토한 후(특히 마케팅 리더와 논의), 수락 여부를 결정하기로 했습니다. 제안이 수락되면 데모 계정을 통해 실제 사용성을 검토하며 협업 방안을 구체화할 예정입니다.",
+          "start_char": 3324,
+          "end_char": 3443
+        }
+      ],
+      "dedupe_key": "action_item:170c9572c12fe37e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "07.54",
+      "normalized": {
+        "year": 2007,
+        "month": 54,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0044",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "07.54",
+          "start_char": 3542,
+          "end_char": 3547
+        }
+      ],
+      "dedupe_key": "timeline:4f9e47f55a938427",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

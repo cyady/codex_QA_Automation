@@ -1,0 +1,322 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W387",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "초청 강연으로 유한킴벌리 내 B2B 마케팅, 웹사이트의 중요성, 콘텐츠의 중요성에 대해 안내 필요. 충일님이 자리 만들어서 초대해주실 예정",
+      "normalized": {
+        "text": "초청 강연으로 유한킴벌리 내 B2B 마케팅, 웹사이트의 중요성, 콘텐츠의 중요성에 대해 안내 필요. 충일님이 자리 만들어서 초대해주실 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "초청 강연으로 유한킴벌리 내 B2B 마케팅, 웹사이트의 중요성, 콘텐츠의 중요성에 대해 안내 필요. 충일님이 자리 만들어서 초대해주실 예정",
+          "start_char": 84,
+          "end_char": 161
+        }
+      ],
+      "dedupe_key": "action_item:308c3dd617d885af",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "Next action"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 176,
+          "end_char": 179
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "Framer 사용은 불가. 웹사이트 개편하고 싶다면 피그마까지만 제작해서 드려야 함.",
+      "normalized": {
+        "text": "Framer 사용은 불가. 웹사이트 개편하고 싶다면 피그마까지만 제작해서 드려야 함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "블로커"
+          ],
+          "exact_quote": "Framer 사용은 불가. 웹사이트 개편하고 싶다면 피그마까지만 제작해서 드려야 함.",
+          "start_char": 313,
+          "end_char": 360
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cf83cf48f16bd20f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Growth: 웹사이트 및 콘텐츠. 단, 기대치가 높진 않음.",
+      "normalized": {
+        "text": "Growth: 웹사이트 및 콘텐츠. 단, 기대치가 높진 않음.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "Growth: 웹사이트 및 콘텐츠. 단, 기대치가 높진 않음.",
+          "start_char": 459,
+          "end_char": 493
+        }
+      ],
+      "dedupe_key": "collaboration_need:316f29a66b1837fe",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+      "normalized": {
+        "text": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+          "start_char": 499,
+          "end_char": 566
+        }
+      ],
+      "dedupe_key": "collaboration_need:1eab516a6f257737",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+      "normalized": {
+        "text": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "비투비라 하더라도 유한킴벌리의 제품들은 저관여 상품들임. 뉴스레터 너처링 보내봤자 크게 전환되기 어렵다고 생각하고 있음.",
+          "start_char": 499,
+          "end_char": 566
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a294504a1d482f0c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 531,
+          "end_char": 535
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+      "normalized": {
+        "text": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+          "start_char": 570,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "collaboration_need:0866487d296f2363",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+      "normalized": {
+        "text": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "다만, 웹사이트 개편은 필요하다고 생각은 함. (+)는 커녕 (-) 기능을 하고 있는 웹사이트이기에, 적어도 유입된 고객이 이탈하고 싶어하는 웹사이트에서는 벗어나야 한다고 생각하고 계심.",
+          "start_char": 570,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "action_item:45dd5b68555dacda",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콘텐츠는 웹사이트 내 들어가야만 유입을 만들 수 있다는 사실을 이해하고 계심.",
+      "normalized": {
+        "text": "콘텐츠는 웹사이트 내 들어가야만 유입을 만들 수 있다는 사실을 이해하고 계심.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "콘텐츠는 웹사이트 내 들어가야만 유입을 만들 수 있다는 사실을 이해하고 계심.",
+          "start_char": 678,
+          "end_char": 721
+        }
+      ],
+      "dedupe_key": "collaboration_need:8d2d1087f88ea6d2",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "@황하운",
+          "start_char": 849,
+          "end_char": 853
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 862,
+          "end_char": 866
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "7개월",
+      "normalized": {
+        "value": 7.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "특이사항"
+          ],
+          "exact_quote": "7개월",
+          "start_char": 963,
+          "end_char": 966
+        }
+      ],
+      "dedupe_key": "duration:f74c116a11fc8f61",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

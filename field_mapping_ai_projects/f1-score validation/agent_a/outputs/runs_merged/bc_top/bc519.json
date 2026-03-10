@@ -1,0 +1,368 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W519",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 19,
+          "end_char": 24
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 119,
+          "end_char": 124
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "BANT Framework"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 619,
+          "end_char": 624
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "BANT Framework"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 651,
+          "end_char": 656
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1억원",
+          "start_char": 27,
+          "end_char": 30
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1억원",
+          "start_char": 127,
+          "end_char": 130
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 33,
+          "end_char": 36
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 132,
+          "end_char": 135
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "Next action(Sales)"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 235,
+          "end_char": 238
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "BUILD Framework"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 510,
+          "end_char": 513
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "BANT Framework"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 637,
+          "end_char": 640
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Commit level2 (니즈는 명확하나 예산 갭 극복 및 내부 설득 과정 필요)",
+      "normalized": {
+        "text": "Commit level2 (니즈는 명확하나 예산 갭 극복 및 내부 설득 과정 필요)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "Commit level2 (니즈는 명확하나 예산 갭 극복 및 내부 설득 과정 필요)",
+          "start_char": 64,
+          "end_char": 110
+        }
+      ],
+      "dedupe_key": "action_item:d70262409a29d3d9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "5천만원",
+          "start_char": 147,
+          "end_char": 151
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Next action(Sales)"
+          ],
+          "exact_quote": "5천만원",
+          "start_char": 301,
+          "end_char": 305
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버 리드젠 서베이 타겟 모수(조건값 설정) 시뮬레이션 결과 및 예상 리드 수치 전달(Sales)",
+      "normalized": {
+        "text": "리멤버 리드젠 서베이 타겟 모수(조건값 설정) 시뮬레이션 결과 및 예상 리드 수치 전달(Sales)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "Next action(Sales)"
+          ],
+          "exact_quote": "리멤버 리드젠 서베이 타겟 모수(조건값 설정) 시뮬레이션 결과 및 예상 리드 수치 전달(Sales)",
+          "start_char": 177,
+          "end_char": 232
+        }
+      ],
+      "dedupe_key": "collaboration_need:6e087a0d9df2faee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM 레포트 및 콘텐츠 제작 예시(레퍼런스) 전달(Client)",
+      "normalized": {
+        "text": "ABM 레포트 및 콘텐츠 제작 예시(레퍼런스) 전달(Client)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "Next action(Sales)"
+          ],
+          "exact_quote": "ABM 레포트 및 콘텐츠 제작 예시(레퍼런스) 전달(Client)",
+          "start_char": 235,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "collaboration_need:2fb42ae3dbcb6d1c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전달받은 타겟 모수 및 레퍼런스 자료를 바탕으로 5천만원 예산 승인을 위한 경영진(대표) 설득 진행",
+      "normalized": {
+        "text": "전달받은 타겟 모수 및 레퍼런스 자료를 바탕으로 5천만원 예산 승인을 위한 경영진(대표) 설득 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Next action(Sales)"
+          ],
+          "exact_quote": "전달받은 타겟 모수 및 레퍼런스 자료를 바탕으로 5천만원 예산 승인을 위한 경영진(대표) 설득 진행",
+          "start_char": 274,
+          "end_char": 329
+        }
+      ],
+      "dedupe_key": "action_item:94eaf71bc1251241",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Blocker: 대표, 예산 승인을 위해서는 대표 설득 필요함",
+      "normalized": {
+        "text": "Blocker: 대표, 예산 승인을 위해서는 대표 설득 필요함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "BUILD Framework"
+          ],
+          "exact_quote": "Blocker: 대표, 예산 승인을 위해서는 대표 설득 필요함",
+          "start_char": 352,
+          "end_char": 386
+        }
+      ],
+      "dedupe_key": "action_item:3f785a9e339f595b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Driver: 공지성 매니저. 엔터프라이즈 타겟팅을 위해 ABM과 전문적인 리포트 콘텐츠가 필요함을 인지하고 있으며, 근거 자료가 있다면 내부를 설득해볼 의지가 강함.",
+      "normalized": {
+        "text": "Driver: 공지성 매니저. 엔터프라이즈 타겟팅을 위해 ABM과 전문적인 리포트 콘텐츠가 필요함을 인지하고 있으며, 근거 자료가 있다면 내부를 설득해볼 의지가 강함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "BUILD Framework"
+          ],
+          "exact_quote": "Driver: 공지성 매니저. 엔터프라이즈 타겟팅을 위해 ABM과 전문적인 리포트 콘텐츠가 필요함을 인지하고 있으며, 근거 자료가 있다면 내부를 설득해볼 의지가 강함.",
+          "start_char": 478,
+          "end_char": 571
+        }
+      ],
+      "dedupe_key": "action_item:0bc561702d2b3447",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Authority: 실무자가 마케팅 기획 및 업체 발굴을 담당하고, 최종 결정은 대표이사가 진행함.",
+      "normalized": {
+        "text": "Authority: 실무자가 마케팅 기획 및 업체 발굴을 담당하고, 최종 결정은 대표이사가 진행함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "BANT Framework"
+          ],
+          "exact_quote": "Authority: 실무자가 마케팅 기획 및 업체 발굴을 담당하고, 최종 결정은 대표이사가 진행함.",
+          "start_char": 736,
+          "end_char": 791
+        }
+      ],
+      "dedupe_key": "action_item:116b6273208f4be2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Timing: 현재 웹사이트 리뉴얼 중이며 4월 완료 예정. 웹사이트 오픈 시점인 4월경에 맞춰 본격적인 마케팅/세일즈 캠페인을 시작하기를 희망함.",
+      "normalized": {
+        "text": "Timing: 현재 웹사이트 리뉴얼 중이며 4월 완료 예정. 웹사이트 오픈 시점인 4월경에 맞춰 본격적인 마케팅/세일즈 캠페인을 시작하기를 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "BANT Framework"
+          ],
+          "exact_quote": "Timing: 현재 웹사이트 리뉴얼 중이며 4월 완료 예정. 웹사이트 오픈 시점인 4월경에 맞춰 본격적인 마케팅/세일즈 캠페인을 시작하기를 희망함.",
+          "start_char": 917,
+          "end_char": 999
+        }
+      ],
+      "dedupe_key": "collaboration_need:066569634906630b",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

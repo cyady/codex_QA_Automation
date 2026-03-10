@@ -1,0 +1,175 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W509",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "9명",
+      "normalized": {
+        "value": 9,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9명",
+          "start_char": 5,
+          "end_char": 7
+        }
+      ],
+      "dedupe_key": "people_count:85e04940481c8c2b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "8명",
+      "normalized": {
+        "value": 8,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "8명",
+          "start_char": 16,
+          "end_char": 18
+        }
+      ],
+      "dedupe_key": "people_count:f5f5a4ff65dbc41e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@pm",
+          "start_char": 175,
+          "end_char": 178
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 130,
+          "end_char": 133
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 532,
+          "end_char": 535
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "4개월",
+          "start_char": 328,
+          "end_char": 331
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이 복잡한 프로세스가 AI를 활용해 최대한 gap이 없도록 예측되면 좋겠고 그러기 위해서 CRM 내 데이터가 흐르도록 input 문제를 최소화 하면 좋겠다",
+      "normalized": {
+        "text": "이 복잡한 프로세스가 AI를 활용해 최대한 gap이 없도록 예측되면 좋겠고 그러기 위해서 CRM 내 데이터가 흐르도록 input 문제를 최소화 하면 좋겠다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "이 복잡한 프로세스가 AI를 활용해 최대한 gap이 없도록 예측되면 좋겠고 그러기 위해서 CRM 내 데이터가 흐르도록 input 문제를 최소화 하면 좋겠다",
+          "start_char": 422,
+          "end_char": 508
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5a5eb2060c690ca6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "그래서! 유의미한 미팅 하고 싶으니 리캐치 내부적으로 가능/불가능 여부 논의 할 때 재고 관리 flow 등 참고자료 필요하면 이메일로 정리해서 요청 달라고 하심",
+      "normalized": {
+        "text": "그래서! 유의미한 미팅 하고 싶으니 리캐치 내부적으로 가능/불가능 여부 논의 할 때 재고 관리 flow 등 참고자료 필요하면 이메일로 정리해서 요청 달라고 하심",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "그래서! 유의미한 미팅 하고 싶으니 리캐치 내부적으로 가능/불가능 여부 논의 할 때 재고 관리 flow 등 참고자료 필요하면 이메일로 정리해서 요청 달라고 하심",
+          "start_char": 512,
+          "end_char": 601
+        }
+      ],
+      "dedupe_key": "risk_or_concern:777717d16412777d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W441",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Commit level 4 (RFP 발송 대기, 구체적 예산 배정 및 착수 일정 확정 단계)",
+      "normalized": {
+        "text": "Commit level 4 (RFP 발송 대기, 구체적 예산 배정 및 착수 일정 확정 단계)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "Commit level 4 (RFP 발송 대기, 구체적 예산 배정 및 착수 일정 확정 단계)",
+          "start_char": 30,
+          "end_char": 81
+        }
+      ],
+      "dedupe_key": "action_item:2ce8bfb1c7fac2bb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "000원",
+          "start_char": 99,
+          "end_char": 103
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 119,
+          "end_char": 124
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 138,
+          "end_char": 143
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 455,
+          "end_char": 461
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 493,
+          "end_char": 499
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 127,
+          "end_char": 130
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 152,
+          "end_char": 155
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 232,
+          "end_char": 235
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 305,
+          "end_char": 308
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 477,
+          "end_char": 480
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 519,
+          "end_char": 522
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 942,
+          "end_char": 945
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1167,
+          "end_char": 1170
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1304,
+          "end_char": 1307
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 131,
+          "end_char": 135
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 245,
+          "end_char": 249
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 309,
+          "end_char": 313
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 483,
+          "end_char": 487
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 952,
+          "end_char": 956
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1154,
+          "end_char": 1158
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1239,
+          "end_char": 1243
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고객사는 리멤버 B2B 리드젠(ABM) 도입과 더불어 뉴스레터 및 홈페이지(블로그/SEO) 리뉴얼까지 확장된 니즈를 보유함.",
+      "normalized": {
+        "text": "고객사는 리멤버 B2B 리드젠(ABM) 도입과 더불어 뉴스레터 및 홈페이지(블로그/SEO) 리뉴얼까지 확장된 니즈를 보유함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "고객사는 리멤버 B2B 리드젠(ABM) 도입과 더불어 뉴스레터 및 홈페이지(블로그/SEO) 리뉴얼까지 확장된 니즈를 보유함.",
+          "start_char": 215,
+          "end_char": 284
+        }
+      ],
+      "dedupe_key": "collaboration_need:6215d9d97fe07ade",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 261,
+          "end_char": 264
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 668,
+          "end_char": 671
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 729,
+          "end_char": 732
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 897,
+          "end_char": 900
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 257,
+          "end_char": 260
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "약 1억 원",
+          "start_char": 349,
+          "end_char": 355
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "constraint",
+      "value_type": "text",
+      "raw_text": "컴플라이언스",
+      "normalized": {
+        "keyword": "컴플라이언스"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "컴플라이언스",
+          "start_char": 374,
+          "end_char": 380
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "컴플라이언스",
+          "start_char": 828,
+          "end_char": 834
+        }
+      ],
+      "dedupe_key": "constraint:321f79601fc5457d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B. ABM 및 뉴스레터: 약 5,000만 원 내외로 책정 예상. (단, 하반기 ABM도 진행하고자 하는 의사가 있어, 이 점을 참고하여 적절한 네고가 필요함)",
+      "normalized": {
+        "text": "B. ABM 및 뉴스레터: 약 5,000만 원 내외로 책정 예상. (단, 하반기 ABM도 진행하고자 하는 의사가 있어, 이 점을 참고하여 적절한 네고가 필요함)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "B. ABM 및 뉴스레터: 약 5,000만 원 내외로 책정 예상. (단, 하반기 ABM도 진행하고자 하는 의사가 있어, 이 점을 참고하여 적절한 네고가 필요함)",
+          "start_char": 474,
+          "end_char": 563
+        }
+      ],
+      "dedupe_key": "action_item:b7e36c1d76081183",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "RFP는 다음 주 중 발송 예정이며, 상반기(6월 내) 성과 확인을 위해 빠른 착수가 필요함 @김가은(Bona) @정효재(Joy)",
+      "normalized": {
+        "text": "RFP는 다음 주 중 발송 예정이며, 상반기(6월 내) 성과 확인을 위해 빠른 착수가 필요함 @김가은(Bona) @정효재(Joy)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "RFP는 다음 주 중 발송 예정이며, 상반기(6월 내) 성과 확인을 위해 빠른 착수가 필요함 @김가은(Bona) @정효재(Joy)",
+          "start_char": 567,
+          "end_char": 639
+        }
+      ],
+      "dedupe_key": "action_item:48c8e0f754dd032c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 619,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "@정효재",
+          "start_char": 630,
+          "end_char": 634
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:cf6290db46513a77",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 5천만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "약 5천만 원",
+          "start_char": 680,
+          "end_char": 687
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "약 5천만 원",
+          "start_char": 965,
+          "end_char": 972
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현황: '현장 인사이트' 탭 업데이트 중단(2020년 이후), SEO 점수 저조, 웹사이트 전반의 리뉴얼 필요성 인지",
+      "normalized": {
+        "text": "현황: '현장 인사이트' 탭 업데이트 중단(2020년 이후), SEO 점수 저조, 웹사이트 전반의 리뉴얼 필요성 인지",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "현황: '현장 인사이트' 탭 업데이트 중단(2020년 이후), SEO 점수 저조, 웹사이트 전반의 리뉴얼 필요성 인지",
+          "start_char": 694,
+          "end_char": 759
+        }
+      ],
+      "dedupe_key": "action_item:c0032a49436c41ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제안 전략: 전체 리뉴얼을 제안하되, 고객사 내부 DX팀 가이드라인('백엔드'라는 지정 업체가 있음, 보안 등 내부 컴플라이언스를 준수하며 개발할 수 있는 개발사)을 수용하는 협업 모델 제시",
+      "normalized": {
+        "text": "제안 전략: 전체 리뉴얼을 제안하되, 고객사 내부 DX팀 가이드라인('백엔드'라는 지정 업체가 있음, 보안 등 내부 컴플라이언스를 준수하며 개발할 수 있는 개발사)을 수용하는 협업 모델 제시",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "제안 전략: 전체 리뉴얼을 제안하되, 고객사 내부 DX팀 가이드라인('백엔드'라는 지정 업체가 있음, 보안 등 내부 컴플라이언스를 준수하며 개발할 수 있는 개발사)을 수용하는 협업 모델 제시",
+          "start_char": 763,
+          "end_char": 869
+        }
+      ],
+      "dedupe_key": "collaboration_need:0386c27733d85c7c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "R&R: 당사는 UX/UI 기획, 디자인, SEO 작업 가이드에 집중하고, 지정 개발사에 전달하여 개발하는 방식.",
+      "normalized": {
+        "text": "R&R: 당사는 UX/UI 기획, 디자인, SEO 작업 가이드에 집중하고, 지정 개발사에 전달하여 개발하는 방식.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "R&R: 당사는 UX/UI 기획, 디자인, SEO 작업 가이드에 집중하고, 지정 개발사에 전달하여 개발하는 방식.",
+          "start_char": 873,
+          "end_char": 936
+        }
+      ],
+      "dedupe_key": "collaboration_need:3779cb0d52f27a8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "타겟팅: C레벨/ESG팀 제외 시 모수가 1.7만 명으로 축소되므로, 기존 제안대로 모수를 넓게(약 7만 명) 가져가는 방향으로 진행 가능성 높음",
+      "normalized": {
+        "text": "타겟팅: C레벨/ESG팀 제외 시 모수가 1.7만 명으로 축소되므로, 기존 제안대로 모수를 넓게(약 7만 명) 가져가는 방향으로 진행 가능성 높음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "타겟팅: C레벨/ESG팀 제외 시 모수가 1.7만 명으로 축소되므로, 기존 제안대로 모수를 넓게(약 7만 명) 가져가는 방향으로 진행 가능성 높음",
+          "start_char": 974,
+          "end_char": 1055
+        }
+      ],
+      "dedupe_key": "action_item:614678bbbd14e474",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "1.7만 명",
+      "normalized": {
+        "value": 17000,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "1.7만 명",
+          "start_char": 997,
+          "end_char": 1003
+        }
+      ],
+      "dedupe_key": "target_population:33c3ebd6883ea94f",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 7만 명",
+      "normalized": {
+        "value": 70000,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "약 7만 명",
+          "start_char": 1028,
+          "end_char": 1034
+        }
+      ],
+      "dedupe_key": "target_population:38a68e5616504e77",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "SQL",
+      "normalized": {
+        "keyword": "SQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[유한킴벌리 세일즈 미팅 요약] @sales"
+          ],
+          "exact_quote": "SQL",
+          "start_char": 1099,
+          "end_char": 1102
+        }
+      ],
+      "dedupe_key": "kpi_definition:5851e96d79a2bc41",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1. 뉴스레터(즉시 실행): ABM 준비 기간(Lead Time 약 2.5개월) 동안의 공백을 메우기 위해 고객사 내부 데이터(신제품, 성공사례)를 가공하여 뉴스레터 발행. 실제 발송 등 오퍼레이션은 고객사에서 담당함, 우리는 콘텐츠 제작만(HTML로) 담당",
+      "normalized": {
+        "text": "1. 뉴스레터(즉시 실행): ABM 준비 기간(Lead Time 약 2.5개월) 동안의 공백을 메우기 위해 고객사 내부 데이터(신제품, 성공사례)를 가공하여 뉴스레터 발행. 실제 발송 등 오퍼레이션은 고객사에서 담당함, 우리는 콘텐츠 제작만(HTML로) 담당",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "1. 뉴스레터(즉시 실행): ABM 준비 기간(Lead Time 약 2.5개월) 동안의 공백을 메우기 위해 고객사 내부 데이터(신제품, 성공사례)를 가공하여 뉴스레터 발행. 실제 발송 등 오퍼레이션은 고객사에서 담당함, 우리는 콘텐츠 제작만(HTML로) 담당",
+          "start_char": 1151,
+          "end_char": 1295
+        }
+      ],
+      "dedupe_key": "action_item:9f82c6fdcd5014a9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 2.5개월",
+      "normalized": {
+        "value": 2.5,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "약 2.5개월",
+          "start_char": 1187,
+          "end_char": 1194
+        }
+      ],
+      "dedupe_key": "duration:eb1e990985ea2847",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀 팔로업 프로세스: 리드 유입 시 고객사 영업 조직이 즉각 대응할 수 있도록 사전 얼라인 필요",
+      "normalized": {
+        "text": "영업팀 팔로업 프로세스: 리드 유입 시 고객사 영업 조직이 즉각 대응할 수 있도록 사전 얼라인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "운영 프로세스"
+          ],
+          "exact_quote": "영업팀 팔로업 프로세스: 리드 유입 시 고객사 영업 조직이 즉각 대응할 수 있도록 사전 얼라인 필요",
+          "start_char": 1366,
+          "end_char": 1421
+        }
+      ],
+      "dedupe_key": "action_item:e0814083dcf5d57e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "RFP 발송: 빠르면 차주 중 발송 예정.",
+      "normalized": {
+        "text": "RFP 발송: 빠르면 차주 중 발송 예정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "[고객사]"
+          ],
+          "exact_quote": "RFP 발송: 빠르면 차주 중 발송 예정.",
+          "start_char": 1606,
+          "end_char": 1629
+        }
+      ],
+      "dedupe_key": "action_item:9c29389c829ad59d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

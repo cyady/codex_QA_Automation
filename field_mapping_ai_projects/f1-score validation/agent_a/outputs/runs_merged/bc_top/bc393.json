@@ -1,0 +1,511 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W393",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "I. CRM 시스템 검토 및 도입 계획 (ReCatch)",
+      "normalized": {
+        "text": "I. CRM 시스템 검토 및 도입 계획 (ReCatch)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "I. CRM 시스템 검토 및 도입 계획 (ReCatch)",
+          "start_char": 0,
+          "end_char": 31
+        }
+      ],
+      "dedupe_key": "action_item:c503202118298261",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ReCatch",
+          "start_char": 23,
+          "end_char": 30
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ReCatch 체험 및 도입 계획"
+          ],
+          "exact_quote": "ReCatch",
+          "start_char": 198,
+          "end_char": 205
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "주요 고객 타겟"
+          ],
+          "exact_quote": "ReCatch",
+          "start_char": 1602,
+          "end_char": 1609
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "원인 추정: 시스템 불편함 (예: \"너무 느리다\") 또는 도입 시 적절한 교육(온보딩) 부재",
+      "normalized": {
+        "text": "원인 추정: 시스템 불편함 (예: \"너무 느리다\") 또는 도입 시 적절한 교육(온보딩) 부재",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "현재 HubSpot 사용 현황 및 문제점"
+          ],
+          "exact_quote": "원인 추정: 시스템 불편함 (예: \"너무 느리다\") 또는 도입 시 적절한 교육(온보딩) 부재",
+          "start_char": 118,
+          "end_char": 169
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c9ab70f2914e1f07",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number_range",
+      "raw_text": "1~2명",
+      "normalized": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "ReCatch 체험 및 도입 계획"
+          ],
+          "exact_quote": "1~2명",
+          "start_char": 264,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "target_population:4aa51409d87efc21",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "6명",
+      "normalized": {
+        "value": 6,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "ReCatch 체험 및 도입 계획"
+          ],
+          "exact_quote": "6명",
+          "start_char": 243,
+          "end_char": 245
+        }
+      ],
+      "dedupe_key": "target_population:263ae329b9d81ffd",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "5명",
+      "normalized": {
+        "value": 5,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "ReCatch 체험 및 도입 계획"
+          ],
+          "exact_quote": "5명",
+          "start_char": 253,
+          "end_char": 255
+        }
+      ],
+      "dedupe_key": "target_population:832832b84c062af7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "ReCatch 체험 및 도입 계획"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 280,
+          "end_char": 283
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "정식 도입 시, 데이터 마이그레이션 및 영업 프로세스 업그레이드를 포함하는 유상 온보딩 서비스 제공 (500만 원 상당, 3개월 진행).",
+      "normalized": {
+        "text": "정식 도입 시, 데이터 마이그레이션 및 영업 프로세스 업그레이드를 포함하는 유상 온보딩 서비스 제공 (500만 원 상당, 3개월 진행).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도입 후 지원 (온보딩)"
+          ],
+          "exact_quote": "정식 도입 시, 데이터 마이그레이션 및 영업 프로세스 업그레이드를 포함하는 유상 온보딩 서비스 제공 (500만 원 상당, 3개월 진행).",
+          "start_char": 380,
+          "end_char": 456
+        }
+      ],
+      "dedupe_key": "action_item:5be763e85fe7f6ad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도입 후 지원 (온보딩)"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 437,
+          "end_char": 443
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "도입 후 지원 (온보딩)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 448,
+          "end_char": 451
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "뉴스레터 기능: 스티비(Stibee)와 동일하게 내부에서 편집 및 발송 가능하며, 발송 성공률, 오픈율 등 성과 확인 가능. [11, 12]",
+      "normalized": {
+        "text": "뉴스레터 기능: 스티비(Stibee)와 동일하게 내부에서 편집 및 발송 가능하며, 발송 성공률, 오픈율 등 성과 확인 가능. [11, 12]",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "ReCatch 기타 기능"
+          ],
+          "exact_quote": "뉴스레터 기능: 스티비(Stibee)와 동일하게 내부에서 편집 및 발송 가능하며, 발송 성공률, 오픈율 등 성과 확인 가능. [11, 12]",
+          "start_char": 513,
+          "end_char": 591
+        }
+      ],
+      "dedupe_key": "action_item:68058d771ea3e59e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "ReCatch 기타 기능"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 513,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12월 초",
+      "normalized": {
+        "month": 12,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "ReCatch 기타 기능"
+          ],
+          "exact_quote": "12월 초",
+          "start_char": 607,
+          "end_char": 612
+        }
+      ],
+      "dedupe_key": "timeline:908dc1ae25d3dff0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전략 전환: 현재 SEO 성과를 바탕으로, 향후 AEO 및 GEO 쪽으로 컨설팅을 진행하여 새로운 방법론을 습득 및 내재화하는 데 집중",
+      "normalized": {
+        "text": "전략 전환: 현재 SEO 성과를 바탕으로, 향후 AEO 및 GEO 쪽으로 컨설팅을 진행하여 새로운 방법론을 습득 및 내재화하는 데 집중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "II. 마케팅 전략 컨설팅 및 콘텐츠 제작"
+          ],
+          "exact_quote": "전략 전환: 현재 SEO 성과를 바탕으로, 향후 AEO 및 GEO 쪽으로 컨설팅을 진행하여 새로운 방법론을 습득 및 내재화하는 데 집중",
+          "start_char": 731,
+          "end_char": 806
+        }
+      ],
+      "dedupe_key": "action_item:0087c7cdee5f2608",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "II. 마케팅 전략 컨설팅 및 콘텐츠 제작"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 741,
+          "end_char": 744
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "컨설팅 구성"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 881,
+          "end_char": 886
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내용: 진단, 컨설팅, 그리고 콘텐츠 작성 프로젝트 몇 건을 함께 진행하며 방법론 습득 및 크로스 체크",
+      "normalized": {
+        "text": "내용: 진단, 컨설팅, 그리고 콘텐츠 작성 프로젝트 몇 건을 함께 진행하며 방법론 습득 및 크로스 체크",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "컨설팅 구성"
+          ],
+          "exact_quote": "내용: 진단, 컨설팅, 그리고 콘텐츠 작성 프로젝트 몇 건을 함께 진행하며 방법론 습득 및 크로스 체크",
+          "start_char": 893,
+          "end_char": 950
+        }
+      ],
+      "dedupe_key": "action_item:d5a73b5642aa46f9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "요청 배경: 클라이언트 내부 리소스(콘텐츠 팀)가 이미 대형 프로젝트로 인해 부담이 크기 때문",
+      "normalized": {
+        "text": "요청 배경: 클라이언트 내부 리소스(콘텐츠 팀)가 이미 대형 프로젝트로 인해 부담이 크기 때문",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "컨설팅 구성"
+          ],
+          "exact_quote": "요청 배경: 클라이언트 내부 리소스(콘텐츠 팀)가 이미 대형 프로젝트로 인해 부담이 크기 때문",
+          "start_char": 1038,
+          "end_char": 1090
+        }
+      ],
+      "dedupe_key": "action_item:839c7d53b2ac8634",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제작 요청: 백서(White Paper) 형태의 큰 콘텐츠 제작 대행",
+      "normalized": {
+        "text": "제작 요청: 백서(White Paper) 형태의 큰 콘텐츠 제작 대행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "컨설팅 구성"
+          ],
+          "exact_quote": "제작 요청: 백서(White Paper) 형태의 큰 콘텐츠 제작 대행",
+          "start_char": 1094,
+          "end_char": 1132
+        }
+      ],
+      "dedupe_key": "action_item:d1369ff299bc43a0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제안서 전달: 오늘 논의된 내용을 바탕으로 다음 주 초에 전달 예정",
+      "normalized": {
+        "text": "제안서 전달: 오늘 논의된 내용을 바탕으로 다음 주 초에 전달 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "주요 고객 타겟"
+          ],
+          "exact_quote": "제안서 전달: 오늘 논의된 내용을 바탕으로 다음 주 초에 전달 예정",
+          "start_char": 1517,
+          "end_char": 1554
+        }
+      ],
+      "dedupe_key": "collaboration_need:3688c8fd8551a32d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

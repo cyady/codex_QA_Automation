@@ -1,0 +1,601 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W504",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "유한킴벌리는 기존 전시회 중심의 마케팅 한계를 느끼고, 대기업 및 프랜차이즈 등 '큰 고객' 확보를 위한 콘텐츠 마케팅 전환을 희망함.",
+      "normalized": {
+        "text": "유한킴벌리는 기존 전시회 중심의 마케팅 한계를 느끼고, 대기업 및 프랜차이즈 등 '큰 고객' 확보를 위한 콘텐츠 마케팅 전환을 희망함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "유한킴벌리는 기존 전시회 중심의 마케팅 한계를 느끼고, 대기업 및 프랜차이즈 등 '큰 고객' 확보를 위한 콘텐츠 마케팅 전환을 희망함.",
+          "start_char": 13,
+          "end_char": 88
+        }
+      ],
+      "dedupe_key": "collaboration_need:ee0c3ad601652199",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 143,
+          "end_char": 146
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 745,
+          "end_char": 748
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1290,
+          "end_char": 1293
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 92,
+          "end_char": 95
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 737,
+          "end_char": 740
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1279,
+          "end_char": 1282
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1837,
+          "end_char": 1840
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1905,
+          "end_char": 1908
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1956,
+          "end_char": 1959
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅 내용 정리 후 팔로업 이메일 보내기 @박성준(Scott) → 특히 생각하는 '타임라인' 파악되어야 그로스랩 리소스 확인이 가능 cc. @김가은(Bona)",
+      "normalized": {
+        "text": "미팅 내용 정리 후 팔로업 이메일 보내기 @박성준(Scott) → 특히 생각하는 '타임라인' 파악되어야 그로스랩 리소스 확인이 가능 cc. @김가은(Bona)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "미팅 내용 정리 후 팔로업 이메일 보내기 @박성준(Scott) → 특히 생각하는 '타임라인' 파악되어야 그로스랩 리소스 확인이 가능 cc. @김가은(Bona)",
+          "start_char": 282,
+          "end_char": 370
+        }
+      ],
+      "dedupe_key": "action_item:1c7713304bb95f48",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 305,
+          "end_char": 309
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 420,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 360,
+          "end_char": 364
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)",
+      "normalized": {
+        "text": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)",
+          "start_char": 374,
+          "end_char": 431
+        }
+      ],
+      "dedupe_key": "action_item:036bcceeffbfcf93",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)",
+      "normalized": {
+        "text": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "액션 아이템"
+          ],
+          "exact_quote": "유한킴벌리 타겟(대기업, 빌딩 PM사 등)에 대한 리멤버 DB 모수 확인 및 공유 @박성준(Scott)",
+          "start_char": 374,
+          "end_char": 431
+        }
+      ],
+      "dedupe_key": "collaboration_need:7fb1a85d8bad4ede",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "커밋 레벨: 레벨 2 (문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함)",
+      "normalized": {
+        "text": "커밋 레벨: 레벨 2 (문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "커밋 레벨: 레벨 2 (문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함)",
+          "start_char": 450,
+          "end_char": 496
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4671d52fa6084b39",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "사유:뚜렷한 문제 정의 (요소 3 충족): 단순히 '마케팅을 하고 싶다'가 아니라, 전시회의 낮은 클로징 효율을 개선하고 소상공인이 아닌 '중대형 기업/프랜차이즈/빌딩 PM'을 타겟팅하여 양질의 리드를 확보하고 싶다는 니즈가 명확함. 또한, 저가 경쟁을 피하기 위해 단순 제품 판매가 아닌 '비용 절감'과 'ESG' 가치를 설득해야 한다는 과제가 구체적으로 정의됨.",
+      "normalized": {
+        "text": "사유:뚜렷한 문제 정의 (요소 3 충족): 단순히 '마케팅을 하고 싶다'가 아니라, 전시회의 낮은 클로징 효율을 개선하고 소상공인이 아닌 '중대형 기업/프랜차이즈/빌딩 PM'을 타겟팅하여 양질의 리드를 확보하고 싶다는 니즈가 명확함. 또한, 저가 경쟁을 피하기 위해 단순 제품 판매가 아닌 '비용 절감'과 'ESG' 가치를 설득해야 한다는 과제가 구체적으로 정의됨.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "사유:뚜렷한 문제 정의 (요소 3 충족): 단순히 '마케팅을 하고 싶다'가 아니라, 전시회의 낮은 클로징 효율을 개선하고 소상공인이 아닌 '중대형 기업/프랜차이즈/빌딩 PM'을 타겟팅하여 양질의 리드를 확보하고 싶다는 니즈가 명확함. 또한, 저가 경쟁을 피하기 위해 단순 제품 판매가 아닌 '비용 절감'과 'ESG' 가치를 설득해야 한다는 과제가 구체적으로 정의됨.",
+          "start_char": 500,
+          "end_char": 704
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9413890fb9bf8b44",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "챔피언 확보 (요소 4 충족): 유한킴벌리 담당자는 리캐치의 제안(ABM, 리드 마그넷 활용)이 내부에서 고민하던 방향과 정확히 일치한다고 언급하며(\"프로세스는 저희가 생각한 거랑 되게 맞거든요\"), 내부 영업 조직의 상황과 타겟 전략(5대 기업, 직영 프랜차이즈 등)을 구체적으로 공유하며 도입에 적극적인 태도를 보임.",
+      "normalized": {
+        "text": "챔피언 확보 (요소 4 충족): 유한킴벌리 담당자는 리캐치의 제안(ABM, 리드 마그넷 활용)이 내부에서 고민하던 방향과 정확히 일치한다고 언급하며(\"프로세스는 저희가 생각한 거랑 되게 맞거든요\"), 내부 영업 조직의 상황과 타겟 전략(5대 기업, 직영 프랜차이즈 등)을 구체적으로 공유하며 도입에 적극적인 태도를 보임.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "커밋 레벨 및 사유"
+          ],
+          "exact_quote": "챔피언 확보 (요소 4 충족): 유한킴벌리 담당자는 리캐치의 제안(ABM, 리드 마그넷 활용)이 내부에서 고민하던 방향과 정확히 일치한다고 언급하며(\"프로세스는 저희가 생각한 거랑 되게 맞거든요\"), 내부 영업 조직의 상황과 타겟 전략(5대 기업, 직영 프랜차이즈 등)을 구체적으로 공유하며 도입에 적극적인 태도를 보임.",
+          "start_char": 708,
+          "end_char": 887
+        }
+      ],
+      "dedupe_key": "collaboration_need:8468c9dfd62f1b06",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "배경: 작년 MCAE 도입 후 이벤트성 마케팅을 진행했으나, 리드 퀄리티(소규모 카페 등)가 낮고 클로징까지 연결되지 않는 한계를 느낌.",
+      "normalized": {
+        "text": "배경: 작년 MCAE 도입 후 이벤트성 마케팅을 진행했으나, 리드 퀄리티(소규모 카페 등)가 낮고 클로징까지 연결되지 않는 한계를 느낌.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "배경: 작년 MCAE 도입 후 이벤트성 마케팅을 진행했으나, 리드 퀄리티(소규모 카페 등)가 낮고 클로징까지 연결되지 않는 한계를 느낌.",
+          "start_char": 922,
+          "end_char": 998
+        }
+      ],
+      "dedupe_key": "action_item:992d1ef2183f69f7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "소구 포인트: 프리미엄 제품의 높은 단가를 방어하기 위해 'ESG 경영(재활용 캠페인)'과 '총 소유 비용 절감(사용량 감소)'을 핵심 메시지로 전달해야 함.",
+      "normalized": {
+        "text": "소구 포인트: 프리미엄 제품의 높은 단가를 방어하기 위해 'ESG 경영(재활용 캠페인)'과 '총 소유 비용 절감(사용량 감소)'을 핵심 메시지로 전달해야 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "소구 포인트: 프리미엄 제품의 높은 단가를 방어하기 위해 'ESG 경영(재활용 캠페인)'과 '총 소유 비용 절감(사용량 감소)'을 핵심 메시지로 전달해야 함.",
+          "start_char": 1186,
+          "end_char": 1274
+        }
+      ],
+      "dedupe_key": "collaboration_need:7f51724bc68a89fc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전략: 리멤버의 명함 DB를 활용하여 의사결정권자(구매팀, ESG팀, 임원 등)를 정밀 타겟팅하고, 맞춤형 리드 마그넷(리포트)을 문자로 발송하여 리드를 확보하는 방식 제안.",
+      "normalized": {
+        "text": "전략: 리멤버의 명함 DB를 활용하여 의사결정권자(구매팀, ESG팀, 임원 등)를 정밀 타겟팅하고, 맞춤형 리드 마그넷(리포트)을 문자로 발송하여 리드를 확보하는 방식 제안.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "전략: 리멤버의 명함 DB를 활용하여 의사결정권자(구매팀, ESG팀, 임원 등)를 정밀 타겟팅하고, 맞춤형 리드 마그넷(리포트)을 문자로 발송하여 리드를 확보하는 방식 제안.",
+          "start_char": 1304,
+          "end_char": 1401
+        }
+      ],
+      "dedupe_key": "action_item:38af1838a212051d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5천만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "5천만 원",
+          "start_char": 1588,
+          "end_char": 1593
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "7천만 원",
+      "normalized": {
+        "value": 70000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "7천만 원",
+          "start_char": 1627,
+          "end_char": 1632
+        }
+      ],
+      "dedupe_key": "budget:aa6940f69927bb8b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1억 원",
+      "normalized": {
+        "value": 100000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "1억 원",
+          "start_char": 1645,
+          "end_char": 1649
+        }
+      ],
+      "dedupe_key": "budget:c95ebcb56f88b02b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1606,
+          "end_char": 1610
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 1634,
+          "end_char": 1637
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "타겟팅 상세: 50인 이상 사업장, 프랜차이즈 본사(직영 위주), 대형 빌딩 관리 업체(PM/FM)가 주요 타겟임. 병원(헬스케어) 시장은 의사 결정권자가 폐쇄적이라 접근이 어렵다는 점 공유.",
+      "normalized": {
+        "text": "타겟팅 상세: 50인 이상 사업장, 프랜차이즈 본사(직영 위주), 대형 빌딩 관리 업체(PM/FM)가 주요 타겟임. 병원(헬스케어) 시장은 의사 결정권자가 폐쇄적이라 접근이 어렵다는 점 공유.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "타겟팅 상세: 50인 이상 사업장, 프랜차이즈 본사(직영 위주), 대형 빌딩 관리 업체(PM/FM)가 주요 타겟임. 병원(헬스케어) 시장은 의사 결정권자가 폐쇄적이라 접근이 어렵다는 점 공유.",
+          "start_char": 1676,
+          "end_char": 1783
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d806004b7da82e9c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1882,
+          "end_char": 1885
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 측에서 논의된 타겟(대기업, 빌딩 등)에 대한 리멤버 DB 모수를 추출하여 공유하고, 이를 바탕으로 구체적인 제안을 이어가기로 함.",
+      "normalized": {
+        "text": "리캐치 측에서 논의된 타겟(대기업, 빌딩 등)에 대한 리멤버 DB 모수를 추출하여 공유하고, 이를 바탕으로 구체적인 제안을 이어가기로 함.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "미팅 내용 핵심 요약"
+          ],
+          "exact_quote": "리캐치 측에서 논의된 타겟(대기업, 빌딩 등)에 대한 리멤버 DB 모수를 추출하여 공유하고, 이를 바탕으로 구체적인 제안을 이어가기로 함.",
+          "start_char": 1956,
+          "end_char": 2033
+        }
+      ],
+      "dedupe_key": "collaboration_need:dae4fe65e830af65",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

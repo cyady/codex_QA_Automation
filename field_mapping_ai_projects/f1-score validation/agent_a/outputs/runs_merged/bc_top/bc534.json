@@ -1,0 +1,480 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W534",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[미팅 요약] LG화학 POC 및 내부 전략 회의핵심 요약: LG화학은 ABS 소재의 신규 시장(로봇, 프리미엄 가전) 진입을 위해 1개월 POC를 진행합니다.",
+      "normalized": {
+        "text": "[미팅 요약] LG화학 POC 및 내부 전략 회의핵심 요약: LG화학은 ABS 소재의 신규 시장(로봇, 프리미엄 가전) 진입을 위해 1개월 POC를 진행합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[미팅 요약] LG화학 POC 및 내부 전략 회의핵심 요약: LG화학은 ABS 소재의 신규 시장(로봇, 프리미엄 가전) 진입을 위해 1개월 POC를 진행합니다.",
+          "start_char": 0,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "action_item:e243f46814fc8e1f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "목표: 단순 리드 발굴을 넘어, 'Clay + LinkedIn + GLG'를 활용한 타겟팅 및 아웃바운드 모델링 자체를 수립하고, 리캐치 협업의 효용성을 증명하는 것.",
+      "normalized": {
+        "text": "목표: 단순 리드 발굴을 넘어, 'Clay + LinkedIn + GLG'를 활용한 타겟팅 및 아웃바운드 모델링 자체를 수립하고, 리캐치 협업의 효용성을 증명하는 것.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "목표: 단순 리드 발굴을 넘어, 'Clay + LinkedIn + GLG'를 활용한 타겟팅 및 아웃바운드 모델링 자체를 수립하고, 리캐치 협업의 효용성을 증명하는 것.",
+          "start_char": 90,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "action_item:b45fa9d5aa995a8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 74,
+          "end_char": 77
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 380,
+          "end_char": 383
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 163,
+          "end_char": 166
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 194,
+          "end_char": 197
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 234,
+          "end_char": 237
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 698,
+          "end_char": 701
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 893,
+          "end_char": 896
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1451,
+          "end_char": 1454
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 초",
+      "normalized": {
+        "month": 3,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "3월 초",
+          "start_char": 389,
+          "end_char": 393
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "3월 초",
+          "start_char": 1548,
+          "end_char": 1552
+        }
+      ],
+      "dedupe_key": "timeline:8acaada2ba9fafca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "2~3건",
+      "normalized": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "2~3건",
+          "start_char": 868,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "case_metric:4bef0641e7f7a20f",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2시간",
+      "normalized": {
+        "value": 2.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "2시간",
+          "start_char": 521,
+          "end_char": 524
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "2시간",
+          "start_char": 1166,
+          "end_char": 1169
+        }
+      ],
+      "dedupe_key": "duration:8d5f5904f3e854a3",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "3개",
+          "start_char": 630,
+          "end_char": 632
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "약 10건",
+      "normalized": {
+        "value": 10,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "약 10건",
+          "start_char": 667,
+          "end_char": 672
+        }
+      ],
+      "dedupe_key": "sales_activity:8e09c07cd8d0ace0",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 921,
+          "end_char": 925
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 1503,
+          "end_char": 1507
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 1638,
+          "end_char": 1642
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@김숙영",
+          "start_char": 933,
+          "end_char": 937
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "@김숙영",
+          "start_char": 1684,
+          "end_char": 1688
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8e7ddd7d7129c976",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 947,
+          "end_char": 951
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "10~20개",
+      "normalized": {
+        "min": 10.0,
+        "max": 20.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "10~20개",
+          "start_char": 1038,
+          "end_char": 1044
+        }
+      ],
+      "dedupe_key": "case_metric:30d549dd42a51384",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "2건",
+      "normalized": {
+        "value": 2,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "2건",
+          "start_char": 1254,
+          "end_char": 1256
+        }
+      ],
+      "dedupe_key": "sales_activity:93a4823f7038ff8d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "운영 및 프로세스병렬 진행: 리드 발굴(Clay) + 계정 웜업(LinkedIn) + GLG 컨택을 동시 다발적으로 시작해야 함.미팅 주기: 요청이 빗발칠 수 있으므로 주 1회 정기 미팅으로 제한하되, 필요 시 유연하게 운영 (LG/리캐치 오피스 교차 방문).",
+      "normalized": {
+        "text": "운영 및 프로세스병렬 진행: 리드 발굴(Clay) + 계정 웜업(LinkedIn) + GLG 컨택을 동시 다발적으로 시작해야 함.미팅 주기: 요청이 빗발칠 수 있으므로 주 1회 정기 미팅으로 제한하되, 필요 시 유연하게 운영 (LG/리캐치 오피스 교차 방문).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "운영 및 프로세스병렬 진행: 리드 발굴(Clay) + 계정 웜업(LinkedIn) + GLG 컨택을 동시 다발적으로 시작해야 함.미팅 주기: 요청이 빗발칠 수 있으므로 주 1회 정기 미팅으로 제한하되, 필요 시 유연하게 운영 (LG/리캐치 오피스 교차 방문).",
+          "start_char": 1321,
+          "end_char": 1466
+        }
+      ],
+      "dedupe_key": "action_item:04d70338339fdc2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 말",
+      "normalized": {
+        "month": 2,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "2월 말",
+          "start_char": 1543,
+          "end_char": 1547
+        }
+      ],
+      "dedupe_key": "timeline:a30ee9b7dc179b81",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "20.94",
+      "normalized": {
+        "year": 2020,
+        "month": 94,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "To-Do List (Next Step)"
+          ],
+          "exact_quote": "20.94",
+          "start_char": 1888,
+          "end_char": 1893
+        }
+      ],
+      "dedupe_key": "timeline:4621b9fc840466f6",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

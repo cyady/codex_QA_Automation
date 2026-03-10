@@ -1,0 +1,33 @@
+{
+  "case": {
+    "case_id": "C6908-02",
+    "technique": "target_6908",
+    "prompt": "추가 회사/담당자 연락처에 박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr) 등록 요청."
+  },
+  "payload": {
+    "summary": "추가 회사/담당자 연락처에 박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr) 등록 요청.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:09:53.726Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": [
+    {
+      "extracted_value": "박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr) 등록 요청",
+      "field_definition": {
+        "id": "5361",
+        "label": "Next Action",
+        "type": "textarea",
+        "category": "custom",
+        "display_order": 130,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "미팅 노트에 특정 담당자의 인적 사항과 함께 등록을 요청하는 내용이 포함되어 있어, 이를 향후 수행해야 할 후속 작업으로 판단했습니다."
+    }
+  ]
+}

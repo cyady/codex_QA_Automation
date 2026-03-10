@@ -1,0 +1,468 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W54",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "거래 형태의 특이성: 재활용 소재는 폐기물로 만들어지기 때문에 물건 수급이 귀하고 예측이 어렵습니다. 따라서 시장 참여자들은 장기 거래가 불가능하다는 것을 인지하고 있으며, 단기 거래를 선호하고 그때그때 있는 물량을 찾는 데 맞춰야 합니다.",
+      "normalized": {
+        "text": "거래 형태의 특이성: 재활용 소재는 폐기물로 만들어지기 때문에 물건 수급이 귀하고 예측이 어렵습니다. 따라서 시장 참여자들은 장기 거래가 불가능하다는 것을 인지하고 있으며, 단기 거래를 선호하고 그때그때 있는 물량을 찾는 데 맞춰야 합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "거래 형태의 특이성: 재활용 소재는 폐기물로 만들어지기 때문에 물건 수급이 귀하고 예측이 어렵습니다. 따라서 시장 참여자들은 장기 거래가 불가능하다는 것을 인지하고 있으며, 단기 거래를 선호하고 그때그때 있는 물량을 찾는 데 맞춰야 합니다.",
+          "start_char": 231,
+          "end_char": 365
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8eb71cb994c9ce92",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "2. 기존 홈페이지 현황 및 문제점",
+      "normalized": {
+        "text": "2. 기존 홈페이지 현황 및 문제점",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "2. 기존 홈페이지 현황 및 문제점",
+          "start_char": 507,
+          "end_char": 526
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7072ae63702af1bf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 596,
+          "end_char": 602
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "운영 문제: 내부 개발자가 퇴사하여 현재는 수정 및 디버깅에 어려움이 있습니다. 수정하려면 외주사를 찾거나 코드를 직접 만져야 합니다.",
+      "normalized": {
+        "text": "운영 문제: 내부 개발자가 퇴사하여 현재는 수정 및 디버깅에 어려움이 있습니다. 수정하려면 외주사를 찾거나 코드를 직접 만져야 합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "운영 문제: 내부 개발자가 퇴사하여 현재는 수정 및 디버깅에 어려움이 있습니다. 수정하려면 외주사를 찾거나 코드를 직접 만져야 합니다.",
+          "start_char": 616,
+          "end_char": 691
+        }
+      ],
+      "dedupe_key": "risk_or_concern:90ce457ac0889135",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "접근성 문제 (로그인 허들): 현재 홈페이지는 소재 구경을 위해 로그인을 필수로 요구합니다. 이 때문에 고객들이 아예 전화를 해버리거나 (전화가 오히려 편하다고 함), 홈페이지를 '사자(약탈자) 같은 느낌'으로 인식할 수 있어 초기 기업 이미지를 해칠 수 있다는 우려가 있습니다. 로그인/가입 절차를 낮추고 폼 제출 방식으로 전환하여 리드 데이터를 확보하는 것이 확장성 측면에서 중요합니다.",
+      "normalized": {
+        "text": "접근성 문제 (로그인 허들): 현재 홈페이지는 소재 구경을 위해 로그인을 필수로 요구합니다. 이 때문에 고객들이 아예 전화를 해버리거나 (전화가 오히려 편하다고 함), 홈페이지를 '사자(약탈자) 같은 느낌'으로 인식할 수 있어 초기 기업 이미지를 해칠 수 있다는 우려가 있습니다. 로그인/가입 절차를 낮추고 폼 제출 방식으로 전환하여 리드 데이터를 확보하는 것이 확장성 측면에서 중요합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "접근성 문제 (로그인 허들): 현재 홈페이지는 소재 구경을 위해 로그인을 필수로 요구합니다. 이 때문에 고객들이 아예 전화를 해버리거나 (전화가 오히려 편하다고 함), 홈페이지를 '사자(약탈자) 같은 느낌'으로 인식할 수 있어 초기 기업 이미지를 해칠 수 있다는 우려가 있습니다. 로그인/가입 절차를 낮추고 폼 제출 방식으로 전환하여 리드 데이터를 확보하는 것이 확장성 측면에서 중요합니다.",
+          "start_char": 695,
+          "end_char": 913
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6fa220a35983b9af",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "데이터 노출 문제: 현재 메인 화면의 각종 수치(예: 보유 소재 수)는 수동으로 지정된 숫자이며 실시간 연동이 안 됩니다.",
+      "normalized": {
+        "text": "데이터 노출 문제: 현재 메인 화면의 각종 수치(예: 보유 소재 수)는 수동으로 지정된 숫자이며 실시간 연동이 안 됩니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "데이터 노출 문제: 현재 메인 화면의 각종 수치(예: 보유 소재 수)는 수동으로 지정된 숫자이며 실시간 연동이 안 됩니다.",
+          "start_char": 917,
+          "end_char": 985
+        }
+      ],
+      "dedupe_key": "risk_or_concern:43070e1fcac281d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "제안된 툴: 프레이머(Framer)를 활용하여 홈페이지 디자인 및 제작을 진행하고, 리캐치(Recatch)를 통해 CRM 및 인텐트 데이터(Inbound/여정 데이터)를 관리하는 방안이 제안되었습니다.",
+      "normalized": {
+        "text": "제안된 툴: 프레이머(Framer)를 활용하여 홈페이지 디자인 및 제작을 진행하고, 리캐치(Recatch)를 통해 CRM 및 인텐트 데이터(Inbound/여정 데이터)를 관리하는 방안이 제안되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "제안된 툴: 프레이머(Framer)를 활용하여 홈페이지 디자인 및 제작을 진행하고, 리캐치(Recatch)를 통해 CRM 및 인텐트 데이터(Inbound/여정 데이터)를 관리하는 방안이 제안되었습니다.",
+          "start_char": 1014,
+          "end_char": 1126
+        }
+      ],
+      "dedupe_key": "action_item:61b87f707c9715c3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "Recatch",
+          "start_char": 1065,
+          "end_char": 1072
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1061,
+          "end_char": 1064
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1231,
+          "end_char": 1234
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1265,
+          "end_char": 1268
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1911,
+          "end_char": 1914
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2253,
+          "end_char": 2256
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2548,
+          "end_char": 2551
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2567,
+          "end_char": 2570
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2601,
+          "end_char": 2604
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "프레이머 장점: 피그마 디자인을 그대로 퍼블리싱할 수 있으며, 개발자가 부재한 상황에서 디자인을 다룰 줄 아는 인력이 쉽게 학습하고 유지보수를 할 수 있어 ROI가 높습니다.",
+      "normalized": {
+        "text": "프레이머 장점: 피그마 디자인을 그대로 퍼블리싱할 수 있으며, 개발자가 부재한 상황에서 디자인을 다룰 줄 아는 인력이 쉽게 학습하고 유지보수를 할 수 있어 ROI가 높습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "프레이머 장점: 피그마 디자인을 그대로 퍼블리싱할 수 있으며, 개발자가 부재한 상황에서 디자인을 다룰 줄 아는 인력이 쉽게 학습하고 유지보수를 할 수 있어 ROI가 높습니다.",
+          "start_char": 1130,
+          "end_char": 1227
+        }
+      ],
+      "dedupe_key": "risk_or_concern:93d7d6e7e27fc2d7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "CTA",
+          "start_char": 1239,
+          "end_char": 1242
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 1372,
+          "end_char": 1375
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1494,
+          "end_char": 1497
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1565,
+          "end_char": 1568
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1590,
+          "end_char": 1593
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "개발 이슈: 먼데이 CRM의 API가 잘 되어 있어 외부 연동은 가능할 것으로 보이나, 리캐치 툴 자체만으로는 현재 CRM 데이터 연동 노출은 어렵습니다. 기능적인 부분(API 연동)이 필요하다면 코딩 작업이 필수적입니다.",
+      "normalized": {
+        "text": "개발 이슈: 먼데이 CRM의 API가 잘 되어 있어 외부 연동은 가능할 것으로 보이나, 리캐치 툴 자체만으로는 현재 CRM 데이터 연동 노출은 어렵습니다. 기능적인 부분(API 연동)이 필요하다면 코딩 작업이 필수적입니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "개발 이슈: 먼데이 CRM의 API가 잘 되어 있어 외부 연동은 가능할 것으로 보이나, 리캐치 툴 자체만으로는 현재 CRM 데이터 연동 노출은 어렵습니다. 기능적인 부분(API 연동)이 필요하다면 코딩 작업이 필수적입니다.",
+          "start_char": 1862,
+          "end_char": 1986
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d8d4bca747dc1720",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "향후 진행 방안: 필요한 기능 구획(소재 롤링 영역, 공고 영역 등)을 디자인(Figma 포함)하고 껍데기(UI)까지 제작하여 제공하되, 먼데이 API 연동이 필요한 부분에 대해서는 추가적인 코딩 지원 여부를 리캐치 팀에서 확인 후 다시 논의하기로 했습니다.",
+      "normalized": {
+        "text": "향후 진행 방안: 필요한 기능 구획(소재 롤링 영역, 공고 영역 등)을 디자인(Figma 포함)하고 껍데기(UI)까지 제작하여 제공하되, 먼데이 API 연동이 필요한 부분에 대해서는 추가적인 코딩 지원 여부를 리캐치 팀에서 확인 후 다시 논의하기로 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "향후 진행 방안: 필요한 기능 구획(소재 롤링 영역, 공고 영역 등)을 디자인(Figma 포함)하고 껍데기(UI)까지 제작하여 제공하되, 먼데이 API 연동이 필요한 부분에 대해서는 추가적인 코딩 지원 여부를 리캐치 팀에서 확인 후 다시 논의하기로 했습니다.",
+          "start_char": 2136,
+          "end_char": 2280
+        }
+      ],
+      "dedupe_key": "action_item:4ee0ff9bc919aef1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영문 홈페이지 필요성: 신뢰도 확보를 위해 영문 홈페이지(또는 중문/일문)가 필요하며, 자동 번역이 아닌 검토된 영문 번역을 적용해야 합니다. 언어 길이에 따른 버튼/디자인 이슈도 고려해야 합니다.",
+      "normalized": {
+        "text": "영문 홈페이지 필요성: 신뢰도 확보를 위해 영문 홈페이지(또는 중문/일문)가 필요하며, 자동 번역이 아닌 검토된 영문 번역을 적용해야 합니다. 언어 길이에 따른 버튼/디자인 이슈도 고려해야 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [],
+          "exact_quote": "영문 홈페이지 필요성: 신뢰도 확보를 위해 영문 홈페이지(또는 중문/일문)가 필요하며, 자동 번역이 아닌 검토된 영문 번역을 적용해야 합니다. 언어 길이에 따른 버튼/디자인 이슈도 고려해야 합니다.",
+          "start_char": 2349,
+          "end_char": 2459
+        }
+      ],
+      "dedupe_key": "action_item:a6e0abc5c9c92393",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Figma 공유: 기획 중인 피그마 파일을 공유했습니다. 이는 참고용이며, 디자인을 반드시 고수할 필요는 없습니다.",
+      "normalized": {
+        "text": "Figma 공유: 기획 중인 피그마 파일을 공유했습니다. 이는 참고용이며, 디자인을 반드시 고수할 필요는 없습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [],
+          "exact_quote": "Figma 공유: 기획 중인 피그마 파일을 공유했습니다. 이는 참고용이며, 디자인을 반드시 고수할 필요는 없습니다.",
+          "start_char": 2480,
+          "end_char": 2544
+        }
+      ],
+      "dedupe_key": "action_item:739573f79b4fbba4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "물류 회사 소개: 동방 특송(25톤, 5톤 트럭 위주의 물류 회사)과 소개를 진행할 예정입니다. 동방 특송의 홈페이지 제작에도 수천만 원이 소요되었다고 언급되었습니다.",
+      "normalized": {
+        "text": "물류 회사 소개: 동방 특송(25톤, 5톤 트럭 위주의 물류 회사)과 소개를 진행할 예정입니다. 동방 특송의 홈페이지 제작에도 수천만 원이 소요되었다고 언급되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [],
+          "exact_quote": "물류 회사 소개: 동방 특송(25톤, 5톤 트럭 위주의 물류 회사)과 소개를 진행할 예정입니다. 동방 특송의 홈페이지 제작에도 수천만 원이 소요되었다고 언급되었습니다.",
+          "start_char": 2668,
+          "end_char": 2761
+        }
+      ],
+      "dedupe_key": "action_item:f0dc436e428b990c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

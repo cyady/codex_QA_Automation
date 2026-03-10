@@ -1,0 +1,16 @@
+{
+  "case": {
+    "case_id": "G5656-02",
+    "technique": "target_5656",
+    "prompt": "그로스패키지 결제 예정 항목은 웹사이트와 ABM이며 블로그도 포함한다."
+  },
+  "payload": {
+    "summary": "그로스패키지 결제 예정 항목은 웹사이트와 ABM이며 블로그도 포함한다.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:05:36.230Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": []
+}

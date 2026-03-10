@@ -1,0 +1,201 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W226",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "현재 엑셀로 영업 관리 중"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 245,
+          "end_char": 248
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 인바운드 리드 관리 방식: 견적 문의 들어오면 > 전화/이메일 등으로 간단 상담 > 견적서 발송 > 미팅",
+      "normalized": {
+        "text": "현재 인바운드 리드 관리 방식: 견적 문의 들어오면 > 전화/이메일 등으로 간단 상담 > 견적서 발송 > 미팅",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "현재 인바운드 리드 관리 방식: 견적 문의 들어오면 > 전화/이메일 등으로 간단 상담 > 견적서 발송 > 미팅",
+          "start_char": 369,
+          "end_char": 430
+        }
+      ],
+      "dedupe_key": "action_item:62a8df66f54d8e50",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "cf) 위 프로세스로 고객을 응대하기 때문에 폼 제출 시 바로 영업 담당자 미팅이 배정되는 기능은 불필요하다고 함 cc @pm 오늘 위클리에서 관련 내용 나왔던 것 같아 공유드립니다!",
+      "normalized": {
+        "text": "cf) 위 프로세스로 고객을 응대하기 때문에 폼 제출 시 바로 영업 담당자 미팅이 배정되는 기능은 불필요하다고 함 cc @pm 오늘 위클리에서 관련 내용 나왔던 것 같아 공유드립니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "cf) 위 프로세스로 고객을 응대하기 때문에 폼 제출 시 바로 영업 담당자 미팅이 배정되는 기능은 불필요하다고 함 cc @pm 오늘 위클리에서 관련 내용 나왔던 것 같아 공유드립니다!",
+          "start_char": 434,
+          "end_char": 536
+        }
+      ],
+      "dedupe_key": "action_item:c204136e1730a8c4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@pm",
+      "normalized": {
+        "name": "pm"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "대시보드"
+          ],
+          "exact_quote": "@pm",
+          "start_char": 501,
+          "end_char": 504
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:f5acce02855b55f6",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "14명",
+      "normalized": {
+        "value": 14,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "14명",
+          "start_char": 625,
+          "end_char": 628
+        }
+      ],
+      "dedupe_key": "team_size:fc49f93dff77ed7d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "회사 차원 아젠다는 아니기 때문에, 매니저님이 미팅 해보고 괜찮으면 도입 품의 올리실 예정",
+      "normalized": {
+        "text": "회사 차원 아젠다는 아니기 때문에, 매니저님이 미팅 해보고 괜찮으면 도입 품의 올리실 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "T)"
+          ],
+          "exact_quote": "회사 차원 아젠다는 아니기 때문에, 매니저님이 미팅 해보고 괜찮으면 도입 품의 올리실 예정",
+          "start_char": 649,
+          "end_char": 699
+        }
+      ],
+      "dedupe_key": "collaboration_need:f9d20309aa065c31",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 매니저님 외 팀장급/임원급 추가 확보 필요..!ㅠㅠ",
+      "normalized": {
+        "text": "따라서 매니저님 외 팀장급/임원급 추가 확보 필요..!ㅠㅠ",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "T)"
+          ],
+          "exact_quote": "따라서 매니저님 외 팀장급/임원급 추가 확보 필요..!ㅠㅠ",
+          "start_char": 705,
+          "end_char": 737
+        }
+      ],
+      "dedupe_key": "action_item:37d971fbdf2f8e5c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

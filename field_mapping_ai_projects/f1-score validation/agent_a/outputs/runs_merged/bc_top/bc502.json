@@ -1,0 +1,678 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W502",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "900만원",
+      "normalized": {
+        "value": 9000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "900만원",
+          "start_char": 20,
+          "end_char": 25
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "900만원",
+          "start_char": 332,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "budget:85fb9eec8a4729b2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "챔피언 확보: 안주현 팀장님은 구 스파크플러스 출신으로, 오피스B의 리캐치 도입 시에도 내부 인플루언서 역할을 했습니다.",
+      "normalized": {
+        "text": "챔피언 확보: 안주현 팀장님은 구 스파크플러스 출신으로, 오피스B의 리캐치 도입 시에도 내부 인플루언서 역할을 했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "챔피언 확보: 안주현 팀장님은 구 스파크플러스 출신으로, 오피스B의 리캐치 도입 시에도 내부 인플루언서 역할을 했습니다.",
+          "start_char": 99,
+          "end_char": 166
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf978385576ef797",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 137,
+          "end_char": 140
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 352,
+          "end_char": 355
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 393,
+          "end_char": 396
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 435,
+          "end_char": 438
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1363,
+          "end_char": 1366
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제의 구체적 정의: 스티비, MCAE를 대체하고 통합적으로 활용할 수 있는 CRM을 탐색중에 있습니다. 다만, 현재 세일즈포스 기능으로 해결 가능한지 내부 검토가 선행되어야 한다고 밝혔으며, 도입 시기는 상반기 중으로 예상하고 있으나 확답은 하지 않은 상태입니다",
+      "normalized": {
+        "text": "문제의 구체적 정의: 스티비, MCAE를 대체하고 통합적으로 활용할 수 있는 CRM을 탐색중에 있습니다. 다만, 현재 세일즈포스 기능으로 해결 가능한지 내부 검토가 선행되어야 한다고 밝혔으며, 도입 시기는 상반기 중으로 예상하고 있으나 확답은 하지 않은 상태입니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "cc @sales @김숙영 (Esther)"
+          ],
+          "exact_quote": "문제의 구체적 정의: 스티비, MCAE를 대체하고 통합적으로 활용할 수 있는 CRM을 탐색중에 있습니다. 다만, 현재 세일즈포스 기능으로 해결 가능한지 내부 검토가 선행되어야 한다고 밝혔으며, 도입 시기는 상반기 중으로 예상하고 있으나 확답은 하지 않은 상태입니다",
+          "start_char": 170,
+          "end_char": 317
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0f07440d6e456768",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• @김한규(Lucky): 고객의 세일즈포스 내부 검토 완료 시점 또는 적절한 타이밍에 팔로업 진행",
+      "normalized": {
+        "text": "• @김한규(Lucky): 고객의 세일즈포스 내부 검토 완료 시점 또는 적절한 타이밍에 팔로업 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "3/ Next action"
+          ],
+          "exact_quote": "• @김한규(Lucky): 고객의 세일즈포스 내부 검토 완료 시점 또는 적절한 타이밍에 팔로업 진행",
+          "start_char": 576,
+          "end_char": 631
+        }
+      ],
+      "dedupe_key": "action_item:97871225712df854",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "3/ Next action"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 578,
+          "end_char": 582
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김숙영",
+      "normalized": {
+        "name": "김숙영"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "3/ Next action"
+          ],
+          "exact_quote": "@김숙영",
+          "start_char": 634,
+          "end_char": 638
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8e7ddd7d7129c976",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "세일즈포스 고착화: 세일즈팀과 타 부서가 이미 세일즈포스를 메인 DB로 강력하게 사용 중이라 전체 교체는 불가능하며, 마케팅 기능만 분리해야 함",
+      "normalized": {
+        "text": "세일즈포스 고착화: 세일즈팀과 타 부서가 이미 세일즈포스를 메인 DB로 강력하게 사용 중이라 전체 교체는 불가능하며, 마케팅 기능만 분리해야 함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "세일즈포스 고착화: 세일즈팀과 타 부서가 이미 세일즈포스를 메인 DB로 강력하게 사용 중이라 전체 교체는 불가능하며, 마케팅 기능만 분리해야 함",
+          "start_char": 759,
+          "end_char": 839
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1d3ef3f6079ee8da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "세일즈포스 자체 기능으로 스티비 DB<>MCAE DB 연동이 가능한지 먼저 확인해보고자 하는 니즈가 있어, 이 과정이 도입의 지연 요소가 될 수 있음",
+      "normalized": {
+        "text": "세일즈포스 자체 기능으로 스티비 DB<>MCAE DB 연동이 가능한지 먼저 확인해보고자 하는 니즈가 있어, 이 과정이 도입의 지연 요소가 될 수 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "내부 검토 우선"
+          ],
+          "exact_quote": "세일즈포스 자체 기능으로 스티비 DB<>MCAE DB 연동이 가능한지 먼저 확인해보고자 하는 니즈가 있어, 이 과정이 도입의 지연 요소가 될 수 있음",
+          "start_char": 858,
+          "end_char": 941
+        }
+      ],
+      "dedupe_key": "collaboration_need:2d1d1fa9b1364679",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "User (실사용자)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 997,
+          "end_char": 999
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "확인 필요 (대체 가능성 있음): 구체적인 예산 액수는 언급되지 않았으나, 현재 세일즈포스, MCAE, 스티비를 모두 구독 중임. 활용도가 낮은 MCAE를 걷어내고 그 비용을 리캐치로 전환할 가능성이 있음(User Note 참고).",
+      "normalized": {
+        "text": "확인 필요 (대체 가능성 있음): 구체적인 예산 액수는 언급되지 않았으나, 현재 세일즈포스, MCAE, 스티비를 모두 구독 중임. 활용도가 낮은 MCAE를 걷어내고 그 비용을 리캐치로 전환할 가능성이 있음(User Note 참고).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "확인 필요 (대체 가능성 있음): 구체적인 예산 액수는 언급되지 않았으나, 현재 세일즈포스, MCAE, 스티비를 모두 구독 중임. 활용도가 낮은 MCAE를 걷어내고 그 비용을 리캐치로 전환할 가능성이 있음(User Note 참고).",
+          "start_char": 1265,
+          "end_char": 1394
+        }
+      ],
+      "dedupe_key": "action_item:977de9d7db1f2df0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "주현님이 솔루션 검토 및 도입 제안을 주도하고 있음",
+      "normalized": {
+        "text": "주현님이 솔루션 검토 및 도입 제안을 주도하고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "Authority (권한)"
+          ],
+          "exact_quote": "주현님이 솔루션 검토 및 도입 제안을 주도하고 있음",
+          "start_char": 1418,
+          "end_char": 1446
+        }
+      ],
+      "dedupe_key": "action_item:e7efa20c39e8b45f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "다만, 전체 CRM 구조(세일즈포스)와 연동되는 문제이므로 상위 결재가 필요할 것으로 보임.",
+      "normalized": {
+        "text": "다만, 전체 CRM 구조(세일즈포스)와 연동되는 문제이므로 상위 결재가 필요할 것으로 보임.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "Authority (권한)"
+          ],
+          "exact_quote": "다만, 전체 CRM 구조(세일즈포스)와 연동되는 문제이므로 상위 결재가 필요할 것으로 보임.",
+          "start_char": 1450,
+          "end_char": 1501
+        }
+      ],
+      "dedupe_key": "risk_or_concern:23ba0be34596dab3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅 CRM 일원화: 분절된 툴 환경(세일즈포스, 스티비, 엑셀)을 통합하여 관리 효율성을 높이고자 함",
+      "normalized": {
+        "text": "마케팅 CRM 일원화: 분절된 툴 환경(세일즈포스, 스티비, 엑셀)을 통합하여 관리 효율성을 높이고자 함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "마케팅 CRM 일원화: 분절된 툴 환경(세일즈포스, 스티비, 엑셀)을 통합하여 관리 효율성을 높이고자 함",
+          "start_char": 1520,
+          "end_char": 1578
+        }
+      ],
+      "dedupe_key": "collaboration_need:c7a12a5cc111d902",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "데이터 연동 자동화: 스티비의 이메일 성과(오픈, 클릭)를 세일즈포스에 자동으로 업데이트하고 싶음",
+      "normalized": {
+        "text": "데이터 연동 자동화: 스티비의 이메일 성과(오픈, 클릭)를 세일즈포스에 자동으로 업데이트하고 싶음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "데이터 연동 자동화: 스티비의 이메일 성과(오픈, 클릭)를 세일즈포스에 자동으로 업데이트하고 싶음",
+          "start_char": 1582,
+          "end_char": 1636
+        }
+      ],
+      "dedupe_key": "collaboration_need:b4f0c7e56f3fbeba",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "KPI 달성 압박: 2026년까지 인바운드 리드를 MQL/SQL(Opti)로 전환하여 매출에 기여하는 것이 핵심 KPI로 설정되어 있음",
+      "normalized": {
+        "text": "KPI 달성 압박: 2026년까지 인바운드 리드를 MQL/SQL(Opti)로 전환하여 매출에 기여하는 것이 핵심 KPI로 설정되어 있음",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "KPI 달성 압박: 2026년까지 인바운드 리드를 MQL/SQL(Opti)로 전환하여 매출에 기여하는 것이 핵심 KPI로 설정되어 있음",
+          "start_char": 1640,
+          "end_char": 1715
+        }
+      ],
+      "dedupe_key": "collaboration_need:3d480ecf223d6b79",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "MQL",
+      "normalized": {
+        "keyword": "MQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "MQL",
+          "start_char": 1668,
+          "end_char": 1671
+        }
+      ],
+      "dedupe_key": "kpi_definition:bb5a5f1a89a78833",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "SQL",
+      "normalized": {
+        "keyword": "SQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "SQL",
+          "start_char": 1672,
+          "end_char": 1675
+        }
+      ],
+      "dedupe_key": "kpi_definition:5851e96d79a2bc41",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리드 스코어링 & 너처링: 고객 행동(이메일 반응, 웹사이트 행동 등) 기반으로 Hot/Cold 리드를 구분하고 단계별 관리를 원함",
+      "normalized": {
+        "text": "리드 스코어링 & 너처링: 고객 행동(이메일 반응, 웹사이트 행동 등) 기반으로 Hot/Cold 리드를 구분하고 단계별 관리를 원함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "리드 스코어링 & 너처링: 고객 행동(이메일 반응, 웹사이트 행동 등) 기반으로 Hot/Cold 리드를 구분하고 단계별 관리를 원함",
+          "start_char": 1719,
+          "end_char": 1792
+        }
+      ],
+      "dedupe_key": "collaboration_need:ec5b76fa36e7ef17",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Timing (시기)",
+      "normalized": {
+        "text": "Timing (시기)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "Timing (시기)",
+          "start_char": 1796,
+          "end_char": 1807
+        }
+      ],
+      "dedupe_key": "collaboration_need:f0c891707b271ed8",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+      "normalized": {
+        "text": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+          "start_char": 1813,
+          "end_char": 1859
+        }
+      ],
+      "dedupe_key": "collaboration_need:2f06b08cd11f0f1a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+      "normalized": {
+        "text": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "상반기 내: 올해 KPI 달성을 위해 상반기 중에는 프로세스 정립 및 도입을 희망함",
+          "start_char": 1813,
+          "end_char": 1859
+        }
+      ],
+      "dedupe_key": "collaboration_need:7949e212788abc87",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+      "normalized": {
+        "text": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+          "start_char": 1863,
+          "end_char": 1909
+        }
+      ],
+      "dedupe_key": "collaboration_need:e8faea6ccd48b5d9",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+      "normalized": {
+        "text": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "검토 기간: 세일즈포스 내부 기능 검토 후 진행 예정이라 최소 2-3개월 소요 예상",
+          "start_char": 1863,
+          "end_char": 1909
+        }
+      ],
+      "dedupe_key": "action_item:d554ffc32a1b333f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1900,
+          "end_char": 1903
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "https://team-business-canvas.slack.com/archives/C03C1J61A13/p1770367798739219",
+      "normalized": {
+        "text": "https://team-business-canvas.slack.com/archives/C03C1J61A13/p1770367798739219",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "https://team-business-canvas.slack.com/archives/C03C1J61A13/p1770367798739219",
+          "start_char": 1911,
+          "end_char": 1988
+        }
+      ],
+      "dedupe_key": "collaboration_need:c97d3b0ac4bcf255",
+      "confidence": 0.82
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

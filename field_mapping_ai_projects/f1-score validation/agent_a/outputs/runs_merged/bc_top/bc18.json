@@ -1,0 +1,476 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W18",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Nontier-그로스패키지 1,000만원] 부에노컴퍼니 250916 견적서 메일 발송 완료",
+      "normalized": {
+        "text": "[Nontier-그로스패키지 1,000만원] 부에노컴퍼니 250916 견적서 메일 발송 완료",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Nontier-그로스패키지 1,000만원] 부에노컴퍼니 250916 견적서 메일 발송 완료",
+          "start_char": 0,
+          "end_char": 51
+        }
+      ],
+      "dedupe_key": "action_item:c46586c219745ae3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 김한규입니다.어제 미팅에서 '템플리' 서비스의 성장 방향성과 온라인 퍼널 구축에 대해 심도 깊은 이야기를 나눌 수 있어 매우 유익한 시간이었습니다. 논의해 주신 내용을 바탕으로 부에노컴퍼니의 성공적인 콘텐츠 마케팅 역량 내재화를 돕기 위한 '리캐치 그로스 패키지' 견적서를 준비하여 첨부 파일로 전달해 드립니다.",
+      "normalized": {
+        "text": "리캐치 김한규입니다.어제 미팅에서 '템플리' 서비스의 성장 방향성과 온라인 퍼널 구축에 대해 심도 깊은 이야기를 나눌 수 있어 매우 유익한 시간이었습니다. 논의해 주신 내용을 바탕으로 부에노컴퍼니의 성공적인 콘텐츠 마케팅 역량 내재화를 돕기 위한 '리캐치 그로스 패키지' 견적서를 준비하여 첨부 파일로 전달해 드립니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 김한규입니다.어제 미팅에서 '템플리' 서비스의 성장 방향성과 온라인 퍼널 구축에 대해 심도 깊은 이야기를 나눌 수 있어 매우 유익한 시간이었습니다. 논의해 주신 내용을 바탕으로 부에노컴퍼니의 성공적인 콘텐츠 마케팅 역량 내재화를 돕기 위한 '리캐치 그로스 패키지' 견적서를 준비하여 첨부 파일로 전달해 드립니다.",
+          "start_char": 91,
+          "end_char": 269
+        }
+      ],
+      "dedupe_key": "collaboration_need:52d80de8e8ea1e8c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+      "normalized": {
+        "text": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "본 견적은 총 11,000,000원(VAT 포함)이며, 블로그 제작 패키지, 인블로그 CMS 구축, 그리고 제가 직접 참여하여 진행하는 웹사이트 전환 퍼널 구축 컨설팅 등의 서비스가 포함되어 있습니다.",
+          "start_char": 270,
+          "end_char": 382
+        }
+      ],
+      "dedupe_key": "action_item:03725515406bcbd9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+      "normalized": {
+        "text": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "미팅에서 논의된 바와 같이, 원활한 프로젝트 진행을 위해 몇 가지 주요 사항과 업무 분장 내용을 다시 한번 안내해 드립니다.[주요 안내 사항]",
+          "start_char": 383,
+          "end_char": 462
+        }
+      ],
+      "dedupe_key": "action_item:5f4b0a49f8614df5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CMS '인블로그'의 월 구독료($39, VAT 별도)는 견적에 포함되어 있지 않으며, 부에노컴퍼니에서 직접 결제가 필요합니다.",
+      "normalized": {
+        "text": "CMS '인블로그'의 월 구독료($39, VAT 별도)는 견적에 포함되어 있지 않으며, 부에노컴퍼니에서 직접 결제가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "CMS '인블로그'의 월 구독료($39, VAT 별도)는 견적에 포함되어 있지 않으며, 부에노컴퍼니에서 직접 결제가 필요합니다.",
+          "start_char": 498,
+          "end_char": 569
+        }
+      ],
+      "dedupe_key": "action_item:d4877112b0ec1e70",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@정효재",
+          "start_char": 55,
+          "end_char": 59
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:cf6290db46513a77",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 18,
+          "end_char": 23
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000원",
+          "start_char": 285,
+          "end_char": 289
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 301,
+          "end_char": 304
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 314,
+          "end_char": 317
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 504,
+          "end_char": 507
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 593,
+          "end_char": 596
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 689,
+          "end_char": 692
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1013,
+          "end_char": 1016
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 91,
+          "end_char": 94
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 230,
+          "end_char": 233
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 473,
+          "end_char": 476
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 589,
+          "end_char": 592
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 626,
+          "end_char": 629
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 698,
+          "end_char": 701
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1057,
+          "end_char": 1060
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CMS(인블로그) 구축: 리캐치에서 도메인 연결 및 초기 세팅을 전담하며, 부에노컴퍼니에서 별도로 진행하실 업무는 없습니다.",
+      "normalized": {
+        "text": "CMS(인블로그) 구축: 리캐치에서 도메인 연결 및 초기 세팅을 전담하며, 부에노컴퍼니에서 별도로 진행하실 업무는 없습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "CMS(인블로그) 구축: 리캐치에서 도메인 연결 및 초기 세팅을 전담하며, 부에노컴퍼니에서 별도로 진행하실 업무는 없습니다.",
+          "start_char": 684,
+          "end_char": 753
+        }
+      ],
+      "dedupe_key": "action_item:eb7e8a0a2cd13bad",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2. 부에노컴퍼니 (협조 요청 사항)",
+      "normalized": {
+        "text": "2. 부에노컴퍼니 (협조 요청 사항)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "2. 부에노컴퍼니 (협조 요청 사항)",
+          "start_char": 828,
+          "end_char": 848
+        }
+      ],
+      "dedupe_key": "action_item:837a69f813d83fa6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+      "normalized": {
+        "text": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "고객사례 인터뷰 어레인지 담당자 지정: 고객 성공 사례 콘텐츠 제작 시, 인터뷰 대상자 섭외와 일정 조율을 지원해주실 담당자가 필요합니다.",
+          "start_char": 921,
+          "end_char": 998
+        }
+      ],
+      "dedupe_key": "action_item:dd807e2bf8d76277",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+      "normalized": {
+        "text": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "브랜드 가이드라인 전달: 블로그 및 콘텐츠 제작에 필요한 로고, 파비콘, 서체/색상 가이드 등의 자료를 리캐치 PM에게 전달 부탁드립니다.",
+          "start_char": 999,
+          "end_char": 1076
+        }
+      ],
+      "dedupe_key": "action_item:aa134579b9ac5b75",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+      "normalized": {
+        "text": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "내용 검토 후 궁금한 점이 있으시면 언제든지 편하게 문의 부탁드리며,",
+          "start_char": 1077,
+          "end_char": 1115
+        }
+      ],
+      "dedupe_key": "action_item:6daa68f5d158589e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 중순",
+      "normalized": {
+        "month": 10,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "10월 중순",
+          "start_char": 1200,
+          "end_char": 1206
+        }
+      ],
+      "dedupe_key": "timeline:30c0238d023f3066",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[프로젝트 업무 분장 관련]"
+          ],
+          "exact_quote": "1명",
+          "start_char": 905,
+          "end_char": 907
+        }
+      ],
+      "dedupe_key": "team_size:8843e29d6b845163",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

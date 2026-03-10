@@ -1,0 +1,70 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W278",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 44,
+          "end_char": 47
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 70,
+          "end_char": 73
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 427,
+          "end_char": 430
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "사실 지난달에도 마케팅팀 황진웅 팀장님에서 자료를 검토해주셔서 저희 팀원이 연락 드렸었는데, 이미 세일즈포스를 사용 중이시라 내부에서 일원화하자는 의견이 있었다고 전달받았습니다.",
+      "normalized": {
+        "text": "사실 지난달에도 마케팅팀 황진웅 팀장님에서 자료를 검토해주셔서 저희 팀원이 연락 드렸었는데, 이미 세일즈포스를 사용 중이시라 내부에서 일원화하자는 의견이 있었다고 전달받았습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "사실 지난달에도 마케팅팀 황진웅 팀장님에서 자료를 검토해주셔서 저희 팀원이 연락 드렸었는데, 이미 세일즈포스를 사용 중이시라 내부에서 일원화하자는 의견이 있었다고 전달받았습니다.",
+          "start_char": 116,
+          "end_char": 215
+        }
+      ],
+      "dedupe_key": "action_item:0001b3a27727d666",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

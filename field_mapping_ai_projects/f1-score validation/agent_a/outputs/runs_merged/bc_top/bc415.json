@@ -1,0 +1,109 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W415",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdrN",
+      "normalized": {
+        "name": "sdrN"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdrN",
+          "start_char": 34,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:982dd250b48e972c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 19,
+          "end_char": 22
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 35,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "ex) 문의 들어오면(영업담당자에게 직접 or 전화로) -> 담당자 배치하고 -> 현장 가고 -> 처리하는 식의 단계 구분 필요",
+      "normalized": {
+        "text": "ex) 문의 들어오면(영업담당자에게 직접 or 전화로) -> 담당자 배치하고 -> 현장 가고 -> 처리하는 식의 단계 구분 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "CS 관리"
+          ],
+          "exact_quote": "ex) 문의 들어오면(영업담당자에게 직접 or 전화로) -> 담당자 배치하고 -> 현장 가고 -> 처리하는 식의 단계 구분 필요",
+          "start_char": 72,
+          "end_char": 143
+        }
+      ],
+      "dedupe_key": "action_item:dc79c53f633449c2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "현상황"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 181,
+          "end_char": 184
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W188",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 77,
+          "end_char": 80
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "24시간",
+      "normalized": {
+        "value": 24.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "24시간",
+          "start_char": 272,
+          "end_char": 276
+        }
+      ],
+      "dedupe_key": "duration:370393945fedda2f",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "빠르면 2월 첫째 주, 늦어도 2월 둘째 주까지 해당 제안서를 정리하여 부사장님과 전무님께 송부 드리고자 하는데, 일정상 검토가 가능하실지 여쭙고 싶습니다.",
+      "normalized": {
+        "text": "빠르면 2월 첫째 주, 늦어도 2월 둘째 주까지 해당 제안서를 정리하여 부사장님과 전무님께 송부 드리고자 하는데, 일정상 검토가 가능하실지 여쭙고 싶습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "빠르면 2월 첫째 주, 늦어도 2월 둘째 주까지 해당 제안서를 정리하여 부사장님과 전무님께 송부 드리고자 하는데, 일정상 검토가 가능하실지 여쭙고 싶습니다.",
+          "start_char": 571,
+          "end_char": 658
+        }
+      ],
+      "dedupe_key": "action_item:525186a41054af65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "긍정적인 검토 부탁드립니다.",
+      "normalized": {
+        "text": "긍정적인 검토 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "긍정적인 검토 부탁드립니다.",
+          "start_char": 721,
+          "end_char": 736
+        }
+      ],
+      "dedupe_key": "action_item:c40233600f9bf35a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "귀한 시간 내어주신다면 제안서와 함께 삼성SDS, 한화비전, KT알파 등 다양한 기업과 함께 진행했던 프로젝트 사례도 직접 방문하여 소개드릴 수 있도록 하겠습니다.",
+      "normalized": {
+        "text": "귀한 시간 내어주신다면 제안서와 함께 삼성SDS, 한화비전, KT알파 등 다양한 기업과 함께 진행했던 프로젝트 사례도 직접 방문하여 소개드릴 수 있도록 하겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "김한규 배상"
+          ],
+          "exact_quote": "귀한 시간 내어주신다면 제안서와 함께 삼성SDS, 한화비전, KT알파 등 다양한 기업과 함께 진행했던 프로젝트 사례도 직접 방문하여 소개드릴 수 있도록 하겠습니다.",
+          "start_char": 810,
+          "end_char": 901
+        }
+      ],
+      "dedupe_key": "action_item:ce2e46272091ebe8",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

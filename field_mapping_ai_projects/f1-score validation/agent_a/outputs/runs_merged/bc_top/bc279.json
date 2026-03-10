@@ -1,0 +1,777 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W279",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1000만원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1000만원",
+          "start_char": 20,
+          "end_char": 26
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "ReCatch",
+          "start_char": 133,
+          "end_char": 140
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "ReCatch",
+          "start_char": 176,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 129,
+          "end_char": 132
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 172,
+          "end_char": 175
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 569,
+          "end_char": 572
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 681,
+          "end_char": 684
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1308,
+          "end_char": 1311
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1430,
+          "end_char": 1433
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1468,
+          "end_char": 1471
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1535,
+          "end_char": 1538
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1559,
+          "end_char": 1562
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1588,
+          "end_char": 1591
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1670,
+          "end_char": 1673
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1707,
+          "end_char": 1710
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1790,
+          "end_char": 1793
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1908,
+          "end_char": 1911
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1993,
+          "end_char": 1996
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2068,
+          "end_char": 2071
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2317,
+          "end_char": 2320
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2419,
+          "end_char": 2422
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2442,
+          "end_char": 2445
+        },
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2472,
+          "end_char": 2475
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2632,
+          "end_char": 2635
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2778,
+          "end_char": 2781
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2천만 원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "2천만 원",
+          "start_char": 665,
+          "end_char": 670
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "3개",
+          "start_char": 815,
+          "end_char": 817
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리드 관리 문제: 사업 분야가 많아 담당 리더가 10여 명이 넘지만, 문의가 들어왔을 때 가장 적합한 담당자를 신속하게 배정하는 데 어려움을 겪고 있음. 현재는 2~3명이 모든 문의를 받아 1차 대응 후 분배하고 있음.",
+      "normalized": {
+        "text": "리드 관리 문제: 사업 분야가 많아 담당 리더가 10여 명이 넘지만, 문의가 들어왔을 때 가장 적합한 담당자를 신속하게 배정하는 데 어려움을 겪고 있음. 현재는 2~3명이 모든 문의를 받아 1차 대응 후 분배하고 있음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리드 관리 문제: 사업 분야가 많아 담당 리더가 10여 명이 넘지만, 문의가 들어왔을 때 가장 적합한 담당자를 신속하게 배정하는 데 어려움을 겪고 있음. 현재는 2~3명이 모든 문의를 받아 1차 대응 후 분배하고 있음.",
+          "start_char": 1039,
+          "end_char": 1161
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fb7571b6f2b997d7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number_range",
+      "raw_text": "2~3명",
+      "normalized": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "2~3명",
+          "start_char": 1129,
+          "end_char": 1133
+        }
+      ],
+      "dedupe_key": "team_size:7402c9040c5d2a62",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "10여 명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "10여 명",
+          "start_char": 1066,
+          "end_char": 1071
+        }
+      ],
+      "dedupe_key": "team_size:9c7c617250c17ea2",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "400~500건",
+      "normalized": {
+        "min": 400.0,
+        "max": 500.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "400~500건",
+          "start_char": 1193,
+          "end_char": 1201
+        }
+      ],
+      "dedupe_key": "case_metric:598b3ebb12182bea",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10건",
+      "normalized": {
+        "value": 10,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "10건",
+          "start_char": 1229,
+          "end_char": 1232
+        }
+      ],
+      "dedupe_key": "case_metric:958aee4213f2d148",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자체 마케팅 활동(블로그, 링크드인 등)을 거의 하지 않아 리캐치 활용을 위해 트래픽을 끌어올릴 전략이 필요하다는 고민.",
+      "normalized": {
+        "text": "자체 마케팅 활동(블로그, 링크드인 등)을 거의 하지 않아 리캐치 활용을 위해 트래픽을 끌어올릴 전략이 필요하다는 고민.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "자체 마케팅 활동(블로그, 링크드인 등)을 거의 하지 않아 리캐치 활용을 위해 트래픽을 끌어올릴 전략이 필요하다는 고민.",
+          "start_char": 1397,
+          "end_char": 1464
+        }
+      ],
+      "dedupe_key": "action_item:d9fe9da72ac0da3b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1407,
+          "end_char": 1410
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 도입 목표: 체계적인 리드 관리를 통한 대시보드 구축 및 담당자 자동 배정을 통한 외부 대응 속도 향상.",
+      "normalized": {
+        "text": "리캐치 도입 목표: 체계적인 리드 관리를 통한 대시보드 구축 및 담당자 자동 배정을 통한 외부 대응 속도 향상.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "리캐치 도입 목표: 체계적인 리드 관리를 통한 대시보드 구축 및 담당자 자동 배정을 통한 외부 대응 속도 향상.",
+          "start_char": 1468,
+          "end_char": 1530
+        }
+      ],
+      "dedupe_key": "collaboration_need:41ca69217dc6a524",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 리캐치 도입에 대한 전략적 제언 (컨설팅)",
+      "normalized": {
+        "text": "4. 리캐치 도입에 대한 전략적 제언 (컨설팅)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "4. 리캐치 도입에 대한 전략적 제언 (컨설팅)",
+          "start_char": 1532,
+          "end_char": 1558
+        }
+      ],
+      "dedupe_key": "collaboration_need:e10a2c25d79893b4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "웹사이트 개편의 시급성: 웹사이트 트래픽이 부족하고 체류할 만한 콘텐츠가 없으면 리캐치가 증폭제 역할을 할 수 없다. 실제로 과거 유사 고객사에서 리캐치 도입 후 3개월 만에 이탈한 사례가 있었음. 따라서 웹사이트 개편을 먼저 할 것을 추천.",
+      "normalized": {
+        "text": "웹사이트 개편의 시급성: 웹사이트 트래픽이 부족하고 체류할 만한 콘텐츠가 없으면 리캐치가 증폭제 역할을 할 수 없다. 실제로 과거 유사 고객사에서 리캐치 도입 후 3개월 만에 이탈한 사례가 있었음. 따라서 웹사이트 개편을 먼저 할 것을 추천.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "웹사이트 개편의 시급성: 웹사이트 트래픽이 부족하고 체류할 만한 콘텐츠가 없으면 리캐치가 증폭제 역할을 할 수 없다. 실제로 과거 유사 고객사에서 리캐치 도입 후 3개월 만에 이탈한 사례가 있었음. 따라서 웹사이트 개편을 먼저 할 것을 추천.",
+          "start_char": 1625,
+          "end_char": 1760
+        }
+      ],
+      "dedupe_key": "collaboration_need:0ed8f7c43561b14f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1716,
+          "end_char": 1719
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1880,
+          "end_char": 1883
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 2349,
+          "end_char": 2352
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "다만, CRM은 실무자의 기록 및 문화 안착에 3~4개월이 걸리는 툴이므로, 도입 후 초기에는 SDR 포지션을 두어 1차 전화(디스커버리 콜)로 리드를 퀄리파잉(검증)한 후 실무 리더에게 연결하는 영업 플레이북을 함께 구축하는 것이 효과적일 수 있다는 제언이 있었음.",
+      "normalized": {
+        "text": "다만, CRM은 실무자의 기록 및 문화 안착에 3~4개월이 걸리는 툴이므로, 도입 후 초기에는 SDR 포지션을 두어 1차 전화(디스커버리 콜)로 리드를 퀄리파잉(검증)한 후 실무 리더에게 연결하는 영업 플레이북을 함께 구축하는 것이 효과적일 수 있다는 제언이 있었음.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "다만, CRM은 실무자의 기록 및 문화 안착에 3~4개월이 걸리는 툴이므로, 도입 후 초기에는 SDR 포지션을 두어 1차 전화(디스커버리 콜)로 리드를 퀄리파잉(검증)한 후 실무 리더에게 연결하는 영업 플레이북을 함께 구축하는 것이 효과적일 수 있다는 제언이 있었음.",
+          "start_char": 2154,
+          "end_char": 2303
+        }
+      ],
+      "dedupe_key": "collaboration_need:fd3ef1204cfa4593",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 2182,
+          "end_char": 2185
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 2207,
+          "end_char": 2210
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실제 구현 기간: 리캐치 세팅 자체는 1~2개월 내에도 가능하지만, 넉넉히 3개월을 잡고 내부 프로세스를 CRM에 맞게 설계하는 과정이 필요.",
+      "normalized": {
+        "text": "실제 구현 기간: 리캐치 세팅 자체는 1~2개월 내에도 가능하지만, 넉넉히 3개월을 잡고 내부 프로세스를 CRM에 맞게 설계하는 과정이 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "실제 구현 기간: 리캐치 세팅 자체는 1~2개월 내에도 가능하지만, 넉넉히 3개월을 잡고 내부 프로세스를 CRM에 맞게 설계하는 과정이 필요.",
+          "start_char": 2307,
+          "end_char": 2386
+        }
+      ],
+      "dedupe_key": "action_item:eb4e33e5f66046db",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "2개월",
+          "start_char": 2330,
+          "end_char": 2333
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CS/채팅 관리: 리캐치는 CS 관리 툴이 아니며, CS를 리캐치에서 관리하는 것은 올바른 방법이 아니다. 현재 리캐치 내에서 이메일 히스토리 관리나 개인적인 이메일 발송 기능은 구현되어 있지 않으며, 이는 내년 1분기에 목표로 하고 있음.",
+      "normalized": {
+        "text": "CS/채팅 관리: 리캐치는 CS 관리 툴이 아니며, CS를 리캐치에서 관리하는 것은 올바른 방법이 아니다. 현재 리캐치 내에서 이메일 히스토리 관리나 개인적인 이메일 발송 기능은 구현되어 있지 않으며, 이는 내년 1분기에 목표로 하고 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "CS/채팅 관리: 리캐치는 CS 관리 툴이 아니며, CS를 리캐치에서 관리하는 것은 올바른 방법이 아니다. 현재 리캐치 내에서 이메일 히스토리 관리나 개인적인 이메일 발송 기능은 구현되어 있지 않으며, 이는 내년 1분기에 목표로 하고 있음.",
+          "start_char": 2409,
+          "end_char": 2543
+        }
+      ],
+      "dedupe_key": "action_item:14a377174930c052",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "복잡한 딜 관리: 이너스 커뮤니티처럼 긴 리드 타임(장기 계약)이 필요하거나 여러 관계자(PM, 디자이너, 영업 담당자 등)가 붙는 복잡한 딜의 경우, 리캐치는 필드 값을 통해 여러 담당자를 지정하고 그루핑하여 관리 및 분석이 가능.",
+      "normalized": {
+        "text": "복잡한 딜 관리: 이너스 커뮤니티처럼 긴 리드 타임(장기 계약)이 필요하거나 여러 관계자(PM, 디자이너, 영업 담당자 등)가 붙는 복잡한 딜의 경우, 리캐치는 필드 값을 통해 여러 담당자를 지정하고 그루핑하여 관리 및 분석이 가능.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            "리캐치 솔루션은 CRM(고객 관계 관리) 범주 안에 있으며, 다음 기능을 제공합니다"
+          ],
+          "exact_quote": "복잡한 딜 관리: 이너스 커뮤니티처럼 긴 리드 타임(장기 계약)이 필요하거나 여러 관계자(PM, 디자이너, 영업 담당자 등)가 붙는 복잡한 딜의 경우, 리캐치는 필드 값을 통해 여러 담당자를 지정하고 그루핑하여 관리 및 분석이 가능.",
+          "start_char": 2547,
+          "end_char": 2677
+        }
+      ],
+      "dedupe_key": "action_item:aa074fd0de185e72",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

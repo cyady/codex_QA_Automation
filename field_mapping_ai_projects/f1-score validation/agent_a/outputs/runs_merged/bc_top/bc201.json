@@ -1,0 +1,258 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W201",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 15,
+          "end_char": 18
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "C레벨 내부 설득이 필요하신 상황이라 위존 레퍼런스 들며 '외부 강연' 제안 드렸으나, 아직 그럴 단계는 아닌 것 같다고 거절하심.",
+      "normalized": {
+        "text": "C레벨 내부 설득이 필요하신 상황이라 위존 레퍼런스 들며 '외부 강연' 제안 드렸으나, 아직 그럴 단계는 아닌 것 같다고 거절하심.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "C레벨 내부 설득이 필요하신 상황이라 위존 레퍼런스 들며 '외부 강연' 제안 드렸으나, 아직 그럴 단계는 아닌 것 같다고 거절하심.",
+          "start_char": 93,
+          "end_char": 166
+        }
+      ],
+      "dedupe_key": "action_item:66ba1ed79ce0952e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "현상황)"
+          ],
+          "exact_quote": "3개",
+          "start_char": 192,
+          "end_char": 194
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다만, 신규 고객사 확보도 필요하긴 해서 콜드콜과 현장영업을 시도했지만 효과가 낮아서, 이제는 MDP 구축에 대한 내부 설득도 어느 정도 된 상태(다만, C레벨까진 설득 안 됐고 팀장님 및 팀원들만)",
+      "normalized": {
+        "text": "다만, 신규 고객사 확보도 필요하긴 해서 콜드콜과 현장영업을 시도했지만 효과가 낮아서, 이제는 MDP 구축에 대한 내부 설득도 어느 정도 된 상태(다만, C레벨까진 설득 안 됐고 팀장님 및 팀원들만)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "기존 고객사 대상 영업이 대부분"
+          ],
+          "exact_quote": "다만, 신규 고객사 확보도 필요하긴 해서 콜드콜과 현장영업을 시도했지만 효과가 낮아서, 이제는 MDP 구축에 대한 내부 설득도 어느 정도 된 상태(다만, C레벨까진 설득 안 됐고 팀장님 및 팀원들만)",
+          "start_char": 341,
+          "end_char": 452
+        }
+      ],
+      "dedupe_key": "action_item:3849461632d4852e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "-> 회원가입 DB 연동 등은 필요 없음",
+      "normalized": {
+        "text": "-> 회원가입 DB 연동 등은 필요 없음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "기존 고객사 대상 영업이 대부분"
+          ],
+          "exact_quote": "-> 회원가입 DB 연동 등은 필요 없음",
+          "start_char": 504,
+          "end_char": 526
+        }
+      ],
+      "dedupe_key": "action_item:3a9ea562e7a2f8ee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 도입의 필요성을 경영진에게 설득해야 하는 상황이라, 자사 비즈니스에 맞는 맞춤형 솔루션을 제안해주길 원함",
+      "normalized": {
+        "text": "CRM 도입의 필요성을 경영진에게 설득해야 하는 상황이라, 자사 비즈니스에 맞는 맞춤형 솔루션을 제안해주길 원함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "CRM 도입의 필요성을 경영진에게 설득해야 하는 상황이라, 자사 비즈니스에 맞는 맞춤형 솔루션을 제안해주길 원함",
+          "start_char": 616,
+          "end_char": 678
+        }
+      ],
+      "dedupe_key": "action_item:706a0eb632342457",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치 팀에 대한 온도도 높고, CRM 도입 위해 내부 설득을 할만큼 적극적",
+      "normalized": {
+        "text": "리캐치 팀에 대한 온도도 높고, CRM 도입 위해 내부 설득을 할만큼 적극적",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "이한빈 매니저님"
+          ],
+          "exact_quote": "리캐치 팀에 대한 온도도 높고, CRM 도입 위해 내부 설득을 할만큼 적극적",
+          "start_char": 702,
+          "end_char": 744
+        }
+      ],
+      "dedupe_key": "collaboration_need:67b834c2dcdf382b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "이한빈 매니저님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 702,
+          "end_char": 705
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Next Action)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 873,
+          "end_char": 876
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "17일",
+      "normalized": {
+        "value": 17.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Next Action)"
+          ],
+          "exact_quote": "17일",
+          "start_char": 793,
+          "end_char": 796
+        }
+      ],
+      "dedupe_key": "duration:6d9b5f7e32becd20",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM으로 구현하고 싶은 내용 이메일로 전달해주실 예정",
+      "normalized": {
+        "text": "CRM으로 구현하고 싶은 내용 이메일로 전달해주실 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Next Action)"
+          ],
+          "exact_quote": "CRM으로 구현하고 싶은 내용 이메일로 전달해주실 예정",
+          "start_char": 834,
+          "end_char": 864
+        }
+      ],
+      "dedupe_key": "collaboration_need:c2c848cfb8384a31",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

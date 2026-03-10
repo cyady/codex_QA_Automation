@@ -1,0 +1,561 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W100",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(CTO 님은 제가 명함을 미처 받지 못하여, 본 이메일 회신에 참조해주시면 감사드리겠습니다!)",
+      "normalized": {
+        "text": "(CTO 님은 제가 명함을 미처 받지 못하여, 본 이메일 회신에 참조해주시면 감사드리겠습니다!)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "(CTO 님은 제가 명함을 미처 받지 못하여, 본 이메일 회신에 참조해주시면 감사드리겠습니다!)",
+          "start_char": 143,
+          "end_char": 196
+        }
+      ],
+      "dedupe_key": "action_item:a62be2dc49495416",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "논의된 내용을 이파피루스의 리캐치 CRM 도입과 사업 협력이라는 두 축을 중심으로 정리하여 말씀드립니다.1. 리캐치 CRM 도입 논의 (세일즈포스에서 마케팅 CRM 부터 전환)",
+      "normalized": {
+        "text": "논의된 내용을 이파피루스의 리캐치 CRM 도입과 사업 협력이라는 두 축을 중심으로 정리하여 말씀드립니다.1. 리캐치 CRM 도입 논의 (세일즈포스에서 마케팅 CRM 부터 전환)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "논의된 내용을 이파피루스의 리캐치 CRM 도입과 사업 협력이라는 두 축을 중심으로 정리하여 말씀드립니다.1. 리캐치 CRM 도입 논의 (세일즈포스에서 마케팅 CRM 부터 전환)",
+          "start_char": 329,
+          "end_char": 427
+        }
+      ],
+      "dedupe_key": "collaboration_need:8f464bda904155d5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희 리캐치는 국내 기업들이 '쉽고 합리적인 비용으로, 관리를 위한 관리가 아닌 실제 성장에 기여하는 CRM'을 필요로 한다는 인식 하에 서비스를 제공하고 있습니다. 현재 사용하고 계신 Salesforce는 기능이 너무 많아 러닝 커브가 높고, 커스터마이징에 많은 개발비가 소요되며, 특히 영업 사원들이 수동으로 데이터를 기입하는 것을 꺼려 관리의 어려움이 크다는 점에 깊이 공감했습니다.",
+      "normalized": {
+        "text": "저희 리캐치는 국내 기업들이 '쉽고 합리적인 비용으로, 관리를 위한 관리가 아닌 실제 성장에 기여하는 CRM'을 필요로 한다는 인식 하에 서비스를 제공하고 있습니다. 현재 사용하고 계신 Salesforce는 기능이 너무 많아 러닝 커브가 높고, 커스터마이징에 많은 개발비가 소요되며, 특히 영업 사원들이 수동으로 데이터를 기입하는 것을 꺼려 관리의 어려움이 크다는 점에 깊이 공감했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "저희 리캐치는 국내 기업들이 '쉽고 합리적인 비용으로, 관리를 위한 관리가 아닌 실제 성장에 기여하는 CRM'을 필요로 한다는 인식 하에 서비스를 제공하고 있습니다. 현재 사용하고 계신 Salesforce는 기능이 너무 많아 러닝 커브가 높고, 커스터마이징에 많은 개발비가 소요되며, 특히 영업 사원들이 수동으로 데이터를 기입하는 것을 꺼려 관리의 어려움이 크다는 점에 깊이 공감했습니다.",
+          "start_char": 456,
+          "end_char": 673
+        }
+      ],
+      "dedupe_key": "action_item:b3a379d41bcc2b11",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(3) 도입 방안 및 차기 논의 범위",
+      "normalized": {
+        "text": "(3) 도입 방안 및 차기 논의 범위",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "(3) 도입 방안 및 차기 논의 범위",
+          "start_char": 1119,
+          "end_char": 1139
+        }
+      ],
+      "dedupe_key": "collaboration_need:4fe2df8b59390134",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "이미 세일즈포스를 수년 간 정착하여 활용 중이시므로, CRM 도입은 한 번에 시스템 전체를 바꾸는 '빅뱅' 방식보다는 점진적인 접근이 실패율을 낮출 수 있습니다.",
+      "normalized": {
+        "text": "이미 세일즈포스를 수년 간 정착하여 활용 중이시므로, CRM 도입은 한 번에 시스템 전체를 바꾸는 '빅뱅' 방식보다는 점진적인 접근이 실패율을 낮출 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "이미 세일즈포스를 수년 간 정착하여 활용 중이시므로, CRM 도입은 한 번에 시스템 전체를 바꾸는 '빅뱅' 방식보다는 점진적인 접근이 실패율을 낮출 수 있습니다.",
+          "start_char": 1140,
+          "end_char": 1230
+        }
+      ],
+      "dedupe_key": "collaboration_need:4522c5018dc01ca3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1단계 (Phase 1): 먼저 마케팅 CRM부터 도입하여 홈페이지에 리캐치 폼을 연동함으로써 리드를 가볍게 쌓는 방안이 합리적일 것입니다.",
+      "normalized": {
+        "text": "1단계 (Phase 1): 먼저 마케팅 CRM부터 도입하여 홈페이지에 리캐치 폼을 연동함으로써 리드를 가볍게 쌓는 방안이 합리적일 것입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1단계 (Phase 1): 먼저 마케팅 CRM부터 도입하여 홈페이지에 리캐치 폼을 연동함으로써 리드를 가볍게 쌓는 방안이 합리적일 것입니다.",
+          "start_char": 1353,
+          "end_char": 1431
+        }
+      ],
+      "dedupe_key": "collaboration_need:70b22fcbf8200aa3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "10/15 수요일 미팅 목표: Salesforce 를 대체하는 세일즈 CRM의 전환은 마케팅 CRM 부터 정착을 목표로 하며, 다음 미팅에서는 현재 이파피루스의 CRM 사용 현황(워크플로우)을 공유해 주시면 저희가 합리적인 도입 타임라인 및 전략/계획을 제시해 드릴 수 있습니다.",
+      "normalized": {
+        "text": "10/15 수요일 미팅 목표: Salesforce 를 대체하는 세일즈 CRM의 전환은 마케팅 CRM 부터 정착을 목표로 하며, 다음 미팅에서는 현재 이파피루스의 CRM 사용 현황(워크플로우)을 공유해 주시면 저희가 합리적인 도입 타임라인 및 전략/계획을 제시해 드릴 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10/15 수요일 미팅 목표: Salesforce 를 대체하는 세일즈 CRM의 전환은 마케팅 CRM 부터 정착을 목표로 하며, 다음 미팅에서는 현재 이파피루스의 CRM 사용 현황(워크플로우)을 공유해 주시면 저희가 합리적인 도입 타임라인 및 전략/계획을 제시해 드릴 수 있습니다.",
+          "start_char": 1594,
+          "end_char": 1750
+        }
+      ],
+      "dedupe_key": "collaboration_need:885da4ae60ca3121",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10/15",
+      "normalized": {
+        "month": 10,
+        "day": 15,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10/15",
+          "start_char": 1594,
+          "end_char": 1599
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "10/15",
+          "start_char": 2440,
+          "end_char": 2445
+        }
+      ],
+      "dedupe_key": "timeline:d2411c3e7bd8c6a0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "42.58",
+      "normalized": {
+        "year": 2042,
+        "month": 58,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "42.58",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:13c77f055c62b6d6",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개",
+          "start_char": 845,
+          "end_char": 847
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3개",
+          "start_char": 868,
+          "end_char": 870
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "100명",
+      "normalized": {
+        "value": 100,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "100명",
+          "start_char": 1460,
+          "end_char": 1464
+        }
+      ],
+      "dedupe_key": "team_size:869998daef8cbea5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 1019,
+          "end_char": 1022
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 264,
+          "end_char": 267
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 344,
+          "end_char": 347
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 390,
+          "end_char": 393
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 459,
+          "end_char": 462
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 678,
+          "end_char": 681
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 697,
+          "end_char": 700
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 813,
+          "end_char": 816
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 933,
+          "end_char": 936
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1053,
+          "end_char": 1056
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1392,
+          "end_char": 1395
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1432,
+          "end_char": 1435
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1951,
+          "end_char": 1954
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2123,
+          "end_char": 2126
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2139,
+          "end_char": 2142
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2342,
+          "end_char": 2345
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2522,
+          "end_char": 2525
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2721,
+          "end_char": 2724
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2917,
+          "end_char": 2920
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 3023,
+          "end_char": 3026
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 3077,
+          "end_char": 3080
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "액션아이템 1번인 서비스 소개서 공유 드립니다. 최근에 정식 IR 라운드를 진행한 적이 없어, up-to-date 한 IR 자료가 없는데 조만간 공유 드리도록 하겠습니다!",
+      "normalized": {
+        "text": "액션아이템 1번인 서비스 소개서 공유 드립니다. 최근에 정식 IR 라운드를 진행한 적이 없어, up-to-date 한 IR 자료가 없는데 조만간 공유 드리도록 하겠습니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "액션아이템 1번인 서비스 소개서 공유 드립니다. 최근에 정식 IR 라운드를 진행한 적이 없어, up-to-date 한 IR 자료가 없는데 조만간 공유 드리도록 하겠습니다!",
+          "start_char": 3086,
+          "end_char": 3181
+        }
+      ],
+      "dedupe_key": "action_item:1f35aa02040f55f2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "시너지를 내기까지 많은 노력이 필요로 하겠지만, 과정에서부터 최선을 다하는 모습을 꼭 보여드리겠습니다.",
+      "normalized": {
+        "text": "시너지를 내기까지 많은 노력이 필요로 하겠지만, 과정에서부터 최선을 다하는 모습을 꼭 보여드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "시너지를 내기까지 많은 노력이 필요로 하겠지만, 과정에서부터 최선을 다하는 모습을 꼭 보여드리겠습니다.",
+          "start_char": 3385,
+          "end_char": 3442
+        }
+      ],
+      "dedupe_key": "action_item:6d75ef056535ea83",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 1시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 1,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "오후 1시",
+          "start_char": 2870,
+          "end_char": 2875
+        }
+      ],
+      "dedupe_key": "timeline:01785350c93fba4e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 15일",
+      "normalized": {
+        "month": 10,
+        "day": 15
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "10월 15일",
+          "start_char": 2858,
+          "end_char": 2865
+        }
+      ],
+      "dedupe_key": "timeline:7e4af6c15a5027c8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "15일",
+      "normalized": {
+        "value": 15.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "15일",
+          "start_char": 2862,
+          "end_char": 2865
+        }
+      ],
+      "dedupe_key": "duration:84a672f3498c2190",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

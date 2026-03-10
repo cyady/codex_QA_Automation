@@ -1,0 +1,270 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W537",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 49,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 34,
+          "end_char": 37
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 50,
+          "end_char": 53
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "800만원",
+      "normalized": {
+        "value": 8000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "800만원",
+          "start_char": 234,
+          "end_char": 239
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "800만원",
+          "start_char": 856,
+          "end_char": 861
+        }
+      ],
+      "dedupe_key": "budget:a87d77f7bb4f0d13",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 뉴스레터, 이오플래닛 기고 등 디지털 마케팅을 진행 중이나 리드 확보 성과가 미미하여 잠시 중단한 상태",
+      "normalized": {
+        "text": "현재 뉴스레터, 이오플래닛 기고 등 디지털 마케팅을 진행 중이나 리드 확보 성과가 미미하여 잠시 중단한 상태",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 뉴스레터, 이오플래닛 기고 등 디지털 마케팅을 진행 중이나 리드 확보 성과가 미미하여 잠시 중단한 상태",
+          "start_char": 352,
+          "end_char": 412
+        }
+      ],
+      "dedupe_key": "action_item:22a584fe9d3f665e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 355,
+          "end_char": 359
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 429,
+          "end_char": 432
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 665,
+          "end_char": 668
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "내부에 콘텐츠 전문 인력이 부족하여 기획부터 작성, 릴리즈까지 전문가의 협업과 가이드가 필요한 상황임",
+      "normalized": {
+        "text": "내부에 콘텐츠 전문 인력이 부족하여 기획부터 작성, 릴리즈까지 전문가의 협업과 가이드가 필요한 상황임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "내부에 콘텐츠 전문 인력이 부족하여 기획부터 작성, 릴리즈까지 전문가의 협업과 가이드가 필요한 상황임",
+          "start_char": 481,
+          "end_char": 537
+        }
+      ],
+      "dedupe_key": "action_item:21e4f22ce940150a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입은 현재로서는 부수적인 고려 사항이며, 우선순위는 잠재 고객(리드) 자체를 늘리는 것에 집중되어 있음",
+      "normalized": {
+        "text": "CRM 도입은 현재로서는 부수적인 고려 사항이며, 우선순위는 잠재 고객(리드) 자체를 늘리는 것에 집중되어 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM 도입은 현재로서는 부수적인 고려 사항이며, 우선순위는 잠재 고객(리드) 자체를 늘리는 것에 집중되어 있음",
+          "start_char": 541,
+          "end_char": 603
+        }
+      ],
+      "dedupe_key": "collaboration_need:96e6229ee268772f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2개월",
+      "normalized": {
+        "value": 2.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "2개월",
+          "start_char": 625,
+          "end_char": 628
+        }
+      ],
+      "dedupe_key": "duration:34582f0dad8077d9",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그 외 추가적인 미팅 참여자 정보는 미팅 일정 수립되면 확인해보겠습니다",
+      "normalized": {
+        "text": "그 외 추가적인 미팅 참여자 정보는 미팅 일정 수립되면 확인해보겠습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "팀장"
+          ],
+          "exact_quote": "그 외 추가적인 미팅 참여자 정보는 미팅 일정 수립되면 확인해보겠습니다",
+          "start_char": 807,
+          "end_char": 846
+        }
+      ],
+      "dedupe_key": "action_item:0aaca03ee48c1bd8",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

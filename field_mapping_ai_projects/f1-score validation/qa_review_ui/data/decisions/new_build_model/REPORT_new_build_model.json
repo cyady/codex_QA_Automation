@@ -1,0 +1,3082 @@
+{
+  "generated_at": "2026-02-27T03:00:52.037740+00:00",
+  "hitl_threshold": 6,
+  "per_memo": {
+    "M-W1": {
+      "model_counts": {
+        "TP": 6,
+        "FP": 0,
+        "SKIP": 3
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 24,
+        "SKIP": 8
+      },
+      "model_total": 9,
+      "fn_total": 32
+    },
+    "M-W2": {
+      "model_counts": {
+        "TP": 7,
+        "FP": 1,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 7,
+        "SKIP": 2
+      },
+      "model_total": 9,
+      "fn_total": 9
+    },
+    "M-W3": {
+      "model_counts": {
+        "TP": 4,
+        "FP": 1,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 16,
+        "SKIP": 1
+      },
+      "model_total": 7,
+      "fn_total": 17
+    },
+    "M-W4": {
+      "model_counts": {
+        "TP": 4,
+        "FP": 0,
+        "SKIP": 3
+      },
+      "fn_counts": {
+        "FN": 1,
+        "NOT_FN": 0,
+        "SKIP": 1
+      },
+      "model_total": 7,
+      "fn_total": 2
+    },
+    "M-W5": {
+      "model_counts": {
+        "TP": 8,
+        "FP": 0,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 2,
+        "SKIP": 0
+      },
+      "model_total": 9,
+      "fn_total": 2
+    },
+    "M-W6": {
+      "model_counts": {
+        "TP": 5,
+        "FP": 1,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 1,
+        "NOT_FN": 7,
+        "SKIP": 0
+      },
+      "model_total": 7,
+      "fn_total": 8
+    },
+    "M-W7": {
+      "model_counts": {
+        "TP": 8,
+        "FP": 1,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 6,
+        "SKIP": 0
+      },
+      "model_total": 11,
+      "fn_total": 6
+    },
+    "M-W8": {
+      "model_counts": {
+        "TP": 9,
+        "FP": 1,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 8,
+        "SKIP": 1
+      },
+      "model_total": 11,
+      "fn_total": 9
+    },
+    "M-W9": {
+      "model_counts": {
+        "TP": 8,
+        "FP": 1,
+        "SKIP": 5
+      },
+      "fn_counts": {
+        "FN": 1,
+        "NOT_FN": 8,
+        "SKIP": 0
+      },
+      "model_total": 14,
+      "fn_total": 9
+    },
+    "M-W10": {
+      "model_counts": {
+        "TP": 7,
+        "FP": 1,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 10,
+        "SKIP": 1
+      },
+      "model_total": 9,
+      "fn_total": 11
+    },
+    "M-W11": {
+      "model_counts": {
+        "TP": 8,
+        "FP": 0,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 7,
+        "SKIP": 1
+      },
+      "model_total": 10,
+      "fn_total": 8
+    },
+    "M-W12": {
+      "model_counts": {
+        "TP": 11,
+        "FP": 0,
+        "SKIP": 1
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 13,
+        "SKIP": 2
+      },
+      "model_total": 12,
+      "fn_total": 15
+    },
+    "M-W13": {
+      "model_counts": {
+        "TP": 9,
+        "FP": 0,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 14,
+        "SKIP": 3
+      },
+      "model_total": 11,
+      "fn_total": 17
+    },
+    "M-W14": {
+      "model_counts": {
+        "TP": 5,
+        "FP": 1,
+        "SKIP": 4
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 20,
+        "SKIP": 1
+      },
+      "model_total": 10,
+      "fn_total": 21
+    },
+    "M-W15": {
+      "model_counts": {
+        "TP": 11,
+        "FP": 0,
+        "SKIP": 3
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 7,
+        "SKIP": 1
+      },
+      "model_total": 14,
+      "fn_total": 8
+    },
+    "M-W16": {
+      "model_counts": {
+        "TP": 2,
+        "FP": 0,
+        "SKIP": 0
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 12,
+        "SKIP": 0
+      },
+      "model_total": 2,
+      "fn_total": 12
+    },
+    "M-W17": {
+      "model_counts": {
+        "TP": 9,
+        "FP": 1,
+        "SKIP": 3
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 21,
+        "SKIP": 1
+      },
+      "model_total": 13,
+      "fn_total": 22
+    },
+    "M-W18": {
+      "model_counts": {
+        "TP": 10,
+        "FP": 0,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 8,
+        "SKIP": 0
+      },
+      "model_total": 12,
+      "fn_total": 8
+    },
+    "M-W19": {
+      "model_counts": {
+        "TP": 6,
+        "FP": 1,
+        "SKIP": 0
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 6,
+        "SKIP": 0
+      },
+      "model_total": 7,
+      "fn_total": 6
+    },
+    "M-W20": {
+      "model_counts": {
+        "TP": 6,
+        "FP": 2,
+        "SKIP": 6
+      },
+      "fn_counts": {
+        "FN": 2,
+        "NOT_FN": 9,
+        "SKIP": 0
+      },
+      "model_total": 14,
+      "fn_total": 11
+    },
+    "M-W21": {
+      "model_counts": {
+        "TP": 12,
+        "FP": 0,
+        "SKIP": 0
+      },
+      "fn_counts": {
+        "FN": 1,
+        "NOT_FN": 9,
+        "SKIP": 0
+      },
+      "model_total": 12,
+      "fn_total": 10
+    },
+    "M-W22": {
+      "model_counts": {
+        "TP": 6,
+        "FP": 0,
+        "SKIP": 2
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 3,
+        "SKIP": 0
+      },
+      "model_total": 8,
+      "fn_total": 3
+    },
+    "M-W23": {
+      "model_counts": {
+        "TP": 10,
+        "FP": 0,
+        "SKIP": 4
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 10,
+        "SKIP": 0
+      },
+      "model_total": 14,
+      "fn_total": 10
+    },
+    "M-W24": {
+      "model_counts": {
+        "TP": 4,
+        "FP": 0,
+        "SKIP": 3
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 2,
+        "SKIP": 0
+      },
+      "model_total": 7,
+      "fn_total": 2
+    },
+    "M-W25": {
+      "model_counts": {
+        "TP": 9,
+        "FP": 0,
+        "SKIP": 5
+      },
+      "fn_counts": {
+        "FN": 0,
+        "NOT_FN": 3,
+        "SKIP": 0
+      },
+      "model_total": 14,
+      "fn_total": 3
+    }
+  },
+  "hitl_items": [
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=0:field_id=5577",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.75) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=1:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.69) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=2:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.45) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=3:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.68) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=4:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.73) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=6:field_id=5368",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=7:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "model",
+      "decision_key": "M-W1:model:item_idx=8:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.33)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.19), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.17), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.21)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.22), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0016",
+      "reason": "기존 NOT_FN 유지(cov=0.60)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0018",
+      "reason": "기존 NOT_FN 유지(cov=0.27)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0019",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.16), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0020",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.16), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0021",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0022",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0027",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.20), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0029",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.18), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0032",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0033",
+      "reason": "기존 NOT_FN 유지(cov=0.50)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0034",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0036",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.07), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0038",
+      "reason": "기존 NOT_FN 유지(cov=0.13)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0039",
+      "reason": "기존 NOT_FN 유지(cov=0.64)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W1",
+      "kind": "fn",
+      "decision_key": "M-W1:fn:candidate_id=C-0040",
+      "reason": "기존 NOT_FN 유지(cov=0.32)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "model",
+      "decision_key": "M-W2:model:item_idx=5:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "model",
+      "decision_key": "M-W2:model:item_idx=6:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.59) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "model",
+      "decision_key": "M-W2:model:item_idx=7:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.67) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "model",
+      "decision_key": "M-W2:model:item_idx=8:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.83) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.33)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0010",
+      "reason": "신규 candidate, 커버 불명확(cov=0.18)으로 HITL",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0011",
+      "reason": "신규 candidate, 커버 불명확(cov=0.04)으로 HITL",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W2",
+      "kind": "fn",
+      "decision_key": "M-W2:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "model",
+      "decision_key": "M-W3:model:item_idx=2:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.50) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "model",
+      "decision_key": "M-W3:model:item_idx=3:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.47) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "model",
+      "decision_key": "M-W3:model:item_idx=4:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "model",
+      "decision_key": "M-W3:model:item_idx=5:field_id=5773",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.00) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "model",
+      "decision_key": "M-W3:model:item_idx=6:field_id=6238",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.21)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.14)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.55)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.13), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.17)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0015",
+      "reason": "기존 NOT_FN 유지(cov=0.16)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W3",
+      "kind": "fn",
+      "decision_key": "M-W3:fn:candidate_id=C-0016",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "model",
+      "decision_key": "M-W4:model:item_idx=1:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "model",
+      "decision_key": "M-W4:model:item_idx=2:field_id=5773",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "model",
+      "decision_key": "M-W4:model:item_idx=3:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.72) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "model",
+      "decision_key": "M-W4:model:item_idx=5:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.32) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "model",
+      "decision_key": "M-W4:model:item_idx=6:field_id=6238",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W4",
+      "kind": "fn",
+      "decision_key": "M-W4:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.10), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "model",
+      "decision_key": "M-W5:model:item_idx=1:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.74) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "model",
+      "decision_key": "M-W5:model:item_idx=4:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "model",
+      "decision_key": "M-W5:model:item_idx=5:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.82) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "model",
+      "decision_key": "M-W5:model:item_idx=6:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.44) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "model",
+      "decision_key": "M-W5:model:item_idx=8:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.78) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "fn",
+      "decision_key": "M-W5:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.43)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W5",
+      "kind": "fn",
+      "decision_key": "M-W5:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.11)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "model",
+      "decision_key": "M-W6:model:item_idx=0:field_id=1593",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "model",
+      "decision_key": "M-W6:model:item_idx=2:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.51) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "model",
+      "decision_key": "M-W6:model:item_idx=3:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.50) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "model",
+      "decision_key": "M-W6:model:item_idx=4:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.47) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "model",
+      "decision_key": "M-W6:model:item_idx=5:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.42) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "fn",
+      "decision_key": "M-W6:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "fn",
+      "decision_key": "M-W6:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "fn",
+      "decision_key": "M-W6:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.33)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "fn",
+      "decision_key": "M-W6:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.36)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W6",
+      "kind": "fn",
+      "decision_key": "M-W6:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "model",
+      "decision_key": "M-W7:model:item_idx=3:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.61) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "model",
+      "decision_key": "M-W7:model:item_idx=4:field_id=5374",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "model",
+      "decision_key": "M-W7:model:item_idx=6:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.68) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "model",
+      "decision_key": "M-W7:model:item_idx=7:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.64) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "model",
+      "decision_key": "M-W7:model:item_idx=8:field_id=5379",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.32)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.37)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W7",
+      "kind": "fn",
+      "decision_key": "M-W7:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.00)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=1:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.66) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.71) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=5:field_id=5376",
+      "reason": "기존 FP 유지(값 변화 있음, 유사도 0.55) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=6:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.86) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=7:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.61) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "model",
+      "decision_key": "M-W8:model:item_idx=9:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.64)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.50)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.21), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.33)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.30)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W8",
+      "kind": "fn",
+      "decision_key": "M-W8:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=2:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.75) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=3:field_id=5368",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.27) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=4:field_id=5372",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=5:field_id=5374",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=7:field_id=5376",
+      "reason": "기존 FP 유지(값 변화 있음, 유사도 0.53) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=8:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.44) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=9:field_id=5557",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=11:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "model",
+      "decision_key": "M-W9:model:item_idx=13:field_id=6238",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.67)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.57)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W9",
+      "kind": "fn",
+      "decision_key": "M-W9:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.50)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "model",
+      "decision_key": "M-W10:model:item_idx=2:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.58) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "model",
+      "decision_key": "M-W10:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.56) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "model",
+      "decision_key": "M-W10:model:item_idx=5:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.29) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "model",
+      "decision_key": "M-W10:model:item_idx=6:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.33) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "model",
+      "decision_key": "M-W10:model:item_idx=7:field_id=5577",
+      "reason": "기존 대비 값 변화 큼/근거 부족(유사도 0.75), HITL 필요",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.22), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.00)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.17)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W10",
+      "kind": "fn",
+      "decision_key": "M-W10:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=1:field_id=5178",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=2:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.54) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.47) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=5:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.52) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=6:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.60) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "model",
+      "decision_key": "M-W11:model:item_idx=7:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.60)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.17), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.30)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W11",
+      "kind": "fn",
+      "decision_key": "M-W11:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "model",
+      "decision_key": "M-W12:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.69) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "model",
+      "decision_key": "M-W12:model:item_idx=4:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.78) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "model",
+      "decision_key": "M-W12:model:item_idx=6:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.60) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "model",
+      "decision_key": "M-W12:model:item_idx=7:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.87) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "model",
+      "decision_key": "M-W12:model:item_idx=9:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.40)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.08), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.42)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.21), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.67)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.15)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0015",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W12",
+      "kind": "fn",
+      "decision_key": "M-W12:fn:candidate_id=C-0016",
+      "reason": "기존 NOT_FN 유지(cov=0.40)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=1:field_id=1591",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=3:field_id=5577",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.62) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=4:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=5:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.30) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=6:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.73) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=7:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.40) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=8:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.88) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "model",
+      "decision_key": "M-W13:model:item_idx=10:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.82) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.18), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.17)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.12), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.30)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.27)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0015",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0017",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0018",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.17), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0019",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W13",
+      "kind": "fn",
+      "decision_key": "M-W13:fn:candidate_id=C-0021",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=0:field_id=1591",
+      "reason": "기존 빌드와 extracted_value 동일, 이전 판정 이관",
+      "confidence": 7
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=1:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.79) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=2:field_id=5373",
+      "reason": "기존 FP 유지(값 변화 있음, 유사도 0.52) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=4:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.39) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=6:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=7:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=8:field_id=5773",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.00) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "model",
+      "decision_key": "M-W14:model:item_idx=9:field_id=6238",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.11), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.07)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.11)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.13)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.27)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.17)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0015",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0016",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0017",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0018",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0019",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0020",
+      "reason": "기존 NOT_FN 유지(cov=0.36)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0021",
+      "reason": "기존 NOT_FN 유지(cov=0.08)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W14",
+      "kind": "fn",
+      "decision_key": "M-W14:fn:candidate_id=C-0022",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=0:field_id=1591",
+      "reason": "기존 빌드와 extracted_value 동일, 이전 판정 이관",
+      "confidence": 7
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=1:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.58) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=2:field_id=5372",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.60) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.46) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=4:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.48) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=6:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.50) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=7:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.62) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=8:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.55) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=10:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "model",
+      "decision_key": "M-W15:model:item_idx=11:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.00)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.20), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.15)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W15",
+      "kind": "fn",
+      "decision_key": "M-W15:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.30)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "model",
+      "decision_key": "M-W16:model:item_idx=0:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.26) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "model",
+      "decision_key": "M-W16:model:item_idx=1:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.53) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.18)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.35)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.37)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W16",
+      "kind": "fn",
+      "decision_key": "M-W16:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=2:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.32) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.39) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=4:field_id=5374",
+      "reason": "기존 FP 유지(값 변화 있음, 유사도 0.40) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=5:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=6:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.38) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=7:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.58) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=8:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.36) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=10:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "model",
+      "decision_key": "M-W17:model:item_idx=11:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.40)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.04)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN이나 새 output 커버 근거 약함(cov=0.23), NOT_FN 변경 전 HITL",
+      "confidence": 4
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.27)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.00)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0015",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0016",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0017",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0018",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0019",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0020",
+      "reason": "기존 NOT_FN 유지(cov=0.40)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0023",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W17",
+      "kind": "fn",
+      "decision_key": "M-W17:fn:candidate_id=C-0024",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "model",
+      "decision_key": "M-W18:model:item_idx=0:field_id=contract_amount",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "model",
+      "decision_key": "M-W18:model:item_idx=1:field_id=1591",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.60) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "model",
+      "decision_key": "M-W18:model:item_idx=3:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.34) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "model",
+      "decision_key": "M-W18:model:item_idx=4:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.59) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "model",
+      "decision_key": "M-W18:model:item_idx=9:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.06)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.34)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.28)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W18",
+      "kind": "fn",
+      "decision_key": "M-W18:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "model",
+      "decision_key": "M-W19:model:item_idx=3:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.54) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "model",
+      "decision_key": "M-W19:model:item_idx=4:field_id=5379",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.39) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.20)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.34)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W19",
+      "kind": "fn",
+      "decision_key": "M-W19:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.41)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=1:field_id=5372",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=2:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.22) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=3:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.65) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=4:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=5:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.37) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=6:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.71) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=7:field_id=5379",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=10:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=11:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "model",
+      "decision_key": "M-W20:model:item_idx=13:field_id=6238",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.34)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.21)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.19)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0011",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W20",
+      "kind": "fn",
+      "decision_key": "M-W20:fn:candidate_id=C-0015",
+      "reason": "기존 FN이었으나 새 model_output에서 커버 정황 큼(cov=1.00), FN 해제",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "model",
+      "decision_key": "M-W21:model:item_idx=0:field_id=contract_amount",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.80) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "model",
+      "decision_key": "M-W21:model:item_idx=5:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.76) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "model",
+      "decision_key": "M-W21:model:item_idx=7:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.69) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "model",
+      "decision_key": "M-W21:model:item_idx=8:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.68) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0004",
+      "reason": "기존 NOT_FN 유지(cov=0.03)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0005",
+      "reason": "기존 NOT_FN 유지(cov=0.44)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.38)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.50)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0009",
+      "reason": "기존 NOT_FN 유지(cov=0.31)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.55)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W21",
+      "kind": "fn",
+      "decision_key": "M-W21:fn:candidate_id=C-0012",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "model",
+      "decision_key": "M-W22:model:item_idx=1:field_id=contract_amount",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "model",
+      "decision_key": "M-W22:model:item_idx=5:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.65) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "model",
+      "decision_key": "M-W22:model:item_idx=6:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.69) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "model",
+      "decision_key": "M-W22:model:item_idx=7:field_id=5374",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "fn",
+      "decision_key": "M-W22:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.34)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W22",
+      "kind": "fn",
+      "decision_key": "M-W22:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.00)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=2:field_id=1593",
+      "reason": "기존 빌드와 extracted_value 동일, 이전 판정 이관",
+      "confidence": 7
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=4:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.28) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=5:field_id=5368",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=6:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.34) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=7:field_id=5374",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.23) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=8:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=9:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.52) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=11:field_id=5577",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.43) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=12:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "model",
+      "decision_key": "M-W23:model:item_idx=13:field_id=5773",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.00) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.25)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.24)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0006",
+      "reason": "기존 NOT_FN 유지(cov=0.29)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0007",
+      "reason": "기존 NOT_FN 유지(cov=0.36)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0008",
+      "reason": "기존 NOT_FN 유지(cov=0.16)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0010",
+      "reason": "기존 NOT_FN 유지(cov=0.23)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0013",
+      "reason": "기존 NOT_FN 유지(cov=0.12)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W23",
+      "kind": "fn",
+      "decision_key": "M-W23:fn:candidate_id=C-0014",
+      "reason": "기존 NOT_FN 유지(cov=0.27)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "model",
+      "decision_key": "M-W24:model:item_idx=1:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "model",
+      "decision_key": "M-W24:model:item_idx=3:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.58) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "model",
+      "decision_key": "M-W24:model:item_idx=4:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.73) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "model",
+      "decision_key": "M-W24:model:item_idx=5:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "model",
+      "decision_key": "M-W24:model:item_idx=6:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W24",
+      "kind": "fn",
+      "decision_key": "M-W24:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.02)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=1:field_id=1591",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=3:field_id=5361",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.53) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=4:field_id=5373",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.79) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=5:field_id=5374",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=6:field_id=5375",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=7:field_id=5376",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.40) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=8:field_id=5378",
+      "reason": "기존 TP 유지(값 변화 있음, 유사도 0.48) - HITL 권장",
+      "confidence": 5
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=11:field_id=5657",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "model",
+      "decision_key": "M-W25:model:item_idx=12:field_id=5656",
+      "reason": "이전 결정에 없는 신규 field_id, HITL 필요",
+      "confidence": 3
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "fn",
+      "decision_key": "M-W25:fn:candidate_id=C-0001",
+      "reason": "기존 NOT_FN 유지(cov=0.26)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "fn",
+      "decision_key": "M-W25:fn:candidate_id=C-0002",
+      "reason": "기존 NOT_FN 유지(cov=0.22)",
+      "confidence": 6
+    },
+    {
+      "memo_id": "M-W25",
+      "kind": "fn",
+      "decision_key": "M-W25:fn:candidate_id=C-0003",
+      "reason": "기존 NOT_FN 유지(cov=0.50)",
+      "confidence": 6
+    }
+  ],
+  "hitl_reason_summary": {
+    "값 변화(이전 판정 유지, HITL 권장)": 97,
+    "신규 field": 53,
+    "기타": 214,
+    "NOT_FN 재검토 필요": 21,
+    "신규 candidate": 2,
+    "값 변화 큼/근거 부족": 1
+  }
+}

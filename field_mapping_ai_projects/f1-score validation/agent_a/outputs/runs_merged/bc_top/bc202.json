@@ -1,0 +1,116 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W202",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "미팅 내용 공유드려요!",
+      "normalized": {
+        "text": "미팅 내용 공유드려요!",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "미팅 내용 공유드려요!",
+          "start_char": 0,
+          "end_char": 12
+        }
+      ],
+      "dedupe_key": "collaboration_need:2572b57eda2fb34e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "홈페이지는 우선순위 떨어진다고 생각함(라고 말하지만, 가격이 가장 큰 문제로 보임)",
+      "normalized": {
+        "text": "홈페이지는 우선순위 떨어진다고 생각함(라고 말하지만, 가격이 가장 큰 문제로 보임)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "<핵심정리>"
+          ],
+          "exact_quote": "홈페이지는 우선순위 떨어진다고 생각함(라고 말하지만, 가격이 가장 큰 문제로 보임)",
+          "start_char": 25,
+          "end_char": 71
+        }
+      ],
+      "dedupe_key": "risk_or_concern:790b2c48be932cc9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "<핵심정리>"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 75,
+          "end_char": 78
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 156,
+          "end_char": 159
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 205,
+          "end_char": 210
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

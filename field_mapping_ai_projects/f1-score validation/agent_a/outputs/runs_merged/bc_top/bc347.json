@@ -1,0 +1,309 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W347",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 23,
+          "end_char": 26
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 331,
+          "end_char": 334
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 122,
+          "end_char": 126
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "80~90%",
+      "normalized": {
+        "min": 0.8,
+        "max": 0.9,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "80~90%",
+          "start_char": 103,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "match_rate:fbd4d97d65a8e71d",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 미팅일정 수립",
+      "normalized": {
+        "text": "2/ 미팅일정 수립",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "2/ 미팅일정 수립",
+          "start_char": 147,
+          "end_char": 157
+        }
+      ],
+      "dedupe_key": "action_item:a60d61e2d1ef73a8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ 칼춤 미팅 퍼레이드 진행4/ 클로징-------웹사이트 개편 방식은",
+      "normalized": {
+        "text": "3/ 칼춤 미팅 퍼레이드 진행4/ 클로징-------웹사이트 개편 방식은",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "3/ 칼춤 미팅 퍼레이드 진행4/ 클로징-------웹사이트 개편 방식은",
+          "start_char": 194,
+          "end_char": 234
+        }
+      ],
+      "dedupe_key": "action_item:32657cdfdf25a4a1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "6080만원",
+      "normalized": {
+        "value": 60800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "6080만원",
+          "start_char": 300,
+          "end_char": 306
+        }
+      ],
+      "dedupe_key": "budget:e7f88b73ba7881d6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4600만원",
+      "normalized": {
+        "value": 46000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "4600만원",
+          "start_char": 316,
+          "end_char": 322
+        }
+      ],
+      "dedupe_key": "budget:85f4737962f23035",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "600만원",
+          "start_char": 339,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "2000만원",
+          "start_char": 364,
+          "end_char": 370
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "2000만원",
+          "start_char": 467,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2500만원",
+      "normalized": {
+        "value": 25000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "2500만원",
+          "start_char": 373,
+          "end_char": 379
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "2500만원",
+          "start_char": 476,
+          "end_char": 482
+        }
+      ],
+      "dedupe_key": "budget:9aa84ab8bc70a5a4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "480만원",
+      "normalized": {
+        "value": 4800000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "전략논의 및 타임라인)"
+          ],
+          "exact_quote": "480만원",
+          "start_char": 497,
+          "end_char": 502
+        }
+      ],
+      "dedupe_key": "budget:717baf7fc40473f4",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W3",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+      "normalized": {
+        "text": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "2025년 9월 30일에 진행된 미팅은 B2B CRM 솔루션 '리캐치(Recatch)'를 개발한 비즈니스 캔버스의 김한규 영업팀장이 발표를 맡았습니다. 리캐치는 단순한 CRM 소프트웨어 공급을 넘어, 고객사의 매출 파이프라인 전반을 강화하기 위한 컨설팅 및 대행 서비스를 함께 제공하는 것이 특징입니다.",
+          "start_char": 30,
+          "end_char": 199
+        }
+      ],
+      "dedupe_key": "action_item:031d68f6ae3fb907",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 30일",
+      "normalized": {
+        "month": 9,
+        "day": 30
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "9월 30일",
+          "start_char": 36,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "timeline:4764b402a8732834",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30일",
+      "normalized": {
+        "value": 30.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "30일",
+          "start_char": 39,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "duration:df942c429831a159",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 69,
+          "end_char": 76
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 65,
+          "end_char": 68
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "미팅 내용 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 115,
+          "end_char": 118
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "리캐치(Recatch) 솔루션 핵심 요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 225,
+          "end_char": 228
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1909,
+          "end_char": 1912
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1942,
+          "end_char": 1945
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2155,
+          "end_char": 2158
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "질의응답 및 리캐치의 한계점"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2251,
+          "end_char": 2254
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "질의응답 및 리캐치의 한계점"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2366,
+          "end_char": 2369
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "결론 및 제안"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2640,
+          "end_char": 2643
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+      "normalized": {
+        "text": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "리캐치(Recatch) 솔루션 핵심 요약"
+          ],
+          "exact_quote": "리캐치는 기존의 복잡한 CRM(세일즈포스 등)이 기능은 많지만 실제 활용도가 떨어져 '비싼 메모장'으로 전락하는 문제를 해결하고자 개발되었습니다. 국내 환경에 친화적인 UX/UI를 바탕으로 영업 및 마케팅 실무자에게 실질적인 도움을 주는 데 초점을 맞추고 있습니다.",
+          "start_char": 225,
+          "end_char": 373
+        }
+      ],
+      "dedupe_key": "risk_or_concern:aea2efa26105eedc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4일",
+      "normalized": {
+        "value": 4.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "4일",
+          "start_char": 1026,
+          "end_char": 1028
+        }
+      ],
+      "dedupe_key": "duration:9cc4b5ea3f40ae03",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만 원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "3천만 원",
+          "start_char": 1508,
+          "end_char": 1513
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1503,
+          "end_char": 1506
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1537,
+          "end_char": 1540
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1614,
+          "end_char": 1617
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1670,
+          "end_char": 1673
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1735,
+          "end_char": 1738
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 2199,
+          "end_char": 2202
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "주요 기능 및 서비스"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1729,
+          "end_char": 1733
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+      "normalized": {
+        "text": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "KT알파: 세일즈포스, 핑거세일즈, 스프레드시트 사용에 모두 실패했으나, 리캐치를 도입한 후 5개 영업팀 전체가 주간 영업 회의에서 리캐치 화면을 보며 전략 회의를 진행할 만큼 성공적으로 안착했습니다.",
+          "start_char": 1868,
+          "end_char": 1980
+        }
+      ],
+      "dedupe_key": "action_item:75e231ce8ebcd7ce",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5개",
+      "normalized": {
+        "value": 5,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "5개",
+          "start_char": 1920,
+          "end_char": 1922
+        }
+      ],
+      "dedupe_key": "case_metric:34cfee948e15e76e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+      "normalized": {
+        "text": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "주요 성공 사례"
+          ],
+          "exact_quote": "삼성SDS: 도입 문의 없이 서비스 소개서만 다운로드한 담당자의 고객 여정 데이터를 분석하여 먼저 연락했고, 2024년 리캐치의 가장 큰 규모의 계약을 체결했습니다. (보안상 CRM이 아닌 웹사이트/블로그 구축 컨설팅만 제공).",
+          "start_char": 2088,
+          "end_char": 2215
+        }
+      ],
+      "dedupe_key": "collaboration_need:124b472f46d69480",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+      "normalized": {
+        "text": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "질의응답 및 리캐치의 한계점"
+          ],
+          "exact_quote": "시스템 연동: KT 그룹웨어와 같이 API가 폐쇄적인 시스템과의 연동은 별도의 커스텀 개발 비용과 기술적 논의가 필요합니다.",
+          "start_char": 2498,
+          "end_char": 2567
+        }
+      ],
+      "dedupe_key": "action_item:e54c37c5394fe489",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+      "normalized": {
+        "text": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "질의응답 및 리캐치의 한계점"
+          ],
+          "exact_quote": "의료기기/제약 분야 경험: 완료된 협업 사례는 없으나, 의료기기 업체 '휴비츠'와 논의를 진행 중입니다.",
+          "start_char": 2571,
+          "end_char": 2629
+        }
+      ],
+      "dedupe_key": "action_item:614eb601d36f46b8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+      "normalized": {
+        "text": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "결론 및 제안"
+          ],
+          "exact_quote": "리캐치는 전사적으로 도입하기에는 일부 기능적 한계가 있을 수 있으나, 신규 고객 확보와 성장이 중요한 특정 조직에는 매우 효과적인 솔루션이 될 수 있습니다.",
+          "start_char": 2640,
+          "end_char": 2727
+        }
+      ],
+      "dedupe_key": "collaboration_need:a1ddc825a1edc0da",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+      "normalized": {
+        "text": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "결론 및 제안"
+          ],
+          "exact_quote": "따라서 전사 도입보다는, 성장이 필요한 특정 팀(예: 코스메틱, 필러 등 국내 시장 공략이 필요한 팀)을 대상으로 컨설팅 서비스를 먼저 도입하여 '작은 성공 사례(Small Success Case)'를 만들어보는 방식을 제안했습니다. 컨설팅 서비스와 CRM 제품은 별도로 구매가 가능합니다.",
+          "start_char": 2729,
+          "end_char": 2891
+        }
+      ],
+      "dedupe_key": "action_item:9812158fc3b3a6d7",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:35Z"
+  }
+}

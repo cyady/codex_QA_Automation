@@ -1,0 +1,932 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W251",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 23,
+          "end_char": 28
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 76,
+          "end_char": 81
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "400만 원",
+          "start_char": 1684,
+          "end_char": 1690
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 29,
+          "end_char": 32
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 85,
+          "end_char": 88
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 3032,
+          "end_char": 3035
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 118,
+          "end_char": 122
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 131,
+          "end_char": 135
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 중순",
+      "normalized": {
+        "month": 11,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "11월 중순",
+          "start_char": 103,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "timeline:d2d4d98d832d2f59",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온라인 마케팅 협업 구체화: 베스핀글로벌 내부적으로 필요한 온라인 마케팅 관련 협력 사항(컨설팅 및 대행)에 대해 김한규(Lucky)님과 황하운님이 박미미 팀장님을 통해 실무자 차원에서 팔로업하고 구체적인 이야기를 진행할 예정입니다 (올해 안에 시작 목표).",
+      "normalized": {
+        "text": "온라인 마케팅 협업 구체화: 베스핀글로벌 내부적으로 필요한 온라인 마케팅 관련 협력 사항(컨설팅 및 대행)에 대해 김한규(Lucky)님과 황하운님이 박미미 팀장님을 통해 실무자 차원에서 팔로업하고 구체적인 이야기를 진행할 예정입니다 (올해 안에 시작 목표).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "온라인 마케팅 협업 구체화: 베스핀글로벌 내부적으로 필요한 온라인 마케팅 관련 협력 사항(컨설팅 및 대행)에 대해 김한규(Lucky)님과 황하운님이 박미미 팀장님을 통해 실무자 차원에서 팔로업하고 구체적인 이야기를 진행할 예정입니다 (올해 안에 시작 목표).",
+          "start_char": 190,
+          "end_char": 334
+        }
+      ],
+      "dedupe_key": "action_item:1c1c938025cfe79c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "협업 순서 (이사님 제안): 베스핀글로벌 이사님은 1차적으로는 마케팅 컨설팅/코워킹을 진행하고 -> 2차 리셀링을 통해 시너지를 입증한 후 -> 장기적으로는 인수 또는 전략적 투자(M&A/IPO)를 고려하는 단계적 협업을 제안하셨습니다. 리캐치는 먼저 시너지를 입증하는 것이 가장 중요하다고 강조했습니다.",
+      "normalized": {
+        "text": "협업 순서 (이사님 제안): 베스핀글로벌 이사님은 1차적으로는 마케팅 컨설팅/코워킹을 진행하고 -> 2차 리셀링을 통해 시너지를 입증한 후 -> 장기적으로는 인수 또는 전략적 투자(M&A/IPO)를 고려하는 단계적 협업을 제안하셨습니다. 리캐치는 먼저 시너지를 입증하는 것이 가장 중요하다고 강조했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "협업 순서 (이사님 제안): 베스핀글로벌 이사님은 1차적으로는 마케팅 컨설팅/코워킹을 진행하고 -> 2차 리셀링을 통해 시너지를 입증한 후 -> 장기적으로는 인수 또는 전략적 투자(M&A/IPO)를 고려하는 단계적 협업을 제안하셨습니다. 리캐치는 먼저 시너지를 입증하는 것이 가장 중요하다고 강조했습니다.",
+          "start_char": 338,
+          "end_char": 508
+        }
+      ],
+      "dedupe_key": "action_item:fdc629ffed84e679",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 471,
+          "end_char": 474
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 521,
+          "end_char": 524
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 567,
+          "end_char": 570
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 650,
+          "end_char": 653
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 720,
+          "end_char": 723
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 807,
+          "end_char": 810
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 915,
+          "end_char": 918
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 970,
+          "end_char": 973
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1031,
+          "end_char": 1034
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1194,
+          "end_char": 1197
+        },
+        {
+          "segment_id": "S-0024",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2227,
+          "end_char": 2230
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2257,
+          "end_char": 2260
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2349,
+          "end_char": 2352
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2403,
+          "end_char": 2406
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2709,
+          "end_char": 2712
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2789,
+          "end_char": 2792
+        },
+        {
+          "segment_id": "S-0029",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2872,
+          "end_char": 2875
+        },
+        {
+          "segment_id": "S-0031",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2975,
+          "end_char": 2978
+        },
+        {
+          "segment_id": "S-0032",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 3208,
+          "end_char": 3211
+        },
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 3377,
+          "end_char": 3380
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "상호 이해 및 성장: 베스핀글로벌 이사님은 리캐치 팀의 DNA를 배우고 이식하며 협업 포인트를 만들고 싶다는 욕심을 표현했습니다. 베스핀글로벌은 큰 기업 기반과 레거시를 동시에 갖고 있으며, 리캐치와 같은 스타트업과 시너지를 낼 수 있다고 보았습니다.",
+      "normalized": {
+        "text": "상호 이해 및 성장: 베스핀글로벌 이사님은 리캐치 팀의 DNA를 배우고 이식하며 협업 포인트를 만들고 싶다는 욕심을 표현했습니다. 베스핀글로벌은 큰 기업 기반과 레거시를 동시에 갖고 있으며, 리캐치와 같은 스타트업과 시너지를 낼 수 있다고 보았습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "상호 이해 및 성장: 베스핀글로벌 이사님은 리캐치 팀의 DNA를 배우고 이식하며 협업 포인트를 만들고 싶다는 욕심을 표현했습니다. 베스핀글로벌은 큰 기업 기반과 레거시를 동시에 갖고 있으며, 리캐치와 같은 스타트업과 시너지를 낼 수 있다고 보았습니다.",
+          "start_char": 543,
+          "end_char": 683
+        }
+      ],
+      "dedupe_key": "collaboration_need:3a73f1649a645d50",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "장기적 관점: 리캐치 측은 잠재적인 M&A 파트너로 MSP 업종을 처음부터 생각하고 있었습니다. 베스핀글로벌은 최근 AI 금융 솔루션 회사인 코그넷나인(Cognet9)을 인수하며 (10월 초 공식 조인) PMI가 필요 없을 정도로 즉각적인 시너지를 내고 있는 사례를 공유했습니다.",
+      "normalized": {
+        "text": "장기적 관점: 리캐치 측은 잠재적인 M&A 파트너로 MSP 업종을 처음부터 생각하고 있었습니다. 베스핀글로벌은 최근 AI 금융 솔루션 회사인 코그넷나인(Cognet9)을 인수하며 (10월 초 공식 조인) PMI가 필요 없을 정도로 즉각적인 시너지를 내고 있는 사례를 공유했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "장기적 관점: 리캐치 측은 잠재적인 M&A 파트너로 MSP 업종을 처음부터 생각하고 있었습니다. 베스핀글로벌은 최근 AI 금융 솔루션 회사인 코그넷나인(Cognet9)을 인수하며 (10월 초 공식 조인) PMI가 필요 없을 정도로 즉각적인 시너지를 내고 있는 사례를 공유했습니다.",
+          "start_char": 1023,
+          "end_char": 1179
+        }
+      ],
+      "dedupe_key": "action_item:7d8d238aaa263ecc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10월 초",
+      "normalized": {
+        "month": 10,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "10월 초",
+          "start_char": 1124,
+          "end_char": 1129
+        }
+      ],
+      "dedupe_key": "timeline:677ae3f7ff00eaca",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2억 원",
+      "normalized": {
+        "value": 200000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "2억 원",
+          "start_char": 1522,
+          "end_char": 1526
+        }
+      ],
+      "dedupe_key": "budget:0504d5c43a554bdc",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미국 법인이 SFDC 대신 허브스팟(Hubspot)을 사용하고 있어, 한국에서도 마이그레이션을 검토 중입니다 (2026년 3월 계약 만료, 12월 검토 예정).",
+      "normalized": {
+        "text": "미국 법인이 SFDC 대신 허브스팟(Hubspot)을 사용하고 있어, 한국에서도 마이그레이션을 검토 중입니다 (2026년 3월 계약 만료, 12월 검토 예정).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "미국 법인이 SFDC 대신 허브스팟(Hubspot)을 사용하고 있어, 한국에서도 마이그레이션을 검토 중입니다 (2026년 3월 계약 만료, 12월 검토 예정).",
+          "start_char": 1542,
+          "end_char": 1631
+        }
+      ],
+      "dedupe_key": "action_item:dfaada94f175c41d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "4만 개",
+      "normalized": {
+        "value": 40000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "4만 개",
+          "start_char": 1639,
+          "end_char": 1643
+        }
+      ],
+      "dedupe_key": "case_metric:af27e61fc4532468",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2만 개",
+      "normalized": {
+        "value": 20000,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "2만 개",
+          "start_char": 1673,
+          "end_char": 1677
+        }
+      ],
+      "dedupe_key": "case_metric:8e9ac5002bc36285",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 100명",
+      "normalized": {
+        "value": 100,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "약 100명",
+          "start_char": 1722,
+          "end_char": 1728
+        }
+      ],
+      "dedupe_key": "people_count:55efd7168fe167ab",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "뉴스레터",
+          "start_char": 1663,
+          "end_char": 1667
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 검토의 핵심 기준 (권한 관리): 가장 중요한 CRM 검토 기준은 조직 간의 배열(장벽)을 해결할 수 있는지 여부입니다. 특히 구글 사업부와 AWS 사업부가 서로의 어카운트를 침범하지 못하도록 하는 권한 관리가 매우 중요합니다.",
+      "normalized": {
+        "text": "CRM 검토의 핵심 기준 (권한 관리): 가장 중요한 CRM 검토 기준은 조직 간의 배열(장벽)을 해결할 수 있는지 여부입니다. 특히 구글 사업부와 AWS 사업부가 서로의 어카운트를 침범하지 못하도록 하는 권한 관리가 매우 중요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "CRM 검토의 핵심 기준 (권한 관리): 가장 중요한 CRM 검토 기준은 조직 간의 배열(장벽)을 해결할 수 있는지 여부입니다. 특히 구글 사업부와 AWS 사업부가 서로의 어카운트를 침범하지 못하도록 하는 권한 관리가 매우 중요합니다.",
+          "start_char": 1736,
+          "end_char": 1867
+        }
+      ],
+      "dedupe_key": "action_item:d16597f1bf4dc8fe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅/세일즈 프로세스 병목:현재 월 UV(순방문자)는 1만~2만 명 수준이며, 월 도입 문의(인바운드 리드)는 약 100건, 이 중 80% 이상이 미팅으로 전환됩니다.",
+      "normalized": {
+        "text": "마케팅/세일즈 프로세스 병목:현재 월 UV(순방문자)는 1만~2만 명 수준이며, 월 도입 문의(인바운드 리드)는 약 100건, 이 중 80% 이상이 미팅으로 전환됩니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "마케팅/세일즈 프로세스 병목:현재 월 UV(순방문자)는 1만~2만 명 수준이며, 월 도입 문의(인바운드 리드)는 약 100건, 이 중 80% 이상이 미팅으로 전환됩니다.",
+          "start_char": 1873,
+          "end_char": 1967
+        }
+      ],
+      "dedupe_key": "collaboration_need:d51853fa168e76a3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2만 명",
+      "normalized": {
+        "value": 20000,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "2만 명",
+          "start_char": 1907,
+          "end_char": 1911
+        }
+      ],
+      "dedupe_key": "people_count:9021dd636a9a856b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "약 100건",
+      "normalized": {
+        "value": 100,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "약 100건",
+          "start_char": 1936,
+          "end_char": 1942
+        }
+      ],
+      "dedupe_key": "sales_activity:903b3f6a7ee78b55",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "000개",
+          "start_char": 1985,
+          "end_char": 1989
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "800개",
+      "normalized": {
+        "value": 800,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [],
+          "exact_quote": "800개",
+          "start_char": 2000,
+          "end_char": 2004
+        }
+      ],
+      "dedupe_key": "case_metric:5617b17a126ab03c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리셀링 역량: 리캐치는 MSP의 고객사들에게 CRM을 크로스셀하는 데 자신감을 보였으며, 나이스평가정보와 리멤버와의 긴밀한 파트너십을 예시로 들었습니다. 리멤버의 리드젠 서베이에 리캐치 3개월 무료권이 포함되는 등 협업이 원활하게 진행 중입니다.",
+      "normalized": {
+        "text": "리셀링 역량: 리캐치는 MSP의 고객사들에게 CRM을 크로스셀하는 데 자신감을 보였으며, 나이스평가정보와 리멤버와의 긴밀한 파트너십을 예시로 들었습니다. 리멤버의 리드젠 서베이에 리캐치 3개월 무료권이 포함되는 등 협업이 원활하게 진행 중입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "리셀링 역량: 리캐치는 MSP의 고객사들에게 CRM을 크로스셀하는 데 자신감을 보였으며, 나이스평가정보와 리멤버와의 긴밀한 파트너십을 예시로 들었습니다. 리멤버의 리드젠 서베이에 리캐치 3개월 무료권이 포함되는 등 협업이 원활하게 진행 중입니다.",
+          "start_char": 2249,
+          "end_char": 2386
+        }
+      ],
+      "dedupe_key": "action_item:503846da80805d8e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 2353,
+          "end_char": 2356
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "100개",
+          "start_char": 2619,
+          "end_char": 2623
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000여 개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [],
+          "exact_quote": "000여 개",
+          "start_char": 2766,
+          "end_char": 2772
+        }
+      ],
+      "dedupe_key": "case_metric:e8afcbe16f88321f",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "5. 온라인 마케팅 협업에 대한 구체적 논의",
+      "normalized": {
+        "text": "5. 온라인 마케팅 협업에 대한 구체적 논의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [],
+          "exact_quote": "5. 온라인 마케팅 협업에 대한 구체적 논의",
+          "start_char": 2928,
+          "end_char": 2952
+        }
+      ],
+      "dedupe_key": "collaboration_need:c7c8ce0fbd1ebc81",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "베스핀의 니즈: 베스핀글로벌은 리캐치 팀이 마케팅 컨설팅뿐 아니라 대행까지 포함하여 웹사이트 오퍼링 페이지 구축이나, 수요자 중심의 블로그 콘텐츠 작성 등을 도와주기를 희망했습니다. 특히 베스핀글로벌의 마케팅 콘텐츠 제작팀이 내공은 있으나 올드한 프로세스를 갖고 있어, 이들을 빛나게 할 새로운 방식이 필요하다는 내부적인 갈증이 있었습니다.",
+      "normalized": {
+        "text": "베스핀의 니즈: 베스핀글로벌은 리캐치 팀이 마케팅 컨설팅뿐 아니라 대행까지 포함하여 웹사이트 오퍼링 페이지 구축이나, 수요자 중심의 블로그 콘텐츠 작성 등을 도와주기를 희망했습니다. 특히 베스핀글로벌의 마케팅 콘텐츠 제작팀이 내공은 있으나 올드한 프로세스를 갖고 있어, 이들을 빛나게 할 새로운 방식이 필요하다는 내부적인 갈증이 있었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [],
+          "exact_quote": "베스핀의 니즈: 베스핀글로벌은 리캐치 팀이 마케팅 컨설팅뿐 아니라 대행까지 포함하여 웹사이트 오퍼링 페이지 구축이나, 수요자 중심의 블로그 콘텐츠 작성 등을 도와주기를 희망했습니다. 특히 베스핀글로벌의 마케팅 콘텐츠 제작팀이 내공은 있으나 올드한 프로세스를 갖고 있어, 이들을 빛나게 할 새로운 방식이 필요하다는 내부적인 갈증이 있었습니다.",
+          "start_char": 2958,
+          "end_char": 3148
+        }
+      ],
+      "dedupe_key": "action_item:1c56667aefc0c42b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "우려 사항: 베스핀글로벌 측은 타겟 고객에 맞는 콘텐츠가 생산될 수 있을지에 대한 우려를 표했으나, 리캐치 측은 내부 갈증을 해결할 수 있도록 실패를 두려워하지 않고 먼저 서비스를 제공하며 역량을 입증하겠다는 의지를 보였습니다.",
+      "normalized": {
+        "text": "우려 사항: 베스핀글로벌 측은 타겟 고객에 맞는 콘텐츠가 생산될 수 있을지에 대한 우려를 표했으나, 리캐치 측은 내부 갈증을 해결할 수 있도록 실패를 두려워하지 않고 먼저 서비스를 제공하며 역량을 입증하겠다는 의지를 보였습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [],
+          "exact_quote": "우려 사항: 베스핀글로벌 측은 타겟 고객에 맞는 콘텐츠가 생산될 수 있을지에 대한 우려를 표했으나, 리캐치 측은 내부 갈증을 해결할 수 있도록 실패를 두려워하지 않고 먼저 서비스를 제공하며 역량을 입증하겠다는 의지를 보였습니다.",
+          "start_char": 3152,
+          "end_char": 3279
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4ee88e2652725ed8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "AI 효율화: 베스핀글로벌은 전사적으로 11월 2일까지 모든 협업 프로세스를 AI로 자동화하는 프로젝트를 진행 중이며, 마케팅팀 역시 AI 효율화를 시도하고 있습니다. 리캐치도 AI를 통해 콘텐츠 제작 등을 효율화하고 CRM 사스 제품의 핵심으로 활용하려 하므로, AI 전환 과정에서 상호 배움과 협업이 기대됩니다.",
+      "normalized": {
+        "text": "AI 효율화: 베스핀글로벌은 전사적으로 11월 2일까지 모든 협업 프로세스를 AI로 자동화하는 프로젝트를 진행 중이며, 마케팅팀 역시 AI 효율화를 시도하고 있습니다. 리캐치도 AI를 통해 콘텐츠 제작 등을 효율화하고 CRM 사스 제품의 핵심으로 활용하려 하므로, AI 전환 과정에서 상호 배움과 협업이 기대됩니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "AI 효율화: 베스핀글로벌은 전사적으로 11월 2일까지 모든 협업 프로세스를 AI로 자동화하는 프로젝트를 진행 중이며, 마케팅팀 역시 AI 효율화를 시도하고 있습니다. 리캐치도 AI를 통해 콘텐츠 제작 등을 효율화하고 CRM 사스 제품의 핵심으로 활용하려 하므로, AI 전환 과정에서 상호 배움과 협업이 기대됩니다.",
+          "start_char": 3283,
+          "end_char": 3459
+        }
+      ],
+      "dedupe_key": "action_item:ea0411b3989459d9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "11월 2일까지",
+      "normalized": {
+        "month": 11,
+        "day": 2,
+        "until": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "11월 2일까지",
+          "start_char": 3305,
+          "end_char": 3313
+        }
+      ],
+      "dedupe_key": "timeline:a27be404d0bf1f20",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2일",
+      "normalized": {
+        "value": 2.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "2일",
+          "start_char": 3309,
+          "end_char": 3311
+        }
+      ],
+      "dedupe_key": "duration:b8151cdaa8fa240d",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "80.49",
+      "normalized": {
+        "year": 2080,
+        "month": 49,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [],
+          "exact_quote": "80.49",
+          "start_char": 3557,
+          "end_char": 3562
+        }
+      ],
+      "dedupe_key": "timeline:a40c286ddbcbfa95",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

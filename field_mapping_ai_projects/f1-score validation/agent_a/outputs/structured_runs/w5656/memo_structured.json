@@ -1,0 +1,50 @@
+{
+  "memo_id": "M-W5656",
+  "text": "[251118-화]\n\n의제\n\n\n\n\n\nSMD 라인 AMR 적용 관련 상세 논의\n\n\n\n선반형 검토 (단당 Magazine 5ea 적재) \n\n\n\n도입 목적 : 부자재, PCB 세척 보드, 물류이송\n\n\n\n미팅 내용\n\n\n\n\n\n총 시나리오는 5개 (2~6) \n\n1. 전체적 Layout\n\n\n\n\n\n현황 : SMD 라인 내 AMR 없음 \n\n\n\nAMR 유형 : 선반형\n\n\n\n충전스테이션 1대 당 AMR 2~3대 고려\n\n2. 세척 완료 보드 운송 AMR\n\n\n\n\n\n특정 시간 순회 후, 세척 완료된 자재 공급할 경우 AMR 호출 \n\n\n\n선반형 AMR로 BOX 단위 이송\n\n\n\n자재실 ↔ 라인 양방향 이송\n\n3. 부자재 및 소모품 운송 AMR\n\n\n\n\n\n솔더링 공정에 자재 공급\n\n\n\nSold Cream(?) 한 박스당 (5 ~10kg)\n\n4. Secondary 보드 이송\n\n\n\n\n\n컨베이어 타입 연계 고려 \n\n\n\n1라인 → 8·9라인 이송\n\n\n\n라우터 라인 트레이 배출구와 설비 연계 후 보드 수거\n\n\n\nTOB 높이 약 400 mm\n\n5. 불량 보드 수거 및 부자재 운송 AMR\n\n\n\n\n\n상자 단위로 이송\n\n\n\nAMR과 라인 간 왕복 미션으로 수리 공정 이송 \n\n향후 일정\n\n\n\n\n\nJig Carrier 파악 요망\n\n\n\n발표자료 전달 (완료. 21시56분)\n\n\n\n12월 초 삼성 측이 필요한 자료 전달 완료\n\n\n\n명일 21시 내부 미팅 예정",
+  "sections": [
+    {
+      "title": "의제",
+      "body": "SMD 라인 AMR 적용 관련 상세 논의\n\n\n\n선반형 검토 (단당 Magazine 5ea 적재) \n\n\n\n도입 목적 : 부자재, PCB 세척 보드, 물류이송",
+      "bullet_items": []
+    },
+    {
+      "title": "총 시나리오는 5개 (2~6)",
+      "body": "현황 : SMD 라인 내 AMR 없음",
+      "bullet_items": [
+        "전체적 Layout"
+      ]
+    },
+    {
+      "title": "AMR 유형 : 선반형",
+      "body": "충전스테이션 1대 당 AMR 2~3대 고려\n\n\n\n\n\n\n특정 시간 순회 후, 세척 완료된 자재 공급할 경우 AMR 호출 \n\n\n\n선반형 AMR로 BOX 단위 이송\n\n\n\n자재실 ↔ 라인 양방향 이송",
+      "bullet_items": [
+        "세척 완료 보드 운송 AMR",
+        "부자재 및 소모품 운송 AMR"
+      ]
+    },
+    {
+      "title": "솔더링 공정에 자재 공급",
+      "body": "Sold Cream(?) 한 박스당 (5 ~10kg)",
+      "bullet_items": [
+        "Secondary 보드 이송"
+      ]
+    },
+    {
+      "title": "1라인 → 8·9라인 이송",
+      "body": "라우터 라인 트레이 배출구와 설비 연계 후 보드 수거\n\n\n\nTOB 높이 약 400 mm",
+      "bullet_items": [
+        "불량 보드 수거 및 부자재 운송 AMR"
+      ]
+    },
+    {
+      "title": "상자 단위로 이송",
+      "body": "AMR과 라인 간 왕복 미션으로 수리 공정 이송",
+      "bullet_items": []
+    },
+    {
+      "title": "Jig Carrier 파악 요망",
+      "body": "발표자료 전달 (완료. 21시56분)\n\n\n\n12월 초 삼성 측이 필요한 자료 전달 완료\n\n\n\n명일 21시 내부 미팅 예정",
+      "bullet_items": []
+    }
+  ]
+}

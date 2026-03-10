@@ -1,0 +1,648 @@
+[
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0001",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "오전 11:06 ",
+    "normalized": {
+      "time_period": "오전",
+      "hour": 11,
+      "minute": 6,
+      "kind": "time_expression"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "오전 11:06 ",
+      "start_char": 26,
+      "end_char": 35
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0002",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "2025.09.23",
+    "normalized": {
+      "expression": "2025.09.23"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "2025.09.23",
+      "start_char": 13,
+      "end_char": 23
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0003",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "잠깐만요.",
+    "normalized": {
+      "text": "잠깐만요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0003",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "잠깐만요.",
+      "start_char": 173,
+      "end_char": 178
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0004",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "여보세요.",
+    "normalized": {
+      "text": "여보세요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "여보세요.",
+      "start_char": 180,
+      "end_char": 185
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0005",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "네 여보세요.",
+    "normalized": {
+      "text": "네 여보세요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "네 여보세요.",
+      "start_char": 187,
+      "end_char": 194
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0006",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "네 잘 들리세요. 네네 네 말씀하세요.",
+    "normalized": {
+      "text": "네 잘 들리세요. 네네 네 말씀하세요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "네 잘 들리세요. 네네 네 말씀하세요.",
+      "start_char": 196,
+      "end_char": 217
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0007",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "저희가 질문 몇 개 드리려고 하는데 혹시 지금 웹사이트 제작하신 지는 얼마나 되셨을까요?",
+    "normalized": {
+      "text": "저희가 질문 몇 개 드리려고 하는데 혹시 지금 웹사이트 제작하신 지는 얼마나 되셨을까요?",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "저희가 질문 몇 개 드리려고 하는데 혹시 지금 웹사이트 제작하신 지는 얼마나 되셨을까요?",
+      "start_char": 219,
+      "end_char": 268
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0008",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "5년 정도",
+    "normalized": {
+      "text": "5년 정도",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "5년 정도",
+      "start_char": 270,
+      "end_char": 275
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0009",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "5년 정도 지금 2년이요. 지금 웹사이트 워드 프레스 통해서 구축하신 걸로 확인했는데 네 저희 웹사이트 개편에도 니즈가 있으시다고 들었어요.",
+    "normalized": {
+      "text": "5년 정도 지금 2년이요. 지금 웹사이트 워드 프레스 통해서 구축하신 걸로 확인했는데 네 저희 웹사이트 개편에도 니즈가 있으시다고 들었어요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0009",
+      "section_path": [
+        "저희가 간단하게 웹사이트 관련해서 몇 가지 질문드리려고 하는데 괜찮을까요?"
+      ],
+      "exact_quote": "5년 정도 지금 2년이요. 지금 웹사이트 워드 프레스 통해서 구축하신 걸로 확인했는데 네 저희 웹사이트 개편에도 니즈가 있으시다고 들었어요.",
+      "start_char": 277,
+      "end_char": 355
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0010",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "저희가 이제 차세대 커피 머신이 신사업이어서 그거를 잘 파는 게 목적이에요.\n그래서 비투비 마케팅 코너를 잘 구축하려고 하고요.\n웹사이트나 블로그 기반으로 네. 솔루션은 아직 결정 못했어요.\n솔루션 이드린 오프레스를 할지 아니면 프레임워를 할지 아니면 다른 비슷한 애들 CMS가 되는 애들 중에서 선택하려고 해가지고",
+    "normalized": {
+      "text": "저희가 이제 차세대 커피 머신이 신사업이어서 그거를 잘 파는 게 목적이에요.\n그래서 비투비 마케팅 코너를 잘 구축하려고 하고요.\n웹사이트나 블로그 기반으로 네. 솔루션은 아직 결정 못했어요.\n솔루션 이드린 오프레스를 할지 아니면 프레임워를 할지 아니면 다른 비슷한 애들 CMS가 되는 애들 중에서 선택하려고 해가지고"
+    },
+    "evidence": {
+      "segment_id": "S-0010",
+      "section_path": [
+        "네 혹시 내부에서 가지고 있는 관련된 고민이 따로 있으실까요?"
+      ],
+      "exact_quote": "저희가 이제 차세대 커피 머신이 신사업이어서 그거를 잘 파는 게 목적이에요.\n그래서 비투비 마케팅 코너를 잘 구축하려고 하고요.\n웹사이트나 블로그 기반으로 네. 솔루션은 아직 결정 못했어요.\n솔루션 이드린 오프레스를 할지 아니면 프레임워를 할지 아니면 다른 비슷한 애들 CMS가 되는 애들 중에서 선택하려고 해가지고",
+      "start_char": 392,
+      "end_char": 568
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0012",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "7시대 아직 안 했어요. 실시로 수시 출시 대 기행이에요.",
+    "normalized": {
+      "text": "7시대 아직 안 했어요. 실시로 수시 출시 대 기행이에요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0012",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "7시대 아직 안 했어요. 실시로 수시 출시 대 기행이에요.",
+      "start_char": 635,
+      "end_char": 667
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0013",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "그럼 목표하는 리드 수도 있으실까요? 한 달에 몇 개",
+    "normalized": {
+      "text": "그럼 목표하는 리드 수도 있으실까요? 한 달에 몇 개",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0013",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "그럼 목표하는 리드 수도 있으실까요? 한 달에 몇 개",
+      "start_char": 669,
+      "end_char": 698
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0014",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "세상에 없는 제품이어서 출시를 해봐야 돼요. 그리고 엔딩 프랜차이즈 회사와 비딩 프랜차이즈 개인 카페 타겟이 이원화되어 있고 프랜차이즈 카페 프랜차이즈가 1 타겟이고 이 프랜차이즈가 2 타겟이에요.",
+    "normalized": {
+      "text": "세상에 없는 제품이어서 출시를 해봐야 돼요. 그리고 엔딩 프랜차이즈 회사와 비딩 프랜차이즈 개인 카페 타겟이 이원화되어 있고 프랜차이즈 카페 프랜차이즈가 1 타겟이고 이 프랜차이즈가 2 타겟이에요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0014",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "세상에 없는 제품이어서 출시를 해봐야 돼요. 그리고 엔딩 프랜차이즈 회사와 비딩 프랜차이즈 개인 카페 타겟이 이원화되어 있고 프랜차이즈 카페 프랜차이즈가 1 타겟이고 이 프랜차이즈가 2 타겟이에요.",
+      "start_char": 700,
+      "end_char": 810
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "7011",
+        "label": "test",
+        "type": "select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0015",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+    "normalized": {
+      "text": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0014",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+      "start_char": 811,
+      "end_char": 901
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "8001",
+        "label": "성장 전략",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0016",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+    "normalized": {
+      "text": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0014",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "그래서 이제 특히 이제 신규 창업하는 사람들 이제 그런 니즈가 있어서 그분들을 어떻게 하면 리드로 슬립하우저 처링해서 세일즈까지 연계시켰느냐가 핵심이 될 것 같아",
+      "start_char": 811,
+      "end_char": 901
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "8001",
+        "label": "성장 전략",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0017",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "그러시군요. 저희 이번 워크숍에서는 저희 리캐치 웹사이트 기획 부문 총괄하시는 하우 님이나 또는 고객사 웹사이트 제작 담당하고 계시는 가은 님과 예진 님이 연사로 강의를 하시거든요.",
+    "normalized": {
+      "text": "그러시군요. 저희 이번 워크숍에서는 저희 리캐치 웹사이트 기획 부문 총괄하시는 하우 님이나 또는 고객사 웹사이트 제작 담당하고 계시는 가은 님과 예진 님이 연사로 강의를 하시거든요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0015",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "그러시군요. 저희 이번 워크숍에서는 저희 리캐치 웹사이트 기획 부문 총괄하시는 하우 님이나 또는 고객사 웹사이트 제작 담당하고 계시는 가은 님과 예진 님이 연사로 강의를 하시거든요.",
+      "start_char": 903,
+      "end_char": 1004
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5173",
+        "label": "솔루션 니즈",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0018",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "네 그래서 가지고 계신 고민들은 해결해 드릴 수 있을 것 같아요.",
+    "normalized": {
+      "text": "네 그래서 가지고 계신 고민들은 해결해 드릴 수 있을 것 같아요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0015",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "네 그래서 가지고 계신 고민들은 해결해 드릴 수 있을 것 같아요.",
+      "start_char": 1005,
+      "end_char": 1041
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4987",
+        "label": "직원 수",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0019",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0015",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "리캐치",
+      "start_char": 926,
+      "end_char": 929
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0020",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "네 근데 제가 참석을 못하고 저희 마케팅 리드 새로 오신 분이랑 그리고 커머스 리드 한 분이 참석하실 거예요.",
+    "normalized": {
+      "text": "네 근데 제가 참석을 못하고 저희 마케팅 리드 새로 오신 분이랑 그리고 커머스 리드 한 분이 참석하실 거예요.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0016",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "네 근데 제가 참석을 못하고 저희 마케팅 리드 새로 오신 분이랑 그리고 커머스 리드 한 분이 참석하실 거예요.",
+      "start_char": 1043,
+      "end_char": 1104
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4985",
+        "label": "직무",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0021",
+    "semantic_type": "other",
+    "value_type": "text",
+    "raw_text": "두 분.",
+    "normalized": {
+      "text": "두 분.",
+      "label_hint": "question_item"
+    },
+    "evidence": {
+      "segment_id": "S-0016",
+      "section_path": [
+        "네 그럼 지금은 혹시 월 평균 문의가 얼마나 들어오고 있는 상황인가요?"
+      ],
+      "exact_quote": "두 분.",
+      "start_char": 1105,
+      "end_char": 1109
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W14",
+    "candidate_id": "C-0022",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "저희가 저번 주에는 AI 워크샵을 진행했었는데 그때는 좀 실습 위주였다면 이번에는 좀 방법론 위주로 진행될 것 같습니다.",
+    "normalized": {
+      "text": "저희가 저번 주에는 AI 워크샵을 진행했었는데 그때는 좀 실습 위주였다면 이번에는 좀 방법론 위주로 진행될 것 같습니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0019",
+      "section_path": [
+        "혹시 팀원 규모는 어떻게 될까요?"
+      ],
+      "exact_quote": "저희가 저번 주에는 AI 워크샵을 진행했었는데 그때는 좀 실습 위주였다면 이번에는 좀 방법론 위주로 진행될 것 같습니다.",
+      "start_char": 1268,
+      "end_char": 1335
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

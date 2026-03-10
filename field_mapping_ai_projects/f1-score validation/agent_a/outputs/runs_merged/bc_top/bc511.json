@@ -1,0 +1,272 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W511",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "우리가 리소스가 없고, 이미 프로젝트를 희망하는 고객들이 계약서를 서명하며 줄을 서는 상황이라면",
+      "normalized": {
+        "text": "우리가 리소스가 없고, 이미 프로젝트를 희망하는 고객들이 계약서를 서명하며 줄을 서는 상황이라면",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "우리가 리소스가 없고, 이미 프로젝트를 희망하는 고객들이 계약서를 서명하며 줄을 서는 상황이라면",
+          "start_char": 176,
+          "end_char": 229
+        }
+      ],
+      "dedupe_key": "collaboration_need:ffb1a9d2a9fc5c61",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 281,
+          "end_char": 287
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 288,
+          "end_char": 292
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 299,
+          "end_char": 303
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@정효재",
+          "start_char": 314,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:cf6290db46513a77",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 22,
+          "end_char": 27
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "400만원",
+          "start_char": 155,
+          "end_char": 160
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 328,
+          "end_char": 331
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 388,
+          "end_char": 391
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[제안 핵심 요약]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 739,
+          "end_char": 742
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "CTA",
+      "normalized": {
+        "keyword": "CTA"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안 핵심 요약]"
+          ],
+          "exact_quote": "CTA",
+          "start_char": 882,
+          "end_char": 885
+        }
+      ],
+      "dedupe_key": "tool_or_channel:886247ba8e5181ad",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "자료를 검토해 보시고 추가로 궁금한 점이 있으시면 언제든 편하게 말씀해 주십시오.",
+      "normalized": {
+        "text": "자료를 검토해 보시고 추가로 궁금한 점이 있으시면 언제든 편하게 말씀해 주십시오.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "-단, 세일즈포스 세팅 대행은 진행하지 않습니다."
+          ],
+          "exact_quote": "자료를 검토해 보시고 추가로 궁금한 점이 있으시면 언제든 편하게 말씀해 주십시오.",
+          "start_char": 1068,
+          "end_char": 1113
+        }
+      ],
+      "dedupe_key": "action_item:ccd7e26961c10f63",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "36.47",
+      "normalized": {
+        "year": 2036,
+        "month": 47,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "-단, 세일즈포스 세팅 대행은 진행하지 않습니다."
+          ],
+          "exact_quote": "36.47",
+          "start_char": 1233,
+          "end_char": 1238
+        }
+      ],
+      "dedupe_key": "timeline:0e03a1b59146b50b",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

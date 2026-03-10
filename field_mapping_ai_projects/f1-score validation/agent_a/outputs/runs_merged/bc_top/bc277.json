@@ -1,0 +1,269 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W277",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier3 99플라워 - 잠재매출 1,000만원] 251211_견적서 발송 완료.감사합니다 @안민혁 (minhyuk) @김가은(Bona) @정효재(Joy) 님! @장다현 (dahyun) 님도 감사합니다!--",
+      "normalized": {
+        "text": "[Tier3 99플라워 - 잠재매출 1,000만원] 251211_견적서 발송 완료.감사합니다 @안민혁 (minhyuk) @김가은(Bona) @정효재(Joy) 님! @장다현 (dahyun) 님도 감사합니다!--",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier3 99플라워 - 잠재매출 1,000만원] 251211_견적서 발송 완료.감사합니다 @안민혁 (minhyuk) @김가은(Bona) @정효재(Joy) 님! @장다현 (dahyun) 님도 감사합니다!--",
+          "start_char": 0,
+          "end_char": 116
+        }
+      ],
+      "dedupe_key": "action_item:2603b75262a77f01",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@안민혁",
+          "start_char": 52,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 67,
+          "end_char": 71
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정효재",
+      "normalized": {
+        "name": "정효재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@정효재",
+          "start_char": 78,
+          "end_char": 82
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:cf6290db46513a77",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@장다현",
+      "normalized": {
+        "name": "장다현"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@장다현",
+          "start_char": 91,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:7dc91591c4fe2a69",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 22,
+          "end_char": 27
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 129,
+          "end_char": 132
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 219,
+          "end_char": 222
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 530,
+          "end_char": 533
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 601,
+          "end_char": 604
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 958,
+          "end_char": 961
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 118,
+          "end_char": 121
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 183,
+          "end_char": 186
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 779,
+          "end_char": 782
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 886,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "김한규 배상.p.s: 12월 중 계약 진행 시, 킥오프 미팅은 1월 중 진행 가능하며 실제 프로젝트는 2월 중 가능할 것으로 예상하고 있습니다. 현재 GEO 프로젝트를 문의주시는 고객사들이 많아 수행 가능한 프로젝트 슬롯이 차고 있어 가급적 빠르게 회신 주시면 너무나 감사하겠습니다! (1월 중 계약 체결 시 실제 프로젝트 수행은 3월 이후부터 가능할 수 있습니다)",
+      "normalized": {
+        "text": "김한규 배상.p.s: 12월 중 계약 진행 시, 킥오프 미팅은 1월 중 진행 가능하며 실제 프로젝트는 2월 중 가능할 것으로 예상하고 있습니다. 현재 GEO 프로젝트를 문의주시는 고객사들이 많아 수행 가능한 프로젝트 슬롯이 차고 있어 가급적 빠르게 회신 주시면 너무나 감사하겠습니다! (1월 중 계약 체결 시 실제 프로젝트 수행은 3월 이후부터 가능할 수 있습니다)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "김한규 배상.p.s: 12월 중 계약 진행 시, 킥오프 미팅은 1월 중 진행 가능하며 실제 프로젝트는 2월 중 가능할 것으로 예상하고 있습니다. 현재 GEO 프로젝트를 문의주시는 고객사들이 많아 수행 가능한 프로젝트 슬롯이 차고 있어 가급적 빠르게 회신 주시면 너무나 감사하겠습니다! (1월 중 계약 체결 시 실제 프로젝트 수행은 3월 이후부터 가능할 수 있습니다)",
+          "start_char": 1100,
+          "end_char": 1304
+        }
+      ],
+      "dedupe_key": "action_item:2ccc82b30d48fb60",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

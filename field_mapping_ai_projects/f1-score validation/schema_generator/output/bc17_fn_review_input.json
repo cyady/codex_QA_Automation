@@ -1,0 +1,650 @@
+[
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0001",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "10.25",
+    "normalized": {
+      "year": 2010,
+      "month": 25,
+      "kind": "short_year_month"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "10.25",
+      "start_char": 103,
+      "end_char": 108
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "close_date",
+        "label": "close_date",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0002",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+    "normalized": {
+      "text": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "트렌드/ 방법론에 관한 설명 곳곳에, 리캐치 기능을 녹인 형태의 PT 진행함; <- 듣는 사람 입장에서 정보를 발라 들어야했음",
+      "start_char": 184,
+      "end_char": 254
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0003",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+    "normalized": {
+      "text": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "아래는 이소희 대리 - 유일하게 필기하던 사람 - 가 '고개를 끄덕이거나 필기한 기능' 들 (  주의필요 @pm@bd )",
+      "start_char": 255,
+      "end_char": 322
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5074",
+        "label": "마케팅 팀 규모",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0004",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+    "normalized": {
+      "text": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "(웹폼) 소개 - 질문 직접 설정 가능, 캘린더 연동, 일정 수립",
+      "start_char": 323,
+      "end_char": 359
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "7995",
+        "label": "참석 희망 일정",
+        "type": "select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0005",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@pm",
+    "normalized": {
+      "name": "pm"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "@pm",
+      "start_char": 314,
+      "end_char": 317
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0006",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "뉴스레터",
+    "normalized": {
+      "keyword": "뉴스레터"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "뉴스레터",
+      "start_char": 421,
+      "end_char": 425
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "6677",
+        "label": "뉴스레터 구독자(드롭다운)",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0007",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "리캐치",
+      "start_char": 205,
+      "end_char": 208
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0008",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+    "normalized": {
+      "text": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "받은 질문들 (거의 조만근 담당님;  생각해 볼 문제들 @pm@bd)",
+      "start_char": 873,
+      "end_char": 911
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0009",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+    "normalized": {
+      "text": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "\"Q. '스텝' 에서 입력된 것이 리캐치로 들어올 수 있게 끔 하는 것 가능한지? 아마도 신규 데이터는 연동이, 기존 데이터는 마이그레이션이 필요할 것\"",
+      "start_char": 1062,
+      "end_char": 1147
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5370",
+        "label": "고객상황",
+        "type": "multi-select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0010",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+    "normalized": {
+      "text": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "\"Q. 마케팅 오토메이션만 먼저 진행한다면 얼마나 걸릴지?\"",
+      "start_char": 1625,
+      "end_char": 1658
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4985",
+        "label": "직무",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0011",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+    "normalized": {
+      "text": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "3-1. 마케팅오토메이션 요구사항 파악 - 이소희 대리 - 필요 (RFI, Interview로 해소해야 할 것 @김숙영 (Esther) @김민재(Jay))",
+      "start_char": 1660,
+      "end_char": 1746
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4835",
+        "label": "MQL-Drop 사유",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0012",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김숙영",
+    "normalized": {
+      "name": "김숙영"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "@김숙영",
+      "start_char": 1257,
+      "end_char": 1261
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0013",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김민재",
+    "normalized": {
+      "name": "김민재"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "@김민재",
+      "start_char": 1271,
+      "end_char": 1275
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0014",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "메타",
+    "normalized": {
+      "keyword": "메타"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [],
+      "exact_quote": "메타",
+      "start_char": 856,
+      "end_char": 858
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0015",
+    "semantic_type": "case_metric",
+    "value_type": "number",
+    "raw_text": "1만 건",
+    "normalized": {
+      "value": 10000,
+      "unit": "cases",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [],
+      "exact_quote": "1만 건",
+      "start_char": 1860,
+      "end_char": 1864
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0016",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "CTA",
+    "normalized": {
+      "keyword": "CTA"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "CTA",
+      "start_char": 1936,
+      "end_char": 1939
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0017",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@강대웅",
+    "normalized": {
+      "name": "강대웅"
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "@강대웅",
+      "start_char": 2022,
+      "end_char": 2026
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0018",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김우진",
+    "normalized": {
+      "name": "김우진"
+    },
+    "evidence": {
+      "segment_id": "S-0007",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "@김우진",
+      "start_char": 2051,
+      "end_char": 2055
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0019",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+    "normalized": {
+      "text": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "* 참고: 한국영업 40명, 마케팅팀 3명, 영업기획 몇 명, 토탈 50명 정도; 이메일 발송 데이터 수 1만 건 정도",
+      "start_char": 2344,
+      "end_char": 2410
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4987",
+        "label": "직원 수",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0020",
+    "semantic_type": "team_size",
+    "value_type": "number",
+    "raw_text": "40명",
+    "normalized": {
+      "value": 40,
+      "unit": "people",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "40명",
+      "start_char": 2355,
+      "end_char": 2358
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0023",
+    "semantic_type": "sales_activity",
+    "value_type": "number",
+    "raw_text": "1만 건",
+    "normalized": {
+      "value": 10000,
+      "unit": "cases",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0008",
+      "section_path": [
+        "3-2. 마케팅오토메이션 요구사항 제안 필요"
+      ],
+      "exact_quote": "1만 건",
+      "start_char": 2403,
+      "end_char": 2407
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1607",
+        "label": "결제 수단",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W17",
+    "candidate_id": "C-0024",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "1.5만 원",
+    "normalized": {
+      "value": 15000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0009",
+      "section_path": [
+        "기타"
+      ],
+      "exact_quote": "1.5만 원",
+      "start_char": 2459,
+      "end_char": 2465
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "contract_amount",
+        "label": "contract_amount",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

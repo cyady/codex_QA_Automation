@@ -1,0 +1,207 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W219",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 34,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "21.8",
+      "normalized": {
+        "year": 2021,
+        "month": 8,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "21.8",
+          "start_char": 4,
+          "end_char": 8
+        }
+      ],
+      "dedupe_key": "timeline:9ce61ca40ec8f7c6",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 19,
+          "end_char": 22
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 35,
+          "end_char": 38
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "2명",
+          "start_char": 104,
+          "end_char": 106
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "대리점은 별도 사업자이므로 본사 리드만 관리 희망",
+      "normalized": {
+        "text": "대리점은 별도 사업자이므로 본사 리드만 관리 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "대리점은 별도 사업자이므로 본사 리드만 관리 희망",
+          "start_char": 127,
+          "end_char": 154
+        }
+      ],
+      "dedupe_key": "collaboration_need:9d2bb83cb2fafba4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입 문의 배경: 외산 CRM 도입을 시도했으나 세팅이 너무 어려워 포기했고, 더 쉬운 자동화 툴을 찾고 있음",
+      "normalized": {
+        "text": "CRM 도입 문의 배경: 외산 CRM 도입을 시도했으나 세팅이 너무 어려워 포기했고, 더 쉬운 자동화 툴을 찾고 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "CRM 도입 문의 배경: 외산 CRM 도입을 시도했으나 세팅이 너무 어려워 포기했고, 더 쉬운 자동화 툴을 찾고 있음",
+          "start_char": 231,
+          "end_char": 296
+        }
+      ],
+      "dedupe_key": "collaboration_need:e69cbe1b93ac278e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "400개",
+      "normalized": {
+        "value": 400,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "400개",
+          "start_char": 332,
+          "end_char": 336
+        }
+      ],
+      "dedupe_key": "case_metric:01b3df4b2fb9a89d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "특이사항: 회사 도메인 없이 gmail 사용 중이라 가입 가능 여부 확인 필요",
+      "normalized": {
+        "text": "특이사항: 회사 도메인 없이 gmail 사용 중이라 가입 가능 여부 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "특이사항: 회사 도메인 없이 gmail 사용 중이라 가입 가능 여부 확인 필요",
+          "start_char": 343,
+          "end_char": 386
+        }
+      ],
+      "dedupe_key": "action_item:96c0f5ee76981998",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

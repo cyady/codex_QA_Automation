@@ -1,0 +1,123 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W232",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "@sales 251020 고감도인테리어 미팅내용 공유",
+      "normalized": {
+        "text": "@sales 251020 고감도인테리어 미팅내용 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales 251020 고감도인테리어 미팅내용 공유",
+          "start_char": 0,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "collaboration_need:4a9dae116d2c8046",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 0,
+          "end_char": 6
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2주 내로 어머님 컨펌 받고 계약 진행하실 예정",
+      "normalized": {
+        "text": "2주 내로 어머님 컨펌 받고 계약 진행하실 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2주 내로 어머님 컨펌 받고 계약 진행하실 예정",
+          "start_char": 87,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "action_item:f6b5e210c0d3656d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "2주",
+      "normalized": {
+        "value": 2.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "2주",
+          "start_char": 87,
+          "end_char": 89
+        }
+      ],
+      "dedupe_key": "duration:6c36fbe487578614",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "가격 네고 치고 들어올 수 있긴 한데, 최대한 방어할 것 (by 민혁님 특별 요청)",
+      "normalized": {
+        "text": "가격 네고 치고 들어올 수 있긴 한데, 최대한 방어할 것 (by 민혁님 특별 요청)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "가격 네고 치고 들어올 수 있긴 한데, 최대한 방어할 것 (by 민혁님 특별 요청)",
+          "start_char": 117,
+          "end_char": 163
+        }
+      ],
+      "dedupe_key": "action_item:70d6e76940dc3cf9",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

@@ -1,0 +1,577 @@
+[
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0001",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@growth",
+    "normalized": {
+      "name": "growth"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@growth",
+      "start_char": 73,
+      "end_char": 80
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0002",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@sales",
+    "normalized": {
+      "name": "sales"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@sales",
+      "start_char": 81,
+      "end_char": 87
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0003",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "000만원",
+    "normalized": {
+      "value": 0,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "000만원",
+      "start_char": 31,
+      "end_char": 36
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0004",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김가은",
+    "normalized": {
+      "name": "김가은"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "@김가은",
+      "start_char": 93,
+      "end_char": 97
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0005",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@안민혁",
+    "normalized": {
+      "name": "안민혁"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "@안민혁",
+      "start_char": 104,
+      "end_char": 108
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0006",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+    "normalized": {
+      "text": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0003",
+      "section_path": [],
+      "exact_quote": "AIX 패키지 아직 제대로 팔린 적 없어서, 일단 객단가 높여서(4,500만원) 던졌습니다. 협의하며 우리가 원하는 협상 Room 지켜낼게요. 당장 GEO에 위기감을 느끼고 계셔서 고객이 느끼는 큰 고통만큼 큰 가격 불러봤습니다.",
+      "start_char": 155,
+      "end_char": 283
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0007",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "500만원",
+    "normalized": {
+      "value": 5000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0003",
+      "section_path": [],
+      "exact_quote": "500만원",
+      "start_char": 193,
+      "end_char": 198
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0008",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+    "normalized": {
+      "text": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "부장님께서 요청하신 대로, 현재 홈페이지 개편 업체의 작업 범위 외에 리캐치가 용역비를 지급받고 제공할 수 있는 주요 서비스 카테고리(정가, VAT 별도 금액)를 아래와 같이 정리하여 안내드립니다.--------------------------------------------------------------------------------[리캐치 제공 주요 패키지] (정가 기준)",
+      "start_char": 427,
+      "end_char": 640
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0009",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "400만 원",
+    "normalized": {
+      "value": 4000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "400만 원",
+      "start_char": 717,
+      "end_char": 723
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0010",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "150만 원",
+    "normalized": {
+      "value": 1500000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "150만 원",
+      "start_char": 866,
+      "end_char": 872
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0011",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "300만 원",
+    "normalized": {
+      "value": 3000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "300만 원",
+      "start_char": 1133,
+      "end_char": 1139
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1593",
+        "label": "✅ MRR",
+        "type": "currency",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0013",
+    "semantic_type": "case_metric",
+    "value_type": "number",
+    "raw_text": "1개",
+    "normalized": {
+      "value": 1,
+      "unit": "count",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "1개",
+      "start_char": 1125,
+      "end_char": 1127
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0015",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "메타",
+    "normalized": {
+      "keyword": "메타"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "메타",
+      "start_char": 1017,
+      "end_char": 1019
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0016",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "블로그",
+    "normalized": {
+      "keyword": "블로그"
+    },
+    "evidence": {
+      "segment_id": "S-0004",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "블로그",
+      "start_char": 705,
+      "end_char": 708
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0018",
+    "semantic_type": "collaboration_need",
+    "value_type": "text",
+    "raw_text": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+    "normalized": {
+      "text": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+      "label_hint": "line_collaboration"
+    },
+    "evidence": {
+      "segment_id": "S-0005",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "* 디자인 및 퍼블리싱 작업 제외 시 정가 2,400만원에서 견적 협의 가능합니다.3/ B2B 마케팅 컨설팅 패키지 (₩1,500만 원, 최소 2개월)",
+      "start_char": 1146,
+      "end_char": 1230
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 3.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0020",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+    "normalized": {
+      "text": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "◦ 고객사 현재 AI 활용 현황과 시장 기회 요소 검토",
+      "start_char": 1355,
+      "end_char": 1385
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0021",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+    "normalized": {
+      "text": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "◦ LLM 기반 콘텐츠 전략 수립 및 AI 에이전트 도입 로드맵 공동 설계",
+      "start_char": 1388,
+      "end_char": 1429
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0022",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+    "normalized": {
+      "text": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "◦ AI 검색 엔진 최적화(AEO/GEO) 전략 수립 및 GEO/AI Overview 콘텐츠 체크리스트 개발",
+      "start_char": 1432,
+      "end_char": 1492
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W29",
+    "candidate_id": "C-0023",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+    "normalized": {
+      "text": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "--"
+      ],
+      "exact_quote": "목요일 미팅에서는 CJ 계열사 웹사이트 전면 개편 중인 사례를 포함한 실제 프로젝트 사례와 구체적인 진행 방식, 기존 웹사이트 개발업체와의 협업 방안에 대해 논의드리겠습니다.아울러, 영업 정보 관리를 위한 리캐치 CRM 툴에 대해서도 자세히 소개해 드리도록 하겠습니다.감사합니다.",
+      "start_char": 1598,
+      "end_char": 1754
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

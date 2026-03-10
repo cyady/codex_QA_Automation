@@ -1,0 +1,121 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W308",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "62.54",
+      "normalized": {
+        "year": 2062,
+        "month": 54,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "62.54",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:cfc2e3f404818f2b",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "한규님과 온라인 미팅 했었던, 그러나 다영님 혼자 니즈가 있고 전사 차원에선 니즈가 너무 얕은 수준이라 꾸치가 필요했던 '다다씨앤씨'에서 웨비나 사전 팔로업 이메일에 답장을 주셨습니다! cc @채주리(Juri) @장다현 (dahyun) @이은지(Eunji)",
+      "normalized": {
+        "text": "한규님과 온라인 미팅 했었던, 그러나 다영님 혼자 니즈가 있고 전사 차원에선 니즈가 너무 얕은 수준이라 꾸치가 필요했던 '다다씨앤씨'에서 웨비나 사전 팔로업 이메일에 답장을 주셨습니다! cc @채주리(Juri) @장다현 (dahyun) @이은지(Eunji)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "한규님과 온라인 미팅 했었던, 그러나 다영님 혼자 니즈가 있고 전사 차원에선 니즈가 너무 얕은 수준이라 꾸치가 필요했던 '다다씨앤씨'에서 웨비나 사전 팔로업 이메일에 답장을 주셨습니다! cc @채주리(Juri) @장다현 (dahyun) @이은지(Eunji)",
+          "start_char": 125,
+          "end_char": 268
+        }
+      ],
+      "dedupe_key": "action_item:11603fdd2596e981",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@채주리",
+      "normalized": {
+        "name": "채주리"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@채주리",
+          "start_char": 232,
+          "end_char": 236
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d349465a825e0770",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@장다현",
+      "normalized": {
+        "name": "장다현"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@장다현",
+          "start_char": 243,
+          "end_char": 247
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:7dc91591c4fe2a69",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@이은지",
+      "normalized": {
+        "name": "이은지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@이은지",
+          "start_char": 257,
+          "end_char": 261
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:c07a64888ad5606c",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

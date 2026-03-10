@@ -1,0 +1,40 @@
+{
+  "memo_id": "M-W5483",
+  "text": "진행상태: 진행 중\n\n사업단위: DX전략사업부\n\n영업활동명: DX영업팀 Pre-Sales 정보\n\n수주확도: 5\n\n예상금액: 10\n\n실행일자: 2024-01-15\n\n시작시간: 15:30\n\n완료시간: 16:20\n\n작성자: 유재영\n\n참석자: DT팀 박재형 리더\n\n방문목적: 에쓰오일 DT 팀 방문 - PDA Logging 기능확장 관련\n\n상담내역: 에쓰오일 DT 시스템 S-IMOMOS 에서\n\n* IOTEM( 생산업무 관련 + 품질관리, PC S/W ) : LOG Book, 업무지시, 교대인수인계 \n\n* ORS( Mobile S/W ) : 업무지시 수행, Digital Check Sheet\n\n- IOTEM : Integrated Operation and Task Execution Management\n\n- ORS : Operation Round Solution\n\n으로 Page1 구축완료한 상태에서 ORS에서 Fild Logging에 대한 역활을 소화하기 어려워 보이고\n\n생산부서에 변화를 최소화 하기 위하여 검토 요청. \n\nS-IMOMOS Page2 ORS의 기능 확장과, PDA Logging System 기능 변경 사용을 비교 검토 필요로 요청 \n\n1. 5월 스타트 예정 \n\n2. SRCM과 비슷한 역활을 하는 LRIS시스템과 연계를 통하여 PDA Logging System 확장. \n\n3. 타사의 DT 기술이 적용된 PDA Logging System 확장 사례 소개(신규, 편의기능 등)\n\n4. PDA UI, UX 교체 또는 위존의 PDA Logging System 최신 솔루션 교체로 검토하여 제안 요청\n\n5. 구축 이후 DT팀에서 별도 유지보수 예정. \n\n특이사항\n\nPage1에서 ORS를 구축해보니 안되는 내용과 불편상 상황이 있어 PDA Logging System 확장을 고려 한다고함. \n\nF/U\n\n* 최신 PDA 솔루션 기능, 편의위주 소개. \n\n* LRIS 시스템과 인터페이스 가능 여부 확인. \n\n* PDA 솔루션 도입 프로젝트 시간 및 견적 전달",
+  "sections": [
+    {
+      "title": "사업단위: DX전략사업부",
+      "body": "영업활동명: DX영업팀 Pre-Sales 정보",
+      "bullet_items": []
+    },
+    {
+      "title": "참석자: DT팀 박재형 리더",
+      "body": "방문목적: 에쓰오일 DT 팀 방문 - PDA Logging 기능확장 관련\n\n상담내역: 에쓰오일 DT 시스템 S-IMOMOS 에서\n\n\n\n\n\n으로 Page1 구축완료한 상태에서 ORS에서 Fild Logging에 대한 역활을 소화하기 어려워 보이고\n\n생산부서에 변화를 최소화 하기 위하여 검토 요청. \n\nS-IMOMOS Page2 ORS의 기능 확장과, PDA Logging System 기능 변경 사용을 비교 검토 필요로 요청",
+      "bullet_items": [
+        "IOTEM( 생산업무 관련 + 품질관리, PC S/W ) : LOG Book, 업무지시, 교대인수인계",
+        "ORS( Mobile S/W ) : 업무지시 수행, Digital Check Sheet",
+        "IOTEM : Integrated Operation and Task Execution Management",
+        "ORS : Operation Round Solution",
+        "5월 스타트 예정",
+        "SRCM과 비슷한 역활을 하는 LRIS시스템과 연계를 통하여 PDA Logging System 확장.",
+        "타사의 DT 기술이 적용된 PDA Logging System 확장 사례 소개(신규, 편의기능 등)",
+        "PDA UI, UX 교체 또는 위존의 PDA Logging System 최신 솔루션 교체로 검토하여 제안 요청",
+        "구축 이후 DT팀에서 별도 유지보수 예정."
+      ]
+    },
+    {
+      "title": "특이사항",
+      "body": "Page1에서 ORS를 구축해보니 안되는 내용과 불편상 상황이 있어 PDA Logging System 확장을 고려 한다고함.",
+      "bullet_items": []
+    },
+    {
+      "title": "F/U",
+      "body": "",
+      "bullet_items": [
+        "최신 PDA 솔루션 기능, 편의위주 소개.",
+        "LRIS 시스템과 인터페이스 가능 여부 확인.",
+        "PDA 솔루션 도입 프로젝트 시간 및 견적 전달"
+      ]
+    }
+  ]
+}

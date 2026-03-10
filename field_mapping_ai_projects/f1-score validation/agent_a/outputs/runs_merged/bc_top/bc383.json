@@ -1,0 +1,296 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W383",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치 김한규입니다.부장님께서 요청하신 럭스틸의 생성형 AI 검색(GEO) 선점을 위한 맞춤형 제안서 작성을 완료하여 송부드립니다.",
+      "normalized": {
+        "text": "리캐치 김한규입니다.부장님께서 요청하신 럭스틸의 생성형 AI 검색(GEO) 선점을 위한 맞춤형 제안서 작성을 완료하여 송부드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 김한규입니다.부장님께서 요청하신 럭스틸의 생성형 AI 검색(GEO) 선점을 위한 맞춤형 제안서 작성을 완료하여 송부드립니다.",
+          "start_char": 189,
+          "end_char": 262
+        }
+      ],
+      "dedupe_key": "action_item:97c9ae410fa59c58",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 36,
+          "end_char": 42
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3시간",
+      "normalized": {
+        "value": 3.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3시간",
+          "start_char": 126,
+          "end_char": 129
+        }
+      ],
+      "dedupe_key": "duration:c263ed23a98359ad",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 315,
+          "end_char": 318
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 562,
+          "end_char": 565
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 189,
+          "end_char": 192
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 804,
+          "end_char": 807
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1173,
+          "end_char": 1176
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "현황 진단 및 분석: 경쟁사 대비 낮은 럭스틸의 오가닉 검색 지표와 생성형 AI(AI Overview 등) 노출 부재 상황을 분석했습니다.",
+      "normalized": {
+        "text": "현황 진단 및 분석: 경쟁사 대비 낮은 럭스틸의 오가닉 검색 지표와 생성형 AI(AI Overview 등) 노출 부재 상황을 분석했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "현황 진단 및 분석: 경쟁사 대비 낮은 럭스틸의 오가닉 검색 지표와 생성형 AI(AI Overview 등) 노출 부재 상황을 분석했습니다.",
+          "start_char": 475,
+          "end_char": 552
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d6b639ec9add5d6b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "CRM 기반 자동화: 유입된 리드를 실시간으로 관리하고 맞춤형 메일을 발송하여 실제 계약으로 연결하는 리캐치 CRM 활용법을 제안했습니다.",
+      "normalized": {
+        "text": "CRM 기반 자동화: 유입된 리드를 실시간으로 관리하고 맞춤형 메일을 발송하여 실제 계약으로 연결하는 리캐치 CRM 활용법을 제안했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "CRM 기반 자동화: 유입된 리드를 실시간으로 관리하고 맞춤형 메일을 발송하여 실제 계약으로 연결하는 리캐치 CRM 활용법을 제안했습니다.",
+          "start_char": 747,
+          "end_char": 824
+        }
+      ],
+      "dedupe_key": "action_item:40a1bbd743d95803",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "본 제안 장표가 부장님의 내부 보고와 전략 수립에 실질적인 도움이 되기를 바랍니다.",
+      "normalized": {
+        "text": "본 제안 장표가 부장님의 내부 보고와 전략 수립에 실질적인 도움이 되기를 바랍니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "본 제안 장표가 부장님의 내부 보고와 전략 수립에 실질적인 도움이 되기를 바랍니다.",
+          "start_char": 826,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "action_item:e6612981807e561d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "검토하시면서 추가로 필요하신 자료나 보완이 필요한 내용이 있다면 언제든 편하게 말씀 부탁드립니다.",
+      "normalized": {
+        "text": "검토하시면서 추가로 필요하신 자료나 보완이 필요한 내용이 있다면 언제든 편하게 말씀 부탁드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "검토하시면서 추가로 필요하신 자료나 보완이 필요한 내용이 있다면 언제든 편하게 말씀 부탁드립니다.",
+          "start_char": 873,
+          "end_char": 927
+        }
+      ],
+      "dedupe_key": "action_item:b0fa958a49e59ff7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[동국씨엠] 럭스틸의 생성형 AI 검색 선점(GEO)을 위한 현황 진단 및 제안-압축...아울러, 본 제안서의 핵심 전략을 바탕으로 부장님 그리고 프로젝트 검토에 참여하시는 분들과 직접 대면하여 상세 내용을 한번 더 리뷰하는 자리를 요청드립니다.",
+      "normalized": {
+        "text": "[동국씨엠] 럭스틸의 생성형 AI 검색 선점(GEO)을 위한 현황 진단 및 제안-압축...아울러, 본 제안서의 핵심 전략을 바탕으로 부장님 그리고 프로젝트 검토에 참여하시는 분들과 직접 대면하여 상세 내용을 한번 더 리뷰하는 자리를 요청드립니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "[동국씨엠] 럭스틸의 생성형 AI 검색 선점(GEO)을 위한 현황 진단 및 제안-압축...아울러, 본 제안서의 핵심 전략을 바탕으로 부장님 그리고 프로젝트 검토에 참여하시는 분들과 직접 대면하여 상세 내용을 한번 더 리뷰하는 자리를 요청드립니다.",
+          "start_char": 928,
+          "end_char": 1065
+        }
+      ],
+      "dedupe_key": "action_item:a6445494437fb8ec",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "해당 자리를 통해 2026년 럭스틸의 온라인 마케팅 기반 성장을 위한 로드맵을 함께 점검하고, 동국씨엠 내부 설득 및 의사결정에 필요한 근거와 기대 효과를 상세히 뒷받침해 드리겠습니다.",
+      "normalized": {
+        "text": "해당 자리를 통해 2026년 럭스틸의 온라인 마케팅 기반 성장을 위한 로드맵을 함께 점검하고, 동국씨엠 내부 설득 및 의사결정에 필요한 근거와 기대 효과를 상세히 뒷받침해 드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "해당 자리를 통해 2026년 럭스틸의 온라인 마케팅 기반 성장을 위한 로드맵을 함께 점검하고, 동국씨엠 내부 설득 및 의사결정에 필요한 근거와 기대 효과를 상세히 뒷받침해 드리겠습니다.",
+          "start_char": 1066,
+          "end_char": 1169
+        }
+      ],
+      "dedupe_key": "action_item:a1e6d3233339bb41",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저희 리캐치팀 전원은 럭스틸이 경쟁사 대비 부족한 오가닉 지표를 극복하고 생성형 AI 검색 시장의 압도적 선두주자로 자리매김할 수 있도록 최선을 다해 돕겠습니다.내년 1~2월 중 다시 만나뵐 수 있는 일정을 회신 주시면 감사하겠습니다.감사합니다.",
+      "normalized": {
+        "text": "저희 리캐치팀 전원은 럭스틸이 경쟁사 대비 부족한 오가닉 지표를 극복하고 생성형 AI 검색 시장의 압도적 선두주자로 자리매김할 수 있도록 최선을 다해 돕겠습니다.내년 1~2월 중 다시 만나뵐 수 있는 일정을 회신 주시면 감사하겠습니다.감사합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "저희 리캐치팀 전원은 럭스틸이 경쟁사 대비 부족한 오가닉 지표를 극복하고 생성형 AI 검색 시장의 압도적 선두주자로 자리매김할 수 있도록 최선을 다해 돕겠습니다.내년 1~2월 중 다시 만나뵐 수 있는 일정을 회신 주시면 감사하겠습니다.감사합니다.",
+          "start_char": 1170,
+          "end_char": 1307
+        }
+      ],
+      "dedupe_key": "action_item:62041750c76d29cd",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

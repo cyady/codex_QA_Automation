@@ -1,0 +1,16 @@
+{
+  "case": {
+    "case_id": "G5656-03",
+    "technique": "target_5656",
+    "prompt": "이번 딜의 결제 상품 (그로스패키지) 확정값: 웹사이트/블로그/ABM."
+  },
+  "payload": {
+    "summary": "이번 딜의 결제 상품 (그로스패키지) 확정값: 웹사이트/블로그/ABM.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:06:33.055Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": []
+}

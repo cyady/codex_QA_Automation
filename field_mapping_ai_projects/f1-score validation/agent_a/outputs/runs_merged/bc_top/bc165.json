@@ -1,0 +1,91 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W165",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 30,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 60,
+          "end_char": 63
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 149,
+          "end_char": 152
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 529,
+          "end_char": 532
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "N) 대표가 알아보라 지시한거고 제대로 전달 받은 게 없어서 니즈가 뭔지 담당자도 제대로 모름.. 일단 팀마다 딜 관리 방식/툴이 달라서 이에 대한 불편함은 있으므로 CRM 데모 보여주고 웹사이트 SEO 컨설팅은 어떤 식으로 진행되는지, 우리가 어떤 가치를 줄 수 있는지 가볍게 소개하는 자리로 만들면 될 것 같습니다",
+      "normalized": {
+        "text": "N) 대표가 알아보라 지시한거고 제대로 전달 받은 게 없어서 니즈가 뭔지 담당자도 제대로 모름.. 일단 팀마다 딜 관리 방식/툴이 달라서 이에 대한 불편함은 있으므로 CRM 데모 보여주고 웹사이트 SEO 컨설팅은 어떤 식으로 진행되는지, 우리가 어떤 가치를 줄 수 있는지 가볍게 소개하는 자리로 만들면 될 것 같습니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "N) 대표가 알아보라 지시한거고 제대로 전달 받은 게 없어서 니즈가 뭔지 담당자도 제대로 모름.. 일단 팀마다 딜 관리 방식/툴이 달라서 이에 대한 불편함은 있으므로 CRM 데모 보여주고 웹사이트 SEO 컨설팅은 어떤 식으로 진행되는지, 우리가 어떤 가치를 줄 수 있는지 가볍게 소개하는 자리로 만들면 될 것 같습니다",
+          "start_char": 419,
+          "end_char": 596
+        }
+      ],
+      "dedupe_key": "action_item:6eba16957d379422",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

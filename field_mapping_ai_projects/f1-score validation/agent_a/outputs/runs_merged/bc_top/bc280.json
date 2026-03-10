@@ -1,0 +1,101 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W280",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리캐치 김한규입니다.랜딩페이지 내 폼 삽입 방식은 아직 확정하진 않았고,",
+      "normalized": {
+        "text": "리캐치 김한규입니다.랜딩페이지 내 폼 삽입 방식은 아직 확정하진 않았고,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치 김한규입니다.랜딩페이지 내 폼 삽입 방식은 아직 확정하진 않았고,",
+          "start_char": 65,
+          "end_char": 105
+        }
+      ],
+      "dedupe_key": "action_item:19a2a38c0f2e0344",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "두 방식 모두 열어놓고 검토해주시면 감사하겠습니다.내부 검토 시 고민하시는 이유가 궁금하여, 내일 전화를 통해 추가로 여쭙도록 하겠습니다 .감사합니다!",
+      "normalized": {
+        "text": "두 방식 모두 열어놓고 검토해주시면 감사하겠습니다.내부 검토 시 고민하시는 이유가 궁금하여, 내일 전화를 통해 추가로 여쭙도록 하겠습니다 .감사합니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "두 방식 모두 열어놓고 검토해주시면 감사하겠습니다.내부 검토 시 고민하시는 이유가 궁금하여, 내일 전화를 통해 추가로 여쭙도록 하겠습니다 .감사합니다!",
+          "start_char": 162,
+          "end_char": 246
+        }
+      ],
+      "dedupe_key": "action_item:db055862b6c6ac6e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "250만원",
+      "normalized": {
+        "value": 2500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "250만원",
+          "start_char": 20,
+          "end_char": 25
+        }
+      ],
+      "dedupe_key": "budget:9b2e712e57b4b9e8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 65,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

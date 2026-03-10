@@ -1,0 +1,336 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W496",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[Tier2 메쎄이상 - 잠재매출 600만원 ~ 향후 전사 확대 가능성 있음] 260122_미팅 주요 내용 오운드 미디어 구축 및 콘텐츠 내재화 니즈 확인. 7~8월 코엑스 행사 타겟으로 초기 도입 논의",
+      "normalized": {
+        "text": "[Tier2 메쎄이상 - 잠재매출 600만원 ~ 향후 전사 확대 가능성 있음] 260122_미팅 주요 내용 오운드 미디어 구축 및 콘텐츠 내재화 니즈 확인. 7~8월 코엑스 행사 타겟으로 초기 도입 논의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier2 메쎄이상 - 잠재매출 600만원 ~ 향후 전사 확대 가능성 있음] 260122_미팅 주요 내용 오운드 미디어 구축 및 콘텐츠 내재화 니즈 확인. 7~8월 코엑스 행사 타겟으로 초기 도입 논의",
+          "start_char": 0,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "collaboration_need:47490ed79c9e2577",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "600만원",
+      "normalized": {
+        "value": 6000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 19,
+          "end_char": 24
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 147,
+          "end_char": 152
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "600만원",
+          "start_char": 192,
+          "end_char": 197
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "600만원",
+          "start_char": 828,
+          "end_char": 833
+        }
+      ],
+      "dedupe_key": "budget:e46593f858f5848c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3/ Next action 메쎄이상 맞춤형 600만원 예산안 구성 정리 및 전달 (블로그 구축 가이드, 콘텐츠 4편 제작, 내재화 컨설팅 포함할 수 있을지??? )",
+      "normalized": {
+        "text": "3/ Next action 메쎄이상 맞춤형 600만원 예산안 구성 정리 및 전달 (블로그 구축 가이드, 콘텐츠 4편 제작, 내재화 컨설팅 포함할 수 있을지??? )",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "3/ Next action 메쎄이상 맞춤형 600만원 예산안 구성 정리 및 전달 (블로그 구축 가이드, 콘텐츠 4편 제작, 내재화 컨설팅 포함할 수 있을지??? )",
+          "start_char": 168,
+          "end_char": 259
+        }
+      ],
+      "dedupe_key": "collaboration_need:a9cd780361131f09",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 214,
+          "end_char": 217
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 575,
+          "end_char": 578
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1102,
+          "end_char": 1105
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 333,
+          "end_char": 336
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 466,
+          "end_char": 468
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "메타",
+          "start_char": 853,
+          "end_char": 855
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "Budget"
+          ],
+          "exact_quote": "000만원",
+          "start_char": 865,
+          "end_char": 870
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "테스트 예산(500만원 선) 집행 및 실무 추진 권한 보유. 전사 확산 및 대규모 예산 증액을 위해서는 코리아빌드에서의 성공 사례(Test-bed) 입증 필요.",
+      "normalized": {
+        "text": "테스트 예산(500만원 선) 집행 및 실무 추진 권한 보유. 전사 확산 및 대규모 예산 증액을 위해서는 코리아빌드에서의 성공 사례(Test-bed) 입증 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Authority"
+          ],
+          "exact_quote": "테스트 예산(500만원 선) 집행 및 실무 추진 권한 보유. 전사 확산 및 대규모 예산 증액을 위해서는 코리아빌드에서의 성공 사례(Test-bed) 입증 필요.",
+          "start_char": 962,
+          "end_char": 1051
+        }
+      ],
+      "dedupe_key": "action_item:a796d68d4516caa8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Authority"
+          ],
+          "exact_quote": "500만원",
+          "start_char": 969,
+          "end_char": 974
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B 참관객(기업 담당자) 모객 확대. 단발성 광고가 아닌 오운드 미디어(블로그)를 통한 SEO 강화 및 전문 콘텐츠 자산화. 외부 대행 의존도를 낮추고 내부 인력이 운영 가능한 콘텐츠 제작 시스템(내재화) 구축.",
+      "normalized": {
+        "text": "B2B 참관객(기업 담당자) 모객 확대. 단발성 광고가 아닌 오운드 미디어(블로그)를 통한 SEO 강화 및 전문 콘텐츠 자산화. 외부 대행 의존도를 낮추고 내부 인력이 운영 가능한 콘텐츠 제작 시스템(내재화) 구축.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "B2B 참관객(기업 담당자) 모객 확대. 단발성 광고가 아닌 오운드 미디어(블로그)를 통한 SEO 강화 및 전문 콘텐츠 자산화. 외부 대행 의존도를 낮추고 내부 인력이 운영 가능한 콘텐츠 제작 시스템(내재화) 구축.",
+          "start_char": 1060,
+          "end_char": 1180
+        }
+      ],
+      "dedupe_key": "collaboration_need:2f8e4c2769a914bd",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "Need"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1111,
+          "end_char": 1114
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "2월 킨텍스 행사는 일정상 촉박하여 진행 불가. 7~8월 예정된 '코리아빌드 코엑스' 행사 시점에 맞춰 본격적인 도입 희망. 4~5월 프로젝트 킥오프 필요함",
+      "normalized": {
+        "text": "2월 킨텍스 행사는 일정상 촉박하여 진행 불가. 7~8월 예정된 '코리아빌드 코엑스' 행사 시점에 맞춰 본격적인 도입 희망. 4~5월 프로젝트 킥오프 필요함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "Timing"
+          ],
+          "exact_quote": "2월 킨텍스 행사는 일정상 촉박하여 진행 불가. 7~8월 예정된 '코리아빌드 코엑스' 행사 시점에 맞춰 본격적인 도입 희망. 4~5월 프로젝트 킥오프 필요함",
+          "start_char": 1191,
+          "end_char": 1278
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d987e469cf2f6a69",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

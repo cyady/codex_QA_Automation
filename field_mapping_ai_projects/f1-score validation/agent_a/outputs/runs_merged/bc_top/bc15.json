@@ -1,0 +1,209 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W15",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 9:42 ",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 9,
+        "minute": 42,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오전 9:42 ",
+          "start_char": 24,
+          "end_char": 32
+        }
+      ],
+      "dedupe_key": "timeline:3ae544acc4a32191",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.15",
+      "normalized": {
+        "expression": "2025.09.15"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.15",
+          "start_char": 11,
+          "end_char": 21
+        }
+      ],
+      "dedupe_key": "timeline:572c313eb9fb2653",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "네네 천천"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 294,
+          "end_char": 297
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "네네 천천"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 743,
+          "end_char": 746
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "네네 천천"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 754,
+          "end_char": 757
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+      "normalized": {
+        "text": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "네네 천천"
+          ],
+          "exact_quote": "그리고 이제 지금 또 이제 키우려고 하는 게 이제 카카오톡 채널로 또 이제 그쪽으로도 이제 어떤 전시나 이런 거 나가면 그쪽으로도 이제 구독자를 확보해서 친구를 확보해서 저희 이제 소식이나 이벤트 교육 같은 거 좀 안내하려고 지금 그것도 같이 준비하고 있고요.",
+          "start_char": 844,
+          "end_char": 989
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ca8f26f17489e425",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "네. 사후에 한 다섯",
+      "normalized": {
+        "text": "네. 사후에 한 다섯",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "혹시 지금 고객 문의나 인바운드 신청 같은 건 많이 들어오고 있는 상황인가요?"
+          ],
+          "exact_quote": "네. 사후에 한 다섯",
+          "start_char": 1616,
+          "end_char": 1627
+        }
+      ],
+      "dedupe_key": "other:5a767b08453daea0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+      "normalized": {
+        "text": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "혹시 확인차 여쭤보는데 유료로 진행되는 점은 알고 계실까요?"
+          ],
+          "exact_quote": "네네 그래서 유료로 진행을 해서 제가 회사에 지금 이거 기한을 올려가지고 저희 이제 저희가 이제 마케팅팀 팀장님 팀장하고 이제 저희가 마케팅팀이 회사의 사업 기획실 밑에 있거든요.",
+          "start_char": 2050,
+          "end_char": 2150
+        }
+      ],
+      "dedupe_key": "action_item:ca239099159102f4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+      "normalized": {
+        "text": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "혹시 확인차 여쭤보는데 유료로 진행되는 점은 알고 계실까요?"
+          ],
+          "exact_quote": "그러면은 확정되시고 저한테 문자 한 번만 남겨주시면은 제가 메일 통해서 계약서랑 또 관련 내용들 전달드리겠습니다.",
+          "start_char": 2270,
+          "end_char": 2333
+        }
+      ],
+      "dedupe_key": "action_item:bba254281967faa4",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

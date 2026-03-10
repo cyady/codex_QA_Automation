@@ -1,0 +1,118 @@
+[
+  {
+    "memo_id": "M-W30",
+    "candidate_id": "C-0001",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@여인찬",
+    "normalized": {
+      "name": "여인찬"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@여인찬",
+      "start_char": 0,
+      "end_char": 4
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W30",
+    "candidate_id": "C-0002",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@강대웅",
+    "normalized": {
+      "name": "강대웅"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@강대웅",
+      "start_char": 26,
+      "end_char": 30
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W30",
+    "candidate_id": "C-0003",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@김우진",
+    "normalized": {
+      "name": "김우진"
+    },
+    "evidence": {
+      "segment_id": "S-0006",
+      "section_path": [
+        "체험판 같은게 있으면 좋겠다"
+      ],
+      "exact_quote": "@김우진",
+      "start_char": 286,
+      "end_char": 290
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W30",
+    "candidate_id": "C-0005",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "오늘 말씀해주신 것처럼, 저희도 로펌 시장이 앞으로 큰 변화를 맞이할 거라 생각합니다.\n그간 공급이 조절되어온 시장이었지만, 이제는 경쟁 과열로 인해 B2C의 YK·대륜처럼 B2B 법률 서비스 시장에도 큰 바람이 불 것 같습니다.특히 B2C는 대부분 송무 중심이라, 법체계가 바뀌지 않는 한 폭발적인 수요 증가는 제한적일 수밖에 없지만,\nB2B 영역에서는 기업들의 AI 전환과 함께 대규모 ‘카오스’가 일어나며 법률 자문 수요가 폭등할 것으로 보고 있습니다.이때 일반 기업들이 활용하는 Demand Gen 마케팅 모델을 B2B 법률 서비스에 접목한다면,\n말씀해주신 것처럼 정말 새로운 혁신 모델을 함께 만들어볼 수 있겠다는 생각에 설렙니다.",
+    "normalized": {
+      "text": "오늘 말씀해주신 것처럼, 저희도 로펌 시장이 앞으로 큰 변화를 맞이할 거라 생각합니다.\n그간 공급이 조절되어온 시장이었지만, 이제는 경쟁 과열로 인해 B2C의 YK·대륜처럼 B2B 법률 서비스 시장에도 큰 바람이 불 것 같습니다.특히 B2C는 대부분 송무 중심이라, 법체계가 바뀌지 않는 한 폭발적인 수요 증가는 제한적일 수밖에 없지만,\nB2B 영역에서는 기업들의 AI 전환과 함께 대규모 ‘카오스’가 일어나며 법률 자문 수요가 폭등할 것으로 보고 있습니다.이때 일반 기업들이 활용하는 Demand Gen 마케팅 모델을 B2B 법률 서비스에 접목한다면,\n말씀해주신 것처럼 정말 새로운 혁신 모델을 함께 만들어볼 수 있겠다는 생각에 설렙니다."
+    },
+    "evidence": {
+      "segment_id": "S-0011",
+      "section_path": [
+        "고민해보겠습니다!==\\"
+      ],
+      "exact_quote": "오늘 말씀해주신 것처럼, 저희도 로펌 시장이 앞으로 큰 변화를 맞이할 거라 생각합니다.\n그간 공급이 조절되어온 시장이었지만, 이제는 경쟁 과열로 인해 B2C의 YK·대륜처럼 B2B 법률 서비스 시장에도 큰 바람이 불 것 같습니다.특히 B2C는 대부분 송무 중심이라, 법체계가 바뀌지 않는 한 폭발적인 수요 증가는 제한적일 수밖에 없지만,\nB2B 영역에서는 기업들의 AI 전환과 함께 대규모 ‘카오스’가 일어나며 법률 자문 수요가 폭등할 것으로 보고 있습니다.이때 일반 기업들이 활용하는 Demand Gen 마케팅 모델을 B2B 법률 서비스에 접목한다면,\n말씀해주신 것처럼 정말 새로운 혁신 모델을 함께 만들어볼 수 있겠다는 생각에 설렙니다.",
+      "start_char": 524,
+      "end_char": 882
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

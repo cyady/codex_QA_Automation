@@ -1,0 +1,399 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W90",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 관리와 영업 효율화 필요성이 커서 리캐치 도입을 검토 중",
+      "normalized": {
+        "text": "리드 관리와 영업 효율화 필요성이 커서 리캐치 도입을 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리드 관리와 영업 효율화 필요성이 커서 리캐치 도입을 검토 중",
+          "start_char": 47,
+          "end_char": 81
+        }
+      ],
+      "dedupe_key": "action_item:e06b09d16af5757a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "000개",
+          "start_char": 116,
+          "end_char": 120
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "000개",
+          "start_char": 329,
+          "end_char": 333
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 82,
+          "end_char": 84
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 69,
+          "end_char": 72
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트는 개편 중이나 현재 구조는 쇼핑몰형에 가까워 개선 필요",
+      "normalized": {
+        "text": "웹사이트는 개편 중이나 현재 구조는 쇼핑몰형에 가까워 개선 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "웹사이트는 개편 중이나 현재 구조는 쇼핑몰형에 가까워 개선 필요",
+          "start_char": 177,
+          "end_char": 212
+        }
+      ],
+      "dedupe_key": "action_item:01a369242a709b6d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "콘텐츠 마케팅과 블로그 운영으로 리드 육성 사례 공유",
+      "normalized": {
+        "text": "콘텐츠 마케팅과 블로그 운영으로 리드 육성 사례 공유",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "콘텐츠 마케팅과 블로그 운영으로 리드 육성 사례 공유",
+          "start_char": 213,
+          "end_char": 242
+        }
+      ],
+      "dedupe_key": "collaboration_need:fa4fe350dca6c7ea",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "CRM 도입이 직접적인 매출 증대 수단은 아니지만, 리드 관리 및 분석 기반의 효율적 매출 확대 가능성 강조",
+      "normalized": {
+        "text": "CRM 도입이 직접적인 매출 증대 수단은 아니지만, 리드 관리 및 분석 기반의 효율적 매출 확대 가능성 강조",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "CRM 도입이 직접적인 매출 증대 수단은 아니지만, 리드 관리 및 분석 기반의 효율적 매출 확대 가능성 강조",
+          "start_char": 243,
+          "end_char": 303
+        }
+      ],
+      "dedupe_key": "collaboration_need:705fb1beb09e1052",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 222,
+          "end_char": 225
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "3. 우려 및 논의 포인트",
+      "normalized": {
+        "text": "3. 우려 및 논의 포인트",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "3. 우려 및 논의 포인트",
+          "start_char": 304,
+          "end_char": 318
+        }
+      ],
+      "dedupe_key": "risk_or_concern:550fc6da639452b7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "연락처 개수(10,000개 이상)에 따른 비용 부담 -> 적절하게 네고가 필요할 수있을 듯(만개가 넘지만, 스탠다드를 적용한다던가)",
+      "normalized": {
+        "text": "연락처 개수(10,000개 이상)에 따른 비용 부담 -> 적절하게 네고가 필요할 수있을 듯(만개가 넘지만, 스탠다드를 적용한다던가)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "ERP는 Ecount를 사용 중"
+          ],
+          "exact_quote": "연락처 개수(10,000개 이상)에 따른 비용 부담 -> 적절하게 네고가 필요할 수있을 듯(만개가 넘지만, 스탠다드를 적용한다던가)",
+          "start_char": 319,
+          "end_char": 392
+        }
+      ],
+      "dedupe_key": "action_item:71742256aee72efe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 도입 및 실행 방향",
+      "normalized": {
+        "text": "4. 도입 및 실행 방향",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "4. 도입 및 실행 방향",
+          "start_char": 544,
+          "end_char": 557
+        }
+      ],
+      "dedupe_key": "collaboration_need:a30293f638f71192",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "우선 선결제 후 단기 체험(1개월, 월 25만 원/3시트) 진행 후 확대 검토 가능",
+      "normalized": {
+        "text": "우선 선결제 후 단기 체험(1개월, 월 25만 원/3시트) 진행 후 확대 검토 가능",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "우선 선결제 후 단기 체험(1개월, 월 25만 원/3시트) 진행 후 확대 검토 가능",
+          "start_char": 573,
+          "end_char": 619
+        }
+      ],
+      "dedupe_key": "action_item:d8915ea79abb77bb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팔로업 메일 보내면서 그로스패키지 소개드릴 수 있는 자리를 임원진들과 마련해달라고 요청하기",
+      "normalized": {
+        "text": "팔로업 메일 보내면서 그로스패키지 소개드릴 수 있는 자리를 임원진들과 마련해달라고 요청하기",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "팔로업 메일 보내면서 그로스패키지 소개드릴 수 있는 자리를 임원진들과 마련해달라고 요청하기",
+          "start_char": 674,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "action_item:5ea9d98ef3455ccc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 595,
+          "end_char": 600
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "1개월",
+          "start_char": 588,
+          "end_char": 591
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "커스텀으로 진행한다면 검토 가능하다고 답변"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 651,
+          "end_char": 654
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

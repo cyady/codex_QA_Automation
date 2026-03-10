@@ -1,0 +1,259 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W466",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 56,
+          "end_char": 60
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "타겟 시장 피드백 DB 확보 및 온라인 접근이 어려워 사실상 불가능함.",
+      "normalized": {
+        "text": "타겟 시장 피드백 DB 확보 및 온라인 접근이 어려워 사실상 불가능함.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "타겟 시장 피드백 DB 확보 및 온라인 접근이 어려워 사실상 불가능함.",
+          "start_char": 210,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "risk_or_concern:38f0d69acf9fc450",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 431,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 발굴 및 미팅 패키지: 약 3,000만 원 (3개월 기준, 리드 발굴~미팅 수립 목표).",
+      "normalized": {
+        "text": "리드 발굴 및 미팅 패키지: 약 3,000만 원 (3개월 기준, 리드 발굴~미팅 수립 목표).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "리드 발굴 및 미팅 패키지: 약 3,000만 원 (3개월 기준, 리드 발굴~미팅 수립 목표).",
+          "start_char": 465,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "action_item:60ea302c9a96687f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 485,
+          "end_char": 491
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 493,
+          "end_char": 496
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "6개월",
+          "start_char": 534,
+          "end_char": 537
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "ROI 측정: 매출 개런티는 어렵지만, 예상 리드 수 및 미팅 전환율(보통 20~30%)로 성과 지표 설정 가능 (예: NHN, 한화비전 사례).",
+      "normalized": {
+        "text": "ROI 측정: 매출 개런티는 어렵지만, 예상 리드 수 및 미팅 전환율(보통 20~30%)로 성과 지표 설정 가능 (예: NHN, 한화비전 사례).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "ROI 측정: 매출 개런티는 어렵지만, 예상 리드 수 및 미팅 전환율(보통 20~30%)로 성과 지표 설정 가능 (예: NHN, 한화비전 사례).",
+          "start_char": 558,
+          "end_char": 639
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f4f4d100a21d4a65",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "20~30%",
+      "normalized": {
+        "min": 0.2,
+        "max": 0.3,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "20~30%",
+          "start_char": 600,
+          "end_char": 606
+        }
+      ],
+      "dedupe_key": "match_rate:ad924c3f14b220f2",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "개인정보/법적 이슈:링크드인: 플랫폼 내 DM 발송은 문제없음.",
+      "normalized": {
+        "text": "개인정보/법적 이슈:링크드인: 플랫폼 내 DM 발송은 문제없음.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "개인정보/법적 이슈:링크드인: 플랫폼 내 DM 발송은 문제없음.",
+          "start_char": 665,
+          "end_char": 700
+        }
+      ],
+      "dedupe_key": "risk_or_concern:bfc3dc44feb32e4d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이메일(Clay 활용): 미국은 관대한 편이나 유럽(GDPR)은 엄격함. 한국/유럽은 보수적 접근 필요하며 법무팀 검토 권장.",
+      "normalized": {
+        "text": "이메일(Clay 활용): 미국은 관대한 편이나 유럽(GDPR)은 엄격함. 한국/유럽은 보수적 접근 필요하며 법무팀 검토 권장.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "이메일(Clay 활용): 미국은 관대한 편이나 유럽(GDPR)은 엄격함. 한국/유럽은 보수적 접근 필요하며 법무팀 검토 권장.",
+          "start_char": 704,
+          "end_char": 774
+        }
+      ],
+      "dedupe_key": "action_item:7a1baf93d65df5d7",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

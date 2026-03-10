@@ -1,0 +1,100 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W408",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "추가 설득에 도움될 소스 전달--------아이고 그러셨군요.. ㅠ",
+      "normalized": {
+        "text": "추가 설득에 도움될 소스 전달--------아이고 그러셨군요.. ㅠ",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "추가 설득에 도움될 소스 전달--------아이고 그러셨군요.. ㅠ",
+          "start_char": 7,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "collaboration_need:ecf54d6c08cbaefc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 대표님 마음을 확보하기 어려우신 상황인데 판 짜는 게 중요한 듯 합니다.이러한 경우, 점진적으로 설득 하는 방안도 있을 듯 한데, 도움 필요하시다면 언제든지 말씀 주십쇼!최근 허브스팟 쓰시는 기업에서 리캐치 도입건으로 이야기 하고 있습니다.",
+      "normalized": {
+        "text": "현재 대표님 마음을 확보하기 어려우신 상황인데 판 짜는 게 중요한 듯 합니다.이러한 경우, 점진적으로 설득 하는 방안도 있을 듯 한데, 도움 필요하시다면 언제든지 말씀 주십쇼!최근 허브스팟 쓰시는 기업에서 리캐치 도입건으로 이야기 하고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "현재 대표님 마음을 확보하기 어려우신 상황인데 판 짜는 게 중요한 듯 합니다.이러한 경우, 점진적으로 설득 하는 방안도 있을 듯 한데, 도움 필요하시다면 언제든지 말씀 주십쇼!최근 허브스팟 쓰시는 기업에서 리캐치 도입건으로 이야기 하고 있습니다.",
+          "start_char": 86,
+          "end_char": 223
+        }
+      ],
+      "dedupe_key": "action_item:edebbc3e8f00f084",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "국내 ISMP 보안 심사하다가, 지적사항을 받았다고 하더라구요.- ‘기업 정보 마스킹 처리가 필요하나, 허브스팟에서 지원하지 않음’",
+      "normalized": {
+        "text": "국내 ISMP 보안 심사하다가, 지적사항을 받았다고 하더라구요.- ‘기업 정보 마스킹 처리가 필요하나, 허브스팟에서 지원하지 않음’",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "국내 ISMP 보안 심사하다가, 지적사항을 받았다고 하더라구요.- ‘기업 정보 마스킹 처리가 필요하나, 허브스팟에서 지원하지 않음’",
+          "start_char": 224,
+          "end_char": 297
+        }
+      ],
+      "dedupe_key": "action_item:6694321f523378ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 201,
+          "end_char": 204
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

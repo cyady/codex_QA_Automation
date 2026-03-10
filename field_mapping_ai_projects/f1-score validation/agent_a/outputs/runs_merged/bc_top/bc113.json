@@ -1,0 +1,123 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W113",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "미팅했는데, 부서장님이 너무 바빠서 지금 제안서 줘도 검토는 10월에 가능하다고 하심",
+      "normalized": {
+        "text": "미팅했는데, 부서장님이 너무 바빠서 지금 제안서 줘도 검토는 10월에 가능하다고 하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "미팅했는데, 부서장님이 너무 바빠서 지금 제안서 줘도 검토는 10월에 가능하다고 하심",
+          "start_char": 5,
+          "end_char": 52
+        }
+      ],
+      "dedupe_key": "action_item:6e605b4eb8a6fd2e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제 뚜렷, 챔피언과 신뢰 관계도 어느 정도 생김 -> 커밋레벨 2",
+      "normalized": {
+        "text": "문제 뚜렷, 챔피언과 신뢰 관계도 어느 정도 생김 -> 커밋레벨 2",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "문제 뚜렷, 챔피언과 신뢰 관계도 어느 정도 생김 -> 커밋레벨 2",
+          "start_char": 53,
+          "end_char": 90
+        }
+      ],
+      "dedupe_key": "risk_or_concern:2e7a88d52dea32ab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "근데 리드마그넷, 랜딩페이지 필요하다고 인식해서 오히려 리멤버 빼고 리캐치랑 리드마그넷만 하는 것도 추가로 제안 달라고 하심",
+      "normalized": {
+        "text": "근데 리드마그넷, 랜딩페이지 필요하다고 인식해서 오히려 리멤버 빼고 리캐치랑 리드마그넷만 하는 것도 추가로 제안 달라고 하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "근데 리드마그넷, 랜딩페이지 필요하다고 인식해서 오히려 리멤버 빼고 리캐치랑 리드마그넷만 하는 것도 추가로 제안 달라고 하심",
+          "start_char": 115,
+          "end_char": 184
+        }
+      ],
+      "dedupe_key": "action_item:458dfcdf407b1709",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 153,
+          "end_char": 156
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "next action"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 246,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

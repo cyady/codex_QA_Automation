@@ -1,0 +1,868 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W91",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "36.02",
+      "normalized": {
+        "year": 2036,
+        "month": 2,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "36.02",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:f0d50db374673dd9",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "15~20개",
+      "normalized": {
+        "min": 15.0,
+        "max": 20.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "요약"
+          ],
+          "exact_quote": "15~20개",
+          "start_char": 294,
+          "end_char": 300
+        }
+      ],
+      "dedupe_key": "case_metric:d99bf0d80c75b448",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4억 원",
+      "normalized": {
+        "value": 400000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "요약"
+          ],
+          "exact_quote": "4억 원",
+          "start_char": 315,
+          "end_char": 319
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "4억 원",
+          "start_char": 1901,
+          "end_char": 1905
+        }
+      ],
+      "dedupe_key": "budget:1829b3b10d80985a",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Seo",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "요약"
+          ],
+          "exact_quote": "Seo",
+          "start_char": 336,
+          "end_char": 339
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "Seo",
+          "start_char": 1474,
+          "end_char": 1477
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "Seo",
+          "start_char": 2157,
+          "end_char": 2160
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "Seo",
+          "start_char": 2807,
+          "end_char": 2810
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 136,
+          "end_char": 139
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "요약"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 341,
+          "end_char": 344
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 502,
+          "end_char": 505
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1977,
+          "end_char": 1980
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2067,
+          "end_char": 2070
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2219,
+          "end_char": 2222
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2294,
+          "end_char": 2297
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2350,
+          "end_char": 2353
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 2877,
+          "end_char": 2880
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존 제안서 내용 공유 김우진은 기존 제안서의 핵심 내용을 공유했다. 랜딩 페이지와 PDF 형태의 리드 마그넷 콘텐츠를 기획하고 대행하며, 리멤버의 서베이 서비스를 통해 데이터를 수집하여 양질의 리포트북 콘텐츠를 작성할 계획이라고 설명했다 (00:01:14).",
+      "normalized": {
+        "text": "기존 제안서 내용 공유 김우진은 기존 제안서의 핵심 내용을 공유했다. 랜딩 페이지와 PDF 형태의 리드 마그넷 콘텐츠를 기획하고 대행하며, 리멤버의 서베이 서비스를 통해 데이터를 수집하여 양질의 리포트북 콘텐츠를 작성할 계획이라고 설명했다 (00:01:14).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "기존 제안서 내용 공유 김우진은 기존 제안서의 핵심 내용을 공유했다. 랜딩 페이지와 PDF 형태의 리드 마그넷 콘텐츠를 기획하고 대행하며, 리멤버의 서베이 서비스를 통해 데이터를 수집하여 양질의 리포트북 콘텐츠를 작성할 계획이라고 설명했다 (00:01:14).",
+          "start_char": 569,
+          "end_char": 714
+        }
+      ],
+      "dedupe_key": "collaboration_need:89f8f9fb07dcb91d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리드 수집 및 미팅 목표 김우진은 리드 마그넷을 통해 리드와 미팅을 수집하는 것이 목표라고 밝혔다. 또한, 리멤버 측에 문자 및 앱 푸시를 요청하여 랜딩 페이지로의 전환을 유도할 것이며, 이는 LG U플러스와 알파키의 성공 사례를 만드는 데 중요하다고 강조했다 (00:02:39).",
+      "normalized": {
+        "text": "리드 수집 및 미팅 목표 김우진은 리드 마그넷을 통해 리드와 미팅을 수집하는 것이 목표라고 밝혔다. 또한, 리멤버 측에 문자 및 앱 푸시를 요청하여 랜딩 페이지로의 전환을 유도할 것이며, 이는 LG U플러스와 알파키의 성공 사례를 만드는 데 중요하다고 강조했다 (00:02:39).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리드 수집 및 미팅 목표 김우진은 리드 마그넷을 통해 리드와 미팅을 수집하는 것이 목표라고 밝혔다. 또한, 리멤버 측에 문자 및 앱 푸시를 요청하여 랜딩 페이지로의 전환을 유도할 것이며, 이는 LG U플러스와 알파키의 성공 사례를 만드는 데 중요하다고 강조했다 (00:02:39).",
+          "start_char": 715,
+          "end_char": 872
+        }
+      ],
+      "dedupe_key": "action_item:a563aa4308278a82",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "미팅 전환 및 이메일 시퀀스 김우진은 미팅 전환을 위해 이메일 시퀀스를 3회 명시했으나, 필요시 최대 6회까지 늘려 리드와 미팅 KPI 달성을 위해 최선을 다할 것이라고 말했다 (00:03:42). 그는 SDR 전환은 인건비 문제로 어렵지만, 이메일을 통해 미팅을 최대한 이끌어낼 것이라고 설명했다 (00:04:49).",
+      "normalized": {
+        "text": "미팅 전환 및 이메일 시퀀스 김우진은 미팅 전환을 위해 이메일 시퀀스를 3회 명시했으나, 필요시 최대 6회까지 늘려 리드와 미팅 KPI 달성을 위해 최선을 다할 것이라고 말했다 (00:03:42). 그는 SDR 전환은 인건비 문제로 어렵지만, 이메일을 통해 미팅을 최대한 이끌어낼 것이라고 설명했다 (00:04:49).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "미팅 전환 및 이메일 시퀀스 김우진은 미팅 전환을 위해 이메일 시퀀스를 3회 명시했으나, 필요시 최대 6회까지 늘려 리드와 미팅 KPI 달성을 위해 최선을 다할 것이라고 말했다 (00:03:42). 그는 SDR 전환은 인건비 문제로 어렵지만, 이메일을 통해 미팅을 최대한 이끌어낼 것이라고 설명했다 (00:04:49).",
+          "start_char": 873,
+          "end_char": 1051
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1f8e4a576bf2a844",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 수신 동의 및 시퀀싱 박성준은 800여 건의 기존 DB에 리드 마그넷을 활용하여 1회 발송하고, 마케팅 수신 동의를 받은 후에 시퀀싱을 진행할 계획이라고 밝혔다. CW Seo는 기존 DB에서 수신 동의를 받지 못할 경우의 대안을 물었고 (00:10:26), 박성준은 리멤버 DB를 활용하여 구체적인 타겟 고객에게 푸시 메시지를 보낼 것이라고 답했다.",
+      "normalized": {
+        "text": "마케팅 수신 동의 및 시퀀싱 박성준은 800여 건의 기존 DB에 리드 마그넷을 활용하여 1회 발송하고, 마케팅 수신 동의를 받은 후에 시퀀싱을 진행할 계획이라고 밝혔다. CW Seo는 기존 DB에서 수신 동의를 받지 못할 경우의 대안을 물었고 (00:10:26), 박성준은 리멤버 DB를 활용하여 구체적인 타겟 고객에게 푸시 메시지를 보낼 것이라고 답했다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "마케팅 수신 동의 및 시퀀싱 박성준은 800여 건의 기존 DB에 리드 마그넷을 활용하여 1회 발송하고, 마케팅 수신 동의를 받은 후에 시퀀싱을 진행할 계획이라고 밝혔다. CW Seo는 기존 DB에서 수신 동의를 받지 못할 경우의 대안을 물었고 (00:10:26), 박성준은 리멤버 DB를 활용하여 구체적인 타겟 고객에게 푸시 메시지를 보낼 것이라고 답했다.",
+          "start_char": 1376,
+          "end_char": 1575
+        }
+      ],
+      "dedupe_key": "action_item:e884dd068d0c5c43",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "리멤버 DB 활용의 중요성 김우진은 리멤버 측에서 1회 발송만 가능한 기존 800명 DB의 한계를 보완하기 위해 리멤버 하이퍼 타겟팅의 중요성을 강조했다 (00:11:41). 그는 리멤버가 문자 푸시를 적극적으로 지원할 의사가 있으며, 이는 성공 사례를 만드는 데 필수적이라고 언급했다 (00:12:38).",
+      "normalized": {
+        "text": "리멤버 DB 활용의 중요성 김우진은 리멤버 측에서 1회 발송만 가능한 기존 800명 DB의 한계를 보완하기 위해 리멤버 하이퍼 타겟팅의 중요성을 강조했다 (00:11:41). 그는 리멤버가 문자 푸시를 적극적으로 지원할 의사가 있으며, 이는 성공 사례를 만드는 데 필수적이라고 언급했다 (00:12:38).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "리멤버 DB 활용의 중요성 김우진은 리멤버 측에서 1회 발송만 가능한 기존 800명 DB의 한계를 보완하기 위해 리멤버 하이퍼 타겟팅의 중요성을 강조했다 (00:11:41). 그는 리멤버가 문자 푸시를 적극적으로 지원할 의사가 있으며, 이는 성공 사례를 만드는 데 필수적이라고 언급했다 (00:12:38).",
+          "start_char": 1576,
+          "end_char": 1747
+        }
+      ],
+      "dedupe_key": "action_item:53832778ac835358",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "이메일 발송 주체 논의 김우진은 이메일 시퀀스 발송 시 알파키가 아닌 리캐치에서 발송하는 것에 대한 우려를 표하며, 잠재 고객의 혼란을 방지하기 위해 공동 마케팅 형태로 도메인을 사용할 것을 제안했다 (00:16:22). 박세리는 리캐치와의 협업이 알파키에 도움이 될 수 있으며, 공동 마케팅 방식도 큰 문제가 없을 것이라고 보았다 (00:18:29).",
+      "normalized": {
+        "text": "이메일 발송 주체 논의 김우진은 이메일 시퀀스 발송 시 알파키가 아닌 리캐치에서 발송하는 것에 대한 우려를 표하며, 잠재 고객의 혼란을 방지하기 위해 공동 마케팅 형태로 도메인을 사용할 것을 제안했다 (00:16:22). 박세리는 리캐치와의 협업이 알파키에 도움이 될 수 있으며, 공동 마케팅 방식도 큰 문제가 없을 것이라고 보았다 (00:18:29).",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "이메일 발송 주체 논의 김우진은 이메일 시퀀스 발송 시 알파키가 아닌 리캐치에서 발송하는 것에 대한 우려를 표하며, 잠재 고객의 혼란을 방지하기 위해 공동 마케팅 형태로 도메인을 사용할 것을 제안했다 (00:16:22). 박세리는 리캐치와의 협업이 알파키에 도움이 될 수 있으며, 공동 마케팅 방식도 큰 문제가 없을 것이라고 보았다 (00:18:29).",
+          "start_char": 1938,
+          "end_char": 2135
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c314d5c477a4e285",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로젝트 완료 시점 및 콘텐츠 기획 박세리는 프로젝트의 마지막 완료 시점을 문의했다 (00:30:38). 정효재는 콘텐츠 기획에 4~6주가 소요될 것이며, 전체 프로젝트는 퍼블리싱 및 너처링 기간을 포함하여 약 3~4개월이 걸릴 것이라고 예상했다 (00:31:46). 김우진은 연말 또는 신년 보고를 위해 빠른 진행을 희망하며 콘텐츠 기획을 서두르고 싶다고 밝혔다 (00:33:33).",
+      "normalized": {
+        "text": "프로젝트 완료 시점 및 콘텐츠 기획 박세리는 프로젝트의 마지막 완료 시점을 문의했다 (00:30:38). 정효재는 콘텐츠 기획에 4~6주가 소요될 것이며, 전체 프로젝트는 퍼블리싱 및 너처링 기간을 포함하여 약 3~4개월이 걸릴 것이라고 예상했다 (00:31:46). 김우진은 연말 또는 신년 보고를 위해 빠른 진행을 희망하며 콘텐츠 기획을 서두르고 싶다고 밝혔다 (00:33:33).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "프로젝트 완료 시점 및 콘텐츠 기획 박세리는 프로젝트의 마지막 완료 시점을 문의했다 (00:30:38). 정효재는 콘텐츠 기획에 4~6주가 소요될 것이며, 전체 프로젝트는 퍼블리싱 및 너처링 기간을 포함하여 약 3~4개월이 걸릴 것이라고 예상했다 (00:31:46). 김우진은 연말 또는 신년 보고를 위해 빠른 진행을 희망하며 콘텐츠 기획을 서두르고 싶다고 밝혔다 (00:33:33).",
+          "start_char": 2399,
+          "end_char": 2614
+        }
+      ],
+      "dedupe_key": "action_item:d8ed38826a53fa04",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "향후 일정 및 예산 논의 박세리는 9월 말까지 기획 담당 보고를 완료하고, 9월 중 착수를 목표로 하고 있다고 밝혔다 (00:34:25). 김우진은 보고 일정에 따라 사전 킥오프를 진행할 수 있음을 언급하며, 최종 할인 가격 3천만 원에 대한 확인과 함께 성공적인 프로젝트를 위한 의지를 표명했다 (00:35:39).",
+      "normalized": {
+        "text": "향후 일정 및 예산 논의 박세리는 9월 말까지 기획 담당 보고를 완료하고, 9월 중 착수를 목표로 하고 있다고 밝혔다 (00:34:25). 김우진은 보고 일정에 따라 사전 킥오프를 진행할 수 있음을 언급하며, 최종 할인 가격 3천만 원에 대한 확인과 함께 성공적인 프로젝트를 위한 의지를 표명했다 (00:35:39).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "향후 일정 및 예산 논의 박세리는 9월 말까지 기획 담당 보고를 완료하고, 9월 중 착수를 목표로 하고 있다고 밝혔다 (00:34:25). 김우진은 보고 일정에 따라 사전 킥오프를 진행할 수 있음을 언급하며, 최종 할인 가격 3천만 원에 대한 확인과 함께 성공적인 프로젝트를 위한 의지를 표명했다 (00:35:39).",
+          "start_char": 2615,
+          "end_char": 2792
+        }
+      ],
+      "dedupe_key": "action_item:bcf34bcc6ec659d5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 말까지",
+      "normalized": {
+        "month": 9,
+        "part": "late",
+        "until": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "9월 말까지",
+          "start_char": 2634,
+          "end_char": 2640
+        }
+      ],
+      "dedupe_key": "timeline:e71ed690c0607162",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3천만 원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "3천만 원",
+          "start_char": 2741,
+          "end_char": 2746
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "3천만 원",
+          "start_char": 3206,
+          "end_char": 3211
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6주",
+      "normalized": {
+        "value": 6.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "6주",
+          "start_char": 2473,
+          "end_char": 2475
+        }
+      ],
+      "dedupe_key": "duration:fd621552dbebe3d4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "4개월",
+          "start_char": 2519,
+          "end_char": 2522
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 800여 건",
+      "normalized": {
+        "value": 800,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "약 800여 건",
+          "start_char": 1307,
+          "end_char": 1315
+        }
+      ],
+      "dedupe_key": "case_metric:6e94725f50cfc273",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "800여 건",
+      "normalized": {
+        "value": 800,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "800여 건",
+          "start_char": 1397,
+          "end_char": 1403
+        }
+      ],
+      "dedupe_key": "sales_activity:6e94725f50cfc273",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "800명",
+      "normalized": {
+        "value": 800,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "800명",
+          "start_char": 1618,
+          "end_char": 1622
+        }
+      ],
+      "dedupe_key": "target_population:f743dd66a0689692",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "30개",
+      "normalized": {
+        "value": 30,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "30개",
+          "start_char": 1828,
+          "end_char": 1831
+        }
+      ],
+      "dedupe_key": "case_metric:a06f0b3d1bf117d7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "15개",
+      "normalized": {
+        "value": 15,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "15개",
+          "start_char": 1867,
+          "end_char": 1870
+        }
+      ],
+      "dedupe_key": "case_metric:6ee8bc6637a5240d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "20개",
+      "normalized": {
+        "value": 20,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "20개",
+          "start_char": 1873,
+          "end_char": 1876
+        }
+      ],
+      "dedupe_key": "case_metric:fad70b48f27da24c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1111,
+          "end_char": 1115
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1178,
+          "end_char": 1182
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "세부정보"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 987,
+          "end_char": 990
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "김우진님과 박성준님은 현재 논의된 내용을 바탕으로 수정된 제안서와 견적서, 그리고 기대 산출물 예시 샘플을 포함하여 늦어도 내일 또는 다음 주 초중으로 박세리님에게 전달할 예정입니다.",
+      "normalized": {
+        "text": "김우진님과 박성준님은 현재 논의된 내용을 바탕으로 수정된 제안서와 견적서, 그리고 기대 산출물 예시 샘플을 포함하여 늦어도 내일 또는 다음 주 초중으로 박세리님에게 전달할 예정입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "추천하는 다음 단계"
+          ],
+          "exact_quote": "김우진님과 박성준님은 현재 논의된 내용을 바탕으로 수정된 제안서와 견적서, 그리고 기대 산출물 예시 샘플을 포함하여 늦어도 내일 또는 다음 주 초중으로 박세리님에게 전달할 예정입니다.",
+          "start_char": 3253,
+          "end_char": 3355
+        }
+      ],
+      "dedupe_key": "collaboration_need:959e5b6ad837a915",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "박세리님은 차주까지 해당 프로젝트 보고 진행 일정을 잡고, 9월 22일에서 26일 사이에 킥오프를 시작할 수 있도록 준비할 예정입니다.",
+      "normalized": {
+        "text": "박세리님은 차주까지 해당 프로젝트 보고 진행 일정을 잡고, 9월 22일에서 26일 사이에 킥오프를 시작할 수 있도록 준비할 예정입니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "추천하는 다음 단계"
+          ],
+          "exact_quote": "박세리님은 차주까지 해당 프로젝트 보고 진행 일정을 잡고, 9월 22일에서 26일 사이에 킥오프를 시작할 수 있도록 준비할 예정입니다.",
+          "start_char": 3356,
+          "end_char": 3431
+        }
+      ],
+      "dedupe_key": "action_item:5e33cf9726c0f718",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 22일",
+      "normalized": {
+        "month": 9,
+        "day": 22
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "추천하는 다음 단계"
+          ],
+          "exact_quote": "9월 22일",
+          "start_char": 3389,
+          "end_char": 3395
+        }
+      ],
+      "dedupe_key": "timeline:88719aa8b7068306",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "22일",
+      "normalized": {
+        "value": 22.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "추천하는 다음 단계"
+          ],
+          "exact_quote": "22일",
+          "start_char": 3392,
+          "end_char": 3395
+        }
+      ],
+      "dedupe_key": "duration:03a0e1650c09445e",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "26일",
+      "normalized": {
+        "value": 26.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "추천하는 다음 단계"
+          ],
+          "exact_quote": "26일",
+          "start_char": 3398,
+          "end_char": 3401
+        }
+      ],
+      "dedupe_key": "duration:89b2b7b0d4104c51",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

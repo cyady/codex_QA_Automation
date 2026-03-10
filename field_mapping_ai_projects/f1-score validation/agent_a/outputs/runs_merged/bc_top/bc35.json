@@ -1,0 +1,132 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W35",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그럼 우리가 만들 리드는 100개 정도일거고, 리멤버보다는 '카카오페이'랑 협업하는 게 나을 수 있음",
+      "normalized": {
+        "text": "그럼 우리가 만들 리드는 100개 정도일거고, 리멤버보다는 '카카오페이'랑 협업하는 게 나을 수 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "그럼 우리가 만들 리드는 100개 정도일거고, 리멤버보다는 '카카오페이'랑 협업하는 게 나을 수 있음",
+          "start_char": 216,
+          "end_char": 272
+        }
+      ],
+      "dedupe_key": "collaboration_need:dc108d855db91eee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "4천만원",
+      "normalized": {
+        "value": 40000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "4천만원",
+          "start_char": 127,
+          "end_char": 131
+        }
+      ],
+      "dedupe_key": "budget:fb771a8a99b98ed7",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "100개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "100개",
+          "start_char": 195,
+          "end_char": 199
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "100개",
+          "start_char": 230,
+          "end_char": 234
+        }
+      ],
+      "dedupe_key": "case_metric:7365756e8ec3db13",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10개",
+      "normalized": {
+        "value": 10,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10개",
+          "start_char": 206,
+          "end_char": 209
+        }
+      ],
+      "dedupe_key": "case_metric:632ab007d33722f7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 201,
+          "end_char": 204
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

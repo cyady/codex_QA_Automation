@@ -1,0 +1,566 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W475",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Tier1 LGU+ 디지털제휴팀(B2B마케팅팀) 잠재매출 N억원] 260119_김귀현 책임 추가 미팅 요청에 회신",
+      "normalized": {
+        "text": "Tier1 LGU+ 디지털제휴팀(B2B마케팅팀) 잠재매출 N억원] 260119_김귀현 책임 추가 미팅 요청에 회신",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "Tier1 LGU+ 디지털제휴팀(B2B마케팅팀) 잠재매출 N억원] 260119_김귀현 책임 추가 미팅 요청에 회신",
+          "start_char": 0,
+          "end_char": 63
+        }
+      ],
+      "dedupe_key": "action_item:99e322ead05106fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "@김가은(Bona) 님, 방금 전 구두소통 한 바에 따라 1월 29일(목요일) 오후 3시까지 유플러스 본사 방문으로 일정 요청드렸습니다.",
+      "normalized": {
+        "text": "@김가은(Bona) 님, 방금 전 구두소통 한 바에 따라 1월 29일(목요일) 오후 3시까지 유플러스 본사 방문으로 일정 요청드렸습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은(Bona) 님, 방금 전 구두소통 한 바에 따라 1월 29일(목요일) 오후 3시까지 유플러스 본사 방문으로 일정 요청드렸습니다.",
+          "start_char": 64,
+          "end_char": 140
+        }
+      ],
+      "dedupe_key": "action_item:7030359a67179596",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 64,
+          "end_char": 68
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 3시",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 3,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 3시",
+          "start_char": 108,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "timeline:3073e3e6b5fb59db",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 29일",
+      "normalized": {
+        "month": 1,
+        "day": 29
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1월 29일",
+          "start_char": 96,
+          "end_char": 102
+        }
+      ],
+      "dedupe_key": "timeline:7b3c0d50563de0e5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "29일",
+      "normalized": {
+        "value": 29.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "29일",
+          "start_char": 99,
+          "end_char": 102
+        }
+      ],
+      "dedupe_key": "duration:7c0f4cd99f3a8be8",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 174,
+          "end_char": 177
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 212,
+          "end_char": 215
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 742,
+          "end_char": 745
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 799,
+          "end_char": 802
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "가능한 일정 회신 부탁드리겠습니다."
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1234,
+          "end_char": 1237
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 265,
+          "end_char": 271
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "좋은 내용 공유 주셔서 감사합니다.",
+      "normalized": {
+        "text": "좋은 내용 공유 주셔서 감사합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "좋은 내용 공유 주셔서 감사합니다.",
+          "start_char": 329,
+          "end_char": 348
+        }
+      ],
+      "dedupe_key": "collaboration_need:11aa2c8a9636d643",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "계속해서 협업 논의를 진행하고 싶은데요.",
+      "normalized": {
+        "text": "계속해서 협업 논의를 진행하고 싶은데요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "계속해서 협업 논의를 진행하고 싶은데요.",
+          "start_char": 349,
+          "end_char": 371
+        }
+      ],
+      "dedupe_key": "action_item:eb3e4538c75d64bc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 406,
+          "end_char": 410
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 420,
+          "end_char": 424
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 715,
+          "end_char": 719
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "혹 1월 29일(목요일) 오후 3시까지 동일 주소로 방문 드려도 괜찮으실까요-?"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1324,
+          "end_char": 1328
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "가망 리드 대상으로 상품 소개 중심의 콘텐츠 전달하는 타깃레터 (월 2~3회 비정기)",
+      "normalized": {
+        "text": "가망 리드 대상으로 상품 소개 중심의 콘텐츠 전달하는 타깃레터 (월 2~3회 비정기)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "가망 리드 대상으로 상품 소개 중심의 콘텐츠 전달하는 타깃레터 (월 2~3회 비정기)",
+          "start_char": 480,
+          "end_char": 527
+        }
+      ],
+      "dedupe_key": "collaboration_need:42daceb41f37229f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전달하고 있고, 아래 링크에서 내용을 보실 수 있습니다.(타깃 레터는 전부 공개하지는 않습니다)",
+      "normalized": {
+        "text": "전달하고 있고, 아래 링크에서 내용을 보실 수 있습니다.(타깃 레터는 전부 공개하지는 않습니다)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "전달하고 있고, 아래 링크에서 내용을 보실 수 있습니다.(타깃 레터는 전부 공개하지는 않습니다)",
+          "start_char": 528,
+          "end_char": 581
+        }
+      ],
+      "dedupe_key": "collaboration_need:7712e56ff378181f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1/26",
+      "normalized": {
+        "month": 1,
+        "day": 26,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "1/26",
+          "start_char": 879,
+          "end_char": 883
+        }
+      ],
+      "dedupe_key": "timeline:6fd021d3e92e3a64",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1/30",
+      "normalized": {
+        "month": 1,
+        "day": 30,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "1/30",
+          "start_char": 885,
+          "end_char": 889
+        }
+      ],
+      "dedupe_key": "timeline:5085f231fe956395",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "2~3회",
+      "normalized": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "2~3회",
+          "start_char": 518,
+          "end_char": 522
+        }
+      ],
+      "dedupe_key": "sales_activity:379b9a3cb49c5172",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "30주",
+      "normalized": {
+        "value": 30.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "말씀드린 것처럼 현재 두 가지를 함께 준비하고 있습니다"
+          ],
+          "exact_quote": "30주",
+          "start_char": 887,
+          "end_char": 890
+        }
+      ],
+      "dedupe_key": "duration:5c9306a599037c9b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업 사원이 영업에 필요한 콘텐츠(제안서, 소개서, 브로셔, 도입 사례 등)를",
+      "normalized": {
+        "text": "영업 사원이 영업에 필요한 콘텐츠(제안서, 소개서, 브로셔, 도입 사례 등)를",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "가능한 일정 회신 부탁드리겠습니다."
+          ],
+          "exact_quote": "영업 사원이 영업에 필요한 콘텐츠(제안서, 소개서, 브로셔, 도입 사례 등)를",
+          "start_char": 1045,
+          "end_char": 1088
+        }
+      ],
+      "dedupe_key": "action_item:e40cccc8722c7006",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "잘 쌓아두고 필요에 따라 변형 사용하면서,",
+      "normalized": {
+        "text": "잘 쌓아두고 필요에 따라 변형 사용하면서,",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "가능한 일정 회신 부탁드리겠습니다."
+          ],
+          "exact_quote": "잘 쌓아두고 필요에 따라 변형 사용하면서,",
+          "start_char": 1089,
+          "end_char": 1112
+        }
+      ],
+      "dedupe_key": "action_item:8f0f8db6ef5212ba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "그럼, 편히 일정 회신 부탁드리겠습니다 :)",
+      "normalized": {
+        "text": "그럼, 편히 일정 회신 부탁드리겠습니다 :)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "혹 1월 29일(목요일) 오후 3시까지 동일 주소로 방문 드려도 괜찮으실까요-?"
+          ],
+          "exact_quote": "그럼, 편히 일정 회신 부탁드리겠습니다 :)",
+          "start_char": 1395,
+          "end_char": 1419
+        }
+      ],
+      "dedupe_key": "action_item:3525bf7ceaabe452",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "52.47",
+      "normalized": {
+        "year": 2052,
+        "month": 47,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "혹 1월 29일(목요일) 오후 3시까지 동일 주소로 방문 드려도 괜찮으실까요-?"
+          ],
+          "exact_quote": "52.47",
+          "start_char": 1532,
+          "end_char": 1537
+        }
+      ],
+      "dedupe_key": "timeline:90ba262292a00cc2",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

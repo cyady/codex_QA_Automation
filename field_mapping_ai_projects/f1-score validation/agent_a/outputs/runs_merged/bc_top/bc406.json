@@ -1,0 +1,139 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W406",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 33,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 18,
+          "end_char": 21
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 34,
+          "end_char": 37
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "이전에도 B2B를 하긴 했으나 1:1 커스텀 식으로 진행돼서 많은 고객사를 받을 수 없는 구조였음 -> 지금은 AX 관련해서 전사 교육 쪽으로 가볼까 함",
+      "normalized": {
+        "text": "이전에도 B2B를 하긴 했으나 1:1 커스텀 식으로 진행돼서 많은 고객사를 받을 수 없는 구조였음 -> 지금은 AX 관련해서 전사 교육 쪽으로 가볼까 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "이전에도 B2B를 하긴 했으나 1:1 커스텀 식으로 진행돼서 많은 고객사를 받을 수 없는 구조였음 -> 지금은 AX 관련해서 전사 교육 쪽으로 가볼까 함",
+          "start_char": 107,
+          "end_char": 192
+        }
+      ],
+      "dedupe_key": "action_item:ca709283e18b2a30",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 211,
+          "end_char": 214
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "기타)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 425,
+          "end_char": 428
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3주",
+      "normalized": {
+        "value": 3.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "A)"
+          ],
+          "exact_quote": "3주",
+          "start_char": 342,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "duration:42e48959b88c9004",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W159",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "수요일 오전에 저는 두핸즈(품고) 미팅이어서 참여가 어렵네요 ㅠㅠㅠ 이 날 다 해결해버리면 참 좋을텐데....!후속 액션은 다음과 같습니다.",
+      "normalized": {
+        "text": "수요일 오전에 저는 두핸즈(품고) 미팅이어서 참여가 어렵네요 ㅠㅠㅠ 이 날 다 해결해버리면 참 좋을텐데....!후속 액션은 다음과 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "수요일 오전에 저는 두핸즈(품고) 미팅이어서 참여가 어렵네요 ㅠㅠㅠ 이 날 다 해결해버리면 참 좋을텐데....!후속 액션은 다음과 같습니다.",
+          "start_char": 179,
+          "end_char": 257
+        }
+      ],
+      "dedupe_key": "risk_or_concern:99e7e87cc15eb8fd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1/ DB 모수는 확인했으므로, 예상 미팅 수립 수 관련 리멤버팀과 논의",
+      "normalized": {
+        "text": "1/ DB 모수는 확인했으므로, 예상 미팅 수립 수 관련 리멤버팀과 논의",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1/ DB 모수는 확인했으므로, 예상 미팅 수립 수 관련 리멤버팀과 논의",
+          "start_char": 258,
+          "end_char": 298
+        }
+      ],
+      "dedupe_key": "action_item:b2f2dec4fbc85e74",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 리멤버 & 리캐치 & 에스앤아이 3자 미팅 진행하며 기대치 조율",
+      "normalized": {
+        "text": "2/ 리멤버 & 리캐치 & 에스앤아이 3자 미팅 진행하며 기대치 조율",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2/ 리멤버 & 리캐치 & 에스앤아이 3자 미팅 진행하며 기대치 조율",
+          "start_char": 299,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "action_item:4c240f1f3a2d0d88",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ 기대치조율 잘 되면, 리멤버팀으로부터 받은 예상 미팅 수립 수 기준으로 ROI positive 장표 다시 제작",
+      "normalized": {
+        "text": "3/ 기대치조율 잘 되면, 리멤버팀으로부터 받은 예상 미팅 수립 수 기준으로 ROI positive 장표 다시 제작",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3/ 기대치조율 잘 되면, 리멤버팀으로부터 받은 예상 미팅 수립 수 기준으로 ROI positive 장표 다시 제작",
+          "start_char": 338,
+          "end_char": 402
+        }
+      ],
+      "dedupe_key": "action_item:2401aaad93f0052e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales",
+      "normalized": {
+        "name": "sales"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales",
+          "start_char": 44,
+          "end_char": 50
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:762d76d9d0885ba8",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 51,
+          "end_char": 55
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@growth",
+      "normalized": {
+        "name": "growth"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@growth",
+          "start_char": 65,
+          "end_char": 72
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:8c1806379a3036f7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 11,
+          "end_char": 16
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 417,
+          "end_char": 422
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 428,
+          "end_char": 433
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 512,
+          "end_char": 517
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2천만원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2천만원",
+          "start_char": 110,
+          "end_char": 114
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 308,
+          "end_char": 311
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

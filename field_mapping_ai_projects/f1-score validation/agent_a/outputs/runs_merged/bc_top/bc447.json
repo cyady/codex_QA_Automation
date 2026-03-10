@@ -1,0 +1,601 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W447",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[인벡터 - 잠재매출 5,000만원 ~ 7,000만원] 260116_미팅 주요 내용 @sales상장사/대기업 C-Level 타겟팅을 위한 리멤버 협업 ABM 패키지 제안 건입니다.",
+      "normalized": {
+        "text": "[인벡터 - 잠재매출 5,000만원 ~ 7,000만원] 260116_미팅 주요 내용 @sales상장사/대기업 C-Level 타겟팅을 위한 리멤버 협업 ABM 패키지 제안 건입니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[인벡터 - 잠재매출 5,000만원 ~ 7,000만원] 260116_미팅 주요 내용 @sales상장사/대기업 C-Level 타겟팅을 위한 리멤버 협업 ABM 패키지 제안 건입니다.",
+          "start_char": 0,
+          "end_char": 100
+        }
+      ],
+      "dedupe_key": "collaboration_need:8b372c44d67b996b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales상장사",
+      "normalized": {
+        "name": "sales상장사"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales상장사",
+          "start_char": 47,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d38d6db8f47f6702",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 14,
+          "end_char": 19
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 24,
+          "end_char": 29
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 337,
+          "end_char": 342
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 347,
+          "end_char": 352
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 395,
+          "end_char": 400
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 423,
+          "end_char": 428
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "ABM",
+          "start_char": 84,
+          "end_char": 87
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Business Canvas: 리멤버 DB 내 타겟 모수(상장사 CFO, 재무/회계/공시팀 등) 체크하여 차주 중 전달",
+      "normalized": {
+        "text": "Business Canvas: 리멤버 DB 내 타겟 모수(상장사 CFO, 재무/회계/공시팀 등) 체크하여 차주 중 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "Business Canvas: 리멤버 DB 내 타겟 모수(상장사 CFO, 재무/회계/공시팀 등) 체크하여 차주 중 전달",
+          "start_char": 467,
+          "end_char": 533
+        }
+      ],
+      "dedupe_key": "collaboration_need:5c86cb0c1e48ec8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Business Canvas: 모수 확인 후 클라이언트 긍정 시 정식 제안서 작성 및 전달",
+      "normalized": {
+        "text": "Business Canvas: 모수 확인 후 클라이언트 긍정 시 정식 제안서 작성 및 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "Business Canvas: 모수 확인 후 클라이언트 긍정 시 정식 제안서 작성 및 전달",
+          "start_char": 537,
+          "end_char": 587
+        }
+      ],
+      "dedupe_key": "collaboration_need:3a3a663011f284d4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "협의 사항: 1~2월 중 계약/납입 논의, 실제 프로젝트 착수는 4월, 캠페인 라이브는 5~6월(반기 공시 시즌 전) 목표로 진행",
+      "normalized": {
+        "text": "협의 사항: 1~2월 중 계약/납입 논의, 실제 프로젝트 착수는 4월, 캠페인 라이브는 5~6월(반기 공시 시즌 전) 목표로 진행",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "협의 사항: 1~2월 중 계약/납입 논의, 실제 프로젝트 착수는 4월, 캠페인 라이브는 5~6월(반기 공시 시즌 전) 목표로 진행",
+          "start_char": 591,
+          "end_char": 663
+        }
+      ],
+      "dedupe_key": "action_item:d6b3062c8070477f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 668,
+          "end_char": 672
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "당사 리소스: 현재 프로젝트가 밀려있어 4월 착수 가능함 (고객사는 5~6월 캠페인 희망하여 일정은 맞음)",
+      "normalized": {
+        "text": "당사 리소스: 현재 프로젝트가 밀려있어 4월 착수 가능함 (고객사는 5~6월 캠페인 희망하여 일정은 맞음)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "당사 리소스: 현재 프로젝트가 밀려있어 4월 착수 가능함 (고객사는 5~6월 캠페인 희망하여 일정은 맞음)",
+          "start_char": 782,
+          "end_char": 841
+        }
+      ],
+      "dedupe_key": "collaboration_need:441ddecd75ba850d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "전환율 불확실성: 리멤버 DB 타겟팅 시 실제 유효 리드 전환율에 대한 검증 필요",
+      "normalized": {
+        "text": "전환율 불확실성: 리멤버 DB 타겟팅 시 실제 유효 리드 전환율에 대한 검증 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [],
+          "exact_quote": "전환율 불확실성: 리멤버 DB 타겟팅 시 실제 유효 리드 전환율에 대한 검증 필요",
+          "start_char": 842,
+          "end_char": 887
+        }
+      ],
+      "dedupe_key": "action_item:70478e9fa40b9da8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "실무진 설득엔 문제가 없으나 C-Level(CFO) 의사결정 장벽을 넘고자 하는 의지가 매우 강함",
+      "normalized": {
+        "text": "실무진 설득엔 문제가 없으나 C-Level(CFO) 의사결정 장벽을 넘고자 하는 의지가 매우 강함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [],
+          "exact_quote": "실무진 설득엔 문제가 없으나 C-Level(CFO) 의사결정 장벽을 넘고자 하는 의지가 매우 강함",
+          "start_char": 1007,
+          "end_char": 1061
+        }
+      ],
+      "dedupe_key": "risk_or_concern:edc88a0c1931a1fb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Budget",
+      "normalized": {
+        "text": "Budget",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "Budget",
+          "start_char": 1119,
+          "end_char": 1125
+        }
+      ],
+      "dedupe_key": "collaboration_need:8047e65c1bde565a",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "SaaS 객단가가 높아(1,200만원) 5건만 성사되어도 ROI가 나온다는 판단하에 비용 집행 여력 충분",
+      "normalized": {
+        "text": "SaaS 객단가가 높아(1,200만원) 5건만 성사되어도 ROI가 나온다는 판단하에 비용 집행 여력 충분",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "SaaS 객단가가 높아(1,200만원) 5건만 성사되어도 ROI가 나온다는 판단하에 비용 집행 여력 충분",
+          "start_char": 1126,
+          "end_char": 1184
+        }
+      ],
+      "dedupe_key": "collaboration_need:4d871cd1949989ad",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "200만원",
+      "normalized": {
+        "value": 2000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "200만원",
+          "start_char": 1141,
+          "end_char": 1146
+        }
+      ],
+      "dedupe_key": "budget:8cfc9506a8025c76",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "5건",
+      "normalized": {
+        "value": 5,
+        "unit": "cases",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "5건",
+          "start_char": 1148,
+          "end_char": 1150
+        }
+      ],
+      "dedupe_key": "case_metric:f92d6c1dc8d2a584",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "C-Level 타겟팅: 실무진(User)은 만족하나, 결정권자(CFO)가 '회계법인 선호/리스크 회피' 성향으로 도입을 막는 상황 타개 필요",
+      "normalized": {
+        "text": "C-Level 타겟팅: 실무진(User)은 만족하나, 결정권자(CFO)가 '회계법인 선호/리스크 회피' 성향으로 도입을 막는 상황 타개 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "대표이사로서 예산 집행 및 계약 체결 전권 보유"
+          ],
+          "exact_quote": "C-Level 타겟팅: 실무진(User)은 만족하나, 결정권자(CFO)가 '회계법인 선호/리스크 회피' 성향으로 도입을 막는 상황 타개 필요",
+          "start_char": 1255,
+          "end_char": 1333
+        }
+      ],
+      "dedupe_key": "risk_or_concern:7e5b9531116018ab",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "고퀄리티 리드 확보: 불특정 다수보다는 타겟팅된 상장사/대기업 의사결정권자 접촉 희망",
+      "normalized": {
+        "text": "고퀄리티 리드 확보: 불특정 다수보다는 타겟팅된 상장사/대기업 의사결정권자 접촉 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "대표이사로서 예산 집행 및 계약 체결 전권 보유"
+          ],
+          "exact_quote": "고퀄리티 리드 확보: 불특정 다수보다는 타겟팅된 상장사/대기업 의사결정권자 접촉 희망",
+          "start_char": 1334,
+          "end_char": 1381
+        }
+      ],
+      "dedupe_key": "collaboration_need:88dbad4594257877",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Timing",
+      "normalized": {
+        "text": "Timing",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "Timing",
+          "start_char": 1422,
+          "end_char": 1428
+        }
+      ],
+      "dedupe_key": "collaboration_need:c1498e55b5b71f49",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "캠페인 시점: 반기 보고서 제출(8월 말) 대비를 위해 5월 말~6월 초 캠페인 시작 필수",
+      "normalized": {
+        "text": "캠페인 시점: 반기 보고서 제출(8월 말) 대비를 위해 5월 말~6월 초 캠페인 시작 필수",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "캠페인 시점: 반기 보고서 제출(8월 말) 대비를 위해 5월 말~6월 초 캠페인 시작 필수",
+          "start_char": 1429,
+          "end_char": 1479
+        }
+      ],
+      "dedupe_key": "collaboration_need:0745f62f1d78d7aa",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "계약 시점: 1~2월 중 미리 커밋하고 대금 납입할 의향 있음 (할인 혜택 기대) @김한규(Lucky",
+      "normalized": {
+        "text": "계약 시점: 1~2월 중 미리 커밋하고 대금 납입할 의향 있음 (할인 혜택 기대) @김한규(Lucky",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "계약 시점: 1~2월 중 미리 커밋하고 대금 납입할 의향 있음 (할인 혜택 기대) @김한규(Lucky",
+          "start_char": 1480,
+          "end_char": 1536
+        }
+      ],
+      "dedupe_key": "collaboration_need:3122a13e8f1ebbcd",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "@김한규",
+          "start_char": 1526,
+          "end_char": 1530
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "8월 말",
+      "normalized": {
+        "month": 8,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "8월 말",
+          "start_char": 1447,
+          "end_char": 1451
+        }
+      ],
+      "dedupe_key": "timeline:8a5715291b050a38",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "5월 말",
+      "normalized": {
+        "month": 5,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "5월 말",
+          "start_char": 1460,
+          "end_char": 1464
+        }
+      ],
+      "dedupe_key": "timeline:99f3be9f2da096e7",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "6월 초",
+      "normalized": {
+        "month": 6,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            "참고: CRM 도입 니즈는 없음(고객사 수가 적어 엑셀 관리 가능)"
+          ],
+          "exact_quote": "6월 초",
+          "start_char": 1465,
+          "end_char": 1469
+        }
+      ],
+      "dedupe_key": "timeline:a9e20a1965efc3e2",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

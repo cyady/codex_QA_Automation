@@ -1,0 +1,1038 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W314",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "1. 핵심 내용",
+      "normalized": {
+        "text": "1. 핵심 내용",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "1. 핵심 내용",
+          "start_char": 41,
+          "end_char": 49
+        }
+      ],
+      "dedupe_key": "other:6a6b3262f6427ec2",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+      "normalized": {
+        "text": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+          "start_char": 50,
+          "end_char": 171
+        }
+      ],
+      "dedupe_key": "other:f0858c1d55aec3de",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+      "normalized": {
+        "text": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "12월 런칭 예정인 필라테스 센터 관리 SaaS(로컬비)의 대표가 웹사이트 구축 및 그로스 마케팅(SEO) 문의를 진행했습니다. 예산 차이로 인해 당장 계약보다는 자체 제작 후 추후 협업 가능성을 열어두기로 했습니다.",
+          "start_char": 50,
+          "end_char": 171
+        }
+      ],
+      "dedupe_key": "action_item:823737d32fb3e7a3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 105,
+          "end_char": 108
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 605,
+          "end_char": 608
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 728,
+          "end_char": 731
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 737,
+          "end_char": 740
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 761,
+          "end_char": 764
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1203,
+          "end_char": 1206
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1291,
+          "end_char": 1294
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "2. BANT 분석",
+      "normalized": {
+        "text": "2. BANT 분석",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "2. BANT 분석",
+          "start_char": 172,
+          "end_char": 182
+        }
+      ],
+      "dedupe_key": "other:115d8bef26de990c",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(1) Budget (예산)",
+      "normalized": {
+        "text": "(1) Budget (예산)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "(1) Budget (예산)",
+          "start_char": 183,
+          "end_char": 198
+        }
+      ],
+      "dedupe_key": "other:6a7d05278b6df6e5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "현황: 초기 창업팀(2인)으로 현재 지원사업이나 투자금 없이 자비로 운영 중입니다.",
+      "normalized": {
+        "text": "현황: 초기 창업팀(2인)으로 현재 지원사업이나 투자금 없이 자비로 운영 중입니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "현황: 초기 창업팀(2인)으로 현재 지원사업이나 투자금 없이 자비로 운영 중입니다.",
+          "start_char": 204,
+          "end_char": 250
+        }
+      ],
+      "dedupe_key": "other:8e9d05aa3a112e20",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "인식된 비용: 이전 컨설턴트로부터 5페이지 기준 약 2,500만 원 견적을 받고 예산 차이가 크다고 느끼고 있습니다.",
+      "normalized": {
+        "text": "인식된 비용: 이전 컨설턴트로부터 5페이지 기준 약 2,500만 원 견적을 받고 예산 차이가 크다고 느끼고 있습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "인식된 비용: 이전 컨설턴트로부터 5페이지 기준 약 2,500만 원 견적을 받고 예산 차이가 크다고 느끼고 있습니다.",
+          "start_char": 254,
+          "end_char": 319
+        }
+      ],
+      "dedupe_key": "other:df6faecf901117e8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "500만 원",
+          "start_char": 285,
+          "end_char": 291
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+      "normalized": {
+        "text": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+          "start_char": 323,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "other:d83f12af8fae73fc",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+      "normalized": {
+        "text": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "협의 내용: 공급자 측에서 페이지 수를 줄여(원페이저+블로그) 약 1,000만 원 수준으로 조정 가능성을 제시했으나, 고객은 효과 보장이 없는 상태에서 리스크가 크다고 판단했습니다.",
+          "start_char": 323,
+          "end_char": 424
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9f00c0446bb33639",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만 원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "000만 원",
+          "start_char": 362,
+          "end_char": 368
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 353,
+          "end_char": 356
+        },
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1529,
+          "end_char": 1532
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(2) Authority (결정 권한)",
+      "normalized": {
+        "text": "(2) Authority (결정 권한)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "(2) Authority (결정 권한)",
+          "start_char": 426,
+          "end_char": 447
+        }
+      ],
+      "dedupe_key": "other:b7b359ef55a3aaa5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "결정권자: 로컬비 대표가 직접 미팅에 참석했으며, 기획 및 의사결정을 주도합니다.",
+      "normalized": {
+        "text": "결정권자: 로컬비 대표가 직접 미팅에 참석했으며, 기획 및 의사결정을 주도합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "결정권자: 로컬비 대표가 직접 미팅에 참석했으며, 기획 및 의사결정을 주도합니다.",
+          "start_char": 453,
+          "end_char": 498
+        }
+      ],
+      "dedupe_key": "other:65616a3509f94c12",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+      "normalized": {
+        "text": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+          "start_char": 502,
+          "end_char": 564
+        }
+      ],
+      "dedupe_key": "other:3eed783eff0d9711",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+      "normalized": {
+        "text": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "팀 구성: 현재 2명으로 구성된 초기 팀이며, 대표가 직접 피그마로 기획을 진행할 수 있는 역량을 보유했습니다.",
+          "start_char": 502,
+          "end_char": 564
+        }
+      ],
+      "dedupe_key": "action_item:385279af563d2e75",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "2명",
+          "start_char": 511,
+          "end_char": 513
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(3) Need (니즈)",
+      "normalized": {
+        "text": "(3) Need (니즈)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "(3) Need (니즈)",
+          "start_char": 566,
+          "end_char": 579
+        }
+      ],
+      "dedupe_key": "other:77f875ac6ac09fd1",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+      "normalized": {
+        "text": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+          "start_char": 585,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "other:1b3c1eba084574f1",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+      "normalized": {
+        "text": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "핵심 니즈: 개발은 가능하나 마케팅/SEO 전문성이 부족하여, 자연스러운 고객 유입(Inbound)을 만들 수 있는 웹사이트 구축 및 그로스 전략이 필요합니다.",
+          "start_char": 585,
+          "end_char": 674
+        }
+      ],
+      "dedupe_key": "action_item:62050bf9cb11e1a1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "타겟: 필라테스 센터 등 소상공인(B2B)을 대상으로 SaaS를 판매하고자 합니다.",
+      "normalized": {
+        "text": "타겟: 필라테스 센터 등 소상공인(B2B)을 대상으로 SaaS를 판매하고자 합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "타겟: 필라테스 센터 등 소상공인(B2B)을 대상으로 SaaS를 판매하고자 합니다.",
+          "start_char": 678,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "other:847d8b5119e8cdfa",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "SEO 관심사: SEO적으로 잘된 사이트의 기준, 테크니컬 SEO(H태그 등), 콘텐츠 마케팅 방법에 대한 조언을 구했습니다.",
+      "normalized": {
+        "text": "SEO 관심사: SEO적으로 잘된 사이트의 기준, 테크니컬 SEO(H태그 등), 콘텐츠 마케팅 방법에 대한 조언을 구했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "SEO 관심사: SEO적으로 잘된 사이트의 기준, 테크니컬 SEO(H태그 등), 콘텐츠 마케팅 방법에 대한 조언을 구했습니다.",
+          "start_char": 728,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "other:84333877cb2ad6c3",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+      "normalized": {
+        "text": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+          "start_char": 802,
+          "end_char": 860
+        }
+      ],
+      "dedupe_key": "other:aea44fd075a6114f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+      "normalized": {
+        "text": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "우려 사항: 마케팅 예산을 집행했을 때 실제 리드 유입 효과가 있을지에 대한 불확실성을 가지고 있습니다.",
+          "start_char": 802,
+          "end_char": 860
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9925beb526e143b9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(4) Timing (시기)",
+      "normalized": {
+        "text": "(4) Timing (시기)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "(4) Timing (시기)",
+          "start_char": 862,
+          "end_char": 877
+        }
+      ],
+      "dedupe_key": "other:d36e88a6fc6b1f4a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "런칭 목표: 2025년 12월 중 서비스 오픈 예정입니다.",
+      "normalized": {
+        "text": "런칭 목표: 2025년 12월 중 서비스 오픈 예정입니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "런칭 목표: 2025년 12월 중 서비스 오픈 예정입니다.",
+          "start_char": 883,
+          "end_char": 915
+        }
+      ],
+      "dedupe_key": "other:62387076dd8d39c3",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "긴급 이슈: 아직 도메인을 구매하지 않았습니다. 구글 '샌드박스 기간(신규 도메인 노출 지연, 약 3개월~1년)'을 고려해 도메인 구매가 시급합니다.",
+      "normalized": {
+        "text": "긴급 이슈: 아직 도메인을 구매하지 않았습니다. 구글 '샌드박스 기간(신규 도메인 노출 지연, 약 3개월~1년)'을 고려해 도메인 구매가 시급합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "긴급 이슈: 아직 도메인을 구매하지 않았습니다. 구글 '샌드박스 기간(신규 도메인 노출 지연, 약 3개월~1년)'을 고려해 도메인 구매가 시급합니다.",
+          "start_char": 919,
+          "end_char": 1002
+        }
+      ],
+      "dedupe_key": "other:ca18b6900319b41b",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "약 3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "약 3개월",
+          "start_char": 972,
+          "end_char": 977
+        }
+      ],
+      "dedupe_key": "duration:da4225ef91c28429",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+      "normalized": {
+        "text": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+          "start_char": 1006,
+          "end_char": 1088
+        }
+      ],
+      "dedupe_key": "other:57e527ce74f4c517",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+      "normalized": {
+        "text": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "도입 시기: 예산 문제로 당장 패키지 도입은 어려우며, 자체 제작(아임웹, 프레이머 등)으로 초기 검증 후 자금 확보 시 다시 논의하기로 했습니다.",
+          "start_char": 1006,
+          "end_char": 1088
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0d3de5a4abde4c1a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "3. 주요 논의 및 조언 사항 (Consulting Points)",
+      "normalized": {
+        "text": "3. 주요 논의 및 조언 사항 (Consulting Points)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "3. 주요 논의 및 조언 사항 (Consulting Points)",
+          "start_char": 1090,
+          "end_char": 1126
+        }
+      ],
+      "dedupe_key": "other:c3fe677f93bf1a65",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "도메인 구매: 구글 샌드박스 기간을 고려하여 최대한 빨리 도메인을 선점할 것을 권장했습니다.",
+      "normalized": {
+        "text": "도메인 구매: 구글 샌드박스 기간을 고려하여 최대한 빨리 도메인을 선점할 것을 권장했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "도메인 구매: 구글 샌드박스 기간을 고려하여 최대한 빨리 도메인을 선점할 것을 권장했습니다.",
+          "start_char": 1132,
+          "end_char": 1183
+        }
+      ],
+      "dedupe_key": "other:f5cb1f517c943f70",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "초기 마케팅 전략: 초반에는 SEO 효과가 나타나기까지 시간이 걸리므로 키워드 광고를 메인으로 하되, 장기적 비용 절감을 위해 콘텐츠 마케팅을 병행해야 함을 조언했습니다.",
+      "normalized": {
+        "text": "초기 마케팅 전략: 초반에는 SEO 효과가 나타나기까지 시간이 걸리므로 키워드 광고를 메인으로 하되, 장기적 비용 절감을 위해 콘텐츠 마케팅을 병행해야 함을 조언했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "초기 마케팅 전략: 초반에는 SEO 효과가 나타나기까지 시간이 걸리므로 키워드 광고를 메인으로 하되, 장기적 비용 절감을 위해 콘텐츠 마케팅을 병행해야 함을 조언했습니다.",
+          "start_char": 1187,
+          "end_char": 1282
+        }
+      ],
+      "dedupe_key": "other:635e444a54ed2fb0",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "테크니컬 SEO: 구글 봇이 이해하기 쉽도록 H1, H2 태그를 코드로 잘 심어야 함을 강조했습니다.",
+      "normalized": {
+        "text": "테크니컬 SEO: 구글 봇이 이해하기 쉽도록 H1, H2 태그를 코드로 잘 심어야 함을 강조했습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "테크니컬 SEO: 구글 봇이 이해하기 쉽도록 H1, H2 태그를 코드로 잘 심어야 함을 강조했습니다.",
+          "start_char": 1286,
+          "end_char": 1342
+        }
+      ],
+      "dedupe_key": "other:1ccec24e65aa8bfe",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "백링크: 양질의 콘텐츠를 통해 외부 사이트에서 인용되도록 하는 것이 중요합니다.",
+      "normalized": {
+        "text": "백링크: 양질의 콘텐츠를 통해 외부 사이트에서 인용되도록 하는 것이 중요합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "백링크: 양질의 콘텐츠를 통해 외부 사이트에서 인용되도록 하는 것이 중요합니다.",
+          "start_char": 1346,
+          "end_char": 1390
+        }
+      ],
+      "dedupe_key": "other:07f70a2a13477854",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "타겟 최적화: 소상공인 타겟 특성상 구글뿐만 아니라 네이버 검색 및 지도 최적화도 고려해야 합니다.",
+      "normalized": {
+        "text": "타겟 최적화: 소상공인 타겟 특성상 구글뿐만 아니라 네이버 검색 및 지도 최적화도 고려해야 합니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "타겟 최적화: 소상공인 타겟 특성상 구글뿐만 아니라 네이버 검색 및 지도 최적화도 고려해야 합니다.",
+          "start_char": 1394,
+          "end_char": 1449
+        }
+      ],
+      "dedupe_key": "other:09c4cf934e63a218",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "4. Next Step (향후 계획)",
+      "normalized": {
+        "text": "4. Next Step (향후 계획)",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "4. Next Step (향후 계획)",
+          "start_char": 1451,
+          "end_char": 1471
+        }
+      ],
+      "dedupe_key": "other:5403aa601980ee4a",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0039",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "고객(로컬비): 도메인을 즉시 구매하고, 피그마나 아임웹 등을 활용해 자체적으로 웹사이트 및 블로그 구축을 시도할 예정입니다.",
+      "normalized": {
+        "text": "고객(로컬비): 도메인을 즉시 구매하고, 피그마나 아임웹 등을 활용해 자체적으로 웹사이트 및 블로그 구축을 시도할 예정입니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "고객(로컬비): 도메인을 즉시 구매하고, 피그마나 아임웹 등을 활용해 자체적으로 웹사이트 및 블로그 구축을 시도할 예정입니다.",
+          "start_char": 1477,
+          "end_char": 1547
+        }
+      ],
+      "dedupe_key": "other:a523b2a0540b144d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0040",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "공급자: 당장의 계약보다는 응원하는 관계로 마무리하며, 추후 고객의 예산이 확보되거나 지원사업 선정 시 재논의 가능성을 열어두었습니다.",
+      "normalized": {
+        "text": "공급자: 당장의 계약보다는 응원하는 관계로 마무리하며, 추후 고객의 예산이 확보되거나 지원사업 선정 시 재논의 가능성을 열어두었습니다.",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "[미팅 요약] 로컬비(LocalB) 웹사이트 구축 및 SEO 패키지 문의"
+          ],
+          "exact_quote": "공급자: 당장의 계약보다는 응원하는 관계로 마무리하며, 추후 고객의 예산이 확보되거나 지원사업 선정 시 재논의 가능성을 열어두었습니다.",
+          "start_char": 1551,
+          "end_char": 1626
+        }
+      ],
+      "dedupe_key": "other:c9de2309784b1d04",
+      "confidence": 0.82
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

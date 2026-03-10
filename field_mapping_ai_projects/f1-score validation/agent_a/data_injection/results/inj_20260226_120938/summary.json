@@ -1,0 +1,98 @@
+[
+  {
+    "idx": 1,
+    "case_id": "TF-001",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/001_TF-001_target_field_injection.json"
+  },
+  {
+    "idx": 2,
+    "case_id": "TF-002",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/002_TF-002_target_field_injection.json"
+  },
+  {
+    "idx": 3,
+    "case_id": "TF-003",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/003_TF-003_target_field_injection.json"
+  },
+  {
+    "idx": 4,
+    "case_id": "TF-004",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/004_TF-004_target_field_injection.json"
+  },
+  {
+    "idx": 5,
+    "case_id": "TF-005",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/005_TF-005_target_field_injection.json"
+  },
+  {
+    "idx": 6,
+    "case_id": "TF-006",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/006_TF-006_target_field_injection.json"
+  },
+  {
+    "idx": 7,
+    "case_id": "TF-007",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/007_TF-007_target_field_injection.json"
+  },
+  {
+    "idx": 8,
+    "case_id": "TF-008",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/008_TF-008_target_field_injection.json"
+  },
+  {
+    "idx": 9,
+    "case_id": "TF-009",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/009_TF-009_target_field_injection.json"
+  },
+  {
+    "idx": 10,
+    "case_id": "TF-010",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/010_TF-010_target_field_injection.json"
+  },
+  {
+    "idx": 11,
+    "case_id": "TF-011",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/011_TF-011_target_field_injection.json"
+  },
+  {
+    "idx": 12,
+    "case_id": "TF-012",
+    "technique": "target_field_injection",
+    "status": 201,
+    "attempt": 1,
+    "response_file": "inj_20260226_120938/012_TF-012_target_field_injection.json"
+  }
+]

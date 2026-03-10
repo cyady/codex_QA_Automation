@@ -1,0 +1,124 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W360",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 올해 CES에서는 관련 산업 바이어들을 만날 수 있을 것으로 기대하고 있으며, 아직 첫날이라 확정적 평가는 어려운 상황임",
+      "normalized": {
+        "text": "- 올해 CES에서는 관련 산업 바이어들을 만날 수 있을 것으로 기대하고 있으며, 아직 첫날이라 확정적 평가는 어려운 상황임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [],
+          "exact_quote": "- 올해 CES에서는 관련 산업 바이어들을 만날 수 있을 것으로 기대하고 있으며, 아직 첫날이라 확정적 평가는 어려운 상황임",
+          "start_char": 1207,
+          "end_char": 1276
+        }
+      ],
+      "dedupe_key": "action_item:398f62f72b3220cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 이메일 솔루션은 지메일을 기본으로 사용하고 있으며, 마케팅 자동화 도구나 전문 이메일 발송 툴은 활용하지 않음",
+      "normalized": {
+        "text": "- 이메일 솔루션은 지메일을 기본으로 사용하고 있으며, 마케팅 자동화 도구나 전문 이메일 발송 툴은 활용하지 않음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [],
+          "exact_quote": "- 이메일 솔루션은 지메일을 기본으로 사용하고 있으며, 마케팅 자동화 도구나 전문 이메일 발송 툴은 활용하지 않음",
+          "start_char": 1659,
+          "end_char": 1722
+        }
+      ],
+      "dedupe_key": "action_item:a2debb29835f6a8a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "12개",
+      "normalized": {
+        "value": 12,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [],
+          "exact_quote": "12개",
+          "start_char": 1805,
+          "end_char": 1808
+        }
+      ],
+      "dedupe_key": "case_metric:1316310a23df6e6c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 물류 사업도 진행하고 있으며, 곧 FNS라는 기업과 계약 예정으로 물류사 쪽 첫 계약을 앞두고 있음",
+      "normalized": {
+        "text": "- 물류 사업도 진행하고 있으며, 곧 FNS라는 기업과 계약 예정으로 물류사 쪽 첫 계약을 앞두고 있음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [],
+          "exact_quote": "- 물류 사업도 진행하고 있으며, 곧 FNS라는 기업과 계약 예정으로 물류사 쪽 첫 계약을 앞두고 있음",
+          "start_char": 2126,
+          "end_char": 2183
+        }
+      ],
+      "dedupe_key": "action_item:1218200247e348ed",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 제품의 경쟁력과 레퍼런스는 우수하나, 글로벌 마케팅과 세일즈 실행 역량이 부족하여 체계적 지원이 필요한 상황임",
+      "normalized": {
+        "text": "- 제품의 경쟁력과 레퍼런스는 우수하나, 글로벌 마케팅과 세일즈 실행 역량이 부족하여 체계적 지원이 필요한 상황임",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [],
+          "exact_quote": "- 제품의 경쟁력과 레퍼런스는 우수하나, 글로벌 마케팅과 세일즈 실행 역량이 부족하여 체계적 지원이 필요한 상황임",
+          "start_char": 2185,
+          "end_char": 2248
+        }
+      ],
+      "dedupe_key": "action_item:c023311379969ca4",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

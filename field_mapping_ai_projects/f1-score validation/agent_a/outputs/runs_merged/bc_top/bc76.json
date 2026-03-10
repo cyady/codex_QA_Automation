@@ -1,0 +1,1146 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W76",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 99,
+          "end_char": 102
+        },
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1805,
+          "end_char": 1808
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1909,
+          "end_char": 1912
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **미팅 목적**: ABM(Account Based Marketing) 상품 관련 궁금증 해소, 콘텐츠 제작 프로세스 공유, 홈페이지 개선 및 뉴스레터 발행 협의",
+      "normalized": {
+        "text": "*   **미팅 목적**: ABM(Account Based Marketing) 상품 관련 궁금증 해소, 콘텐츠 제작 프로세스 공유, 홈페이지 개선 및 뉴스레터 발행 협의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **미팅 목적**: ABM(Account Based Marketing) 상품 관련 궁금증 해소, 콘텐츠 제작 프로세스 공유, 홈페이지 개선 및 뉴스레터 발행 협의",
+          "start_char": 139,
+          "end_char": 233
+        }
+      ],
+      "dedupe_key": "collaboration_need:0342adb3174aaa0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 154,
+          "end_char": 157
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1656,
+          "end_char": 1659
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 223,
+          "end_char": 227
+        },
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1666,
+          "end_char": 1670
+        },
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1744,
+          "end_char": 1748
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1902,
+          "end_char": 1906
+        },
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "뉴스레터",
+          "start_char": 1925,
+          "end_char": 1929
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **전체적인 대화 흐름**: 사무실 입주 축하 및 가벼운 대화로 시작하여, 타겟 모수 확인, NHN/SNI 등 기존 레퍼런스 상세 분석, 리캐치(Recatch) 툴 활용법 시연, 향후 콘텐츠 제작 및 홈페이지 개선 일정 협의 순으로 진행되었습니다.",
+      "normalized": {
+        "text": "*   **전체적인 대화 흐름**: 사무실 입주 축하 및 가벼운 대화로 시작하여, 타겟 모수 확인, NHN/SNI 등 기존 레퍼런스 상세 분석, 리캐치(Recatch) 툴 활용법 시연, 향후 콘텐츠 제작 및 홈페이지 개선 일정 협의 순으로 진행되었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **전체적인 대화 흐름**: 사무실 입주 축하 및 가벼운 대화로 시작하여, 타겟 모수 확인, NHN/SNI 등 기존 레퍼런스 상세 분석, 리캐치(Recatch) 툴 활용법 시연, 향후 콘텐츠 제작 및 홈페이지 개선 일정 협의 순으로 진행되었습니다.",
+          "start_char": 234,
+          "end_char": 376
+        }
+      ],
+      "dedupe_key": "action_item:7c3455d161620a5b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "Recatch",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 319,
+          "end_char": 326
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "Recatch",
+          "start_char": 963,
+          "end_char": 970
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 315,
+          "end_char": 318
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 959,
+          "end_char": 962
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 998,
+          "end_char": 1001
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "200명",
+      "normalized": {
+        "value": 200,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "200명",
+          "start_char": 434,
+          "end_char": 438
+        }
+      ],
+      "dedupe_key": "people_count:b3781d6f71e6efa5",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "000명",
+      "normalized": {
+        "value": 0,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "000명",
+          "start_char": 469,
+          "end_char": 473
+        }
+      ],
+      "dedupe_key": "people_count:ef1bc41d6ca71f1b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   고객 요청으로 **C-레벨 및 ESG 팀을 제외**하고 팀장급 이하 실무자 타겟팅 시 모수는 약 **17,000명**으로 감소 (대기업 특성상 한 기업에 임원급이 많아 제외 시 모수가 크게 줄어듦).",
+      "normalized": {
+        "text": "*   고객 요청으로 **C-레벨 및 ESG 팀을 제외**하고 팀장급 이하 실무자 타겟팅 시 모수는 약 **17,000명**으로 감소 (대기업 특성상 한 기업에 임원급이 많아 제외 시 모수가 크게 줄어듦).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   고객 요청으로 **C-레벨 및 ESG 팀을 제외**하고 팀장급 이하 실무자 타겟팅 시 모수는 약 **17,000명**으로 감소 (대기업 특성상 한 기업에 임원급이 많아 제외 시 모수가 크게 줄어듦).",
+          "start_char": 479,
+          "end_char": 594
+        }
+      ],
+      "dedupe_key": "action_item:c2692f441a52d616",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "000명",
+      "normalized": {
+        "value": 0,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "000명",
+          "start_char": 542,
+          "end_char": 546
+        }
+      ],
+      "dedupe_key": "target_population:ef1bc41d6ca71f1b",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **NHN**: 약 3.3만 명 모수에서 200여 건의 데이터 수집 성공 (8회 푸시 발송).",
+      "normalized": {
+        "text": "*   **NHN**: 약 3.3만 명 모수에서 200여 건의 데이터 수집 성공 (8회 푸시 발송).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **NHN**: 약 3.3만 명 모수에서 200여 건의 데이터 수집 성공 (8회 푸시 발송).",
+          "start_char": 691,
+          "end_char": 747
+        }
+      ],
+      "dedupe_key": "action_item:d232645f07ac1630",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 3.3만 명",
+      "normalized": {
+        "value": 33000,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "약 3.3만 명",
+          "start_char": 704,
+          "end_char": 712
+        }
+      ],
+      "dedupe_key": "target_population:488d3638c5e48ef8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "200여 건",
+      "normalized": {
+        "value": 200,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "200여 건",
+          "start_char": 718,
+          "end_char": 724
+        }
+      ],
+      "dedupe_key": "sales_activity:255fe70634c80d93",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **SNI**: 약 2.8만 명 모수에서 150여 건 수집 (4~5회 푸시). 특히 **SDR(Sales Development Representative) 콜**을 통해 실제 SK ON CSO 등과 미팅 어레인지 성공 사례 공유.",
+      "normalized": {
+        "text": "*   **SNI**: 약 2.8만 명 모수에서 150여 건 수집 (4~5회 푸시). 특히 **SDR(Sales Development Representative) 콜**을 통해 실제 SK ON CSO 등과 미팅 어레인지 성공 사례 공유.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **SNI**: 약 2.8만 명 모수에서 150여 건 수집 (4~5회 푸시). 특히 **SDR(Sales Development Representative) 콜**을 통해 실제 SK ON CSO 등과 미팅 어레인지 성공 사례 공유.",
+          "start_char": 752,
+          "end_char": 884
+        }
+      ],
+      "dedupe_key": "collaboration_need:cf8e3e4099f8934f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number_range",
+      "raw_text": "4~5회",
+      "normalized": {
+        "min": 4.0,
+        "max": 5.0,
+        "unit": "times"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "4~5회",
+          "start_char": 790,
+          "end_char": 794
+        }
+      ],
+      "dedupe_key": "sales_activity:4e48b1ee55e90fe6",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "약 2.8만 명",
+      "normalized": {
+        "value": 28000,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "약 2.8만 명",
+          "start_char": 765,
+          "end_char": 773
+        }
+      ],
+      "dedupe_key": "target_population:be1e5fa6b673605e",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "number",
+      "raw_text": "150여 건",
+      "normalized": {
+        "value": 150,
+        "unit": "cases",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "150여 건",
+          "start_char": 779,
+          "end_char": 785
+        }
+      ],
+      "dedupe_key": "sales_activity:d70ae49497dc2473",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 805,
+          "end_char": 808
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**실무자 타겟팅의 어려움**: \"C-레벨보다는 실제 우리 제품을 사용하는 팀장이나 실무진에게 메시지가 닿기를 원한다.\"",
+      "normalized": {
+        "text": "**실무자 타겟팅의 어려움**: \"C-레벨보다는 실제 우리 제품을 사용하는 팀장이나 실무진에게 메시지가 닿기를 원한다.\""
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**실무자 타겟팅의 어려움**: \"C-레벨보다는 실제 우리 제품을 사용하는 팀장이나 실무진에게 메시지가 닿기를 원한다.\"",
+          "start_char": 1253,
+          "end_char": 1320
+        }
+      ],
+      "dedupe_key": "risk_or_concern:f37ed6bbd77d1790",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)",
+      "normalized": {
+        "text": "**디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)",
+          "start_char": 1325,
+          "end_char": 1451
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0e42d67b6dd11f38",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*   **디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)",
+      "normalized": {
+        "text": "*   **디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "*   **디지털 매체의 반응도 의문**: \"기존 오프라인 영업 위주였는데, 우리 고객군(시설 관리, 총무 등)이 디지털 미디어에서 반응할지가 가장 큰 궁금증이자 우려였다.\" (SNI 사례를 통해 유사 ICP의 반응을 확인하며 해소)",
+          "start_char": 1321,
+          "end_char": 1451
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d2e0fbb368120639",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**내부 KPI 달성**: \"조직에서는 결국 '그래서 얼마 벌었어?'를 묻기 때문에, 고퀄리티의 SQL(Sales Qualified Lead) 확보가 절실하다.\"",
+      "normalized": {
+        "text": "**내부 KPI 달성**: \"조직에서는 결국 '그래서 얼마 벌었어?'를 묻기 때문에, 고퀄리티의 SQL(Sales Qualified Lead) 확보가 절실하다.\""
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**내부 KPI 달성**: \"조직에서는 결국 '그래서 얼마 벌었어?'를 묻기 때문에, 고퀄리티의 SQL(Sales Qualified Lead) 확보가 절실하다.\"",
+          "start_char": 1456,
+          "end_char": 1546
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0a7f692455d3894d",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "kpi_definition",
+      "value_type": "text",
+      "raw_text": "SQL",
+      "normalized": {
+        "keyword": "SQL"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "SQL",
+          "start_char": 1510,
+          "end_char": 1513
+        }
+      ],
+      "dedupe_key": "kpi_definition:5851e96d79a2bc41",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "**보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려.",
+      "normalized": {
+        "text": "**보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "**보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려.",
+          "start_char": 1551,
+          "end_char": 1628
+        }
+      ],
+      "dedupe_key": "risk_or_concern:066618c9fa50b40f",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "*   **보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려.",
+      "normalized": {
+        "text": "*   **보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 3. 고객의 고민점과 니즈"
+          ],
+          "exact_quote": "*   **보안 및 백엔드 이슈**: 글로벌 보안 기준이 높아 홈페이지 개편 시 외부 툴(프레이머, 아임웹 등) 사용이 제한적일 수 있음을 우려.",
+          "start_char": 1547,
+          "end_char": 1628
+        }
+      ],
+      "dedupe_key": "risk_or_concern:c3c6d3f830938200",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1859,
+          "end_char": 1862
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **제안된 콘텐츠 예시**: '키퍼(Keeper)'의 노무 관리 가이드, CCTV 관련 백서 등 실제 제작 중인 시안 공유.",
+      "normalized": {
+        "text": "*   **제안된 콘텐츠 예시**: '키퍼(Keeper)'의 노무 관리 가이드, CCTV 관련 백서 등 실제 제작 중인 시안 공유.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 4. 제품/서비스 제안 내용"
+          ],
+          "exact_quote": "*   **제안된 콘텐츠 예시**: '키퍼(Keeper)'의 노무 관리 가이드, CCTV 관련 백서 등 실제 제작 중인 시안 공유.",
+          "start_char": 1943,
+          "end_char": 2016
+        }
+      ],
+      "dedupe_key": "collaboration_need:1ae13088e970674f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**수행 일정 협의**:",
+      "normalized": {
+        "text": "**수행 일정 협의**:"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**수행 일정 협의**:",
+          "start_char": 2043,
+          "end_char": 2056
+        }
+      ],
+      "dedupe_key": "action_item:bad2d0457cbe0572",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사 내부 비딩 프로세스가 2월 말 마무리 예정.",
+      "normalized": {
+        "text": "고객사 내부 비딩 프로세스가 2월 말 마무리 예정."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "고객사 내부 비딩 프로세스가 2월 말 마무리 예정.",
+          "start_char": 2065,
+          "end_char": 2093
+        }
+      ],
+      "dedupe_key": "action_item:e4165241ac3ab00c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 말",
+      "normalized": {
+        "month": 2,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0031",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "2월 말",
+          "start_char": 2081,
+          "end_char": 2085
+        }
+      ],
+      "dedupe_key": "timeline:a30ee9b7dc179b81",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력).",
+      "normalized": {
+        "text": "대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력)."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력).",
+          "start_char": 2102,
+          "end_char": 2159
+        }
+      ],
+      "dedupe_key": "action_item:8f6eeb81d5d4820e",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력).",
+      "normalized": {
+        "text": "*   대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력).",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   대행사는 3월 중순 인터뷰 및 제작 착수를 목표로 리소스 검토 (기존 4월 중순 대비 앞당기기 노력).",
+          "start_char": 2098,
+          "end_char": 2159
+        }
+      ],
+      "dedupe_key": "action_item:ae18e4fa13b6430b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "3월 중순",
+      "normalized": {
+        "month": 3,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "3월 중순",
+          "start_char": 2107,
+          "end_char": 2112
+        }
+      ],
+      "dedupe_key": "timeline:5d6f657c19bb1b0c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "4월 중순",
+      "normalized": {
+        "month": 4,
+        "part": "mid"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0032",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "4월 중순",
+          "start_char": 2141,
+          "end_char": 2146
+        }
+      ],
+      "dedupe_key": "timeline:e36a7c0972f2ae62",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려.",
+      "normalized": {
+        "text": "상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려.",
+          "start_char": 2168,
+          "end_char": 2204
+        }
+      ],
+      "dedupe_key": "action_item:84e3097a52583fcd",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려.",
+      "normalized": {
+        "text": "*   상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0033",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   상반기(위생용품), 하반기(산업용품) 2회차 프로젝트 진행 고려.",
+          "start_char": 2164,
+          "end_char": 2204
+        }
+      ],
+      "dedupe_key": "action_item:915e34606067eff3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**홈페이지 개발 방식**:",
+      "normalized": {
+        "text": "**홈페이지 개발 방식**:"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0034",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**홈페이지 개발 방식**:",
+          "start_char": 2209,
+          "end_char": 2224
+        }
+      ],
+      "dedupe_key": "action_item:984d4074c40e1ad7",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0039",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토.",
+      "normalized": {
+        "text": "고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토.",
+          "start_char": 2233,
+          "end_char": 2300
+        }
+      ],
+      "dedupe_key": "action_item:6d7e6655c3d18a71",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0040",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토.",
+      "normalized": {
+        "text": "*   고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0035",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   고객사의 백엔드 업체와 협업이 필요한 상황. 대행사는 기획/디자인을 담당하고 퍼블리싱은 기존 업체와 조율하는 방안 검토.",
+          "start_char": 2229,
+          "end_char": 2300
+        }
+      ],
+      "dedupe_key": "action_item:0b7ef5ed982f6b8b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0041",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "**다음 단계**:",
+      "normalized": {
+        "text": "**다음 단계**:"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0036",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "**다음 단계**:",
+          "start_char": 2305,
+          "end_char": 2315
+        }
+      ],
+      "dedupe_key": "action_item:fe44d7c4d2acf716",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0042",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정.",
+      "normalized": {
+        "text": "대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정.",
+          "start_char": 2324,
+          "end_char": 2369
+        }
+      ],
+      "dedupe_key": "action_item:3f61299f73916c95",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0043",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정.",
+      "normalized": {
+        "text": "*   대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0037",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "*   대행사는 다음 주 초까지 수정된 **RFP(제안요청서) 및 일정안** 송부 예정.",
+          "start_char": 2320,
+          "end_char": 2369
+        }
+      ],
+      "dedupe_key": "action_item:72ce34d62024941f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0044",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사는 내부 DX(Digital Transformation) 팀 및 백엔드 업체와 기술적 실현 가능성 확인.",
+      "normalized": {
+        "text": "고객사는 내부 DX(Digital Transformation) 팀 및 백엔드 업체와 기술적 실현 가능성 확인."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0038",
+          "section_path": [
+            " 5. 결정 사항과 액션 아이템"
+          ],
+          "exact_quote": "고객사는 내부 DX(Digital Transformation) 팀 및 백엔드 업체와 기술적 실현 가능성 확인.",
+          "start_char": 2378,
+          "end_char": 2439
+        }
+      ],
+      "dedupe_key": "action_item:cffbb948afeb9c2b",
+      "confidence": 0.88
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

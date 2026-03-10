@@ -1,0 +1,243 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W313",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "match_rate",
+      "value_type": "percentage_range",
+      "raw_text": "70~80%",
+      "normalized": {
+        "min": 0.7,
+        "max": 0.8,
+        "label_hint": null
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "70~80%",
+          "start_char": 74,
+          "end_char": 80
+        }
+      ],
+      "dedupe_key": "match_rate:776d902096ffd63d",
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "과거 나이스 그룹 전체가 세일즈포스 도입을 검토했으나, 개발 및 비용 문제로 흐지부지됨",
+      "normalized": {
+        "text": "과거 나이스 그룹 전체가 세일즈포스 도입을 검토했으나, 개발 및 비용 문제로 흐지부지됨",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "과거 나이스 그룹 전체가 세일즈포스 도입을 검토했으나, 개발 및 비용 문제로 흐지부지됨",
+          "start_char": 186,
+          "end_char": 234
+        }
+      ],
+      "dedupe_key": "risk_or_concern:6e224c32e1b9f866",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "류호준 팀장님은 이전 직장에서 허브스팟 사용해봤고 효용 느껴봐서 CRM의 필요성을 인지하고 있으나, 윗선에서는 CRM 툴에 대한 효용 체감이 부족하여 내부 공감대가 형성되어 있지 않은 상황",
+      "normalized": {
+        "text": "류호준 팀장님은 이전 직장에서 허브스팟 사용해봤고 효용 느껴봐서 CRM의 필요성을 인지하고 있으나, 윗선에서는 CRM 툴에 대한 효용 체감이 부족하여 내부 공감대가 형성되어 있지 않은 상황",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "류호준 팀장님은 이전 직장에서 허브스팟 사용해봤고 효용 느껴봐서 CRM의 필요성을 인지하고 있으나, 윗선에서는 CRM 툴에 대한 효용 체감이 부족하여 내부 공감대가 형성되어 있지 않은 상황",
+          "start_char": 238,
+          "end_char": 343
+        }
+      ],
+      "dedupe_key": "action_item:03a2ab0a4d68e018",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "따라서 CRM 도입 진도가 빠르게 나가고 있지는 않음",
+      "normalized": {
+        "text": "따라서 CRM 도입 진도가 빠르게 나가고 있지는 않음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "따라서 CRM 도입 진도가 빠르게 나가고 있지는 않음",
+          "start_char": 347,
+          "end_char": 376
+        }
+      ],
+      "dedupe_key": "collaboration_need:6e8ce72e1d17e8cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 506,
+          "end_char": 510
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 444,
+          "end_char": 447
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 473,
+          "end_char": 476
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 580,
+          "end_char": 583
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "당장 도입이 가능한 상황으로 보긴 힘듦. 팀장님이 설득되더라도 관리자들 추가 설득이 필요.",
+      "normalized": {
+        "text": "당장 도입이 가능한 상황으로 보긴 힘듦. 팀장님이 설득되더라도 관리자들 추가 설득이 필요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "당장 도입이 가능한 상황으로 보긴 힘듦. 팀장님이 설득되더라도 관리자들 추가 설득이 필요.",
+          "start_char": 605,
+          "end_char": 655
+        }
+      ],
+      "dedupe_key": "action_item:f51cc406c9bee29c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "영업팀에서 이용할건데 몇명인지는 추가 파악 필요",
+      "normalized": {
+        "text": "영업팀에서 이용할건데 몇명인지는 추가 파악 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "B)"
+          ],
+          "exact_quote": "영업팀에서 이용할건데 몇명인지는 추가 파악 필요",
+          "start_char": 681,
+          "end_char": 707
+        }
+      ],
+      "dedupe_key": "action_item:176a76a1ebcc22df",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

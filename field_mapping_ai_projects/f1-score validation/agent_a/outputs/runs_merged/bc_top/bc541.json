@@ -1,0 +1,405 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W541",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "부정확한 수요 예측과 재고 리스크: 부품 생산 리드타임이 12~16주에 달해 통상 1개월치의 재고를 안고 가야 하지만, 고객사로부터 정확한 수요 예측(포캐스트)을 받기 어려워 재고 운영에 큰 어려움을 겪고 있습니다.",
+      "normalized": {
+        "text": "부정확한 수요 예측과 재고 리스크: 부품 생산 리드타임이 12~16주에 달해 통상 1개월치의 재고를 안고 가야 하지만, 고객사로부터 정확한 수요 예측(포캐스트)을 받기 어려워 재고 운영에 큰 어려움을 겪고 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "부정확한 수요 예측과 재고 리스크: 부품 생산 리드타임이 12~16주에 달해 통상 1개월치의 재고를 안고 가야 하지만, 고객사로부터 정확한 수요 예측(포캐스트)을 받기 어려워 재고 운영에 큰 어려움을 겪고 있습니다.",
+          "start_char": 334,
+          "end_char": 454
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4f123000d1972917",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "16주",
+      "normalized": {
+        "value": 16.0,
+        "unit": "weeks",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "16주",
+          "start_char": 369,
+          "end_char": 372
+        }
+      ],
+      "dedupe_key": "duration:4e512d27126e2bf3",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1개월",
+      "normalized": {
+        "value": 1.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "1개월",
+          "start_char": 380,
+          "end_char": 383
+        }
+      ],
+      "dedupe_key": "duration:606afe08e53b3cbf",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "파편화된 영업 데이터: 작년에 영림원 ERP(에이스 버전)를 도입해 수발주 및 기본적인 재고 관리를 하고 있으나 예측 기능은 없습니다. 또한, 고객과의 중요한 미팅 맥락과 수요 예측 단서들이 팀즈(Teams) 메신저나 개인의 기록에 파편화되어 있어 회사 차원의 자산으로 통합되지 못하고 있습니다.",
+      "normalized": {
+        "text": "파편화된 영업 데이터: 작년에 영림원 ERP(에이스 버전)를 도입해 수발주 및 기본적인 재고 관리를 하고 있으나 예측 기능은 없습니다. 또한, 고객과의 중요한 미팅 맥락과 수요 예측 단서들이 팀즈(Teams) 메신저나 개인의 기록에 파편화되어 있어 회사 차원의 자산으로 통합되지 못하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "파편화된 영업 데이터: 작년에 영림원 ERP(에이스 버전)를 도입해 수발주 및 기본적인 재고 관리를 하고 있으나 예측 기능은 없습니다. 또한, 고객과의 중요한 미팅 맥락과 수요 예측 단서들이 팀즈(Teams) 메신저나 개인의 기록에 파편화되어 있어 회사 차원의 자산으로 통합되지 못하고 있습니다.",
+          "start_char": 458,
+          "end_char": 623
+        }
+      ],
+      "dedupe_key": "collaboration_need:598c9fee1eb20578",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ReCATCH",
+      "normalized": {
+        "keyword": "ReCatch"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "ReCATCH",
+          "start_char": 634,
+          "end_char": 641
+        }
+      ],
+      "dedupe_key": "tool_or_channel:d9606b5884539f14",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 630,
+          "end_char": 633
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1236,
+          "end_char": 1239
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1492,
+          "end_char": 1495
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1932,
+          "end_char": 1935
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2201,
+          "end_char": 2204
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 2220,
+          "end_char": 2223
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "리멤버(Remember) 명함 연동: 리멤버 앱과 파트너십이 체결되어 있어, 실무자가 명함을 찍기만 하면 CRM 내 해당 고객사의 연락처 정보(컨택 포인트)로 자동 동기화되어 전사적으로 공유됩니다.",
+      "normalized": {
+        "text": "리멤버(Remember) 명함 연동: 리멤버 앱과 파트너십이 체결되어 있어, 실무자가 명함을 찍기만 하면 CRM 내 해당 고객사의 연락처 정보(컨택 포인트)로 자동 동기화되어 전사적으로 공유됩니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리멤버(Remember) 명함 연동: 리멤버 앱과 파트너십이 체결되어 있어, 실무자가 명함을 찍기만 하면 CRM 내 해당 고객사의 연락처 정보(컨택 포인트)로 자동 동기화되어 전사적으로 공유됩니다.",
+          "start_char": 972,
+          "end_char": 1082
+        }
+      ],
+      "dedupe_key": "collaboration_need:74827224eb601f75",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "3개",
+      "normalized": {
+        "value": 3,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "3개",
+          "start_char": 1121,
+          "end_char": 1123
+        }
+      ],
+      "dedupe_key": "case_metric:b614581a1552507a",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "4. 도입 전략 및 조직 문화 (DX/AX)",
+      "normalized": {
+        "text": "4. 도입 전략 및 조직 문화 (DX/AX)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [],
+          "exact_quote": "4. 도입 전략 및 조직 문화 (DX/AX)",
+          "start_char": 1446,
+          "end_char": 1470
+        }
+      ],
+      "dedupe_key": "collaboration_need:d89799e56513f55b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "실무자 중심의 도입 타당성: 리캐치는 관리자의 감시 목적이 아닌, 실무자의 귀찮은 반복 업무(회의록 작성, 엑셀 취합, 데이터 입력)를 덜어주는 방향으로 접근해야만 CRM이 성공적으로 안착할 수 있다고 강조했습니다.",
+      "normalized": {
+        "text": "실무자 중심의 도입 타당성: 리캐치는 관리자의 감시 목적이 아닌, 실무자의 귀찮은 반복 업무(회의록 작성, 엑셀 취합, 데이터 입력)를 덜어주는 방향으로 접근해야만 CRM이 성공적으로 안착할 수 있다고 강조했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [],
+          "exact_quote": "실무자 중심의 도입 타당성: 리캐치는 관리자의 감시 목적이 아닌, 실무자의 귀찮은 반복 업무(회의록 작성, 엑셀 취합, 데이터 입력)를 덜어주는 방향으로 접근해야만 CRM이 성공적으로 안착할 수 있다고 강조했습니다.",
+          "start_char": 1476,
+          "end_char": 1596
+        }
+      ],
+      "dedupe_key": "collaboration_need:2997492554a68014",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "단계별 도입 (Phased Approach): 한 번에 모든 것을 구현하기보다, 초기 3~4개월은 실무자들이 시스템에 적응하고 데이터를 쌓는 데 집중(Phase 1)하고, 이후에 데이터를 바탕으로 ERP 연동 및 AI 분석을 고도화(Phase 2)하는 방식을 추천했습니다.",
+      "normalized": {
+        "text": "단계별 도입 (Phased Approach): 한 번에 모든 것을 구현하기보다, 초기 3~4개월은 실무자들이 시스템에 적응하고 데이터를 쌓는 데 집중(Phase 1)하고, 이후에 데이터를 바탕으로 ERP 연동 및 AI 분석을 고도화(Phase 2)하는 방식을 추천했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "단계별 도입 (Phased Approach): 한 번에 모든 것을 구현하기보다, 초기 3~4개월은 실무자들이 시스템에 적응하고 데이터를 쌓는 데 집중(Phase 1)하고, 이후에 데이터를 바탕으로 ERP 연동 및 AI 분석을 고도화(Phase 2)하는 방식을 추천했습니다.",
+          "start_char": 1600,
+          "end_char": 1752
+        }
+      ],
+      "dedupe_key": "collaboration_need:dd338d5003803b28",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "4개월",
+      "normalized": {
+        "value": 4.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [],
+          "exact_quote": "4개월",
+          "start_char": 1650,
+          "end_char": 1653
+        }
+      ],
+      "dedupe_key": "duration:ee28c52e49ece996",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "100만 원",
+      "normalized": {
+        "value": 1000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "100만 원",
+          "start_char": 1991,
+          "end_char": 1997
+        }
+      ],
+      "dedupe_key": "budget:50f3fd5fb34cec12",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1천만 원",
+      "normalized": {
+        "value": 10000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "1천만 원",
+          "start_char": 2004,
+          "end_char": 2009
+        }
+      ],
+      "dedupe_key": "budget:488a7328308e9409",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "약 13명",
+      "normalized": {
+        "value": 13,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [],
+          "exact_quote": "약 13명",
+          "start_char": 1978,
+          "end_char": 1983
+        }
+      ],
+      "dedupe_key": "team_size:e0ac305ef76e238f",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "다음 단계: 드림칩은 내부적으로 실무자들의 구체적인 페인포인트를 조사하기로 했습니다. 동시에 보안 유지 계약(NDA)을 맺고 기존에 관리하던 엑셀 문서, BOM(자재명세서), ERP 수발주 샘플 데이터를 리캐치 측에 전달하기로 했습니다. 리캐치는 이 데이터를 바탕으로 드림칩에 맞춤화된 데모를 구축하여 다음 미팅에서 시연하기로 협의했습니다.",
+      "normalized": {
+        "text": "다음 단계: 드림칩은 내부적으로 실무자들의 구체적인 페인포인트를 조사하기로 했습니다. 동시에 보안 유지 계약(NDA)을 맺고 기존에 관리하던 엑셀 문서, BOM(자재명세서), ERP 수발주 샘플 데이터를 리캐치 측에 전달하기로 했습니다. 리캐치는 이 데이터를 바탕으로 드림칩에 맞춤화된 데모를 구축하여 다음 미팅에서 시연하기로 협의했습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [],
+          "exact_quote": "다음 단계: 드림칩은 내부적으로 실무자들의 구체적인 페인포인트를 조사하기로 했습니다. 동시에 보안 유지 계약(NDA)을 맺고 기존에 관리하던 엑셀 문서, BOM(자재명세서), ERP 수발주 샘플 데이터를 리캐치 측에 전달하기로 했습니다. 리캐치는 이 데이터를 바탕으로 드림칩에 맞춤화된 데모를 구축하여 다음 미팅에서 시연하기로 협의했습니다.",
+          "start_char": 2087,
+          "end_char": 2277
+        }
+      ],
+      "dedupe_key": "collaboration_need:fb4e495b7b22080c",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W405",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 35,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 23,
+          "end_char": 26
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 36,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@전정민",
+      "normalized": {
+        "name": "전정민"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@전정민",
+          "start_char": 109,
+          "end_char": 113
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:4f5feeba535921f5",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 120,
+          "end_char": 124
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 54,
+          "end_char": 57
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "뭐가 불만족이었냐?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 679,
+          "end_char": 682
+        },
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 979,
+          "end_char": 982
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "킹콩F&B와 별도로 신규 법인 '킹콩애드(마케팅 대행사)'를 설립했는데 애드에 대한 관리 필요성을 느낌",
+      "normalized": {
+        "text": "킹콩F&B와 별도로 신규 법인 '킹콩애드(마케팅 대행사)'를 설립했는데 애드에 대한 관리 필요성을 느낌",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "킹콩F&B와 별도로 신규 법인 '킹콩애드(마케팅 대행사)'를 설립했는데 애드에 대한 관리 필요성을 느낌",
+          "start_char": 128,
+          "end_char": 185
+        }
+      ],
+      "dedupe_key": "action_item:cf8238f9115dbe40",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 246,
+          "end_char": 249
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "1/ UI 및 데이터 가시성 문제",
+      "normalized": {
+        "text": "1/ UI 및 데이터 가시성 문제",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "뭐가 불만족이었냐?"
+          ],
+          "exact_quote": "1/ UI 및 데이터 가시성 문제",
+          "start_char": 338,
+          "end_char": 356
+        }
+      ],
+      "dedupe_key": "risk_or_concern:a8691d6317e4c94c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "2/ 수기 입력의 비효율성 (연동 부재)",
+      "normalized": {
+        "text": "2/ 수기 입력의 비효율성 (연동 부재)",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "뭐가 불만족이었냐?"
+          ],
+          "exact_quote": "2/ 수기 입력의 비효율성 (연동 부재)",
+          "start_char": 433,
+          "end_char": 455
+        }
+      ],
+      "dedupe_key": "risk_or_concern:190c5e10813ea57b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "\"지금까지 국산 CRM 2개 다 우리가 원하는 기능 구현이 잘 안 되는데, 리캐치마저 어렵다고 하면 우리가 감안해야 하는 부분이라 생각한다\"",
+      "normalized": {
+        "text": "\"지금까지 국산 CRM 2개 다 우리가 원하는 기능 구현이 잘 안 되는데, 리캐치마저 어렵다고 하면 우리가 감안해야 하는 부분이라 생각한다\"",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "뭐가 불만족이었냐?"
+          ],
+          "exact_quote": "\"지금까지 국산 CRM 2개 다 우리가 원하는 기능 구현이 잘 안 되는데, 리캐치마저 어렵다고 하면 우리가 감안해야 하는 부분이라 생각한다\"",
+          "start_char": 637,
+          "end_char": 715
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d08406e6b9a5d536",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "2개",
+      "normalized": {
+        "value": 2,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "뭐가 불만족이었냐?"
+          ],
+          "exact_quote": "2개",
+          "start_char": 650,
+          "end_char": 652
+        }
+      ],
+      "dedupe_key": "case_metric:d788d961541deb2c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1,2에서 볼 수 있듯 CRM+ERP 성격의 기능을 희망하시기에 리캐치는 B2B 리드 관리에 특화됨을 안내했으나 '그래도 화면은 한번 확인해보고 싶다'고 하셔서 미팅 진행하기로 함",
+      "normalized": {
+        "text": "1,2에서 볼 수 있듯 CRM+ERP 성격의 기능을 희망하시기에 리캐치는 B2B 리드 관리에 특화됨을 안내했으나 '그래도 화면은 한번 확인해보고 싶다'고 하셔서 미팅 진행하기로 함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "1,2에서 볼 수 있듯 CRM+ERP 성격의 기능을 희망하시기에 리캐치는 B2B 리드 관리에 특화됨을 안내했으나 '그래도 화면은 한번 확인해보고 싶다'고 하셔서 미팅 진행하기로 함",
+          "start_char": 943,
+          "end_char": 1043
+        }
+      ],
+      "dedupe_key": "action_item:61b2e85d5bdde4f0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "이사"
+          ],
+          "exact_quote": "@박성준",
+          "start_char": 1087,
+          "end_char": 1091
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "12/17",
+      "normalized": {
+        "month": 12,
+        "day": 17,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "이사"
+          ],
+          "exact_quote": "12/17",
+          "start_char": 1121,
+          "end_char": 1126
+        }
+      ],
+      "dedupe_key": "timeline:bf84ddd01f92b47c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 11시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 11,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "이사"
+          ],
+          "exact_quote": "오전 11시",
+          "start_char": 1128,
+          "end_char": 1134
+        }
+      ],
+      "dedupe_key": "timeline:a7ee552fe5251acf",
+      "confidence": 0.88
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

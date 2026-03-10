@@ -1,0 +1,632 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W111",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "10개",
+      "normalized": {
+        "value": 10,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 정량적 목표"
+          ],
+          "exact_quote": "10개",
+          "start_char": 127,
+          "end_char": 130
+        }
+      ],
+      "dedupe_key": "case_metric:632ab007d33722f7",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "대표님과 미팅 자리를 조속히 마련해 예산과 솔루션 구체화 논의하세요.",
+      "normalized": {
+        "text": "대표님과 미팅 자리를 조속히 마련해 예산과 솔루션 구체화 논의하세요."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            " 다음 수행할 액션"
+          ],
+          "exact_quote": "대표님과 미팅 자리를 조속히 마련해 예산과 솔루션 구체화 논의하세요.",
+          "start_char": 214,
+          "end_char": 252
+        }
+      ],
+      "dedupe_key": "action_item:a41ef903ecf31e42",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팀장님께 리드용 랜딩 페이지 시각 자료와 솔루션 설명 자료를 이메일로 제공할 예정입니다.",
+      "normalized": {
+        "text": "팀장님께 리드용 랜딩 페이지 시각 자료와 솔루션 설명 자료를 이메일로 제공할 예정입니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            " 다음 수행할 액션"
+          ],
+          "exact_quote": "팀장님께 리드용 랜딩 페이지 시각 자료와 솔루션 설명 자료를 이메일로 제공할 예정입니다.",
+          "start_char": 255,
+          "end_char": 304
+        }
+      ],
+      "dedupe_key": "action_item:941e1b4b733096d7",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다.",
+      "normalized": {
+        "text": "타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 다음 수행할 액션"
+          ],
+          "exact_quote": "타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다.",
+          "start_char": 307,
+          "end_char": 342
+        }
+      ],
+      "dedupe_key": "action_item:387f9437c56541b9",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다.",
+      "normalized": {
+        "text": "- 타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 다음 수행할 액션"
+          ],
+          "exact_quote": "- 타겟 섹터 확정과 리드 구독 모델 계약을 위한 협의 필요합니다.",
+          "start_char": 305,
+          "end_char": 342
+        }
+      ],
+      "dedupe_key": "action_item:f85bd1886a31c689",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "맞춤형 영업 콘텐츠 및 스크립트 제작 지원과 월 1회 코칭까지 계획 중입니다.",
+      "normalized": {
+        "text": "맞춤형 영업 콘텐츠 및 스크립트 제작 지원과 월 1회 코칭까지 계획 중입니다."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            " 다음 수행할 액션"
+          ],
+          "exact_quote": "맞춤형 영업 콘텐츠 및 스크립트 제작 지원과 월 1회 코칭까지 계획 중입니다.",
+          "start_char": 345,
+          "end_char": 388
+        }
+      ],
+      "dedupe_key": "action_item:cbd4ad7e3e468f75",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- B2B 법무법인 마케팅 책임자로서 온라인 마케팅 경험은 적으나 적극적으로 새로운 디지털 전략을 도입하려고 합니다.",
+      "normalized": {
+        "text": "- B2B 법무법인 마케팅 책임자로서 온라인 마케팅 경험은 적으나 적극적으로 새로운 디지털 전략을 도입하려고 합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "- B2B 법무법인 마케팅 책임자로서 온라인 마케팅 경험은 적으나 적극적으로 새로운 디지털 전략을 도입하려고 합니다.",
+          "start_char": 404,
+          "end_char": 469
+        }
+      ],
+      "dedupe_key": "collaboration_need:99be6da1c5834b2e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 510,
+          "end_char": 513
+        },
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 1107,
+          "end_char": 1110
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "300만 원",
+          "start_char": 587,
+          "end_char": 593
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5000만 원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "5000만 원",
+          "start_char": 636,
+          "end_char": 643
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "2000만 원",
+      "normalized": {
+        "value": 20000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "2000만 원",
+          "start_char": 661,
+          "end_char": 668
+        }
+      ],
+      "dedupe_key": "budget:9d653b7f2a54634b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 대표님 설득 후 예산 확정이 가능할 것으로 보고 있습니다.",
+      "normalized": {
+        "text": "- 대표님 설득 후 예산 확정이 가능할 것으로 보고 있습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            " 고객 페르소나 성향"
+          ],
+          "exact_quote": "- 대표님 설득 후 예산 확정이 가능할 것으로 보고 있습니다.",
+          "start_char": 683,
+          "end_char": 717
+        }
+      ],
+      "dedupe_key": "action_item:7c056c9dfae33efa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 확보한 리드를 관리하고 고객 전환시키는 넛처링 체계도 부재합니다",
+      "normalized": {
+        "text": "- 확보한 리드를 관리하고 고객 전환시키는 넛처링 체계도 부재합니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            " 고객이 겪는 문제 및 비즈니스 상황"
+          ],
+          "exact_quote": "- 확보한 리드를 관리하고 고객 전환시키는 넛처링 체계도 부재합니다",
+          "start_char": 855,
+          "end_char": 892
+        }
+      ],
+      "dedupe_key": "risk_or_concern:da55e95a0c6402e0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "target_population",
+      "value_type": "number",
+      "raw_text": "500만 명",
+      "normalized": {
+        "value": 5000000,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "500만 명",
+          "start_char": 917,
+          "end_char": 923
+        }
+      ],
+      "dedupe_key": "target_population:28af9e03c382c9ab",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "10~20개",
+      "normalized": {
+        "min": 10.0,
+        "max": 20.0,
+        "unit": "count"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "10~20개",
+          "start_char": 1005,
+          "end_char": 1011
+        }
+      ],
+      "dedupe_key": "case_metric:30d549dd42a51384",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1073,
+          "end_char": 1076
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- ABM (Account-Based Marketing) 전략 도입으로 타겟 기업별 맞춤형 마케팅 진행 가능합니다.",
+      "normalized": {
+        "text": "- ABM (Account-Based Marketing) 전략 도입으로 타겟 기업별 맞춤형 마케팅 진행 가능합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "- ABM (Account-Based Marketing) 전략 도입으로 타겟 기업별 맞춤형 마케팅 진행 가능합니다.",
+          "start_char": 1105,
+          "end_char": 1169
+        }
+      ],
+      "dedupe_key": "action_item:b002407947b25499",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 상담료를 통한 상담 전환 구조도 개선해 세일즈 미팅 성과를 높이도록 돕습니다.## 도입 결정 예상 기간",
+      "normalized": {
+        "text": "- 상담료를 통한 상담 전환 구조도 개선해 세일즈 미팅 성과를 높이도록 돕습니다.## 도입 결정 예상 기간",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "- 상담료를 통한 상담 전환 구조도 개선해 세일즈 미팅 성과를 높이도록 돕습니다.## 도입 결정 예상 기간",
+          "start_char": 1170,
+          "end_char": 1229
+        }
+      ],
+      "dedupe_key": "collaboration_need:d126cc4603145b6c",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 구독형 리드 모델은 최소 3개월 구독 계획이며, 대형 프로젝트는 2~3개월 이상의 제작 기간이 필요합니다.",
+      "normalized": {
+        "text": "- 구독형 리드 모델은 최소 3개월 구독 계획이며, 대형 프로젝트는 2~3개월 이상의 제작 기간이 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "- 구독형 리드 모델은 최소 3개월 구독 계획이며, 대형 프로젝트는 2~3개월 이상의 제작 기간이 필요합니다.",
+          "start_char": 1230,
+          "end_char": 1291
+        }
+      ],
+      "dedupe_key": "action_item:8bb9a94f7b45110e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1246,
+          "end_char": 1249
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            ".## 제안한 솔루션"
+          ],
+          "exact_quote": "3개월",
+          "start_char": 1270,
+          "end_char": 1273
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "- 예산에 대해 아직 대표님 동의가 필요합니다.",
+      "normalized": {
+        "text": "- 예산에 대해 아직 대표님 동의가 필요합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            " 도입에 방해되는 요소"
+          ],
+          "exact_quote": "- 예산에 대해 아직 대표님 동의가 필요합니다.",
+          "start_char": 1365,
+          "end_char": 1391
+        }
+      ],
+      "dedupe_key": "action_item:53e599c7ba012796",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "- 기존 오프라인 중심 영업 문화와 체계 미비로 전환이 어려운 부분이 있습니다.",
+      "normalized": {
+        "text": "- 기존 오프라인 중심 영업 문화와 체계 미비로 전환이 어려운 부분이 있습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            " 도입에 방해되는 요소"
+          ],
+          "exact_quote": "- 기존 오프라인 중심 영업 문화와 체계 미비로 전환이 어려운 부분이 있습니다.",
+          "start_char": 1392,
+          "end_char": 1436
+        }
+      ],
+      "dedupe_key": "risk_or_concern:cc197551f62f35fc",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 금융사 및 협동조합 관련 강점을 바탕으로 새로운 영업·마케팅 모델 도입에 기대가 큽니다.",
+      "normalized": {
+        "text": "- 금융사 및 협동조합 관련 강점을 바탕으로 새로운 영업·마케팅 모델 도입에 기대가 큽니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            " 기타 주요 내용"
+          ],
+          "exact_quote": "- 금융사 및 협동조합 관련 강점을 바탕으로 새로운 영업·마케팅 모델 도입에 기대가 큽니다.",
+          "start_char": 1558,
+          "end_char": 1609
+        }
+      ],
+      "dedupe_key": "collaboration_need:dbf875f4c588dda8",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 협력 관계가 형성되면 호암 내 성공 사례로 장기적 파트너십을 희망하고 있습니다.",
+      "normalized": {
+        "text": "- 협력 관계가 형성되면 호암 내 성공 사례로 장기적 파트너십을 희망하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0029",
+          "section_path": [
+            " 기타 주요 내용"
+          ],
+          "exact_quote": "- 협력 관계가 형성되면 호암 내 성공 사례로 장기적 파트너십을 희망하고 있습니다.",
+          "start_char": 1610,
+          "end_char": 1656
+        }
+      ],
+      "dedupe_key": "collaboration_need:42afd81a3f1f6736",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "- 회의 종료 후 팔로업 메일과 자료 공유를 약속드렸고, 대표님과 추가 미팅도 준비하고 있습니다.",
+      "normalized": {
+        "text": "- 회의 종료 후 팔로업 메일과 자료 공유를 약속드렸고, 대표님과 추가 미팅도 준비하고 있습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0030",
+          "section_path": [
+            " 기타 주요 내용"
+          ],
+          "exact_quote": "- 회의 종료 후 팔로업 메일과 자료 공유를 약속드렸고, 대표님과 추가 미팅도 준비하고 있습니다.",
+          "start_char": 1657,
+          "end_char": 1711
+        }
+      ],
+      "dedupe_key": "collaboration_need:6d1191e0c58ddc6a",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

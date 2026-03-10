@@ -1,0 +1,263 @@
+[
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0004",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+    "normalized": {
+      "text": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "소개서를 통해 저희가 B2B 비즈니스의 노출, 유입, 전환 문제를 어떻게 해결하는지 확인하실 수 있습니다.",
+      "start_char": 868,
+      "end_char": 927
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5368",
+        "label": "✅ 견적 개월 수",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0005",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+    "normalized": {
+      "text": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "첨부해 드린 자료를 검토해 보시고 궁금한 점이 있으시면 언제든지 편하게 연락 주십시오. 추가 논의를 위한 미팅도 언제든 환영입니다.",
+      "start_char": 1218,
+      "end_char": 1291
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5575",
+        "label": "라이센스 특이사항",
+        "type": "text",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0006",
+    "semantic_type": "stakeholder_or_team",
+    "value_type": "text",
+    "raw_text": "@안민혁",
+    "normalized": {
+      "name": "안민혁"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "@안민혁",
+      "start_char": 55,
+      "end_char": 59
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0007",
+    "semantic_type": "timeline",
+    "value_type": "date_expression",
+    "raw_text": "9월 25일",
+    "normalized": {
+      "month": 9,
+      "day": 25
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "9월 25일",
+      "start_char": 128,
+      "end_char": 134
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1591",
+        "label": "첫 세일즈 미팅 일자",
+        "type": "date",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0009",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "25일",
+    "normalized": {
+      "value": 25.0,
+      "unit": "days",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "25일",
+      "start_char": 131,
+      "end_char": 134
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0010",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "3개월",
+    "normalized": {
+      "value": 3.0,
+      "unit": "months",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "3개월",
+      "start_char": 1052,
+      "end_char": 1055
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0011",
+    "semantic_type": "duration",
+    "value_type": "duration",
+    "raw_text": "1개월",
+    "normalized": {
+      "value": 1.0,
+      "unit": "months",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "1개월",
+      "start_char": 1122,
+      "end_char": 1125
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1608",
+        "label": "Seat 수",
+        "type": "number",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0012",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "SEO",
+    "normalized": {
+      "keyword": "SEO"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "SEO",
+      "start_char": 558,
+      "end_char": 561
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W2",
+    "candidate_id": "C-0014",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "리캐치",
+    "normalized": {
+      "keyword": "리캐치"
+    },
+    "evidence": {
+      "segment_id": "S-0001",
+      "section_path": [],
+      "exact_quote": "리캐치",
+      "start_char": 108,
+      "end_char": 111
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5178",
+        "label": "Tier",
+        "type": "select",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

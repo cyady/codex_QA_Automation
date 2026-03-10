@@ -1,0 +1,289 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W156",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "목적: 현재 사용 중인 CRM(Salesforce)와 리케치 도입 가능성 검토",
+      "normalized": {
+        "text": "목적: 현재 사용 중인 CRM(Salesforce)와 리케치 도입 가능성 검토",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "목적: 현재 사용 중인 CRM(Salesforce)와 리케치 도입 가능성 검토",
+          "start_char": 74,
+          "end_char": 117
+        }
+      ],
+      "dedupe_key": "action_item:c3782035d6858637",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 CRM은 Salesforce 사용 중이나, 이는 유데미와의 협업을 위한 공용 툴임",
+      "normalized": {
+        "text": "현재 CRM은 Salesforce 사용 중이나, 이는 유데미와의 협업을 위한 공용 툴임",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "현재 CRM은 Salesforce 사용 중이나, 이는 유데미와의 협업을 위한 공용 툴임",
+          "start_char": 135,
+          "end_char": 183
+        }
+      ],
+      "dedupe_key": "collaboration_need:50ace2efc3a50600",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "단순한 데이터 저장보다는 리드 분배, 자동화, 세일즈 효율화가 필요",
+      "normalized": {
+        "text": "단순한 데이터 저장보다는 리드 분배, 자동화, 세일즈 효율화가 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "단순한 데이터 저장보다는 리드 분배, 자동화, 세일즈 효율화가 필요",
+          "start_char": 217,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "action_item:6f5b5dd5dee5f63f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 302,
+          "end_char": 305
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "데이터 마이그레이션: Salesforce 데이터 CSV 임포트/매핑 가능, 일부 기업과 연동도 진행 중",
+      "normalized": {
+        "text": "데이터 마이그레이션: Salesforce 데이터 CSV 임포트/매핑 가능, 일부 기업과 연동도 진행 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "데이터 마이그레이션: Salesforce 데이터 CSV 임포트/매핑 가능, 일부 기업과 연동도 진행 중",
+          "start_char": 490,
+          "end_char": 547
+        }
+      ],
+      "dedupe_key": "action_item:f5b312a37e67e458",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "마케팅 지원: 이메일 발송, 구독 동의 고객 대상 캠페인 가능 (단, AB 테스트·문자·카톡 연동은 미지원)",
+      "normalized": {
+        "text": "마케팅 지원: 이메일 발송, 구독 동의 고객 대상 캠페인 가능 (단, AB 테스트·문자·카톡 연동은 미지원)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "마케팅 지원: 이메일 발송, 구독 동의 고객 대상 캠페인 가능 (단, AB 테스트·문자·카톡 연동은 미지원)",
+          "start_char": 582,
+          "end_char": 642
+        }
+      ],
+      "dedupe_key": "action_item:f870aa8ccd2cfa63",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "견적서 자동 발송 기능 없음",
+      "normalized": {
+        "text": "견적서 자동 발송 기능 없음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "제약 사항"
+          ],
+          "exact_quote": "견적서 자동 발송 기능 없음",
+          "start_char": 696,
+          "end_char": 711
+        }
+      ],
+      "dedupe_key": "action_item:cb75fbe52fc90e96",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "웅진씽크빅은 도입 시 약 15명 규모 사용을 예상",
+      "normalized": {
+        "text": "웅진씽크빅은 도입 시 약 15명 규모 사용을 예상",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Salesforce 연동 프로젝트도 일부 기업과 진행 중"
+          ],
+          "exact_quote": "웅진씽크빅은 도입 시 약 15명 규모 사용을 예상",
+          "start_char": 951,
+          "end_char": 978
+        }
+      ],
+      "dedupe_key": "collaboration_need:8b686a6f57dd9671",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "비즈니스캔버스 측에서 견적서를 전달하기로 합의",
+      "normalized": {
+        "text": "비즈니스캔버스 측에서 견적서를 전달하기로 합의",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Salesforce 연동 프로젝트도 일부 기업과 진행 중"
+          ],
+          "exact_quote": "비즈니스캔버스 측에서 견적서를 전달하기로 합의",
+          "start_char": 979,
+          "end_char": 1004
+        }
+      ],
+      "dedupe_key": "collaboration_need:0a1ddc90ec906025",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "향후 도입 검토 시, 데이터 마이그레이션 및 기능 로드맵을 참고할 예정",
+      "normalized": {
+        "text": "향후 도입 검토 시, 데이터 마이그레이션 및 기능 로드맵을 참고할 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Salesforce 연동 프로젝트도 일부 기업과 진행 중"
+          ],
+          "exact_quote": "향후 도입 검토 시, 데이터 마이그레이션 및 기능 로드맵을 참고할 예정",
+          "start_char": 1005,
+          "end_char": 1044
+        }
+      ],
+      "dedupe_key": "action_item:5fd7a7de016a7799",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "요약하면, 웅진씽크빅은 Salesforce 의존을 줄이고 자체 CRM 필요성을 확인했으며, 리케치의 자동화·데이터 통합 기능에는 긍정적 반응을 보였으나, 계약 관리·메일 트래킹·견적 자동화 등 일부 기능 부재가 아쉬움으로 남았습니다",
+      "normalized": {
+        "text": "요약하면, 웅진씽크빅은 Salesforce 의존을 줄이고 자체 CRM 필요성을 확인했으며, 리케치의 자동화·데이터 통합 기능에는 긍정적 반응을 보였으나, 계약 관리·메일 트래킹·견적 자동화 등 일부 기능 부재가 아쉬움으로 남았습니다",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Salesforce 연동 프로젝트도 일부 기업과 진행 중"
+          ],
+          "exact_quote": "요약하면, 웅진씽크빅은 Salesforce 의존을 줄이고 자체 CRM 필요성을 확인했으며, 리케치의 자동화·데이터 통합 기능에는 긍정적 반응을 보였으나, 계약 관리·메일 트래킹·견적 자동화 등 일부 기능 부재가 아쉬움으로 남았습니다",
+          "start_char": 1046,
+          "end_char": 1175
+        }
+      ],
+      "dedupe_key": "risk_or_concern:135f4fd021441f94",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "약 15명",
+      "normalized": {
+        "value": 15,
+        "unit": "people",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Salesforce 연동 프로젝트도 일부 기업과 진행 중"
+          ],
+          "exact_quote": "약 15명",
+          "start_char": 963,
+          "end_char": 968
+        }
+      ],
+      "dedupe_key": "people_count:dec18b388bf3686c",
+      "confidence": 0.93
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

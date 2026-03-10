@@ -1,0 +1,347 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W480",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1. Commit level Level 3 (긍정적 고려 중, 2월 초 B2B 사이트 오픈 시점에 맞춰 도입 의사 높음)",
+      "normalized": {
+        "text": "1. Commit level Level 3 (긍정적 고려 중, 2월 초 B2B 사이트 오픈 시점에 맞춰 도입 의사 높음)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "1. Commit level Level 3 (긍정적 고려 중, 2월 초 B2B 사이트 오픈 시점에 맞춰 도입 의사 높음)",
+          "start_char": 28,
+          "end_char": 95
+        }
+      ],
+      "dedupe_key": "collaboration_need:c9e2633f3c6c91e7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2월 초",
+      "normalized": {
+        "month": 2,
+        "part": "early"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "2월 초",
+          "start_char": 63,
+          "end_char": 67
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "2월 초",
+          "start_char": 164,
+          "end_char": 168
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "2월 초",
+          "start_char": 741,
+          "end_char": 745
+        }
+      ],
+      "dedupe_key": "timeline:647f324fd7abb8e9",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "000원",
+          "start_char": 113,
+          "end_char": 117
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "워크인프로그래스 (네이버웍스 연동 불가 시) 구글 캘린더 사용 전환에 대한 내부 논의 필요",
+      "normalized": {
+        "text": "워크인프로그래스 (네이버웍스 연동 불가 시) 구글 캘린더 사용 전환에 대한 내부 논의 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "워크인프로그래스 (네이버웍스 연동 불가 시) 구글 캘린더 사용 전환에 대한 내부 논의 필요",
+          "start_char": 197,
+          "end_char": 247
+        }
+      ],
+      "dedupe_key": "risk_or_concern:5d6f9de56f87cac7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Blocker: 식별되지 않음"
+          ],
+          "exact_quote": "2명",
+          "start_char": 307,
+          "end_char": 309
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Blocker: 식별되지 않음"
+          ],
+          "exact_quote": "2명",
+          "start_char": 331,
+          "end_char": 333
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "Blocker: 식별되지 않음"
+          ],
+          "exact_quote": "3명",
+          "start_char": 321,
+          "end_char": 323
+        }
+      ],
+      "dedupe_key": "team_size:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Driver:부대표님 - B2B 사이트 신규 오픈 및 CRM 도입 프로젝트를 직접 주도",
+      "normalized": {
+        "text": "Driver:부대표님 - B2B 사이트 신규 오픈 및 CRM 도입 프로젝트를 직접 주도",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "Driver:부대표님 - B2B 사이트 신규 오픈 및 CRM 도입 프로젝트를 직접 주도",
+          "start_char": 400,
+          "end_char": 448
+        }
+      ],
+      "dedupe_key": "collaboration_need:bafcf92180c38dd0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "25만 원",
+      "normalized": {
+        "value": 250000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "25만 원",
+          "start_char": 495,
+          "end_char": 500
+        }
+      ],
+      "dedupe_key": "budget:5c81e268289cc1a5",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "2명",
+          "start_char": 518,
+          "end_char": 520
+        }
+      ],
+      "dedupe_key": "people_count:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Authority:부대표가 직접 미팅에 참석하여 기능을 검토하고 도입 시기를 조율함.",
+      "normalized": {
+        "text": "Authority:부대표가 직접 미팅에 참석하여 기능을 검토하고 도입 시기를 조율함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "Authority:부대표가 직접 미팅에 참석하여 기능을 검토하고 도입 시기를 조율함.",
+          "start_char": 557,
+          "end_char": 604
+        }
+      ],
+      "dedupe_key": "action_item:45e7078b89801df4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "Need:기존 B2C에서 B2B 사이트로 확장하며 기업 고객의 미팅 예약 자동화 필요. 문의부터 일정 확정까지의 과정에서 이탈(놓치는 상황) 방지.",
+      "normalized": {
+        "text": "Need:기존 B2C에서 B2B 사이트로 확장하며 기업 고객의 미팅 예약 자동화 필요. 문의부터 일정 확정까지의 과정에서 이탈(놓치는 상황) 방지.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "Need:기존 B2C에서 B2B 사이트로 확장하며 기업 고객의 미팅 예약 자동화 필요. 문의부터 일정 확정까지의 과정에서 이탈(놓치는 상황) 방지.",
+          "start_char": 606,
+          "end_char": 688
+        }
+      ],
+      "dedupe_key": "action_item:e9e42a61e845c31a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Timing:B2B 사이트 오픈 목표일이 1월 말이며, 실제 사이트 오픈 및 서비스 도입은 2월 초로 예상",
+      "normalized": {
+        "text": "Timing:B2B 사이트 오픈 목표일이 1월 말이며, 실제 사이트 오픈 및 서비스 도입은 2월 초로 예상",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "Timing:B2B 사이트 오픈 목표일이 1월 말이며, 실제 사이트 오픈 및 서비스 도입은 2월 초로 예상",
+          "start_char": 690,
+          "end_char": 749
+        }
+      ],
+      "dedupe_key": "collaboration_need:f9d2d41cc8f7ecf4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "1월 말",
+      "normalized": {
+        "month": 1,
+        "part": "late"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "Influencer: 식별되지 않음"
+          ],
+          "exact_quote": "1월 말",
+          "start_char": 713,
+          "end_char": 717
+        }
+      ],
+      "dedupe_key": "timeline:34fb9df0c4c074f0",
+      "confidence": 0.9
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

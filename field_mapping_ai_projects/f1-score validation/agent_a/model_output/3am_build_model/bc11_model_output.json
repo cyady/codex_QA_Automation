@@ -1,0 +1,202 @@
+[
+  {
+    "extracted_value": "2025-09-17",
+    "field_definition": {
+      "id": "1591",
+      "label": "첫 세일즈 미팅 일자",
+      "type": "date",
+      "category": "custom",
+      "display_order": 23,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트의 제목이 '917 미팅 노트'이며, 현재 기준일이 2026년인 점을 고려할 때 2025년 9월 17일에 진행된 첫 세일즈 미팅으로 판단됩니다."
+  },
+  {
+    "extracted_value": "- 상품 소개자료 전달 (담당: 강대웅)\n- 오프라인 마케팅 제안 포함 이벤트 전달 (담당: 황하운)\n- 컨센트릭스 조사 및 미팅 추진\n- AI 기능 백로그 논의 및 구체적 협업 건 발생 시 확장 제안",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 중 논의된 자료 전달, 제안서 작성, 타사 조사 및 제품 개발 관련 후속 과제들이 상세히 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "마케팅 담당자 정호찬 매니저 (기존 필립모리스, 쥴, 팀 블랙버드 경력 보유). 현재 입사 한 달 차로 향후 마케팅 관련 오너십을 모두 가져갈 예정임.",
+    "field_definition": {
+      "id": "5373",
+      "label": "담당자 페르소나",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 142,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "새로 부임한 마케팅 담당자의 이름, 경력 배경 및 향후 역할에 대한 정보가 구체적으로 기술되어 있습니다."
+  },
+  {
+    "extracted_value": true,
+    "field_definition": {
+      "id": "5375",
+      "label": "[A] 의결권자/내부 챔피언 확보 여부",
+      "type": "checkbox",
+      "category": "custom",
+      "display_order": 144,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "대기업 플랫폼 입점 부서의 의사결정자를 타겟팅하고 있으며, 마케팅 오너십을 가진 담당자와의 미팅을 통해 긍정적인 반응을 확인했으므로 확보된 것으로 판단됩니다."
+  },
+  {
+    "extracted_value": "- 쿠팡 계약 대기업으로서 AI 프라이싱 모니터링 SaaS 판매 니즈가 매우 강함\n- AI CRM 관련 협업 및 AI 기능 백로그 논의 필요\n- 투자 유치 및 대외 이미지 제고를 위해 마이크로소프트 등 글로벌 기업과의 협업 관계 구축 희망",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "고객사가 처한 비즈니스 상황과 AI 기술 도입을 통한 구체적인 니즈, 그리고 대외적인 투자 논의 배경 등이 상세히 설명되어 있습니다."
+  },
+  {
+    "extracted_value": "한 2주간 4명의 엔지니어를 투입하여 데모를 진행한 후 수주하는 프로세스를 고려 중이며, 중장기적인 협업 관계 구축을 희망함.",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "영업 프로세스 항목에서 언급된 엔지니어 투입 기간과 데모 진행을 통한 수주 계획, 그리고 중장기적 협업이라는 시기적 관점이 포함되어 있습니다."
+  },
+  {
+    "extracted_value": 3,
+    "field_definition": {
+      "id": "5773",
+      "label": "Commit Level",
+      "type": "number",
+      "category": "custom",
+      "display_order": 178,
+      "required": false,
+      "archive": false,
+      "caption": "커밋 레벨 격상 원칙: 하위 요소들을 AND 조건으로 만족합니다.\n레벨0: 기회로 보기 어려운 경우\n레벨1: 단순한 호감이 있고 문제가 두루뭉술함\n● 요소 1: 립서비스(재밌어 보이네요, 좋아보이네요)를 받은 상태\n● 요소 2: 해결하고 싶은 두루뭉술한 문제가 있음. (ex. 신규 고객을 더 확보하고 싶어요)\n레벨2: 문제가 뚜렷하게 정의되었고, 챔피언과 우호적 관계를 구축함\n● 요소 3: 해결하고 싶은 뚜렷한 문제가 1차 정의되었음. (ex: 신규 고객을 확보하기 위해 기존 SDP에만 의존하지 않고 MDP를 구축하고, 고객 데이터를 체계적으로 수집하고 관리하고 싶어요.)\n● 요소 4: 팀 추진의 힌트를 제공해주고 도입에 힘을 실어주는 챔피언을 확보함.\n레벨3: 구매자 그룹 내 핵심 이해관계자들을 모두 파악함\n● 요소 5: 의사결정권자 뿐만 아니라, 게이트키퍼, 스나이퍼가 있을 경우, 이를 모두 식별함.\n● 요소 6: 관리자 의사결정권자, 챔피언, 실무자 레벨의 담당자 모두와 각각 우호적 관계를 구축함.\n ○ 우호적 관계란, “특별한 이유가 없어도” 영업 담당자와 만나서 이야기를 편하게 나눌 수 있을 정도로 신뢰가 구축된 상태를 의미함.\n● 요소 7: 구매자 그룹의 이해관계자 별 니즈를 각각 정의했음. (ex: 관리자는 대시보드를 통해 영업 사원 별 성과를 측정하고 싶고, 실무자는 crm 기능을 사용해 팔로업 과정에 들어가는 리소스를 효율화하고 싶어요)\n레벨4: 예산, 타임라인 확정\n● 요소 8: 도입을 위한 구체적인 예산과 검토 타임라인에 대해 알고 있음.\n● 요소 9: 계약서 발송/“최종” 견적서 발송/세금계산서 발행을 요청 받음.",
+      "description": "0,1,2,3,4로 써주세요",
+      "default_value": null,
+      "attributes": {
+        "precision": 0
+      }
+    },
+    "reasoning": "의사결정자 타겟팅이 완료되었고, 마케팅 담당자라는 확실한 챔피언을 확보했으며, 구체적인 기술적 문제(AI 프라이싱)와 니즈가 정의되어 우호적인 관계에서 협업을 논의 중이므로 레벨 3에 해당합니다."
+  },
+  {
+    "extracted_value": [
+      {
+        "value": "36b2fe95-d6e2-494f-80b8-2430cabbf2c7"
+      }
+    ],
+    "field_definition": {
+      "id": "6238",
+      "label": "월별 키어카운트",
+      "type": "select",
+      "category": "custom",
+      "display_order": 197,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "default_value": null,
+      "attributes": {
+        "options": [
+          {
+            "label": "25년 9월",
+            "order": 1,
+            "value": "36b2fe95-d6e2-494f-80b8-2430cabbf2c7"
+          },
+          {
+            "label": "25년 10월",
+            "order": 2,
+            "value": "c9c565d7-0e28-40db-a91b-95296e97a6b0"
+          },
+          {
+            "label": "25년 11월",
+            "order": 3,
+            "value": "c4ef413c-8bcf-41e4-8d4b-fe204d942be0"
+          },
+          {
+            "label": "25년 12월",
+            "order": 4,
+            "value": "fd93a90d-b3cf-43b8-8b11-f1b7c1e76563"
+          },
+          {
+            "label": "26년 1월",
+            "order": 5,
+            "value": "d9a98dc0-237e-4498-8e34-84c01f2634bb"
+          },
+          {
+            "label": "26년 2월",
+            "order": 6,
+            "value": "55071438-6660-4b54-8374-17001c41f234"
+          },
+          {
+            "label": "26년 3월",
+            "order": 7,
+            "value": "50ff7c28-e368-4c5a-9f5a-54cb2a363878"
+          },
+          {
+            "label": "26년 4월",
+            "order": 8,
+            "value": "6818e745-6ced-479d-9bc2-fe7ca124c3dd"
+          },
+          {
+            "label": "26년 5월",
+            "order": 9,
+            "value": "3a2d79b3-166d-408f-bf2a-bd8621ae5f05"
+          },
+          {
+            "label": "26년 6월",
+            "order": 10,
+            "value": "4a574008-1c6e-481c-a0e2-3534bedff93c"
+          },
+          {
+            "label": "26년 7월",
+            "order": 11,
+            "value": "e49b5a72-7763-4cda-91eb-2d3409438b67"
+          },
+          {
+            "label": "26년 8월",
+            "order": 12,
+            "value": "d4f94c12-3a1a-41b9-bb1d-705b310d2019"
+          }
+        ],
+        "allow_empty": true
+      }
+    },
+    "reasoning": "미팅 노트 날짜(9월 17일)를 기준으로 해당 딜이 관리되는 시점인 25년 9월을 키어카운트 월로 선택했습니다."
+  }
+]

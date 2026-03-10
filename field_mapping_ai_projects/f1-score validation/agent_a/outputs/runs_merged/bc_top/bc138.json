@@ -1,0 +1,290 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W138",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 40,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김우진",
+      "normalized": {
+        "name": "김우진"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김우진",
+          "start_char": 105,
+          "end_char": 109
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:9b2999d1225d5425",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SEO",
+          "start_char": 22,
+          "end_char": 25
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 337,
+          "end_char": 340
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 475,
+          "end_char": 478
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 530,
+          "end_char": 533
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "sdr",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 41,
+          "end_char": 44
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ahrefs 를 통해 분석했던 내용 레버리지 해서 전달 드렸는데, 시의성에 맞는 논의 항목이라 크게 공감해 주셨네요.",
+      "normalized": {
+        "text": "ahrefs 를 통해 분석했던 내용 레버리지 해서 전달 드렸는데, 시의성에 맞는 논의 항목이라 크게 공감해 주셨네요.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "ahrefs 를 통해 분석했던 내용 레버리지 해서 전달 드렸는데, 시의성에 맞는 논의 항목이라 크게 공감해 주셨네요.",
+          "start_char": 128,
+          "end_char": 193
+        }
+      ],
+      "dedupe_key": "collaboration_need:7c289bc51167fdec",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "또, SEO 진단분석 요청 드리고 싶은데, 1) 비용이 얼마인지, 2) 어떤 인사이트를 얻을 수 있는지 궁금하다.",
+      "normalized": {
+        "text": "또, SEO 진단분석 요청 드리고 싶은데, 1) 비용이 얼마인지, 2) 어떤 인사이트를 얻을 수 있는지 궁금하다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "또, SEO 진단분석 요청 드리고 싶은데, 1) 비용이 얼마인지, 2) 어떤 인사이트를 얻을 수 있는지 궁금하다.",
+          "start_char": 334,
+          "end_char": 397
+        }
+      ],
+      "dedupe_key": "action_item:e08cc5f63a6e983e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[요청] @안민혁 (minhyuk) 님! 엘리펀트 소개서 처럼 SEO 진단 분석의 상세 스콥을 전달 드리면 좋을 것 같은데, 혹시 남겨 주실 수 있나요? 바로 딜리버리 해보겠습니다.",
+      "normalized": {
+        "text": "[요청] @안민혁 (minhyuk) 님! 엘리펀트 소개서 처럼 SEO 진단 분석의 상세 스콥을 전달 드리면 좋을 것 같은데, 혹시 남겨 주실 수 있나요? 바로 딜리버리 해보겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "[요청] @안민혁 (minhyuk) 님! 엘리펀트 소개서 처럼 SEO 진단 분석의 상세 스콥을 전달 드리면 좋을 것 같은데, 혹시 남겨 주실 수 있나요? 바로 딜리버리 해보겠습니다.",
+          "start_char": 495,
+          "end_char": 596
+        }
+      ],
+      "dedupe_key": "action_item:f01134c30964e511",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 404,
+          "end_char": 408
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 500,
+          "end_char": 504
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "50만원",
+          "start_char": 468,
+          "end_char": 472
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "1시간",
+      "normalized": {
+        "value": 1.0,
+        "unit": "hours",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "자연 검색어 기반으로 직접 유입 비중을 늘려야 하지 않나?"
+          ],
+          "exact_quote": "1시간",
+          "start_char": 487,
+          "end_char": 490
+        }
+      ],
+      "dedupe_key": "duration:df792b64e2093972",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

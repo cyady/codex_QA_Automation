@@ -1,0 +1,315 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W38",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "09.05",
+      "normalized": {
+        "year": 2009,
+        "month": 5,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "09.05",
+          "start_char": 0,
+          "end_char": 5
+        }
+      ],
+      "dedupe_key": "timeline:f55c98f9e6404838",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ABM 패키지 & 그로스 패키지 전달 드릴 예정",
+      "normalized": {
+        "text": "ABM 패키지 & 그로스 패키지 전달 드릴 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "ABM 패키지 & 그로스 패키지 전달 드릴 예정",
+          "start_char": 72,
+          "end_char": 98
+        }
+      ],
+      "dedupe_key": "collaboration_need:6d8bf09f421b0630",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "문제는 구체적으로 정의되었으나, 어또리티 확보가 필요",
+      "normalized": {
+        "text": "문제는 구체적으로 정의되었으나, 어또리티 확보가 필요",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "문제는 구체적으로 정의되었으나, 어또리티 확보가 필요",
+          "start_char": 99,
+          "end_char": 128
+        }
+      ],
+      "dedupe_key": "risk_or_concern:60706d1cc0637d0a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "커밋레벨 level 1으로 의사결정권자와의 후속미팅 잡는 것이 필요",
+      "normalized": {
+        "text": "커밋레벨 level 1으로 의사결정권자와의 후속미팅 잡는 것이 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "커밋레벨 level 1으로 의사결정권자와의 후속미팅 잡는 것이 필요",
+          "start_char": 129,
+          "end_char": 166
+        }
+      ],
+      "dedupe_key": "action_item:291a31ad8ee67b7f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "B2B 마케팅팀이 부재한 상황이고, 퍼포먼스 마케팅은 별도로 B2C 마케팅팀에서 단발성으로 진행해 주고 있음",
+      "normalized": {
+        "text": "B2B 마케팅팀이 부재한 상황이고, 퍼포먼스 마케팅은 별도로 B2C 마케팅팀에서 단발성으로 진행해 주고 있음",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "B2B 마케팅팀이 부재한 상황이고, 퍼포먼스 마케팅은 별도로 B2C 마케팅팀에서 단발성으로 진행해 주고 있음",
+          "start_char": 283,
+          "end_char": 343
+        }
+      ],
+      "dedupe_key": "risk_or_concern:b024df4047e7068b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "ABM",
+      "normalized": {
+        "keyword": "ABM"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "ABM",
+          "start_char": 72,
+          "end_char": 75
+        }
+      ],
+      "dedupe_key": "tool_or_channel:c2f98f949334c277",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 트래픽 증대를 위해 콘텐츠 마케팅 진행하고 있지만, SEO 성숙도가 높지 않음",
+      "normalized": {
+        "text": "웹사이트 트래픽 증대를 위해 콘텐츠 마케팅 진행하고 있지만, SEO 성숙도가 높지 않음",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "웹사이트 트래픽 증대를 위해 콘텐츠 마케팅 진행하고 있지만, SEO 성숙도가 높지 않음",
+          "start_char": 502,
+          "end_char": 550
+        }
+      ],
+      "dedupe_key": "action_item:e0774fc9290421d7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 536,
+          "end_char": 539
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "결론"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 555,
+          "end_char": 558
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안한 해결책]"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 729,
+          "end_char": 732
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "1/ 대표적인 리드마그넷의 효용성 전달",
+      "normalized": {
+        "text": "1/ 대표적인 리드마그넷의 효용성 전달",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안한 해결책]"
+          ],
+          "exact_quote": "1/ 대표적인 리드마그넷의 효용성 전달",
+          "start_char": 584,
+          "end_char": 605
+        }
+      ],
+      "dedupe_key": "collaboration_need:bc88773e2bea8f3d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "ahrefs 보여 드리며, 키워드 리스트업 방안 전달 ex) 경쟁사 키워드 뺏어오기 등",
+      "normalized": {
+        "text": "ahrefs 보여 드리며, 키워드 리스트업 방안 전달 ex) 경쟁사 키워드 뺏어오기 등",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안한 해결책]"
+          ],
+          "exact_quote": "ahrefs 보여 드리며, 키워드 리스트업 방안 전달 ex) 경쟁사 키워드 뺏어오기 등",
+          "start_char": 750,
+          "end_char": 798
+        }
+      ],
+      "dedupe_key": "collaboration_need:f40548dfa18669e9",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온라인 웨비나로 진행할지 오프라인 세미나로 진행할지 고민이다.",
+      "normalized": {
+        "text": "온라인 웨비나로 진행할지 오프라인 세미나로 진행할지 고민이다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안한 해결책]"
+          ],
+          "exact_quote": "온라인 웨비나로 진행할지 오프라인 세미나로 진행할지 고민이다.",
+          "start_char": 806,
+          "end_char": 840
+        }
+      ],
+      "dedupe_key": "action_item:7bd2e4e438945443",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "[제안한 해결책]"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 720,
+          "end_char": 723
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

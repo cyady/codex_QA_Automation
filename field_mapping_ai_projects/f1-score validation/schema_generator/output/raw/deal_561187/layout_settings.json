@@ -1,0 +1,301 @@
+{
+  "positions": [
+    {
+      "sections": [
+        {
+          "id": "group-reference",
+          "type": "group",
+          "children": [
+            {
+              "id": "box-reference-company",
+              "type": "box",
+              "title": null,
+              "children": [],
+              "content_type": "reference"
+            },
+            {
+              "id": "box-reference-contact",
+              "type": "box",
+              "title": null,
+              "children": [],
+              "content_type": "reference"
+            }
+          ]
+        },
+        {
+          "id": "group-0",
+          "type": "group",
+          "children": [
+            {
+              "id": "02e146e4-a529-45ca-b8ea-472b0d07d819",
+              "type": "box",
+              "title": "회사/담당자 (상)",
+              "children": [
+                {
+                  "id": "6908",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5577",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5178",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5577",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": false
+                }
+              ],
+              "content_type": "information"
+            },
+            {
+              "id": "79e2b2f9-ca8f-40aa-bf84-e5974d9edaff",
+              "type": "box",
+              "title": "기회 정보(상)",
+              "children": [
+                {
+                  "id": "1591",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "assignee",
+                  "category": "standard",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5773",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5372",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "6238",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5656",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5657",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "1608",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "7983",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5575",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                }
+              ],
+              "content_type": "information"
+            },
+            {
+              "id": "6a610b39-0305-4599-8a2a-934d129f5074",
+              "type": "box",
+              "title": "계약 관련 (하)",
+              "children": [
+                {
+                  "id": "5557",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5368",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "1593",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "contract_amount",
+                  "category": "standard",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "1599",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": false
+                }
+              ],
+              "content_type": "information"
+            },
+            {
+              "id": "9c7ae343-b3b1-44b5-9ab8-f17da58f3b37",
+              "type": "box",
+              "title": "드롭시 필수 (하)",
+              "children": [
+                {
+                  "id": "5582",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5578",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                }
+              ],
+              "content_type": "information"
+            },
+            {
+              "id": "300fbecf-a3be-453f-bb8c-3eb3fa463d65",
+              "type": "box",
+              "title": "상세 미팅 내용 (중)",
+              "children": [
+                {
+                  "id": "5361",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5373",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5374",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5375",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5376",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5378",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                },
+                {
+                  "id": "5379",
+                  "category": "custom",
+                  "required": false,
+                  "is_visible": true
+                }
+              ],
+              "content_type": "information"
+            }
+          ]
+        }
+      ],
+      "column_ratio": 1
+    },
+    {
+      "sections": [
+        {
+          "id": "group-1",
+          "type": "group",
+          "children": [
+            {
+              "id": "box-1",
+              "type": "box",
+              "title": null,
+              "content_type": "memo"
+            },
+            {
+              "id": "box-attachments",
+              "type": "box",
+              "title": null,
+              "children": [],
+              "content_type": "attachments"
+            },
+            {
+              "id": "box-1",
+              "type": "box",
+              "title": null,
+              "content_type": "formSubmissionAndScheduleEvent"
+            },
+            {
+              "id": "box-data-enrichment",
+              "type": "box",
+              "title": null,
+              "children": [],
+              "content_type": "dataEnrichment"
+            },
+            {
+              "id": "box-tracking-events",
+              "type": "box",
+              "title": null,
+              "children": [],
+              "content_type": "trackingEvents"
+            }
+          ]
+        }
+      ],
+      "column_ratio": 1
+    }
+  ],
+  "top_section_widgets": [
+    {
+      "id": "assignee",
+      "category": "standard",
+      "required": false,
+      "is_visible": true
+    },
+    {
+      "id": "updated_at",
+      "category": "system",
+      "required": true,
+      "is_visible": true
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W21",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+      "normalized": {
+        "text": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "지난 9월 26일 미팅 이후, 요청주신 상황을 모두 고려하여 에스앤엘컴에 정식 견적서를 송부드리게 되었습니다.현재 웹사이트 폼 제출을 통한 리드 수집이 활발하지 않은 상황에서, 뉴스레터 등 대량 이메일 발송 기능이 포함된 마케팅 CRM보다는",
+          "start_char": 127,
+          "end_char": 261
+        }
+      ],
+      "dedupe_key": "action_item:ca0a2a78f4ade715",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+      "normalized": {
+        "text": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2/ 계약서 초안 컨펌 이후, 모두싸인 전자계약서 진행3/ 계좌이체 요청 및 세금계산서 발행4/ 온보딩 위해 귀사로 방문통상 절차는 위와 같으나, 빠른 리캐치 사용과 온보딩을 희망해주신 관계로 본 메일에서 온보딩을 위한 방문 일정을 미리 조율코자 합니다.",
+          "start_char": 928,
+          "end_char": 1070
+        }
+      ],
+      "dedupe_key": "action_item:a266272209a4810e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+      "normalized": {
+        "text": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "저도 함께 참석하여 귀사의 성공적인 리캐치 안착을 돕고자 합니다.견적 내용 확인 부탁드리며, 화요일 일정 관련하여 회신 부탁드리겠습니다.감사합니다!",
+          "start_char": 1156,
+          "end_char": 1238
+        }
+      ],
+      "dedupe_key": "action_item:93fb54ede110e284",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@여인찬",
+      "normalized": {
+        "name": "여인찬"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@여인찬",
+          "start_char": 52,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:32f825a2cab0bc8c",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "10/21",
+      "normalized": {
+        "month": 10,
+        "day": 21,
+        "kind": "month_day"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "10/21",
+          "start_char": 1080,
+          "end_char": 1085
+        }
+      ],
+      "dedupe_key": "timeline:891473aeed024870",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 26일",
+      "normalized": {
+        "month": 9,
+        "day": 26
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "9월 26일",
+          "start_char": 130,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "timeline:3b92809b3c35a262",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "500만원",
+          "start_char": 22,
+          "end_char": 27
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "317만원",
+      "normalized": {
+        "value": 3170000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "317만원",
+          "start_char": 631,
+          "end_char": 636
+        }
+      ],
+      "dedupe_key": "budget:4952254e5b038358",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "26일",
+      "normalized": {
+        "value": 26.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "26일",
+          "start_char": 133,
+          "end_char": 136
+        }
+      ],
+      "dedupe_key": "duration:89b2b7b0d4104c51",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "000개",
+          "start_char": 337,
+          "end_char": 341
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "14개",
+      "normalized": {
+        "value": 14,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "14개",
+          "start_char": 542,
+          "end_char": 545
+        }
+      ],
+      "dedupe_key": "case_metric:fff3c447159ce79c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "뉴스레터",
+      "normalized": {
+        "keyword": "뉴스레터"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "뉴스레터",
+          "start_char": 226,
+          "end_char": 230
+        }
+      ],
+      "dedupe_key": "tool_or_channel:b3db4782d5ab1269",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 91,
+          "end_char": 94
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 309,
+          "end_char": 312
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1013,
+          "end_char": 1016
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 1176,
+          "end_char": 1179
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

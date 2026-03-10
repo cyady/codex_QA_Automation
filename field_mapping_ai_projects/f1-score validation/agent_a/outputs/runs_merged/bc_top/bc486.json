@@ -1,0 +1,264 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W486",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "20만원",
+      "normalized": {
+        "value": 200000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "20만원",
+          "start_char": 23,
+          "end_char": 27
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "20만원",
+          "start_char": 143,
+          "end_char": 147
+        }
+      ],
+      "dedupe_key": "budget:541eff5d29108a6f",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1. Commit level: 1고객(책임님)은 현재 1인 마케터로서 영업(BD) 업무까지 병행하고 있어 업무 효율화를 위해 CRM 도입 니즈가 매우 강함,,.그러나 자사 웹사이트가 아직 구축 중(이번 달 목표)이며 리드가 없는 상태라, 당장 도입보다는 검토 단계에 가까움,.내부 의사결정권자(대표, 팀장)를 설득해야 하는 과제가 남아 있음,.",
+      "normalized": {
+        "text": "1. Commit level: 1고객(책임님)은 현재 1인 마케터로서 영업(BD) 업무까지 병행하고 있어 업무 효율화를 위해 CRM 도입 니즈가 매우 강함,,.그러나 자사 웹사이트가 아직 구축 중(이번 달 목표)이며 리드가 없는 상태라, 당장 도입보다는 검토 단계에 가까움,.내부 의사결정권자(대표, 팀장)를 설득해야 하는 과제가 남아 있음,.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "1. Commit level: 1고객(책임님)은 현재 1인 마케터로서 영업(BD) 업무까지 병행하고 있어 업무 효율화를 위해 CRM 도입 니즈가 매우 강함,,.그러나 자사 웹사이트가 아직 구축 중(이번 달 목표)이며 리드가 없는 상태라, 당장 도입보다는 검토 단계에 가까움,.내부 의사결정권자(대표, 팀장)를 설득해야 하는 과제가 남아 있음,.",
+          "start_char": 156,
+          "end_char": 348
+        }
+      ],
+      "dedupe_key": "action_item:5198ba90fe696108",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "52만 원",
+      "normalized": {
+        "value": 520000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "52만 원",
+          "start_char": 449,
+          "end_char": 454
+        }
+      ],
+      "dedupe_key": "budget:0ca8f58ced9c3569",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "400만 원",
+          "start_char": 509,
+          "end_char": 515
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "000개",
+          "start_char": 415,
+          "end_char": 419
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ Next action리캐치(영업자): 마케팅 CRM '베이직' 플랜 기준으로 견적서 발송.다이퀘스트(고객): 견적 수령 후 내부 결재(품의) 검토,.공동: 추후 전략사업팀 전체를 대상으로 리캐치 측의 오프라인 방문 데모(설명회) 일정 조율,.",
+      "normalized": {
+        "text": "3/ Next action리캐치(영업자): 마케팅 CRM '베이직' 플랜 기준으로 견적서 발송.다이퀘스트(고객): 견적 수령 후 내부 결재(품의) 검토,.공동: 추후 전략사업팀 전체를 대상으로 리캐치 측의 오프라인 방문 데모(설명회) 일정 조율,.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "3/ Next action리캐치(영업자): 마케팅 CRM '베이직' 플랜 기준으로 견적서 발송.다이퀘스트(고객): 견적 수령 후 내부 결재(품의) 검토,.공동: 추후 전략사업팀 전체를 대상으로 리캐치 측의 오프라인 방문 데모(설명회) 일정 조율,.",
+          "start_char": 554,
+          "end_char": 692
+        }
+      ],
+      "dedupe_key": "action_item:f86be729dbec89dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 568,
+          "end_char": 571
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 662,
+          "end_char": 665
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 957,
+          "end_char": 960
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1487,
+          "end_char": 1490
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "SDR",
+          "start_char": 872,
+          "end_char": 875
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "24.00",
+      "normalized": {
+        "year": 2024,
+        "month": 0,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "--"
+          ],
+          "exact_quote": "24.00",
+          "start_char": 1690,
+          "end_char": 1695
+        }
+      ],
+      "dedupe_key": "timeline:24278478690773b7",
+      "confidence": 0.87
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

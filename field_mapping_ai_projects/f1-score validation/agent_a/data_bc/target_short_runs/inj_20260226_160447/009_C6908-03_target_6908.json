@@ -1,0 +1,49 @@
+{
+  "case": {
+    "case_id": "C6908-03",
+    "technique": "target_6908",
+    "prompt": "추가 회사/담당자 연락처: 오현우 팀장 010-4555-2001 / hw.oh@mbrownkorea.co.kr."
+  },
+  "payload": {
+    "summary": "추가 회사/담당자 연락처: 오현우 팀장 010-4555-2001 / hw.oh@mbrownkorea.co.kr.",
+    "entity_type": "deal",
+    "record_id": 566094,
+    "date": "2026-02-26T07:10:14.838Z"
+  },
+  "status": 201,
+  "attempt": 1,
+  "response": [
+    {
+      "extracted_value": "오현우 팀장 (010-4555-2001 / hw.oh@mbrownkorea.co.kr)",
+      "field_definition": {
+        "id": "5373",
+        "label": "담당자 페르소나",
+        "type": "textarea",
+        "category": "custom",
+        "display_order": 142,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "미팅 노트에 새롭게 파악된 담당자의 성함, 직책(팀장) 및 연락처 정보가 명시되어 있어 담당자의 신원과 페르소나를 파악할 수 있는 정보로 추출했습니다."
+    },
+    {
+      "extracted_value": "mbrownkorea",
+      "field_definition": {
+        "id": "5577",
+        "label": "법인명",
+        "type": "text",
+        "category": "custom",
+        "display_order": 164,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "'추가 회사 연락처'라는 문맥과 함께 제공된 이메일 주소의 도메인을 통해 해당 담당자가 소속된 법인명을 추출했습니다."
+    }
+  ]
+}

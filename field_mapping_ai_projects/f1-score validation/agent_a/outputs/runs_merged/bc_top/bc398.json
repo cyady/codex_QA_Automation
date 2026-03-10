@@ -1,0 +1,119 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W398",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "사유: 11월은 출장이 많아서 시간 내기 어렵다. 그리고 리캐치 CRM 내가 일단 공부 해보고 싶다.",
+      "normalized": {
+        "text": "사유: 11월은 출장이 많아서 시간 내기 어렵다. 그리고 리캐치 CRM 내가 일단 공부 해보고 싶다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "노드데이타 조해생 전무님"
+          ],
+          "exact_quote": "사유: 11월은 출장이 많아서 시간 내기 어렵다. 그리고 리캐치 CRM 내가 일단 공부 해보고 싶다.",
+          "start_char": 71,
+          "end_char": 127
+        }
+      ],
+      "dedupe_key": "risk_or_concern:0501f1d5684f2eba",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "노드데이타 조해생 전무님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 103,
+          "end_char": 106
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "온도는 확실히 좋으심"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 386,
+          "end_char": 389
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1만원",
+      "normalized": {
+        "value": 10000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "온도는 확실히 좋으심"
+          ],
+          "exact_quote": "1만원",
+          "start_char": 271,
+          "end_char": 274
+        }
+      ],
+      "dedupe_key": "budget:2aa022b50d7f6f88",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "50만원",
+      "normalized": {
+        "value": 500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "온도는 확실히 좋으심"
+          ],
+          "exact_quote": "50만원",
+          "start_char": 458,
+          "end_char": 462
+        }
+      ],
+      "dedupe_key": "budget:5340bb6b01b240b8",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

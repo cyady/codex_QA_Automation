@@ -1,0 +1,66 @@
+[
+  {
+    "extracted_value": "지에스엠비즈",
+    "field_definition": {
+      "id": "5577",
+      "label": "법인명",
+      "type": "text",
+      "category": "custom",
+      "display_order": 164,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "미팅 노트 상단에 대상 업체명이 '지에스엠비즈'로 명시되어 있습니다."
+  },
+  {
+    "extracted_value": "해커톤 행사 종료 후 사업부 PI(Process Innovation)가 시작될 예정이며, 이를 CRM 영역과 연계하여 As-Is 분석 단계의 문제점들을 해결하기 위한 To-Be 방안으로 CRM 도입을 구상하고 있는 단계입니다.",
+    "field_definition": {
+      "id": "5376",
+      "label": "[N] 상황 및 문제",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 145,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 신사업을 한지 1년이 됬고, 하반기 부터 세일즈를 하고 싶음 / 웹사이트에서 인바운드 문의를 받고 있으나 담당자 즉각 배정이 어렵고 콜 데이터가 유실되어 영업 효율화가 나오지 않는 상황.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "고객사가 현재 처한 상황(사업부 PI 시작)과 CRM 도입을 통해 해결하고자 하는 목적(As-Is 분석을 통한 문제 해결)이 상세히 기술되어 있습니다."
+  },
+  {
+    "extracted_value": "CRM 도입 및 프로젝트 본격화 시점은 9월 중순 이후로 예상하고 있습니다.",
+    "field_definition": {
+      "id": "5378",
+      "label": "[T] 타임라인",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 147,
+      "required": false,
+      "archive": false,
+      "caption": "ex) 2분기까지 홈페이지 구축 완료 필요, ASAP으로 사용 희망 등.",
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "CRM 도입 시기에 대해 '아마 시기는 9월 중순 이후가 될 것 같다'고 구체적인 타임라인을 언급했습니다."
+  },
+  {
+    "extracted_value": "9월 중순 이후 후속 미팅 진행 예정",
+    "field_definition": {
+      "id": "5361",
+      "label": "Next Action",
+      "type": "textarea",
+      "category": "custom",
+      "display_order": 130,
+      "required": false,
+      "archive": false,
+      "caption": null,
+      "description": null,
+      "attributes": null
+    },
+    "reasoning": "향후 계획으로 '9월 중순 이후 미팅이 잡힐 것으로 예상'된다는 내용이 포함되어 있습니다."
+  }
+]

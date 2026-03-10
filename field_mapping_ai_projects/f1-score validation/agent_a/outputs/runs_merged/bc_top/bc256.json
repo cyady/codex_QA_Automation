@@ -1,0 +1,926 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W256",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier 2 레드블루(바디코디) - 마케팅 CRM 도입 검토]",
+      "normalized": {
+        "text": "[Tier 2 레드블루(바디코디) - 마케팅 CRM 도입 검토]",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier 2 레드블루(바디코디) - 마케팅 CRM 도입 검토]",
+          "start_char": 0,
+          "end_char": 35
+        }
+      ],
+      "dedupe_key": "action_item:1f035216aef4ac73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 69,
+          "end_char": 72
+        },
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 151,
+          "end_char": 154
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 455,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "약 528만 원",
+      "normalized": {
+        "value": 5280000,
+        "currency": "KRW",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "약 528만 원",
+          "start_char": 275,
+          "end_char": 283
+        }
+      ],
+      "dedupe_key": "budget:c121548e0aba5073",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "44만원",
+      "normalized": {
+        "value": 440000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "44만원",
+          "start_char": 309,
+          "end_char": 313
+        }
+      ],
+      "dedupe_key": "budget:1802191a885dde26",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "12개월",
+      "normalized": {
+        "value": 12.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "12개월",
+          "start_char": 316,
+          "end_char": 320
+        }
+      ],
+      "dedupe_key": "duration:597cd387204522ee",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "고객사는 실사용자 3~4명 규모로, 인원수 대비 효용성을 고려해 가격 네고를 강력히 요청 중",
+      "normalized": {
+        "text": "고객사는 실사용자 3~4명 규모로, 인원수 대비 효용성을 고려해 가격 네고를 강력히 요청 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "고객사는 실사용자 3~4명 규모로, 인원수 대비 효용성을 고려해 가격 네고를 강력히 요청 중",
+          "start_char": 325,
+          "end_char": 376
+        }
+      ],
+      "dedupe_key": "action_item:d1953f50bfd632cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number_range",
+      "raw_text": "3~4명",
+      "normalized": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "people"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "3~4명",
+          "start_char": 335,
+          "end_char": 339
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "3~4명",
+          "start_char": 549,
+          "end_char": 553
+        },
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "3~4명",
+          "start_char": 604,
+          "end_char": 608
+        }
+      ],
+      "dedupe_key": "team_size:3a0b790e15fb513e",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[내부 확인] 메타 전환 광고(폼 제출)와 리캐치 연동 가능 여부 기술 검토 후 회신",
+      "normalized": {
+        "text": "[내부 확인] 메타 전환 광고(폼 제출)와 리캐치 연동 가능 여부 기술 검토 후 회신",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "[내부 확인] 메타 전환 광고(폼 제출)와 리캐치 연동 가능 여부 기술 검토 후 회신",
+          "start_char": 431,
+          "end_char": 478
+        }
+      ],
+      "dedupe_key": "action_item:c28b4bab2d60a6a2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [],
+          "exact_quote": "메타",
+          "start_char": 439,
+          "end_char": 441
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "가능할 것이다라고 했는데, 확실히 다시 한번 확인 필요 @황하운 (Hazel)",
+      "normalized": {
+        "text": "가능할 것이다라고 했는데, 확실히 다시 한번 확인 필요 @황하운 (Hazel)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "가능할 것이다라고 했는데, 확실히 다시 한번 확인 필요 @황하운 (Hazel)",
+          "start_char": 484,
+          "end_char": 527
+        }
+      ],
+      "dedupe_key": "action_item:f404cc9a23984d6a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@황하운",
+      "normalized": {
+        "name": "황하운"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "@황하운",
+          "start_char": 515,
+          "end_char": 519
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:eb89d29027db1338",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[내부 논의 필요] 소규모 인원(3~4명)에 대한 가격 할인 정책 및 무료 체험(테스트 계정) 제공 가능 여부 논의 필요",
+      "normalized": {
+        "text": "[내부 논의 필요] 소규모 인원(3~4명)에 대한 가격 할인 정책 및 무료 체험(테스트 계정) 제공 가능 여부 논의 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [],
+          "exact_quote": "[내부 논의 필요] 소규모 인원(3~4명)에 대한 가격 할인 정책 및 무료 체험(테스트 계정) 제공 가능 여부 논의 필요",
+          "start_char": 531,
+          "end_char": 598
+        }
+      ],
+      "dedupe_key": "action_item:22007f05ea1ef04e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 641,
+          "end_char": 645
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[고객 전달] 미팅 녹화본 및 추가 초대 인원(2명) 참조하여 메일 발송",
+      "normalized": {
+        "text": "[고객 전달] 미팅 녹화본 및 추가 초대 인원(2명) 참조하여 메일 발송",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "[고객 전달] 미팅 녹화본 및 추가 초대 인원(2명) 참조하여 메일 발송",
+          "start_char": 664,
+          "end_char": 704
+        }
+      ],
+      "dedupe_key": "action_item:0e80141810dc0713",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "2명",
+      "normalized": {
+        "value": 2,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [],
+          "exact_quote": "2명",
+          "start_char": 690,
+          "end_char": 692
+        }
+      ],
+      "dedupe_key": "team_size:360e15c78d84cb9d",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(1) 기능: 문자/카카오톡 자동 발송 기능 부재(로드맵 후순위), 리드 인입-컨택 시간(Time gap) 추적 불가",
+      "normalized": {
+        "text": "(1) 기능: 문자/카카오톡 자동 발송 기능 부재(로드맵 후순위), 리드 인입-컨택 시간(Time gap) 추적 불가",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "위 내용 정해서 회신 필요"
+          ],
+          "exact_quote": "(1) 기능: 문자/카카오톡 자동 발송 기능 부재(로드맵 후순위), 리드 인입-컨택 시간(Time gap) 추적 불가",
+          "start_char": 801,
+          "end_char": 866
+        }
+      ],
+      "dedupe_key": "risk_or_concern:1f88528f7d73e2aa",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "• Influencer: 안성훈 (마케팅 담당) - 타 솔루션 비교 및 실무 적용 가능성 검토 중",
+      "normalized": {
+        "text": "• Influencer: 안성훈 (마케팅 담당) - 타 솔루션 비교 및 실무 적용 가능성 검토 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "위 내용 정해서 회신 필요"
+          ],
+          "exact_quote": "• Influencer: 안성훈 (마케팅 담당) - 타 솔루션 비교 및 실무 적용 가능성 검토 중",
+          "start_char": 984,
+          "end_char": 1038
+        }
+      ],
+      "dedupe_key": "action_item:206790c32945b02e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "• Leader: 조영권 (팀장) - 가격 협상 및 최종 도입 의사결정 주도, 대표님(개발자 출신)의 니즈 대변",
+      "normalized": {
+        "text": "• Leader: 조영권 (팀장) - 가격 협상 및 최종 도입 의사결정 주도, 대표님(개발자 출신)의 니즈 대변",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "위 내용 정해서 회신 필요"
+          ],
+          "exact_quote": "• Leader: 조영권 (팀장) - 가격 협상 및 최종 도입 의사결정 주도, 대표님(개발자 출신)의 니즈 대변",
+          "start_char": 1039,
+          "end_char": 1101
+        }
+      ],
+      "dedupe_key": "collaboration_need:98028a167bfc5f34",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Budget:",
+      "normalized": {
+        "text": "Budget:",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "Budget:",
+          "start_char": 1188,
+          "end_char": 1195
+        }
+      ],
+      "dedupe_key": "collaboration_need:b11235dd307e4e9c",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+      "normalized": {
+        "text": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+          "start_char": 1196,
+          "end_char": 1226
+        }
+      ],
+      "dedupe_key": "collaboration_need:a8e87552feb1fd37",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+      "normalized": {
+        "text": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+          "start_char": 1227,
+          "end_char": 1280
+        }
+      ],
+      "dedupe_key": "collaboration_need:e49c123289f798f3",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+      "normalized": {
+        "text": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+          "start_char": 1281,
+          "end_char": 1331
+        }
+      ],
+      "dedupe_key": "collaboration_need:e4425f2e7054f324",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+      "normalized": {
+        "text": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(1) 마케팅 CRM 도입 예산 책정되어 있으나 민감함",
+          "start_char": 1196,
+          "end_char": 1226
+        }
+      ],
+      "dedupe_key": "collaboration_need:2b247e54545d2bd3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+      "normalized": {
+        "text": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(2) 실사용자 3명+뷰어 1명 구조로, 인당 과금이 아닌 시트 수 기반의 유연한 견적을 희망함",
+          "start_char": 1227,
+          "end_char": 1280
+        }
+      ],
+      "dedupe_key": "collaboration_need:1b7fb70fc38c185a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+      "normalized": {
+        "text": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(3) 마케팅 CRM 스탠다드(월 55만/연 44만) 가격에 대해 부담을 느끼며 네고 요청",
+          "start_char": 1281,
+          "end_char": 1331
+        }
+      ],
+      "dedupe_key": "action_item:5025aa49aef19e5a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "3명",
+      "normalized": {
+        "value": 3,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "3명",
+          "start_char": 1236,
+          "end_char": 1238
+        }
+      ],
+      "dedupe_key": "people_count:1cba072f3a994ab8",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0027",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "1명",
+      "normalized": {
+        "value": 1,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0023",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "1명",
+          "start_char": 1242,
+          "end_char": 1244
+        }
+      ],
+      "dedupe_key": "people_count:8843e29d6b845163",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0028",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Authority: 조영권 팀장이 실무 의사결정 권한을 가진 것으로 보이나, 개발자 출신 대표의 높은 눈높이를 맞추는 것이 중요함",
+      "normalized": {
+        "text": "Authority: 조영권 팀장이 실무 의사결정 권한을 가진 것으로 보이나, 개발자 출신 대표의 높은 눈높이를 맞추는 것이 중요함",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "Authority: 조영권 팀장이 실무 의사결정 권한을 가진 것으로 보이나, 개발자 출신 대표의 높은 눈높이를 맞추는 것이 중요함",
+          "start_char": 1334,
+          "end_char": 1406
+        }
+      ],
+      "dedupe_key": "collaboration_need:94aa67214caededb",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0029",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "Need:",
+      "normalized": {
+        "text": "Need:",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "Need:",
+          "start_char": 1409,
+          "end_char": 1414
+        }
+      ],
+      "dedupe_key": "collaboration_need:80612a3468c18398",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0030",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(1) 마케팅 성과 분석: 채널별/소재별 UTM 추적, 유입 경로 파악",
+      "normalized": {
+        "text": "(1) 마케팅 성과 분석: 채널별/소재별 UTM 추적, 유입 경로 파악",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(1) 마케팅 성과 분석: 채널별/소재별 UTM 추적, 유입 경로 파악",
+          "start_char": 1415,
+          "end_char": 1454
+        }
+      ],
+      "dedupe_key": "collaboration_need:54e8497a16bcb264",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0031",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+      "normalized": {
+        "text": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+          "start_char": 1455,
+          "end_char": 1521
+        }
+      ],
+      "dedupe_key": "collaboration_need:8520ecb532d77511",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0032",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+      "normalized": {
+        "text": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+          "start_char": 1522,
+          "end_char": 1553
+        }
+      ],
+      "dedupe_key": "collaboration_need:4e9a1a156bba97cb",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0033",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+      "normalized": {
+        "text": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(2) 리드 관리: 신규 도입 문의부터 업셀링(키오스크 등) 기회 관리, 미스 세일즈(Miss Sales) 리드 재관리",
+          "start_char": 1455,
+          "end_char": 1521
+        }
+      ],
+      "dedupe_key": "collaboration_need:4a141fb28cd44437",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0034",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+      "normalized": {
+        "text": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0026",
+          "section_path": [
+            "(Budget, Authority, Need, Timing)"
+          ],
+          "exact_quote": "(3) 자동화: 리드 인입 시 이메일 자동 발송(너처링)",
+          "start_char": 1522,
+          "end_char": 1553
+        }
+      ],
+      "dedupe_key": "action_item:6ff4c3fad13e83e5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0035",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "Timing:",
+      "normalized": {
+        "text": "Timing:",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0027",
+          "section_path": [
+            "(4) 대시보드: KPI(MRR, 도입 문의 수 등) 시각화 및 공유"
+          ],
+          "exact_quote": "Timing:",
+          "start_char": 1595,
+          "end_char": 1602
+        }
+      ],
+      "dedupe_key": "other:eb59eece4ecaba13",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0036",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+      "normalized": {
+        "text": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "(4) 대시보드: KPI(MRR, 도입 문의 수 등) 시각화 및 공유"
+          ],
+          "exact_quote": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+          "start_char": 1603,
+          "end_char": 1640
+        }
+      ],
+      "dedupe_key": "other:2c98b8756a07eb9d",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0037",
+      "kind": "hard",
+      "semantic_type": "other",
+      "value_type": "text",
+      "raw_text": "(2) 무료 체험(테스트) 기간 확보 후 즉시 결정하고 싶어 함",
+      "normalized": {
+        "text": "(2) 무료 체험(테스트) 기간 확보 후 즉시 결정하고 싶어 함",
+        "label_hint": "question_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "(4) 대시보드: KPI(MRR, 도입 문의 수 등) 시각화 및 공유"
+          ],
+          "exact_quote": "(2) 무료 체험(테스트) 기간 확보 후 즉시 결정하고 싶어 함",
+          "start_char": 1641,
+          "end_char": 1676
+        }
+      ],
+      "dedupe_key": "other:19b9b3853e6ad3b8",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0038",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+      "normalized": {
+        "text": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0028",
+          "section_path": [
+            "(4) 대시보드: KPI(MRR, 도입 문의 수 등) 시각화 및 공유"
+          ],
+          "exact_quote": "(1) 현재 수기 관리(엑셀/스프레드시트)의 한계로 빠른 도입 희망",
+          "start_char": 1603,
+          "end_char": 1640
+        }
+      ],
+      "dedupe_key": "collaboration_need:1f94c47a16adf426",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

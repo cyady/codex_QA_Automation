@@ -1,0 +1,455 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W389",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "영업 DB 비효율: 1,000개 DB 중 70% 이상이 대표 연락처이며, 개별 연락(전화/메일) 비효율 및 스팸 처리로 전환율이 매우 낮음.",
+      "normalized": {
+        "text": "영업 DB 비효율: 1,000개 DB 중 70% 이상이 대표 연락처이며, 개별 연락(전화/메일) 비효율 및 스팸 처리로 전환율이 매우 낮음."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "영업 DB 비효율: 1,000개 DB 중 70% 이상이 대표 연락처이며, 개별 연락(전화/메일) 비효율 및 스팸 처리로 전환율이 매우 낮음.",
+          "start_char": 26,
+          "end_char": 104
+        }
+      ],
+      "dedupe_key": "risk_or_concern:8b336563ed083be5",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "000개",
+      "normalized": {
+        "value": 0,
+        "unit": "count",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "000개",
+          "start_char": 39,
+          "end_char": 43
+        }
+      ],
+      "dedupe_key": "case_metric:f99ad1782ac76f15",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재.",
+      "normalized": {
+        "text": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재.",
+          "start_char": 108,
+          "end_char": 178
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4df13e4cda94953f",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재.",
+      "normalized": {
+        "text": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "마케팅 유입 부족: 홈페이지 일일 유입 1~2건 수준. 네이버 키워드 광고에만 의존하며, 지속 가능 유입 채널(SEO) 부재.",
+          "start_char": 108,
+          "end_char": 178
+        }
+      ],
+      "dedupe_key": "risk_or_concern:fe83b7a76a55df3b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number_range",
+      "raw_text": "1~2건",
+      "normalized": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "cases"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "1~2건",
+          "start_char": 130,
+          "end_char": 134
+        }
+      ],
+      "dedupe_key": "case_metric:144b26f10afb460d",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 170,
+          "end_char": 173
+        },
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 221,
+          "end_char": 224
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 295,
+          "end_char": 298
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 365,
+          "end_char": 368
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 698,
+          "end_char": 701
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨.",
+      "normalized": {
+        "text": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨."
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨.",
+          "start_char": 182,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d36e660d8d43c265",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨.",
+      "normalized": {
+        "text": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "웹사이트 문제: 현재 아임웹 기반 웹사이트에 H 태그, 메타 태그 등 SEO 필수 요소(유입 경로)가 부족하여 검색 노출이 안됨.",
+          "start_char": 182,
+          "end_char": 254
+        }
+      ],
+      "dedupe_key": "risk_or_concern:ab28598865623402",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "메타",
+      "normalized": {
+        "keyword": "메타"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "이엑스메이트의 핵심 고민 (Need)"
+          ],
+          "exact_quote": "메타",
+          "start_char": 213,
+          "end_char": 215
+        }
+      ],
+      "dedupe_key": "tool_or_channel:f0569e9eac26130b",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "다음 단계: 웹사이트 개편 및 전문가 서비스 제안서와 견적서를 다음 주 중 이메일로 전달 예정",
+      "normalized": {
+        "text": "다음 단계: 웹사이트 개편 및 전문가 서비스 제안서와 견적서를 다음 주 중 이메일로 전달 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "다음 단계: 웹사이트 개편 및 전문가 서비스 제안서와 견적서를 다음 주 중 이메일로 전달 예정",
+          "start_char": 482,
+          "end_char": 534
+        }
+      ],
+      "dedupe_key": "collaboration_need:b214e4e0086759fd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "전략: '우리 서비스가 좋다'가 아닌, 화주사(K-뷰티/화장품 90%)가 궁금해하는 전문 정보를 제공하는 콘텐츠 전략 도입",
+      "normalized": {
+        "text": "전략: '우리 서비스가 좋다'가 아닌, 화주사(K-뷰티/화장품 90%)가 궁금해하는 전문 정보를 제공하는 콘텐츠 전략 도입",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "전략: '우리 서비스가 좋다'가 아닌, 화주사(K-뷰티/화장품 90%)가 궁금해하는 전문 정보를 제공하는 콘텐츠 전략 도입",
+          "start_char": 565,
+          "end_char": 633
+        }
+      ],
+      "dedupe_key": "collaboration_need:d52a87aec01635d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "6개월",
+      "normalized": {
+        "value": 6.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "6개월",
+          "start_char": 710,
+          "end_char": 713
+        }
+      ],
+      "dedupe_key": "duration:abef32141ef20eb4",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "3. CRM 도입 시점 연기 (Budget/Timeline)",
+      "normalized": {
+        "text": "3. CRM 도입 시점 연기 (Budget/Timeline)",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "3. CRM 도입 시점 연기 (Budget/Timeline)",
+          "start_char": 736,
+          "end_char": 769
+        }
+      ],
+      "dedupe_key": "collaboration_need:1ab421bcb33763d2",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "결정: 당장은 CRM 솔루션 도입보다는 인바운드 리드 확보가 급선무이므로, CRM 고도화 논의는 후순위로 연기",
+      "normalized": {
+        "text": "결정: 당장은 CRM 솔루션 도입보다는 인바운드 리드 확보가 급선무이므로, CRM 고도화 논의는 후순위로 연기",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "결정: 당장은 CRM 솔루션 도입보다는 인바운드 리드 확보가 급선무이므로, CRM 고도화 논의는 후순위로 연기",
+          "start_char": 806,
+          "end_char": 867
+        }
+      ],
+      "dedupe_key": "collaboration_need:99df9a6ee217a5d1",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "예산: 스타트업 사정을 반영하여 최소한의 비용으로 진행되기를 원함. (컨설팅 제공자는 이전 물류 대기업 사례를 언급하며 스타트업 사정을 반영한 견적을 제공 예정-> 더운반 1억 수주했고, 이정도는 아닐것이다. 스타트업에 맞춰서 제안드리겠다로 소통함",
+      "normalized": {
+        "text": "예산: 스타트업 사정을 반영하여 최소한의 비용으로 진행되기를 원함. (컨설팅 제공자는 이전 물류 대기업 사례를 언급하며 스타트업 사정을 반영한 견적을 제공 예정-> 더운반 1억 수주했고, 이정도는 아닐것이다. 스타트업에 맞춰서 제안드리겠다로 소통함",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "인바운드 리드 확보를 위한 제안 및 결정 사항"
+          ],
+          "exact_quote": "예산: 스타트업 사정을 반영하여 최소한의 비용으로 진행되기를 원함. (컨설팅 제공자는 이전 물류 대기업 사례를 언급하며 스타트업 사정을 반영한 견적을 제공 예정-> 더운반 1억 수주했고, 이정도는 아닐것이다. 스타트업에 맞춰서 제안드리겠다로 소통함",
+          "start_char": 871,
+          "end_char": 1009
+        }
+      ],
+      "dedupe_key": "action_item:c4c1deeea76884ac",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(컨설팅 제공자) 웹사이트 개편 및 전문가 서비스에 대한 제안서 및 견적서 작성/이메일 발송 (다음 주 예정)",
+      "normalized": {
+        "text": "(컨설팅 제공자) 웹사이트 개편 및 전문가 서비스에 대한 제안서 및 견적서 작성/이메일 발송 (다음 주 예정)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "Next Steps (후속 조치)"
+          ],
+          "exact_quote": "(컨설팅 제공자) 웹사이트 개편 및 전문가 서비스에 대한 제안서 및 견적서 작성/이메일 발송 (다음 주 예정)",
+          "start_char": 1035,
+          "end_char": 1096
+        }
+      ],
+      "dedupe_key": "action_item:d8d979a4642871be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(이엑스메이트) 제안서 및 견적서 검토 후, 웹사이트 개편 진행 여부 최종 결정",
+      "normalized": {
+        "text": "(이엑스메이트) 제안서 및 견적서 검토 후, 웹사이트 개편 진행 여부 최종 결정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "Next Steps (후속 조치)"
+          ],
+          "exact_quote": "(이엑스메이트) 제안서 및 견적서 검토 후, 웹사이트 개편 진행 여부 최종 결정",
+          "start_char": 1100,
+          "end_char": 1144
+        }
+      ],
+      "dedupe_key": "action_item:31a78d5ae59350dd",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:41Z"
+  }
+}

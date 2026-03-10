@@ -1,0 +1,249 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W473",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "18.00",
+      "normalized": {
+        "year": 2018,
+        "month": 0,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "18.00",
+          "start_char": 96,
+          "end_char": 101
+        }
+      ],
+      "dedupe_key": "timeline:d422425297ddabe1",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "0211 경우시스테크 메일 발송 @cross_tf",
+      "normalized": {
+        "text": "0211 경우시스테크 메일 발송 @cross_tf",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "0211 경우시스테크 메일 발송 @cross_tf",
+          "start_char": 125,
+          "end_char": 152
+        }
+      ],
+      "dedupe_key": "action_item:b47d0d712343ef7b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@cross_tf",
+      "normalized": {
+        "name": "cross_tf"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@cross_tf",
+          "start_char": 143,
+          "end_char": 152
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:60d38ae1027b7350",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 181,
+          "end_char": 184
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 272,
+          "end_char": 275
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 284,
+          "end_char": 287
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 527,
+          "end_char": 530
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "김윤경 책임님과의 f/up 미팅을 요청 드립니다. 편하신 일정 몇 가지 부탁드리겠습니다.",
+      "normalized": {
+        "text": "김윤경 책임님과의 f/up 미팅을 요청 드립니다. 편하신 일정 몇 가지 부탁드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "김윤경 책임님과의 f/up 미팅을 요청 드립니다. 편하신 일정 몇 가지 부탁드리겠습니다.",
+          "start_char": 328,
+          "end_char": 377
+        }
+      ],
+      "dedupe_key": "action_item:1db1e284a623a1cf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "(1) [퀄리티 리드젠] 형식의 PoC 프로젝트를 먼저 진행*하고, 그 성과에 따라 (2) AI Newletter, 너처링, Hook 개발 등을 수행하는 범위로 확장하며 장기적인 관계** 를 만들어 나가길 바라봅니다.",
+      "normalized": {
+        "text": "(1) [퀄리티 리드젠] 형식의 PoC 프로젝트를 먼저 진행*하고, 그 성과에 따라 (2) AI Newletter, 너처링, Hook 개발 등을 수행하는 범위로 확장하며 장기적인 관계** 를 만들어 나가길 바라봅니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "(1) [퀄리티 리드젠] 형식의 PoC 프로젝트를 먼저 진행*하고, 그 성과에 따라 (2) AI Newletter, 너처링, Hook 개발 등을 수행하는 범위로 확장하며 장기적인 관계** 를 만들어 나가길 바라봅니다.",
+          "start_char": 381,
+          "end_char": 502
+        }
+      ],
+      "dedupe_key": "action_item:f1ba245fe1c2785f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "** 아울러 미팅을 통해 감도 있게 말씀나누신 리소스 문제를 해소하며 진행하는 AI Newsletter, 미국시장 맞춤 Sales Hook 개발 등에 대해서도 필요를 보다 자세히 말씀 나누어 볼 수 있을 것 같습니다.",
+      "normalized": {
+        "text": "** 아울러 미팅을 통해 감도 있게 말씀나누신 리소스 문제를 해소하며 진행하는 AI Newsletter, 미국시장 맞춤 Sales Hook 개발 등에 대해서도 필요를 보다 자세히 말씀 나누어 볼 수 있을 것 같습니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "** 아울러 미팅을 통해 감도 있게 말씀나누신 리소스 문제를 해소하며 진행하는 AI Newsletter, 미국시장 맞춤 Sales Hook 개발 등에 대해서도 필요를 보다 자세히 말씀 나누어 볼 수 있을 것 같습니다.",
+          "start_char": 588,
+          "end_char": 709
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d6a5f83a72a28c9e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "(말씀하신 \"완전히 무명\"의 상태) x (낮은 성공 전환율) x (리소스 부재 상황)을 극복하며 이런 성과(Qualiti Lead)를 찾고 관계를 이어가는 방법의 고민이 필요합니다.",
+      "normalized": {
+        "text": "(말씀하신 \"완전히 무명\"의 상태) x (낮은 성공 전환율) x (리소스 부재 상황)을 극복하며 이런 성과(Qualiti Lead)를 찾고 관계를 이어가는 방법의 고민이 필요합니다.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "(말씀하신 \"완전히 무명\"의 상태) x (낮은 성공 전환율) x (리소스 부재 상황)을 극복하며 이런 성과(Qualiti Lead)를 찾고 관계를 이어가는 방법의 고민이 필요합니다.",
+          "start_char": 1145,
+          "end_char": 1246
+        }
+      ],
+      "dedupe_key": "risk_or_concern:393e23cb6e3a3da0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "AI Newletter를 통해 고객의 확보 이후 너쳐링을 진행하는 방안 등에 대해서도 이야기를 나눌 수 있었습니다.",
+      "normalized": {
+        "text": "AI Newletter를 통해 고객의 확보 이후 너쳐링을 진행하는 방안 등에 대해서도 이야기를 나눌 수 있었습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "안녕하세요 김윤경 책임님, 김태용 부사장님"
+          ],
+          "exact_quote": "AI Newletter를 통해 고객의 확보 이후 너쳐링을 진행하는 방안 등에 대해서도 이야기를 나눌 수 있었습니다.",
+          "start_char": 1334,
+          "end_char": 1398
+        }
+      ],
+      "dedupe_key": "action_item:d1dd5d254519cb3d",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}

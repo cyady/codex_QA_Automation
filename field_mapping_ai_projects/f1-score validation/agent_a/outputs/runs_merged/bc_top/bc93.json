@@ -1,0 +1,425 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W93",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오후 3:35 ",
+      "normalized": {
+        "time_period": "오후",
+        "hour": 3,
+        "minute": 35,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오후 3:35 ",
+          "start_char": 26,
+          "end_char": 34
+        }
+      ],
+      "dedupe_key": "timeline:b07a88a86629401f",
+      "confidence": 0.88
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "2025.09.01",
+      "normalized": {
+        "expression": "2025.09.01"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "2025.09.01",
+          "start_char": 13,
+          "end_char": 23
+        }
+      ],
+      "dedupe_key": "timeline:631c963fa14b3b1a",
+      "confidence": 0.92
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "근데 홈페이지 개편 필요면은 글루스 패키지를 하셔야 되는 거 아닌가 들어보고 하시네요.",
+      "normalized": {
+        "text": "근데 홈페이지 개편 필요면은 글루스 패키지를 하셔야 되는 거 아닌가 들어보고 하시네요.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "김유림 팀원님"
+          ],
+          "exact_quote": "근데 홈페이지 개편 필요면은 글루스 패키지를 하셔야 되는 거 아닌가 들어보고 하시네요.",
+          "start_char": 437,
+          "end_char": 485
+        }
+      ],
+      "dedupe_key": "action_item:71535ee92de7e041",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "9월 25일",
+      "normalized": {
+        "month": 9,
+        "day": 25
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "혹시 이스트시큐리티의 김유리 님 맞으실까요? 네 네네 안녕하십니까?"
+          ],
+          "exact_quote": "9월 25일",
+          "start_char": 603,
+          "end_char": 609
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "9월 25일",
+          "start_char": 1733,
+          "end_char": 1739
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "9월 25일",
+          "start_char": 1744,
+          "end_char": 1750
+        }
+      ],
+      "dedupe_key": "timeline:1aba9bb62710f6f0",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "25일",
+      "normalized": {
+        "value": 25.0,
+        "unit": "days",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "혹시 이스트시큐리티의 김유리 님 맞으실까요? 네 네네 안녕하십니까?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 606,
+          "end_char": 609
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 1736,
+          "end_char": 1739
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "25일",
+          "start_char": 1747,
+          "end_char": 1750
+        }
+      ],
+      "dedupe_key": "duration:698d4f9a6eb2d4a7",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "그런데 이제 그 홍태희 씨는 현재 홈페이지에 좀 문제가 SEO적으로도 많고 해가지고 그런 부분을 개편 안에 좀 반영해가지고 디벨롭을 하려고 해요.",
+      "normalized": {
+        "text": "그런데 이제 그 홍태희 씨는 현재 홈페이지에 좀 문제가 SEO적으로도 많고 해가지고 그런 부분을 개편 안에 좀 반영해가지고 디벨롭을 하려고 해요.",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 그런"
+          ],
+          "exact_quote": "그런데 이제 그 홍태희 씨는 현재 홈페이지에 좀 문제가 SEO적으로도 많고 해가지고 그런 부분을 개편 안에 좀 반영해가지고 디벨롭을 하려고 해요.",
+          "start_char": 916,
+          "end_char": 997
+        }
+      ],
+      "dedupe_key": "risk_or_concern:d4151651c95cb450",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그러던 중에 이제 저희 이사님께서 리캐치에서 하는 세미나를 공유해 주셔가지고 신청한 거거든요.",
+      "normalized": {
+        "text": "그러던 중에 이제 저희 이사님께서 리캐치에서 하는 세미나를 공유해 주셔가지고 신청한 거거든요.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 그런"
+          ],
+          "exact_quote": "그러던 중에 이제 저희 이사님께서 리캐치에서 하는 세미나를 공유해 주셔가지고 신청한 거거든요.",
+          "start_char": 998,
+          "end_char": 1050
+        }
+      ],
+      "dedupe_key": "collaboration_need:57eafde0d19be756",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 그런"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 947,
+          "end_char": 950
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1459,
+          "end_char": 1462
+        },
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1509,
+          "end_char": 1512
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "네 그런"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1017,
+          "end_char": 1020
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "10명",
+          "start_char": 1422,
+          "end_char": 1425
+        }
+      ],
+      "dedupe_key": "people_count:650538adf940c376",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "10분 정도 계시고요. 네 알겠습니다. 아까 이제 SEO 관련해서 지금 좀 홈페이지에 약간 좀 미비한 것 같다라고 좀 의견을 주셨는데 혹시 SEO나 아니면 최근에 aeo geo 관련된 어떤 세션이나 이런 세미나 같은 걸 좀 들어보신 적은 있으실까요?",
+      "normalized": {
+        "text": "10분 정도 계시고요. 네 알겠습니다. 아까 이제 SEO 관련해서 지금 좀 홈페이지에 약간 좀 미비한 것 같다라고 좀 의견을 주셨는데 혹시 SEO나 아니면 최근에 aeo geo 관련된 어떤 세션이나 이런 세미나 같은 걸 좀 들어보신 적은 있으실까요?",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "10분 정도 계시고요. 네 알겠습니다. 아까 이제 SEO 관련해서 지금 좀 홈페이지에 약간 좀 미비한 것 같다라고 좀 의견을 주셨는데 혹시 SEO나 아니면 최근에 aeo geo 관련된 어떤 세션이나 이런 세미나 같은 걸 좀 들어보신 적은 있으실까요?",
+          "start_char": 1431,
+          "end_char": 1570
+        }
+      ],
+      "dedupe_key": "risk_or_concern:9b654bd55561a6f7",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "9월 25일 1시부터 4시 반까지 스파클버스 코엑스점에서 좀 진행이 되는데 요 일정은 좀 가능하실까요?",
+      "normalized": {
+        "text": "9월 25일 1시부터 4시 반까지 스파클버스 코엑스점에서 좀 진행이 되는데 요 일정은 좀 가능하실까요?",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "9월 25일 1시부터 4시 반까지 스파클버스 코엑스점에서 좀 진행이 되는데 요 일정은 좀 가능하실까요?",
+          "start_char": 1744,
+          "end_char": 1801
+        }
+      ],
+      "dedupe_key": "action_item:ee402c010a082aee",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만 원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "네 팀 규모가 대략 좀 몇 분 정도 혹시 계신가요?"
+          ],
+          "exact_quote": "60만 원",
+          "start_char": 1839,
+          "end_char": 1844
+        }
+      ],
+      "dedupe_key": "budget:56f8121aedea73d8",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "네네네 메일 전달 드리겠습니다. 네 네 그 마지막으로 네 네",
+      "normalized": {
+        "text": "네네네 메일 전달 드리겠습니다. 네 네 그 마지막으로 네 네",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "네 메일 보내주시는 거죠?"
+          ],
+          "exact_quote": "네네네 메일 전달 드리겠습니다. 네 네 그 마지막으로 네 네",
+          "start_char": 2044,
+          "end_char": 2077
+        }
+      ],
+      "dedupe_key": "collaboration_need:68ee74e448f69ab0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "혹시 입금 날짜 조정이 좀 필요하시면 그거는 혹시 따로 말씀 주시면 제가 한번 네 저희 재무팀에 한번 좀 공유해서 가능한지만 확인해 드리겠습니다.",
+      "normalized": {
+        "text": "혹시 입금 날짜 조정이 좀 필요하시면 그거는 혹시 따로 말씀 주시면 제가 한번 네 저희 재무팀에 한번 좀 공유해서 가능한지만 확인해 드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0025",
+          "section_path": [
+            "네 결제를 지급일 저희 세미나 끝나고로 진행하는 걸로 보면 될까요?"
+          ],
+          "exact_quote": "혹시 입금 날짜 조정이 좀 필요하시면 그거는 혹시 따로 말씀 주시면 제가 한번 네 저희 재무팀에 한번 좀 공유해서 가능한지만 확인해 드리겠습니다.",
+          "start_char": 2158,
+          "end_char": 2239
+        }
+      ],
+      "dedupe_key": "action_item:bd08768d1ba9c845",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

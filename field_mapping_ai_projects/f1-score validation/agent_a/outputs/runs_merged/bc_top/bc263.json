@@ -1,0 +1,196 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W263",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "[티어3, 잠재매출 규모 3000만원 ~ 5000만원] 샵라이브 코리아 점심챗 공유 cc @sales브랜드 커뮤니케이션 리드 ( B2B 마케터 총괄 ) 분과의 점심 먹었습니다.",
+      "normalized": {
+        "text": "[티어3, 잠재매출 규모 3000만원 ~ 5000만원] 샵라이브 코리아 점심챗 공유 cc @sales브랜드 커뮤니케이션 리드 ( B2B 마케터 총괄 ) 분과의 점심 먹었습니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[티어3, 잠재매출 규모 3000만원 ~ 5000만원] 샵라이브 코리아 점심챗 공유 cc @sales브랜드 커뮤니케이션 리드 ( B2B 마케터 총괄 ) 분과의 점심 먹었습니다.",
+          "start_char": 0,
+          "end_char": 98
+        }
+      ],
+      "dedupe_key": "collaboration_need:4c2d6158dddb3cfe",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sales브랜드",
+      "normalized": {
+        "name": "sales브랜드"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sales브랜드",
+          "start_char": 50,
+          "end_char": 59
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:aabe447f0e734f8e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "3000만원",
+      "normalized": {
+        "value": 30000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "3000만원",
+          "start_char": 14,
+          "end_char": 20
+        }
+      ],
+      "dedupe_key": "budget:14a048ab710814f4",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "5000만원",
+      "normalized": {
+        "value": 50000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "5000만원",
+          "start_char": 23,
+          "end_char": 29
+        }
+      ],
+      "dedupe_key": "budget:928b20af458b6fef",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 107,
+          "end_char": 110
+        },
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 451,
+          "end_char": 454
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ 고집이 엄청 셀뿐만 아니라, 마케팅의 중요성 및 필요성에 대해 설득하는 것이 매우 어려움",
+      "normalized": {
+        "text": "3/ 고집이 엄청 셀뿐만 아니라, 마케팅의 중요성 및 필요성에 대해 설득하는 것이 매우 어려움",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "3/ 고집이 엄청 셀뿐만 아니라, 마케팅의 중요성 및 필요성에 대해 설득하는 것이 매우 어려움",
+          "start_char": 214,
+          "end_char": 266
+        }
+      ],
+      "dedupe_key": "action_item:ab1be24c2d7cc9f0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "다음주 세미나 진행하는데, 지난주 금요일에 갑자기 진행하라고 지시가 내려옴",
+      "normalized": {
+        "text": "다음주 세미나 진행하는데, 지난주 금요일에 갑자기 진행하라고 지시가 내려옴",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "다음주 세미나 진행하는데, 지난주 금요일에 갑자기 진행하라고 지시가 내려옴",
+          "start_char": 272,
+          "end_char": 313
+        }
+      ],
+      "dedupe_key": "action_item:c7aa801b4348886f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "5/ 본부장님이 외주(리캐치)형태로 진행될 수 있게끔 어떻게든 설득하려 하는 중",
+      "normalized": {
+        "text": "5/ 본부장님이 외주(리캐치)형태로 진행될 수 있게끔 어떻게든 설득하려 하는 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [],
+          "exact_quote": "5/ 본부장님이 외주(리캐치)형태로 진행될 수 있게끔 어떻게든 설득하려 하는 중",
+          "start_char": 439,
+          "end_char": 483
+        }
+      ],
+      "dedupe_key": "action_item:aa5018ce72314b8f",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:39Z"
+  }
+}

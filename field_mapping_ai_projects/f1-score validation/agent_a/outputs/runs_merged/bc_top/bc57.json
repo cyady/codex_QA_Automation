@@ -1,0 +1,176 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W57",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "김봉주 팀장님은 위의 유통 사업에서 리캐치를 쓰고 싶어서 내부 설득을 하려 했으나, 내부적으로 먼데이닷컴을 나름 잘 쓰고 있고 먼데이닷컴도 CRM 기능이 있으니 한 툴만 쓰자 했고, 반박할 말이 없어서 holding 됐었음. -> 그러다 퇴사 후 재입사 하셨고, 이번에 다시 리캐치 도입 검토하시는 중",
+      "normalized": {
+        "text": "김봉주 팀장님은 위의 유통 사업에서 리캐치를 쓰고 싶어서 내부 설득을 하려 했으나, 내부적으로 먼데이닷컴을 나름 잘 쓰고 있고 먼데이닷컴도 CRM 기능이 있으니 한 툴만 쓰자 했고, 반박할 말이 없어서 holding 됐었음. -> 그러다 퇴사 후 재입사 하셨고, 이번에 다시 리캐치 도입 검토하시는 중",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "김봉주 팀장님은 위의 유통 사업에서 리캐치를 쓰고 싶어서 내부 설득을 하려 했으나, 내부적으로 먼데이닷컴을 나름 잘 쓰고 있고 먼데이닷컴도 CRM 기능이 있으니 한 툴만 쓰자 했고, 반박할 말이 없어서 holding 됐었음. -> 그러다 퇴사 후 재입사 하셨고, 이번에 다시 리캐치 도입 검토하시는 중",
+          "start_char": 90,
+          "end_char": 258
+        }
+      ],
+      "dedupe_key": "action_item:f9775cae12c4ae2f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "온도 높은 편. 퇴사 후 재입사하셨다고 하는데, 챔피언이 되실 수 있을지 확인 필요",
+      "normalized": {
+        "text": "온도 높은 편. 퇴사 후 재입사하셨다고 하는데, 챔피언이 되실 수 있을지 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "온도 높은 편. 퇴사 후 재입사하셨다고 하는데, 챔피언이 되실 수 있을지 확인 필요",
+          "start_char": 545,
+          "end_char": 591
+        }
+      ],
+      "dedupe_key": "action_item:8893fba35af3129a",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 29,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 110,
+          "end_char": 113
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 244,
+          "end_char": 247
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 277,
+          "end_char": 280
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 318,
+          "end_char": 321
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 434,
+          "end_char": 437
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "줌",
+      "normalized": {
+        "keyword": "줌"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "줌",
+          "start_char": 325,
+          "end_char": 326
+        }
+      ],
+      "dedupe_key": "tool_or_channel:68ed342504027905",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 14,
+          "end_char": 17
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 30,
+          "end_char": 33
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "case": {
+    "case_id": "C6908-02",
+    "target": "6908",
+    "text": "추가 회사/담당자 연락처에 박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr) 등록 요청."
+  },
+  "status": 201,
+  "response": [
+    {
+      "extracted_value": "추가 회사/담당자 연락처에 박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr) 등록 요청",
+      "field_definition": {
+        "id": "5361",
+        "label": "Next Action",
+        "type": "textarea",
+        "category": "custom",
+        "display_order": 130,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "미팅 노트 내용이 특정 담당자의 정보를 시스템에 등록해달라는 후속 업무 요청 사항이므로, 이를 'Next Action'으로 판단하여 추출했습니다."
+    },
+    {
+      "extracted_value": "박민지 과장(010-7123-9911, mj.park@mbrownkorea.co.kr)",
+      "field_definition": {
+        "id": "5373",
+        "label": "담당자 페르소나",
+        "type": "textarea",
+        "category": "custom",
+        "display_order": 142,
+        "required": false,
+        "archive": false,
+        "caption": null,
+        "description": null,
+        "attributes": null
+      },
+      "reasoning": "새롭게 등록이 필요한 담당자의 이름, 직함, 연락처 및 이메일 정보가 명시되어 있어 담당자의 특성을 정의하는 페르소나 필드에 해당 정보를 추출했습니다."
+    }
+  ]
+}

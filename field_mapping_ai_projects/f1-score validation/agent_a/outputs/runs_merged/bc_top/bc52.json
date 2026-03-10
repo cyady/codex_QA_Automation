@@ -1,0 +1,58 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W52",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "네, 맞아요. 네, 그러니까 결정하고 진행하도록 하겠습니다. 그럼 랜딩 페이지랑 커리큘럼 관련해서 한번 안내 메일 보내드릴게요. 네, 부탁드리겠습니다.",
+      "normalized": {
+        "text": "네, 맞아요. 네, 그러니까 결정하고 진행하도록 하겠습니다. 그럼 랜딩 페이지랑 커리큘럼 관련해서 한번 안내 메일 보내드릴게요. 네, 부탁드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "네, 맞아요. 네, 그러니까 결정하고 진행하도록 하겠습니다. 그럼 랜딩 페이지랑 커리큘럼 관련해서 한번 안내 메일 보내드릴게요. 네, 부탁드리겠습니다.",
+          "start_char": 1131,
+          "end_char": 1215
+        }
+      ],
+      "dedupe_key": "action_item:2774a7623c05d979",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "60만원",
+      "normalized": {
+        "value": 600000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "60만원",
+          "start_char": 981,
+          "end_char": 985
+        }
+      ],
+      "dedupe_key": "budget:56f8121aedea73d8",
+      "confidence": 0.97
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

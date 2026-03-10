@@ -1,0 +1,101 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W233",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "[Tier2 NHN클라우드 - 잠재매출 1250만원(리멤버 수수료 지급 후)] NHN 계약서 초안 발송 완료.--",
+      "normalized": {
+        "text": "[Tier2 NHN클라우드 - 잠재매출 1250만원(리멤버 수수료 지급 후)] NHN 계약서 초안 발송 완료.--",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "[Tier2 NHN클라우드 - 잠재매출 1250만원(리멤버 수수료 지급 후)] NHN 계약서 초안 발송 완료.--",
+          "start_char": 0,
+          "end_char": 63
+        }
+      ],
+      "dedupe_key": "action_item:c4f5848d170d956d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "첨부드리는 PDF 파일 또는 Word파일로 참고하시어 내부 검토 부탁드리겠습니다.감사합니다!김한규 배상p.s: 혹 계약 관련 논의에 추가로 참조하면 좋을 이메일이 있다면 편히 회신 부탁드리겠습니다.",
+      "normalized": {
+        "text": "첨부드리는 PDF 파일 또는 Word파일로 참고하시어 내부 검토 부탁드리겠습니다.감사합니다!김한규 배상p.s: 혹 계약 관련 논의에 추가로 참조하면 좋을 이메일이 있다면 편히 회신 부탁드리겠습니다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "첨부드리는 PDF 파일 또는 Word파일로 참고하시어 내부 검토 부탁드리겠습니다.감사합니다!김한규 배상p.s: 혹 계약 관련 논의에 추가로 참조하면 좋을 이메일이 있다면 편히 회신 부탁드리겠습니다.",
+          "start_char": 236,
+          "end_char": 346
+        }
+      ],
+      "dedupe_key": "action_item:9ad2e0b6acb788a3",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "1250만원",
+      "normalized": {
+        "value": 12500000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "1250만원",
+          "start_char": 22,
+          "end_char": 28
+        }
+      ],
+      "dedupe_key": "budget:7fdb69e873e2203c",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 81,
+          "end_char": 84
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:38Z"
+  }
+}

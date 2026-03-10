@@ -1,0 +1,50 @@
+{"case_id": "S001", "test_type": "normal_short", "memo_text": "내일 김철수(cs@email.com)와 5,000만 원 계약 건으로 미팅 예정입니다."}
+{"case_id": "S002", "test_type": "normal_short", "memo_text": "오늘 박민지 과장과 CRM 도입 미팅 완료, 다음 주 견적 전달 예정."}
+{"case_id": "S003", "test_type": "normal_short", "memo_text": "한화비전 담당자와 3월 5일 14시에 후속 미팅 잡았습니다."}
+{"case_id": "S004", "test_type": "normal_short", "memo_text": "리드 2건 인입, 김영호 팀장과 금요일 데모 진행하기로 함."}
+{"case_id": "S005", "test_type": "normal_short", "memo_text": "계약 금액 1억2천만 원 제안했고, 고객이 내부 검토 후 회신 예정."}
+{"case_id": "S006", "test_type": "no_space_typo", "memo_text": "내일김철수와50000000원계약미팅예정"}
+{"case_id": "S007", "test_type": "no_space_typo", "memo_text": "오늘오후3시미팅완료다음주견적발송"}
+{"case_id": "S008", "test_type": "no_space_typo", "memo_text": "crm도입검토중예산부족으로보류가능성"}
+{"case_id": "S009", "test_type": "no_space_typo", "memo_text": "미팅참여자김철수박민지이상훈"}
+{"case_id": "S010", "test_type": "no_space_typo", "memo_text": "첫세일즈미팅일자어제라고기록"}
+{"case_id": "S011", "test_type": "email_edge", "memo_text": "내일 김철@(잘못된 메일)에게 제안서 전달 후 미팅 진행."}
+{"case_id": "S012", "test_type": "email_edge", "memo_text": "담당자 메일은 cs@@email.com으로 받았는데 확인 필요."}
+{"case_id": "S013", "test_type": "email_edge", "memo_text": "연락처: sales.team+kr@company.co.kr, 계약 논의는 다음 주."}
+{"case_id": "S014", "test_type": "email_edge", "memo_text": "이메일 없음, 카톡으로만 커뮤니케이션 중."}
+{"case_id": "S015", "test_type": "email_edge", "memo_text": "참석자: jane_doe@corp.ai, 김대리, 오과장"}
+{"case_id": "S016", "test_type": "currency_format", "memo_text": "예산 50000000원, 1차 파일럿은 500만 원으로 시작 요청."}
+{"case_id": "S017", "test_type": "currency_format", "memo_text": "계약 희망가: KRW 70,000,000 / 결제 조건: 선불 50%."}
+{"case_id": "S018", "test_type": "currency_format", "memo_text": "월 250,000원 플랜으로 20명 도입 문의."}
+{"case_id": "S019", "test_type": "currency_format", "memo_text": "총액 0원 PoC 제안, 성과 나면 유료 전환."}
+{"case_id": "S020", "test_type": "currency_format", "memo_text": "예산 미정(대략 오천~육천만 원 사이)."}
+{"case_id": "S021", "test_type": "date_time_edge", "memo_text": "미팅 일시: 2026-03-01T09:30:00+09:00, 장소는 온라인."}
+{"case_id": "S022", "test_type": "date_time_edge", "memo_text": "3/7(목) 오전 9시 반 재미팅, 참석자 3명."}
+{"case_id": "S023", "test_type": "date_time_edge", "memo_text": "어제 미팅했고 내일 다시 보기로 함."}
+{"case_id": "S024", "test_type": "date_time_edge", "memo_text": "25.03.04 14:00 첫 콜, 25.03.11 후속 예정."}
+{"case_id": "S025", "test_type": "date_time_edge", "memo_text": "다음 분기 초에 의사결정 예정(정확한 날짜 미정)."}
+{"case_id": "S026", "test_type": "mixed_language", "memo_text": "ABM package는 긍정적, but pricing is still too high."}
+{"case_id": "S027", "test_type": "mixed_language", "memo_text": "Customer said 'looks good', 내부 승인만 남음."}
+{"case_id": "S028", "test_type": "mixed_language", "memo_text": "SEO 리드 증가했지만 conversion rate는 낮다고 함."}
+{"case_id": "S029", "test_type": "mixed_language", "memo_text": "Kick-off 전에 legal review 필요, 계약서는 draft 상태."}
+{"case_id": "S030", "test_type": "mixed_language", "memo_text": "Pipeline stage는 Proposal, close target은 Q2."}
+{"case_id": "S031", "test_type": "negation_ambiguity", "memo_text": "도입 의사는 아직 없고, 정보만 받아보겠다고 함."}
+{"case_id": "S032", "test_type": "negation_ambiguity", "memo_text": "결제 확정은 아니고 내부 검토만 진행 중."}
+{"case_id": "S033", "test_type": "negation_ambiguity", "memo_text": "예산 있다고 했지만 올해 집행은 어렵다고 함."}
+{"case_id": "S034", "test_type": "negation_ambiguity", "memo_text": "미팅 참여자는 확정되지 않았고 후보만 있음."}
+{"case_id": "S035", "test_type": "negation_ambiguity", "memo_text": "고객사 확정 아님(엠브라운코리아로 추정만)."}
+{"case_id": "S036", "test_type": "multi_entity", "memo_text": "김철수/박민지/이재훈 3명과 미팅, 법인은 알파와 베타 동시 검토."}
+{"case_id": "S037", "test_type": "multi_entity", "memo_text": "A사 3천만 원, B사 7천만 원 제안서 동시 발송."}
+{"case_id": "S038", "test_type": "multi_entity", "memo_text": "리캐치+SEO 컨설팅 패키지와 CRM 단품을 함께 비교 중."}
+{"case_id": "S039", "test_type": "multi_entity", "memo_text": "담당자 2명(마케팅팀/영업팀) 의견이 서로 상충함."}
+{"case_id": "S040", "test_type": "multi_entity", "memo_text": "의사결정권자는 본사, 실무 협의는 한국지사에서 진행."}
+{"case_id": "S041", "test_type": "special_char", "memo_text": "[긴급] #재논의 필요 @안민혁: 견적 재산정 요청"}
+{"case_id": "S042", "test_type": "special_char", "memo_text": "고객 요청: \"가격표 다시\" / 내부 코멘트: '할인 불가'"}
+{"case_id": "S043", "test_type": "special_char", "memo_text": "메모 끝에 제어문자 테스트 \t\n 포함"}
+{"case_id": "S044", "test_type": "special_char", "memo_text": "리드 소스: 네이버>블로그>랜딩페이지(UTM:abc_123)"}
+{"case_id": "S045", "test_type": "special_char", "memo_text": "전화번호 010-1234-5678, 법인번호 123-45-67890 확인 요청"}
+{"case_id": "S046", "test_type": "boundary_case", "memo_text": "1명 도입 문의, 최소 플랜 가능한지 질문."}
+{"case_id": "S047", "test_type": "boundary_case", "memo_text": "사용 인원 999명 예상, 엔터프라이즈 견적 요청."}
+{"case_id": "S048", "test_type": "boundary_case", "memo_text": "미팅 5분 만에 종료, 니즈 파악 거의 못함."}
+{"case_id": "S049", "test_type": "boundary_case", "memo_text": "노트 길이 극단 테스트: 네."}
+{"case_id": "S050", "test_type": "boundary_case", "memo_text": "동일 문장 반복 테스트: 도입 검토 중. 도입 검토 중. 도입 검토 중."}

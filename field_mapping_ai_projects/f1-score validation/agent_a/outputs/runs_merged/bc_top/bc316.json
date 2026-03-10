@@ -1,0 +1,258 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W316",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "차주 화요일 최종 내부 미팅 이후, 의사 전달해 주실 예정",
+      "normalized": {
+        "text": "차주 화요일 최종 내부 미팅 이후, 의사 전달해 주실 예정",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            "NextAction"
+          ],
+          "exact_quote": "차주 화요일 최종 내부 미팅 이후, 의사 전달해 주실 예정",
+          "start_char": 78,
+          "end_char": 110
+        }
+      ],
+      "dedupe_key": "collaboration_need:7dc5c341d27f14be",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "민혁님 덕분에 웹사이트 리뉴얼의 필요성에 대해 매우 공감했다. > 웹사이트 리뉴얼의 진행여부를 논의할 것인데, 덕분에 우선수위가 매우 높아져 진행할 것으로 보인다.",
+      "normalized": {
+        "text": "민혁님 덕분에 웹사이트 리뉴얼의 필요성에 대해 매우 공감했다. > 웹사이트 리뉴얼의 진행여부를 논의할 것인데, 덕분에 우선수위가 매우 높아져 진행할 것으로 보인다.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [
+            "1/ 대표님 들어보시고 어떠셨는지?"
+          ],
+          "exact_quote": "민혁님 덕분에 웹사이트 리뉴얼의 필요성에 대해 매우 공감했다. > 웹사이트 리뉴얼의 진행여부를 논의할 것인데, 덕분에 우선수위가 매우 높아져 진행할 것으로 보인다.",
+          "start_char": 137,
+          "end_char": 228
+        }
+      ],
+      "dedupe_key": "action_item:10c3963361fa66e0",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [
+            "1/ 대표님 들어보시고 어떠셨는지?"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 273,
+          "end_char": 276
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "웹사이트 리뉴얼을 외주로 할지, 내부 개발자 리소스로 할지 11.11(화) 최종 검토하실 예정",
+      "normalized": {
+        "text": "웹사이트 리뉴얼을 외주로 할지, 내부 개발자 리소스로 할지 11.11(화) 최종 검토하실 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "웹사이트 리뉴얼을 외주로 할지, 내부 개발자 리소스로 할지 11.11(화) 최종 검토하실 예정",
+          "start_char": 347,
+          "end_char": 399
+        }
+      ],
+      "dedupe_key": "action_item:6bb0ad358c8ad872",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": " 11.11",
+      "normalized": {
+        "year": 2011,
+        "month": 11,
+        "kind": "short_year_month"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": " 11.11",
+          "start_char": 379,
+          "end_char": 385
+        }
+      ],
+      "dedupe_key": "timeline:848c0a5744d52cfe",
+      "confidence": 0.87
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "3/ 패키지는 SEO + 웹사이트 or SEO + 블로그 패키지 둘중 하나로 선택 예정4/ 진행하게 된다면, ASAP 으로 킥오프 열 예정 cc @안민혁 (minhyuk) @김가은(Bona)",
+      "normalized": {
+        "text": "3/ 패키지는 SEO + 웹사이트 or SEO + 블로그 패키지 둘중 하나로 선택 예정4/ 진행하게 된다면, ASAP 으로 킥오프 열 예정 cc @안민혁 (minhyuk) @김가은(Bona)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "3/ 패키지는 SEO + 웹사이트 or SEO + 블로그 패키지 둘중 하나로 선택 예정4/ 진행하게 된다면, ASAP 으로 킥오프 열 예정 cc @안민혁 (minhyuk) @김가은(Bona)",
+          "start_char": 433,
+          "end_char": 539
+        }
+      ],
+      "dedupe_key": "action_item:9e53164dfcd35042",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@안민혁",
+      "normalized": {
+        "name": "안민혁"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "@안민혁",
+          "start_char": 514,
+          "end_char": 518
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:a66161ba36c62754",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "@김가은",
+          "start_char": 529,
+          "end_char": 533
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 441,
+          "end_char": 444
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 455,
+          "end_char": 458
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "팀장님도 챔피언으로 육성이 된듯 합니다!"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 461,
+          "end_char": 464
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:40Z"
+  }
+}

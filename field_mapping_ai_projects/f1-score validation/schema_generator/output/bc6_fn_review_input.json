@@ -1,0 +1,238 @@
+[
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0001",
+    "semantic_type": "action_item",
+    "value_type": "text",
+    "raw_text": "◦ 현재 인사이드 세일즈 관련 KPI나 타임라인이 아직 명확하게 정해지지 않아, 기초 작업을 진행 중입니다",
+    "normalized": {
+      "text": "◦ 현재 인사이드 세일즈 관련 KPI나 타임라인이 아직 명확하게 정해지지 않아, 기초 작업을 진행 중입니다",
+      "label_hint": "line_action"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "◦ 현재 인사이드 세일즈 관련 KPI나 타임라인이 아직 명확하게 정해지지 않아, 기초 작업을 진행 중입니다",
+      "start_char": 1861,
+      "end_char": 1920
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "4835",
+        "label": "MQL-Drop 사유",
+        "type": "select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0002",
+    "semantic_type": "risk_or_concern",
+    "value_type": "text",
+    "raw_text": "◦ 과장님은 스타트업 문화 경험이 있으나 현재의 보수적인 회사 문화에 고충을 느끼고 있음전반적으로 회사는 새로운 영업 전략 도입이라는 과제를 안고 있지만, 내부적인 보수성, 비용 문제, 인식 부족 등으로 인해 변화에 어려움을 겪고 있으며, 효율적인 리드 관리 및 CRM 시스템 도입이 시급한 상황임을 알 수 있습니다.",
+    "normalized": {
+      "text": "◦ 과장님은 스타트업 문화 경험이 있으나 현재의 보수적인 회사 문화에 고충을 느끼고 있음전반적으로 회사는 새로운 영업 전략 도입이라는 과제를 안고 있지만, 내부적인 보수성, 비용 문제, 인식 부족 등으로 인해 변화에 어려움을 겪고 있으며, 효율적인 리드 관리 및 CRM 시스템 도입이 시급한 상황임을 알 수 있습니다.",
+      "label_hint": "line_risk"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "◦ 과장님은 스타트업 문화 경험이 있으나 현재의 보수적인 회사 문화에 고충을 느끼고 있음전반적으로 회사는 새로운 영업 전략 도입이라는 과제를 안고 있지만, 내부적인 보수성, 비용 문제, 인식 부족 등으로 인해 변화에 어려움을 겪고 있으며, 효율적인 리드 관리 및 CRM 시스템 도입이 시급한 상황임을 알 수 있습니다.",
+      "start_char": 1925,
+      "end_char": 2102
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5376",
+        "label": "[N] 상황 및 문제",
+        "type": "textarea",
+        "score": 4.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0003",
+    "semantic_type": "case_metric",
+    "value_type": "number_range",
+    "raw_text": "4~500개",
+    "normalized": {
+      "min": 4.0,
+      "max": 500.0,
+      "unit": "count"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "4~500개",
+      "start_char": 463,
+      "end_char": 469
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0005",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "100만 원",
+    "normalized": {
+      "value": 1000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "100만 원",
+      "start_char": 1058,
+      "end_char": 1064
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0006",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "400만 원",
+    "normalized": {
+      "value": 4000000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "400만 원",
+      "start_char": 1072,
+      "end_char": 1078
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0008",
+    "semantic_type": "budget",
+    "value_type": "currency",
+    "raw_text": "50만 원",
+    "normalized": {
+      "value": 500000,
+      "currency": "KRW",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "50만 원",
+      "start_char": 1611,
+      "end_char": 1616
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0009",
+    "semantic_type": "case_metric",
+    "value_type": "number",
+    "raw_text": "4건",
+    "normalized": {
+      "value": 4,
+      "unit": "cases",
+      "approx": false
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "4건",
+      "start_char": 1068,
+      "end_char": 1070
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "1589",
+        "label": "최초 유입 경로",
+        "type": "text",
+        "score": 1.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  },
+  {
+    "memo_id": "M-W6",
+    "candidate_id": "C-0010",
+    "semantic_type": "tool_or_channel",
+    "value_type": "text",
+    "raw_text": "ABM",
+    "normalized": {
+      "keyword": "ABM"
+    },
+    "evidence": {
+      "segment_id": "S-0002",
+      "section_path": [],
+      "exact_quote": "ABM",
+      "start_char": 994,
+      "end_char": 997
+    },
+    "fn_candidate": true,
+    "suggested_fields": [
+      {
+        "field_id": "5656",
+        "label": "결제 상품 (그로스패키지)",
+        "type": "multi-select",
+        "score": 2.0
+      }
+    ],
+    "qa_decision": null,
+    "qa_notes": null
+  }
+]

@@ -1,0 +1,399 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W539",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@sdr",
+      "normalized": {
+        "name": "sdr"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@sdr",
+          "start_char": 32,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:d3514d4cfc13516e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "sales_activity",
+      "value_type": "text",
+      "raw_text": "SDR",
+      "normalized": {
+        "keyword": "SDR"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "SDR",
+          "start_char": 17,
+          "end_char": 20
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "sdr",
+          "start_char": 33,
+          "end_char": 36
+        }
+      ],
+      "dedupe_key": "sales_activity:b96f005d6f0315e2",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김한규",
+      "normalized": {
+        "name": "김한규"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [],
+          "exact_quote": "@김한규",
+          "start_char": 52,
+          "end_char": 56
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:90e56f15fa1c197e",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "1차 미팅은 온라인으로 양사 요구사항을 파악하는 가벼운 자리가 될 예정이며, 1차 미팅 이후 양사 모두 긍정적으로 검토하면 2차 미팅 예정입니다",
+      "normalized": {
+        "text": "1차 미팅은 온라인으로 양사 요구사항을 파악하는 가벼운 자리가 될 예정이며, 1차 미팅 이후 양사 모두 긍정적으로 검토하면 2차 미팅 예정입니다",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "1차 미팅은 온라인으로 양사 요구사항을 파악하는 가벼운 자리가 될 예정이며, 1차 미팅 이후 양사 모두 긍정적으로 검토하면 2차 미팅 예정입니다",
+          "start_char": 82,
+          "end_char": 162
+        }
+      ],
+      "dedupe_key": "action_item:847a0078f9b050dd",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 209,
+          "end_char": 212
+        },
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 575,
+          "end_char": 578
+        },
+        {
+          "segment_id": "S-0009",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 621,
+          "end_char": 624
+        },
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 933,
+          "end_char": 936
+        },
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "리캐치",
+          "start_char": 1004,
+          "end_char": 1007
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@정민지",
+      "normalized": {
+        "name": "정민지"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "@정민지",
+          "start_char": 248,
+          "end_char": 252
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:bd3a46d30f5d8f67",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "파트너사(총판 및 대리점 약 100여 개)가 본사 시스템에 접속할 수 없어, 리드나 영업 안건을 이메일로 전달하면 한국엡손 직원이 세포에 일일이 수기로 입력하고 있음",
+      "normalized": {
+        "text": "파트너사(총판 및 대리점 약 100여 개)가 본사 시스템에 접속할 수 없어, 리드나 영업 안건을 이메일로 전달하면 한국엡손 직원이 세포에 일일이 수기로 입력하고 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "파트너사(총판 및 대리점 약 100여 개)가 본사 시스템에 접속할 수 없어, 리드나 영업 안건을 이메일로 전달하면 한국엡손 직원이 세포에 일일이 수기로 입력하고 있음",
+          "start_char": 379,
+          "end_char": 471
+        }
+      ],
+      "dedupe_key": "collaboration_need:bf01d86c2f55300f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "case_metric",
+      "value_type": "number",
+      "raw_text": "약 100여 개",
+      "normalized": {
+        "value": 100,
+        "unit": "count",
+        "approx": true
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "약 100여 개",
+          "start_char": 393,
+          "end_char": 401
+        }
+      ],
+      "dedupe_key": "case_metric:183414e715a6845c",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@mkt",
+      "normalized": {
+        "name": "mkt"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "@mkt",
+          "start_char": 613,
+          "end_char": 617
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:6cb0381a5b93e3dd",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 내부적으로 B2B 사업 매출에 대한 압박이 매우 강하며, 웹사이트에 유입되는 B2B 고객 정보를 체계적으로 관리하고 선점하라는 요구가 IT 팀에 지속적으로 전달되고 있음",
+      "normalized": {
+        "text": "현재 내부적으로 B2B 사업 매출에 대한 압박이 매우 강하며, 웹사이트에 유입되는 B2B 고객 정보를 체계적으로 관리하고 선점하라는 요구가 IT 팀에 지속적으로 전달되고 있음",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "[현상황]"
+          ],
+          "exact_quote": "현재 내부적으로 B2B 사업 매출에 대한 압박이 매우 강하며, 웹사이트에 유입되는 B2B 고객 정보를 체계적으로 관리하고 선점하라는 요구가 IT 팀에 지속적으로 전달되고 있음",
+          "start_char": 678,
+          "end_char": 775
+        }
+      ],
+      "dedupe_key": "collaboration_need:5b9114ae3062744f",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "파트너사가 직접 리드와 안건을 등록하면 한국엡손에서 그러한 진행 현황을 체크할 수 있는 파트너 포털 구축(권한 분리 필수)",
+      "normalized": {
+        "text": "파트너사가 직접 리드와 안건을 등록하면 한국엡손에서 그러한 진행 현황을 체크할 수 있는 파트너 포털 구축(권한 분리 필수)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "파트너사가 직접 리드와 안건을 등록하면 한국엡손에서 그러한 진행 현황을 체크할 수 있는 파트너 포털 구축(권한 분리 필수)",
+          "start_char": 794,
+          "end_char": 862
+        }
+      ],
+      "dedupe_key": "action_item:3fcf4441a0b8cea5",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "마케팅 및 영업 자료를 업로드하여 공유할 수 있는 게시판 운영 기능도 있으면 좋겠다",
+      "normalized": {
+        "text": "마케팅 및 영업 자료를 업로드하여 공유할 수 있는 게시판 운영 기능도 있으면 좋겠다",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0012",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "마케팅 및 영업 자료를 업로드하여 공유할 수 있는 게시판 운영 기능도 있으면 좋겠다",
+          "start_char": 868,
+          "end_char": 914
+        }
+      ],
+      "dedupe_key": "collaboration_need:cc5ed05d8ed40ed4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "그렇게 한국 시장 데이터를 리캐치에 쌓고, 본사에 전달할 땐 세일즈포스로 넘겨주는 연동 기능",
+      "normalized": {
+        "text": "그렇게 한국 시장 데이터를 리캐치에 쌓고, 본사에 전달할 땐 세일즈포스로 넘겨주는 연동 기능",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0013",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "그렇게 한국 시장 데이터를 리캐치에 쌓고, 본사에 전달할 땐 세일즈포스로 넘겨주는 연동 기능",
+          "start_char": 918,
+          "end_char": 969
+        }
+      ],
+      "dedupe_key": "collaboration_need:c0f491701a6e8aa6",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "구체적으로 어떤 것인지는 매니저님이 구상해두신 내용을 미팅에서 공유해주시기로 함",
+      "normalized": {
+        "text": "구체적으로 어떤 것인지는 매니저님이 구상해두신 내용을 미팅에서 공유해주시기로 함",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "N)"
+          ],
+          "exact_quote": "구체적으로 어떤 것인지는 매니저님이 구상해두신 내용을 미팅에서 공유해주시기로 함",
+          "start_char": 1043,
+          "end_char": 1087
+        }
+      ],
+      "dedupe_key": "collaboration_need:ee0502235ffb7bc4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "초기 검토 후 PM 및 상위 의사결정권자에게 보고 예정",
+      "normalized": {
+        "text": "초기 검토 후 PM 및 상위 의사결정권자에게 보고 예정",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            "IT 부서 매니저"
+          ],
+          "exact_quote": "초기 검토 후 PM 및 상위 의사결정권자에게 보고 예정",
+          "start_char": 1112,
+          "end_char": 1142
+        }
+      ],
+      "dedupe_key": "action_item:da4603f1d2a4cadf",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:43Z"
+  }
+}

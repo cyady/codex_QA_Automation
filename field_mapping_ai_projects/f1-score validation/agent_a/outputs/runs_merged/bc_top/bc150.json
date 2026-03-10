@@ -1,0 +1,152 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W150",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "프로모션용 이메일 한달에 1번 정도 다른 업체에 맡기고 발송한다 하심",
+      "normalized": {
+        "text": "프로모션용 이메일 한달에 1번 정도 다른 업체에 맡기고 발송한다 하심",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "프로모션용 이메일 한달에 1번 정도 다른 업체에 맡기고 발송한다 하심",
+          "start_char": 408,
+          "end_char": 446
+        }
+      ],
+      "dedupe_key": "action_item:207693d08a33c73e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "추가 확인 필요",
+      "normalized": {
+        "text": "추가 확인 필요",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "추가 확인 필요",
+          "start_char": 456,
+          "end_char": 464
+        },
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "추가 확인 필요",
+          "start_char": 493,
+          "end_char": 501
+        }
+      ],
+      "dedupe_key": "action_item:eaf007e4b90d9f45",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "제가 미팅 예약 해서 대표님께 전달드릴게요",
+      "normalized": {
+        "text": "제가 미팅 예약 해서 대표님께 전달드릴게요",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "제가 미팅 예약 해서 대표님께 전달드릴게요",
+          "start_char": 593,
+          "end_char": 616
+        }
+      ],
+      "dedupe_key": "collaboration_need:9fbc5f912f4c2d63",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@박성준",
+      "normalized": {
+        "name": "박성준"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@박성준",
+          "start_char": 555,
+          "end_char": 559
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:96aa58701e236730",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김민재",
+      "normalized": {
+        "name": "김민재"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김민재",
+          "start_char": 583,
+          "end_char": 587
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:570ac390b8fe0b31",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "timeline",
+      "value_type": "date_expression",
+      "raw_text": "오전 10시",
+      "normalized": {
+        "time_period": "오전",
+        "hour": 10,
+        "minute": 0,
+        "kind": "time_expression"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "오전 10시",
+          "start_char": 527,
+          "end_char": 533
+        }
+      ],
+      "dedupe_key": "timeline:b7d255d013598718",
+      "confidence": 0.88
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:37Z"
+  }
+}

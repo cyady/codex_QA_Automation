@@ -1,0 +1,644 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W61",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김가은",
+      "normalized": {
+        "name": "김가은"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김가은",
+          "start_char": 35,
+          "end_char": 39
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:47076637168bdd7b",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "stakeholder_or_team",
+      "value_type": "text",
+      "raw_text": "@김병권",
+      "normalized": {
+        "name": "김병권"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0001",
+          "section_path": [],
+          "exact_quote": "@김병권",
+          "start_char": 47,
+          "end_char": 51
+        }
+      ],
+      "dedupe_key": "stakeholder_or_team:65ad0f01014c6ae1",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "현재 B2B 온라인 영업 강화를 위한 실무자의 니즈가 있는 상태로, 추석(26년 9월) 전 관련 웹사이트 구축 및 CRM 도입 완료를 목표로 하고 있어 도입 의지가 뚜렷합니다.",
+      "normalized": {
+        "text": "현재 B2B 온라인 영업 강화를 위한 실무자의 니즈가 있는 상태로, 추석(26년 9월) 전 관련 웹사이트 구축 및 CRM 도입 완료를 목표로 하고 있어 도입 의지가 뚜렷합니다.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [],
+          "exact_quote": "현재 B2B 온라인 영업 강화를 위한 실무자의 니즈가 있는 상태로, 추석(26년 9월) 전 관련 웹사이트 구축 및 CRM 도입 완료를 목표로 하고 있어 도입 의지가 뚜렷합니다.",
+          "start_char": 86,
+          "end_char": 184
+        }
+      ],
+      "dedupe_key": "collaboration_need:629c3f47d030d92d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "000만원",
+      "normalized": {
+        "value": 0,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 203,
+          "end_char": 208
+        },
+        {
+          "segment_id": "S-0004",
+          "section_path": [],
+          "exact_quote": "000만원",
+          "start_char": 216,
+          "end_char": 221
+        },
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "000만 원",
+          "start_char": 245,
+          "end_char": 251
+        }
+      ],
+      "dedupe_key": "budget:e9f1182ac62ac129",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B2B 전용 웹사이트 구축: 5,000만 원 (통상적인 대기업 계열사 기준 8~10페이지 규모) / 최소 규모(5페이지) 진행 시 3,500만 원부터 시작하며, 페이지 추가 시 300만 원씩 증가.",
+      "normalized": {
+        "text": "B2B 전용 웹사이트 구축: 5,000만 원 (통상적인 대기업 계열사 기준 8~10페이지 규모) / 최소 규모(5페이지) 진행 시 3,500만 원부터 시작하며, 페이지 추가 시 300만 원씩 증가.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "B2B 전용 웹사이트 구축: 5,000만 원 (통상적인 대기업 계열사 기준 8~10페이지 규모) / 최소 규모(5페이지) 진행 시 3,500만 원부터 시작하며, 페이지 추가 시 300만 원씩 증가.",
+          "start_char": 227,
+          "end_char": 337
+        }
+      ],
+      "dedupe_key": "action_item:576e205ecc99734e",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "500만 원",
+      "normalized": {
+        "value": 5000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 302,
+          "end_char": 308
+        },
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "500만 원",
+          "start_char": 437,
+          "end_char": 443
+        }
+      ],
+      "dedupe_key": "budget:5eacdd1660c8f63d",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "300만 원",
+      "normalized": {
+        "value": 3000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0005",
+          "section_path": [],
+          "exact_quote": "300만 원",
+          "start_char": 326,
+          "end_char": 332
+        }
+      ],
+      "dedupe_key": "budget:435a609943637c5b",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "400만 원",
+      "normalized": {
+        "value": 4000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "400만 원",
+          "start_char": 361,
+          "end_char": 367
+        }
+      ],
+      "dedupe_key": "budget:0d503a4900f32bb6",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3개월",
+      "normalized": {
+        "value": 3.0,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "3개월",
+          "start_char": 369,
+          "end_char": 372
+        }
+      ],
+      "dedupe_key": "duration:1822b4f31267e64b",
+      "confidence": 0.94
+    },
+    {
+      "candidate_id": "C-0010",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [],
+          "exact_quote": "블로그",
+          "start_char": 341,
+          "end_char": 344
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0011",
+      "kind": "hard",
+      "semantic_type": "team_size",
+      "value_type": "number",
+      "raw_text": "10명",
+      "normalized": {
+        "value": 10,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "10명",
+          "start_char": 459,
+          "end_char": 462
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "User"
+          ],
+          "exact_quote": "10명",
+          "start_char": 854,
+          "end_char": 857
+        }
+      ],
+      "dedupe_key": "team_size:650538adf940c376",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0012",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "리캐치",
+      "normalized": {
+        "keyword": "리캐치"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0007",
+          "section_path": [],
+          "exact_quote": "리캐치",
+          "start_char": 417,
+          "end_char": 420
+        }
+      ],
+      "dedupe_key": "tool_or_channel:cfd870e461e7a041",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0013",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "총 예상 예산: 약 8,900만 원 수준 (도입 범위에 따라 조정 가능).",
+      "normalized": {
+        "text": "총 예상 예산: 약 8,900만 원 수준 (도입 범위에 따라 조정 가능).",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "총 예상 예산: 약 8,900만 원 수준 (도입 범위에 따라 조정 가능).",
+          "start_char": 482,
+          "end_char": 523
+        }
+      ],
+      "dedupe_key": "collaboration_need:c15d9b8f054d3d6d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0014",
+      "kind": "hard",
+      "semantic_type": "budget",
+      "value_type": "currency",
+      "raw_text": "900만 원",
+      "normalized": {
+        "value": 9000000,
+        "currency": "KRW",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0008",
+          "section_path": [],
+          "exact_quote": "900만 원",
+          "start_char": 495,
+          "end_char": 501
+        }
+      ],
+      "dedupe_key": "budget:85fb9eec8a4729b2",
+      "confidence": 0.97
+    },
+    {
+      "candidate_id": "C-0015",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "차주 중 내부 보고(상무님 대상)에 활용하실 수 있도록 미팅 내용과 견적을 정리한 팔로업 이메일 발송.",
+      "normalized": {
+        "text": "차주 중 내부 보고(상무님 대상)에 활용하실 수 있도록 미팅 내용과 견적을 정리한 팔로업 이메일 발송.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0010",
+          "section_path": [
+            "리캐치"
+          ],
+          "exact_quote": "차주 중 내부 보고(상무님 대상)에 활용하실 수 있도록 미팅 내용과 견적을 정리한 팔로업 이메일 발송.",
+          "start_char": 557,
+          "end_char": 614
+        }
+      ],
+      "dedupe_key": "action_item:094b49a8879590ca",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0016",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "팔로업 이메일 수령 후 내부 품의 및 CMO(상무님) 보고 진행.",
+      "normalized": {
+        "text": "팔로업 이메일 수령 후 내부 품의 및 CMO(상무님) 보고 진행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            "하림지주 (과장님)"
+          ],
+          "exact_quote": "팔로업 이메일 수령 후 내부 품의 및 CMO(상무님) 보고 진행.",
+          "start_char": 635,
+          "end_char": 671
+        }
+      ],
+      "dedupe_key": "action_item:2f40236ac7079f66",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0017",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "별도로 편성된 맞춤형 예산이 부재하여 예산 확보 및 내부 품의가 필요함",
+      "normalized": {
+        "text": "별도로 편성된 맞춤형 예산이 부재하여 예산 확보 및 내부 품의가 필요함",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            "Blocker"
+          ],
+          "exact_quote": "별도로 편성된 맞춤형 예산이 부재하여 예산 확보 및 내부 품의가 필요함",
+          "start_char": 752,
+          "end_char": 791
+        }
+      ],
+      "dedupe_key": "risk_or_concern:4138d46bf89034a4",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0018",
+      "kind": "hard",
+      "semantic_type": "people_count",
+      "value_type": "number",
+      "raw_text": "30명",
+      "normalized": {
+        "value": 30,
+        "unit": "people",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            "User"
+          ],
+          "exact_quote": "30명",
+          "start_char": 870,
+          "end_char": 873
+        }
+      ],
+      "dedupe_key": "people_count:bc81a7966f4ba1a4",
+      "confidence": 0.93
+    },
+    {
+      "candidate_id": "C-0019",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "내부 도입을 추진할 온라인사업팀 김원민 과장님 .",
+      "normalized": {
+        "text": "내부 도입을 추진할 온라인사업팀 김원민 과장님 .",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            "Driver"
+          ],
+          "exact_quote": "내부 도입을 추진할 온라인사업팀 김원민 과장님 .",
+          "start_char": 959,
+          "end_char": 986
+        }
+      ],
+      "dedupe_key": "collaboration_need:877e2e5b3ea33070",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0020",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "현재 해당 프로젝트를 위해 구체적으로 배정된 예산은 없으며, 이번 미팅 내용을 바탕으로 내부 예산 편성 및 품의 과정이 필요함.",
+      "normalized": {
+        "text": "현재 해당 프로젝트를 위해 구체적으로 배정된 예산은 없으며, 이번 미팅 내용을 바탕으로 내부 예산 편성 및 품의 과정이 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0019",
+          "section_path": [
+            "Budget (예산)"
+          ],
+          "exact_quote": "현재 해당 프로젝트를 위해 구체적으로 배정된 예산은 없으며, 이번 미팅 내용을 바탕으로 내부 예산 편성 및 품의 과정이 필요함.",
+          "start_char": 1031,
+          "end_char": 1102
+        }
+      ],
+      "dedupe_key": "action_item:caa8ea6c0ab18c48",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0021",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "실무 검토는 마케팅/영업을 관장하는 과장님이 진행하며, 최종 예산 승인 및 의사결정 권한은 상무님(CMO)에게 있음.",
+      "normalized": {
+        "text": "실무 검토는 마케팅/영업을 관장하는 과장님이 진행하며, 최종 예산 승인 및 의사결정 권한은 상무님(CMO)에게 있음.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0020",
+          "section_path": [
+            "Authority (권한)"
+          ],
+          "exact_quote": "실무 검토는 마케팅/영업을 관장하는 과장님이 진행하며, 최종 예산 승인 및 의사결정 권한은 상무님(CMO)에게 있음.",
+          "start_char": 1127,
+          "end_char": 1192
+        }
+      ],
+      "dedupe_key": "action_item:346c044bd6cd7acf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0022",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+      "normalized": {
+        "text": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+          "start_char": 1212,
+          "end_char": 1268
+        }
+      ],
+      "dedupe_key": "collaboration_need:5a963bc04bd1158c",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0023",
+      "kind": "hard",
+      "semantic_type": "risk_or_concern",
+      "value_type": "text",
+      "raw_text": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+      "normalized": {
+        "text": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+        "label_hint": "line_risk"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "기존의 네이버 스마트스토어 등 B2C 플랫폼에 종속되어 고객 DB 자산화가 불가능한 문제를 해결하고,",
+          "start_char": 1212,
+          "end_char": 1268
+        }
+      ],
+      "dedupe_key": "risk_or_concern:440a1a0bceb2af18",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0024",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+      "normalized": {
+        "text": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+        "label_hint": "need_item"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+          "start_char": 1272,
+          "end_char": 1354
+        }
+      ],
+      "dedupe_key": "collaboration_need:e1b6d9db9acaa215",
+      "confidence": 0.82
+    },
+    {
+      "candidate_id": "C-0025",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+      "normalized": {
+        "text": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            "Need (니즈)"
+          ],
+          "exact_quote": "B2B 선물세트 판매 확대를 위한 리드 수집, 영업 파이프라인 관리, 자동화된 너처링(메일링 등)을 수행할 전용 웹사이트 및 CRM 도입이 필요함.",
+          "start_char": 1272,
+          "end_char": 1354
+        }
+      ],
+      "dedupe_key": "action_item:bff8f5c8b64aaacf",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0026",
+      "kind": "hard",
+      "semantic_type": "duration",
+      "value_type": "duration",
+      "raw_text": "3.5개월",
+      "normalized": {
+        "value": 3.5,
+        "unit": "months",
+        "approx": false
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0024",
+          "section_path": [
+            "Timing (도입 시기)"
+          ],
+          "exact_quote": "3.5개월",
+          "start_char": 1433,
+          "end_char": 1438
+        }
+      ],
+      "dedupe_key": "duration:67dbd7966667073d",
+      "confidence": 0.94
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:36Z"
+  }
+}

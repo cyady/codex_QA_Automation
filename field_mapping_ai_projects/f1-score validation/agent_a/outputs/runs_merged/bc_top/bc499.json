@@ -1,0 +1,362 @@
+{
+  "run_id": "RUN-20260223-092035",
+  "memo_id": "M-W499",
+  "candidates": [
+    {
+      "candidate_id": "C-0001",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "블로그",
+      "normalized": {
+        "keyword": "블로그"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0002",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 67,
+          "end_char": 70
+        },
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 292,
+          "end_char": 295
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 586,
+          "end_char": 589
+        },
+        {
+          "segment_id": "S-0015",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 960,
+          "end_char": 963
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 995,
+          "end_char": 998
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1194,
+          "end_char": 1197
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1311,
+          "end_char": 1314
+        },
+        {
+          "segment_id": "S-0021",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1328,
+          "end_char": 1331
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "블로그",
+          "start_char": 1416,
+          "end_char": 1419
+        }
+      ],
+      "dedupe_key": "tool_or_channel:6bf3e31adf8c5033",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0002",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   **고객 (SCK):** 발표자의 설명을 듣고 질문하며, 자사의 마케팅 고민과 니즈를 공유하는 담당자.",
+      "normalized": {
+        "text": "*   **고객 (SCK):** 발표자의 설명을 듣고 질문하며, 자사의 마케팅 고민과 니즈를 공유하는 담당자.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0003",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   **고객 (SCK):** 발표자의 설명을 듣고 질문하며, 자사의 마케팅 고민과 니즈를 공유하는 담당자.",
+          "start_char": 114,
+          "end_char": 175
+        }
+      ],
+      "dedupe_key": "collaboration_need:900b9dc39e8a40de",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0003",
+      "kind": "hard",
+      "semantic_type": "collaboration_need",
+      "value_type": "text",
+      "raw_text": "*   발표자 측의 블로그 패키지 서비스에 대한 상세한 설명 및 IBM 다원컴퓨팅 사례 공유.",
+      "normalized": {
+        "text": "*   발표자 측의 블로그 패키지 서비스에 대한 상세한 설명 및 IBM 다원컴퓨팅 사례 공유.",
+        "label_hint": "line_collaboration"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0006",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   발표자 측의 블로그 패키지 서비스에 대한 상세한 설명 및 IBM 다원컴퓨팅 사례 공유.",
+          "start_char": 281,
+          "end_char": 333
+        }
+      ],
+      "dedupe_key": "collaboration_need:bb35eeffb8230d4b",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0004",
+      "kind": "hard",
+      "semantic_type": "tool_or_channel",
+      "value_type": "text",
+      "raw_text": "SEO",
+      "normalized": {
+        "keyword": "SEO"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 605,
+          "end_char": 608
+        },
+        {
+          "segment_id": "S-0011",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 614,
+          "end_char": 617
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1011,
+          "end_char": 1014
+        },
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1021,
+          "end_char": 1024
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1170,
+          "end_char": 1173
+        },
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1180,
+          "end_char": 1183
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1381,
+          "end_char": 1384
+        },
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "SEO",
+          "start_char": 1391,
+          "end_char": 1394
+        }
+      ],
+      "dedupe_key": "tool_or_channel:38195281c403d25d",
+      "confidence": 0.86
+    },
+    {
+      "candidate_id": "C-0005",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   향후 진행될 경우의 타임라인, 비용, 추가 옵션 등에 대한 정보가 공유되었고, 고객은 내부 검토 후 회신하기로 함.",
+      "normalized": {
+        "text": "*   향후 진행될 경우의 타임라인, 비용, 추가 옵션 등에 대한 정보가 공유되었고, 고객은 내부 검토 후 회신하기로 함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0014",
+          "section_path": [
+            " 1. 미팅의 전체 맥락"
+          ],
+          "exact_quote": "*   향후 진행될 경우의 타임라인, 비용, 추가 옵션 등에 대한 정보가 공유되었고, 고객은 내부 검토 후 회신하기로 함.",
+          "start_char": 865,
+          "end_char": 933
+        }
+      ],
+      "dedupe_key": "action_item:d5de41aa89850fbb",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0006",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **컨설팅:** 블로그 패키지 진행 전 기술 SEO 및 콘텐츠 SEO 컨설팅 2회 기본 제공. (고객이 스스로 수행할 수 있도록 내재화 목적)",
+      "normalized": {
+        "text": "*   **컨설팅:** 블로그 패키지 진행 전 기술 SEO 및 콘텐츠 SEO 컨설팅 2회 기본 제공. (고객이 스스로 수행할 수 있도록 내재화 목적)",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0016",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **컨설팅:** 블로그 패키지 진행 전 기술 SEO 및 콘텐츠 SEO 컨설팅 2회 기본 제공. (고객이 스스로 수행할 수 있도록 내재화 목적)",
+          "start_char": 982,
+          "end_char": 1065
+        }
+      ],
+      "dedupe_key": "action_item:bba6e7706a814518",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0007",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **옵션 세션:** 필요시 AEO(AI 최적화), GEO(퍼플렉시티 등) 세션 제공. 데이터 활용 방안에 대한 데이터 세션도 포함.",
+      "normalized": {
+        "text": "*   **옵션 세션:** 필요시 AEO(AI 최적화), GEO(퍼플렉시티 등) 세션 제공. 데이터 활용 방안에 대한 데이터 세션도 포함.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0017",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **옵션 세션:** 필요시 AEO(AI 최적화), GEO(퍼플렉시티 등) 세션 제공. 데이터 활용 방안에 대한 데이터 세션도 포함.",
+          "start_char": 1070,
+          "end_char": 1147
+        }
+      ],
+      "dedupe_key": "action_item:31b2723d7eeafa73",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0008",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **진행 순서:** 기술 SEO 및 콘텐츠 SEO를 먼저 진행한 후 블로그 패키지 집행.",
+      "normalized": {
+        "text": "*   **진행 순서:** 기술 SEO 및 콘텐츠 SEO를 먼저 진행한 후 블로그 패키지 집행.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0018",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **진행 순서:** 기술 SEO 및 콘텐츠 SEO를 먼저 진행한 후 블로그 패키지 집행.",
+          "start_char": 1152,
+          "end_char": 1205
+        }
+      ],
+      "dedupe_key": "action_item:bd33a21585df451d",
+      "confidence": 0.74
+    },
+    {
+      "candidate_id": "C-0009",
+      "kind": "hard",
+      "semantic_type": "action_item",
+      "value_type": "text",
+      "raw_text": "*   **타임라인:** 기술 SEO 및 콘텐츠 SEO를 7월에 급박하게 수행했으나, 원래는 블로그 집행 전에 먼저 진행하는 것이 순서.",
+      "normalized": {
+        "text": "*   **타임라인:** 기술 SEO 및 콘텐츠 SEO를 7월에 급박하게 수행했으나, 원래는 블로그 집행 전에 먼저 진행하는 것이 순서.",
+        "label_hint": "line_action"
+      },
+      "mentions": [
+        {
+          "segment_id": "S-0022",
+          "section_path": [
+            " 2. 모든 주요 논의 사항"
+          ],
+          "exact_quote": "*   **타임라인:** 기술 SEO 및 콘텐츠 SEO를 7월에 급박하게 수행했으나, 원래는 블로그 집행 전에 먼저 진행하는 것이 순서.",
+          "start_char": 1364,
+          "end_char": 1440
+        }
+      ],
+      "dedupe_key": "action_item:9fca4d513ac3eaa1",
+      "confidence": 0.74
+    }
+  ],
+  "extraction_metadata": {
+    "extractor": "agent_a",
+    "version": "0.1.0",
+    "llm_enabled": false,
+    "prompt_version": "A_soft_v0.1",
+    "created_at": "2026-02-23T09:20:42Z"
+  }
+}
