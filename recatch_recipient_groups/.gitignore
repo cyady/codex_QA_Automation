@@ -1,0 +1,7 @@
+.env
+.pytest_cache/
+logs/
+credentials/recatch_login.txt
+*.egg-info/
+**/__pycache__/
+*.pyc
