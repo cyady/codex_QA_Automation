@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Re:catch Customer Journey Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='journey_test.css') }}">
+    <!-- Re:catch tracker script -->
+    <script async defer>
+      (function (t,r,a,ck,er) {
+        var h=t.getElementsByTagName(r)[0],i=t.createElement(a);
+        i.async=true;
+        i.defer=true;
+        i.id='recatch-tracker-script';
+        i.src='https://track.recatch.cc/recatch-tracker.iife.js?t='+ck+(er ? '&b=true' : '');
+        h.prepend(i);
+      })(document,'head','script',139,false);
+    </script>
+    <!-- End Re:catch tracker script -->
+    <!-- Re:catch embedding code -->
+    <script async defer>
+      (function (r, e, c, a, t, ch) {
+        var h=r.getElementsByTagName(e)[0],i=r.createElement(c);
+        i.async=true;
+        i.defer=true;
+        i.id='recatch-embed-script';
+        i.src='https://cdn.recatch.cc/recatch-embed.iife.js?t='+a[0]+'&b='+a[1]+'&c='+t+'&tr=true&th='+ch+'&mode=sdk';
+        h.prepend(i);
+      })(document,'head','script',['test','klsfjjtnhz'],'recatch-form','light');
+    </script>
+    <!-- End Re:catch embedding code -->
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">CUSTOMER JOURNEY TEST PAGE</p>
+          <h1>고객여정 데이터 수집 테스트</h1>
+          <p class="lead">
+            스크롤, 탭 전환, 요금제 선택, 문의 입력, CTA 클릭까지 한 페이지에서 테스트할 수 있도록
+            상호작용 요소를 섞어 둔 임시 페이지입니다.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-cta" type="button" data-open-embed>
+              리캐치 폼 모달 열기
+            </button>
+            <button class="ghost-cta" type="button" data-scroll-target="#planner">
+              상담 섹션으로 이동
+            </button>
+          </div>
+          <p class="utm-note">
+            테스트 UTM: `utm_source=local1`, `utm_medium=local2`, `utm_campaign=local3`,
+            `utm_content=local4`, `utm_term=local5`
+          </p>
+        </div>
+
+        <aside class="hero-panel">
+          <span class="panel-label">테스트 포인트</span>
+          <ul>
+            <li>상단 CTA 클릭</li>
+            <li>임베드 모달 열기/닫기</li>
+            <li>폼 입력과 체크박스 변경</li>
+            <li>요금제 카드 선택</li>
+            <li>FAQ 열기/닫기</li>
+            <li>UTM 포함 iframe 내부 제출</li>
+          </ul>
+        </aside>
+      </header>
+
+      <main>
+        <section class="signal-strip" aria-label="journey signals">
+          <article>
+            <strong>1. 방문 유도</strong>
+            <p>히어로 CTA와 보조 CTA를 분리해 클릭 행동을 구분합니다.</p>
+          </article>
+          <article>
+            <strong>2. 탐색 행동</strong>
+            <p>요금제 비교와 FAQ 확장으로 중간 퍼널 행동을 만듭니다.</p>
+          </article>
+          <article>
+            <strong>3. 의도 확인</strong>
+            <p>문의 폼과 뉴스레터 동의 입력으로 전환 직전 신호를 남깁니다.</p>
+          </article>
+        </section>
+
+        <section class="section-grid">
+          <div class="content-card">
+            <div class="section-head">
+              <p class="section-kicker">SCENARIO A</p>
+              <h2>기능 관심도 선택</h2>
+            </div>
+            <div class="choice-group" role="tablist" aria-label="관심 기능">
+              <button class="choice-pill is-active" type="button" data-choice="tracking">실시간 트래킹</button>
+              <button class="choice-pill" type="button" data-choice="automation">자동화 연결</button>
+              <button class="choice-pill" type="button" data-choice="reporting">리포트 분석</button>
+            </div>
+            <p id="choice-copy" class="choice-copy">
+              실시간 트래킹 여정: 클릭, 스크롤, CTA 진입 시점을 빠르게 모니터링하는 시나리오입니다.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <div class="section-head">
+              <p class="section-kicker">SCENARIO B</p>
+              <h2>도입 기대효과</h2>
+            </div>
+            <div class="metric-list">
+              <div>
+                <span>테스트 완료까지</span>
+                <strong>3 min</strong>
+              </div>
+              <div>
+                <span>수집 가능한 시그널</span>
+                <strong>8+</strong>
+              </div>
+              <div>
+                <span>추천 액션 수</span>
+                <strong>5</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pricing-zone" aria-labelledby="pricing-title">
+          <div class="section-head">
+            <p class="section-kicker">MID FUNNEL</p>
+            <h2 id="pricing-title">테스트용 패키지 선택</h2>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card is-selected" data-plan-card>
+              <span class="badge">Most Clicked</span>
+              <h3>Starter</h3>
+              <p>가벼운 이벤트 수집 테스트용</p>
+              <strong>₩0</strong>
+              <button class="select-plan" type="button">Starter 선택</button>
+            </article>
+            <article class="pricing-card" data-plan-card>
+              <span class="badge">Recommended</span>
+              <h3>Growth</h3>
+              <p>폼 제출과 CTA 흐름을 함께 검증</p>
+              <strong>₩49,000</strong>
+              <button class="select-plan" type="button">Growth 선택</button>
+            </article>
+            <article class="pricing-card" data-plan-card>
+              <span class="badge">Deep Dive</span>
+              <h3>Scale</h3>
+              <p>고객여정 분석 시나리오 전체 점검</p>
+              <strong>₩99,000</strong>
+              <button class="select-plan" type="button">Scale 선택</button>
+            </article>
+          </div>
+          <p id="selected-plan" class="selection-status">현재 선택: Starter</p>
+        </section>
+
+        <section class="embed-zone" aria-labelledby="embed-title">
+          <div class="section-head">
+            <p class="section-kicker">EMBED TEST</p>
+            <h2 id="embed-title">리캐치 폼 임베드 테스트</h2>
+          </div>
+          <div class="embed-card">
+            <p>
+              이 페이지는 고객여정 수집 테스트를 위해 Re:catch tracker script와 Re:catch embedding code를
+              함께 넣었습니다. 아래 버튼은 새 탭 이동이 아니라 iframe 모달을 엽니다.
+            </p>
+            <div class="embed-meta">
+              <div>
+                <span>Workflow</span>
+                <strong>klsfjjtnhz</strong>
+              </div>
+              <div>
+                <span>Theme</span>
+                <strong>light</strong>
+              </div>
+              <div>
+                <span>Transport</span>
+                <strong>iframe modal</strong>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <button class="primary-cta" type="button" data-open-embed>
+                폼 열어서 제출하기
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="planner" class="planner" aria-labelledby="planner-title">
+          <div class="section-head">
+            <p class="section-kicker">HIGH INTENT</p>
+            <h2 id="planner-title">상담 요청 시나리오</h2>
+          </div>
+          <form class="planner-form">
+            <label>
+              <span>이름</span>
+              <input type="text" name="name" placeholder="홍길동">
+            </label>
+            <label>
+              <span>이메일</span>
+              <input type="email" name="email" placeholder="sample@company.com">
+            </label>
+            <label>
+              <span>관심 시점</span>
+              <select name="timing">
+                <option value="">선택하세요</option>
+                <option>이번 주</option>
+                <option>이번 달</option>
+                <option>다음 분기</option>
+              </select>
+            </label>
+            <label class="full-span">
+              <span>남기고 싶은 테스트 메모</span>
+              <textarea name="memo" rows="4" placeholder="어떤 행동이 수집되는지 메모를 남겨보세요."></textarea>
+            </label>
+            <label class="checkbox-row full-span">
+              <input type="checkbox" name="newsletter">
+              <span>테스트 알림 및 결과 요약 받기</span>
+            </label>
+            <div class="form-actions full-span">
+              <button class="primary-cta" type="button">상담 요청 저장</button>
+              <button class="text-link button-link" type="button" data-open-embed>
+                워크플로우 모달 열기
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section class="faq-zone" aria-labelledby="faq-title">
+          <div class="section-head">
+            <p class="section-kicker">LAST TOUCH</p>
+            <h2 id="faq-title">FAQ 상호작용</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>이 페이지는 무엇을 테스트하나요?</summary>
+              <p>버튼 클릭, 스크롤, 폼 입력, 선택지 변경 같은 고객여정 이벤트를 관찰하기 위한 임시 페이지입니다.</p>
+            </details>
+            <details>
+              <summary>어떤 버튼이 메인 CTA인가요?</summary>
+              <p>상단과 하단 CTA는 모두 같은 Re:catch iframe 모달을 열며, UTM 값이 포함된 워크플로우 URL을 사용합니다.</p>
+            </details>
+            <details>
+              <summary>트래커 스크립트는 어디에 들어갔나요?</summary>
+              <p>현재 페이지의 head 영역에 Re:catch tracker script와 embedding code가 모두 포함되어 있습니다.</p>
+            </details>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="embed-modal" id="embed-modal" hidden>
+      <div class="embed-backdrop" data-close-embed></div>
+      <section class="embed-dialog" role="dialog" aria-modal="true" aria-labelledby="embed-modal-title">
+        <div class="embed-dialog-header">
+          <div>
+            <p class="section-kicker">RE:CATCH EMBED</p>
+            <h2 id="embed-modal-title">리캐치 폼 테스트 모달</h2>
+          </div>
+          <button class="close-button" type="button" aria-label="모달 닫기" data-close-embed>
+            닫기
+          </button>
+        </div>
+        <div class="embed-frame-wrap">
+          <iframe
+            id="recatch-form"
+            src="https://test.recatch.cc/workflows/klsfjjtnhz?utm_source=local1&utm_medium=local2&utm_campaign=local3&utm_content=local4&utm_term=local5"
+            title="Re:catch workflow embed"
+            loading="lazy"
+            style="width:100%;height:100%;border:none;"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='journey_test.js') }}"></script>
+  </body>
+</html>

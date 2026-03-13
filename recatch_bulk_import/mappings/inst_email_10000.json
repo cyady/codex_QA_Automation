@@ -1,0 +1,8 @@
+{
+  "columns": [
+    {"csv_header": "lead:deal_name", "query": "제목", "option_text": "제목"},
+    {"csv_header": "contact:name", "query": "이름", "option_text": "이름"},
+    {"csv_header": "contact:email", "query": "이메일", "option_text": "이메일"},
+    {"csv_header": "company:name", "query": "회사명", "option_text": "회사명"}
+  ]
+}

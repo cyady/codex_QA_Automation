@@ -13,6 +13,7 @@ import streamlit as st
 
 
 APP_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = APP_DIR.parent
 DATA_DIR = APP_DIR / "data"
 DECISIONS_ROOT_DIR = DATA_DIR / "decisions"
 DECISIONS_ROOT_DIR.mkdir(parents=True, exist_ok=True)
@@ -22,13 +23,55 @@ WS_RE = re.compile(r"\s+")
 CURRENT_DECISION_SOURCE = "__current__"
 
 
+def _repair_candidate_pool_path_text(path_str: str) -> str:
+    s = str(path_str or "").strip()
+    if "\\1" not in s and "\\3" not in s:
+        return s
+    marker = "runs_merged"
+    if marker not in s or "candidate_pool.jsonl" not in s:
+        return s
+    m = re.search(r"w(\d+).*candidate_pool\.jsonl$", s)
+    if not m:
+        return s
+    prefix = s.split(marker, 1)[0]
+    return f"{prefix}{marker}/w{m.group(1)}/candidate_pool.jsonl"
+
+
+def resolve_app_path(path_str: str) -> Path:
+    s = _repair_candidate_pool_path_text(path_str)
+    if not (s or "").strip():
+        return Path()
+    p = Path((s or "").strip()).expanduser()
+    if not p.is_absolute():
+        return PROJECT_ROOT / p
+    if p.exists():
+        return p
+    try:
+        idx = max(i for i, part in enumerate(p.parts) if part == PROJECT_ROOT.name)
+    except ValueError:
+        return p
+    remapped = PROJECT_ROOT.joinpath(*p.parts[idx + 1 :])
+    return remapped
+
+
+def normalize_path_str(path_str: str) -> str:
+    s = (path_str or "").strip()
+    if not s:
+        return ""
+    return str(resolve_app_path(s))
+
+
+def project_rel_str(*parts: str) -> str:
+    return str(PROJECT_ROOT.joinpath(*parts))
+
+
 def read_json(path: str) -> Any:
-    p = Path(path)
+    p = resolve_app_path(path)
     return json.loads(p.read_text(encoding="utf-8-sig"))
 
 
 def read_json_or_jsonl(path: str) -> Any:
-    p = Path(path)
+    p = resolve_app_path(path)
     text = p.read_text(encoding="utf-8-sig").strip()
     if not text:
         return None
@@ -193,14 +236,14 @@ def field_option_label(field_id: str, field_map: dict[str, dict[str, Any]]) -> s
 
 
 def suggest_fn_output_path(candidate_pool_path: str) -> str:
-    p = Path(candidate_pool_path)
+    p = resolve_app_path(candidate_pool_path)
     stem = p.stem
-    return str(Path("schema_generator/output") / f"{stem}_fn_review_input.json")
+    return project_rel_str("schema_generator", "output", f"{stem}_fn_review_input.json")
 
 
 def _path_ok(path_str: str) -> bool:
     s = (path_str or "").strip()
-    return bool(s) and Path(s).exists()
+    return bool(s) and resolve_app_path(s).exists()
 
 
 def _sanitize_user_key(v: str) -> str:
@@ -358,16 +401,19 @@ def extract_memo_index_from_context(memo_text_path: str, model_output_path: str,
 
 
 def replace_index_in_path(path_str: str, new_idx: int) -> str:
-    s = str(path_str or "")
-    patterns = [
-        (r"memo_w(\d+)\.txt$", f"memo_w{new_idx}.txt"),
-        (r"bc(\d+)_model_output\.json$", f"bc{new_idx}_model_output.json"),
-        (r"bc(\d+)_fn_review_input\.json$", f"bc{new_idx}_fn_review_input.json"),
-        (r"w(\d+)_fn_review_input\.json$", f"w{new_idx}_fn_review_input.json"),
-        (r"bc(\d+)\.json$", f"bc{new_idx}.json"),
-        (r"([/\\\\])w(\d+)([/\\\\])candidate_pool\.jsonl$", rf"\\1w{new_idx}\\3candidate_pool.jsonl"),
+    s = _repair_candidate_pool_path_text(str(path_str or ""))
+    replacements = [
+        (r"memo_w(\d+)\.txt$", lambda m: f"memo_w{new_idx}.txt"),
+        (r"bc(\d+)_model_output\.json$", lambda m: f"bc{new_idx}_model_output.json"),
+        (r"bc(\d+)_fn_review_input\.json$", lambda m: f"bc{new_idx}_fn_review_input.json"),
+        (r"w(\d+)_fn_review_input\.json$", lambda m: f"w{new_idx}_fn_review_input.json"),
+        (r"bc(\d+)\.json$", lambda m: f"bc{new_idx}.json"),
+        (
+            r"([/\\\\])w(\d+)([/\\\\])candidate_pool\.jsonl$",
+            lambda m: f"{m.group(1)}w{new_idx}{m.group(3)}candidate_pool.jsonl",
+        ),
     ]
-    for pattern, repl in patterns:
+    for pattern, repl in replacements:
         if re.search(pattern, s, flags=re.IGNORECASE):
             return re.sub(pattern, repl, s, flags=re.IGNORECASE)
     return s
@@ -508,11 +554,28 @@ def app() -> None:
 
     remembered = load_last_inputs(reviewer_id)
     path_defaults = {
-        "memo_text_path": remembered.get("memo_text_path", "agent_a/data_w/memo_w1.txt"),
-        "candidate_pool_path": remembered.get("candidate_pool_path", "agent_a/outputs/runs_merged/w1/candidate_pool.jsonl"),
-        "model_output_path": remembered.get("model_output_path", "agent_a/model_output/w1_model_output.json"),
-        "fn_input_path_input": remembered.get("fn_input_path_input", "schema_generator/output/w1_fn_review_input.json"),
-        "effective_schema_path_input": remembered.get("effective_schema_path_input", "schema_generator/output/effective_schema_566552.json"),
+        "memo_text_path": normalize_path_str(remembered.get("memo_text_path", project_rel_str("agent_a", "data_w", "memo_w1.txt"))),
+        "candidate_pool_path": normalize_path_str(
+            remembered.get(
+                "candidate_pool_path",
+                project_rel_str("agent_a", "outputs", "runs_merged", "w1", "candidate_pool.jsonl"),
+            )
+        ),
+        "model_output_path": normalize_path_str(
+            remembered.get("model_output_path", project_rel_str("agent_a", "model_output", "w1_model_output.json"))
+        ),
+        "fn_input_path_input": normalize_path_str(
+            remembered.get(
+                "fn_input_path_input",
+                project_rel_str("schema_generator", "output", "w1_fn_review_input.json"),
+            )
+        ),
+        "effective_schema_path_input": normalize_path_str(
+            remembered.get(
+                "effective_schema_path_input",
+                project_rel_str("schema_generator", "output", "effective_schema_566552.json"),
+            )
+        ),
         "deal_id_for_schema": remembered.get("deal_id_for_schema", "566552"),
         "decision_source": remembered.get("decision_source", CURRENT_DECISION_SOURCE),
     }
@@ -677,10 +740,10 @@ def app() -> None:
             elif not api_token.strip():
                 st.error("Enter Bearer token.")
             else:
-                out_path = f"schema_generator/output/effective_schema_{deal_id_text}.json"
+                out_path = project_rel_str("schema_generator", "output", f"effective_schema_{deal_id_text}.json")
                 cmd = [
                     sys.executable,
-                    "schema_generator/build_effective_schema_from_deal.py",
+                    str(PROJECT_ROOT / "schema_generator" / "build_effective_schema_from_deal.py"),
                     "--deal-id",
                     deal_id_text,
                     "--token",
@@ -689,7 +752,7 @@ def app() -> None:
                     out_path,
                 ]
                 try:
-                    proc = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                    proc = subprocess.run(cmd, capture_output=True, text=True, check=True, cwd=PROJECT_ROOT)
                     st.session_state["pending_effective_schema_path"] = out_path
                     st.success(f"Generated: {out_path}")
                     if proc.stdout.strip():
@@ -707,11 +770,11 @@ def app() -> None:
             missing = []
             if not memo_ok:
                 missing.append("memo_text path")
-            if not cp or not Path(cp).exists():
+            if not cp or not resolve_app_path(cp).exists():
                 missing.append("candidate_pool path")
-            if not mo or not Path(mo).exists():
+            if not mo or not resolve_app_path(mo).exists():
                 missing.append("model_output path")
-            if not es or not Path(es).exists():
+            if not es or not resolve_app_path(es).exists():
                 missing.append("effective_schema path")
 
             if missing:
@@ -720,20 +783,20 @@ def app() -> None:
                 out_path = suggest_fn_output_path(cp)
                 cmd = [
                     sys.executable,
-                    "schema_generator/build_fn_review_input.py",
+                    str(PROJECT_ROOT / "schema_generator" / "build_fn_review_input.py"),
                     "--candidate-pool",
-                    cp,
+                    str(resolve_app_path(cp)),
                     "--model-output",
-                    mo,
+                    str(resolve_app_path(mo)),
                     "--effective-schema",
-                    es,
+                    str(resolve_app_path(es)),
                     "--output",
                     out_path,
                     "--top-k",
                     str(int(top_k_for_fn)),
                 ]
                 try:
-                    proc = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                    proc = subprocess.run(cmd, capture_output=True, text=True, check=True, cwd=PROJECT_ROOT)
                     st.session_state["pending_fn_input_path"] = out_path
                     st.success(f"Generated: {out_path}")
                     if proc.stdout.strip():
@@ -764,7 +827,7 @@ def app() -> None:
 
     if load_btn or (not st.session_state.loaded) or auto_reload_files:
         try:
-            memo_text = Path(memo_text_path).read_text(encoding="utf-8-sig")
+            memo_text = resolve_app_path(memo_text_path).read_text(encoding="utf-8-sig")
             model_output = fix_mojibake_obj(flatten_model_output(read_json_or_jsonl(model_output_path)))
             fn_rows = load_fn_candidates(fn_input_path)
             effective_schema = read_json(effective_schema_path)

@@ -10,11 +10,11 @@
       "decision_source": "new_build_model"
     },
     "ua:Mozilla_5.0_Macintosh_Intel_Mac_OS_X_10_15_7_AppleWebKit_537.": {
-      "memo_text_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/data_bc/memo_w9.txt",
-      "candidate_pool_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/outputs/runs_merged/bc_top/bc9.json",
-      "model_output_path": "/Users/admin/Desktop/Auto/Codex/f1-score validation/agent_a/model_output/bc9_model_output.json",
-      "fn_input_path_input": "schema_generator/output/bc9_fn_review_input.json",
-      "effective_schema_path_input": "/Users/admin/Desktop/Auto/Codex/f1-score validation/schema_generator/output/effective_schema_566094.json",
+      "memo_text_path": "/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/field_mapping_ai_projects/f1-score validation/agent_a/data_bc/memo_w29.txt",
+      "candidate_pool_path": "/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/field_mapping_ai_projects/f1-score validation/agent_a/outputs/runs_merged/bc_top/bc29.json",
+      "model_output_path": "/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/field_mapping_ai_projects/f1-score validation/agent_a/model_output/bc29_model_output.json",
+      "fn_input_path_input": "/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/field_mapping_ai_projects/f1-score validation/schema_generator/output/bc29_fn_review_input.json",
+      "effective_schema_path_input": "/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/field_mapping_ai_projects/f1-score validation/schema_generator/output/effective_schema_566094.json",
       "deal_id_for_schema": "566094",
       "decision_source": "new_build_model"
     },

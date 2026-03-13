@@ -1,0 +1,18 @@
+{
+  "name": "recatch_bulk_import_withui",
+  "version": "1.0.0",
+  "description": "비즈니스 팀원이 각자 로컬 환경에서 실행할 수 있도록 `recatch_bulk_import`를 별도 복제한 UI 버전입니다.",
+  "scripts": {
+    "build:agentation": "esbuild frontend/agentation-entry.jsx --bundle --minify --format=iife --platform=browser --outfile=src/recatch_bulk_import_withui/static/agentation.bundle.js",
+    "dev:agentation": "npm run build:agentation -- --sourcemap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "agentation": "^2.3.2",
+    "esbuild": "^0.27.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

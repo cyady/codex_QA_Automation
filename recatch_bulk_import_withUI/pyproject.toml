@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recatch-bulk-import-withui"
+version = "0.1.0"
+description = "Local UI wrapper for Re:catch lead bulk import automation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "flask>=3.0,<4",
+  "streamlit>=1.54,<2",
+  "vibium==0.1.8",
+]
+
+[project.scripts]
+recatch-bulk-import = "recatch_bulk_import.cli:main"
+recatch-bulk-import-probe = "recatch_bulk_import.probe:main"
+recatch-bulk-import-ui = "recatch_bulk_import_withui.webapp:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+recatch_bulk_import_withui = ["templates/*.html", "static/*.css", "static/*.js"]

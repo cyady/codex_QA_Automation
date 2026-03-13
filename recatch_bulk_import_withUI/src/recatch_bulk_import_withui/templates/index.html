@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Re:catch Bulk Import Local UI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">LOCAL OPS UI</p>
+          <h1>Re:catch Bulk Import</h1>
+          <p class="hero-copy">
+            비즈니스 팀원이 각자 로컬에서 실행하는 전용 UI입니다. 실행은 localhost에서만 이뤄지며,
+            CSV 범위 선택, 필드 매핑, 진행률 확인, 재시작 권장 범위를 한 화면에서 관리합니다.
+          </p>
+        </div>
+        <div class="hero-note">
+          <div class="note-title">운영 원칙</div>
+          <ul>
+            <li>필드명은 Re:catch 화면의 텍스트와 정확히 일치해야 합니다.</li>
+            <li>작업 중 브라우저를 닫아도 runner는 재시도할 수 있습니다.</li>
+            <li>Vibium/chromedriver 충돌은 자동 정리 루틴이 먼저 처리합니다.</li>
+            <li>Agentation은 `localhost:4747` MCP endpoint를 사용합니다.</li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="panel panel-form">
+          <div class="panel-header">
+            <h2>실행 설정</h2>
+            <p>먼저 CSV 경로와 파트 범위를 확인한 뒤 헤더를 불러오세요.</p>
+          </div>
+
+          <div class="field-grid">
+            <label>
+              <span>env 파일</span>
+              <input id="env-file" type="text" value="{{ defaults.env_file }}">
+            </label>
+            <label>
+              <span>원본 CSV 경로</span>
+              <input id="source-csv" type="text" value="{{ defaults.source_csv }}" placeholder="예: data/my_leads.csv">
+            </label>
+            <label>
+              <span>Split CSV 디렉터리</span>
+              <input id="csv-dir" type="text" value="{{ defaults.csv_dir }}" placeholder="예: data/csv_split">
+            </label>
+            <label>
+              <span>파일 Prefix</span>
+              <input id="file-prefix" type="text" value="{{ defaults.file_prefix }}" placeholder="예: lead_seed_dyn_0000001_0500000_part_">
+            </label>
+            <label>
+              <span>시작 파트</span>
+              <input id="start-part" type="number" min="1" value="{{ defaults.start }}">
+            </label>
+            <label>
+              <span>종료 파트</span>
+              <input id="end-part" type="number" min="0" value="{{ defaults.end }}">
+            </label>
+          </div>
+
+          <div class="inline-note" id="split-note">
+            원본 CSV를 입력하면 split 파일은 위 디렉터리에 저장됩니다. 이미 split CSV가 있으면 원본 CSV는 비워둘 수 있습니다.
+          </div>
+
+          <label class="checkbox-row">
+            <input id="reset-state" type="checkbox">
+            <span>기존 진행 상태(state)를 무시하고 이번 범위를 처음부터 다시 시작</span>
+          </label>
+
+          <div class="button-row">
+            <button id="load-headers-btn" class="btn btn-secondary" type="button">CSV 헤더 불러오기</button>
+            <button id="start-btn" class="btn btn-primary" type="button">임포트 시작</button>
+            <button id="stop-btn" class="btn btn-danger" type="button">실행 중지</button>
+          </div>
+
+          <div id="form-message" class="message-box info">현재 env 기준 기본값이 로드되어 있습니다.</div>
+        </section>
+
+        <section class="panel panel-status">
+          <div class="panel-header">
+            <h2>진행 상태</h2>
+            <p>작업 상태, 진행률, 재시작 권장 범위를 실시간으로 표시합니다.</p>
+          </div>
+
+          <div class="stat-cards">
+            <article class="stat-card accent-amber">
+              <span class="stat-label">Runner 상태</span>
+              <strong id="status-label">{{ status.status }}</strong>
+              <small id="phase-label">{{ status.phase }}</small>
+            </article>
+            <article class="stat-card accent-cyan">
+              <span class="stat-label">진행률</span>
+              <strong id="progress-label">0%</strong>
+              <small id="progress-count">0 / 0 parts</small>
+            </article>
+            <article class="stat-card accent-red">
+              <span class="stat-label">다음 권장 재시작</span>
+              <strong id="restart-label">-</strong>
+              <small id="restart-note">실패 시 이 범위부터 다시 시작</small>
+            </article>
+          </div>
+
+          <div class="progress-block">
+            <div class="progress-bar-track">
+              <div id="progress-bar" class="progress-bar-fill" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <dl class="status-list">
+            <div>
+              <dt>마지막 완료 파트</dt>
+              <dd id="last-completed">-</dd>
+            </div>
+            <div>
+              <dt>다음 대기 파트</dt>
+              <dd id="next-pending">-</dd>
+            </div>
+            <div>
+              <dt>로그 파일</dt>
+              <dd id="log-file">-</dd>
+            </div>
+            <div>
+              <dt>State 파일</dt>
+              <dd id="state-file">-</dd>
+            </div>
+            <div>
+              <dt>Agentation Session</dt>
+              <dd id="agentation-session">-</dd>
+            </div>
+            <div>
+              <dt>Agentation Endpoint</dt>
+              <dd id="agentation-endpoint">http://localhost:4747</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="panel panel-mapping">
+          <div class="panel-header">
+            <h2>필드 매핑</h2>
+            <p>정확한 필드명 입력이 필요합니다. 검색어와 선택지 텍스트를 각각 입력하세요.</p>
+          </div>
+
+          <div class="warning-box">
+            필드명은 Re:catch UI에 보이는 텍스트와 정확히 일치해야 합니다. 잘못 입력하면 자동화가 실패하거나 다른 필드가 선택될 수 있습니다.
+          </div>
+
+          <div class="mapping-meta" id="mapping-meta">
+            헤더를 불러오면 여기에 CSV 헤더 정보와 split 파일 안내가 표시됩니다.
+          </div>
+
+          <div class="mapping-table-wrap">
+            <table class="mapping-table">
+              <thead>
+                <tr>
+                  <th>CSV 헤더</th>
+                  <th>검색어</th>
+                  <th>선택지 텍스트</th>
+                  <th>Skip</th>
+                </tr>
+              </thead>
+              <tbody id="mapping-table-body">
+                <tr>
+                  <td colspan="4" class="empty-state">먼저 "CSV 헤더 불러오기"를 눌러 헤더를 확인하세요.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel panel-log">
+          <div class="panel-header">
+            <h2>에러 로그</h2>
+            <p>문제 발생 시 아래 로그와 log/state 파일 경로를 그대로 전달하면 됩니다.</p>
+          </div>
+          <pre id="log-tail" class="log-tail">로그가 아직 없습니다.</pre>
+        </section>
+      </main>
+    </div>
+
+    <script id="bootstrap-data" type="application/json">{{ {
+      "defaults": defaults,
+      "status": status,
+      "known_header_defaults": known_header_defaults
+    } | tojson }}</script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='agentation.bundle.js') }}"></script>
+  </body>
+</html>
