@@ -1,0 +1,2 @@
+제목,단계,QA_DEAL_IMPORT_TEXT,QA_DEAL_IMPORT_LONG_TEXT,QA_DEAL_IMPORT_DATE,QA_DEAL_IMPORT_NUMBER,QA_DEAL_IMPORT_PERCENTAGE,QA_DEAL_IMPORT_CURRENCY,QA_DEAL_IMPORT_EMAIL,QA_DEAL_IMPORT_URL
+QA Deal Import Smoke 20260315 01,진행 전,Smoke text value,Long smoke memo for deal import,2026-03-15,123,25,100000,qa-deal-import@example.com,https://example.com/deal-smoke

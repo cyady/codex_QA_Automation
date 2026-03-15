@@ -1,0 +1,6 @@
+/.venv/
+/logs/
+/screenshots/
+/credentials/recatch_login.txt
+__pycache__/
+*.pyc

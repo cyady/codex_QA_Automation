@@ -480,12 +480,23 @@ def mapping_page_state(session: "vibium.browser_sync.VibeSync") -> dict[str, Any
     return result if isinstance(result, dict) else {"ready": False, "raw": result}
 
 
+def mapping_select_timeout_sec(select_count: int) -> float:
+    # Large CSV headers can take noticeably longer for Re:catch to render.
+    return max(10.0, min(60.0, 10.0 + max(select_count, 0) / 5.0))
+
+
 def read_mapping_select_texts(session: "vibium.browser_sync.VibeSync") -> list[str]:
     result = eval_js(
         session,
         """
 (() => {
+  const isVisible = (el) => {
+    const r = el.getBoundingClientRect();
+    const s = getComputedStyle(el);
+    return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
+  };
   return [...document.querySelectorAll(".recatch-ant-select")]
+    .filter((el) => isVisible(el))
     .map((el) => (el.innerText || el.textContent || "").replace(/\\s+/g, " ").trim());
 })()
 """,
@@ -508,6 +519,11 @@ def prepare_select_query(
 (() => {{
   const targetIndex = {select_index};
   const query = {json.dumps(query, ensure_ascii=False)};
+  const isVisible = (el) => {{
+    const r = el.getBoundingClientRect();
+    const s = getComputedStyle(el);
+    return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
+  }};
   const setInputValue = (el, value) => {{
     const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set;
     if (setter) setter.call(el, value);
@@ -516,7 +532,8 @@ def prepare_select_query(
     el.dispatchEvent(new Event("change", {{ bubbles: true }}));
   }};
 
-  const selects = [...document.querySelectorAll(".recatch-ant-select")];
+  const selects = [...document.querySelectorAll(".recatch-ant-select")]
+    .filter((el) => isVisible(el));
   const select = selects[targetIndex];
   if (!select) {{
     return {{
@@ -657,7 +674,8 @@ def locate_dropdown_option(
     }};
   }}
 
-  const selects = [...document.querySelectorAll(".recatch-ant-select")];
+  const selects = [...document.querySelectorAll(".recatch-ant-select")]
+    .filter((el) => isVisible(el));
   const select = selects[targetIndex];
   if (select) {{
     try {{
@@ -873,7 +891,13 @@ def selected_option_state(
   const wanted = ({json.dumps(option_text, ensure_ascii=False)} || "").replace(/\\s+/g, " ").trim();
   const leafWanted = wanted.split(">").slice(-1)[0].trim();
   const normalize = (value) => (value || "").replace(/\\s+/g, " ").trim();
-  const selects = [...document.querySelectorAll(".recatch-ant-select")];
+  const isVisible = (el) => {{
+    const r = el.getBoundingClientRect();
+    const s = getComputedStyle(el);
+    return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
+  }};
+  const selects = [...document.querySelectorAll(".recatch-ant-select")]
+    .filter((el) => isVisible(el));
   const select = selects[targetIndex];
   if (!select) return {{ selected: false, reason: "select_not_found" }};
 
@@ -1051,6 +1075,23 @@ def count_csv_rows(csv_text: str) -> int:
     return max(len(lines) - 1, 0)
 
 
+def validate_csv_headers(header: Sequence[str], csv_path: Path) -> list[str]:
+    headers = [value.strip() for value in header]
+    if not any(headers):
+        raise ValueError(f"csv header is empty: {csv_path}")
+    seen: set[str] = set()
+    duplicates: list[str] = []
+    for header_name in headers:
+        if not header_name:
+            continue
+        if header_name in seen and header_name not in duplicates:
+            duplicates.append(header_name)
+        seen.add(header_name)
+    if duplicates:
+        raise ValueError(f"csv header contains duplicates: {csv_path} -> {duplicates}")
+    return headers
+
+
 def read_csv_headers(csv_path: Path) -> list[str]:
     with open(csv_path, "r", encoding="utf-8-sig", newline="") as file:
         reader = csv.reader(file)
@@ -1058,10 +1099,7 @@ def read_csv_headers(csv_path: Path) -> list[str]:
             header = next(reader)
         except StopIteration as exc:
             raise ValueError(f"csv file is empty: {csv_path}") from exc
-    headers = [value.strip() for value in header]
-    if not any(headers):
-        raise ValueError(f"csv header is empty: {csv_path}")
-    return headers
+    return validate_csv_headers(header, csv_path)
 
 
 def split_source_csv(
@@ -1083,9 +1121,7 @@ def split_source_csv(
         except StopIteration as exc:
             raise ValueError(f"csv file is empty: {source_csv_path}") from exc
 
-        headers = [value.strip() for value in header]
-        if not any(headers):
-            raise ValueError(f"csv header is empty: {source_csv_path}")
+        headers = validate_csv_headers(header, source_csv_path)
 
         part_number = 0
         rows: list[list[str]] = []
@@ -1256,6 +1292,21 @@ def build_mappings_from_spec(
     return mappings
 
 
+def ensure_matching_part_headers(
+    part_jobs: Sequence[tuple[int, Path]],
+    expected_headers: Sequence[str],
+) -> None:
+    expected_list = list(expected_headers)
+    for part_number, csv_path in part_jobs[1:]:
+        current_headers = read_csv_headers(csv_path)
+        if current_headers != expected_list:
+            raise ValueError(
+                f"csv headers changed at part {part_number:03d}: "
+                f"{csv_path.name} has {len(current_headers)} headers, "
+                f"expected {len(expected_list)}"
+            )
+
+
 def import_csv_part(
     session: "vibium.browser_sync.VibeSync",
     import_url: str,
@@ -1286,9 +1337,10 @@ def import_csv_part(
         )
 
     required_select_count = max(expected_select_count, 1)
+    select_timeout_sec = mapping_select_timeout_sec(required_select_count)
     mapping_selects_ready = wait_until(
         lambda: visible_mapping_select_count(session) >= required_select_count,
-        timeout_sec=10.0,
+        timeout_sec=select_timeout_sec,
         interval_sec=0.2,
     )
     if not mapping_selects_ready:
@@ -1547,6 +1599,7 @@ def prepare_part_jobs_and_mappings(
             raise FileNotFoundError(f"missing csv part(s): {preview}")
         part_jobs = [(part_number, part_lookup[part_number]) for part_number in range(start_part, end_part + 1)]
         headers = read_csv_headers(part_jobs[0][1])
+        ensure_matching_part_headers(part_jobs, headers)
 
     mappings = resolve_runtime_mappings(
         headers=headers,

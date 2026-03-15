@@ -27,6 +27,7 @@ from .cli import (
     eval_js,
     load_env_file,
     locate_dropdown_option,
+    mapping_select_timeout_sec,
     mapping_page_state,
     normalize_base_url,
     prepare_select_query,
@@ -367,11 +368,13 @@ def main(argv: Sequence[str] | None = None) -> int:
             timeout_sec=20.0,
             interval_sec=0.2,
         )
+        select_timeout_sec = mapping_select_timeout_sec(target_select_index + 1)
         payload["mappingSelectsReady"] = wait_until(
             lambda: count_visible_selects(session) >= target_select_index + 1,
-            timeout_sec=10.0,
+            timeout_sec=select_timeout_sec,
             interval_sec=0.2,
         )
+        payload["mappingSelectTimeoutSec"] = select_timeout_sec
         payload["visibleSelectCount"] = count_visible_selects(session)
         payload["mappingSelectsBefore"] = read_mapping_select_texts(session)
 

@@ -1,0 +1,59 @@
+{
+  "fields": [
+    {
+      "name": "QA_DEAL_IMPORT_TEXT",
+      "field_type": "text",
+      "description": "QA deal import text field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_LONG_TEXT",
+      "field_type": "long_text",
+      "description": "QA deal import long text field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_DATE",
+      "field_type": "date",
+      "description": "QA deal import date field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_NUMBER",
+      "field_type": "number",
+      "description": "QA deal import number field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_PERCENTAGE",
+      "field_type": "percentage",
+      "description": "QA deal import percentage field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_CURRENCY",
+      "field_type": "currency",
+      "description": "QA deal import currency field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_EMAIL",
+      "field_type": "email",
+      "description": "QA deal import email field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_PHONE",
+      "field_type": "phone",
+      "description": "QA deal import phone field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_CHECKBOX",
+      "field_type": "checkbox",
+      "description": "QA deal import checkbox field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_URL",
+      "field_type": "url",
+      "description": "QA deal import url field"
+    },
+    {
+      "name": "QA_DEAL_IMPORT_USER",
+      "field_type": "user",
+      "description": "QA deal import user field"
+    }
+  ]
+}

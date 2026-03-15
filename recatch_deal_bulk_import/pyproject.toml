@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recatch-deal-bulk-import"
+version = "0.1.0"
+description = "Deal field setup, layout verification, and import inspection automation for Re:catch"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "vibium==0.1.8",
+]
+
+[project.scripts]
+recatch-deal-bulk-import = "recatch_deal_bulk_import.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
