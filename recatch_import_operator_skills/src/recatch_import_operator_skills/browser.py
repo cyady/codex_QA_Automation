@@ -133,3 +133,62 @@ def visible_text_exists(session: "vibium.browser_sync.VibeSync", text: str) -> b
 """,
     )
     return bool(result)
+
+
+def click_text(
+    session: "vibium.browser_sync.VibeSync",
+    text: str,
+    *,
+    selectors: str = "button, [role='button'], a, div, span, li",
+    exact: bool = True,
+) -> dict[str, Any]:
+    result = eval_js(
+        session,
+        f"""
+(() => {{
+  {DOM_HELPERS_JS}
+  const wanted = {js_quote(text)};
+  const matches = [...document.querySelectorAll({js_quote(selectors)})]
+    .filter((el) => isVisible(el))
+    .filter((el) => {{
+      const actual = textOf(el);
+      return {str(exact).lower()} ? actual === wanted : actual.includes(wanted);
+    }})
+    .sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+  const target = matches[0];
+  if (!target) {{
+    return {{ ok: false, reason: "target_not_found", wanted }};
+  }}
+  clickElement(target);
+  return {{ ok: true, text: textOf(target) }};
+}})()
+""",
+    )
+    return result if isinstance(result, dict) else {"ok": False, "raw": result}
+
+
+def set_input_value(
+    session: "vibium.browser_sync.VibeSync",
+    value: str,
+    *,
+    selector: str,
+) -> dict[str, Any]:
+    result = eval_js(
+        session,
+        f"""
+(() => {{
+  {DOM_HELPERS_JS}
+  const el = document.querySelector({js_quote(selector)});
+  if (!el || !isVisible(el)) {{
+    return {{ ok: false, reason: "input_not_found", selector: {js_quote(selector)} }};
+  }}
+  setInputValue(el, {js_quote(value)});
+  return {{
+    ok: true,
+    value: el.value || "",
+    selector: {js_quote(selector)},
+  }};
+}})()
+""",
+    )
+    return result if isinstance(result, dict) else {"ok": False, "raw": result}

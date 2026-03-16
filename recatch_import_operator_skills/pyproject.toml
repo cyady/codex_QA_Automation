@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "recatch-import-operator-mcp"
+name = "recatch-import-operator-skills"
 version = "0.1.0"
-description = "Bootstrap workspace for a Re:catch import operator MCP"
+description = "Bootstrap workspace for Re:catch import operator skills"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-recatch-import-operator-mcp = "recatch_import_operator_mcp.cli:main"
+recatch-import-operator-skills = "recatch_import_operator_skills.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

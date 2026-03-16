@@ -241,7 +241,7 @@ def select_field_type(session: "vibium.browser_sync.VibeSync", field_type: str) 
   const dropdown = document.querySelector(".recatch__field-definition-type__dropdown-dropdown");
   if (!dropdown) return [];
   return [...dropdown.querySelectorAll(".recatch__field-definition-type__dropdown-item-option")]
-    .map((el) => (el.getAttribute("title") || el.getAttribute("aria-label") || el.innerText || el.textContent || "").replace(/\s+/g, " ").trim())
+    .map((el) => (el.getAttribute("title") || el.getAttribute("aria-label") || el.innerText || el.textContent || "").replace(/\\s+/g, " ").trim())
     .filter(Boolean)
     .slice(0, 12);
 })()
@@ -276,7 +276,7 @@ def select_field_type(session: "vibium.browser_sync.VibeSync", field_type: str) 
             """
 (() => {
   return ((document.querySelector(".recatch__field-definition-type__dropdown-selection-item")?.innerText) || "")
-    .replace(/\s+/g, " ")
+    .replace(/\\s+/g, " ")
     .trim();
 })()
 """,

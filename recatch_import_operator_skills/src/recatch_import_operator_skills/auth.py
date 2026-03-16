@@ -10,6 +10,8 @@ from .browser import current_url, eval_js, js_quote, visible_page_excerpt, wait_
 
 
 K_EMAIL_LOGIN_BUTTON = "이메일로 로그인"
+K_EMAIL_LOGIN_MAX_ATTEMPTS = 3
+K_EMAIL_LOGIN_SETTLE_TIMEOUT_SEC = 5.0
 
 
 @dataclass(frozen=True)
@@ -55,6 +57,10 @@ def parse_credential_file(credential_path: Path) -> LoginCredential:
 
 def _host_from_url(url: str) -> str:
     return urlparse(url).netloc.lower()
+
+
+def _is_alphakey_host(url: str) -> bool:
+    return "alphakey.kr" in _host_from_url(url)
 
 
 def _build_credential_query_url(destination_url: str, credential: LoginCredential) -> str:
@@ -183,7 +189,7 @@ def find_workspace_login_button(
     const s = getComputedStyle(el);
     return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
   };
-  const textOf = (el) => (el.innerText || el.textContent || "").replace(/\s+/g, " ").trim();
+  const textOf = (el) => (el.innerText || el.textContent || "").replace(/\\s+/g, " ").trim();
 
   const buttons = [...document.querySelectorAll("button")]
     .filter((el) => isVisible(el))
@@ -199,43 +205,6 @@ def find_workspace_login_button(
   if (!target) {
     return { ok: false, reason: "workspace_button_not_found" };
   }
-  return { ok: true, text: target.text };
-})()
-""",
-    )
-    return result if isinstance(result, dict) else {"ok": False, "raw": result}
-
-
-def click_workspace_login_button(
-    session: "vibium.browser_sync.VibeSync",
-) -> dict[str, Any]:
-    result = eval_js(
-        session,
-        """
-(() => {
-  const isVisible = (el) => {
-    const r = el.getBoundingClientRect();
-    const s = getComputedStyle(el);
-    return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
-  };
-  const textOf = (el) => (el.innerText || el.textContent || "").replace(/\s+/g, " ").trim();
-
-  const buttons = [...document.querySelectorAll("button")]
-    .filter((el) => isVisible(el))
-    .map((el) => ({ el, text: textOf(el) }))
-    .filter((item) =>
-      item.text.endsWith("로그인")
-      && !item.text.includes("Google")
-      && !item.text.includes("Microsoft")
-      && !item.text.includes("이메일")
-    );
-
-  const target = buttons[0];
-  if (!target) {
-    return { ok: false, reason: "workspace_button_not_found" };
-  }
-
-  target.el.click();
   return { ok: true, text: target.text };
 })()
 """,
@@ -279,10 +248,16 @@ def ensure_recatch_login(
 
     log("navigate to login page")
     session.go(login_url)
+    current = current_url(session)
+    if _is_alphakey_host(current):
+        raise RuntimeError(
+            f"alphakey redirect blocked on login navigation: url={current}, "
+            "automation is configured not to enter Alphakey"
+        )
 
-    if not is_recatch_logged_in(current_url(session), expected_host):
+    if not is_recatch_logged_in(current, expected_host):
         login_ready = wait_until(
-            lambda: is_login_page_ready(session),
+            lambda: is_login_page_ready(session) or _is_alphakey_host(current_url(session)),
             timeout_sec=10.0,
             interval_sec=0.25,
         )
@@ -291,38 +266,83 @@ def ensure_recatch_login(
                 f"login page not ready: url={current_url(session)}, excerpt={visible_page_excerpt(session)}"
             )
 
-        login_result = login_with_credentials(session, credential)
-        log(f"credential login attempt: {login_result}")
-        if not login_result.get("ok"):
-            raise RuntimeError(f"credential login failed: {login_result}")
+        current = current_url(session)
+        if _is_alphakey_host(current):
+            raise RuntimeError(
+                f"alphakey redirect blocked before credential login: url={current}, "
+                "automation is configured not to enter Alphakey"
+            )
 
-        workspace_clicked = False
+        logged_in = False
+        last_login_result: dict[str, Any] | None = None
+        workspace_prompt: dict[str, Any] | None = None
 
         def login_completed() -> bool:
-            nonlocal workspace_clicked
-            if is_recatch_logged_in(current_url(session), expected_host):
-                return True
-            if not workspace_clicked:
-                workspace_button = find_workspace_login_button(session)
-                if workspace_button.get("ok"):
-                    click_result = click_workspace_login_button(session)
-                    log(f"workspace login click attempt: {click_result}")
-                    workspace_clicked = bool(click_result.get("ok"))
-            return is_recatch_logged_in(current_url(session), expected_host)
+            current = current_url(session)
+            if _is_alphakey_host(current):
+                raise RuntimeError(
+                    f"alphakey redirect blocked after credential login: url={current}, "
+                    "automation is configured not to enter Alphakey"
+                )
+            return is_recatch_logged_in(current, expected_host)
 
-        logged_in = wait_until(
-            login_completed,
-            timeout_sec=30.0,
-            interval_sec=0.5,
-        )
+        for attempt in range(1, K_EMAIL_LOGIN_MAX_ATTEMPTS + 1):
+            last_login_result = login_with_credentials(session, credential)
+            log(
+                f"credential login attempt {attempt}/{K_EMAIL_LOGIN_MAX_ATTEMPTS}: "
+                f"{last_login_result}"
+            )
+            if not last_login_result.get("ok"):
+                if attempt == K_EMAIL_LOGIN_MAX_ATTEMPTS:
+                    raise RuntimeError(f"credential login failed: {last_login_result}")
+                continue
+
+            logged_in = wait_until(
+                login_completed,
+                timeout_sec=K_EMAIL_LOGIN_SETTLE_TIMEOUT_SEC,
+                interval_sec=0.5,
+            )
+            if logged_in:
+                break
+
+            workspace_prompt = find_workspace_login_button(session)
+            if workspace_prompt.get("ok"):
+                log(
+                    f"workspace SSO prompt still visible after email login attempt {attempt}: "
+                    f"{workspace_prompt}"
+                )
+            else:
+                log(
+                    f"email login attempt {attempt} did not redirect yet; "
+                    f"url={current_url(session)}"
+                )
+
         if not logged_in:
+            current = current_url(session)
+            if _is_alphakey_host(current):
+                raise RuntimeError(
+                    f"alphakey redirect blocked after credential retries: url={current}, "
+                    "automation is configured not to enter Alphakey"
+                )
+            if workspace_prompt is not None and workspace_prompt.get("ok"):
+                raise RuntimeError(
+                    "workspace SSO prompt detected after email login retries; "
+                    f"automation will not click it because it leads to Alphakey: {workspace_prompt}"
+                )
             raise RuntimeError(
-                f"credential login timeout: excerpt={visible_page_excerpt(session)}"
+                "credential login retries exhausted without redirect: "
+                f"url={current}, excerpt={visible_page_excerpt(session)}"
             )
 
     if current_url(session) != destination_url:
         log("navigate to destination page")
         session.go(destination_url)
+        current = current_url(session)
+        if _is_alphakey_host(current):
+            raise RuntimeError(
+                f"alphakey redirect blocked on destination navigation: url={current}, "
+                "automation is configured not to enter Alphakey"
+            )
 
     ready = wait_until(
         lambda: ready_check(session),

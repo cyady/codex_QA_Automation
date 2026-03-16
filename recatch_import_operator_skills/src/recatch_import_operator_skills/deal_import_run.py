@@ -19,7 +19,7 @@ MAPPING_HINT_TEXT = "모든 필드를 연결하지 않아도"
 FIELD_SELECT_PLACEHOLDER = "필드 선택"
 
 
-def read_csv_headers(csv_path: Path) -> list[str]:
+def read_csv_structure(csv_path: Path) -> tuple[list[str], list[bool], list[list[str]], int]:
     with open(csv_path, "r", encoding="utf-8-sig", newline="") as file:
         reader = csv.reader(file)
         try:
@@ -27,7 +27,21 @@ def read_csv_headers(csv_path: Path) -> list[str]:
         except StopIteration as exc:
             raise ValueError(f"csv file is empty: {csv_path}") from exc
 
-    normalized = [value.strip() for value in header]
+        normalized = [value.strip() for value in header]
+        non_empty_columns = [False] * len(normalized)
+        column_samples: list[list[str]] = [[] for _ in normalized]
+        row_count = 0
+        for row in reader:
+            if not any(cell.strip() for cell in row):
+                continue
+            row_count += 1
+            for index, cell in enumerate(row[: len(normalized)]):
+                value = cell.strip()
+                if value:
+                    non_empty_columns[index] = True
+                    if len(column_samples[index]) < 5:
+                        column_samples[index].append(value)
+
     if not any(normalized):
         raise ValueError(f"csv header is empty: {csv_path}")
 
@@ -41,7 +55,12 @@ def read_csv_headers(csv_path: Path) -> list[str]:
         seen.add(item)
     if duplicates:
         raise ValueError(f"csv header contains duplicates: {csv_path} -> {duplicates}")
-    return normalized
+    return normalized, non_empty_columns, column_samples, row_count
+
+
+def read_csv_headers(csv_path: Path) -> list[str]:
+    headers, _, _, _ = read_csv_structure(csv_path)
+    return headers
 
 
 def count_csv_rows(csv_text: str) -> int:
@@ -203,7 +222,7 @@ def click_primary_button_if_matches(
   };
   const button = [...document.querySelectorAll("button.recatch-ant-btn-primary")]
     .find((el) => isVisible(el));
-  return button ? (button.innerText || button.textContent || "").replace(/\s+/g, " ").trim() : "";
+  return button ? (button.innerText || button.textContent || "").replace(/\\s+/g, " ").trim() : "";
 })()
 """,
     )
@@ -569,53 +588,81 @@ def selection_matches_header(select_text: str, header_name: str) -> bool:
 def map_header_select(
     session: "vibium.browser_sync.VibeSync",
     select_index: int,
-    header_name: str,
+    *,
+    query: str,
+    option_text: str,
 ) -> dict[str, Any]:
-    prepared = prepare_select_query(session, select_index, header_name)
+    prepared = prepare_select_query(session, select_index, query)
     if not prepared.get("ok"):
         return {
             "ok": False,
             "stage": "prepare",
             "select_index": select_index,
-            "header": header_name,
+            "query": query,
+            "option_text": option_text,
             "detail": prepared,
         }
 
     time.sleep(0.3)
-    clicked = click_dropdown_option(session, header_name)
+    clicked = click_dropdown_option(session, option_text)
     if not clicked.get("ok"):
         return {
             "ok": False,
             "stage": "click",
             "select_index": select_index,
-            "header": header_name,
+            "query": query,
+            "option_text": option_text,
             "prepared": prepared,
             "detail": clicked,
         }
 
     selected = wait_until(
-        lambda: bool(selected_option_state(session, select_index, header_name).get("selected")),
+        lambda: bool(selected_option_state(session, select_index, option_text).get("selected")),
         timeout_sec=4.0,
         interval_sec=0.15,
     )
-    state = selected_option_state(session, select_index, header_name)
+    state = selected_option_state(session, select_index, option_text)
     return {
         "ok": selected,
         "select_index": select_index,
-        "header": header_name,
+        "query": query,
+        "option_text": option_text,
         "prepared": prepared,
         "clicked": clicked,
         "state": state,
     }
 
 
+def looks_like_email_column(values: Sequence[str]) -> bool:
+    non_empty = [value.strip() for value in values if value.strip()]
+    if not non_empty:
+        return False
+    email_like = sum(1 for value in non_empty if "@" in value and "." in value)
+    return email_like >= max(1, len(non_empty) // 2)
+
+
+def mapping_target(header_name: str, column_samples: Sequence[str]) -> tuple[str, str, str]:
+    if header_name == "담당자" and looks_like_email_column(column_samples):
+        return "이메일", "이메일", "email_like_column"
+    return header_name, header_name, "direct_header_name"
+
+
 def auto_map_headers(
     session: "vibium.browser_sync.VibeSync",
     headers: Sequence[str],
+    non_empty_columns: Sequence[bool],
+    column_samples: Sequence[Sequence[str]],
     log: Callable[[str], None],
 ) -> list[dict[str, Any]]:
     results: list[dict[str, Any]] = []
     latest_selects = read_mapping_select_texts(session)
+    header_index = {header: index for index, header in enumerate(headers) if header}
+    name_column_index = header_index.get("성명")
+    has_contact_name_values = (
+        name_column_index is not None
+        and name_column_index < len(non_empty_columns)
+        and non_empty_columns[name_column_index]
+    )
     if len(latest_selects) < len(headers):
         log(
             "mapping select count is smaller than csv header count: "
@@ -623,6 +670,56 @@ def auto_map_headers(
         )
 
     for select_index, header_name in enumerate(headers):
+        if not header_name.strip():
+            results.append(
+                {
+                    "ok": True,
+                    "select_index": select_index,
+                    "header": header_name,
+                    "skipped": True,
+                    "reason": "blank_header",
+                }
+            )
+            continue
+
+        if select_index < len(non_empty_columns) and not non_empty_columns[select_index]:
+            log(f"skip empty column header[{select_index}]: {header_name!r}")
+            results.append(
+                {
+                    "ok": True,
+                    "select_index": select_index,
+                    "header": header_name,
+                    "skipped": True,
+                    "reason": "column_empty",
+                }
+            )
+            continue
+
+        if (
+            header_name == "담당자"
+            and looks_like_email_column(column_samples[select_index] if select_index < len(column_samples) else [])
+            and not has_contact_name_values
+        ):
+            log(
+                f"skip header[{select_index}] {header_name!r}: "
+                "email-like values without a non-empty 성명 column would force a required contact name"
+            )
+            results.append(
+                {
+                    "ok": True,
+                    "select_index": select_index,
+                    "header": header_name,
+                    "skipped": True,
+                    "reason": "email_like_column_without_contact_name",
+                }
+            )
+            continue
+
+        target_query, target_option, mapping_reason = mapping_target(
+            header_name,
+            column_samples[select_index] if select_index < len(column_samples) else [],
+        )
+
         latest_selects = read_mapping_select_texts(session)
         if select_index >= len(latest_selects):
             results.append(
@@ -630,6 +727,8 @@ def auto_map_headers(
                     "ok": False,
                     "select_index": select_index,
                     "header": header_name,
+                    "query": target_query,
+                    "option_text": target_option,
                     "reason": "select_index_out_of_range",
                     "available_count": len(latest_selects),
                 }
@@ -637,12 +736,14 @@ def auto_map_headers(
             continue
 
         current_text = latest_selects[select_index]
-        if selection_matches_header(current_text, header_name):
+        if selection_matches_header(current_text, target_option):
             results.append(
                 {
                     "ok": True,
                     "select_index": select_index,
                     "header": header_name,
+                    "query": target_query,
+                    "option_text": target_option,
                     "skipped": True,
                     "reason": "already_selected",
                     "current_text": current_text,
@@ -653,11 +754,23 @@ def auto_map_headers(
         if current_text and current_text != FIELD_SELECT_PLACEHOLDER:
             log(
                 f"remap header[{select_index}] from current selection "
-                f"{current_text!r} to {header_name!r}"
+                f"{current_text!r} to {target_option!r}"
             )
 
+        if mapping_reason != "direct_header_name":
+            log(
+                f"mapping override for header[{select_index}] {header_name!r}: "
+                f"query={target_query!r}, option={target_option!r}, reason={mapping_reason}"
+            )
         log(f"mapping header[{select_index}]: {header_name}")
-        result = map_header_select(session, select_index, header_name)
+        result = map_header_select(
+            session,
+            select_index,
+            query=target_query,
+            option_text=target_option,
+        )
+        result["header"] = header_name
+        result["mapping_reason"] = mapping_reason
         results.append(result)
         if not result.get("ok"):
             log(f"mapping failed for header[{select_index}] {header_name}: {result}")
@@ -707,8 +820,7 @@ def import_csv_file(
     upload_timeout_sec: float = 60.0,
 ) -> dict[str, Any]:
     csv_text = csv_path.read_text(encoding="utf-8")
-    headers = read_csv_headers(csv_path)
-    row_count = count_csv_rows(csv_text)
+    headers, non_empty_columns, column_samples, row_count = read_csv_structure(csv_path)
 
     ensure_import_page_ready(session, import_url)
     reset_applied = reset_import_page_if_needed(session)
@@ -746,7 +858,13 @@ def import_csv_file(
             f"{len(read_mapping_select_texts(session))} < {expected_select_count}"
         )
 
-    mapping_results = auto_map_headers(session, headers, log=log)
+    mapping_results = auto_map_headers(
+        session,
+        headers,
+        non_empty_columns,
+        column_samples,
+        log=log,
+    )
 
     click_enabled_button(session, NEXT_LABEL, timeout_sec=20.0)
     validation_ok = wait_until(

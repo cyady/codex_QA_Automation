@@ -1,0 +1,14 @@
+/.venv/
+/.env
+/.env.local
+/.env.*
+!/.env.example
+!/.env.*.example
+/jobs/
+/logs/
+/screenshots/
+/data/chunks/
+/credentials/recatch_login.txt
+__pycache__/
+*.pyc
+*.egg-info/
