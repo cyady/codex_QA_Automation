@@ -17,6 +17,10 @@ dependencies = [
 dev = [
   "pytest>=8.0",
 ]
+langfuse = [
+  "python-dotenv>=1.0",
+  "certifi>=2024.0.0",
+]
 
 [project.scripts]
 agent-a = "agent_a.cli:main"

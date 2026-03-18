@@ -160,3 +160,89 @@ pytest -q
 ```bash
 python -m agent_a.cli --input-txt tests/fixtures/sample_memo.txt --memo-id M-001 --output outputs/candidate_pool.jsonl --no-llm
 ```
+
+## Langfuse PoC
+
+Langfuse dataset 업로드 PoC는 프로젝트 루트의 `.env.langfuse.example`을 복사해 키를 채운 뒤 실행합니다.
+현재 프로젝트 Python이 `3.14`라서 Langfuse Python SDK 대신 public API 직접 호출 방식으로 구성했습니다.
+
+의존성 설치:
+
+```bash
+pip install -e .[langfuse]
+```
+
+Dry-run:
+
+```bash
+python scripts/langfuse_dataset_poc.py --decision-key M-W1 --dry-run
+```
+
+실제 업로드:
+
+```bash
+python scripts/langfuse_dataset_poc.py --decision-key M-W1
+```
+
+배치 업로드:
+
+```bash
+python scripts/langfuse_dataset_batch_upload.py --start 1 --end 29
+```
+
+요약 파일까지 저장:
+
+```bash
+python scripts/langfuse_dataset_batch_upload.py --start 1 --end 29 --summary-json outputs/langfuse_batch_summary.json
+```
+
+## Langfuse Live External Evaluation
+
+`field-mapper` traces를 Langfuse public API로 조회하고, live input/output/schema를 기준으로
+external evaluator를 실행한 뒤 trace-level numeric scores를 Langfuse에 다시 attach합니다.
+
+사전 준비:
+
+- 프로젝트 루트 `.env.langfuse`에 Langfuse 키 입력
+- 같은 파일에 `HF_TOKEN` 입력
+- 기본 embedding 모델은 `intfloat/multilingual-e5-large-instruct`
+
+Dry-run:
+
+```bash
+python scripts/langfuse_field_mapper_external_eval.py --limit 2 --dry-run
+```
+
+최근 traces 평가 + score attach:
+
+```bash
+python scripts/langfuse_field_mapper_external_eval.py --limit 5
+```
+
+특정 trace만 평가:
+
+```bash
+python scripts/langfuse_field_mapper_external_eval.py --trace-id <trace_id>
+```
+
+요약 JSON까지 저장:
+
+```bash
+python scripts/langfuse_field_mapper_external_eval.py --limit 5 --summary-json outputs/langfuse_live_eval_summary.json
+```
+
+이 스크립트가 attach하는 score:
+
+- `fm_N`
+- `fm_est.tp_count`
+- `fm_est.fp_count`
+- `fm_est.fn_count`
+- `fm_est.hitl_count`
+- `fm_est.f1_per`
+
+점수 규칙:
+
+- `fm_N`만 raw count
+- 나머지는 모두 `0~100` 퍼센트 스케일
+- 분모는 `TP + FP + FN + HITL`
+- comment는 고정 템플릿으로 `TP/FP/FN/HITL` 필드 목록을 함께 기록
