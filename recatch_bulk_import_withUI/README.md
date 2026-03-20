@@ -28,7 +28,7 @@
 ### macOS
 
 ```bash
-cd /Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_bulk_import_withUI
+cd /Users/admin/Desktop/Auto/Codex/repos/codex_QA_Automation/recatch_bulk_import_withUI
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -60,7 +60,7 @@ Codex MCP 등록:
 현재 세션에서 바로 endpoint가 필요하면 아래 스크립트로 수동 실행할 수 있습니다.
 
 ```bash
-/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_bulk_import_withUI/run_agentation_mcp.command
+./run_agentation_mcp.command
 ```
 
 ## 실행 전 준비

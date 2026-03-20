@@ -30,7 +30,7 @@
 ## 빠른 시작
 
 ```bash
-cd /Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_import_operator_skills
+cd /Users/admin/Desktop/Auto/Codex/repos/codex_QA_Automation/recatch_import_operator_skills
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -71,7 +71,7 @@ password=your-password
 
 샘플 CSV는 아래 파일을 사용합니다.
 
-[`data/test_DB_Migration_Part1 .csv`](/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_import_operator_skills/data/test_DB_Migration_Part1%20.csv)
+[`data/test_DB_Migration_Part1 .csv`](data/test_DB_Migration_Part1%20.csv)
 이 샘플은 현재 기준:
 
 - 헤더 28열
@@ -209,8 +209,8 @@ recatch-import-operator-skills \
 
 이 repo에는 portable skill 폴더가 포함되어 있습니다.
 
-- skill source: [`codex_skill/recatch-import-operator/SKILL.md`](/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_import_operator_skills/codex_skill/recatch-import-operator/SKILL.md)
-- install script: [`scripts/install_codex_skill.py`](/Users/admin/Desktop/Auto/Codex/codex_QA_Automation/recatch_import_operator_skills/scripts/install_codex_skill.py)
+- skill source: [`codex_skill/recatch-import-operator/SKILL.md`](codex_skill/recatch-import-operator/SKILL.md)
+- install script: [`scripts/install_codex_skill.py`](scripts/install_codex_skill.py)
 
 설치:
 

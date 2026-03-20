@@ -3,6 +3,8 @@
 이 저장소는 현재 Re:catch 대량 리드 업로드 자동화에 맞춰 정리되어 있습니다.
 학습용으로 만들었던 단일 입력 자동화, 다이어그램, 임시 산출물은 메인 브랜치에서 제거했고, 유지 대상은 `recatch_bulk_import` 중심으로 남겼습니다.
 
+AI validation 파이프라인(`agent_a`, `schema_generator`, `qa_review_ui`, Langfuse external evaluation)은 별도 저장소 [`../AI_validation_pipeline`](/Users/admin/Desktop/Auto/Codex/repos/AI_validation_pipeline) 로 분리해 관리합니다.
+
 ## 주요 모듈
 
 - `recatch_bulk_import/`
